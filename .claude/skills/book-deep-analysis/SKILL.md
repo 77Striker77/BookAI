@@ -148,6 +148,27 @@ Bei mehreren Titeln: nenne die **roten Fäden** ("In allen drei Titeln: moralisc
 ambivalente Hauptfiguren + düsterer Ton + langsamer Aufbau"). Das ist die Basis, die im
 Artefakt als "Kerndaten" erscheint.
 
+## ⛔ NICHT abkürzen — gleiche Tiefe für JEDES Werk (auch „okay"/mixed/disliked)
+
+> Gelernt am 2026-07-16 ([[Survival Quest]]): Ein `mixed`/„okay"-Werk wurde zuerst
+> abgekürzt (Band-Tabelle mit „—", kein bandweises Lob/Kritik, keine Hördauern) — das
+> verletzt die Bottom-up-Pflicht und fällt hinter die Vergleichswerke zurück. Nie wieder.
+
+- **Der Verdikt bestimmt NICHT die Recherchetiefe.** Ein „okay"-Werk wird genauso
+  bandgenau recherchiert wie ein geliebtes. Gerade Anti-Referenzen brauchen harte Zahlen,
+  weil die Community-Wertung je Band die Kritik des Nutzers belegt (oder widerlegt).
+- **Messlatte = die bestehenden Werk-Notizen** (z. B. [[Dungeon Crawler Carl]],
+  [[Sturmfels-Akademie]]): Bevor du eine neue Werk-Notiz als fertig betrachtest, vergleiche
+  sie mit einer bestehenden — hat sie denselben Detailgrad? Wenn nicht, weiterrecherchieren.
+- **Pflicht-Checkliste je Band, bevor „fertig":** (1) Titel DE **und** EN · (2) Release DE
+  und EN (Buch/Hörbuch) · (3) echte Wertung **mit Anzahl** je Band (nicht nur Reihenschnitt)
+  · (4) bei Hörbuch die **Hördauer** je Band · (5) bandweises Lob **und** Kritik aus echten
+  Rezensionen · (6) Band-Unterschiede mit meinem Empfinden abgeglichen. Fehlt etwas trotz
+  Suche → als „Offene Frage" markieren, NICHT stillschweigend weglassen oder mit „—" glätten.
+- **Wertungen bandgenau graben:** Goodreads/Amazon per Titel-Suche liefern Einzelband-Werte
+  auch dann, wenn die Serienseite (403) nicht direkt ladbar ist. Erst aufgeben, wenn mehrere
+  Suchen leer bleiben — und das dann transparent vermerken.
+
 ## Qualitätsregeln
 - Mindestens 2 unabhängige Quellen für harte Fakten (Jahr, Autor, ISBN).
 - Unsichere Angaben markieren (`jahr: "~2011?"` + Notiz unter "Offene Fragen"), nie glätten.

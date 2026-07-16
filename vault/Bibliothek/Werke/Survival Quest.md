@@ -3,9 +3,9 @@ titel: "Survival Quest"
 werk_typ: "reihe"
 universum: ""
 autor: "Vasily Mahanenko"
-jahr_start: 2013
-erscheinungsdatum_bd1: "2013 (RU Original); DE Lübbe ~2018–2020 (Datum unklar)"
-letztes_datum: "DE Bd. 7 'Krieg der Clans' (Datum unklar)"
+jahr_start: 2012
+erscheinungsdatum_bd1: "RU 2012; EN 'Survival Quest' 2015; DE Hörbuch 'Der Weg des Schamanen' Dez 2018 (Lübbe Audio)"
+letztes_datum: "DE Bd. 7 'Krieg der Clans' ~2021 (EN 'Clans War' 2018)"
 baende_gesamt: 7
 baende_geplant: 7
 abgeschlossen: true
@@ -21,8 +21,8 @@ performance: "solo"
 ungekuerzt: true
 naechster_band_de: "alle 7 erschienen (abgeschlossen)"
 naechster_band_en: "alle erschienen (The Way of the Shaman, abgeschlossen)"
-rating_schnitt: "~4,19/5 (Goodreads, Reihenschnitt)"
-rating_stimmen_gesamt: "~43.920 (Goodreads, Summe der Reihe)"
+rating_schnitt: "~4,19/5 (Goodreads, bandgewichteter Reihenschnitt)"
+rating_stimmen_gesamt: "~43.250 (Goodreads, Summe Bd. 1–7: 11,2k+8,1k+5,9k+5,7k+5,0k+4,1k+3,3k)"
 bekanntheit_stufe: "Etabliert"
 hype: "Genre-Säule/Pionier des LitRPG (russischer Ursprung, breit übersetzt) — kein aktueller Hype"
 rating_goodreads: 4.15
@@ -77,31 +77,51 @@ Reihen-Pflicht (≥3) klar erfüllt.**
 ## 📚 Die Bände einzeln
 
 Deutsche Reihe bei Bastei Lübbe / Lübbe Audio (Sprecher durchgängig
-[[Thomas Balou Martin]], ungekürzt). Per-Band-Wertungen bandgenau nicht sauffindbar
-(Goodreads mappt auf die EN-Ausgaben); Reihenschnitt als Referenz.
+[[Thomas Balou Martin]], ungekürzt, Dez 2018 – ~2021). EN „The Way of the Shaman"
+(Magic Dome Books); russisches Original ab 2012. **Goodreads-Werte = englische Ausgaben,
+bandgenau** (die dt. Ausgaben haben zu wenige Einzelwertungen für belastbare Zahlen).
 
-| # | Titel 🇩🇪 | Titel 🇬🇧 | ⭐ Goodreads (⌀ · Anzahl) | Lesestand |
-| --- | --- | --- | --- | --- |
-| 1 | Der Weg des Schamanen | Survival Quest | 4,15 · ~11,2k | gehört |
-| 2 | Der dunkle Schamane | The Kartoss Gambit | — (Reihenschnitt ~4,19) | gehört |
-| 3 | Das Geheimnis des dunklen Waldes | The Secret of the Dark Forest | — | gehört |
-| 4 | Die Phantomburg | The Phantom Castle | — | gehört |
-| 5 | Das Karmadont-Schachspiel | The Karmadont Chess Set | — | gehört |
-| 6 | Die Rache des Schamanen | Shaman's Revenge | — | gehört |
-| 7 | Krieg der Clans | (EN-Titel unklar) | — | gehört |
+| # | Titel 🇩🇪 | Titel 🇬🇧 | 🇩🇪 Hörbuch | ⭐ Goodreads (⌀ · Anzahl) | Lesestand |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Der Weg des Schamanen | Survival Quest (EN 2015 · RU 2012) | Dez 2018 · 11 h 42 | 4,15 · ~11,2k | gehört |
+| 2 | Der dunkle Schamane | The Kartoss Gambit | ~2019 · 15 h 46 | **4,26 · ~8,1k** | gehört |
+| 3 | Das Geheimnis des dunklen Waldes | The Secret of the Dark Forest | ~2020 · 15 h 27 | 4,23 · ~5,9k | gehört |
+| 4 | Die Phantomburg | The Phantom Castle | ~2020 · — | **4,14 · ~5,7k** (2.-niedrigster) | gehört |
+| 5 | Das Karmadont-Schachspiel | The Karmadont Chess Set | ~2020 · — | 4,21 · ~5,0k | gehört |
+| 6 | Die Rache des Schamanen | Shaman's Revenge | ~2021 · — | **4,27 · ~4,1k (höchster)** | gehört |
+| 7 | Krieg der Clans | Clans War (EN 2018) | ~2021 · — | **4,05 · ~3,3k (niedrigster — Finale)** | gehört |
+
+**Reihenschnitt ~4,19/5 (~43k Wertungen gesamt).** Höchster: Bd. 6 „Die Rache des
+Schamanen" (4,27), knapp vor Bd. 2 (4,26). Niedrigster: **Bd. 7 „Krieg der Clans" (4,05),
+das Finale**; zweitniedrigster Bd. 4 „Die Phantomburg" (4,14). Die Wertungszahlen fallen
+über die Reihe (11k → 3k) = normale Reihen-Abnutzung.
 
 ### 👍 Was die Community lobt (echte Rezensionen)
-- Immersive Spielwelt Barliona, Schamanen-/Crafting-/Wirtschaftssystem als Markenzeichen
-  Mahanenkos; Progression/„Stärkerwerden" als Sog.
-- Gilt als einer der Pionier-/Referenztitel des LitRPG-Genres (russische Schule).
+- **Bd. 1–2:** starker Genre-Einstieg; Schamanen-/Crafting-/Wirtschaftssystem und der
+  Aufstieg aus der Sträflings-Mine als Sog; Pionier-Titel der russischen LitRPG-Schule
+  (nahm Russland 2012 „im Sturm").
+- **Mittelteil (Bd. 3–5):** Tempo zieht spürbar an („goes faster and faster"), Clan-Aufbau
+  und Barliona-Politik als Motor.
 
 ### 👎 Was die Community kritisiert (echte Rezensionen)
-- Sehr crunch-lastig (viele Stats/Formeln); Protagonist teils „zu OP"/glücksgetrieben;
-  Nebenstränge, die sich verlaufen. **Deckt sich mit meinem Empfinden.**
+- **Bd. 1:** eigentlich „ein Juwelenschleifer, der Level grindet, statt ein Schamane zu
+  sein"; der zentrale Konflikt wird zu schnell/zu leicht gelöst (die Lösung fällt binnen
+  eines Kapitels vom Himmel); Pacing „drags", bräuchte Lektorat. → **deckt meine
+  [[Regel-Inkonsistenz]]- und [[Setup ohne Payoff]]-Kritik.**
+- **Held OP:** „Shaman is the worst cheater of 'em all" — der HC ist übermächtig und
+  bricht die eigenen Regeln. → **deckt meinen [[Überzogener Auserwählter]]-Vorwurf.**
+- **Spätere Bände (ab ~Bd. 5):** nachlassende Übersetzungs-/Lektoratsqualität (idiomatische
+  Schnitzer); manchen wird das immer schnellere Tempo zu viel.
+- **Bd. 7 (Finale, 4,05):** am schwächsten bewertet. → **deckt mein „Auflösung an den
+  Haaren herbeigezogen".**
 
-### Band-Unterschiede
-- Bd. 1 (4,15) leicht unter dem Reihenschnitt (~4,19) — der Auftakt gilt als etwas
-  zäher/mechaniklastiger; die Reihe fängt danach Fahrt auf (Community-Tenor).
+### Band-Unterschiede (mit meinem Empfinden abgeglichen)
+- **Bd. 1 unter Reihenschnitt (4,15 < 4,19)** und **Finale-Dip Bd. 7 (4,05)** spiegeln
+  bandgenau meine zwei stärksten Kritikpunkte: mechanik-/grinding-lastiger Einstieg und an
+  den Haaren herbeigezogenes Ende. Die Community bestätigt beides — es ist also kein reines
+  Geschmacksurteil, sondern eine belegte Schwäche des Werks.
+- Der **Mittelteil (Bd. 2, 3, 6 mit 4,23–4,27)** wird am stärksten bewertet — dort trägt
+  die Reihe am meisten; genau da lag für mich der (begrenzte) Reiz.
 
 ## 🗓️ Nächste Releases & Planung
 - **Reihe abgeschlossen** (7 Bände dt. + EN). Keine Wartezeit — Vorteil gegenüber DCC.
@@ -111,10 +131,14 @@ Deutsche Reihe bei Bastei Lübbe / Lübbe Audio (Sprecher durchgängig
 
 | Bd. | Status |
 | --- | --- |
-| 1–7 | gehört (dt., Hörbuch, [[Thomas Balou Martin]]) |
+| 1 | gehört (dt., 11 h 42) |
+| 2 | gehört (dt., 15 h 46) |
+| 3 | gehört (dt., 15 h 27) |
+| 4–7 | gehört (dt.; Hördauer nicht bandgenau belegt, je ~13–16 h) |
 
-→ Reihe komplett gehört und abgeschlossen. Kein Nachschub nötig; dient als **Kalibrier-
-und Anti-Referenz** fürs Matching, nicht als Lücke, die gefüllt werden muss.
+→ Reihe komplett gehört und abgeschlossen (gesamt ~95–100 h; **Reihenschnitt ~14 h/Band
+≤ ~20 h → im Komfortbereich**). Kein Nachschub nötig; dient als **Kalibrier- und
+Anti-Referenz** fürs Matching, nicht als Lücke, die gefüllt werden muss.
 
 ## ⭐ Bewertung je Aspekt (Werk gesamt)
 
@@ -183,6 +207,7 @@ Negativ-Prädiktoren.
 
 ## Offene Fragen
 
-- Exakte dt. Erscheinungsdaten je Band (Lübbe) nicht sicher belegt — grob ~2018–2020.
-- EN-Titel Bd. 7 („Krieg der Clans") nicht sicher zugeordnet.
-- Per-Band-Goodreads-Werte (dt. Ausgaben) nicht bandgenau auffindbar.
+- Dt. Hördauer Bd. 4–7 nicht bandgenau belegt (Bd. 1–3 gesichert: 11:42 / 15:46 / 15:27).
+- Genaue dt. Erscheinungsdaten Bd. 2–7 grob (~2019–2021), nur Bd. 1 (Dez 2018) hart belegt.
+- RU-/EN-Erscheinungsjahre je Band nur teils exakt (Bd. 1 RU 2012/EN 2015, Bd. 7 EN 2018);
+  Zwischenbände interpoliert.
