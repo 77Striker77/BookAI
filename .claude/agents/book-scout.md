@@ -22,6 +22,8 @@ macht der aufrufende Skill (`book-similarity-search`).
   Autoren", "Award-/Bestenlisten", "Hörbücher mit ähnlichem Sprecher-Ökosystem".
 - Format (Buch/Hörbuch/beides), Sprache, ungefähre gewünschte Poolgröße.
 - No-Gos, die du sofort ausschließt.
+- Eine **Skip-Liste bereits bekannter Titel** (aus dem Kandidaten-Gedächtnis des
+  Vaults + Bibliothek) — diese Titel NICHT erneut liefern.
 
 ## Vorgehen
 1. Nutze deinen Suchwinkel, um 8–15 Kandidaten zu finden:

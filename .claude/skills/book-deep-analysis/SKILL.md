@@ -4,9 +4,10 @@ description: >
   Tiefenanalyse einzelner Buch-/Hörbuchtitel. Nutze diesen Skill, um vom Nutzer genannte
   Titel gründlich zu untersuchen: alle Metadaten sammeln (Genre, Themen, Jahr, ISBN,
   Seiten/Hördauer, Sprecher, Bewertungen) UND die "Buch-DNA" extrahieren – was den Titel
-  ausmacht und was der Nutzer daran mochte. Schreibt Ergebnisse als Markdown-Notizen in
-  den Obsidian-Style Vault (vault/Bücher/ + vault/Profil.md). Voraussetzung, bevor nach
-  Ähnlichem gesucht wird ("kenne deine Daten"). Danach "Meine Bibliothek"-Artefakt updaten.
+  ausmacht und was der Nutzer daran mochte. Schreibt Ergebnisse atomar in den
+  Obsidian-Style Vault: Buch-Notiz + verlinkte Merkmal-/Autor-/Sprecher-/Reihen-Notizen
+  + Profil-Update. Voraussetzung, bevor nach Ähnlichem gesucht wird ("kenne deine
+  Daten"). Danach "Meine Bibliothek"-Artefakt updaten.
 ---
 
 # Deep-Analyse einzelner Titel
@@ -33,7 +34,7 @@ Erfasse mindestens: `genres`, `subjects/themen`, `year`, `series`, `isbn`, `page
 
 ### 3. Buch-DNA extrahieren (das Herzstück)
 Verdichte Metadaten + Rezensionen + Interview-Antworten zu diesen Dimensionen (Felder
-identisch zum Frontmatter in `vault/Bücher/_TEMPLATE.md`):
+identisch zum Frontmatter in `vault/_System/Templates/Buch.md`):
 
 | Dimension     | Frage |
 |---------------|-------|
@@ -51,18 +52,27 @@ Trenne dabei sauber:
 - **Was der Nutzer konkret daran mochte** (`was_gefiel`) und was ihn störte (`was_stoerte`) –
   aus dem Interview. Das gewichtet später die DNA.
 
-### 4. Persistieren (Vault, Obsidian-Style)
-Schreibe `vault/Bücher/<Titel>.md` — Kopie von `vault/Bücher/_TEMPLATE.md`:
-Frontmatter = alle Metadaten + Buch-DNA (maschinenlesbar), Body = Analyse in Prosa
-(was gefiel / störte, DNA-Begründung, Nutzer-Zitate). Dateiname = natürlicher Titel.
+### 4. Persistieren (Vault, atomar — das ist der Graph-Aufbau)
+Templates aus `vault/_System/Templates/`, Konventionen aus `vault/_System/Konventionen.md`.
 
-Aktualisiere danach `vault/Profil.md`:
-- Frontmatter: wiederkehrende Muster unter `*_loved/_liked/_disliked` ergänzen.
-- Wenn eine Dimension über mehrere Lieblingsbücher konstant auftaucht, erhöhe ihr
-  `gewicht_*` (Summe ~1.0 halten). Beispiel: überall "unzuverlässige Erzähler" →
-  `gewicht_erzaehlstil` hoch.
-- Body: Tabelle "Analysierte Titel" um `[[Wikilink]]` ergänzen, "Roter Faden" und
-  "Muster & Beobachtungen" fortschreiben, `aktualisiert:` setzen.
+1. **Buch-Notiz:** `vault/Bibliothek/Bücher/<Titel>.md` (Template `Buch.md`).
+   Frontmatter = Metadaten + DNA maschinenlesbar; Body = DNA **als `[[Links]]`**,
+   was gefiel/störte, Begründung, Nutzer-Zitate (Quelle: Interview-Notiz verlinken).
+   War der Titel vorher Kandidat → Kandidaten-Notiz auf `status: gelesen` setzen und
+   durch Verweis-Stub ersetzen ("→ [[Titel]] in Bibliothek").
+2. **Merkmal-Notizen:** für JEDES DNA-Merkmal prüfen, ob die Notiz unter
+   `vault/Merkmale/<Dimension>/` existiert — sonst anlegen (Template `Merkmal.md`,
+   eigene Definition + `status` + Evidenz-Link auf Buch/Interview). Bestehende
+   Merkmal-Notizen: Evidenz ergänzen, ggf. `status`/`staerke` anpassen.
+3. **Entitäts-Notizen:** Autor (`Bibliothek/Autoren/`), ggf. Reihe (`Reihen/`, mit
+   Lesestand!) und Sprecher (`Sprecher/`) anlegen/fortschreiben — inkl. Abschnitt
+   "Weitere Werke/Einlesungen" als spätere Kandidatenquelle.
+4. **Profil aktualisieren:** `vault/Profil/Profil.md` (Top-Merkmale, Tabelle
+   "Analysierte Titel", "Muster & Beobachtungen", roter Faden, `aktualisiert:`).
+   Konstante Muster über mehrere Lieblingsbücher → Gewicht in `vault/Profil/Gewichte.md`
+   erhöhen (Summe ~1.0, Begründung + Änderungshistorie ausfüllen!). Neue harte
+   Ausschlüsse → `No-Gos.md` mit Herkunft.
+5. **`vault/Home.md`** → "Zuletzt" ergänzen.
 
 **Danach `book-reco-artifact` aufrufen**, um das Basis-Artefakt "Meine Bibliothek" zu
 aktualisieren (gleiche URL, nie neues Artefakt).

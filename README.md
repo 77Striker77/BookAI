@@ -58,19 +58,32 @@ Titel, sucht & verifiziert und baut am Ende ein Artefakt. Weitere Beispiele:
     ├── book-similarity-search/    Phase 3 — Suche grob → tief + Scoring
     └── book-reco-artifact/        Phase 4 — die 2 festen Artefakte  (+ HTML-Vorlagen)
 
-vault/                             Datenquelle: Obsidian-Style Vault (alles Markdown)
-├── README.md                      Konventionen (Frontmatter, Wikilinks, Tags)
-├── Profil.md                      DEIN aggregiertes Geschmacksprofil + Gewichte
-├── Bücher/                        je analysiertem Titel eine Notiz (_TEMPLATE.md)
-└── Empfehlungen/                  je Empfehlungslauf eine Notiz — die Historie
+vault/                             Datenquelle: Obsidian-Vault, atomar & verlinkt
+├── Home.md                        Dashboard/MOC (Einstieg)
+├── Profil/                        Profil.md (MOC) · Gewichte.md · No-Gos.md
+│   └── Interviews/                je Interviewrunde eine Notiz (Provenienz!)
+├── Bibliothek/                    erlebte Bücher & ihr Umfeld
+│   ├── Bücher/                    voll analysierte Titel (Buch-DNA als [[Links]])
+│   ├── Autoren/  Reihen/  Sprecher/   je Entität eine Notiz (Kandidatenquellen!)
+├── Merkmale/                      ⭐ DNA-Atome: je Merkmal EINE Notiz mit eigener
+│   │                                Definition + status loved/disliked; Backlinks
+│   └── Genres|Themen|Ton|Erzählstil|Figuren|Setting/    = wer trägt das Merkmal
+├── Empfehlungen/
+│   ├── Warteliste.md              bestätigt, noch nicht gelesen/gehört
+│   ├── Läufe/                     je Empfehlungslauf eine Notiz (Historie)
+│   └── Kandidaten/                ⭐ GEDÄCHTNIS: jeder je erwähnte/gesichtete Titel,
+│                                     auch Verworfenes — mit Status, Grund, Metadaten
+└── _System/                       Konventionen.md + Templates/ (8 Notiztypen)
 
 artifacts/                         die 2 festen HTML-Artefakte (stabile Pfade & URLs)
 ├── bibliothek.html                📚 Meine Bibliothek (Basis)
 └── empfehlungen.html              🎯 Empfehlungen (wird überschrieben)
 ```
 
-Der `vault/`-Ordner ist ein normaler Obsidian-Vault — du kannst ihn direkt in Obsidian
-öffnen und darin stöbern oder selbst Notizen ergänzen.
+Der `vault/`-Ordner ist ein normaler Obsidian-Vault — direkt in Obsidian öffnen,
+stöbern, selbst Notizen ergänzen. Die Links sind die Intelligenz: Backlinks einer
+Merkmal-Notiz zeigen alle Bücher/Kandidaten, die es tragen; das Kandidaten-Gedächtnis
+verhindert, dass je ein Titel doppelt geprüft oder Verworfenes erneut vorgeschlagen wird.
 
 ## Datenquellen
 
@@ -85,7 +98,7 @@ Details & Endpoints: `.claude/skills/book-deep-analysis/references/metadata-sour
 
 Jede Empfehlung wird pro Dimension (Genre, Themen, Ton, Erzählstil, Tempo, Komplexität,
 Figuren, Setting) mit 0–100 bewertet. Der **Gesamt-Match %** ist die mit deinen
-persönlichen Gewichten (`gewicht_*` in `vault/Profil.md`) gewichtete Summe. Bestätigt
+persönlichen Gewichten (`gewicht_*` in `vault/Profil/Gewichte.md`) gewichtete Summe. Bestätigt
 wird nur, was ≥ 65 % erreicht, kein No-Go verletzt und in keiner dir wichtigen Dimension
 durchfällt.
 

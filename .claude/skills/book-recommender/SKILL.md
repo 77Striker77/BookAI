@@ -43,8 +43,10 @@ Phase 4  ARTEFAKT          → Skill: book-reco-artifact
 
 ## Startlogik (immer zuerst)
 
-1. **Lade `vault/Profil.md`** und relevante `vault/Bücher/*.md` (Obsidian-Style Vault,
-   siehe `vault/README.md`).
+1. **Lade den Vault** (Obsidian-Style, Konventionen: `vault/_System/Konventionen.md`):
+   `vault/Profil/Profil.md` + `Gewichte.md` + `No-Gos.md`, relevante
+   `vault/Bibliothek/Bücher/*.md` und — vor jeder Suche — das **Gedächtnis**
+   `vault/Empfehlungen/Kandidaten/` (Frontmatter reicht: Status + Gründe).
    - Existiert kein Profil → beginne mit Phase 1 (Interview), dann Phase 2.
    - Profil existiert → du "kennst deine Daten". Fasse kurz zusammen, was du über den
      Geschmack weißt, bevor du suchst.
@@ -70,8 +72,12 @@ Phase 4  ARTEFAKT          → Skill: book-reco-artifact
 - **Keine erfundenen Metadaten.** Jede Jahreszahl, Bewertung, jedes Genre muss aus einer
   Quelle stammen (Open Library, Google Books, Web). Unsicheres kennzeichnen.
 - **Ehrlich über Nicht-Passendes.** Jede Empfehlung nennt auch, was NICHT passt.
-- **Persistiere im Vault.** Alle Analysen/Läufe als Markdown nach `vault/` schreiben
-  (Obsidian-Style), damit Wissen wächst und nachvollziehbar bleibt.
+- **Persistiere im Vault — atomar.** Analysen/Läufe als Markdown nach `vault/`;
+  Merkmale, Autoren, Sprecher, Reihen als eigene verlinkte Notizen
+  (`vault/_System/Konventionen.md` beachten).
+- **Gedächtnis-Regel:** JEDER Titel, der je erwähnt oder auch nur grob gesichtet wird,
+  bekommt eine Notiz in `vault/Empfehlungen/Kandidaten/` mit Status + Grund. Verworfenes
+  nie erneut vorschlagen, Bekanntes nie doppelt recherchieren.
 - **Nur zwei Artefakte.** "Meine Bibliothek" (aktualisieren) und "Empfehlungen"
   (überschreiben, gleiche URL). Nie ein drittes anlegen.
 

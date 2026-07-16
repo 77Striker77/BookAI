@@ -33,9 +33,11 @@ werden **an Ort und Stelle aktualisiert**, nie neu erzeugt:
 
 ## Datenquellen (Vault — nie raten)
 
-- `vault/Profil.md` — Kerndaten, Gewichte, No-Gos (Frontmatter) + roter Faden (Body).
-- `vault/Bücher/*.md` — alle analysierten Titel (Frontmatter = Metadaten/DNA).
-- `vault/Empfehlungen/` — die **neueste** Lauf-Notiz für Artefakt 2.
+- `vault/Profil/Profil.md` + `Gewichte.md` + `No-Gos.md` — Kerndaten, Gewichte, No-Gos.
+- `vault/Bibliothek/Bücher/*.md` — alle analysierten Titel (Frontmatter = Metadaten/DNA).
+- `vault/Empfehlungen/Läufe/` — die **neueste** Lauf-Notiz, plus die zugehörigen
+  Kandidaten-Notizen (`vault/Empfehlungen/Kandidaten/`, dort liegen Scores/✓/✗/Quellen)
+  für Artefakt 2.
 
 Vorher `dataviz`-Skill lesen (Farben/Balken/Dark-Mode), Vorlagen als Startpunkt nutzen:
 `references/bibliothek-template.html` und `references/empfehlungen-template.html`.

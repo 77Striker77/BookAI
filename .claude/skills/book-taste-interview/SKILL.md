@@ -52,13 +52,22 @@ Buch aus komplett verschiedenen Gründen – der Grund entscheidet über gute Em
   oder durch zwischenmenschliche Anspannung?"
 - **Nicht therapieren, sondern kalibrieren.** 2–4 Runden reichen meist.
 
+## Persistieren: jede Runde eine Interview-Notiz
+
+Schreibe die Runde als `vault/Profil/Interviews/<Datum> <Anlass>.md` (Template
+`vault/_System/Templates/Interview.md`): Fragen & Antworten möglichst wörtlich,
+Schlüssel-Zitate, Tabelle "Erkenntnis → eingeflossen in [[…]]". Diese Notizen sind die
+**Provenienz** — jede spätere Profil-/Gewichts-/Merkmal-Aussage muss auf eine
+Interview-Notiz zurückzeigen. Erwähnt der Nutzer nebenbei weitere Titel ("X fand ich
+auch gut", "Y habe ich abgebrochen"), lege sofort Kandidaten-Notizen mit
+`status: erwaehnt` an (Gedächtnis-Regel).
+
 ## Übergabe an die Analyse
 
-Halte die Antworten fest (Roh-Notizen + `user_quotes`). Wörtliche Zitate des Nutzers sind
-Gold – sie zeigen, welche Sprache/Kategorien er selbst nutzt. Übergib an
-**book-deep-analysis**, das diese Interview-Signale mit objektiven Metadaten zur
-Buch-DNA verschmilzt und den Vault (`vault/Bücher/`, `vault/Profil.md`) aktualisiert.
+Wörtliche Zitate des Nutzers sind Gold – sie zeigen, welche Sprache/Kategorien er selbst
+nutzt. Übergib an **book-deep-analysis**, das diese Interview-Signale mit objektiven
+Metadaten zur Buch-DNA verschmilzt und den Vault aktualisiert.
 
-Wenn `vault/Profil.md` schon gefüllt ist: gleiche die neuen Antworten damit ab und weise
+Wenn `vault/Profil/Profil.md` schon gefüllt ist: gleiche die neuen Antworten damit ab und weise
 auf Muster oder Widersprüche hin ("Du sagst düster, aber deine Top-3 sind eher hoffnungsvoll –
 was stimmt?").
