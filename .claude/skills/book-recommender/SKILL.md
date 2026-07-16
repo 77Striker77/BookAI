@@ -29,18 +29,22 @@ Phase 1  INTERVIEW         → Skill: book-taste-interview
          "Was hast du gemocht und warum?"
 
 Phase 2  DEEP-ANALYSE      → Skill: book-deep-analysis
-         Metadaten + Buch-DNA je Titel; profile.json aktualisieren
+         Metadaten + Buch-DNA je Titel; vault/ aktualisieren (Bücher/ + Profil.md)
+         → danach Artefakt "Meine Bibliothek" updaten (book-reco-artifact)
 
 Phase 3  ÄHNLICHKEITSSUCHE → Skill: book-similarity-search
          grobes Sieben (passt der Rahmen?) → tiefe Verifikation (bestätigen/verwerfen)
 
 Phase 4  ARTEFAKT          → Skill: book-reco-artifact
-         Visualisierung: Kerndaten + Empfehlungen mit %-Balken & Begründung
+         Es gibt genau ZWEI feste Artefakte: "Meine Bibliothek" (Basis aller guten
+         Bücher, wird aktualisiert) und "Empfehlungen" (wird je Lauf ÜBERSCHRIEBEN,
+         gleiche URL). Niemals zusätzliche Artefakte anlegen.
 ```
 
 ## Startlogik (immer zuerst)
 
-1. **Lade `taste-profile/profile.json`** und relevante `taste-profile/titles/*.json`.
+1. **Lade `vault/Profil.md`** und relevante `vault/Bücher/*.md` (Obsidian-Style Vault,
+   siehe `vault/README.md`).
    - Existiert kein Profil → beginne mit Phase 1 (Interview), dann Phase 2.
    - Profil existiert → du "kennst deine Daten". Fasse kurz zusammen, was du über den
      Geschmack weißt, bevor du suchst.
@@ -66,14 +70,18 @@ Phase 4  ARTEFAKT          → Skill: book-reco-artifact
 - **Keine erfundenen Metadaten.** Jede Jahreszahl, Bewertung, jedes Genre muss aus einer
   Quelle stammen (Open Library, Google Books, Web). Unsicheres kennzeichnen.
 - **Ehrlich über Nicht-Passendes.** Jede Empfehlung nennt auch, was NICHT passt.
-- **Persistiere.** Analysen nach `taste-profile/` schreiben, damit Wissen wächst.
+- **Persistiere im Vault.** Alle Analysen/Läufe als Markdown nach `vault/` schreiben
+  (Obsidian-Style), damit Wissen wächst und nachvollziehbar bleibt.
+- **Nur zwei Artefakte.** "Meine Bibliothek" (aktualisieren) und "Empfehlungen"
+  (überschreiben, gleiche URL). Nie ein drittes anlegen.
 
 ## Ergebnis
 
-Jeder abgeschlossene Empfehlungslauf endet mit einem **Artefakt** (Phase 4), das zeigt:
-- **Basis / Kerndaten:** was wir über den Geschmack wissen (aus dem Profil).
-- **Empfehlungen (≥3):** je mit Gesamt-Match-% als Balken, Dimensions-Balken,
-  und Klartext "Was passt / Was passt nicht".
+- Nach Titel-Analysen (Phase 2): Artefakt **"Meine Bibliothek"** ist aktuell — alle
+  guten Bücher mit den wichtigsten Infos/Metadaten + Geschmacks-Kerndaten.
+- Nach jedem Empfehlungslauf (Phase 3): Artefakt **"Empfehlungen"** ist überschrieben —
+  ≥3 verifizierte Vorschläge mit Gesamt-Match-% als Balken, Dimensions-Balken und
+  Klartext "Was passt / Was passt nicht". (Historie der Läufe: `vault/Empfehlungen/`.)
 
 Verweise den Nutzer am Ende darauf, dass das Profil wächst – je mehr Titel analysiert
 werden, desto schärfer die Empfehlungen.

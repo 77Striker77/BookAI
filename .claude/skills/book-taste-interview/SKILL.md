@@ -57,8 +57,8 @@ Buch aus komplett verschiedenen Gründen – der Grund entscheidet über gute Em
 Halte die Antworten fest (Roh-Notizen + `user_quotes`). Wörtliche Zitate des Nutzers sind
 Gold – sie zeigen, welche Sprache/Kategorien er selbst nutzt. Übergib an
 **book-deep-analysis**, das diese Interview-Signale mit objektiven Metadaten zur
-Buch-DNA verschmilzt und `taste-profile/` aktualisiert.
+Buch-DNA verschmilzt und den Vault (`vault/Bücher/`, `vault/Profil.md`) aktualisiert.
 
-Wenn schon ein `profile.json` existiert: gleiche die neuen Antworten damit ab und weise
+Wenn `vault/Profil.md` schon gefüllt ist: gleiche die neuen Antworten damit ab und weise
 auf Muster oder Widersprüche hin ("Du sagst düster, aber deine Top-3 sind eher hoffnungsvoll –
 was stimmt?").

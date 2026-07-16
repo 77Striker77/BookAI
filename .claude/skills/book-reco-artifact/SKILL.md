@@ -1,66 +1,81 @@
 ---
 name: book-reco-artifact
 description: >
-  Visualisiert Empfehlungslauf als Artefakt. Nutze diesen Skill am Ende eines Buch-/
-  Hörbuch-Empfehlungslaufs, um Ergebnisse als HTML-Artefakt darzustellen: oben die
-  Basis/Kerndaten (was wir über den Geschmack wissen), darunter die Empfehlungen (≥3),
-  jede mit Gesamt-Match als Prozentbalken, Dimensions-Balken und Klartext "Was passt /
-  Was passt nicht". Baut auf taste-profile/profile.json und dem recommendations-JSON auf.
+  Pflegt die ZWEI festen Artefakte des Buch-/Hörbuch-Systems: (1) "Meine Bibliothek" –
+  Basis-Artefakt mit allen guten Büchern samt wichtigsten Infos/Metadaten, wird bei jeder
+  neuen Titel-Analyse aktualisiert (gleiche URL); (2) "Empfehlungen" – wird bei jedem
+  neuen Empfehlungslauf ÜBERSCHRIEBEN (gleiche URL), zeigt Kerndaten + ≥3 Empfehlungen
+  mit %-Match-Balken und "Was passt / Was passt nicht". Nutze diesen Skill nach einer
+  Titel-Analyse (→ Bibliothek updaten) oder am Ende eines Empfehlungslaufs (→ Empfehlungen
+  überschreiben). NIEMALS zusätzliche neue Artefakte anlegen.
 ---
 
-# Empfehlungs-Artefakt (Visualisierung)
+# Die zwei festen Artefakte
 
-Am Ende jedes Empfehlungslaufs baust du ein **HTML-Artefakt**, das den ganzen
-Denkprozess sichtbar macht. Es beantwortet auf einen Blick: *Was ist unsere Basis?* und
-*Was wird empfohlen, wie gut passt es, und warum (nicht)?*
+Es gibt **genau zwei** Artefakte — beide leben unter stabilen Dateipfaden im Repo und
+werden **an Ort und Stelle aktualisiert**, nie neu erzeugt:
 
-## Vorbereitung
-1. Lies `.claude/skills/dataviz/SKILL.md` **bevor** du Farben/Balken gestaltest
-   (Farbsystem, Kontrast, Light/Dark). Die Balkenfarben unten sind Platzhalter.
-2. Lade die Daten:
-   - **Kerndaten:** `taste-profile/profile.json` (Dimensionen, Gewichte, No-Gos).
-   - **Empfehlungen:** das aktuelle `taste-profile/recommendations/<datum>-<thema>.json`.
-3. Verwende die Vorlage `references/artifact-template.html` als Startpunkt und fülle sie
-   mit echten Daten. Sie ist self-contained, theme-aware und ohne externe Requests –
-   passend für das Artifact-Tool (CSP-konform).
+| # | Artefakt | Datei | Favicon | Wann aktualisieren |
+|---|---|---|---|---|
+| 1 | **Meine Bibliothek** (Basis) | `artifacts/bibliothek.html` | 📚 | nach jeder Titel-Analyse / Profil-Änderung |
+| 2 | **Empfehlungen** | `artifacts/empfehlungen.html` | 🎯 | bei jedem Empfehlungslauf **komplett überschreiben** |
 
-## Aufbau des Artefakts (Pflichtabschnitte)
+## URL-Stabilität (wichtig!)
 
-### A) Kopf
-Titel des Laufs + die Anfrage ("Ähnlich zu *X*, als Hörbuch, deutsch") + Datum.
+- **Gleiche Session:** einfach die Datei editieren und mit dem Artifact-Tool unter
+  demselben Pfad erneut publizieren → gleiche URL.
+- **Neue Session:** die Artefakte existieren schon! Erst `Artifact(action:"list")`
+  aufrufen, die URL von „Meine Bibliothek" bzw. „Empfehlungen" heraussuchen und beim
+  Publish als `url:` mitgeben — sonst entsteht eine neue URL (verboten).
+- Favicon und `<title>` **niemals ändern** (Wiedererkennung): „Meine Bibliothek" 📚,
+  „Empfehlungen" 🎯.
+- Beim Publish ein kurzes `label` setzen (z. B. `+titel-name` bzw. `lauf-2026-07-16`).
 
-### B) Basis / Kerndaten
-Kompakte Darstellung dessen, was den Geschmack ausmacht:
-- Die wichtigsten `loved`-Merkmale je Dimension (Chips/Tags).
-- Die **Gewichte** als kleine Balken/Legende (zeigt, was zählt: z. B. Themen 25 %).
-- No-Gos deutlich markiert (rot/durchgestrichen).
-- 1–2 Sätze "roter Faden" des Geschmacks.
-Dieser Block macht transparent, wogegen gematcht wurde.
+## Datenquellen (Vault — nie raten)
 
-### C) Empfehlungen (≥3, sortiert nach Match)
-Pro Empfehlung eine Karte mit:
-- **Cover** (Open-Library-Cover-URL, falls vorhanden), Titel, Autor, Jahr, Format/Reihe.
-  Bei Hörbuch: Sprecher + Hördauer.
-- **Gesamt-Match als großer Prozentbalken** (z. B. `82 %`), Farbe nach Höhe
-  (hoch=grün-ish, mittel=amber, niedrig=rot – gemäß dataviz).
-- **Dimensions-Balken:** je Dimension ein kleiner Balken 0–100 mit Label. So sieht der
-  Nutzer, *wo* es passt und *wo nicht*.
-- **Was passt** (grün, ✓-Liste) und **Was passt nicht** (amber/rot, ✗-Liste) in Klartext.
-- Quellen-Hinweis (dezent).
+- `vault/Profil.md` — Kerndaten, Gewichte, No-Gos (Frontmatter) + roter Faden (Body).
+- `vault/Bücher/*.md` — alle analysierten Titel (Frontmatter = Metadaten/DNA).
+- `vault/Empfehlungen/` — die **neueste** Lauf-Notiz für Artefakt 2.
 
-### D) Verworfen (optional, einklappbar)
-Kurz die stärksten verworfenen Kandidaten + Grund ("Ton zu leicht – widerspricht 'düster'").
-Zeigt, dass ehrlich gesiebt wurde.
+Vorher `dataviz`-Skill lesen (Farben/Balken/Dark-Mode), Vorlagen als Startpunkt nutzen:
+`references/bibliothek-template.html` und `references/empfehlungen-template.html`.
+Beide sind self-contained & theme-aware (CSP: keine externen Requests; Cover als
+data:-URI einbetten oder 📖-Platzhalter lassen).
+
+## Artefakt 1 — Meine Bibliothek (Basis)
+
+Zeigt **alle guten Bücher** (verdict `loved` + `liked`; `mixed/disliked` nur in einer
+kompakten, einklappbaren Sektion als Negativ-Kontrast). Inhalt:
+
+1. **Kopf:** Titelzahl, Verteilung Buch/Hörbuch, Stand-Datum.
+2. **Geschmacks-Kerndaten:** roter Faden (1–2 Sätze), wichtigste loved-Chips je
+   Dimension, Gewichte als Mini-Balken, No-Gos rot markiert.
+3. **Bücherkarten** (eine je Titel, loved zuerst): Cover/📖, Titel, Autor, Jahr, Reihe,
+   Format-Badges (📖/🎧), bei Hörbuch Sprecher + Stunden, Verdikt-Badge, die wichtigsten
+   DNA-Merkmale als Chips (Genres, Themen, Ton), 1 Zeile „warum geliebt", Rating falls belegt.
+4. **Statistikleiste** (optional, wenn ≥5 Titel): häufigste Genres/Themen/Ton als Balken.
+
+Nach jeder neuen Titel-Analyse: Karte ergänzen, Kerndaten-Block aktualisieren, republishen.
+
+## Artefakt 2 — Empfehlungen (wird überschrieben)
+
+Bei jedem Lauf wird `artifacts/empfehlungen.html` **komplett neu geschrieben** (alte
+Empfehlungen fliegen raus — die Historie bleibt ja im Vault unter `vault/Empfehlungen/`).
+Inhalt:
+
+1. **Kopf:** Anfrage in einem Satz + Datum.
+2. **Basis-Kurzblock:** gegen welche Kerndaten gematcht wurde (Kurzfassung + Verweis
+   „vollständig in ‚Meine Bibliothek'").
+3. **Empfehlungskarten (≥3, nach Match sortiert):** Cover/📖, Titel, Autor, Jahr, Format,
+   Sprecher/Stunden bei Hörbuch, **großer Gesamt-Match-%-Balken**, Dimensions-Balken
+   (0–100 je Dimension), **✓ Was passt** / **✗ Was passt nicht** in Klartext, Quellen dezent.
+4. **Verworfen** (einklappbar): stärkste verworfene Kandidaten + Grund.
 
 ## Regeln
-- **Jeder Prozentwert muss aus dem recommendations-JSON stammen** – nichts fürs schöne
-  Bild erfinden. Balkenlänge = Score.
-- Mindestens 3 Empfehlungskarten (oder die vom Nutzer geforderte Anzahl).
-- Deutsch beschriftet. Zahlen mit `%`. Responsive, Light+Dark, horizontal-scroll für
-  breite Elemente vermeiden.
-- Setze einen sinnvollen `<title>` und (beim Publish) ein Buch-Favicon (📚).
 
-## Publizieren
-Schreibe die gefüllte HTML nach z. B. `scratchpad/reco-<datum>.html` und publiziere sie
-mit dem **Artifact**-Tool (`favicon: "📚"`, sprechende `description`). Danach dem Nutzer
-1–2 Sätze Zusammenfassung + Hinweis, dass das Profil mit jeder Analyse schärfer wird.
+- Jeder %-Wert stammt aus der Lauf-Notiz im Vault — Balkenlänge = Score, nichts erfinden.
+- Deutsch beschriftet, responsive, Light + Dark.
+- **Keine dritten Artefakte.** Auch nicht „nur diesmal". Sonderwünsche (z. B. Vergleich)
+  gehören als Sektion in eines der beiden.
+- Nach dem Publish: 1–2 Sätze Zusammenfassung an den Nutzer + beide Links nennen, wenn
+  beide aktualisiert wurden.

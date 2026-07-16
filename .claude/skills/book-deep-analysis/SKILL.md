@@ -4,9 +4,9 @@ description: >
   Tiefenanalyse einzelner Buch-/Hörbuchtitel. Nutze diesen Skill, um vom Nutzer genannte
   Titel gründlich zu untersuchen: alle Metadaten sammeln (Genre, Themen, Jahr, ISBN,
   Seiten/Hördauer, Sprecher, Bewertungen) UND die "Buch-DNA" extrahieren – was den Titel
-  ausmacht und was der Nutzer daran mochte. Schreibt Ergebnisse nach taste-profile/ und
-  aktualisiert das aggregierte Geschmacksprofil. Voraussetzung, bevor nach Ähnlichem
-  gesucht wird ("kenne deine Daten").
+  ausmacht und was der Nutzer daran mochte. Schreibt Ergebnisse als Markdown-Notizen in
+  den Obsidian-Style Vault (vault/Bücher/ + vault/Profil.md). Voraussetzung, bevor nach
+  Ähnlichem gesucht wird ("kenne deine Daten"). Danach "Meine Bibliothek"-Artefakt updaten.
 ---
 
 # Deep-Analyse einzelner Titel
@@ -32,8 +32,8 @@ Erfasse mindestens: `genres`, `subjects/themen`, `year`, `series`, `isbn`, `page
 `audio_hours` (bei Hörbuch), `narrator`, `language`, `ratings`. Notiere die `sources`.
 
 ### 3. Buch-DNA extrahieren (das Herzstück)
-Verdichte Metadaten + Rezensionen + Interview-Antworten zu diesen Dimensionen (identisch
-zu `taste-profile/SCHEMA.md`):
+Verdichte Metadaten + Rezensionen + Interview-Antworten zu diesen Dimensionen (Felder
+identisch zum Frontmatter in `vault/Bücher/_TEMPLATE.md`):
 
 | Dimension     | Frage |
 |---------------|-------|
@@ -51,14 +51,21 @@ Trenne dabei sauber:
 - **Was der Nutzer konkret daran mochte** (`was_gefiel`) und was ihn störte (`was_stoerte`) –
   aus dem Interview. Das gewichtet später die DNA.
 
-### 4. Persistieren
-Schreibe `taste-profile/titles/<slug>.json` nach dem Schema. Aktualisiere danach
-`taste-profile/profile.json`:
-- Ergänze wiederkehrende Muster unter `dimensions.*.loved/liked/disliked`.
+### 4. Persistieren (Vault, Obsidian-Style)
+Schreibe `vault/Bücher/<Titel>.md` — Kopie von `vault/Bücher/_TEMPLATE.md`:
+Frontmatter = alle Metadaten + Buch-DNA (maschinenlesbar), Body = Analyse in Prosa
+(was gefiel / störte, DNA-Begründung, Nutzer-Zitate). Dateiname = natürlicher Titel.
+
+Aktualisiere danach `vault/Profil.md`:
+- Frontmatter: wiederkehrende Muster unter `*_loved/_liked/_disliked` ergänzen.
 - Wenn eine Dimension über mehrere Lieblingsbücher konstant auftaucht, erhöhe ihr
-  `weight` (und normalisiere die Summe ~1.0). Beispiel: Nutzer liebt bei allen Titeln
-  "unzuverlässige Erzähler" → `erzaehlstil` höher gewichten.
-- `updated`-Datum setzen (heutiges Datum aus dem Kontext).
+  `gewicht_*` (Summe ~1.0 halten). Beispiel: überall "unzuverlässige Erzähler" →
+  `gewicht_erzaehlstil` hoch.
+- Body: Tabelle "Analysierte Titel" um `[[Wikilink]]` ergänzen, "Roter Faden" und
+  "Muster & Beobachtungen" fortschreiben, `aktualisiert:` setzen.
+
+**Danach `book-reco-artifact` aufrufen**, um das Basis-Artefakt "Meine Bibliothek" zu
+aktualisieren (gleiche URL, nie neues Artefakt).
 
 ### 5. Muster-Zusammenfassung an den Nutzer
 Nach der Analyse: fasse in 3–6 Sätzen zusammen, was du jetzt über seinen Geschmack weißt.
@@ -68,7 +75,7 @@ Artefakt als "Kerndaten" erscheint.
 
 ## Qualitätsregeln
 - Mindestens 2 unabhängige Quellen für harte Fakten (Jahr, Autor, ISBN).
-- Unsichere Angaben markieren (`"year": "~2011?"`), nie glätten.
+- Unsichere Angaben markieren (`jahr: "~2011?"` + Notiz unter "Offene Fragen"), nie glätten.
 - Bei Reihen: kläre, ob der ganze Zyklus oder nur ein Band gemeint ist.
 - Hörbuch ≠ Buch: derselbe Titel kann als Hörbuch anders wirken (Sprecher!). Beides
   getrennt vermerken, wenn relevant.

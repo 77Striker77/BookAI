@@ -17,8 +17,8 @@ muss zwei Siebe passieren. Was durchfällt, wird verworfen – nicht durchgewunk
 
 ## Voraussetzung: "Kenne deine Daten"
 Bevor du startest, MUSS vorliegen:
-- `taste-profile/profile.json` (Kerndaten, Gewichte).
-- Die Buch-DNA der Referenztitel (`taste-profile/titles/*.json`).
+- `vault/Profil.md` (Kerndaten + `gewicht_*` im Frontmatter).
+- Die Buch-DNA der Referenztitel (`vault/Bücher/<Titel>.md`, Frontmatter).
 Fehlt die DNA eines genannten Referenztitels → erst `book-deep-analysis` dafür laufen lassen.
 
 Kläre außerdem: **Format** (Buch/Hörbuch/beides), **Sprache**, gewünschte **Anzahl**
@@ -51,7 +51,7 @@ Für **jeden** übrig gebliebenen Kandidaten:
    - 0–29 = widerspricht dem Geschmack.
    - Trifft ein `disliked`/No-Go → harte Abwertung, ggf. Ausschluss.
 3. **Gesamt-Match-% berechnen** = gewichtete Summe der Dimensions-Scores mit den
-   `weights` aus `profile.json`. Formel:
+   `gewicht_*`-Werten aus `vault/Profil.md`. Formel:
    `match = Σ(score_dim × weight_dim) / Σ(weight_dim)`  (nur berücksichtigte Dimensionen).
 4. **Verdikt:**
    - **Bestätigt** wenn Gesamt-Match ≥ 65 UND kein No-Go verletzt UND keine für den
@@ -70,37 +70,18 @@ Ziel sind **≥3 bestätigte** Vorschläge (oder die vom Nutzer geforderte Anzah
   durchwinkst. Lieber transparent: "3 starke gefunden; ein 4. mit Einschränkungen."
 - Sortiere bestätigte Kandidaten nach Gesamt-Match absteigend.
 
-## Ergebnis persistieren
-Schreibe `taste-profile/recommendations/<datum>-<thema>.json`:
+## Ergebnis persistieren (Vault)
+Schreibe eine neue Lauf-Notiz `vault/Empfehlungen/<JJJJ-MM-TT> <Thema>.md` — Kopie von
+`vault/Empfehlungen/_TEMPLATE.md`:
+- Frontmatter: Datum, Anfrage, Referenzen als `[[Wikilinks]]`, Format, benutzte Gewichte.
+- Je bestätigter Empfehlung: YAML-Block mit allen Metadaten + `overall` + `scores` je
+  Dimension, darunter Klartext **✓ Was passt** / **✗ Was passt nicht**, Quellen.
+- Tabelle der **verworfenen** Kandidaten mit Grund (Dimension + Score).
+- Notizen zum Lauf (Suchwinkel, Poolgrößen, Lücken).
 
-```json
-{
-  "date": "2026-07-16",
-  "request": "ähnlich zu 'Der Name des Windes', als Hörbuch, deutsch",
-  "reference_titles": ["der-name-des-windes"],
-  "format": "hoerbuch",
-  "weights_used": { "themen": 0.25, "ton_stimmung": 0.20, "...": 0.0 },
-  "confirmed": [
-    {
-      "title": "…", "author": "…", "year": 0, "format": "hoerbuch",
-      "narrator": "…", "isbn": "…", "cover_url": "https://covers.openlibrary.org/...",
-      "overall_match": 82,
-      "dimensions": {
-        "genres": 90, "themen": 85, "ton_stimmung": 80, "erzaehlstil": 70,
-        "tempo": 75, "komplexitaet": 80, "figuren": 85, "setting": 78
-      },
-      "passt": ["gleicher melancholischer Ton", "Ich-Erzähler wie gewünscht", "starker Sprecher"],
-      "passt_nicht": ["Tempo etwas schneller als Referenz", "Setting moderner statt mittelalterlich"],
-      "sources": ["openlibrary:…", "web:…"]
-    }
-  ],
-  "rejected": [
-    { "title": "…", "reason": "Ton zu leicht/humorvoll (ton_stimmung 25) – widerspricht 'düster'" }
-  ]
-}
-```
-
-Übergib dieses JSON an **book-reco-artifact** (Phase 4) für die Visualisierung.
+Die Historie bleibt so im Vault erhalten. Danach **book-reco-artifact** (Phase 4)
+aufrufen: es überschreibt das feste Artefakt „Empfehlungen" mit diesem neuesten Lauf
+(gleiche URL, nie ein neues Artefakt).
 
 ## Optional: Fan-out mit dem book-scout Agent
 Für breite oder parallele Recherche kann der **book-scout** Agent mehrfach gestartet

@@ -10,9 +10,20 @@ transparenter Begründung.
 ```
 1) INTERVIEW    Du nennst Titel, die du mochtest → gezielte Fragen, WAS genau dir gefiel
 2) DEEP-ANALYSE Titel werden gründlich untersucht: alle Metadaten + „Buch-DNA"
+                → ins Vault geschrieben + Artefakt „Meine Bibliothek" aktualisiert
 3) SUCHE        Ähnliche Titel: erst grob sieben (passt der Rahmen?), dann tief verifizieren
-4) ARTEFAKT     Visualisierung: Kerndaten + Empfehlungen mit %-Match-Balken & Begründung
+4) ARTEFAKT     Artefakt „Empfehlungen" wird ÜBERSCHRIEBEN: Kerndaten + ≥3 Vorschläge
+                mit %-Match-Balken & Begründung was passt / was nicht
 ```
+
+## Die zwei festen Artefakte
+
+| Artefakt | Inhalt | Verhalten |
+|---|---|---|
+| 📚 **Meine Bibliothek** | alle guten Bücher mit wichtigsten Infos & Metadaten + Geschmacks-Kerndaten | wird bei jeder Analyse **aktualisiert** (gleiche URL) |
+| 🎯 **Empfehlungen** | der jeweils letzte Empfehlungslauf mit %-Balken | wird je Lauf **überschrieben** (gleiche URL) |
+
+Es entstehen nie zusätzliche Artefakte; die Historie aller Läufe liegt im Vault.
 
 Kernprinzipien:
 - **„Kenne deine Daten."** Bevor gesucht wird, muss die Buch-DNA der Referenztitel vorliegen.
@@ -45,14 +56,21 @@ Titel, sucht & verifiziert und baut am Ende ein Artefakt. Weitere Beispiele:
     ├── book-taste-interview/      Phase 1 — Geschmacks-Interview
     ├── book-deep-analysis/        Phase 2 — Metadaten + Buch-DNA  (+ references/)
     ├── book-similarity-search/    Phase 3 — Suche grob → tief + Scoring
-    └── book-reco-artifact/        Phase 4 — Visualisierung  (+ HTML-Vorlage)
+    └── book-reco-artifact/        Phase 4 — die 2 festen Artefakte  (+ HTML-Vorlagen)
 
-taste-profile/                     Persistenter Datenspeicher (dein Geschmack)
-├── SCHEMA.md                      Datenschema (Kerndaten, Titel-DNA, Empfehlungen)
-├── profile.json                  DEIN aggregiertes Profil  (aus profile.example.json)
-├── titles/                       je analysiertem Titel eine JSON
-└── recommendations/              je Empfehlungslauf eine JSON
+vault/                             Datenquelle: Obsidian-Style Vault (alles Markdown)
+├── README.md                      Konventionen (Frontmatter, Wikilinks, Tags)
+├── Profil.md                      DEIN aggregiertes Geschmacksprofil + Gewichte
+├── Bücher/                        je analysiertem Titel eine Notiz (_TEMPLATE.md)
+└── Empfehlungen/                  je Empfehlungslauf eine Notiz — die Historie
+
+artifacts/                         die 2 festen HTML-Artefakte (stabile Pfade & URLs)
+├── bibliothek.html                📚 Meine Bibliothek (Basis)
+└── empfehlungen.html              🎯 Empfehlungen (wird überschrieben)
 ```
+
+Der `vault/`-Ordner ist ein normaler Obsidian-Vault — du kannst ihn direkt in Obsidian
+öffnen und darin stöbern oder selbst Notizen ergänzen.
 
 ## Datenquellen
 
@@ -67,8 +85,9 @@ Details & Endpoints: `.claude/skills/book-deep-analysis/references/metadata-sour
 
 Jede Empfehlung wird pro Dimension (Genre, Themen, Ton, Erzählstil, Tempo, Komplexität,
 Figuren, Setting) mit 0–100 bewertet. Der **Gesamt-Match %** ist die mit deinen
-persönlichen `weights` gewichtete Summe. Bestätigt wird nur, was ≥ 65 % erreicht, kein
-No-Go verletzt und in keiner dir wichtigen Dimension durchfällt.
+persönlichen Gewichten (`gewicht_*` in `vault/Profil.md`) gewichtete Summe. Bestätigt
+wird nur, was ≥ 65 % erreicht, kein No-Go verletzt und in keiner dir wichtigen Dimension
+durchfällt.
 
 ---
 

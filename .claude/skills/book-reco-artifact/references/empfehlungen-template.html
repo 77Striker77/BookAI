@@ -1,12 +1,14 @@
 <!--
-  VORLAGE Empfehlungs-Artefakt. Beim Publish über das Artifact-Tool wird der Inhalt in ein
-  <!doctype><head>…</head><body>-Gerüst gewickelt — hier also KEINE <html>/<head>/<body>-Tags
-  hinzufügen; nur <style> + Seiteninhalt. Beispieldaten unten mit ⟨…⟩ / data-fill ersetzen.
+  VORLAGE für Artefakt 2 "Empfehlungen" (artifacts/empfehlungen.html).
+  Wird bei JEDEM Empfehlungslauf komplett überschrieben und unter derselben URL
+  republisht (title + favicon 🎯 nie ändern!). Beim Publish über das Artifact-Tool wird
+  der Inhalt in ein <!doctype><head>…</head><body>-Gerüst gewickelt — hier also KEINE
+  <html>/<head>/<body>-Tags hinzufügen; nur <style> + Seiteninhalt. Beispieldaten unten
+  mit ⟨…⟩ ersetzen.
   Hinweis Cover: In einem PUBLIZIERTEN Artefakt sind externe Bild-URLs per CSP blockiert.
-  Entweder Cover als data:-URI einbetten oder die Platzhalter-Box (📖) lassen. Als per
-  SendUserFile geöffnete Datei funktionieren externe Cover-URLs dagegen.
+  Entweder Cover als data:-URI einbetten oder die Platzhalter-Box (📖) lassen.
 -->
-<title>Buchempfehlungen ⟨THEMA⟩</title>
+<title>Empfehlungen</title>
 <style>
   :root {
     --bg: #faf9f7; --card: #ffffff; --ink: #1c1b19; --muted: #6b6862; --line: #e7e3dc;
@@ -70,13 +72,14 @@
 
 <div class="wrap">
 
-  <h1>📚 Empfehlungen: ⟨THEMA⟩</h1>
-  <p class="sub">Anfrage: <em>⟨z. B. „Ähnlich zu ‚Der Name des Windes‘, als Hörbuch, deutsch"⟩</em> · Stand ⟨2026-07-16⟩</p>
+  <h1>🎯 Empfehlungen</h1>
+  <p class="sub">Anfrage: <em>⟨z. B. „Ähnlich zu ‚Der Name des Windes‘, als Hörbuch, deutsch"⟩</em> · Lauf vom ⟨2026-07-16⟩</p>
 
-  <!-- ============ B) BASIS / KERNDATEN ============ -->
-  <h2>Basis · unsere Kerndaten</h2>
+  <!-- ============ B) BASIS-KURZBLOCK ============ -->
+  <h2>Gematcht gegen diese Kerndaten</h2>
   <div class="basis">
-    <p class="sub">Roter Faden: <b>⟨1–2 Sätze, was den Geschmack ausmacht⟩</b></p>
+    <p class="sub">Roter Faden: <b>⟨1–2 Sätze, was den Geschmack ausmacht⟩</b>
+      · <em>vollständig im Artefakt „Meine Bibliothek"</em></p>
     <div class="chips">
       <span class="chip">⟨geliebtes Genre⟩</span>
       <span class="chip">⟨geliebtes Thema⟩</span>
@@ -85,7 +88,7 @@
       <span class="chip nogo">⟨No-Go⟩</span>
     </div>
     <div class="dim-weights">
-      <!-- Gewichte aus profile.json — zeigt, was im Match zählt -->
+      <!-- Gewichte aus vault/Profil.md — zeigt, was im Match zählt -->
       <span class="lbl">Themen</span>   <div class="bar fill-good"><span style="width:25%"></span></div> <span class="val">25%</span>
       <span class="lbl">Ton/Stimmung</span><div class="bar fill-good"><span style="width:20%"></span></div><span class="val">20%</span>
       <span class="lbl">Genre</span>    <div class="bar fill-good"><span style="width:15%"></span></div> <span class="val">15%</span>
