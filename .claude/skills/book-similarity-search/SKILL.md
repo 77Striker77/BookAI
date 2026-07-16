@@ -70,9 +70,13 @@ Für **jeden** übrig gebliebenen Kandidaten:
    Erzählstil, Tempo, Setting, Länge; bei Hörbuch Sprecher/Dauer. Quellen notieren.
 2. **Prognose je Aspekt, dann Dimension scoren** (0–100 je Dimension) — im KONTEXT:
    a) Baue die **Prognose-Tabelle** der Kandidaten-Notiz: je relevantem Merkmal die
-      erwartete Nutzer-Wertung (−2..+2) MIT Beleg (Rezensionszitat + Quelle), abgeglichen
-      mit den Aspekt-Bewertungen der Referenzbücher ("Nutzer strafte [[Aufgeblähter
-      Mittelteil]] bei X mit −1 ab; 3 Rezensionen nennen Längen → erwartet −1").
+      erwartete Nutzer-Wertung (−2..+2) MIT Beleg (Rezensionszitat + Quelle) und
+      **Konfidenz** (hoch/mittel/niedrig), abgeglichen mit den Aspekt-Bewertungen der
+      Referenzbücher ("Nutzer strafte [[Aufgeblähter Mittelteil]] bei X mit −1 ab;
+      3 Rezensionen nennen Längen → erwartet −1, Konfidenz hoch"). Bei Merkmal-Hubs
+      mit `varianten:` gegen die passende **Variante** matchen, nicht den Hub.
+      **Kombinationsregeln** der Kontext-Notiz anwenden — sie schlagen Einzel-Status
+      ("[[Ich-Erzähler]] hier OHNE [[Unzuverlässig]] → 0 statt +2").
    b) Aggregiere die Aspekt-Prognosen zur Dimensions-Punktzahl. Merkmal-Status gilt
       IM Kontext (`status_kontexte`), nicht global:
    - 90–100 = trifft loved-Merkmale des Kontexts genau, keine negativen Prognosen.
@@ -87,7 +91,9 @@ Für **jeden** übrig gebliebenen Kandidaten:
    `match = Σ(score_dim × weight_dim) / Σ(weight_dim)`  (nur berücksichtigte Dimensionen).
 4. **Verdikt:**
    - **Bestätigt** wenn Gesamt-Match ≥ 65 UND kein No-Go verletzt UND keine für den
-     Nutzer *kritische* Dimension (hohes Gewicht) unter ~40 liegt.
+     Nutzer *kritische* Dimension (hohes Gewicht) unter ~40 liegt UND die tragenden
+     Prognosen nicht überwiegend niedrig-konfident sind (sonst: nachrecherchieren
+     oder Unsicherheit transparent ausweisen).
    - Sonst **verworfen** – mit Grund (welche Dimension warum durchfiel).
 
 **📝 Gedächtnis-Pflicht Stufe 2:** Kandidaten-Notiz jedes tief geprüften Titels

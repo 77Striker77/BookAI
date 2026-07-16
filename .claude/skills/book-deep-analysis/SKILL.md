@@ -86,10 +86,20 @@ Templates aus `vault/_System/Templates/`, Konventionen aus `vault/_System/Konven
 5. **Profil aktualisieren:** `vault/Profil/Profil.md` NUR mit kontextübergreifend
    bestätigten Mustern (roter Faden, Tabelle "Analysierte Titel"). Kontextspezifisches
    gehört in die Kontext-Notiz. Neue harte Ausschlüsse → `No-Gos.md` mit Herkunft.
-6. **Wiedervorlagen prüfen:** Hat sich durch diese Analyse eine Präferenz geändert
-   (Gewicht, Merkmal-Status), sichte `Empfehlungen/Kandidaten/` nach Notizen, deren
-   `wiedervorlage:` darauf triggert → dem Nutzer als Re-Check-Kandidaten nennen.
-7. **`vault/Home.md`** → "Zuletzt" ergänzen.
+6. **Split-Check (Granularität auf Abruf,** Konventionen → Split-Regeln**):**
+   - Widerspricht die neue Bewertung eines Merkmals einer früheren im selben Kontext
+     (z. B. [[Melancholisch]] jetzt −1, vorher +2)? → Nachfrage beim Nutzer, worin der
+     Unterschied liegt, dann Merkmal in **Varianten spalten** (Hub + `uebergeordnet:`),
+     alte Bewertungszeilen umziehen.
+   - Zeigt sich eine **Bedingung** ("nur gut, wenn…")? → als **Kombinationsregel** in
+     die Kontext-Notiz (Wenn/Dann/Evidenz).
+   - Folgen mehrere Titel eines Kontexts einem klar anderen Muster? → **Sub-Kontext**
+     erwägen (mit dem Nutzer bestätigen).
+7. **Wiedervorlagen prüfen:** Hat sich durch diese Analyse eine Präferenz geändert
+   (Gewicht, Merkmal-Status, Split, neue Kombinationsregel), sichte
+   `Empfehlungen/Kandidaten/` nach Notizen, deren `wiedervorlage:` darauf triggert →
+   dem Nutzer als Re-Check-Kandidaten nennen.
+8. **`vault/Home.md`** → "Zuletzt" ergänzen.
 
 **Danach `book-reco-artifact` aufrufen**, um das Basis-Artefakt "Meine Bibliothek" zu
 aktualisieren (gleiche URL, nie neues Artefakt).

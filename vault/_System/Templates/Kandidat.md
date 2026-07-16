@@ -47,10 +47,14 @@ Wiedervorlage: ⟨Trigger oder —⟩
 > Beschreibung, Quelle). Gegen die Aspekt-Bewertungen der Referenzbücher und den
 > Merkmal-Status im Kontext gehalten.
 
-| Aspekt | erwartet | Beleg (Quelle) | Referenz-Abgleich |
-| --- | --- | --- | --- |
-| [[⟨Melancholisch⟩]] | +2 | „⟨Rezensionszitat⟩" (⟨Quelle⟩) | wie [[⟨Buch⟩]] +2 |
-| [[⟨Aufgeblähter Mittelteil⟩]] | −1 | ⟨mehrere Rezensionen nennen Längen⟩ | Nutzer strafte das bei [[⟨Buch⟩]] ab |
+| Aspekt | erwartet | Konfidenz | Beleg (Quelle) | Referenz-Abgleich |
+| --- | --- | --- | --- | --- |
+| [[⟨Melancholisch⟩]] | +2 | hoch | „⟨Rezensionszitat⟩" (⟨Quelle⟩) | wie [[⟨Buch⟩]] +2 |
+| [[⟨Aufgeblähter Mittelteil⟩]] | −1 | mittel | ⟨mehrere Rezensionen nennen Längen⟩ | Nutzer strafte das bei [[⟨Buch⟩]] ab |
+
+> Konfidenz: hoch = mehrere unabhängige Belege · mittel = 1 guter Beleg ·
+> niedrig = Indiz/Vermutung. Kombinationsregeln des Kontexts anwenden — sie schlagen
+> Einzel-Status. Eine Empfehlung darf nicht allein auf niedriger Konfidenz ruhen.
 
 ## Prüf-Historie (append-only — NIE Zeilen löschen/ändern)
 

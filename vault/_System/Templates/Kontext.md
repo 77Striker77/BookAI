@@ -1,6 +1,7 @@
 ---
 name: ""               # z. B. Fantasy
 aktualisiert:
+uebergeordnet: ""      # falls Sub-Kontext (Split-Regel 2): erbt Nicht-Überschriebenes
 buecher: 0             # Zähler analysierter Titel in diesem Kontext
 # --- Gewichte NUR für diesen Kontext (überschreiben Gewichte.md; Summe ≈ 1.0) ---
 gewichte:
@@ -35,6 +36,13 @@ tags: [kontext]
 | --- | --- | --- |
 | [[⟨Merkmal⟩]] | loved | [[⟨Buch⟩]] +2, [[⟨Interview⟩]] |
 | [[⟨Merkmal⟩]] | disliked | [[⟨Buch⟩]] −2 |
+
+## Kombinationsregeln (Wechselwirkungen — schlagen Einzel-Status)
+
+| Wenn … | dann … | Evidenz |
+| --- | --- | --- |
+| [[⟨Ich-Erzähler⟩]] MIT [[⟨Unzuverlässig⟩]] | +2 | [[⟨Buch⟩]], [[⟨Interview⟩]] |
+| [[⟨Ich-Erzähler⟩]] OHNE [[⟨Unzuverlässig⟩]] | 0 | ⟨…⟩ |
 
 ## Bücher in diesem Kontext
 

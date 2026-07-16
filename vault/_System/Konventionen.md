@@ -104,6 +104,32 @@ erwaehnt → gesichtet → geprueft-verworfen | empfohlen → warteliste → gel
   erneut vorschlagen (außer Wiedervorlage-Trigger greift oder Nutzer bittet darum).
   Skip-Liste an den book-scout Agent geben.
 
+## Granularität auf Abruf — Split-Regeln (WICHTIG)
+
+**Keine leeren Strukturen auf Vorrat.** Die Struktur wird feiner, wo die Evidenz es
+verlangt — nach diesen Regeln:
+
+1. **Merkmal-Split:** Bewertet der Nutzer dasselbe Merkmal im selben Kontext
+   **widersprüchlich** (≥2 Datenpunkte, z. B. [[Melancholisch]] einmal +2, einmal −1),
+   ist das Merkmal zu grob → in Varianten spalten (z. B. [[Elegisch]] vs.
+   [[Deprimierend]]). Die Eltern-Notiz bleibt als Hub (`varianten:`), die Kinder tragen
+   `uebergeordnet:`. Alte Bewertungszeilen auf die passende Variante umziehen
+   (Interview klärt, welche gemeint war). Nie spekulativ spalten — nur bei belegtem
+   Widerspruch.
+2. **Kontext-Split (Sub-Kontexte):** Laufen innerhalb eines Kontexts Gewichte oder
+   Merkmal-Status systematisch auseinander (z. B. Grimdark-Titel folgen anderem Muster
+   als High-Fantasy-Titel), Sub-Kontext anlegen (`uebergeordnet:` in der
+   Kontext-Notiz). Sub-Kontext erbt alles Nicht-Überschriebene vom Eltern-Kontext.
+3. **Kombinationsregeln (Wechselwirkungen):** Vorlieben sind oft bedingt —
+   "[[Ich-Erzähler]] nur gut MIT [[Unzuverlässig]]", "[[Explizite Gewalt]] okay, außer
+   kombiniert mit [[Tierleid]]". Solche Regeln leben in der Kontext-Notiz (Abschnitt
+   "Kombinationsregeln", Wenn/Dann/Evidenz) und schlagen beim Matching die
+   Einzel-Status der beteiligten Merkmale.
+4. **Konfidenz:** Prognose-Zeilen bei Kandidaten tragen eine Konfidenz
+   (hoch/mittel/niedrig — wie belastbar ist der Beleg?). Eine Empfehlung darf nicht
+   allein auf niedrig-konfidenten Prognosen ruhen; im Zweifel weiter recherchieren
+   oder transparent als Unsicherheit ausweisen.
+
 ## Verlinkungsregeln (das macht den Graphen)
 
 - **Merkmale immer als Links, nie als tote Strings** — in Büchern UND Kandidaten

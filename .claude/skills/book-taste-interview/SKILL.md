@@ -53,6 +53,12 @@ Buch aus komplett verschiedenen Gründen – der Grund entscheidet über gute Em
 - **Kontraste nutzen:** "Du mochtest A, aber nicht B – was ist der Unterschied für dich?"
 - **Vage Antworten konkretisieren:** "spannend" → "spannend durch Rätsel, durch Gefahr,
   oder durch zwischenmenschliche Anspannung?"
+- **Widersprüche auflösen = Split-Chance:** Bewertet der Nutzer dasselbe Merkmal mal
+  positiv, mal negativ → herausarbeiten, worin der Unterschied liegt ("melancholisch
+  mochtest du bei A, bei B nervte es — war A eher elegisch und B deprimierend?").
+  Das liefert die Varianten für einen Merkmal-Split (Konventionen → Split-Regeln).
+- **Bedingungen aufdecken:** "Magst du X immer, oder nur zusammen mit Y?" → wird zur
+  Kombinationsregel in der Kontext-Notiz.
 - **Nicht therapieren, sondern kalibrieren.** 2–4 Runden reichen meist.
 
 ## Persistieren: jede Runde eine Interview-Notiz
