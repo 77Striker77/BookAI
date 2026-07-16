@@ -1,9 +1,8 @@
 <!--
-  VORLAGE Artefakt 1 "Meine Bibliothek" (artifacts/bibliothek.html) — DASHBOARD.
-  Republish unter derselben URL (title + favicon 📚 nie ändern). KEINE <html>/<head>/<body>.
-  Sticky-Nav + Untermenü + JS-Hash-Routing (#uebersicht/#werke/#bekanntheit/#releases/#geschmack; Werk-Anker).
-  FARBEN: Blau=Wertung 0-5 · GOLD=Bekanntheit · Grün=positiv · Rot=negativ. Fame=5 Gold-Stufen.
-  Cover selbst gestaltet je Weltton. Beispielinhalt = Stand 16.07.2026; beim Publish mit Vault-Daten füllen.
+  VORLAGE Artefakt 1 "Meine Bibliothek" — DASHBOARD (Sticky-Nav + Untermenü + JS-Hash-Routing).
+  Republish gleiche URL (title + favicon 📚 nie ändern). KEINE <html>/<head>/<body>.
+  FARBEN: Blau=Wertung 0-5 · GOLD=Bekanntheit · Grün=positiv · Rot=negativ. Cover selbst gestaltet.
+  Beispielinhalt = Stand 16.07.2026; beim Publish mit echten Vault-Daten füllen.
 -->
 <title>Meine Bibliothek</title>
 <style>
@@ -242,8 +241,8 @@
           </div>
           <div class="card2">
             <h3>🧭 Mein roter Faden</h3>
-            <p style="margin:0;font-size:.9rem"><b>Fokus &amp; Vorwärtsdrang</b> (3× belegt) · handlungsfähiger Held ·
-              starker Sprecher · Figuren-Bindung. <span class="subtle">Deutsch bevorzugt · Reihe ≥ 3 Bände · kein Romantasy.</span></p>
+            <p style="margin:0;font-size:.9rem"><b>Fokus &amp; Vorwärtsdrang</b> (in 3 Genres belegt) · handlungsfähiger Held ·
+              starker Sprecher · cleveres Rätsel (Krimi). <span class="subtle">Deutsch bevorzugt (EN Fallback) · Reihe ≥ 3 Bände · ≤ ~20 h · kein Romance-Fokus.</span></p>
             <a class="biglink" href="#geschmack" data-view="geschmack">Geschmack im Detail →</a>
           </div>
         </div>
@@ -548,14 +547,20 @@
             <span class="chip pos">＋ Konstanter Vorwärtsdrang</span>
             <span class="chip pos">＋ pragmatischer Held</span>
             <span class="chip pos">＋ starkes Finale</span>
-            <span class="chip pos">＋ starker Sprecher</span>
-            <span class="chip">Deutsch bevorzugt</span>
-            <span class="chip">Buch &amp; Hörbuch gleichwertig</span>
+            <span class="chip pos">＋ starker Sprecher (Hörbuch)</span>
+            <span class="chip pos">＋ Locked-Room / cleverer Twist (Krimi)</span>
+            <span class="chip">🇩🇪 Deutsch bevorzugt · 🇬🇧 Englisch als Fallback</span>
+            <span class="chip">Format pro Werk (hört &amp; liest)</span>
+            <span class="chip">⏱ Reihenschnitt ≤ ~20 h</span>
+            <span class="chip">Gore ok</span>
             <span class="chip no">✕ Standalones (Reihe ≥ 3 Bände)</span>
-            <span class="chip no">✕ Romantasy-Fokus</span>
+            <span class="chip no">✕ Romance-Fokus (Subplot ok)</span>
             <span class="chip no">✕ zäher Start ohne Payoff</span>
+            <span class="chip no">✕ Intrigen-Overload ohne Progress</span>
           </div>
-          <div class="note">Zwei Geschmacksräume mit je eigenen Gewichten: <b>LitRPG</b> (Ton/Figuren/Handwerk hoch) und <b>Fantasy</b> (Themen/Figuren hoch, Handwerk 0,18 — Fokus zählt hier besonders).</div>
+          <div class="note">Drei Geschmacksräume mit je eigenen Gewichten: <b>LitRPG</b> (Ton/Figuren/Handwerk hoch),
+            <b>Fantasy</b> (Themen/Figuren hoch, Handwerk 0,18) und <b>Krimi</b> (Handwerk/Twist/Locked-Room hoch).
+            <br><b>Blinder Fleck:</b> bisher nur geliebte Werke — abgebrochene/nicht gemochte kommen als eigener Durchlauf (schärfen die Ausschlüsse).</div>
         </div>
       </section>
     </div>

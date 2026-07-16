@@ -50,8 +50,17 @@ Sprecher-Notizen ("Weitere Einlesungen"), Reihen-Notizen (nächster Band!), sowi
 Backlinks der loved-Merkmal-Notizen.
 
 **Grobfilter (schnell, nur Rahmen):** Ein Kandidat bleibt drin, wenn er grob passt bei:
-Genre-Nähe, Sprache/Verfügbarkeit im gewünschten Format, kein hartes **No-Go** aus dem
-Profil, ungefähr passende Länge/Ton. Zu weit weg → sofort raus. Ziel: 8–15 plausible Kandidaten.
+Genre-Nähe, kein hartes **No-Go**, ungefähr passende Länge/Ton. Konkret die Profil-Regeln
+(`vault/Profil/No-Gos.md`) anwenden:
+- **Reihen-Pflicht:** ≥3 Bände (Universum zählt zusammen) — sonst raus.
+- **Romance-Fokus** (Romance als Handlungstreiber) → raus. Liebes-Subplot ist okay.
+- **Länge:** **Reihen-Durchschnitt ≤ ~20 h Hörbuch** / entsprechend dicke Bücher
+  (Einzelband darf ausreißen; Reihenschnitt zählt). Deutlich darüber → Malus/raus.
+- **Sprache:** Deutsch bevorzugt, **Englisch als Fallback** — englische Titel NICHT
+  ausschließen; deutsche Verfügbarkeit ist ein Plus, kein Muss.
+- **Roter-Faden-Frühwarnung:** Rezensionen auf zähen Start, Abschweifen,
+  [[Intrigen-Overload ohne Progress]], „Hauptplot tritt auf der Stelle" prüfen → Malus.
+Zu weit weg → sofort raus. Ziel: 8–15 plausible Kandidaten.
 
 **📝 Gedächtnis-Pflicht Stufe 1:** JEDER gesichtete Titel — auch die sofort
 Aussortierten — bekommt eine Notiz `vault/Empfehlungen/Kandidaten/<Titel>.md`

@@ -1,12 +1,12 @@
 ---
 aktualisiert: 2026-07-16
-sprachen: [de]              # Deutsch bevorzugt — wartet bei DCC bewusst auf dt. Fassungen statt engl. auszuweichen (16.07.2026)
-formate: [buch, hoerbuch]
-format_notizen: "Buch und Hörbuch gleichwertig (Interview 2026-07-16)"
-tempo_pref: ""
+sprachen: [de, en]         # Deutsch bevorzugt, Englisch als Fallback (nicht mehr hart, 16.07.2026)
+formate: [buch, hoerbuch]  # überwiegend Hörbuch, aber liest auch (Cunninghams) — Format pro Werk erfragen!
+format_notizen: "Buch und Hörbuch gleichwertig; Format IMMER erfragen, nie annehmen"
+tempo_pref: "straff, Vorwärtsdrang (roter Faden)"
 komplexitaet_pref: ""
-laenge_seiten: ""
-laenge_stunden: ""
+laenge_stunden: "Reihen-Durchschnitt ≤ ~20 h Hörbuch (Einzelband darf ausreißen); Komfort ≈ Streitende Götter"
+gore_toleranz: "hoch — Splatter/Gore wird vertragen (kein Content-Limit)"
 emotion_gesucht: []
 performance_pref: "Sprecherqualität hochrelevant — Kaminski 'trägt massiv'"
 tags: [moc, profil]
@@ -56,8 +56,12 @@ NICHT als alleinigen Kompass nehmen.
   Sprecher-Performance; tragende Figuren-Beziehungen; [[Starkes Finale]]
 - **Meide überall (weich):** [[Zäher Start]], [[Nebenquest-Wildwuchs]],
   [[Zu lange schwacher Held]], Fokusverlust
-- **Meide überall (hart, kontextunabhängig):** [[No-Gos]] — Reihen-Pflicht ≥3 Bände
-  (Universum zählt zusammen), Romantasy-Fokus
+- **Meide überall (weich):** [[Zäher Start]], [[Nebenquest-Wildwuchs]],
+  [[Zu lange schwacher Held]], [[Intrigen-Overload ohne Progress]], Fokusverlust
+- **Meide überall (hart):** [[No-Gos]] — Reihen-Pflicht ≥3 Bände (Universum zählt),
+  **Romance-Fokus** (Liebes-Subplot ok). **Länge:** Reihenschnitt ≤ ~20 h Hörbuch.
+- **Sprache:** Deutsch bevorzugt, **Englisch als Fallback** (nicht mehr hart).
+- **Gore:** wird vertragen (kein Limit).
 
 ## Hörbuch-Spezifika
 

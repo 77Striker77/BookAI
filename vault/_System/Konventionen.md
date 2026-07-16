@@ -80,6 +80,15 @@ Götter" = Sturmfels-Akademie + Prinz von Staub und Schatten):
   (eingerückt/als Kinder). Jede Reihe bleibt inhaltlich für sich voll bewertet.
 - Matching: Reihen-Aspekte + geerbte Overall-Aspekte zusammen.
 
+## Negativraum: disliked/abgebrochene Werke = eigener Durchlauf
+
+Bislang enthält die Bibliothek nur `loved`-Werke. **Was der Nutzer NICHT mochte oder
+abgebrochen hat, ist für gutes Matching genauso wertvoll** (Anti-Muster). Solche Werke
+werden über denselben Workflow erfasst (Interview → Analyse), Verdikt `disliked`/`mixed`;
+ihre Negativ-Aspekte (−2/−1) schärfen die weichen Ausschlüsse. Der Nutzer bringt sie
+bewusst als eigenen Durchlauf ein — nicht drängen, aber die Lücke kennen und bei
+Gelegenheit einladen.
+
 ## Kontexte (Geschmacksräume) — Geschmack ist nicht global
 
 Was in Fantasy geliebt wird, kann im Thriller egal oder störend sein. Deshalb:
