@@ -1,135 +1,312 @@
 <!--
-  VORLAGE für Artefakt 1 "Meine Bibliothek" (artifacts/bibliothek.html).
-  Wird nach jeder Titel-Analyse AKTUALISIERT (Karte ergänzen, Kerndaten anpassen) und
-  unter derselben URL republisht (title + favicon 📚 nie ändern!). Beim Publish wickelt
-  das Artifact-Tool den Inhalt in ein <!doctype>-Gerüst — KEINE <html>/<head>/<body>-Tags,
-  nur <style> + Inhalt. ⟨…⟩ ersetzen; Beispielkarte kopieren je Titel.
-  Cover: publiziert blockiert die CSP externe Bilder → data:-URI einbetten oder 📖 lassen.
+  VORLAGE für Artefakt 1 "Meine Bibliothek" (artifacts/bibliothek.html) — Cockpit.
+  Wird nach jeder Titel-Analyse AKTUALISIERT und unter derselben URL republisht
+  (title + favicon 📚 nie ändern!). KEINE <html>/<head>/<body>-Tags — nur <style> + Inhalt.
+  FARB-SYSTEM ist verbindlich (siehe SKILL.md): Blau=Wertung 0-5, Grün=positiv, Rot=negativ.
+  Der Beispielinhalt ist der Stand vom 16.07.2026 — beim Publish mit echten Vault-Daten füllen.
 -->
 <title>Meine Bibliothek</title>
 <style>
+  /* ============================================================
+     FARB-SYSTEM (konsistent, eine Bedeutung je Farbe)
+       BLAU  = Community-Wertung 0–5 (objektiv, Magnitude/sequenziell)
+       GRÜN  = positiv  (mein ＋ / Community 👍)
+       ROT   = negativ  (mein − / Community 👎 / No-Go)
+       Warme Neutraltöne = Struktur & Text (nie datenfarbig)
+     Rot bedeutet NIE eine Wertung — nur „negativ / mag ich nicht".
+     ============================================================ */
   :root {
-    --bg: #faf9f7; --card: #ffffff; --ink: #1c1b19; --muted: #6b6862; --line: #e7e3dc;
-    --accent: #7c5cff; --good: #2f9e6f; --mid: #d99a2b; --bad: #d9534f; --track: #eceae5;
+    color-scheme: light;
+    --bg:#f3f1ec; --panel:#faf9f6; --card:#ffffff;
+    --ink:#1b1915; --ink2:#565349; --muted:#8a867d; --line:#e6e2d9; --track:#ebe7df;
+    --rating:#245fb0; --rating-soft:#dbe6f6;      /* blau: Wertung */
+    --pos:#12813f; --pos-soft:#dcefe1;            /* grün: positiv */
+    --neg:#c23a34; --neg-soft:#f3ddda;            /* rot: negativ  */
+    --de:#245fb0; --en:#7a4bc4;
   }
   @media (prefers-color-scheme: dark) {
-    :root { --bg:#16151a; --card:#201f26; --ink:#f2f0ec; --muted:#a5a19a; --line:#33313b;
-            --accent:#a78bfa; --good:#4ec38a; --mid:#e6b34a; --bad:#e8776f; --track:#2b2933; }
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --bg:#131218; --panel:#1b1a21; --card:#222029;
+      --ink:#f0eee9; --ink2:#bdb9b0; --muted:#8f8b83; --line:#302e39; --track:#2a2833;
+      --rating:#5b9bee; --rating-soft:#20304a;
+      --pos:#3fc069; --pos-soft:#183a26;
+      --neg:#e5706a; --neg-soft:#3d2320;
+      --de:#5b9bee; --en:#b596ec;
+    }
   }
-  :root[data-theme="light"] { --bg:#faf9f7; --card:#fff; --ink:#1c1b19; --muted:#6b6862;
-    --line:#e7e3dc; --accent:#7c5cff; --track:#eceae5; }
-  :root[data-theme="dark"]  { --bg:#16151a; --card:#201f26; --ink:#f2f0ec; --muted:#a5a19a;
-    --line:#33313b; --accent:#a78bfa; --track:#2b2933; }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg:#131218; --panel:#1b1a21; --card:#222029;
+    --ink:#f0eee9; --ink2:#bdb9b0; --muted:#8f8b83; --line:#302e39; --track:#2a2833;
+    --rating:#5b9bee; --rating-soft:#20304a;
+    --pos:#3fc069; --pos-soft:#183a26;
+    --neg:#e5706a; --neg-soft:#3d2320;
+    --de:#5b9bee; --en:#b596ec;
+  }
 
   * { box-sizing: border-box; }
-  .wrap { max-width: 1000px; margin: 0 auto; padding: 28px 20px 60px; color: var(--ink);
-    background: var(--bg); font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-  h1 { font-size: 1.5rem; margin: 0 0 4px; }
-  h2 { font-size: 1.02rem; margin: 30px 0 12px; letter-spacing: .02em; text-transform: uppercase; color: var(--muted); }
-  .sub { color: var(--muted); margin: 0 0 8px; }
+  .wrap { max-width: 1060px; margin: 0 auto; padding: 26px 18px 64px; color: var(--ink);
+    background: var(--bg); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  h1 { font-size: 1.5rem; margin: 0 0 2px; letter-spacing: -.01em; }
+  .lead { color: var(--ink2); margin: 0 0 18px; font-size: .92rem; }
+  h2 { font-size: .78rem; margin: 0 0 12px; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+  section { margin: 26px 0 0; }
+  .tnum { font-variant-numeric: tabular-nums; }
 
-  .stats { display: flex; gap: 10px; flex-wrap: wrap; margin: 12px 0 4px; }
-  .stat { background: var(--card); border: 1px solid var(--line); border-radius: 12px;
-    padding: 10px 16px; min-width: 110px; }
-  .stat .n { font-size: 1.3rem; font-weight: 700; }
-  .stat .l { font-size: .78rem; color: var(--muted); }
+  .stats { display: flex; gap: 8px; flex-wrap: wrap; }
+  .stat { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 9px 15px; min-width: 92px; }
+  .stat .n { font-size: 1.22rem; font-weight: 750; }
+  .stat .l { font-size: .73rem; color: var(--muted); }
 
-  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
-  .chip { background: color-mix(in srgb, var(--accent) 14%, transparent); color: var(--ink);
-    border: 1px solid var(--line); border-radius: 999px; padding: 3px 10px; font-size: .82rem; }
-  .chip.nogo { background: color-mix(in srgb, var(--bad) 16%, transparent); text-decoration: line-through; color: var(--bad); }
-  .chip.dim { background: transparent; }
+  /* release timeline */
+  .rel { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+  .rel-row { display: grid; grid-template-columns: 132px 1fr; gap: 12px; padding: 11px 16px; border-top: 1px solid var(--line); align-items: baseline; }
+  .rel-row:first-child { border-top: 0; }
+  .rel-date { font-weight: 700; font-size: .85rem; }
+  .rel-date small { display: block; font-weight: 400; color: var(--muted); font-size: .72rem; }
+  .rel-what { font-size: .92rem; }
+  .rel-what .s { color: var(--ink2); font-size: .82rem; }
+  .flag { font-size: .66rem; font-weight: 800; padding: 1px 6px; border-radius: 5px; vertical-align: middle; color: #fff; letter-spacing: .03em; }
+  .flag.de { background: var(--de); } .flag.en { background: var(--en); }
 
-  .basis { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px; }
-  .weights { display: grid; grid-template-columns: 140px 1fr 44px; gap: 6px 10px; align-items: center; margin-top: 10px; }
-  .weights .lbl { font-size: .85rem; color: var(--muted); }
-  .bar { position: relative; height: 10px; border-radius: 999px; background: var(--track); overflow: hidden; }
-  .bar > span { position: absolute; inset: 0 auto 0 0; border-radius: 999px; background: var(--accent); }
-  .weights .val { font-size: .8rem; color: var(--muted); text-align: right; }
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; }
+  .thread { display: grid; grid-template-columns: 20px 1fr; gap: 5px 10px; font-size: .9rem; margin-bottom: 12px; }
+  .thread .k { font-weight: 800; color: var(--rating); font-variant-numeric: tabular-nums; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0; }
+  .chip { border: 1px solid var(--line); border-radius: 999px; padding: 3px 10px; font-size: .8rem; background: var(--card); }
+  .chip.pos { background: var(--pos-soft); border-color: transparent; }
+  .chip.no { background: var(--neg-soft); border-color: transparent; color: var(--neg); font-weight: 600; }
+  .subtle { color: var(--muted); }
 
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
-  .book { background: var(--card); border: 1px solid var(--line); border-radius: 16px;
-    padding: 16px; display: grid; grid-template-columns: 64px 1fr; gap: 12px; }
-  .cover { width: 64px; height: 94px; border-radius: 6px; background: var(--track);
-    display: flex; align-items: center; justify-content: center; font-size: 26px; overflow: hidden; }
-  .cover img { width: 100%; height: 100%; object-fit: cover; }
-  .book .title { font-weight: 650; font-size: 1.02rem; }
-  .book .meta { color: var(--muted); font-size: .84rem; margin: 2px 0 6px; }
-  .badges { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 6px; }
-  .badge { font-size: .74rem; border: 1px solid var(--line); border-radius: 999px; padding: 2px 8px; color: var(--muted); }
-  .badge.loved { color: var(--good); border-color: color-mix(in srgb, var(--good) 45%, transparent); }
-  .badge.liked { color: var(--mid);  border-color: color-mix(in srgb, var(--mid) 45%, transparent); }
-  .why { font-size: .86rem; margin-top: 6px; }
-  .why b { color: var(--good); }
+  /* color key */
+  .key { display: flex; flex-wrap: wrap; gap: 14px; font-size: .78rem; color: var(--ink2); margin: 0 0 12px; align-items: center; }
+  .key b { font-weight: 600; color: var(--ink); }
+  .sw { display: inline-block; width: 11px; height: 11px; border-radius: 3px; vertical-align: -1px; margin-right: 4px; }
+  .sw.r { background: var(--rating); } .sw.p { background: var(--pos); } .sw.n { background: var(--neg); }
 
-  details.negativ { margin-top: 18px; background: var(--card); border: 1px solid var(--line);
-    border-radius: 12px; padding: 8px 14px; }
-  details.negativ summary { cursor: pointer; color: var(--muted); }
+  /* work card */
+  .work { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 18px; margin: 12px 0; }
+  .work.child { margin: 0; }
+  .wh { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; }
+  .wh .t { font-size: 1.12rem; font-weight: 750; }
+  .wh .tag { font-size: .74rem; color: var(--muted); }
+  .verdict { font-size: .72rem; font-weight: 700; color: var(--pos); background: var(--pos-soft); border-radius: 999px; padding: 2px 9px; }
+  .wmeta { color: var(--ink2); font-size: .83rem; margin: 5px 0 12px; }
+
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  @media (max-width: 640px){ .cols { grid-template-columns: 1fr; } }
+  .box-title { font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 700; margin: 0 0 3px; }
+  .hint { font-size: .74rem; color: var(--muted); margin: 0 0 7px; }
+
+  /* per-band rating rows — BLAU, sequenziell; Länge = Wert im Ausschnitt 4,0–5,0 */
+  .axis { display: grid; grid-template-columns: 18px 1fr 70px 40px; gap: 8px; font-size: .64rem; color: var(--muted); margin-bottom: 3px; }
+  .axis .a { grid-column: 3; display: flex; justify-content: space-between; }
+  .band { display: grid; grid-template-columns: 18px 1fr 70px 40px; gap: 8px; align-items: center; font-size: .82rem; margin: 3px 0; }
+  .band .bn { color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+  .band .bt { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .rbar { grid-column: 3; height: 8px; border-radius: 999px; background: var(--track); position: relative; }
+  .rbar > span { position: absolute; inset: 0 auto 0 0; border-radius: 999px; background: var(--rating); min-width: 4px; }
+  .band .rv { font-variant-numeric: tabular-nums; color: var(--ink2); text-align: right; }
+  .band.top .bt::after { content: " ★"; color: var(--rating); }
+  .band.mine .bt { font-weight: 650; } .band.mine .bn::before { content: "▸"; color: var(--rating); margin-right: 2px; }
+
+  /* my aspects — GRÜN(+) / ROT(−), immer mit Symbol */
+  .asp { font-size: .85rem; margin: 3px 0; padding-left: 20px; text-indent: -20px; }
+  .asp .g { color: var(--pos); font-weight: 800; margin-right: 7px; }
+  .asp .b { color: var(--neg); font-weight: 800; margin-right: 7px; }
+  .comm { font-size: .82rem; margin: 3px 0; color: var(--ink2); padding-left: 22px; text-indent: -22px; }
+  .comm .g { color: var(--pos); } .comm .b { color: var(--neg); }
+
+  .ov { background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--rating);
+    border-radius: 8px 16px 16px 8px; padding: 16px 18px; }
+  .children { margin: 0 0 12px 18px; padding-left: 20px; border-left: 2px solid var(--line);
+    display: flex; flex-direction: column; gap: 12px; padding-top: 12px; }
+  .note { font-size: .82rem; color: var(--muted); margin-top: 8px; }
+  .synth { font-size: .86rem; margin-top: 10px; border-left: 3px solid var(--rating); padding-left: 10px; color: var(--ink); }
+  .warn { color: var(--muted); font-weight: 600; }
+  .footer { margin-top: 30px; color: var(--muted); font-size: .78rem; text-align: center; line-height: 1.6; }
 </style>
 
 <div class="wrap">
 
-  <h1>📚 Meine Bibliothek</h1>
-  <p class="sub">Basis des Empfehlungssystems · Stand ⟨2026-07-16⟩</p>
+  <h1>📚 Meine Bibliothek · Cockpit</h1>
+  <p class="lead">Alles, was das Empfehlungssystem über meinen Geschmack weiß — Stand 16.07.2026.
+    Datenquelle: Obsidian-Vault <code>vault/</code>. Aktualisiert sich mit jedem neuen Werk.</p>
 
   <div class="stats">
-    <div class="stat"><div class="n">⟨7⟩</div><div class="l">Titel analysiert</div></div>
-    <div class="stat"><div class="n">⟨5⟩</div><div class="l">davon geliebt</div></div>
-    <div class="stat"><div class="n">⟨4⟩ 🎧</div><div class="l">Hörbücher</div></div>
-    <div class="stat"><div class="n">⟨3⟩ 📖</div><div class="l">Bücher</div></div>
+    <div class="stat"><div class="n tnum">3</div><div class="l">Reihen analysiert</div></div>
+    <div class="stat"><div class="n tnum">3</div><div class="l">davon geliebt</div></div>
+    <div class="stat"><div class="n">🎧 dt.</div><div class="l">Format: Hörbuch</div></div>
+    <div class="stat"><div class="n tnum">2</div><div class="l">Geschmacksräume</div></div>
+    <div class="stat"><div class="n">4,5<span class="subtle" style="font-size:.62em"> /5</span></div><div class="l">Community ⌀</div></div>
   </div>
 
-  <!-- ============ GESCHMACKS-KERNDATEN ============ -->
-  <h2>Geschmacks-Kerndaten</h2>
-  <div class="basis">
-    <p class="sub">Roter Faden: <b>⟨1–2 Sätze, was den Geschmack ausmacht⟩</b></p>
-    <div class="chips">
-      <span class="chip">⟨geliebtes Genre⟩</span>
-      <span class="chip">⟨geliebtes Thema⟩</span>
-      <span class="chip">⟨Ton⟩</span>
-      <span class="chip">⟨Erzählstil⟩</span>
-      <span class="chip nogo">⟨No-Go⟩</span>
-    </div>
-    <div class="weights">
-      <!-- Gewichte aus vault/Profil/Gewichte.md -->
-      <span class="lbl">Themen</span>       <div class="bar"><span style="width:25%"></span></div> <span class="val">25%</span>
-      <span class="lbl">Ton/Stimmung</span> <div class="bar"><span style="width:20%"></span></div> <span class="val">20%</span>
-      <span class="lbl">Genre</span>        <div class="bar"><span style="width:15%"></span></div> <span class="val">15%</span>
-      <span class="lbl">Figuren</span>      <div class="bar"><span style="width:10%"></span></div> <span class="val">10%</span>
-      <span class="lbl">Erzählstil</span>   <div class="bar"><span style="width:10%"></span></div> <span class="val">10%</span>
-    </div>
-  </div>
-
-  <!-- ============ DIE GUTEN BÜCHER ============ -->
-  <h2>Geliebt & gemocht</h2>
-  <div class="grid">
-
-    <!-- Beispielkarte — je Titel kopieren (loved zuerst) -->
-    <article class="book">
-      <div class="cover"><!-- <img src="data:image/jpeg;base64,…"> oder --> 📖</div>
-      <div>
-        <div class="title">⟨Titel⟩</div>
-        <div class="meta">⟨Autor⟩ · ⟨Jahr⟩ · ⟨Reihe Bd. 1⟩</div>
-        <div class="badges">
-          <span class="badge loved">♥ geliebt</span>
-          <span class="badge">🎧 ⟨Sprecher⟩, ⟨28,5 h⟩</span>
-          <span class="badge">★ ⟨4,5⟩</span>
-        </div>
-        <div class="chips">
-          <span class="chip dim">⟨Genre⟩</span><span class="chip dim">⟨Thema⟩</span><span class="chip dim">⟨Ton⟩</span>
-        </div>
-        <div class="why"><b>Warum:</b> ⟨1 Zeile — was daran geliebt wurde⟩</div>
+  <!-- ============ 1) KOMMENDE RELEASES ============ -->
+  <section>
+    <h2>📅 Kommende Releases — was ich als Nächstes hören/lesen kann</h2>
+    <div class="rel">
+      <div class="rel-row">
+        <div class="rel-date">~ Sept 2026 <small>⚠️ unbestätigt</small></div>
+        <div class="rel-what"><span class="flag de">DE</span> <b>Der Prinz von Staub und Schatten — Bd. 3</b> (evtl. „Hoffnung")
+          <div class="s">nächster Band im Streitende-Götter-Universum · Hörbuch Günter Merlau</div></div>
       </div>
+      <div class="rel-row">
+        <div class="rel-date">18.11.2026 <small>Print bestätigt</small></div>
+        <div class="rel-what"><span class="flag de">DE</span> <b>Dungeon Crawler Carl — Bd. 3</b> „The Dungeon Anarchist's Cookbook"
+          <div class="s">Fischer Tor · dt. Hörbuch angekündigt, Termin noch offen</div></div>
+      </div>
+      <div class="rel-row">
+        <div class="rel-date">offen <small>kein Termin</small></div>
+        <div class="rel-what"><span class="flag en">EN</span> <b>Dungeon Crawler Carl — Bd. 9</b> „The Beautiful Place" (Finale)
+          <div class="s">Prolog Juni 2026 · für mich nachrangig (ich warte auf Deutsch)</div></div>
+      </div>
+      <div class="rel-row">
+        <div class="rel-date">danach</div>
+        <div class="rel-what">DCC Bd. 4+ auf Deutsch noch <b>unterminiert</b> · Prinz Bd. 4–5 (2026–27) · Saltatio-Mortis-Musik-EPs zum Prinzen</div>
+      </div>
+    </div>
+    <p class="note">Aktuell am Hören: <b>DCC Bd. 2</b> „Carl's Doomsday Scenario" (dt.). Zwischen den dt. DCC-Bänden ist die Lücke, die Empfehlungen füllen sollen.</p>
+  </section>
+
+  <!-- ============ 2) MEIN GESCHMACK ============ -->
+  <section>
+    <h2>🧭 Mein Geschmack — die Kerndaten fürs Matching</h2>
+    <div class="panel">
+      <div class="thread">
+        <div class="k">1</div><div><b>Fokus &amp; Vorwärtsdrang</b> (stärkster Faden, 3× belegt) — kein Abschweifen, spürbarer Progress, kein zäher Start. <span class="subtle">Milderung: ein starkes Finale macht einen zähen Start verzeihlich.</span></div>
+        <div class="k">2</div><div><b>Handlungsfähiger Held</b> — entschlossen wie Carl (＋), nicht zu lange passiv wie Niri in Bd. 1 (−).</div>
+        <div class="k">3</div><div><b>Sprecher-Performance</b> — Kaminski &amp; Merlau „trägt massiv" → Quasi-Vetorecht bei Hörbüchern.</div>
+        <div class="k">4</div><div><b>Figuren-Bindung</b> — ungleiches Duo / Gemeinschaft tragen das Erlebnis.</div>
+      </div>
+      <div class="chips">
+        <span class="chip pos">＋ Konstanter Vorwärtsdrang</span>
+        <span class="chip pos">＋ pragmatischer Held</span>
+        <span class="chip pos">＋ starkes Finale</span>
+        <span class="chip pos">＋ starker Sprecher</span>
+        <span class="chip">Deutsch bevorzugt</span>
+        <span class="chip">Buch &amp; Hörbuch gleichwertig</span>
+        <span class="chip no">✕ Standalones (Reihe ≥ 3 Bände)</span>
+        <span class="chip no">✕ Romantasy-Fokus</span>
+        <span class="chip no">✕ zäher Start ohne Payoff</span>
+      </div>
+      <div class="note">Zwei Geschmacksräume mit je eigenen Gewichten: <b>LitRPG</b> (Ton/Figuren/Handwerk hoch) und <b>Fantasy</b> (Themen/Figuren hoch, Handwerk 0,18 — Fokus zählt hier besonders).</div>
+    </div>
+  </section>
+
+  <!-- ============ 3) MEINE WERKE ============ -->
+  <section>
+    <h2>📚 Meine Werke — Reihen mit echten Band-Wertungen</h2>
+    <div class="key">
+      <span><span class="sw r"></span><b>Community-Wertung</b> 0–5 Sterne (objektiv)</span>
+      <span><span class="sw p"></span><b>＋ / 👍 positiv</b> · <span class="sw n"></span><b>− / 👎 negativ</b> (Empfinden −2…+2)</span>
+      <span>★ bestbewerteter Band · ▸ von mir gehört</span>
+    </div>
+
+    <!-- ---- DCC ---- -->
+    <article class="work">
+      <div class="wh"><span class="t">🎮 Dungeon Crawler Carl</span><span class="verdict">♥ geliebt</span><span class="tag">· LitRPG · Reihe · Matt Dinniman</span></div>
+      <div class="wmeta">8 von 9 Bänden · EN komplett (Jeff Hays) · DE im Aufbau (Stefan Kaminski, seit Feb 2026) · Sprachen EN·DE·ES·FR·IT·SV·PT · Community ⌀ 4,5/5 bei ~1,7 Mio (engl. Audible 4,9)</div>
+      <div class="cols">
+        <div>
+          <p class="box-title">Community-Wertung je Band · Goodreads /5</p>
+          <p class="hint">Balken = Ausschnitt 4,0–5,0 · alle Bände sind stark bewertet, der Zoom zeigt nur die Unterschiede.</p>
+          <div class="axis"><span class="a"><span>4,0</span><span>5,0</span></span></div>
+          <div class="band mine"><span class="bn">1</span><span class="bt">Dungeon Crawler Carl</span><div class="rbar"><span style="width:45%"></span></div><span class="rv">4,45</span></div>
+          <div class="band mine"><span class="bn">2</span><span class="bt">Carl's Doomsday Scenario</span><div class="rbar"><span style="width:49%"></span></div><span class="rv">4,49</span></div>
+          <div class="band"><span class="bn">3</span><span class="bt">Anarchist's Cookbook</span><div class="rbar"><span style="width:40%"></span></div><span class="rv">4,40</span></div>
+          <div class="band"><span class="bn">4</span><span class="bt">Gate of the Feral Gods</span><div class="rbar"><span style="width:54%"></span></div><span class="rv">4,54</span></div>
+          <div class="band top"><span class="bn">5</span><span class="bt">The Butcher's Masquerade</span><div class="rbar"><span style="width:69%"></span></div><span class="rv">4,69</span></div>
+          <div class="band"><span class="bn">6</span><span class="bt">Eye of the Bedlam Bride</span><div class="rbar"><span style="width:65%"></span></div><span class="rv">4,65</span></div>
+          <div class="band"><span class="bn">7</span><span class="bt">This Inevitable Ruin</span><div class="rbar"><span style="width:68%"></span></div><span class="rv">4,68</span></div>
+          <div class="band"><span class="bn">8</span><span class="bt">A Parade of Horribles</span><div class="rbar"><span style="width:63%"></span></div><span class="rv">~4,63</span></div>
+        </div>
+        <div>
+          <p class="box-title">Mein Empfinden</p>
+          <div class="asp"><span class="g">＋</span>Konstanter Vorwärtsdrang, kein Füller</div>
+          <div class="asp"><span class="g">＋</span>Carl: pragmatisch, klarer Kompass („perfekt")</div>
+          <div class="asp"><span class="g">＋</span>Tonwechsel albern ↔ brutal ernst</div>
+          <div class="asp"><span class="g">＋</span>Carl &amp; Donut · System-Satire · clevere Tricks</div>
+          <p class="box-title" style="margin-top:12px">Community sagt</p>
+          <div class="comm"><span class="g">👍</span>Duo · Humor + emotionale Tiefe · Satire · Sprecher</div>
+          <div class="comm"><span class="b">👎</span>derber Humor polarisiert · <b>Bd. 7 „wo ist der Spaß hin", Leerlauf/aufgebläht</b> = mein roter Faden!</div>
+        </div>
+      </div>
+      <div class="synth">Maßstab-Werk in LitRPG (10 Aspekte ＋2). Community bestätigt: Bd. 5 bester, Bd. 3 am schwächsten (dennoch 4,40/5 = stark). Warnsignal Bd. 7 (Fokus) — noch irrelevant, ich bin dt. erst bei Bd. 2.</div>
     </article>
 
-  </div>
+    <!-- ---- Streitende Götter (Overall → Reihen) ---- -->
+    <div class="ov">
+      <div class="wh"><span class="t">🏰 Die Streitenden Götter</span><span class="verdict">♥ geliebt</span><span class="tag">· Fantasy · Overall = Summe der Reihen · Torsten Weitze</span></div>
+      <div class="wmeta">7 erschienen / ~10 geplant · nur Deutsch (kein Übersetzungs-Warten) · Günter Merlau · Community ⌀ 4,4–4,7/5</div>
+      <div class="chips">
+        <span class="chip pos">＋ Welt stimmig &amp; atmosphärisch</span>
+        <span class="chip">− Magiesystem (generisch + zu restriktiv)</span>
+        <span class="chip">Merlau „trägt massiv"</span>
+      </div>
+      <div class="synth">Beide Reihen gleich stark geliebt — mit <b>demselben wunden Punkt</b>: zäher, unfokussierter Start. Die Community-Wertungen belegen genau das. Getragen von Themen, Figuren-Aufstieg, Welt &amp; Sprecher.</div>
+    </div>
+    <div class="children">
+      <article class="work child">
+        <div class="wh"><span class="t">🎓 Sturmfels-Akademie</span><span class="verdict">♥ geliebt</span><span class="tag">· 5/5 abgeschlossen</span></div>
+        <div class="wmeta">2023–2025 · nur DE · Community ⌀ 4,4/5 (~1.680)</div>
+        <div class="cols">
+          <div>
+            <p class="box-title">Community-Wertung je Band · Goodreads /5</p>
+            <p class="hint">Balken = Ausschnitt 4,0–5,0.</p>
+            <div class="axis"><span class="a"><span>4,0</span><span>5,0</span></span></div>
+            <div class="band mine"><span class="bn">1</span><span class="bt">Der Turm der Bettler</span><div class="rbar"><span style="width:32%"></span></div><span class="rv">4,32</span></div>
+            <div class="band mine"><span class="bn">2</span><span class="bt">Der Turm des Goldes</span><div class="rbar"><span style="width:41%"></span></div><span class="rv">4,41</span></div>
+            <div class="band top mine"><span class="bn">3</span><span class="bt">Der Turm der Könige</span><div class="rbar"><span style="width:45%"></span></div><span class="rv">4,45</span></div>
+            <div class="band mine"><span class="bn">4</span><span class="bt">Der Turm des Blutes</span><div class="rbar"><span style="width:42%"></span></div><span class="rv">4,42</span></div>
+            <div class="band top mine"><span class="bn">5</span><span class="bt">Der Turm des Wissens</span><div class="rbar"><span style="width:45%"></span></div><span class="rv">4,45</span></div>
+            <p class="note">Bd. 1 relativ am niedrigsten (4,32 — trotzdem gut) → steigt danach. Deckt mein Empfinden.</p>
+          </div>
+          <div>
+            <p class="box-title">Mein Empfinden</p>
+            <div class="asp"><span class="g">＋</span>Underdog-Aufstieg (Niri) · Akademie-Gemeinschaft</div>
+            <div class="asp"><span class="g">＋</span>Starkes Finale — „gegen Ende richtig gut"</div>
+            <div class="asp"><span class="b">−</span>Bd. 1 erste Hälfte „Vollkatastrophe" — Fast-Abbruch</div>
+            <div class="asp"><span class="b">−</span>Niri zu lange zu schwach · zu wenig Progress</div>
+            <p class="box-title" style="margin-top:12px">Community sagt</p>
+            <div class="comm"><span class="g">👍</span>Weltenbau · Nebenfiguren · Merlau · Finale</div>
+            <div class="comm"><span class="b">👎</span><b>Bd. 1 langsamer Start (erstes Viertel)</b> = deckt meine −-Kritik · RPG-Schema · vorhersehbar</div>
+          </div>
+        </div>
+      </article>
 
-  <!-- ============ NEGATIV-KONTRAST (optional) ============ -->
-  <details class="negativ">
-    <summary>Gemischt / nicht gemocht (Negativ-Kontrast)</summary>
-    <ul>
-      <li><b>⟨Titel⟩</b> — ⟨warum nicht: 1 Zeile⟩</li>
-    </ul>
-  </details>
+      <article class="work child">
+        <div class="wh"><span class="t">👑 Der Prinz von Staub und Schatten</span><span class="verdict">♥ geliebt</span><span class="tag">· 2/5 · laufend</span></div>
+        <div class="wmeta">seit 2026 · nur DE · Community ⌀ ~4,7/5 (~650, Bd. 1)</div>
+        <div class="cols">
+          <div>
+            <p class="box-title">Community-Wertung je Band · Amazon.de /5</p>
+            <p class="hint">Balken = Ausschnitt 4,0–5,0.</p>
+            <div class="axis"><span class="a"><span>4,0</span><span>5,0</span></span></div>
+            <div class="band top mine"><span class="bn">1</span><span class="bt">Heimkehr</span><div class="rbar"><span style="width:70%"></span></div><span class="rv">~4,7</span></div>
+            <div class="band mine"><span class="bn">2</span><span class="bt">Widerstand</span><div class="rbar"><span style="width:8%;background:var(--track)"></span></div><span class="rv warn">neu</span></div>
+            <p class="note">Sehr neu (2026) → Bd. 2 noch zu wenige Wertungen. Bd. 1 stärker gelobt als Bd. 2.</p>
+          </div>
+          <div>
+            <p class="box-title">Mein Empfinden</p>
+            <div class="asp"><span class="g">＋</span>Geheimnisvolle Macht (Tarikh) — stärkster Reiz</div>
+            <div class="asp"><span class="g">＋</span>Verlorenes Erbe &amp; Thron · Rache/Verfolgung</div>
+            <div class="asp"><span class="b">−</span>Zäher Start · Fokus driftet vom Ziel weg</div>
+            <p class="box-title" style="margin-top:12px">Community sagt</p>
+            <div class="comm"><span class="g">👍</span>flüssiger Stil · lebendige Figuren · Wüsten-Atmosphäre</div>
+            <div class="comm"><span class="b">👎</span>Bd. 2 „schwächer", Tarikh verwässert → deckt meine Fokus-Kritik</div>
+          </div>
+        </div>
+      </article>
+    </div>
+
+  </section>
+
+  <p class="footer">
+    <b>Zwei Skalen, zwei Farben — nie vermischt:</b> <span style="color:var(--rating)">■</span> Blau = Community-Wertung auf der
+    <b>0–5-Sterne-Skala</b> der Quelle (4,32/5 ist bereits sehr gut; die Balken zeigen den Ausschnitt 4,0–5,0).
+    <span style="color:var(--pos)">■</span> Grün /<span style="color:var(--neg)">■</span> Rot = mein persönliches Empfinden (−2…+2), immer mit ＋/− bzw. 👍/👎.
+    Alle Wertungen aus echten Nutzerdaten (Goodreads/Amazon/Audible) · Details im Vault.
+  </p>
 
 </div>

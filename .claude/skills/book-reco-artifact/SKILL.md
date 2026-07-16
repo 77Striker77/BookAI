@@ -51,6 +51,29 @@ Vorher `dataviz`-Skill lesen (Farben/Balken/Dark-Mode), Vorlagen als Startpunkt 
 Beide sind self-contained & theme-aware (CSP: keine externen Requests; Cover als
 data:-URI einbetten oder 📖-Platzhalter lassen).
 
+## 🎨 Farb-System (VERBINDLICH, konsistent — nie vermischen!)
+
+Es gibt **zwei semantisch verschiedene Skalen** — jede hat GENAU eine Farbrolle:
+
+| Bedeutung | Farbe | gilt für |
+|---|---|---|
+| **Community-Wertung 0–5 Sterne** (objektiv, Magnitude → *sequenziell*) | **Blau** (`--rating`), hell→dunkel | Balken der Band-Wertungen, Gewichte-Balken |
+| **positiv** (mein `＋`-Aspekt / Community 👍) | **Grün** (`--pos`) | ＋-Zeilen, 👍, loved-Chips |
+| **negativ** (mein `−`-Aspekt / Community 👎 / No-Go) | **Rot** (`--neg`) | −-Zeilen, 👎, No-Go-Chips |
+| Struktur/Text | warme Neutraltöne | alles andere |
+
+**Eiserne Regeln:**
+- **Rot bedeutet NIE eine Wertung** — nur „negativ / mag ich nicht". Eine 4,32/5 ist
+  GUT → niemals rot; der relativ schwächste Band ist nur ein kürzerer **blauer** Balken
+  (bester Band: ★, nicht farblich als „gut" umdeklarieren).
+- **Wertungsbalken zeigen den Ausschnitt 4,0–5,0** (Achsen-Label + Hinweis Pflicht),
+  damit man Unterschiede sieht — mit klarer Beschriftung „/5", sonst wird es als
+  Prozent/1–10 fehlgelesen.
+- **Grün/Rot immer mit Symbol** (＋/−, 👍/👎) — nie Farbe allein (Rot-Grün-Schwäche).
+- Farb-Legende („Blau = Wertung 0–5 · Grün ＋ · Rot −") sichtbar einbauen.
+- Palette per `dataviz`-Validator gegen beide Surfaces prüfen; Werte aus dem aktuellen
+  `bibliothek.html` übernehmen (Tokens `--rating/--pos/--neg` + Dark-Mode-Stufen).
+
 ## Artefakt 1 — Meine Bibliothek (Basis)
 
 Zeigt **alle guten Bücher** (verdict `loved` + `liked`; `mixed/disliked` nur in einer
