@@ -25,6 +25,9 @@ naechster_band_en: ""  # dito Englisch
 # --- Community-Wertung: ECHTE Werte, bandgenau (Details im Body); Buch+Hörbuch inhaltlich gleich ---
 rating_schnitt: ""     # grober Reihen-Schnitt als Referenz, z. B. "4,5/5"
 rating_stimmen_gesamt: "" # ungefähre Gesamtzahl der Wertungen über die Reihe
+# --- Bekanntheit / Reichweite (WIE VIELE bewerten/kommentieren → Nische ↔ Phänomen) ---
+bekanntheit_stufe: ""  # Geheimtipp | Szene-bekannt | Etabliert | Bestseller | Phänomen
+hype: ""               # Hype-Signal (neu/steigend/cross-media/Verfilmung/Bestseller) — oder leer
 # --- DNA maschinenlesbar (Werte = Namen der Merkmal-Notizen) ---
 genres: []
 themen: []

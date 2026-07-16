@@ -16,6 +16,8 @@ sprachen_verfuegbar: [de]          # nur Deutsch, keine engl. Übersetzung
 sprache_erlebt: "de"
 rating_schnitt: "~4,4/5"           # Goodreads, über alle 5 Bände
 rating_stimmen_gesamt: "~1.680 (Goodreads, Summe Bd. 1–5)"
+bekanntheit_stufe: "Szene-bekannt"
+hype: "Autor einer der erfolgreichsten dt. Fantasy-Namen; dt.-only → international Nische"
 kontext: "Fantasy"
 verdict: "loved"
 format_erlebt: "hoerbuch"

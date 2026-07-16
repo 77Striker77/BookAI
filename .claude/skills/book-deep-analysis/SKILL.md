@@ -50,6 +50,13 @@ Für **JEDEN Band** erfassen (Tabelle + Lob/Kritik):
 **Englisch** (Termin/Ankündigung); Bände erschienen vs. geplant; Status; angekündigte
 Erweiterungen (Spin-offs, Musik-EPs, Verfilmung) — oder „nichts bekannt".
 
+**Bekanntheit / Reichweite** (`bekanntheit_stufe` + `hype`): Wie VIELE bewerten/
+kommentieren — das misst Reichweite/Hype, NICHT Qualität. Aus der Gesamt-Stimmenzahl
+(Log-Skala): **Geheimtipp** (<1.000) · **Szene-bekannt** (1k–10k) · **Etabliert**
+(10k–100k) · **Bestseller** (100k–1 Mio) · **Phänomen** (>1 Mio). Zusätzlich `hype`
+setzen bei Signalen: brandneu/schnell steigend, Cross-Media (Musik/Film/Serie),
+Bestseller-Listen, hohe Verkaufszahlen. (Im Cockpit als eigener Gold-Meter dargestellt.)
+
 **Reihen-Gesamtbild ZULETZT:** erst wenn alle Bände erfasst sind, das Fazit ziehen
 (⌀-Wertung, roter Faden von Lob/Kritik, Abgleich mit MEINEM Empfinden). Bei einem
 Universum fließt dieses Reihen-Fazit dann in die Overall-Notiz ein (die Overall-Summe

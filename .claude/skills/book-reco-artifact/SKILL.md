@@ -57,10 +57,15 @@ Es gibt **zwei semantisch verschiedene Skalen** — jede hat GENAU eine Farbroll
 
 | Bedeutung | Farbe | gilt für |
 |---|---|---|
-| **Community-Wertung 0–5 Sterne** (objektiv, Magnitude → *sequenziell*) | **Blau** (`--rating`), hell→dunkel | Balken der Band-Wertungen, Gewichte-Balken |
+| **Community-Wertung 0–5 Sterne** (Qualität, Magnitude) | **Blau** (`--rating`) | Band-Wertungsbalken, Gewichte |
+| **Bekanntheit/Reichweite** (WIE VIELE bewerten → Nische↔Phänomen) | **Gold** (`--fame`) | Fame-Meter (5 Stufen), Hype-Badges |
 | **positiv** (mein `＋`-Aspekt / Community 👍) | **Grün** (`--pos`) | ＋-Zeilen, 👍, loved-Chips |
 | **negativ** (mein `−`-Aspekt / Community 👎 / No-Go) | **Rot** (`--neg`) | −-Zeilen, 👎, No-Go-Chips |
 | Struktur/Text | warme Neutraltöne | alles andere |
+
+**Bekanntheit ≠ Qualität:** Gold misst NUR Reichweite (Stimmenzahl, Hype), nie ob es gut
+ist. 5 Stufen: Geheimtipp <1k · Szene-bekannt 1k–10k · Etabliert 10k–100k · Bestseller
+100k–1 Mio · Phänomen >1 Mio (aus `bekanntheit_stufe`/`hype` im Vault).
 
 **Eiserne Regeln:**
 - **Rot bedeutet NIE eine Wertung** — nur „negativ / mag ich nicht". Eine 4,32/5 ist
@@ -73,6 +78,19 @@ Es gibt **zwei semantisch verschiedene Skalen** — jede hat GENAU eine Farbroll
 - Farb-Legende („Blau = Wertung 0–5 · Grün ＋ · Rot −") sichtbar einbauen.
 - Palette per `dataviz`-Validator gegen beide Surfaces prüfen; Werte aus dem aktuellen
   `bibliothek.html` übernehmen (Tokens `--rating/--pos/--neg` + Dark-Mode-Stufen).
+
+## Aufbau als Dashboard (Artefakt 1)
+
+Kein langes Scroll-Dokument, sondern ein **Dashboard mit Sticky-Nav + Untermenü** und per
+JS umschaltbaren Ansichten (Hash-Routing `#uebersicht/#werke/#bekanntheit/#releases/
+#geschmack`; Werk-Anker `#dcc` etc. springen in die Werke-Ansicht):
+- **Übersicht (Startseite):** Begrüßung, KPI-Kacheln, „Jetzt & als Nächstes" + roter
+  Faden, **Bekanntheits-Ranking** (Gold-Meter), Mini-Werkkarten mit Cover.
+- **Meine Werke:** volle Reihenkarten (Cover, Fame-Meter, Band-Wertungen, Empfinden,
+  Community). Untermenü listet je Reihe einen Sprung-Link.
+- **Bekanntheit:** 5-Stufen-Skala erklärt + alle Werke mit Meter + Hype.
+- **Releases / Geschmack:** je eigene Ansicht.
+Menü „Meine Werke ▾" ist ein Dropdown mit den einzelnen Reihen.
 
 ## Artefakt 1 — Meine Bibliothek (Basis)
 

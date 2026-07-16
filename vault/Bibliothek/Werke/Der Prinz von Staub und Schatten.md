@@ -16,6 +16,8 @@ sprachen_verfuegbar: [de]          # nur Deutsch, keine engl. Übersetzung
 sprache_erlebt: "de"
 rating_schnitt: "~4,7/5"           # Amazon.de Bd.1
 rating_stimmen_gesamt: "~650+ (Bd.1; Bd.2 noch wenige)"
+bekanntheit_stufe: "Geheimtipp"
+hype: "JA — brandneu (2026), schnell steigend, Cross-Media mit Saltatio Mortis (5 Musik-EPs + Tour)"
 kontext: "Fantasy"
 verdict: "loved"
 format_erlebt: "hoerbuch"

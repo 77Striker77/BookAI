@@ -1,96 +1,107 @@
 <!--
-  VORLAGE für Artefakt 1 "Meine Bibliothek" (artifacts/bibliothek.html) — Landingpage-Cockpit.
-  Wird nach jeder Titel-Analyse AKTUALISIERT und unter derselben URL republisht
-  (title + favicon 📚 nie ändern!). KEINE <html>/<head>/<body>-Tags — nur <style> + Inhalt.
-  AUFBAU: Sticky-Nav (Menü mit Anker-Links) · Hero · Releases · Geschmack · Werke.
-  FARB-SYSTEM verbindlich (SKILL.md): Blau=Wertung 0-5, Grün=positiv, Rot=negativ.
-  COVER: pro Reihe selbst gestaltet (.cover mit Farbverlauf je Weltton + Emoji-Motiv +
-  Titel + Autor) — externe Bilddaten sind im publizierten Artefakt gesperrt.
+  VORLAGE für Artefakt 1 "Meine Bibliothek" (artifacts/bibliothek.html) — DASHBOARD.
+  Republish unter derselben URL (title + favicon 📚 nie ändern!). KEINE <html>/<head>/<body>.
+  AUFBAU: Sticky-Nav mit Untermenü (Dropdown "Meine Werke") + JS-Hash-Routing der Ansichten
+  (#uebersicht Startseite · #werke · #bekanntheit · #releases · #geschmack; Werk-Anker #dcc…).
+  FARB-SYSTEM (SKILL.md): Blau=Wertung 0-5 · GOLD=Bekanntheit/Reichweite · Grün=positiv · Rot=negativ.
+  Fame-Meter = 5 Gold-Stufen aus bekanntheit_stufe/hype im Vault. Cover selbst gestaltet.
   Beispielinhalt = Stand 16.07.2026; beim Publish mit echten Vault-Daten füllen.
 -->
 <title>Meine Bibliothek</title>
 <style>
-  /* ============================================================
-     FARB-SYSTEM (konsistent):
-       BLAU = Community-Wertung 0–5 (objektiv, Magnitude)
-       GRÜN = positiv (mein ＋ / 👍) · ROT = negativ (mein − / 👎 / No-Go)
-       Warme Neutraltöne = Struktur & Text. Rot ist NIE eine Wertung.
-     ============================================================ */
+  /* ===== FARB-SYSTEM (konsistent, je Farbe genau eine Bedeutung) =====
+     BLAU = Community-Wertung 0–5 (Qualität) · GOLD = Bekanntheit/Reichweite (wie viele)
+     GRÜN = positiv (mein ＋ / 👍) · ROT = negativ (mein − / 👎 / No-Go) · Neutral = Struktur
+     Rot ist NIE eine Wertung. Gold misst Reichweite, nicht Qualität. */
   :root {
     color-scheme: light;
     --bg:#f2f0ea; --panel:#faf9f6; --card:#ffffff;
-    --ink:#1b1915; --ink2:#565349; --muted:#8a867d; --line:#e6e2d9; --track:#ebe7df;
+    --ink:#1b1915; --ink2:#565349; --muted:#8a867d; --line:#e6e2d9; --track:#e9e5dc;
     --rating:#245fb0; --rating-soft:#dbe6f6;
     --pos:#12813f; --pos-soft:#dcefe1;
     --neg:#c23a34; --neg-soft:#f3ddda;
-    --de:#245fb0; --en:#7a4bc4; --navbg:rgba(250,249,246,.86);
+    --fame:#9a6b12; --fame-soft:#f0e4c8;
+    --de:#245fb0; --en:#7a4bc4; --navbg:rgba(250,249,246,.9);
   }
-  @media (prefers-color-scheme: dark) {
-    :root:where(:not([data-theme="light"])) {
-      color-scheme: dark;
-      --bg:#121118; --panel:#1b1a21; --card:#222029;
-      --ink:#f0eee9; --ink2:#bdb9b0; --muted:#8f8b83; --line:#302e39; --track:#2a2833;
-      --rating:#5b9bee; --rating-soft:#20304a;
-      --pos:#3fc069; --pos-soft:#183a26;
-      --neg:#e5706a; --neg-soft:#3d2320;
-      --de:#5b9bee; --en:#b596ec; --navbg:rgba(27,26,33,.86);
-    }
-  }
-  :root[data-theme="dark"] {
+  @media (prefers-color-scheme: dark){ :root:where(:not([data-theme="light"])){
     color-scheme: dark;
     --bg:#121118; --panel:#1b1a21; --card:#222029;
     --ink:#f0eee9; --ink2:#bdb9b0; --muted:#8f8b83; --line:#302e39; --track:#2a2833;
     --rating:#5b9bee; --rating-soft:#20304a;
     --pos:#3fc069; --pos-soft:#183a26;
     --neg:#e5706a; --neg-soft:#3d2320;
-    --de:#5b9bee; --en:#b596ec; --navbg:rgba(27,26,33,.86);
+    --fame:#e3b64e; --fame-soft:#3a2f16;
+    --de:#5b9bee; --en:#b596ec; --navbg:rgba(27,26,33,.9);
+  }}
+  :root[data-theme="dark"]{
+    color-scheme: dark;
+    --bg:#121118; --panel:#1b1a21; --card:#222029;
+    --ink:#f0eee9; --ink2:#bdb9b0; --muted:#8f8b83; --line:#302e39; --track:#2a2833;
+    --rating:#5b9bee; --rating-soft:#20304a;
+    --pos:#3fc069; --pos-soft:#183a26;
+    --neg:#e5706a; --neg-soft:#3d2320;
+    --fame:#e3b64e; --fame-soft:#3a2f16;
+    --de:#5b9bee; --en:#b596ec; --navbg:rgba(27,26,33,.9);
   }
 
   * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  @media (prefers-reduced-motion: reduce){ html { scroll-behavior: auto; } }
   body { margin: 0; }
   .page { background: var(--bg); color: var(--ink);
-    font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; min-height: 100vh; }
   .wrap { max-width: 1060px; margin: 0 auto; padding: 0 18px 72px; }
   .tnum { font-variant-numeric: tabular-nums; }
   .subtle { color: var(--muted); }
-  a { color: inherit; }
 
-  /* ---------- sticky nav ---------- */
-  .nav { position: sticky; top: 0; z-index: 20; background: var(--navbg);
-    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
-    border-bottom: 1px solid var(--line); }
-  .nav-in { max-width: 1060px; margin: 0 auto; padding: 10px 18px; display: flex;
-    align-items: center; gap: 14px; flex-wrap: wrap; }
-  .brand { font-weight: 750; font-size: .98rem; margin-right: auto; }
-  .brand small { color: var(--muted); font-weight: 400; font-size: .76rem; margin-left: 4px; }
-  .menu { display: flex; gap: 4px; flex-wrap: wrap; }
-  .menu a { text-decoration: none; color: var(--ink2); font-size: .82rem; font-weight: 600;
-    padding: 5px 11px; border-radius: 999px; border: 1px solid transparent; white-space: nowrap; }
-  .menu a:hover { background: var(--card); border-color: var(--line); color: var(--ink); }
-  .menu a:focus-visible { outline: 2px solid var(--rating); outline-offset: 2px; }
+  /* ---------- nav + submenu ---------- */
+  .nav { position: sticky; top: 0; z-index: 40; background: var(--navbg);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  .nav-in { max-width: 1060px; margin: 0 auto; padding: 9px 18px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .brand { font-weight: 750; font-size: .96rem; margin-right: auto; display:flex; align-items:center; gap:6px; }
+  .brand small { color: var(--muted); font-weight: 400; font-size: .74rem; }
+  .menu { display: flex; gap: 3px; flex-wrap: wrap; }
+  .menu > a, .mi > button { font: inherit; cursor: pointer; text-decoration: none; color: var(--ink2);
+    font-size: .82rem; font-weight: 600; padding: 6px 12px; border-radius: 9px; border: 1px solid transparent; background: none; white-space: nowrap; }
+  .menu > a:hover, .mi > button:hover { background: var(--card); color: var(--ink); }
+  .menu > a.active, .mi.activeparent > button { background: var(--rating-soft); color: var(--ink); }
+  .menu a:focus-visible, .menu button:focus-visible { outline: 2px solid var(--rating); outline-offset: 2px; }
+  .mi { position: relative; }
+  .mi > button::after { content: " ▾"; color: var(--muted); }
+  .dd { position: absolute; top: calc(100% + 4px); left: 0; min-width: 220px; background: var(--card);
+    border: 1px solid var(--line); border-radius: 12px; padding: 6px; box-shadow: 0 8px 24px rgba(0,0,0,.14);
+    display: none; z-index: 50; }
+  .mi:hover .dd, .mi:focus-within .dd { display: block; }
+  .dd a { display: block; text-decoration: none; color: var(--ink); font-size: .85rem; padding: 8px 10px; border-radius: 8px; }
+  .dd a:hover { background: var(--panel); }
+  .dd a small { display: block; color: var(--muted); font-size: .74rem; }
 
-  /* ---------- hero ---------- */
-  .hero { padding: 34px 0 8px; }
-  .hero h1 { font-size: 1.9rem; margin: 0 0 6px; letter-spacing: -.015em; text-wrap: balance; }
-  .hero p { color: var(--ink2); margin: 0; max-width: 62ch; }
-  .stats { display: flex; gap: 8px; flex-wrap: wrap; margin: 18px 0 2px; }
+  /* ---------- views ---------- */
+  .view { display: none; }
+  .view.on { display: block; animation: fade .18s ease; }
+  @keyframes fade { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce){ .view.on { animation: none; } }
+
+  h1 { font-size: 1.75rem; margin: 0 0 6px; letter-spacing: -.015em; }
+  .lead { color: var(--ink2); margin: 0; max-width: 64ch; }
+  .hero { padding: 30px 0 4px; }
+  section { margin: 30px 0 0; }
+  h2 { font-size: .78rem; margin: 0 0 12px; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+
+  .stats { display: flex; gap: 8px; flex-wrap: wrap; margin: 16px 0 2px; }
   .stat { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 9px 15px; min-width: 92px; }
   .stat .n { font-size: 1.22rem; font-weight: 750; }
   .stat .l { font-size: .73rem; color: var(--muted); }
 
-  section { margin: 34px 0 0; scroll-margin-top: 64px; }
-  h2 { font-size: .78rem; margin: 0 0 12px; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 760px){ .grid2 { grid-template-columns: 1fr; } }
+  .card2 { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; }
+  .card2 h3 { font-size: .95rem; margin: 0 0 8px; }
 
-  /* ---------- release timeline ---------- */
   .rel { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
   .rel-row { display: grid; grid-template-columns: 132px 1fr; gap: 12px; padding: 11px 16px; border-top: 1px solid var(--line); align-items: baseline; }
   .rel-row:first-child { border-top: 0; }
-  .rel-date { font-weight: 700; font-size: .85rem; }
-  .rel-date small { display: block; font-weight: 400; color: var(--muted); font-size: .72rem; }
+  .rel-date { font-weight: 700; font-size: .85rem; } .rel-date small { display: block; font-weight: 400; color: var(--muted); font-size: .72rem; }
   .rel-what { font-size: .92rem; } .rel-what .s { color: var(--ink2); font-size: .82rem; }
-  .flag { font-size: .66rem; font-weight: 800; padding: 1px 6px; border-radius: 5px; vertical-align: middle; color: #fff; }
+  .flag { font-size: .66rem; font-weight: 800; padding: 1px 6px; border-radius: 5px; color: #fff; vertical-align: middle; }
   .flag.de { background: var(--de); } .flag.en { background: var(--en); }
 
   .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; }
@@ -101,34 +112,43 @@
   .chip.pos { background: var(--pos-soft); border-color: transparent; }
   .chip.no { background: var(--neg-soft); border-color: transparent; color: var(--neg); font-weight: 600; }
 
-  .key { display: flex; flex-wrap: wrap; gap: 14px; font-size: .78rem; color: var(--ink2); margin: 0 0 14px; align-items: center; }
+  .key { display: flex; flex-wrap: wrap; gap: 12px; font-size: .77rem; color: var(--ink2); margin: 0 0 14px; align-items: center; }
   .key b { font-weight: 600; color: var(--ink); }
   .sw { display: inline-block; width: 11px; height: 11px; border-radius: 3px; vertical-align: -1px; margin-right: 4px; }
-  .sw.r { background: var(--rating); } .sw.p { background: var(--pos); } .sw.n { background: var(--neg); }
+  .sw.r { background: var(--rating); } .sw.p { background: var(--pos); } .sw.n { background: var(--neg); } .sw.f { background: var(--fame); }
 
   /* ---------- covers ---------- */
   .cover { width: 84px; height: 124px; border-radius: 3px 7px 7px 3px; position: relative; overflow: hidden;
     box-shadow: 0 3px 10px rgba(0,0,0,.22), inset 0 0 0 1px rgba(255,255,255,.07);
-    display: flex; flex-direction: column; justify-content: space-between; padding: 10px 9px 9px 14px;
-    color: #f6efe1; flex: 0 0 auto; }
-  .cover::before { content:""; position:absolute; left:0; top:0; bottom:0; width:6px;
-    background: linear-gradient(90deg, rgba(0,0,0,.35), rgba(0,0,0,0)); }
+    display: flex; flex-direction: column; justify-content: space-between; padding: 10px 9px 9px 14px; color: #f6efe1; flex: 0 0 auto; }
+  .cover.sm { width: 60px; height: 88px; padding: 7px 6px 7px 10px; }
+  .cover::before { content:""; position:absolute; left:0; top:0; bottom:0; width:6px; background: linear-gradient(90deg, rgba(0,0,0,.35), rgba(0,0,0,0)); }
   .cover::after { content:""; position:absolute; inset:0; background: radial-gradient(120% 60% at 20% 0%, rgba(255,255,255,.14), transparent 60%); }
   .cover .cm { font-size: 21px; line-height: 1; filter: drop-shadow(0 1px 2px rgba(0,0,0,.5)); }
+  .cover.sm .cm { font-size: 15px; }
   .cover .ct { font-size: .62rem; font-weight: 800; line-height: 1.16; text-shadow: 0 1px 2px rgba(0,0,0,.45); position: relative; }
+  .cover.sm .ct { font-size: .5rem; }
   .cover .ca { font-size: .5rem; opacity: .82; margin-top: 2px; position: relative; }
-  .cover .cband { position:absolute; left:0; right:0; bottom:26px; height:1px; background: rgba(255,255,255,.25); }
+  .cover.sm .ca { display:none; }
+
+  /* ---------- fame meter (GOLD = Reichweite) ---------- */
+  .fame { margin: 6px 0; }
+  .fame-tiers { display: grid; grid-template-columns: repeat(5,1fr); gap: 3px; max-width: 220px; }
+  .ft { height: 7px; border-radius: 3px; background: var(--track); }
+  .ft.on { background: var(--fame); }
+  .fame-lab { font-size: .78rem; color: var(--ink2); margin-top: 4px; }
+  .fame-lab b { color: var(--fame); }
+  .hype { font-size: .72rem; font-weight: 700; color: var(--fame); background: var(--fame-soft); border-radius: 999px; padding: 1px 8px; margin-left: 4px; }
 
   /* ---------- work card ---------- */
-  .work { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 18px;
-    margin: 12px 0; display: grid; grid-template-columns: 84px 1fr; gap: 18px; }
+  .work { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 18px; margin: 12px 0; display: grid; grid-template-columns: 84px 1fr; gap: 18px; scroll-margin-top: 62px; }
   .work.child { margin: 0; }
-  @media (max-width: 560px){ .work { grid-template-columns: 1fr; } .work .cover { margin-bottom: 2px; } }
+  @media (max-width: 560px){ .work { grid-template-columns: 1fr; } }
   .wh { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; }
   .wh .t { font-size: 1.12rem; font-weight: 750; }
   .wh .tag { font-size: .74rem; color: var(--muted); }
   .verdict { font-size: .72rem; font-weight: 700; color: var(--pos); background: var(--pos-soft); border-radius: 999px; padding: 2px 9px; }
-  .wmeta { color: var(--ink2); font-size: .83rem; margin: 5px 0 12px; }
+  .wmeta { color: var(--ink2); font-size: .83rem; margin: 5px 0 10px; }
 
   .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
   @media (max-width: 720px){ .cols { grid-template-columns: 1fr; } }
@@ -147,129 +167,160 @@
   .band.mine .bt { font-weight: 650; } .band.mine .bn::before { content: "▸"; color: var(--rating); margin-right: 2px; }
 
   .asp { font-size: .85rem; margin: 3px 0; padding-left: 20px; text-indent: -20px; }
-  .asp .g { color: var(--pos); font-weight: 800; margin-right: 7px; }
-  .asp .b { color: var(--neg); font-weight: 800; margin-right: 7px; }
+  .asp .g { color: var(--pos); font-weight: 800; margin-right: 7px; } .asp .b { color: var(--neg); font-weight: 800; margin-right: 7px; }
   .comm { font-size: .82rem; margin: 3px 0; color: var(--ink2); padding-left: 22px; text-indent: -22px; }
   .comm .g { color: var(--pos); } .comm .b { color: var(--neg); }
 
-  .ov { background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--rating);
-    border-radius: 8px 16px 16px 8px; padding: 18px; display: grid; grid-template-columns: 84px 1fr; gap: 18px; }
+  .ov { background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--rating); border-radius: 8px 16px 16px 8px; padding: 18px; display: grid; grid-template-columns: 84px 1fr; gap: 18px; scroll-margin-top: 62px; }
   @media (max-width: 560px){ .ov { grid-template-columns: 1fr; } }
-  .children { margin: 0 0 12px 18px; padding-left: 20px; border-left: 2px solid var(--line);
-    display: flex; flex-direction: column; gap: 12px; padding-top: 12px; }
+  .children { margin: 0 0 12px 18px; padding-left: 20px; border-left: 2px solid var(--line); display: flex; flex-direction: column; gap: 12px; padding-top: 12px; }
   .note { font-size: .82rem; color: var(--muted); margin-top: 8px; }
   .synth { font-size: .86rem; margin-top: 10px; border-left: 3px solid var(--rating); padding-left: 10px; color: var(--ink); }
   .warn { color: var(--muted); font-weight: 600; }
+
+  /* overview mini series cards */
+  .mini { display: grid; grid-template-columns: 60px 1fr; gap: 12px; background: var(--card); border: 1px solid var(--line);
+    border-radius: 14px; padding: 12px 14px; text-decoration: none; color: inherit; }
+  .mini:hover { border-color: var(--rating); }
+  .mini .mt { font-weight: 700; font-size: .96rem; }
+  .mini .mm { color: var(--muted); font-size: .78rem; margin: 1px 0 6px; }
+  .biglink { display:inline-block; margin-top:10px; font-size:.82rem; font-weight:600; color:var(--rating); text-decoration:none; }
+  .biglink:hover { text-decoration: underline; }
+
   .footer { margin-top: 34px; color: var(--muted); font-size: .78rem; line-height: 1.6; border-top: 1px solid var(--line); padding-top: 16px; }
 </style>
 
 <div class="page">
 
-  <!-- ===================== NAVIGATION ===================== -->
+  <!-- ===================== NAV ===================== -->
   <nav class="nav">
     <div class="nav-in">
-      <span class="brand">📚 Meine Bibliothek <small>· Cockpit</small></span>
-      <div class="menu">
-        <a href="#releases">📅 Releases</a>
-        <a href="#geschmack">🧭 Geschmack</a>
-        <a href="#werke">📚 Werke</a>
-        <a href="#dcc">Dungeon Crawler Carl</a>
-        <a href="#goetter">Streitende Götter</a>
+      <span class="brand">📚 Meine Bibliothek <small>· Dashboard</small></span>
+      <div class="menu" id="menu">
+        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
+        <span class="mi">
+          <button data-view="werke" aria-haspopup="true">Meine Werke</button>
+          <div class="dd">
+            <a href="#werke" data-view="werke">Alle Werke</a>
+            <a href="#dcc" data-view="werke" data-scroll="dcc">Dungeon Crawler Carl <small>LitRPG · Phänomen</small></a>
+            <a href="#goetter" data-view="werke" data-scroll="goetter">Die Streitenden Götter <small>Fantasy · 2 Reihen</small></a>
+            <a href="#sturmfels" data-view="werke" data-scroll="sturmfels">↳ Sturmfels-Akademie</a>
+            <a href="#prinz" data-view="werke" data-scroll="prinz">↳ Prinz von Staub und Schatten</a>
+          </div>
+        </span>
+        <a href="#bekanntheit" data-view="bekanntheit">Bekanntheit</a>
+        <a href="#releases" data-view="releases">Releases</a>
+        <a href="#geschmack" data-view="geschmack">Geschmack</a>
       </div>
     </div>
   </nav>
 
   <div class="wrap">
 
-    <!-- ===================== HERO ===================== -->
-    <header class="hero">
-      <h1>Meine Bibliothek</h1>
-      <p>Die Basis meines Buch- &amp; Hörbuch-Empfehlungssystems — was ich liebe, warum, und
-        was als Nächstes erscheint. Aus dem Obsidian-Vault, aktualisiert mit jedem neuen Werk.
-        Stand 16.07.2026.</p>
+    <!-- ============================================================ ÜBERSICHT (Startseite) -->
+    <div class="view" id="v-uebersicht">
+      <header class="hero">
+        <h1>Willkommen zurück 👋</h1>
+        <p class="lead">Das Cockpit meines Buch- &amp; Hörbuch-Geschmacks: was ich liebe, wie bekannt es ist
+          und was als Nächstes erscheint. 3 Reihen analysiert, alle geliebt.</p>
+      </header>
       <div class="stats">
         <div class="stat"><div class="n tnum">3</div><div class="l">Reihen analysiert</div></div>
         <div class="stat"><div class="n tnum">3</div><div class="l">davon geliebt</div></div>
-        <div class="stat"><div class="n">🎧 dt.</div><div class="l">Format: Hörbuch</div></div>
-        <div class="stat"><div class="n tnum">2</div><div class="l">Geschmacksräume</div></div>
         <div class="stat"><div class="n">4,5<span class="subtle" style="font-size:.62em"> /5</span></div><div class="l">Community ⌀</div></div>
+        <div class="stat"><div class="n">🎧 dt.</div><div class="l">Format</div></div>
+        <div class="stat"><div class="n tnum">2</div><div class="l">Geschmacksräume</div></div>
       </div>
-    </header>
 
-    <!-- ===================== RELEASES ===================== -->
-    <section id="releases">
-      <h2>📅 Kommende Releases — was ich als Nächstes hören/lesen kann</h2>
-      <div class="rel">
-        <div class="rel-row">
-          <div class="rel-date">~ Sept 2026 <small>⚠️ unbestätigt</small></div>
-          <div class="rel-what"><span class="flag de">DE</span> <b>Der Prinz von Staub und Schatten — Bd. 3</b> (evtl. „Hoffnung")
-            <div class="s">nächster Band im Streitende-Götter-Universum · Hörbuch Günter Merlau</div></div>
+      <section>
+        <div class="grid2">
+          <div class="card2">
+            <h3>🎧 Jetzt &amp; als Nächstes</h3>
+            <p style="margin:0 0 8px;font-size:.9rem"><b>Am Hören:</b> DCC Bd. 2 „Carl's Doomsday Scenario" (dt.)</p>
+            <p style="margin:0;font-size:.9rem"><b>Nächstes dt. Release:</b> <span class="flag de">DE</span>
+              <b>Prinz Bd. 3</b> ~Sept 2026 <span class="subtle">(unbestätigt)</span>, dann DCC Bd. 3 am 18.11.2026.</p>
+            <a class="biglink" href="#releases" data-view="releases">Alle Releases ansehen →</a>
+          </div>
+          <div class="card2">
+            <h3>🧭 Mein roter Faden</h3>
+            <p style="margin:0;font-size:.9rem"><b>Fokus &amp; Vorwärtsdrang</b> (3× belegt) · handlungsfähiger Held ·
+              starker Sprecher · Figuren-Bindung. <span class="subtle">Deutsch bevorzugt · Reihe ≥ 3 Bände · kein Romantasy.</span></p>
+            <a class="biglink" href="#geschmack" data-view="geschmack">Geschmack im Detail →</a>
+          </div>
         </div>
-        <div class="rel-row">
-          <div class="rel-date">18.11.2026 <small>Print bestätigt</small></div>
-          <div class="rel-what"><span class="flag de">DE</span> <b>Dungeon Crawler Carl — Bd. 3</b> „The Dungeon Anarchist's Cookbook"
-            <div class="s">Fischer Tor · dt. Hörbuch angekündigt, Termin noch offen</div></div>
-        </div>
-        <div class="rel-row">
-          <div class="rel-date">offen <small>kein Termin</small></div>
-          <div class="rel-what"><span class="flag en">EN</span> <b>Dungeon Crawler Carl — Bd. 9</b> „The Beautiful Place" (Finale)
-            <div class="s">Prolog Juni 2026 · für mich nachrangig (ich warte auf Deutsch)</div></div>
-        </div>
-        <div class="rel-row">
-          <div class="rel-date">danach</div>
-          <div class="rel-what">DCC Bd. 4+ auf Deutsch noch <b>unterminiert</b> · Prinz Bd. 4–5 (2026–27) · Saltatio-Mortis-Musik-EPs zum Prinzen</div>
-        </div>
-      </div>
-      <p class="note">Aktuell am Hören: <b>DCC Bd. 2</b> „Carl's Doomsday Scenario" (dt.). Zwischen den dt. DCC-Bänden ist die Lücke, die Empfehlungen füllen sollen.</p>
-    </section>
+      </section>
 
-    <!-- ===================== GESCHMACK ===================== -->
-    <section id="geschmack">
-      <h2>🧭 Mein Geschmack — die Kerndaten fürs Matching</h2>
-      <div class="panel">
-        <div class="thread">
-          <div class="k">1</div><div><b>Fokus &amp; Vorwärtsdrang</b> (stärkster Faden, 3× belegt) — kein Abschweifen, spürbarer Progress, kein zäher Start. <span class="subtle">Milderung: ein starkes Finale macht einen zähen Start verzeihlich.</span></div>
-          <div class="k">2</div><div><b>Handlungsfähiger Held</b> — entschlossen wie Carl (＋), nicht zu lange passiv wie Niri in Bd. 1 (−).</div>
-          <div class="k">3</div><div><b>Sprecher-Performance</b> — Kaminski &amp; Merlau „trägt massiv" → Quasi-Vetorecht bei Hörbüchern.</div>
-          <div class="k">4</div><div><b>Figuren-Bindung</b> — ungleiches Duo / Gemeinschaft tragen das Erlebnis.</div>
+      <section>
+        <h2>🔊 Bekanntheits-Ranking — wie viele kennen &amp; bewerten es</h2>
+        <div class="panel">
+          <div class="fame-item" style="margin:0 0 14px">
+            <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Dungeon Crawler Carl</b><span class="subtle" style="font-size:.8rem">~1,7 Mio Wertungen</span></div>
+            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span></div>
+              <div class="fame-lab"><b>Phänomen</b> · Kult im LitRPG <span class="hype">🔥 &gt;10 Mio verkauft</span></div></div>
+          </div>
+          <div class="fame-item" style="margin:0 0 14px">
+            <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Sturmfels-Akademie</b><span class="subtle" style="font-size:.8rem">~1.680 Wertungen</span></div>
+            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft"></span><span class="ft"></span><span class="ft"></span></div>
+              <div class="fame-lab"><b>Szene-bekannt</b> · in DE etabliert, international Nische</div></div>
+          </div>
+          <div class="fame-item">
+            <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Der Prinz von Staub und Schatten</b><span class="subtle" style="font-size:.8rem">~650 Wertungen</span></div>
+            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft"></span><span class="ft"></span><span class="ft"></span><span class="ft"></span></div>
+              <div class="fame-lab"><b>Geheimtipp</b> · brandneu <span class="hype">🚀 Hype: Saltatio-Mortis-Cross-Media</span></div></div>
+          </div>
+          <a class="biglink" href="#bekanntheit" data-view="bekanntheit">Bekanntheit erklärt →</a>
         </div>
-        <div class="chips">
-          <span class="chip pos">＋ Konstanter Vorwärtsdrang</span>
-          <span class="chip pos">＋ pragmatischer Held</span>
-          <span class="chip pos">＋ starkes Finale</span>
-          <span class="chip pos">＋ starker Sprecher</span>
-          <span class="chip">Deutsch bevorzugt</span>
-          <span class="chip">Buch &amp; Hörbuch gleichwertig</span>
-          <span class="chip no">✕ Standalones (Reihe ≥ 3 Bände)</span>
-          <span class="chip no">✕ Romantasy-Fokus</span>
-          <span class="chip no">✕ zäher Start ohne Payoff</span>
-        </div>
-        <div class="note">Zwei Geschmacksräume mit je eigenen Gewichten: <b>LitRPG</b> (Ton/Figuren/Handwerk hoch) und <b>Fantasy</b> (Themen/Figuren hoch, Handwerk 0,18 — Fokus zählt hier besonders).</div>
-      </div>
-    </section>
+      </section>
 
-    <!-- ===================== WERKE ===================== -->
-    <section id="werke">
-      <h2>📚 Meine Werke — Reihen mit echten Band-Wertungen</h2>
-      <div class="key">
-        <span><span class="sw r"></span><b>Community-Wertung</b> 0–5 Sterne (objektiv)</span>
-        <span><span class="sw p"></span><b>＋ / 👍 positiv</b> · <span class="sw n"></span><b>− / 👎 negativ</b> (Empfinden −2…+2)</span>
-        <span>★ bestbewerteter Band · ▸ von mir gehört</span>
+      <section>
+        <h2>📚 Meine Werke</h2>
+        <div class="grid2">
+          <a class="mini" href="#dcc" data-view="werke" data-scroll="dcc">
+            <div class="cover sm" style="background:linear-gradient(150deg,#3a2d6b,#1a1330 55%,#0e1a2e)"><div class="cm">🎮</div><div class="ct">DCC</div></div>
+            <div><div class="mt">Dungeon Crawler Carl</div><div class="mm">LitRPG · 8/9 Bände · ♥ geliebt</div>
+              <span class="subtle" style="font-size:.8rem"><span class="sw r"></span>⌀ 4,5/5 · <span class="sw f"></span>Phänomen</span></div>
+          </a>
+          <a class="mini" href="#sturmfels" data-view="werke" data-scroll="sturmfels">
+            <div class="cover sm" style="background:linear-gradient(150deg,#4a5a86,#2c3a5c 55%,#20283c)"><div class="cm">🎓</div><div class="ct">SA</div></div>
+            <div><div class="mt">Sturmfels-Akademie</div><div class="mm">Fantasy · 5/5 · ♥ geliebt</div>
+              <span class="subtle" style="font-size:.8rem"><span class="sw r"></span>⌀ 4,4/5 · <span class="sw f"></span>Szene-bekannt</span></div>
+          </a>
+          <a class="mini" href="#prinz" data-view="werke" data-scroll="prinz">
+            <div class="cover sm" style="background:linear-gradient(150deg,#b07b2e,#7a5019 55%,#3d2f1c)"><div class="cm">👑</div><div class="ct">PSS</div></div>
+            <div><div class="mt">Der Prinz von Staub und Schatten</div><div class="mm">Fantasy · 2/5 · ♥ geliebt</div>
+              <span class="subtle" style="font-size:.8rem"><span class="sw r"></span>⌀ 4,7/5 · <span class="sw f"></span>Geheimtipp 🚀</span></div>
+          </a>
+          <a class="mini" href="#goetter" data-view="werke" data-scroll="goetter">
+            <div class="cover sm" style="background:linear-gradient(150deg,#7a3b1e,#3d2415 50%,#20242e)"><div class="cm">🏰</div><div class="ct">DSG</div></div>
+            <div><div class="mt">Die Streitenden Götter</div><div class="mm">Universum · Overall beider Reihen</div>
+              <span class="subtle" style="font-size:.8rem">Sturmfels + Prinz zusammen</span></div>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <!-- ============================================================ WERKE -->
+    <div class="view" id="v-werke">
+      <header class="hero"><h1>Meine Werke</h1><p class="lead">Alle geliebten Reihen mit echten Band-Wertungen, meinem Empfinden, Community-Stimmen und Bekanntheit.</p></header>
+      <div class="key" style="margin-top:16px">
+        <span><span class="sw r"></span><b>Wertung</b> 0–5 (Qualität)</span>
+        <span><span class="sw f"></span><b>Bekanntheit</b> (wie viele)</span>
+        <span><span class="sw p"></span><b>＋/👍</b> · <span class="sw n"></span><b>−/👎</b> (mein Empfinden)</span>
+        <span>★ bester Band · ▸ von mir gehört</span>
       </div>
 
       <!-- DCC -->
       <article class="work" id="dcc">
-        <div class="cover" style="background:linear-gradient(150deg,#3a2d6b 0%,#1a1330 55%,#0e1a2e 100%)">
-          <div class="cm">🎮⚔️</div>
-          <div><div class="cband"></div><div class="ct">DUNGEON CRAWLER CARL</div><div class="ca">Matt Dinniman</div></div>
-        </div>
+        <div class="cover" style="background:linear-gradient(150deg,#3a2d6b,#1a1330 55%,#0e1a2e)"><div class="cm">🎮⚔️</div><div><div class="ct">DUNGEON CRAWLER CARL</div><div class="ca">Matt Dinniman</div></div></div>
         <div>
           <div class="wh"><span class="t">Dungeon Crawler Carl</span><span class="verdict">♥ geliebt</span><span class="tag">· LitRPG · Reihe</span></div>
-          <div class="wmeta">8 von 9 Bänden · EN komplett (Jeff Hays) · DE im Aufbau (Stefan Kaminski, seit Feb 2026) · Sprachen EN·DE·ES·FR·IT·SV·PT · Community ⌀ 4,5/5 bei ~1,7 Mio (engl. Audible 4,9)</div>
-          <div class="cols">
+          <div class="wmeta">8 von 9 Bänden · EN komplett (Jeff Hays) · DE im Aufbau (Stefan Kaminski, seit Feb 2026) · Sprachen EN·DE·ES·FR·IT·SV·PT</div>
+          <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span></div>
+            <div class="fame-lab"><b>Phänomen</b> · ~1,7 Mio Wertungen (engl. Audible 4,9·34k+) <span class="hype">🔥 Kult · &gt;10 Mio verkauft</span></div></div>
+          <div class="cols" style="margin-top:12px">
             <div>
               <p class="box-title">Community-Wertung je Band · Goodreads /5</p>
-              <p class="hint">Balken = Ausschnitt 4,0–5,0 · alle Bände sind stark bewertet, der Zoom zeigt nur die Unterschiede.</p>
+              <p class="hint">Balken = Ausschnitt 4,0–5,0 · alle Bände sind stark, der Zoom zeigt nur Unterschiede.</p>
               <div class="axis"><span class="a"><span>4,0</span><span>5,0</span></span></div>
               <div class="band mine"><span class="bn">1</span><span class="bt">Dungeon Crawler Carl</span><div class="rbar"><span style="width:45%"></span></div><span class="rv">4,45</span></div>
               <div class="band mine"><span class="bn">2</span><span class="bt">Carl's Doomsday Scenario</span><div class="rbar"><span style="width:49%"></span></div><span class="rv">4,49</span></div>
@@ -291,16 +342,13 @@
               <div class="comm"><span class="b">👎</span>derber Humor polarisiert · <b>Bd. 7 „wo ist der Spaß hin", Leerlauf/aufgebläht</b> = mein roter Faden!</div>
             </div>
           </div>
-          <div class="synth">Maßstab-Werk in LitRPG (10 Aspekte ＋2). Community bestätigt: Bd. 5 bester, Bd. 3 am schwächsten (dennoch 4,40/5 = stark). Warnsignal Bd. 7 (Fokus) — noch irrelevant, ich bin dt. erst bei Bd. 2.</div>
+          <div class="synth">Maßstab-Werk in LitRPG (10 Aspekte ＋2). Community bestätigt: Bd. 5 bester, Bd. 3 schwächster (dennoch 4,40/5 = stark). Warnsignal Bd. 7 (Fokus) — noch irrelevant, ich bin dt. erst bei Bd. 2.</div>
         </div>
       </article>
 
-      <!-- Streitende Götter (Overall) -->
+      <!-- Streitende Götter -->
       <div class="ov" id="goetter">
-        <div class="cover" style="background:linear-gradient(150deg,#7a3b1e 0%,#3d2415 50%,#20242e 100%)">
-          <div class="cm">🏰⚡</div>
-          <div><div class="cband"></div><div class="ct">DIE STREITENDEN GÖTTER</div><div class="ca">Torsten Weitze · Universum</div></div>
-        </div>
+        <div class="cover" style="background:linear-gradient(150deg,#7a3b1e,#3d2415 50%,#20242e)"><div class="cm">🏰⚡</div><div><div class="ct">DIE STREITENDEN GÖTTER</div><div class="ca">Torsten Weitze · Universum</div></div></div>
         <div>
           <div class="wh"><span class="t">Die Streitenden Götter</span><span class="verdict">♥ geliebt</span><span class="tag">· Fantasy · Overall = Summe der Reihen</span></div>
           <div class="wmeta">7 erschienen / ~10 geplant · nur Deutsch (kein Übersetzungs-Warten) · Günter Merlau · Community ⌀ 4,4–4,7/5</div>
@@ -309,19 +357,18 @@
             <span class="chip">− Magiesystem (generisch + zu restriktiv)</span>
             <span class="chip">Merlau „trägt massiv"</span>
           </div>
-          <div class="synth">Beide Reihen gleich stark geliebt — mit <b>demselben wunden Punkt</b>: zäher, unfokussierter Start. Die Community-Wertungen belegen genau das. Getragen von Themen, Figuren-Aufstieg, Welt &amp; Sprecher.</div>
+          <div class="synth">Beide Reihen gleich stark geliebt — mit <b>demselben wunden Punkt</b>: zäher, unfokussierter Start. Die Community-Wertungen belegen genau das.</div>
         </div>
       </div>
       <div class="children">
-        <article class="work child">
-          <div class="cover" style="background:linear-gradient(150deg,#4a5a86 0%,#2c3a5c 55%,#20283c 100%)">
-            <div class="cm">🎓🗼</div>
-            <div><div class="cband"></div><div class="ct">STURMFELS-AKADEMIE</div><div class="ca">Torsten Weitze</div></div>
-          </div>
+        <article class="work child" id="sturmfels">
+          <div class="cover" style="background:linear-gradient(150deg,#4a5a86,#2c3a5c 55%,#20283c)"><div class="cm">🎓🗼</div><div><div class="ct">STURMFELS-AKADEMIE</div><div class="ca">Torsten Weitze</div></div></div>
           <div>
             <div class="wh"><span class="t">Sturmfels-Akademie</span><span class="verdict">♥ geliebt</span><span class="tag">· 5/5 abgeschlossen</span></div>
-            <div class="wmeta">2023–2025 · nur DE · Community ⌀ 4,4/5 (~1.680)</div>
-            <div class="cols">
+            <div class="wmeta">2023–2025 · nur DE</div>
+            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft"></span><span class="ft"></span><span class="ft"></span></div>
+              <div class="fame-lab"><b>Szene-bekannt</b> · ~1.680 Wertungen · in DE etabliert, international Nische</div></div>
+            <div class="cols" style="margin-top:12px">
               <div>
                 <p class="box-title">Community-Wertung je Band · Goodreads /5</p>
                 <p class="hint">Balken = Ausschnitt 4,0–5,0.</p>
@@ -341,28 +388,27 @@
                 <div class="asp"><span class="b">−</span>Niri zu lange zu schwach · zu wenig Progress</div>
                 <p class="box-title" style="margin-top:12px">Community sagt</p>
                 <div class="comm"><span class="g">👍</span>Weltenbau · Nebenfiguren · Merlau · Finale</div>
-                <div class="comm"><span class="b">👎</span><b>Bd. 1 langsamer Start (erstes Viertel)</b> = deckt meine −-Kritik · RPG-Schema · vorhersehbar</div>
+                <div class="comm"><span class="b">👎</span><b>Bd. 1 langsamer Start (erstes Viertel)</b> = deckt meine −-Kritik</div>
               </div>
             </div>
           </div>
         </article>
 
-        <article class="work child">
-          <div class="cover" style="background:linear-gradient(150deg,#b07b2e 0%,#7a5019 50%,#3d2f1c 100%)">
-            <div class="cm">👑🏜️</div>
-            <div><div class="cband"></div><div class="ct">DER PRINZ VON STAUB UND SCHATTEN</div><div class="ca">Torsten Weitze</div></div>
-          </div>
+        <article class="work child" id="prinz">
+          <div class="cover" style="background:linear-gradient(150deg,#b07b2e,#7a5019 50%,#3d2f1c)"><div class="cm">👑🏜️</div><div><div class="ct">DER PRINZ VON STAUB UND SCHATTEN</div><div class="ca">Torsten Weitze</div></div></div>
           <div>
             <div class="wh"><span class="t">Der Prinz von Staub und Schatten</span><span class="verdict">♥ geliebt</span><span class="tag">· 2/5 · laufend</span></div>
-            <div class="wmeta">seit 2026 · nur DE · Community ⌀ ~4,7/5 (~650, Bd. 1)</div>
-            <div class="cols">
+            <div class="wmeta">seit 2026 · nur DE</div>
+            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft"></span><span class="ft"></span><span class="ft"></span><span class="ft"></span></div>
+              <div class="fame-lab"><b>Geheimtipp</b> · ~650 Wertungen (Bd. 1) <span class="hype">🚀 Hype: brandneu + Saltatio Mortis</span></div></div>
+            <div class="cols" style="margin-top:12px">
               <div>
                 <p class="box-title">Community-Wertung je Band · Amazon.de /5</p>
                 <p class="hint">Balken = Ausschnitt 4,0–5,0.</p>
                 <div class="axis"><span class="a"><span>4,0</span><span>5,0</span></span></div>
                 <div class="band top mine"><span class="bn">1</span><span class="bt">Heimkehr</span><div class="rbar"><span style="width:70%"></span></div><span class="rv">~4,7</span></div>
                 <div class="band mine"><span class="bn">2</span><span class="bt">Widerstand</span><div class="rbar"><span style="width:8%;background:var(--track)"></span></div><span class="rv warn">neu</span></div>
-                <p class="note">Sehr neu (2026) → Bd. 2 noch zu wenige Wertungen. Bd. 1 stärker gelobt als Bd. 2.</p>
+                <p class="note">Sehr neu (2026) → Bd. 2 noch zu wenige Wertungen. Bd. 1 stärker gelobt.</p>
               </div>
               <div>
                 <p class="box-title">Mein Empfinden</p>
@@ -377,15 +423,146 @@
           </div>
         </article>
       </div>
+    </div>
 
-    </section>
+    <!-- ============================================================ BEKANNTHEIT -->
+    <div class="view" id="v-bekanntheit">
+      <header class="hero"><h1>Bekanntheit &amp; Hype</h1><p class="lead">Wie viele Menschen haben ein Werk bewertet oder kommentiert — also wie <b>bekannt</b> es ist.
+        Das misst <b>Reichweite</b>, nicht Qualität (die steckt in der Wertung). Skala nach Anzahl der Stimmen (logarithmisch).</p></header>
+      <section>
+        <div class="key" style="margin-bottom:14px">
+          <span><span class="sw f"></span><b>Gold = Bekanntheit</b> (5 Stufen)</span>
+          <span>🚀 = aktueller Hype · 🔥 = etablierter Kult</span>
+        </div>
+        <div class="panel" style="margin-bottom:14px">
+          <p style="margin:0 0 4px;font-size:.86rem"><b>Die 5 Stufen (nach Anzahl Wertungen/Kommentare):</b></p>
+          <p style="margin:0;font-size:.85rem;color:var(--ink2)">
+            ▮ <b>Geheimtipp</b> (&lt; 1.000) · ▮▮ <b>Szene-bekannt</b> (1k–10k) · ▮▮▮ <b>Etabliert</b> (10k–100k) ·
+            ▮▮▮▮ <b>Bestseller</b> (100k–1 Mio) · ▮▮▮▮▮ <b>Phänomen</b> (&gt; 1 Mio)</p>
+        </div>
+
+        <div class="panel">
+          <div style="margin:0 0 16px">
+            <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Dungeon Crawler Carl</b><span class="subtle" style="font-size:.82rem">~1,7 Mio Wertungen · engl. Audible 34k+</span></div>
+            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span></div>
+              <div class="fame-lab"><b>Phänomen</b> <span class="hype">🔥 Kult · &gt;10 Mio verkauft · Audible-Bestseller · 7 Sprachen</span></div></div>
+            <p class="note">Eines der größten LitRPG-Werke überhaupt; das Hörbuch verkauft sich besser als Print/eBook.</p>
+          </div>
+          <div style="margin:0 0 16px">
+            <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Sturmfels-Akademie</b><span class="subtle" style="font-size:.82rem">~1.680 Goodreads-Wertungen</span></div>
+            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft"></span><span class="ft"></span><span class="ft"></span></div>
+              <div class="fame-lab"><b>Szene-bekannt</b></div></div>
+            <p class="note">Torsten Weitze ist einer der erfolgreichsten dt. Fantasy-Autoren — aber nur auf Deutsch, daher international eine Nische.</p>
+          </div>
+          <div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Der Prinz von Staub und Schatten</b><span class="subtle" style="font-size:.82rem">~650 Wertungen (Bd. 1)</span></div>
+            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft"></span><span class="ft"></span><span class="ft"></span><span class="ft"></span></div>
+              <div class="fame-lab"><b>Geheimtipp</b> <span class="hype">🚀 Hype: brandneu 2026, schnell steigend, Cross-Media mit Saltatio Mortis (5 Musik-EPs + Burgentour)</span></div></div>
+            <p class="note">Noch kleine Zahlen, aber deutliche Aufmerksamkeit — die Reichweite dürfte 2026/27 stark wachsen.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ============================================================ RELEASES -->
+    <div class="view" id="v-releases">
+      <header class="hero"><h1>Kommende Releases</h1><p class="lead">Was ich als Nächstes hören/lesen kann — Deutsch und Englisch getrennt.</p></header>
+      <section>
+        <div class="rel">
+          <div class="rel-row"><div class="rel-date">~ Sept 2026 <small>⚠️ unbestätigt</small></div>
+            <div class="rel-what"><span class="flag de">DE</span> <b>Der Prinz von Staub und Schatten — Bd. 3</b> (evtl. „Hoffnung")<div class="s">nächster Band im Streitende-Götter-Universum · Hörbuch Günter Merlau</div></div></div>
+          <div class="rel-row"><div class="rel-date">18.11.2026 <small>Print bestätigt</small></div>
+            <div class="rel-what"><span class="flag de">DE</span> <b>Dungeon Crawler Carl — Bd. 3</b> „The Dungeon Anarchist's Cookbook"<div class="s">Fischer Tor · dt. Hörbuch angekündigt, Termin noch offen</div></div></div>
+          <div class="rel-row"><div class="rel-date">offen <small>kein Termin</small></div>
+            <div class="rel-what"><span class="flag en">EN</span> <b>Dungeon Crawler Carl — Bd. 9</b> „The Beautiful Place" (Finale)<div class="s">Prolog Juni 2026 · für mich nachrangig (ich warte auf Deutsch)</div></div></div>
+          <div class="rel-row"><div class="rel-date">danach</div>
+            <div class="rel-what">DCC Bd. 4+ auf Deutsch noch <b>unterminiert</b> · Prinz Bd. 4–5 (2026–27) · Saltatio-Mortis-Musik-EPs zum Prinzen</div></div>
+        </div>
+        <p class="note">Aktuell am Hören: <b>DCC Bd. 2</b> „Carl's Doomsday Scenario" (dt.). Zwischen den dt. DCC-Bänden ist die Lücke, die Empfehlungen füllen sollen.</p>
+      </section>
+    </div>
+
+    <!-- ============================================================ GESCHMACK -->
+    <div class="view" id="v-geschmack">
+      <header class="hero"><h1>Mein Geschmack</h1><p class="lead">Die Kerndaten, gegen die neue Bücher gematcht werden.</p></header>
+      <section>
+        <div class="panel">
+          <div class="thread">
+            <div class="k">1</div><div><b>Fokus &amp; Vorwärtsdrang</b> (stärkster Faden, 3× belegt) — kein Abschweifen, spürbarer Progress, kein zäher Start. <span class="subtle">Milderung: ein starkes Finale macht einen zähen Start verzeihlich.</span></div>
+            <div class="k">2</div><div><b>Handlungsfähiger Held</b> — entschlossen wie Carl (＋), nicht zu lange passiv wie Niri in Bd. 1 (−).</div>
+            <div class="k">3</div><div><b>Sprecher-Performance</b> — Kaminski &amp; Merlau „trägt massiv" → Quasi-Vetorecht bei Hörbüchern.</div>
+            <div class="k">4</div><div><b>Figuren-Bindung</b> — ungleiches Duo / Gemeinschaft tragen das Erlebnis.</div>
+          </div>
+          <div class="chips">
+            <span class="chip pos">＋ Konstanter Vorwärtsdrang</span>
+            <span class="chip pos">＋ pragmatischer Held</span>
+            <span class="chip pos">＋ starkes Finale</span>
+            <span class="chip pos">＋ starker Sprecher</span>
+            <span class="chip">Deutsch bevorzugt</span>
+            <span class="chip">Buch &amp; Hörbuch gleichwertig</span>
+            <span class="chip no">✕ Standalones (Reihe ≥ 3 Bände)</span>
+            <span class="chip no">✕ Romantasy-Fokus</span>
+            <span class="chip no">✕ zäher Start ohne Payoff</span>
+          </div>
+          <div class="note">Zwei Geschmacksräume mit je eigenen Gewichten: <b>LitRPG</b> (Ton/Figuren/Handwerk hoch) und <b>Fantasy</b> (Themen/Figuren hoch, Handwerk 0,18 — Fokus zählt hier besonders).</div>
+        </div>
+      </section>
+    </div>
 
     <p class="footer">
-      <b>Zwei Skalen, zwei Farben — nie vermischt:</b> <span style="color:var(--rating)">■</span> Blau = Community-Wertung auf der
-      <b>0–5-Sterne-Skala</b> der Quelle (4,32/5 ist bereits sehr gut; die Balken zeigen den Ausschnitt 4,0–5,0).
-      <span style="color:var(--pos)">■</span> Grün /<span style="color:var(--neg)">■</span> Rot = mein persönliches Empfinden (−2…+2), immer mit ＋/− bzw. 👍/👎.
-      Cover sind stilisiert (externe Bilddaten sind im Artefakt gesperrt). Alle Wertungen aus echten Nutzerdaten (Goodreads/Amazon/Audible) · Details im Vault.
+      <b>Vier Farben, vier Bedeutungen:</b> <span style="color:var(--rating)">■</span> Blau = Community-Wertung 0–5 (Qualität) ·
+      <span style="color:var(--fame)">■</span> Gold = Bekanntheit/Reichweite (wie viele) ·
+      <span style="color:var(--pos)">■</span> Grün ＋/👍 &amp; <span style="color:var(--neg)">■</span> Rot −/👎 = mein Empfinden (−2…+2).
+      Cover selbst gestaltet · alle Zahlen aus echten Nutzerdaten (Goodreads/Amazon/Audible) · Details im Vault.
     </p>
 
   </div>
 </div>
+
+<script>
+(function(){
+  var views = ["uebersicht","werke","bekanntheit","releases","geschmack"];
+  var menu = document.getElementById("menu");
+  function show(view, scrollId){
+    if(views.indexOf(view)<0) view = "uebersicht";
+    views.forEach(function(v){
+      var el = document.getElementById("v-"+v);
+      if(el) el.classList.toggle("on", v===view);
+    });
+    // active nav state
+    menu.querySelectorAll("[data-view]").forEach(function(a){
+      a.classList.toggle("active", a.getAttribute("data-view")===view && !a.getAttribute("data-scroll"));
+    });
+    menu.querySelectorAll(".mi").forEach(function(mi){
+      mi.classList.toggle("activeparent", view==="werke");
+    });
+    window.scrollTo(0,0);
+    if(scrollId){
+      var t = document.getElementById(scrollId);
+      if(t) setTimeout(function(){ t.scrollIntoView({behavior:"smooth", block:"start"}); }, 60);
+    }
+  }
+  function route(){
+    var h = (location.hash||"#uebersicht").replace("#","");
+    var anchorMap = { dcc:"werke", goetter:"werke", sturmfels:"werke", prinz:"werke" };
+    if(anchorMap[h]) show(anchorMap[h], h);
+    else show(h);
+  }
+  // intercept clicks with data-view to set hash + scroll target
+  document.addEventListener("click", function(e){
+    var a = e.target.closest("[data-view]");
+    if(!a) return;
+    var view = a.getAttribute("data-view");
+    var scrollId = a.getAttribute("data-scroll");
+    var href = a.getAttribute("href");
+    if(href && href.charAt(0)==="#"){
+      e.preventDefault();
+      var newHash = scrollId ? "#"+scrollId : "#"+view;
+      if(location.hash === newHash){ show(view, scrollId); }
+      else { location.hash = newHash; }
+    }
+  });
+  window.addEventListener("hashchange", route);
+  route();
+})();
+</script>

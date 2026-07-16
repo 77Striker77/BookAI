@@ -22,6 +22,8 @@ performance: "solo"
 ungekuerzt: true
 rating_schnitt: "~4,5–4,6/5"   # Goodreads, über die Reihe
 rating_stimmen_gesamt: "~1,7 Mio (Goodreads, Summe Bd. 1–8) + engl. Audible ~4,9 · 34k+"
+bekanntheit_stufe: "Phänomen"
+hype: "Kult-Phänomen: >10 Mio verkauft, Audible-Bestseller (Hörbuch schlägt Print/eBook), 7 Sprachen"
 rating_goodreads: 4.45  # Bd. 1 Hauptseite, ~442k
 genres: [LitRPG, Science-Fantasy]
 themen: [Kapitalismus-Satire, Aufbegehren gegen das System, System & Progression]
