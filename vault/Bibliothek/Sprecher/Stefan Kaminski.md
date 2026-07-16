@@ -10,7 +10,7 @@ tags: [sprecher]
 
 Vielfach ausgezeichneter deutscher Sprecher/Schauspieler, bekannt für extrem
 wandlungsfähige Figurenstimmen (quasi „Voll-Cast aus einer Kehle"). Liest die deutsche
-Fassung von [[Dungeon Crawler Carl (Reihe)]] (FISCHER Tor/Audible).
+Fassung von [[Dungeon Crawler Carl]] (FISCHER Tor/Audible).
 
 ## Gehört
 

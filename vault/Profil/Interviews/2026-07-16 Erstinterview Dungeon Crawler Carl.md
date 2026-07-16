@@ -63,8 +63,8 @@ clevere System-Tricks) **plus:**
 **F:** Lesestand der Reihe?
 **A:** „Band 2 bin ich aktuell am Hören. Weitere sind nicht auf Deutsch, und darauf warte ich."
 → Sprachfrage damit beantwortet: **Deutsch bevorzugt** — wartet lieber, statt englisch
-auszuweichen. Eingeflossen in [[Profil]], [[Dungeon Crawler Carl (Reihe)]],
-[[Carl's Doomsday Scenario]] (warteliste).
+auszuweichen. Eingeflossen in [[Profil]] und [[Dungeon Crawler Carl]]
+(Lesestand in der Werk-Notiz).
 
 ## Offen geblieben
 

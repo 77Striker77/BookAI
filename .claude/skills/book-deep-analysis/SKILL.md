@@ -34,7 +34,7 @@ Erfasse mindestens: `genres`, `subjects/themen`, `year`, `series`, `isbn`, `page
 
 ### 3. Buch-DNA extrahieren (das Herzstück)
 Verdichte Metadaten + Rezensionen + Interview-Antworten zu diesen Dimensionen (Felder
-identisch zum Frontmatter in `vault/_System/Templates/Buch.md`):
+identisch zum Frontmatter in `vault/_System/Templates/Werk.md`):
 
 | Dimension     | Frage |
 |---------------|-------|
@@ -66,11 +66,14 @@ Auch geliebte Bücher haben negative Zeilen — genau die machen das Matching sc
 ### 4. Persistieren (Vault, atomar — das ist der Graph-Aufbau)
 Templates aus `vault/_System/Templates/`, Konventionen aus `vault/_System/Konventionen.md`.
 
-1. **Buch-Notiz:** `vault/Bibliothek/Bücher/<Titel>.md` (Template `Buch.md`).
+1. **Werk-Notiz:** `vault/Bibliothek/Werke/<Werktitel>.md` (Template `Werk.md`).
+   ⭐ **Bewertungseinheit ist das WERK** (Reihe/Universum als Ganzes) — NIE bandweise
+   interviewen/bewerten; Band-Abweichungen nur, wenn der Nutzer sie selbst nennt.
    Frontmatter = Metadaten + DNA + `kontext:` + `bewertung:` maschinenlesbar; Body =
-   **Bewertungstabelle je Aspekt** (mit Belegen), DNA als `[[Links]]`, Begründungen.
-   War der Titel vorher Kandidat → Kandidaten-Notiz auf `status: gelesen` (Historie-Zeile
-   anhängen!) und durch Verweis-Stub ersetzen ("→ [[Titel]] in Bibliothek").
+   **Bewertungstabelle je Aspekt** (mit Belegen), **Lesestand-Tabelle** (welche Bände
+   gehört/gelesen/wartend), DNA als `[[Links]]`, Begründungen.
+   War das Werk vorher Kandidat → Kandidaten-Notiz auf `status: gelesen` (Historie-Zeile
+   anhängen!) und durch Verweis-Stub ersetzen ("→ [[Werk]] in Bibliothek").
 2. **Merkmal-Notizen:** für JEDES bewertete/DNA-Merkmal (inkl. Handwerk!) prüfen, ob
    die Notiz unter `vault/Merkmale/<Dimension>/` existiert — sonst anlegen (Template
    `Merkmal.md`, eigene Definition). **Status je Kontext** pflegen (`status_kontexte`
@@ -80,9 +83,9 @@ Templates aus `vault/_System/Templates/`, Konventionen aus `vault/_System/Konven
    Top-Merkmale-Tabelle, ggf. Gewichte MIT Begründung in der Änderungshistorie
    (z. B. Handwerk > 0, sobald Handwerks-Muster belegt). Übersichtstabelle in
    `Kontexte.md` pflegen.
-4. **Entitäts-Notizen:** Autor (`Bibliothek/Autoren/`), ggf. Reihe (`Reihen/`, mit
-   Lesestand!) und Sprecher (`Sprecher/`) anlegen/fortschreiben — inkl. Abschnitt
-   "Weitere Werke/Einlesungen" als spätere Kandidatenquelle.
+4. **Entitäts-Notizen:** Autor (`Bibliothek/Autoren/`) und Sprecher (`Sprecher/`)
+   anlegen/fortschreiben — inkl. Abschnitt "Weitere Werke/Einlesungen" als spätere
+   Kandidatenquelle. (Reihen-Infos/Lesestand leben IN der Werk-Notiz.)
 5. **Profil aktualisieren:** `vault/Profil/Profil.md` NUR mit kontextübergreifend
    bestätigten Mustern (roter Faden, Tabelle "Analysierte Titel"). Kontextspezifisches
    gehört in die Kontext-Notiz. Neue harte Ausschlüsse → `No-Gos.md` mit Herkunft.

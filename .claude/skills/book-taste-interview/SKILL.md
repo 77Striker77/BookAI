@@ -15,8 +15,13 @@ Buch aus komplett verschiedenen Gründen – der Grund entscheidet über gute Em
 
 ## Ablauf
 
-1. **Titel & Verdikt erfassen.** Für jeden genannten Titel: Buch oder Hörbuch? Geliebt,
-   okay, oder abgelehnt? Autor/Sprecher, falls bekannt.
+> ⭐ **Bewertungseinheit ist das WERK** (Reihe/Universum als Ganzes): Der Nutzer
+> bewertet Reihen komplett, nicht Band für Band. NIE bandweise abfragen ("wie fandest
+> du Band 3?"). Erfasst wird das Gesamterlebnis + Lesestand; Band-Abweichungen nur,
+> wenn er sie von sich aus nennt.
+
+1. **Werk & Verdikt erfassen.** Für jedes genannte Werk: Buch oder Hörbuch? Geliebt,
+   okay, oder abgelehnt? Autor/Sprecher, falls bekannt; Lesestand (wie weit?).
 
 2. **Gezielt nachfragen** – nicht mit allen Fragen auf einmal erschlagen. Stelle 3–5
    fokussierte Fragen pro Titel/Runde, hake bei interessanten Antworten nach. Decke über

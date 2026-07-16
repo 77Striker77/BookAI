@@ -35,7 +35,7 @@ werden **an Ort und Stelle aktualisiert**, nie neu erzeugt:
 
 - `vault/Profil/Profil.md` (Übergreifendes) + `Kontexte/*.md` (Gewichte & Top-Merkmale
   je Geschmacksraum) + `Gewichte.md` (Fallback) + `No-Gos.md`.
-- `vault/Bibliothek/Bücher/*.md` — Titel inkl. **Aspekt-Bewertungen** (`bewertung:`).
+- `vault/Bibliothek/Werke/*.md` — Werke (Reihen!) inkl. **Aspekt-Bewertungen** (`bewertung:`).
 - `vault/Empfehlungen/Läufe/` — die **neueste** Lauf-Notiz, plus die zugehörigen
   Kandidaten-Notizen (`vault/Empfehlungen/Kandidaten/`, dort liegen Scores, Prognosen
   je Aspekt, ✓/✗, Quellen) für Artefakt 2.

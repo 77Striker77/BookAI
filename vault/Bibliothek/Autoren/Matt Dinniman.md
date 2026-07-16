@@ -9,7 +9,7 @@ tags: [autor]
 
 ## Stil & Handschrift
 
-US-Autor; Durchbruch mit der [[Dungeon Crawler Carl (Reihe)]] (seit 2020 via Royal
+US-Autor; Durchbruch mit dem Werk [[Dungeon Crawler Carl]] (seit 2020 via Royal
 Road/Selfpub, ab 2024 bei Ace/Penguin; laut Wikipedia >10 Mio. verkaufte Exemplare der
 ersten acht Bände). Markenzeichen: absurder Humor mit plötzlicher emotionaler Härte,
 enges Pacing, Systeme, die clever bespielt werden.

@@ -23,7 +23,7 @@ Bevor du startest, MUSS vorliegen:
   `vault/Profil/Kontexte/<Raum>.md` liefert die geltenden **Gewichte & Präferenzen**;
   Fallback `vault/Profil/Gewichte.md`. Dazu `Profil.md` (Übergreifendes) + `No-Gos.md`
   (global + `kontext_no_gos` der Kontext-Notiz).
-- Die Referenztitel mit ihren **Aspekt-Bewertungen** (`vault/Bibliothek/Bücher/`,
+- Die Referenztitel mit ihren **Aspekt-Bewertungen** (`vault/Bibliothek/Werke/`,
   Tabelle "Bewertung je Aspekt") — auch die NEGATIVEN Zeilen geliebter Bücher!
 - Relevante Merkmal-Notizen unter `vault/Merkmale/` (Status IM KONTEXT via
   `status_kontexte`; Kontext schlägt global).

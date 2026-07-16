@@ -71,9 +71,9 @@ vault/                             Datenquelle: Obsidian-Vault, atomar & verlink
 │   ├── Gewichte.md (Fallback) · No-Gos.md
 │   └── Interviews/                je Interviewrunde eine Notiz (Provenienz!)
 ├── Bibliothek/
-│   ├── Bücher/                    ⭐ je Titel: Bewertung JE ASPEKT (−2..+2 + Beleg) —
-│   │                                auch geliebte Bücher haben negative Zeilen
-│   ├── Autoren/  Reihen/  Sprecher/   je Entität eine Notiz (Kandidatenquellen!)
+│   ├── Werke/                     ⭐ je WERK (Reihe/Universum = Bewertungseinheit):
+│   │                                Aspekt-Bewertungen (−2..+2 + Beleg) + Lesestand
+│   ├── Autoren/  Sprecher/        je Entität eine Notiz (Kandidatenquellen!)
 ├── Merkmale/                      DNA-Atome: je Merkmal EINE Notiz, Status JE KONTEXT
 │   ├── Genres|Themen|Ton|Erzählstil|Figuren|Setting/
 │   └── Handwerk/                  ⭐ Ausführungsqualität: Pacing, Finale, Infodumps …

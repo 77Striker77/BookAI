@@ -44,7 +44,7 @@ tags: [kontext]
 | [[⟨Ich-Erzähler⟩]] MIT [[⟨Unzuverlässig⟩]] | +2 | [[⟨Buch⟩]], [[⟨Interview⟩]] |
 | [[⟨Ich-Erzähler⟩]] OHNE [[⟨Unzuverlässig⟩]] | 0 | ⟨…⟩ |
 
-## Bücher in diesem Kontext
+## Werke in diesem Kontext
 
 *→ Backlinks; wichtigste hier gepinnt:*
 

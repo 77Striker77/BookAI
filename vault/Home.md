@@ -14,10 +14,10 @@ tags: [moc, home]
 - [[No-Gos]] — harte Ausschlüsse
 - `Profil/Interviews/` — jede Interviewrunde eine Notiz (Provenienz aller Aussagen)
 
-## Bibliothek (erlebte Bücher)
+## Bibliothek (erlebte Werke)
 
-- `Bibliothek/Bücher/` — voll analysierte Titel (Buch-DNA)
-- `Bibliothek/Autoren/` · `Bibliothek/Reihen/` · `Bibliothek/Sprecher/`
+- `Bibliothek/Werke/` — voll analysierte WERKE (Reihe/Universum als Bewertungseinheit)
+- `Bibliothek/Autoren/` · `Bibliothek/Sprecher/`
 
 ## Merkmale (die DNA-Atome)
 
@@ -34,7 +34,7 @@ tags: [moc, home]
 
 ## Zuletzt
 
-- 2026-07-16 — Lesestand: [[Carl's Doomsday Scenario]] (Bd. 2) am Hören; Bd. 3+ warten
+- 2026-07-16 — Lesestand (in Werk-Notiz): DCC Bd. 2 am Hören; Bd. 3+ warten
   auf dt. Fassung. **Sprachfrage geklärt: Deutsch bevorzugt.**
 - 2026-07-16 — Erstes Buch analysiert: [[Dungeon Crawler Carl]] (loved, Hörbuch dt.,
   [[Stefan Kaminski]]). Kontext [[LitRPG]] angelegt, 12 Merkmale, No-Gos erfasst

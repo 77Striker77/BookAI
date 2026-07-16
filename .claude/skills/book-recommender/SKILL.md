@@ -45,7 +45,7 @@ Phase 4  ARTEFAKT          → Skill: book-reco-artifact
 
 1. **Lade den Vault** (Obsidian-Style, Konventionen: `vault/_System/Konventionen.md`):
    `vault/Profil/Profil.md` + `Gewichte.md` + `No-Gos.md`, relevante
-   `vault/Bibliothek/Bücher/*.md` und — vor jeder Suche — das **Gedächtnis**
+   `vault/Bibliothek/Werke/*.md` und — vor jeder Suche — das **Gedächtnis**
    `vault/Empfehlungen/Kandidaten/` (Frontmatter reicht: Status + Gründe).
    - Existiert kein Profil → beginne mit Phase 1 (Interview), dann Phase 2.
    - Profil existiert → du "kennst deine Daten". Fasse kurz zusammen, was du über den

@@ -22,8 +22,9 @@ vault/
 │   ├── No-Gos.md              harte Ausschlüsse (global; Kontext-No-Gos in Kontext-Notiz)
 │   └── Interviews/            je Interviewrunde eine datierte Notiz (Provenienz!)
 ├── Bibliothek/
-│   ├── Bücher/                erlebte Titel — mit ASPEKT-BEWERTUNGEN (siehe unten)
-│   ├── Autoren/  Reihen/  Sprecher/     je Entität eine Notiz
+│   ├── Werke/                 erlebte WERKE (= Reihe/Universum/Standalone) — mit
+│   │                            ASPEKT-BEWERTUNGEN + Lesestand (siehe unten)
+│   ├── Autoren/  Sprecher/    je Entität eine Notiz
 ├── Merkmale/                  DNA-Atome: je Merkmal EINE Notiz, Status JE KONTEXT
 │   ├── Genres/  Themen/  Ton/  Erzählstil/  Figuren/  Setting/
 │   └── Handwerk/              ⭐ Ausführungsqualitäten: [[Aufgeblähter Mittelteil]],
@@ -37,6 +38,22 @@ vault/
     ├── Konventionen.md        dieses Dokument
     └── Templates/             Kopiervorlagen (9 Notiztypen)
 ```
+
+## ⭐ Bewertungseinheit: das WERK, nicht der Einzelband
+
+Der Nutzer bewertet **Reihen/Universen als Ganzes** — sein Empfinden bezieht sich fast
+immer auf das komplette Werk (Nutzeraussage 16.07.2026). Deshalb:
+
+- Eine Notiz in `Bibliothek/Werke/` = ein Werk (Reihe, Universum oder Standalone-
+  Universum). Aspekt-Bewertungen, DNA und Verdikt gelten fürs Werk gesamt.
+- **Lesestand als Tabelle in der Werk-Notiz** (welche Bände gehört/gelesen, was offen,
+  worauf gewartet wird) — kein separater Reihen-Ordner mehr.
+- **NIE bandweise interviewen oder bewerten lassen.** Abweichungen einzelner Bände
+  („Bd. 4 war zäh") nur erfassen, wenn der Nutzer sie VON SICH AUS nennt → Tabelle
+  „Abweichungen einzelner Bände".
+- Kandidaten sind ebenfalls **Werke** (die Reihe wird empfohlen, nicht Band 3).
+- Bücher im selben Universum zählen als EIN Werk-Verbund (wichtig für die
+  Reihen-Pflicht ≥3 Bände aus [[No-Gos]]).
 
 ## Kontexte (Geschmacksräume) — Geschmack ist nicht global
 
@@ -89,7 +106,7 @@ gesichtet, tief geprüft, empfohlen. Ohne Ausnahme. Zusätzlich gilt:
 ```
 erwaehnt → gesichtet → geprueft-verworfen | empfohlen → warteliste → gelesen
                                                           (→ Notiz wandert nach
-                                                           Bibliothek/Bücher/, Stub bleibt)
+                                                           Bibliothek/Werke/, Stub bleibt)
 ```
 
 - **Prüf-Historie ist append-only:** jede Prüfung wird als neue Zeile angehängt

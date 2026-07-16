@@ -51,7 +51,7 @@ bloßem Zahlen-Grinding. Maßstab-Buch: [[Dungeon Crawler Carl]].
 | --- | --- | --- |
 | *(noch keine belegt)* | | |
 
-## Bücher in diesem Kontext
+## Werke in diesem Kontext
 
 | Titel | Verdikt |
 | --- | --- |

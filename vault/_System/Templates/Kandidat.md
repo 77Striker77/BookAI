@@ -1,19 +1,21 @@
 ---
-titel: ""
+titel: ""              # Kandidat = WERK (Reihe/Universum), nicht Einzelband!
+werk_typ: ""           # reihe | universum | standalone-universum
 autor: ""
-jahr:
+jahr_start:
 kontext: ""            # Geschmacksraum → bestimmt Gewichte fürs Matching
 status: ""             # erwaehnt | gesichtet | geprueft-verworfen | empfohlen | warteliste | gelesen
 zuletzt_beruehrt:      # Datum der letzten Prüfung (Details: Prüf-Historie unten)
 laeufe: []             # ["[[2026-07-16 Ähnlich zu …]]"]
 wiedervorlage: ""      # "neu prüfen, falls ⟨Präferenz⟩ sich ändert" — sonst leer
 # --- Fakten (nur belegt!) ---
+baende_gesamt:         # PFLICHT-CHECK: Reihen-Pflicht ≥3 Bände (Universum zählt zusammen!)
+abgeschlossen:
 format_verfuegbar: []  # [buch, hoerbuch]
-sprache: ""
-isbn: ""
-seiten:
-sprecher: ""
-hoerdauer_std:
+sprache_verfuegbar: [] # dt. Verfügbarkeit ist bei Hörbuch praktisch Pflicht
+isbn_bd1: ""
+sprecher: ""           # dt. Sprecher, falls Hörbuch
+hoerdauer_std_bd1:
 rating_goodreads:
 rating_openlibrary:
 # --- DNA soweit bekannt (Werte = Merkmal-Notiznamen) ---
@@ -32,10 +34,13 @@ quellen: []
 tags: [kandidat]
 ---
 
-# ⟨Titel⟩
+# ⟨Werktitel⟩
 
 **Status: ⟨status⟩** · Kontext [[⟨Fantasy⟩]] · zuletzt ⟨Datum⟩ ·
 Wiedervorlage: ⟨Trigger oder —⟩
+
+**Reihen-Check:** ⟨x Bände, abgeschlossen/laufend; bei „Universum": welche Werke zählen
+zusammen?⟩ → ⟨erfüllt / verletzt Reihen-Pflicht⟩
 
 ## Wie gefunden / warum Kandidat
 
