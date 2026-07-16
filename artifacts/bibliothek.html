@@ -63,6 +63,22 @@
   .aspekte .m::before { content: "－"; color: var(--bad); font-weight: 700; margin-right: 5px; }
   .why { font-size: .87rem; margin-top: 8px; border-left: 3px solid var(--accent); padding-left: 10px; color: var(--ink); }
   .src { color: var(--muted); font-size: .74rem; margin-top: 10px; }
+
+  /* Werk-Verbund: Overall oben (Elternknoten), Reihen eingerückt darunter */
+  .overall-head { background: color-mix(in srgb, var(--accent) 9%, var(--card));
+    border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--line));
+    border-radius: 16px 16px 6px 6px; padding: 18px 20px; margin: 12px 0 0; }
+  .oh-title { font-weight: 750; font-size: 1.16rem; }
+  .oh-tag { font-weight: 600; font-size: .68rem; letter-spacing: .08em; text-transform: uppercase;
+    color: var(--accent); border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+    border-radius: 999px; padding: 2px 9px; margin-left: 8px; vertical-align: middle; }
+  .children { position: relative; margin: 0 0 0 22px; padding-left: 22px;
+    border-left: 2px solid color-mix(in srgb, var(--accent) 30%, var(--line));
+    display: flex; flex-direction: column; gap: 12px; padding-top: 12px; }
+  .book.child { margin: 0; position: relative; }
+  .book.child::before { content: ""; position: absolute; left: -23px; top: 40px; width: 20px;
+    height: 2px; background: color-mix(in srgb, var(--accent) 30%, var(--line)); }
+  @media (max-width: 560px) { .children { margin-left: 8px; padding-left: 14px; } .book.child::before { display: none; } }
 </style>
 
 <div class="wrap">
@@ -165,56 +181,52 @@
     </div>
   </article>
 
-  <article class="book">
-    <div class="cover" style="background:linear-gradient(160deg,#3d3050 0%,#1c1530 70%)"><div class="ci">🏰</div><div class="ct">Sturmfels-Akademie</div></div>
-    <div>
-      <div class="title">Sturmfels-Akademie <span style="font-weight:400;color:var(--muted);font-size:.85rem">· Reihe (eigenständig)</span></div>
-      <div class="meta">Torsten Weitze · 2023–2025 · 5 Bände · Epic Fantasy · deutsches Original</div>
-      <div class="badges">
-        <span class="badge loved">♥ geliebt</span>
-        <span class="badge">🎧 Günter Merlau · deutsch (LAUSCH)</span>
-        <span class="badge">↧ mündet in: Die Streitenden Götter</span>
-      </div>
-      <div class="aspekte">
-        <span class="p">Niris Underdog-Aufstieg (verdient, von ganz unten)</span>
-        <span class="p">Akademie-Leben &amp; Gemeinschaft tragen</span>
-        <span class="p">Herkunfts-Konflikt (Halb-Aeldae) &amp; Politik</span>
-      </div>
-      <div class="why">Kohlemagd Niri an der Magie-Akademie — Underdog, Gemeinschaft und der
-      große Konflikt dahinter: alle drei Eigen-Aspekte auf +2.</div>
-      <div class="src">Quellen: Audible.de (LAUSCH) · LovelyBooks</div>
-    </div>
-  </article>
-
-  <article class="book">
-    <div class="cover" style="background:linear-gradient(160deg,#4a3a2a 0%,#241a10 70%)"><div class="ci">👑</div><div class="ct">Der Prinz von Staub und Schatten</div></div>
-    <div>
-      <div class="title">Der Prinz von Staub und Schatten <span style="font-weight:400;color:var(--muted);font-size:.85rem">· Reihe (eigenständig)</span></div>
-      <div class="meta">Torsten Weitze · seit 2026 · Bd. 1–2 von 5 geplant (Heimkehr, Widerstand) · Epic Fantasy · deutsches Original</div>
-      <div class="badges">
-        <span class="badge loved">♥ geliebt</span>
-        <span class="badge">🎧 Günter Merlau · deutsch (LAUSCH)</span>
-        <span class="badge">↧ mündet in: Die Streitenden Götter</span>
-      </div>
-      <div class="aspekte">
-        <span class="p">Verdikt: geliebt (Interview)</span>
-        <span class="p" style="color:var(--muted)">Eigen-Aspekte („eigenes Für-sich") — noch zu erheben</span>
-      </div>
-      <div class="why">Zweite eigenständige Reihe der Splitterlande — was ihr eigenes
-      Für-sich ausmacht, wird im nächsten Gespräch erfasst.</div>
-      <div class="src">Quellen: Audible.de (LAUSCH) · BücherTreff</div>
-    </div>
-  </article>
-
-  <!-- Overall-Leiste: die Reihen münden hier hinein -->
-  <div class="basis" style="margin-top:4px; border-style:dashed;">
-    <div class="ktx">⬑ Beide münden in: <b>Die Streitenden Götter</b> <span class="sub" style="font-size:.82rem">(Overall-Ebene · Splitterlande · Torsten Weitze)</span></div>
-    <div class="aspekte" style="margin-top:6px">
+  <!-- Overall-Ebene (Elternknoten) OBEN; Reihen eingerückt darunter -->
+  <article class="overall-head">
+    <div class="oh-title">🏰 Die Streitenden Götter <span class="oh-tag">Overall · Universum</span></div>
+    <div class="meta">Torsten Weitze · Splitterlande · seit 2023 · Epic Fantasy · deutsches Original (kein Übersetzungs-Warten) · gelesen von Günter Merlau (LAUSCH)</div>
+    <div class="aspekte" style="margin-top:8px">
       <span class="p">Welt stimmig &amp; atmosphärisch (geteilt, +1)</span>
       <span class="m">Magiesystem bei Standard-Elementen etwas lasch (geteilt, −1)</span>
       <span class="p">Gleicher Stil über beide Reihen · Merlau „trägt massiv"</span>
       <span class="p">Reihen-Pflicht auf Verbund-Ebene: 7 Bände ✓</span>
     </div>
+  </article>
+
+  <div class="children">
+    <article class="book child">
+      <div class="cover" style="background:linear-gradient(160deg,#3d3050 0%,#1c1530 70%)"><div class="ci">🎓</div><div class="ct">Sturmfels-Akademie</div></div>
+      <div>
+        <div class="title">Sturmfels-Akademie <span style="font-weight:400;color:var(--muted);font-size:.85rem">· eigenständige Reihe</span></div>
+        <div class="meta">2023–2025 · 5 Bände · gelesen von Günter Merlau</div>
+        <div class="badges">
+          <span class="badge loved">♥ geliebt</span>
+          <span class="badge">🎧 deutsch (LAUSCH)</span>
+        </div>
+        <div class="aspekte">
+          <span class="p">Niris Underdog-Aufstieg (verdient, von ganz unten)</span>
+          <span class="p">Akademie-Leben &amp; Gemeinschaft tragen</span>
+          <span class="p">Herkunfts-Konflikt (Halb-Aeldae) &amp; Politik</span>
+        </div>
+        <div class="why">Alle drei Eigen-Aspekte auf +2.</div>
+      </div>
+    </article>
+
+    <article class="book child">
+      <div class="cover" style="background:linear-gradient(160deg,#4a3a2a 0%,#241a10 70%)"><div class="ci">👑</div><div class="ct">Der Prinz von Staub und Schatten</div></div>
+      <div>
+        <div class="title">Der Prinz von Staub und Schatten <span style="font-weight:400;color:var(--muted);font-size:.85rem">· eigenständige Reihe</span></div>
+        <div class="meta">seit 2026 · Bd. 1–2 von 5 geplant (Heimkehr, Widerstand) · gelesen von Günter Merlau</div>
+        <div class="badges">
+          <span class="badge loved">♥ geliebt</span>
+          <span class="badge">🎧 deutsch (LAUSCH)</span>
+        </div>
+        <div class="aspekte">
+          <span class="p" style="color:var(--muted)">Eigen-Aspekte („eigenes Für-sich") — noch zu erheben</span>
+        </div>
+        <div class="why">Was ihr eigenes Für-sich ausmacht, wird im nächsten Gespräch erfasst.</div>
+      </div>
+    </article>
   </div>
 
 </div>

@@ -35,7 +35,7 @@ tags: [werk, reihe, hoerbuch, loved, fantasy]
 
 # Sturmfels-Akademie
 
-**Eigenständiges Werk** — mündet in die Overall-Ebene [[Die Streitenden Götter]].
+**Eigenständige Reihe**, untergeordnet der Overall-Ebene [[Die Streitenden Götter]] (Overall → Reihe).
 Die 16-jährige Kohlemagd **Niri**, Halb-Aeldae (Volk der einstigen Versklaver),
 schafft es an die berühmte Sturmfels-Akademie — Magie-/Kampfausbildung zwischen
 Vorurteilen, Freundschaften und dem großen Konflikt dahinter. 5 Bände (2023–2025,

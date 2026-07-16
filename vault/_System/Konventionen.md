@@ -64,14 +64,18 @@ Götter" = Sturmfels-Akademie + Prinz von Staub und Schatten):
   voll bewertetes Werk mit eigenen Aspekten, eigenem Verdikt, eigenem Lesestand. Damit
   die Notiz allein lesbar ist, führt sie geteilte Aspekte als **geerbte Zeilen** auf
   (gekennzeichnet „geerbt aus [[Universum]]" — Pflege nur an der Quelle!).
-- **Die Reihen MÜNDEN in die Overall-Notiz** (`werk_typ: universum`): sie ist die
-  Bündelung, NICHT der Besitzer — aggregiert das Geteilte (Stil, Welt, Sprecher,
-  gemeinsame Aspekt-Bewertungen) und das Gesamtbild über alle Reihen. Reihen-Pflicht
-  (≥3 Bände) wird auf Verbund-Ebene geprüft.
-- **Darstellung (auch im Artefakt): Reihen zuerst, je als eigene Karte; darunter die
-  Overall-Leiste, in die sie münden.** Nie das Universum als Ober-Karte mit
-  eingeklappten Reihen.
-- Matching: Reihen-Aspekte + geerbte Universum-Aspekte zusammen.
+- **Die Overall-Notiz ist der Elternknoten** (`werk_typ: universum`): sie steht in der
+  Hierarchie OBEN und aggregiert das Geteilte (Stil, Welt, Sprecher, gemeinsame
+  Aspekt-Bewertungen) und das Gesamtbild. Reihen-Pflicht (≥3 Bände) wird hier geprüft.
+- **Hierarchie/Darstellung — Overall oben, Reihen darunter eingerückt:**
+  ```
+  Die Streitenden Götter (Overall)
+   ├─→ Sturmfels-Akademie (eigenständige Reihe)
+   └─→ Der Prinz von Staub und Schatten (eigenständige Reihe)
+  ```
+  Im Artefakt: **zuerst die Overall-Karte (Kopf), dann darunter die Reihen-Karten**
+  (eingerückt/als Kinder). Jede Reihe bleibt inhaltlich für sich voll bewertet.
+- Matching: Reihen-Aspekte + geerbte Overall-Aspekte zusammen.
 
 ## Kontexte (Geschmacksräume) — Geschmack ist nicht global
 

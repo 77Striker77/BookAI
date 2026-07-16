@@ -47,12 +47,18 @@ erschienen, laufend = klar erfüllt.**
 
 **Kontext:** [[Fantasy]]
 
-## Es münden hier (Reihen → Overall)
+## Hierarchie (Overall → Reihen)
 
-| Eigenständiges Werk | Bände | Status | Verdikt |
+```
+Die Streitenden Götter (Overall)
+ ├─→ [[Sturmfels-Akademie]]              5 Bde (2023–2025) · loved
+ └─→ [[Der Prinz von Staub und Schatten]]  2 von 5 geplant · loved
+```
+
+| Untergeordnete Reihe | Bände | Status | Verdikt |
 | --- | --- | --- | --- |
-| [[Sturmfels-Akademie]] → | 5 (2023–2025) | abgeschlossen? (offene Frage) | loved |
-| [[Der Prinz von Staub und Schatten]] → | 2 von 5 geplant (2026) | laufend | loved |
+| [[Sturmfels-Akademie]] | 5 (2023–2025) | abgeschlossen? (offene Frage) | loved |
+| [[Der Prinz von Staub und Schatten]] | 2 von 5 geplant (2026) | laufend | loved |
 
 ## ⭐ Bewertung je Aspekt (geteilt, gilt fürs Universum)
 

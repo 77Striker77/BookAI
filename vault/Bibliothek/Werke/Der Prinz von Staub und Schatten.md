@@ -32,7 +32,7 @@ tags: [werk, reihe, hoerbuch, loved, fantasy]
 
 # Der Prinz von Staub und Schatten
 
-**Eigenständiges Werk** — mündet in die Overall-Ebene [[Die Streitenden Götter]].
+**Eigenständige Reihe**, untergeordnet der Overall-Ebene [[Die Streitenden Götter]] (Overall → Reihe).
 2026 gestartet, bisher 2 von 5 geplanten Bänden: **Heimkehr**, **Widerstand**.
 Reihen-Pflicht: 5 geplant + Verbund → erfüllt.
 
