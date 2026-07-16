@@ -73,7 +73,10 @@ Die Streitenden Götter (Overall)
 
 | Aspekt | Wertung |
 | --- | --- |
-| [[Underdog-Aufstieg]] · [[Akademie-Leben & Gemeinschaft]] · [[Herkunfts-Konflikt & Vorurteile]] | je +2 |
+| [[Underdog-Aufstieg]] · [[Akademie-Leben & Gemeinschaft]] · [[Starkes Finale]] | je +2 |
+| [[Herkunfts-Konflikt & Vorurteile]] · [[Wachsende Hauptfigur]] | je +1 |
+| [[Nebenquest-Wildwuchs]] | −1 |
+| [[Zäher Start]] · [[Konstanter Vorwärtsdrang]] · [[Zu lange schwacher Held]] (Bd. 1) | je −2 |
 
 ### Eingebracht von [[Der Prinz von Staub und Schatten]]
 
@@ -83,12 +86,14 @@ Die Streitenden Götter (Overall)
 | [[Wachsende Hauptfigur]] | +1 |
 | [[Zäher Start]] · [[Konstanter Vorwärtsdrang]] (verletzt) | je −1 |
 
-**Gesamtbild (mein Schluss):** Das Universum wird **von beiden Enden getragen** —
-Sturmfels warm über Aufstieg & Gemeinschaft (rundum positiv), der Prinz reifer über
-Mysterium, Erbe & Verfolgung (stärker, aber mit Fokus-/Startschwäche). Gemeinsamer
-Boden: stimmige Welt, schwaches Magiesystem, [[Günter Merlau]]. **Beide geliebt** →
-Overall loved. Für Empfehlungen: Weitze-artiger deutscher Fantasy-Stoff trifft, MUSS
-aber fokussiert erzählt sein (Prinz-Schwäche nicht wiederholen).
+**Gesamtbild (mein Schluss):** Das Universum trägt über **starke Themen + Figuren-Aufstieg
++ Welt + [[Günter Merlau]]** — und **rettet sich beide Male über die Ziellinie** trotz
+desselben wunden Punkts: **zäher, unfokussierter Start / Fokus-Drift** (bei Sturmfels
+sogar Fast-Abbruch + zu schwache Heldin in Bd. 1, gerettet durchs [[Starkes Finale]];
+beim Prinzen milder). **Beide geliebt** → Overall loved, aber **hart erarbeitet**.
+Für Empfehlungen: Weitze-artiger dt. Fantasy-Stoff trifft — MUSS aber fokussiert
+erzählt sein und eine handlungsfähige Hauptfigur haben; ein zäher Start ist nur
+verzeihlich, wenn ein starkes Finale trägt (Kombinationsregel [[Fantasy]]).
 
 ## DNA (geteilt, als Links)
 

@@ -22,7 +22,7 @@ auch ruhige Szenen zählen, solange sie tragen. Gegenteil: Filler-Etagen, Nebenq
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
 | [[LitRPG]] | loved | [[Dungeon Crawler Carl]] +2; „Fokus. Story geht immer weiter, wenig unnötige Abzweigungen" ([[2026-07-16 Erstinterview Dungeon Crawler Carl]]) |
-| [[Fantasy]] | loved | [[Der Prinz von Staub und Schatten]] **−1** (Fokus verletzt): „Der Fokus geht stark von seiner Fähigkeit und seinem ursprünglichen Ziel weg … könnte fokussierter sein und mehr Progress machen" ([[2026-07-16 Interview Streitende Götter]]) |
+| [[Fantasy]] | loved | 2× verletzt: [[Sturmfels-Akademie]] **−2** (Band 1: „zu wenig Progress, man weiß nicht wohin die Reise geht") · [[Der Prinz von Staub und Schatten]] **−1** („Fokus geht vom Ziel weg … könnte mehr Progress machen") ([[2026-07-16 Interview Streitende Götter]]) |
 
 ## Kontextübergreifend bestätigt (roter Faden!)
 
@@ -35,4 +35,7 @@ Mittelteil zieht").
 ## Träger dieses Merkmals
 
 - [[Dungeon Crawler Carl]] (+2)
+- [[Sturmfels-Akademie]] (−2, Band 1)
 - [[Der Prinz von Staub und Schatten]] (−1)
+
+**3× belegt (1 loved, 2 verletzt) → stärkster roter Faden des Profils.**

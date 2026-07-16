@@ -79,8 +79,45 @@ Figurenentwicklung.
 | Zäher Start | [[Zäher Start]] (−1, Handwerk) |
 | Ranking-Vergleich verweigert → Skill: nie ranken lassen | book-taste-interview |
 
+## Runde 3 (Sturmfels-Akademie — endlich in der Tiefe)
+
+**Persönliches Empfinden (wörtlich):**
+
+**F:** Was zieht dich am tiefsten rein?
+**A:** Aufstieg gegen Widerstände · Akademie-Gemeinschaft. Zu Niri:
+> „**Niri ist gut, aber besonders in Band 1 zu lange zu schwach. Das hat fast so arg
+> genervt, dass ich es fast abgebrochen habe. Danach aber gut und gegen Ende richtig gut.**"
+
+**F:** Tempo & Fokus?
+**A (wörtlich):**
+> „**Gegen Ende immer besser. Erster Band, erste Buchhälfte: Vollkatastrophe. Zu langsam,
+> zu wenig Progress, und man weiß nicht, wohin die Reise geht. Viel zu langsamer Start.
+> Es dauert das halbe Buch, bis man bei der namensgebenden Akademie ist, die tatsächlich
+> nur den kleinsten Teil im ersten Band einnimmt, gefühlt.**"
+
+**F:** Was hat gestört?
+**A (wörtlich):**
+> „**An manchen Stellen zu langsam, zu viele Sidequests, die die Hauptgeschichte nicht
+> voranbringen. Magiesystem hat etwas zu starke Regeln. Beispiel: Wenn man seine Grenzen
+> übersteigt, stirbt man sehr schnell. Das dämpft das Magiegefühl etwas. Welt ist aber
+> top und das System an sich auch, nur zu stark eingeschränkt.**"
+
+**F:** Gefühlter Kontrast zum Prinzen?
+**A:** „Zieh den Schluss selbst." → siehe Werk-Notizen (Synthese).
+
+## Abgeleitete Erkenntnisse (Runde 3)
+
+| Erkenntnis | eingeflossen in |
+| --- | --- |
+| Band 1 erste Hälfte fast-Abbruch: extrem zäher Start | [[Zäher Start]] −2 (Sturmfels), Band-Abweichung |
+| „zu wenig Progress, weiß nicht wohin" | [[Konstanter Vorwärtsdrang]] −2 → roter Faden 3× belegt |
+| Niri zu lange zu schwach → fast genervt abgebrochen | [[Zu lange schwacher Held]] −2 (NEU); Achse zu [[Pragmatischer Held mit klarem Kompass]] |
+| Zu viele Sidequests ohne Haupt-Progress | [[Nebenquest-Wildwuchs]] −1 (NEU, Handwerk) |
+| „gegen Ende richtig gut" rettet alles | [[Starkes Finale]] +2 (NEU); Kombinationsregel: zäher Start tolerierbar WENN starkes Finale |
+| Magie: Welt/System top, aber zu restriktive Regeln dämpfen Wunder | [[Magiesystem-Tiefe]] präzisiert (−1) |
+| Herkunfts-Konflikt diesmal NICHT gewählt | [[Herkunfts-Konflikt & Vorurteile]] Sturmfels +2 → +1 abgestuft |
+
 ## Offen geblieben
 
-- Sturmfels-Akademie: alle 5 Bände gehört? Prinz: beide Bände (Heimkehr, Widerstand)?
-- Sturmfels: Schwächen/Tempo noch nicht erhoben (bisher nur 3× +2) — nächste Runde.
-- Ist Sturmfels-Akademie offiziell abgeschlossen (5 Bände)?
+- Sturmfels: alle 5 Bände gehört? Prinz: beide Bände durch? Sturmfels offiziell 5/abgeschlossen?
+- Prüfen, ob „zu restriktives Magiesystem" ein eigenes Merkmal gegenüber „lasch" braucht (bisher zusammengefasst in [[Magiesystem-Tiefe]]).

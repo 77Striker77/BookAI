@@ -24,6 +24,12 @@ Gegenteile: weinerlicher Zauderer; kompassloser Antiheld.
 | --- | --- | --- |
 | [[LitRPG]] | loved | [[Dungeon Crawler Carl]] +2; „Carl ist kein weinerliches Weichei … trotzdem ist sein moralischer Kompass klar. Das ist perfekt." ([[2026-07-16 Erstinterview Dungeon Crawler Carl]]) |
 
+## Achse (kontextübergreifend)
+
+Bildet mit [[Zu lange schwacher Held]] EINE Achse: **handlungsfähig/entschlossen = loved
+(Carl), zu lange passiv/schwach = disliked (Niri Band 1, fast-Abbruch).** Gilt über
+Genres hinweg → bei Kandidaten die Protagonisten-Handlungsfähigkeit prüfen.
+
 ## Träger dieses Merkmals
 
 - [[Dungeon Crawler Carl]] (+2, Carl)

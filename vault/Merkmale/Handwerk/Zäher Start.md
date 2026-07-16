@@ -21,12 +21,15 @@ zusammen, betrifft aber speziell den ANFANG.
 
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
-| [[Fantasy]] | disliked | [[Der Prinz von Staub und Schatten]] −1 — „Brauchte etwas, bis es in Fahrt gekommen ist." ([[2026-07-16 Interview Streitende Götter]]) |
+| [[Fantasy]] | disliked | [[Sturmfels-Akademie]] −2 (Band 1, fast-Abbruch): „erste Buchhälfte: Vollkatastrophe … es dauert das halbe Buch, bis man bei der namensgebenden Akademie ist" · [[Der Prinz von Staub und Schatten]] −1: „Brauchte etwas, bis es in Fahrt kam" ([[2026-07-16 Interview Streitende Götter]]) |
 
 ## Matching-Konsequenz
 
 Kandidaten, deren Rezensionen einen langsamen/zähen Einstieg betonen, bekommen Malus.
+**ABER Kombinationsregel [[Fantasy]]:** tolerierbar, wenn ein [[Starkes Finale]] folgt
+(Sturmfels blieb trotz Fast-Abbruch geliebt).
 
 ## Träger dieses Merkmals
 
+- [[Sturmfels-Akademie]] (−2, Band 1)
 - [[Der Prinz von Staub und Schatten]] (−1)

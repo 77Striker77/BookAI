@@ -13,22 +13,25 @@ tags: [merkmal]
 
 ## Definition — wie ICH es meine
 
-Wie originell, durchdacht und konsequent das Magiesystem ist. „Lasch" = bleibt bei
-Standard-Elementen (Feuer/Wasser/…) ohne eigenen Dreh oder harte Regeln.
-**Achtung Status-Logik:** Der Nutzer SCHÄTZT Tiefe (status liked) — die −1-Wertung
-bei [[Die Streitenden Götter]] bemängelt deren FEHLEN dort.
+Wie das Magiesystem sich anfühlt. Der Nutzer will **Staunen/Wunder** — dem stehen ZWEI
+Dinge im Weg (beide bei ihm belegt):
+1. **Zu generisch** — bleibt bei Standard-Elementen (Feuer/Wasser/…) ohne eigenen Dreh.
+2. **Zu restriktiv** — so harte Regeln, dass das Magiegefühl gedämpft wird (Beispiel
+   Sturmfels: Grenzen übersteigen = schneller Tod).
+Wichtig: Der Nutzer betont, **Welt und Grundsystem sind top** — die Kritik ist ein
+Feintuning-Malus („nur zu stark eingeschränkt"), kein Verriss.
 
 ## Wirkung nach Kontext
 
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
-| [[Fantasy]] | liked (Tiefe erwünscht) | [[Die Streitenden Götter]] **−1**: „Magiesystem ist bei den Standard-Elementen etwas lasch" ([[2026-07-16 Interview Streitende Götter]]) — erste Negativ-Wertung im System; verdirbt aber kein loved-Verdikt (kein hartes Kriterium) |
+| [[Fantasy]] | liked (Wunder erwünscht) | [[Die Streitenden Götter]] **−1**: „bei den Standard-Elementen etwas lasch" · [[Sturmfels-Akademie]]-Detail: „zu starke Regeln … Grenzen übersteigen = schneller Tod, dämpft das Magiegefühl … Welt top, System an sich auch, nur zu stark eingeschränkt" ([[2026-07-16 Interview Streitende Götter]]) |
 
 ## Matching-Konsequenz
 
-Kandidaten mit in Rezensionen gelobtem, originellem Magiesystem → Plus. Kandidaten,
-deren Magiesystem als generisch beschrieben wird → kein Ausschluss, aber Malus.
+Plus für Kandidaten mit gelobtem, staunenswertem Magiesystem. Malus (kein Ausschluss),
+wenn Rezensionen es als generisch ODER überreguliert/freudlos beschreiben.
 
 ## Träger dieses Merkmals
 
-- [[Die Streitenden Götter]] (−1, Standard-Elemente)
+- [[Die Streitenden Götter]] (−1, geteilt: generisch + zu restriktiv)

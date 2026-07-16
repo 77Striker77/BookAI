@@ -34,6 +34,11 @@ tags: [moc, home]
 
 ## Zuletzt
 
+- 2026-07-16 — Sturmfels-Tiefeninterview: Bd. 1 fast abgebrochen (zäher Start −2, Niri
+  zu schwach −2, Fokusverlust −2), gerettet durch [[Starkes Finale]]. Neu:
+  [[Zu lange schwacher Held]], [[Nebenquest-Wildwuchs]], [[Starkes Finale]] +
+  Kombinationsregel. Roter Faden „Fokus/Vorwärtsdrang" jetzt 3× belegt; neue Achse
+  Held-Handlungsfähigkeit. Overall-Summe & Fantasy-Gewichte nachgezogen.
 - 2026-07-16 — Prinz-Tiefeninterview: Eigen-Aspekte erhoben ([[Geheimnisvolle Macht]] +2,
   [[Verlorenes Erbe & Thronanspruch]] +2, [[Rache & Verfolgungsdruck]] +2; −1 [[Zäher Start]]
   & Fokusverlust). **[[Konstanter Vorwärtsdrang]] jetzt kontextübergreifend (roter Faden).**

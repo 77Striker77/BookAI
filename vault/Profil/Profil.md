@@ -26,21 +26,28 @@ tags: [moc, profil]
 ## Roter Faden (gilt überall)
 
 **Kontextübergreifende Muster (in ≥2 Kontexten belegt):**
-1. **Fokus & Vorwärtsdrang** — [[Konstanter Vorwärtsdrang]]: in LitRPG gelobt (DCC +2),
-   in Fantasy vermisst (Prinz −1, „Fokus geht vom Ziel weg, könnte mehr Progress
-   machen"). **Genreunabhängiger Kernwert** → bei JEDEM Kandidaten Rezensionen auf
-   Abschweifen/Längen prüfen.
-2. **Sprecher-Performance ist zentral** — [[Stefan Kaminski]] UND [[Günter Merlau]]
-   beide „trägt massiv" → bei Hörbuch-Kandidaten hat der Sprecher Quasi-Vetorecht.
-3. **Figuren-Bindung trägt** — [[Ungleiches Duo]] (LitRPG), [[Akademie-Leben &
+1. **Fokus & Vorwärtsdrang (STÄRKSTER Faden, 3× belegt)** — [[Konstanter Vorwärtsdrang]]:
+   LitRPG gelobt (DCC +2), Fantasy 2× verletzt (Sturmfels −2 Fast-Abbruch, Prinz −1).
+   Dazu [[Zäher Start]] (2×) und [[Nebenquest-Wildwuchs]]. **Der zäh-unfokussierte Start
+   ist sein verlässlichster Deal-Breaker** → bei JEDEM Kandidaten Rezensionen auf
+   langsamen Einstieg/Abschweifen/Längen prüfen. Milderung: [[Starkes Finale]]
+   (Kombinationsregel — zäher Start verzeihlich, wenn der Payoff kommt).
+2. **Held muss handlungsfähig sein** — Achse [[Pragmatischer Held mit klarem Kompass]]
+   (Carl +2) ↔ [[Zu lange schwacher Held]] (Niri Bd. 1 −2, Fast-Abbruch). Passive/zu
+   schwache Protagonisten sind ein starker Negativfaktor.
+3. **Sprecher-Performance ist zentral** — [[Stefan Kaminski]] UND [[Günter Merlau]]
+   beide „trägt massiv" → bei Hörbuch-Kandidaten Quasi-Vetorecht.
+4. **Figuren-Bindung trägt** — [[Ungleiches Duo]] (LitRPG), [[Akademie-Leben &
    Gemeinschaft]] (Fantasy): das Miteinander ist beide Male Kernnennung.
-*Weitere Hypothesen (noch Ein-Kontext): pragmatische Helden; Tonwechsel Humor↔Ernst.*
+*Weitere Hypothese (noch Ein-Kontext): Tonwechsel Humor↔Ernst.*
 
 ## Was ich überall liebe / meide
 
 - **Liebe überall:** [[Konstanter Vorwärtsdrang]] (Fokus, kein Abschweifen, Progress);
-  starke Sprecher-Performance; tragende Figuren-Beziehungen
-- **Meide überall (weich):** Abschweifen/Fokusverlust, [[Zäher Start]]
+  handlungsfähige Helden ([[Pragmatischer Held mit klarem Kompass]]); starke
+  Sprecher-Performance; tragende Figuren-Beziehungen; [[Starkes Finale]]
+- **Meide überall (weich):** [[Zäher Start]], [[Nebenquest-Wildwuchs]],
+  [[Zu lange schwacher Held]], Fokusverlust
 - **Meide überall (hart, kontextunabhängig):** [[No-Gos]] — Reihen-Pflicht ≥3 Bände
   (Universum zählt zusammen), Romantasy-Fokus
 
