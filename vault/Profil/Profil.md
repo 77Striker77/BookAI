@@ -37,6 +37,12 @@ tags: [moc, profil]
    Genre-Zutaten wie DCC, aber Sidequest-Wildwuchs + [[Setup ohne Payoff]] → nur „okay".
 2. **Held muss handlungsfähig sein** — Achse [[Pragmatischer Held mit klarem Kompass]]
    (Carl +2) ↔ [[Zu lange schwacher Held]] (Niri Bd. 1 −2, Fast-Abbruch).
+2b. **Progression/Aufstieg erwünscht, OP-von-Anfang gemieden (NEU, 2 Kontexte)** — der
+   Nutzer liebt Stärkerwerden/Wachstum ([[Underdog-Aufstieg]], [[System & Progression]],
+   [[Wachsende Hauptfigur]]) und straft OP-Helden ohne Kurve ab: [[Überzogener
+   Auserwählter]] ([[Survival Quest]], LitRPG −2) + [[Flache Machtprogression]]
+   ([[Scholomance]], Fantasy −2). → Bei Kandidaten auf eine echte Macht-/Lernkurve achten;
+   „overpowered from the start / no growth" = Malus.
 3. **Humor als Plus** — [[Absurder Humor]] (LitRPG) & [[Trocken-ironischer Humor]] (Krimi):
    in zwei Kontexten trägt Humor (verschiedene Spielarten).
 4. **Sprecher-Performance ist zentral** — [[Stefan Kaminski]] UND [[Günter Merlau]]
@@ -79,6 +85,7 @@ NICHT als alleinigen Kompass nehmen.
 | [[Die Streitenden Götter]] ([[Fantasy]], Verbund: [[Sturmfels-Akademie]] + [[Der Prinz von Staub und Schatten]]) | loved | hoerbuch (dt.) | 2026-07-16 |
 | [[Die mörderischen Cunninghams]] ([[Krimi]], Reihe) | loved | **buch/gelesen** (dt.) | 2026-07-16 |
 | [[Survival Quest]] ([[LitRPG]], Reihe, 7 Bände) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-16 |
+| [[Scholomance]] ([[Fantasy]], Trilogie) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-16 |
 
 ## Muster & Beobachtungen
 
@@ -100,6 +107,13 @@ NICHT als alleinigen Kompass nehmen.
   [[Pragmatischer Held mit klarem Kompass]] (Carl, kompetent ABER gefährdet, +2) vs.
   [[Überzogener Auserwählter]] (Mahan, unglaubwürdig überhöht, −2). Kompetenz ok,
   Un-Gefährdetheit nicht.
+- 2026-07-16: **2. Graubereich-Werk [[Scholomance]]** (Fantasy, „okay"). Bestätigt
+  Progression-Faden (2b) mit [[Flache Machtprogression]] (−2). Neue Erzählstimmen-Achse:
+  [[Bissig-lockere Erzählstimme]] (+1) kippt im Dauerbetrieb in [[Dauer-Zynismus]] (−1).
+  Regel-Konsistenz als Plus ([[Magiesystem-Tiefe]] +1) — Gegenprobe zu Survival Quests
+  Inkonsistenz. Erste weiche Romance-Warnung ([[Romance-Überhang]] −1) ohne harten
+  No-Go-Bruch. **[[Leonie Landa]]** als 3. „trägt massiv"-Sprecherin. Community mag Bd. 3
+  weniger (dt. 4,1) — deckt meine Bd.-3-Skepsis.
 
 ## Widersprüche / offene Fragen
 

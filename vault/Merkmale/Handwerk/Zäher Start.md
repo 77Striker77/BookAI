@@ -21,7 +21,7 @@ zusammen, betrifft aber speziell den ANFANG.
 
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
-| [[Fantasy]] | disliked | [[Sturmfels-Akademie]] −2 (Band 1, fast-Abbruch): „erste Buchhälfte: Vollkatastrophe … es dauert das halbe Buch, bis man bei der namensgebenden Akademie ist" · [[Der Prinz von Staub und Schatten]] −1: „Brauchte etwas, bis es in Fahrt kam" ([[2026-07-16 Interview Streitende Götter]]) |
+| [[Fantasy]] | disliked | [[Sturmfels-Akademie]] −2 (Band 1, fast-Abbruch): „erste Buchhälfte: Vollkatastrophe … es dauert das halbe Buch, bis man bei der namensgebenden Akademie ist" · [[Der Prinz von Staub und Schatten]] −1: „Brauchte etwas, bis es in Fahrt kam" ([[2026-07-16 Interview Streitende Götter]]) · [[Scholomance]] −1: „zäher/verwirrender Einstieg" ([[2026-07-16 Interview Scholomance]]) |
 
 ## Matching-Konsequenz
 
@@ -33,3 +33,7 @@ Kandidaten, deren Rezensionen einen langsamen/zähen Einstieg betonen, bekommen 
 
 - [[Sturmfels-Akademie]] (−2, Band 1)
 - [[Der Prinz von Staub und Schatten]] (−1)
+- [[Scholomance]] (−1)
+
+**In Fantasy 3× belegt (Sturmfels, Prinz, Scholomance) → verlässlichster Deal-Breaker
+des Nutzers, Ausdruck des roten Fadens [[Konstanter Vorwärtsdrang]].**

@@ -2,7 +2,7 @@
 name: "Fantasy"
 aktualisiert: 2026-07-16
 uebergeordnet: ""
-buecher: 1              # Werk-Verbund Die Streitenden Götter (2 Reihen)
+buecher: 2              # Die Streitenden Götter (Verbund) + Scholomance (mixed)
 gewichte:
   genres: 0.07
   themen: 0.20
@@ -52,18 +52,31 @@ Magiesystem schwächeln, ohne das Werk zu verderben. Maßstab-Werk:
 | [[Zäher Start]] | disliked | [[Der Prinz von Staub und Schatten]] −1 |
 | [[Magiesystem-Tiefe]] | liked (Tiefe erwünscht) | [[Die Streitenden Götter]] −1 („lasch") |
 
+## Top-DISLIKED-Merkmale in diesem Kontext (Anti-Muster, aus [[Scholomance]])
+
+| Merkmal | Status hier | Evidenz |
+| --- | --- | --- |
+| [[Flache Machtprogression]] | disliked | [[Scholomance]] −2, „OP von Anfang, keine Machtsteigerungskurve" |
+| [[Überladenes Weltdetail]] | disliked | [[Scholomance]] −1, „1 Mio Monster, nur Namen, verschenkt" |
+| [[Eindimensionale Gegenspieler]] | disliked | [[Scholomance]] −1 |
+| [[Romance-Überhang]] | disliked | [[Scholomance]] −1, „am Ende zu arg und zu viel" |
+| [[Dauer-Zynismus]] | disliked | [[Scholomance]] −1, Erzählstimme kippt |
+
 ## Kombinationsregeln (Wechselwirkungen — schlagen Einzel-Status)
 
 | Wenn … | dann … | Evidenz |
 | --- | --- | --- |
 | [[Zäher Start]] ABER [[Starkes Finale]] | tolerierbar (bleibt loved) | [[Sturmfels-Akademie]]: Fast-Abbruch in Bd. 1, aber „gegen Ende richtig gut" → weiter geliebt |
 | [[Zäher Start]] OHNE Aussicht auf starkes Finale | Ausschlussverdacht | Umkehrschluss — bei Kandidaten Rezensionen prüfen, ob der Payoff kommt |
+| [[Bissig-lockere Erzählstimme]] ABER im Dauerbetrieb | kippt in [[Dauer-Zynismus]] (Malus) | [[Scholomance]]: El-Stimme gefiel (frech/direkt), das Dauer-Nörgeln ermüdete |
+| [[Akademie-Leben & Gemeinschaft]] + [[Überlebensdruck als Motor]] | starkes Plus-Bündel | [[Scholomance]]: Todesschule + Gemeinschaft trugen trotz „okay" |
 
 ## Werke in diesem Kontext
 
 | Titel | Verdikt |
 | --- | --- |
 | [[Die Streitenden Götter]] (Verbund: [[Sturmfels-Akademie]] + [[Der Prinz von Staub und Schatten]]) | loved |
+| [[Scholomance]] (Naomi Novik, Trilogie) | mixed (Anti-Referenz −) |
 
 ## Gewichts-Begründung & Änderungshistorie
 
@@ -72,3 +85,4 @@ Magiesystem schwächeln, ohne das Werk zu verderben. Maßstab-Werk:
 | 2026-07-16 | Erstbelegung: themen/figuren je 0.22, setting 0.12, ton 0.12, handwerk 0.10 | Interview Streitende Götter: Themen (Underdog, Herkunfts-Konflikt) + Gemeinschaft/Figuren als Kern; Setting relevant (Welt „stimmig", Magiesystem-Kritik zeigt: Welt wird bewusst wahrgenommen); Ton noch unbelegt → moderat |
 | 2026-07-16 | handwerk 0.10 → 0.14, setting 0.12 → 0.10, komplexitaet 0.04 → 0.02 | Prinz-Analyse: Fokusverlust (−1) + zäher Start (−1) waren dem Nutzer wichtig genug, sie unaufgefordert zu nennen → Handwerk zählt auch in Fantasy mehr (roter Faden [[Konstanter Vorwärtsdrang]]) |
 | 2026-07-16 | handwerk 0.14 → 0.18, figuren 0.22 → 0.20, ton 0.12 → 0.10 | Sturmfels-Tiefeninterview: zäher Start/Fokusverlust −2 (Fast-Abbruch!) + Sidequests → Handwerk ist DER Hebel in Fantasy; Held-Handlungsfähigkeit (figuren) durch [[Zu lange schwacher Held]] bestätigt wichtig |
+| 2026-07-16 | Gewichte unverändert; 2. Werk [[Scholomance]] (mixed) + 5 Negativ- & 2 Positiv-Merkmale + 2 Kombinationsregeln | Bestätigt figuren/handwerk hoch: [[Flache Machtprogression]] (−2) drückt trotz starker Welt aufs „okay" → Progression/Aufstieg ist auch in Fantasy zentral. [[Zäher Start]] jetzt 3× belegt. Neue Achse Erzählstimme (bissig + / Dauer-Zynismus −) |

@@ -34,6 +34,14 @@ tags: [moc, home]
 
 ## Zuletzt
 
+- 2026-07-16 — Werk 6: [[Scholomance]] (Naomi Novik, Trilogie), **mixed / „okay"** —
+  2. Graubereich-Werk, erstes mixed in [[Fantasy]]. Hörbuch dt., **[[Leonie Landa]]**
+  (loved, „trägt"). **+** konsistente düstere Welt, durchdachte Regeln, Akademie-
+  Gemeinschaft, Überlebens-Countdown, bissig-lockere El-Stimme. **−** [[Flache
+  Machtprogression]] (−2, OP von Anfang), [[Zäher Start]], [[Überladenes Weltdetail]],
+  [[Eindimensionale Gegenspieler]], [[Romance-Überhang]], [[Dauer-Zynismus]]. 7 neue
+  Merkmale; neuer roter Faden „Progression/Aufstieg > OP-von-Anfang" (2 Kontexte).
+  Quelle: [[2026-07-16 Interview Scholomance]].
 - 2026-07-16 — Werk 5: [[Survival Quest]] (Vasily Mahanenko), **mixed / „okay"** — erstes
   bewusst als „okay" eingebrachtes Werk, **Start des Graubereich-Durchlaufs**. LitRPG,
   Hörbuch dt., [[Thomas Balou Martin]] (neutral). Anti-Referenz zu [[Dungeon Crawler Carl]]:

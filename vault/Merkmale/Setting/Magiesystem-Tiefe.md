@@ -25,13 +25,16 @@ Feintuning-Malus („nur zu stark eingeschränkt"), kein Verriss.
 
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
-| [[Fantasy]] | liked (Wunder erwünscht) | [[Die Streitenden Götter]] **−1**: „bei den Standard-Elementen etwas lasch" · [[Sturmfels-Akademie]]-Detail: „zu starke Regeln … Grenzen übersteigen = schneller Tod, dämpft das Magiegefühl … Welt top, System an sich auch, nur zu stark eingeschränkt" ([[2026-07-16 Interview Streitende Götter]]) |
+| [[Fantasy]] | liked (Wunder erwünscht) | [[Die Streitenden Götter]] **−1**: „bei den Standard-Elementen etwas lasch" · [[Sturmfels-Akademie]]-Detail: „zu starke Regeln … Grenzen übersteigen = schneller Tod, dämpft das Magiegefühl … Welt top, System an sich auch, nur zu stark eingeschränkt" ([[2026-07-16 Interview Streitende Götter]]) · [[Scholomance]] **+1**: „durchdachte Regeln/Logik", konsistent ([[2026-07-16 Interview Scholomance]]) |
 
 ## Matching-Konsequenz
 
 Plus für Kandidaten mit gelobtem, staunenswertem Magiesystem. Malus (kein Ausschluss),
-wenn Rezensionen es als generisch ODER überreguliert/freudlos beschreiben.
+wenn Rezensionen es als generisch ODER überreguliert/freudlos beschreiben. **Positiv-Beleg
+(Scholomance +1):** ein durchdacht-konsistentes System zahlt sich aus — die Konsistenz
+selbst ist ihm wichtig (Gegenprobe zu [[Regel-Inkonsistenz]] bei [[Survival Quest]]).
 
 ## Träger dieses Merkmals
 
+- [[Scholomance]] (+1, durchdacht & konsistent)
 - [[Die Streitenden Götter]] (−1, geteilt: generisch + zu restriktiv)
