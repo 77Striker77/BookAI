@@ -1,14 +1,14 @@
 ---
-aktualisiert:
-sprachen: [de, en]
+aktualisiert: 2026-07-16
+sprachen: [de]              # dt. Hörbuch erlebt; Englisch-Toleranz noch ungeklärt (s. Interviews)
 formate: [buch, hoerbuch]
-format_notizen: ""
+format_notizen: "Buch und Hörbuch gleichwertig (Interview 2026-07-16)"
 tempo_pref: ""
 komplexitaet_pref: ""
 laenge_seiten: ""
 laenge_stunden: ""
 emotion_gesucht: []
-performance_pref: ""        # Hörbuch: solo / voll-cast / …
+performance_pref: "Sprecherqualität hochrelevant — Kaminski 'trägt massiv'"
 tags: [moc, profil]
 ---
 
@@ -25,35 +25,37 @@ tags: [moc, profil]
 
 ## Roter Faden (gilt überall)
 
-*Noch leer — entsteht aus den ersten analysierten Titeln. Nur Muster eintragen, die
-über MEHRERE Kontexte bestätigt sind; Einzelraum-Muster gehören in die Kontext-Notiz.*
+*Erst 1 Titel analysiert — noch kein kontextübergreifend bestätigtes Muster. Hypothesen
+(unbestätigt, aus [[LitRPG]]): Vorwärtsdrang ohne Füller; pragmatische Helden mit
+klarem Kompass; Tonwechsel Humor↔Ernst. Bestätigen, sobald ein zweiter Kontext Daten hat.*
 
 ## Was ich überall liebe / meide
 
 <!-- Nur kontextübergreifend Bestätigtes, als Links -->
-- **Liebe überall:** —
-- **Meide überall:** — (weich; hart → [[No-Gos]])
-
-## Was ich meide
-
-- siehe [[No-Gos]] (hart) und Merkmal-Notizen mit `status: disliked` (weich)
+- **Liebe überall:** — *(Hypothesen s. o.)*
+- **Meide überall (hart, kontextunabhängig):** [[No-Gos]] — Reihen-Pflicht ≥3 Bände
+  (Universum zählt zusammen), Romantasy-Fokus
 
 ## Hörbuch-Spezifika
 
-- **Geliebte Sprecher:** — <!-- [[Sprecher-Name]] -->
-- **Performance:** —
+- **Geliebte Sprecher:** [[Stefan Kaminski]] („trägt massiv")
+- **Performance:** Solo mit starken Figurenstimmen belegt geliebt; Voll-Cast ungetestet
 
 ## Analysierte Titel
 
 | Titel | Verdikt | Format | analysiert |
 | --- | --- | --- | --- |
-<!-- | [[Der Name des Windes]] | loved | hoerbuch | 2026-07-16 | -->
+| [[Dungeon Crawler Carl]] ([[LitRPG]]) | loved | hoerbuch (dt.) | 2026-07-16 |
 
 ## Muster & Beobachtungen
 
-*Wiederkehrende Merkmale über mehrere Titel; hier steht die Evidenz, die Gewichts-
-Änderungen in [[Gewichte]] begründet.*
+- 2026-07-16: Nutzer ergänzte eigeninitiativ „Fokus/Story geht immer weiter" → Handwerk
+  im Kontext [[LitRPG]] mit 0.15 ungewöhnlich hoch gewichtet (Begründung dort).
+- Alle 10 DCC-Aspekte +2, keine Negativzeile trotz direkter Nachfrage → DCC ist
+  Maßstab-Buch; künftige LitRPG-Kandidaten messen sich an dieser Latte.
 
 ## Widersprüche / offene Fragen
 
-*Z. B. "sagt düster, Top-3 sind aber hoffnungsvoll" — in der nächsten Interviewrunde klären.*
+- Sprachen: nur Deutsch oder auch Englisch okay? (nächste Runde klären)
+- Gilt „Vorwärtsdrang" auch in langsameren Genres (Epic Fantasy)? → Kontext-Kontrast
+- Splatter/Gore-Grenze generell? (bei DCC unauffällig)
