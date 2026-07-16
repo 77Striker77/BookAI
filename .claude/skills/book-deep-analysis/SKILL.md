@@ -169,6 +169,42 @@ Artefakt als "Kerndaten" erscheint.
   auch dann, wenn die Serienseite (403) nicht direkt ladbar ist. Erst aufgeben, wenn mehrere
   Suchen leer bleiben — und das dann transparent vermerken.
 
+## 🔀 Recherche fächern (Fan-out) — bewährter Workflow für Voll-Metadaten
+
+> Gelernt 2026-07-16 (Survival Quest / Scholomance / Riyria): bandgenaue, ausgabengenaue
+> Metadaten holt man am besten über **parallele Recherche-Agenten** (`Agent`,
+> subagent_type `general-purpose`, `run_in_background: true`) — je Agent ein klarer
+> Auftrag, **JSON-Rückgabe, Quelle je Wert**, „nicht gefunden" statt Erfindung:
+
+- **Agent „Deutsche Ausgaben":** Titel DE, Hörbuch (⭐ **SPRECHER/IN = wichtigstes
+  Einzelfaktum bei Hörbüchern**, mehrfach absichern —, Dauer, Datum, ASIN/EAN, Label),
+  Print (Verlag, ISBN-13, Seiten, Datum, Übersetzer), dt. Community-Wertung + Anzahl.
+- **Agent „Englische/Original-Ausgaben":** Original-/EN-Titel, Release-Daten, ISBN/ASIN,
+  Verlag, EN-Hörbuch (Narrator/Dauer), Goodreads je Band (+ ggf. Sammelband), Auszeichnungen,
+  Originalsprache/-jahr.
+
+Beide parallel starten (der Orchestrator arbeitet in der Zwischenzeit an Merkmalen/Kontext/
+Profil weiter), Ergebnisse zusammenführen, DANN die Werk-Notiz schreiben. Mehr Winkel →
+mehr Agenten. Widersprüche/Lücken als „Offene Frage" führen (nie glätten).
+
+**403 auf Shop-/Rating-Seiten ist der Normalfall** (Audible.de, Amazon, Goodreads,
+Verlags-Shops, teils Wikipedia): dann über WebSearch-Snippets gehen und solche Werte als
+„unbestätigt/?" markieren. Sicher aus URLs/Snippets sind meist ASINs, EANs/ISBN-13,
+Sprecher/Übersetzer; Hördauern und taggenaue Daten oft nur sekundär.
+
+## 🧭 Analyse-Techniken (aus der Praxis — immer anwenden)
+
+- **Community-Bandkurve gegen mein Empfinden legen:** echte Wertung je Band mit den
+  Aspekt-Wertungen abgleichen. Deckt es sich → belegte Werk-Stärke/-Schwäche (keine bloße
+  Eigenheit). Läuft es GEGEN den Trend (Community feiert das Finale, ich fand es schwach) →
+  bewusst als persönliche Eigenheit vermerken — das schärft das Profil besonders.
+- **„okay"/mixed-Werke sind DOPPEL-Referenzen:** sie liefern GELIEBTE Muster UND
+  Anti-Muster. Beide sauber als +/−-Aspekte erfassen; gerade die geliebten Zeilen eines
+  „okay"-Werks (Duo, Mystery, Humor …) sind wertvolle Plus-Signale, nicht nur die Minuspunkte.
+- **Sprecher-Roster pflegen:** „trägt massiv"-Stimmen sammeln (bislang [[Stefan Kaminski]],
+  [[Günter Merlau]], [[Leonie Landa]], [[David Nathan]]) → bei Hörbuch-Kandidaten
+  Qualitäts-Bonus. Nicht gehörte (z. B. EN-)Sprecher als `ungetestet`-Stubs führen.
+
 ## Qualitätsregeln
 - Mindestens 2 unabhängige Quellen für harte Fakten (Jahr, Autor, ISBN).
 - Unsichere Angaben markieren (`jahr: "~2011?"` + Notiz unter "Offene Fragen"), nie glätten.
