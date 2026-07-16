@@ -1,7 +1,7 @@
 ---
 typ: figur
-status_global: ""
-status_kontexte: { LitRPG: loved }
+status_global: loved
+status_kontexte: { LitRPG: loved, Fantasy: loved }
 staerke: hoch
 seit: 2026-07-16
 uebergeordnet: ""
@@ -23,6 +23,7 @@ Gegenteile: weinerlicher Zauderer; kompassloser Antiheld.
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
 | [[LitRPG]] | loved | [[Dungeon Crawler Carl]] +2; „Carl ist kein weinerliches Weichei … trotzdem ist sein moralischer Kompass klar. Das ist perfekt." ([[2026-07-16 Erstinterview Dungeon Crawler Carl]]) |
+| [[Fantasy]] | loved | [[Riyria]] +1 — „kompetente Macher-Helden" (Royce & Hadrian handeln, zaudern nicht) ([[2026-07-16 Interview Riyria]]) |
 
 ## Achse (kontextübergreifend)
 
@@ -33,3 +34,4 @@ Genres hinweg → bei Kandidaten die Protagonisten-Handlungsfähigkeit prüfen.
 ## Träger dieses Merkmals
 
 - [[Dungeon Crawler Carl]] (+2, Carl)
+- [[Riyria]] (+1, Royce & Hadrian)

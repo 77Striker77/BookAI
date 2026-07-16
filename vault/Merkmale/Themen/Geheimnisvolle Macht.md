@@ -22,7 +22,7 @@ Fokus verliert.
 
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
-| [[Fantasy]] | loved | [[Der Prinz von Staub und Schatten]] +2 — „Die geheimnisvolle Macht, die er hat. Darauf könnte sich es noch viel mehr fokussieren sogar." ([[2026-07-16 Interview Streitende Götter]]) |
+| [[Fantasy]] | loved | [[Der Prinz von Staub und Schatten]] +2 — „Die geheimnisvolle Macht, die er hat. Darauf könnte sich es noch viel mehr fokussieren sogar." ([[2026-07-16 Interview Streitende Götter]]) · [[Riyria]] +2 — „das geheimnis aus der untergegangenen welt … hat gut gefallen" ([[2026-07-16 Interview Riyria]]) |
 
 ## Hinweis
 
@@ -33,3 +33,7 @@ konsequent ins Zentrum stellen, treffen einen Nerv.
 ## Träger dieses Merkmals
 
 - [[Der Prinz von Staub und Schatten]] (+2, Tarikhs Gabe)
+- [[Riyria]] (+2, Geheimnis der untergegangenen Welt/Imperium)
+
+**In 2 Fantasy-Werken +2 → verlässlicher Reiz: ein zentrales, sich entfaltendes
+Macht-/Welt-Geheimnis. Verwandt mit [[Verlorenes Erbe & Thronanspruch]].**

@@ -34,6 +34,14 @@ tags: [moc, home]
 
 ## Zuletzt
 
+- 2026-07-16 — Werk 7: [[Riyria]] (Michael J. Sullivan, Revelations, 6 Bände), **mixed /
+  „okay"** — 3. Graubereich-Werk, 2. mixed in [[Fantasy]]. Hörbuch dt., **[[David Nathan]]**
+  (loved, 4. „trägt"-Stimme). **Doppel-Referenz:** geliebt [[Ungleiches Duo]] (+2, Royce &
+  Hadrian) + [[Geheimnisvolle Macht]] (+2); Anti-Muster [[Flache Machtprogression]] (−2,
+  „kein Limit-Break" → deckt jetzt BEIDE Pole), [[Unbalanciertes Machtsystem]],
+  [[Schwache Haupthandlung]], [[Dünnes Weltdetail]], [[Setup ohne Payoff]]. Neuer Faden:
+  Magie-/Power-Fantasy-Lean. Community rated Finale am höchsten (4,57), mein Urteil gegen
+  den Trend. Quelle: [[2026-07-16 Interview Riyria]].
 - 2026-07-16 — Werk 6: [[Scholomance]] (Naomi Novik, Trilogie), **mixed / „okay"** —
   2. Graubereich-Werk, erstes mixed in [[Fantasy]]. Hörbuch dt., **[[Leonie Landa]]**
   (loved, „trägt"). **+** konsistente düstere Welt, durchdachte Regeln, Akademie-

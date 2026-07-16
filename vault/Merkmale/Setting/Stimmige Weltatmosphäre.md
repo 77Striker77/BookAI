@@ -21,10 +21,11 @@ Atmosphäre schlägt Mechanik.
 
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
-| [[Fantasy]] | liked | [[Die Streitenden Götter]] +1 — „die Welt an sich ist stimmig und gut" ([[2026-07-16 Interview Streitende Götter]]) |
+| [[Fantasy]] | liked | [[Die Streitenden Götter]] +1 — „die Welt an sich ist stimmig und gut" ([[2026-07-16 Interview Streitende Götter]]) · [[Riyria]] +1 — „solide, greifbare Welt" + atmosphärische Schauplätze ([[2026-07-16 Interview Riyria]]) |
 | [[LitRPG]] | liked | [[Survival Quest]] +1 — „die Welt an sich ist ganz nett und atmosphärisch" (Spielwelt Barliona; Realwelt-Rahmen dagegen [[Schwache Rahmenhandlung]]) ([[2026-07-16 Interview Survival Quest]]) |
 
 ## Träger dieses Merkmals
 
 - [[Die Streitenden Götter]] (+1, Splitterlande)
 - [[Survival Quest]] (+1, Spielwelt Barliona)
+- [[Riyria]] (+1, solide/atmosphärische Schauplätze)

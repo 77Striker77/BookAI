@@ -22,7 +22,7 @@ auch ruhige Szenen zählen, solange sie tragen. Gegenteil: Filler-Etagen, Nebenq
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
 | [[LitRPG]] | loved | [[Dungeon Crawler Carl]] +2 („Fokus. Story geht immer weiter") — ABER **im selben Kontext verletzt**: [[Survival Quest]] **−1** („der HC bleibt einfach zu selten bei der Sache", Sidequest-Wildwuchs) ([[2026-07-16 Erstinterview Dungeon Crawler Carl]] · [[2026-07-16 Interview Survival Quest]]) |
-| [[Fantasy]] | loved | 2× verletzt: [[Sturmfels-Akademie]] **−2** (Band 1: „zu wenig Progress, man weiß nicht wohin die Reise geht") · [[Der Prinz von Staub und Schatten]] **−1** („Fokus geht vom Ziel weg … könnte mehr Progress machen") ([[2026-07-16 Interview Streitende Götter]]) |
+| [[Fantasy]] | loved | 2× verletzt: [[Sturmfels-Akademie]] **−2** (Band 1: „zu wenig Progress, man weiß nicht wohin die Reise geht") · [[Der Prinz von Staub und Schatten]] **−1** („Fokus geht vom Ziel weg … könnte mehr Progress machen") ([[2026-07-16 Interview Streitende Götter]]) · [[Riyria]] **+1** — „Abenteuer-/Heist-Struktur + roter Faden über die Bände" (zügig, großer Bogen) ([[2026-07-16 Interview Riyria]]) |
 | [[Krimi]] | loved | [[Die mörderischen Cunninghams]] **+2** — „Sehr straff", alles zahlt auf den Fall ein, kein Leerlauf ([[2026-07-16 Interview Die mörderischen Cunninghams]]) |
 
 ## Kontextübergreifend bestätigt (roter Faden!)

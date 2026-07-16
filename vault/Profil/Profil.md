@@ -37,12 +37,18 @@ tags: [moc, profil]
    Genre-Zutaten wie DCC, aber Sidequest-Wildwuchs + [[Setup ohne Payoff]] → nur „okay".
 2. **Held muss handlungsfähig sein** — Achse [[Pragmatischer Held mit klarem Kompass]]
    (Carl +2) ↔ [[Zu lange schwacher Held]] (Niri Bd. 1 −2, Fast-Abbruch).
-2b. **Progression/Aufstieg erwünscht, OP-von-Anfang gemieden (NEU, 2 Kontexte)** — der
-   Nutzer liebt Stärkerwerden/Wachstum ([[Underdog-Aufstieg]], [[System & Progression]],
-   [[Wachsende Hauptfigur]]) und straft OP-Helden ohne Kurve ab: [[Überzogener
-   Auserwählter]] ([[Survival Quest]], LitRPG −2) + [[Flache Machtprogression]]
-   ([[Scholomance]], Fantasy −2). → Bei Kandidaten auf eine echte Macht-/Lernkurve achten;
-   „overpowered from the start / no growth" = Malus.
+2b. **Machtsteigerungs-Kurve MIT Peak erwünscht (roter Faden, 2 Kontexte, 3 Werke)** — der
+   Nutzer liebt Stärkerwerden/Wachstum + spektakuläre Eskalation ([[Underdog-Aufstieg]],
+   [[System & Progression]], [[Wachsende Hauptfigur]], [[Eskalations-Setpieces]]) und
+   straft **beide Pole der flachen Kurve** ab: OP-von-Anfang ([[Scholomance]] −2) UND
+   gedeckelt-ohne-Peak ([[Riyria]] −2, „kein Limit-Break"), dazu unglaubwürdig überhöht
+   ([[Überzogener Auserwählter]], [[Survival Quest]] −2). → Kandidaten brauchen einen
+   klaren **Climb + Payoff**; „OP from start / no growth" UND „stays weak / no power
+   ceiling" sind beide Malus.
+2c. **Magie-/Power-Fantasy-Lean (NEU)** — „zu wenig Fantasy", „kaum Magie" ([[Riyria]])
+   werden bemängelt; der Nutzer will Wunder/Magie-Reichtum + ein durchdacht-**ausbalanciertes**
+   Machtsystem ([[Magiesystem-Tiefe]] als Wunsch, [[Unbalanciertes Machtsystem]] als Malus).
+   Tendenz weg von low-magic-geerdeter Fantasy, hin zu magiereich/eskalierend (LitRPG-nah).
 3. **Humor als Plus** — [[Absurder Humor]] (LitRPG) & [[Trocken-ironischer Humor]] (Krimi):
    in zwei Kontexten trägt Humor (verschiedene Spielarten).
 4. **Sprecher-Performance ist zentral** — [[Stefan Kaminski]] UND [[Günter Merlau]]
@@ -86,6 +92,7 @@ NICHT als alleinigen Kompass nehmen.
 | [[Die mörderischen Cunninghams]] ([[Krimi]], Reihe) | loved | **buch/gelesen** (dt.) | 2026-07-16 |
 | [[Survival Quest]] ([[LitRPG]], Reihe, 7 Bände) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-16 |
 | [[Scholomance]] ([[Fantasy]], Trilogie) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-16 |
+| [[Riyria]] ([[Fantasy]], Revelations, 6 Bände) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-16 |
 
 ## Muster & Beobachtungen
 
@@ -107,6 +114,13 @@ NICHT als alleinigen Kompass nehmen.
   [[Pragmatischer Held mit klarem Kompass]] (Carl, kompetent ABER gefährdet, +2) vs.
   [[Überzogener Auserwählter]] (Mahan, unglaubwürdig überhöht, −2). Kompetenz ok,
   Un-Gefährdetheit nicht.
+- 2026-07-16: **3. Graubereich-Werk [[Riyria]]** (Fantasy, „okay"). **Doppel-Referenz:**
+  geliebte Muster ([[Ungleiches Duo]] +2, [[Geheimnisvolle Macht]] +2, [[Trocken-ironischer Humor]]
+  jetzt in 2 Kontexten) UND Anti-Muster. Schärft Faden 2b entscheidend: [[Flache
+  Machtprogression]] deckt jetzt BEIDE Pole (Scholomance OP-oben / Riyria gedeckelt-unten,
+  „kein Limit-Break"). Neuer Faden 2c: Magie-/Power-Fantasy-Lean („zu wenig Fantasy").
+  [[David Nathan]] als 4. „trägt"-Sprecher. Community rated Finale am höchsten (4,57) —
+  mein Urteil läuft gegen den Trend (Duo/Mystery reichen mir ohne Magie/Machtkurve nicht).
 - 2026-07-16: **2. Graubereich-Werk [[Scholomance]]** (Fantasy, „okay"). Bestätigt
   Progression-Faden (2b) mit [[Flache Machtprogression]] (−2). Neue Erzählstimmen-Achse:
   [[Bissig-lockere Erzählstimme]] (+1) kippt im Dauerbetrieb in [[Dauer-Zynismus]] (−1).

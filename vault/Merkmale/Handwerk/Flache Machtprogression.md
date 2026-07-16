@@ -13,31 +13,38 @@ tags: [merkmal]
 
 ## Definition — wie ICH es meine
 
-Die Hauptfigur ist von Anfang an (fast) allmächtig — es gibt **keine spürbare
-Steigerungs-/Lernkurve**: kein Erlernen von Fertigkeiten, kein wachsendes Verständnis der
-eigenen Fähigkeiten, kein Aufstieg von schwach zu stark. Der Reiz des *Stärkerwerdens*
-fehlt. Abgegrenzt von [[Überzogener Auserwählter]] (dort: unglaubwürdige Überhöhung/
-Regelbruch) — hier geht es speziell um die **fehlende Entwicklung über die Zeit**. Das
-Gegenteil dessen, was ich liebe: [[System & Progression]], [[Underdog-Aufstieg]],
-[[Wachsende Hauptfigur]].
+**Keine spürbare Macht-/Steigerungskurve** über die Reihe — der Reiz des *Stärkerwerdens*
+mit spektakulärem Peak fehlt. Das kann an **BEIDEN Polen** kippen:
+1. **OP von Anfang (flach oben):** Figur schon (fast) allmächtig, kein Aufstieg mehr
+   ([[Scholomance]]: El „zu mächtig von Beginn an").
+2. **Gedeckelt/kein Peak (flach unten):** Figur bleibt dauerhaft geerdet-schwach, kein
+   „Limit-Break", keine Eskalation nach oben ([[Riyria]]: „zu schwach … kein wirklicher
+   limit break").
+Der gemeinsame Nenner ist die **fehlende Kurve (Climb + Payoff)**. Abgegrenzt von
+[[Überzogener Auserwählter]] (unglaubwürdige Überhöhung/Regelbruch). Gegenteil dessen, was
+ich liebe: [[System & Progression]], [[Underdog-Aufstieg]], [[Wachsende Hauptfigur]],
+[[Eskalations-Setpieces]].
 
 ## Wirkung nach Kontext
 
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
-| [[Fantasy]] | disliked | [[Scholomance]] −2: „zu mächtig schon von Beginn an. keine richtige Machtsteigerungskurve … die Macht-Lernkurve war recht flach" ([[2026-07-16 Interview Scholomance]]) |
+| [[Fantasy]] | disliked | [[Scholomance]] −2 (OP von Anfang): „keine richtige Machtsteigerungskurve … Lernkurve recht flach" ([[2026-07-16 Interview Scholomance]]) · [[Riyria]] −2 (gedeckelt): „zu schwach … da fehlte ein wirklicher limit break. bei beiden" ([[2026-07-16 Interview Riyria]]) |
 
 ## Matching-Konsequenz
 
 Rezensionen mit „overpowered from the start", „no character/power growth", „flat arc",
-„protagonist doesn't develop", „starts at the top" → Malus. Umgekehrt: eine klare
-Progressions-/Lernkurve (Underdog → stark) ist ein Plus-Signal.
+„starts at the top" ODER „hero stays weak/mundane, no payoff", „low power ceiling" →
+Malus. Umgekehrt: eine klare **Steigerungskurve mit spektakulärem Peak** (Underdog → stark,
+Eskalation) ist ein starkes Plus-Signal.
 
 ## Verwandtschaft (Muster)
 
-Zusammen mit [[Überzogener Auserwählter]] ([[Survival Quest]]) Beleg für den möglichen
-roten Faden **„Progression/Aufstieg erwünscht, OP-von-Anfang gemieden"** — siehe [[Profil]].
+Zusammen mit [[Überzogener Auserwählter]] ([[Survival Quest]]) einer der Belege für den
+roten Faden **„Machtsteigerungs-Kurve mit Peak erwünscht"** (siehe [[Profil]] 2b). Beide
+Pole (OP-von-Anfang, gedeckelt) sind Ausprägungen derselben fehlenden Kurve.
 
 ## Träger
 
-- [[Scholomance]] (−2)
+- [[Scholomance]] (−2, OP von Anfang)
+- [[Riyria]] (−2, gedeckelt/kein Peak)

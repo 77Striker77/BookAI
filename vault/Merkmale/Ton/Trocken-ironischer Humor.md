@@ -1,7 +1,7 @@
 ---
 typ: ton
-status_global: ""
-status_kontexte: { Krimi: loved }
+status_global: loved
+status_kontexte: { Krimi: loved, Fantasy: loved }
 staerke: mittel
 seit: 2026-07-16
 uebergeordnet: ""
@@ -22,6 +22,7 @@ Zwei Varianten desselben Humor-Spektrums (Kandidat für Merkmal-Hub, falls mehr 
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
 | [[Krimi]] | loved | [[Die mörderischen Cunninghams]] +2 — „Humor & Ton" gewählt; Rezensionen: „sarkastischer Humor" ([[2026-07-16 Interview Die mörderischen Cunninghams]]) |
+| [[Fantasy]] | loved | [[Riyria]] +1 — „Wortgefechte & Humor" des Duos gewählt (Royce/Hadrian-Banter) ([[2026-07-16 Interview Riyria]]) |
 
 ## Verwandt
 
@@ -31,3 +32,4 @@ Zwei Varianten desselben Humor-Spektrums (Kandidat für Merkmal-Hub, falls mehr 
 ## Träger
 
 - [[Die mörderischen Cunninghams]] (+2)
+- [[Riyria]] (+1, Duo-Banter)

@@ -22,8 +22,9 @@ rechtmäßig zusteht — nicht Aufstieg von ganz unten aus dem Nichts.
 
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
-| [[Fantasy]] | loved | [[Der Prinz von Staub und Schatten]] +2 — Tarikhs Rückkehr aus dem Exil / Thron der Sande ([[2026-07-16 Interview Streitende Götter]]) |
+| [[Fantasy]] | loved | [[Der Prinz von Staub und Schatten]] +2 — Tarikhs Rückkehr aus dem Exil / Thron der Sande ([[2026-07-16 Interview Streitende Götter]]) · [[Riyria]] +1 — Erbe des untergegangenen Novron-Imperiums als Kern-Mysterium ([[2026-07-16 Interview Riyria]]) |
 
 ## Träger dieses Merkmals
 
 - [[Der Prinz von Staub und Schatten]] (+2, Tarikh al Sal-ka-Nar)
+- [[Riyria]] (+1, Erbe von Novron / verlorenes Imperium)

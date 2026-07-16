@@ -25,7 +25,7 @@ Feintuning-Malus („nur zu stark eingeschränkt"), kein Verriss.
 
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
-| [[Fantasy]] | liked (Wunder erwünscht) | [[Die Streitenden Götter]] **−1**: „bei den Standard-Elementen etwas lasch" · [[Sturmfels-Akademie]]-Detail: „zu starke Regeln … Grenzen übersteigen = schneller Tod, dämpft das Magiegefühl … Welt top, System an sich auch, nur zu stark eingeschränkt" ([[2026-07-16 Interview Streitende Götter]]) · [[Scholomance]] **+1**: „durchdachte Regeln/Logik", konsistent ([[2026-07-16 Interview Scholomance]]) |
+| [[Fantasy]] | liked (Wunder erwünscht) | [[Die Streitenden Götter]] **−1**: „bei den Standard-Elementen etwas lasch" · [[Sturmfels-Akademie]]-Detail: „zu starke Regeln … Grenzen übersteigen = schneller Tod, dämpft das Magiegefühl … Welt top, System an sich auch, nur zu stark eingeschränkt" ([[2026-07-16 Interview Streitende Götter]]) · [[Scholomance]] **+1**: „durchdachte Regeln/Logik", konsistent ([[2026-07-16 Interview Scholomance]]) · [[Riyria]] **−1**: „magie … lasch"/abwesend, „zu wenig fantasy" — Wunder vermisst ([[2026-07-16 Interview Riyria]]) |
 
 ## Matching-Konsequenz
 
@@ -38,3 +38,7 @@ selbst ist ihm wichtig (Gegenprobe zu [[Regel-Inkonsistenz]] bei [[Survival Ques
 
 - [[Scholomance]] (+1, durchdacht & konsistent)
 - [[Die Streitenden Götter]] (−1, geteilt: generisch + zu restriktiv)
+- [[Riyria]] (−1, lasch/abwesend, „zu wenig Fantasy")
+
+**Klares Signal: der Nutzer will Wunder/Magie-Reichtum — „zu wenig Fantasy" (Riyria) und
+generisch/lasch werden bemängelt, durchdacht-konsistent (Scholomance) gelobt.**

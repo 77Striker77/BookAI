@@ -14,7 +14,7 @@ tags: [moc, kontexte]
 | Kontext | Werke | zuletzt aktiv | Kurzcharakter |
 | --- | --- | --- | --- |
 | [[LitRPG]] | 2 | 2026-07-16 | Vorwärtsdrang, Ton-Mix absurd↔ernst, pragmatischer Held, System-Satire · Anti-Muster: Sidequest-Wildwuchs, Über-Crunch, OP-Held |
-| [[Fantasy]] | 2 (Verbund + Scholomance) | 2026-07-16 | Figuren & Gemeinschaft, Underdog + Herkunfts-Konflikt, stimmige Welt · Anti-Muster: flache Machtprogression, zäher Start, überladenes Weltdetail |
+| [[Fantasy]] | 3 (Verbund + Scholomance + Riyria) | 2026-07-16 | Figuren/Duo & Gemeinschaft, Mystery/verlorenes Erbe, stimmige Welt · Anti-Muster: flache Machtprogression (beide Pole), unbalanciertes/dünnes Machtsystem, zäher Start |
 | [[Krimi]] | 1 | 2026-07-16 | Locked-Room, Meta-/Fair-Play-Erzähler, cleverer Twist, straff |
 
 ## Zuordnungsregeln (Buch/Kandidat → Kontext)
