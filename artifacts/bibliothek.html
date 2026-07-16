@@ -74,6 +74,9 @@
   .band.best .rv { color: var(--good); font-weight: 700; } .band.best .rbar>span { background: var(--good); }
   .band.worst .rv { color: var(--bad); font-weight: 700; } .band.worst .rbar>span { background: var(--bad); }
   .band.mine { font-weight: 600; } .band.mine .bt::after { content: " ▸"; color: var(--accent); }
+  .raxis { display: grid; grid-template-columns: 20px 1fr 62px 34px; gap: 8px; font-size: .64rem; color: var(--muted); margin: 2px 0 4px; }
+  .raxis .ax { grid-column: 3; display: flex; justify-content: space-between; }
+  .scalehint { font-size: .72rem; color: var(--muted); margin: 0 0 6px; }
 
   /* aspects */
   .asp { font-size: .85rem; margin: 2px 0; }
@@ -102,7 +105,7 @@
     <div class="stat"><div class="n num">3</div><div class="l">davon geliebt</div></div>
     <div class="stat"><div class="n">🎧 dt.</div><div class="l">Format: Hörbuch</div></div>
     <div class="stat"><div class="n num">2</div><div class="l">Geschmacksräume</div></div>
-    <div class="stat"><div class="n">★ ~4,5</div><div class="l">Community ⌀ (echt)</div></div>
+    <div class="stat"><div class="n">★ ~4,5<small style="font-size:.6em;color:var(--muted)">/5</small></div><div class="l">Community ⌀ (echt)</div></div>
   </div>
 
   <!-- ================= 1) KOMMENDE RELEASES ================= -->
@@ -167,7 +170,9 @@
       <div class="wmeta">8 von 9 Bänden · EN komplett (Jeff Hays) · DE im Aufbau (Stefan Kaminski, seit Feb 2026) · Sprachen EN·DE·ES·FR·IT·SV·PT · Community ★ ~4,5 bei ~1,7 Mio (engl. Audible 4,9)</div>
       <div class="cols">
         <div>
-          <p class="box-title">Wertung je Band (Goodreads) · ▸ = von mir gehört</p>
+          <p class="box-title">★ Wertung je Band · Goodreads /5 · ▸ = von mir gehört</p>
+          <p class="scalehint">Balken zeigen den <b>Ausschnitt 4,0–5,0</b> (alle Bände sind hoch bewertet — der Zoom macht nur die Unterschiede sichtbar).</p>
+          <div class="raxis"><span class="ax"><span>4,0</span><span>5,0</span></span></div>
           <div class="band mine"><span class="bn">1</span><span class="bt">Dungeon Crawler Carl</span><div class="rbar"><span style="width:45%"></span></div><span class="rv">4,45</span></div>
           <div class="band mine"><span class="bn">2</span><span class="bt">Carl's Doomsday Scenario</span><div class="rbar"><span style="width:49%"></span></div><span class="rv">4,49</span></div>
           <div class="band worst"><span class="bn">3</span><span class="bt">Anarchist's Cookbook</span><div class="rbar"><span style="width:40%"></span></div><span class="rv">4,40</span></div>
@@ -208,7 +213,9 @@
         <div class="wmeta">2023–2025 · nur DE · Community ★ ~4,4 (~1.680)</div>
         <div class="cols">
           <div>
-            <p class="box-title">Wertung je Band (Goodreads)</p>
+            <p class="box-title">★ Wertung je Band · Goodreads /5</p>
+            <p class="scalehint">Balken = <b>Ausschnitt 4,0–5,0</b> (alle hoch bewertet).</p>
+            <div class="raxis"><span class="ax"><span>4,0</span><span>5,0</span></span></div>
             <div class="band worst"><span class="bn">1</span><span class="bt">Der Turm der Bettler</span><div class="rbar"><span style="width:32%"></span></div><span class="rv">4,32</span></div>
             <div class="band"><span class="bn">2</span><span class="bt">Der Turm des Goldes</span><div class="rbar"><span style="width:41%"></span></div><span class="rv">4,41</span></div>
             <div class="band best"><span class="bn">3</span><span class="bt">Der Turm der Könige</span><div class="rbar"><span style="width:45%"></span></div><span class="rv">4,45</span></div>
@@ -234,7 +241,9 @@
         <div class="wmeta">seit 2026 · nur DE · Community ★ ~4,7 / ~650 (Bd. 1)</div>
         <div class="cols">
           <div>
-            <p class="box-title">Wertung je Band</p>
+            <p class="box-title">★ Wertung je Band · Amazon.de /5</p>
+            <p class="scalehint">Balken = <b>Ausschnitt 4,0–5,0</b>.</p>
+            <div class="raxis"><span class="ax"><span>4,0</span><span>5,0</span></span></div>
             <div class="band mine"><span class="bn">1</span><span class="bt">Heimkehr</span><div class="rbar"><span style="width:70%"></span></div><span class="rv">~4,7</span></div>
             <div class="band mine"><span class="bn">2</span><span class="bt">Widerstand</span><div class="rbar"><span style="width:0%"></span></div><span class="rv">neu ⚠️</span></div>
             <p class="note" style="margin-top:6px">Sehr neu (2026) → wenige Wertungen. Bd. 1 stärker gelobt als Bd. 2.</p>
@@ -254,6 +263,8 @@
 
   </section>
 
-  <p class="footer">Balkenlänge = Wertung auf Skala 4,0–5,0 · ▸ markiert von mir gehörte Bände · alle Zahlen aus echten Nutzerwertungen (Goodreads/Amazon/Audible), Details im Vault.</p>
+  <p class="footer">Alle Wertungen auf der <b>0–5-Sterne-Skala</b> der Quelle (Goodreads/Amazon/Audible) — z. B. 4,32/5 ist bereits sehr gut.
+  Die Balken zeigen nur den oberen Ausschnitt <b>4,0–5,0</b>, damit die feinen Unterschiede zwischen den Bänden sichtbar werden.
+  ▸ markiert von mir gehörte Bände · Details im Vault.</p>
 
 </div>

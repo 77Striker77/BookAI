@@ -21,10 +21,6 @@ verdict: "loved"
 format_erlebt: "hoerbuch"
 sprecher: "Günter Merlau"
 performance: "solo"
-community_score: 85
-community_konfidenz: "niedrig"   # sehr neu (2026), wenige Datenpunkte
-community_quellen:
-  - { quelle: "Amazon/Audible/LovelyBooks (Bd.1 Heimkehr)", wert: "~4.2–4.4/5", stimmen: "wenige (neu)" }
 genres: [Epic Fantasy]
 themen: [Verlorenes Erbe & Thronanspruch, Rache & Verfolgungsdruck, Geheimnisvolle Macht]
 ton: []
