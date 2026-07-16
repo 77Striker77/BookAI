@@ -11,4 +11,4 @@ Notiz wandert nach `Bibliothek/Bücher/`, Zeile hier abhaken.
 
 | Titel | Format | aus Lauf | Match | Status |
 | --- | --- | --- | --- | --- |
-<!-- | [[Die Furcht des Weisen]] | 🎧 | [[2026-07-16 Ähnlich zu Name des Windes]] | 82 % | offen | -->
+| [[Carl's Doomsday Scenario]] | 🎧 dt. | — (Folgeband, Nutzerangabe) | — | **am Hören** |

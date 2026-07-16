@@ -1,6 +1,6 @@
 ---
 aktualisiert: 2026-07-16
-sprachen: [de]              # dt. Hörbuch erlebt; Englisch-Toleranz noch ungeklärt (s. Interviews)
+sprachen: [de]              # Deutsch bevorzugt — wartet bei DCC bewusst auf dt. Fassungen statt engl. auszuweichen (16.07.2026)
 formate: [buch, hoerbuch]
 format_notizen: "Buch und Hörbuch gleichwertig (Interview 2026-07-16)"
 tempo_pref: ""
@@ -56,6 +56,8 @@ klarem Kompass; Tonwechsel Humor↔Ernst. Bestätigen, sobald ein zweiter Kontex
 
 ## Widersprüche / offene Fragen
 
-- Sprachen: nur Deutsch oder auch Englisch okay? (nächste Runde klären)
+- ~~Sprachen~~ **geklärt (16.07.2026):** Deutsch bevorzugt — wartet bei DCC auf dt.
+  Hörbücher statt englisch auszuweichen. → Deutsche Verfügbarkeit ist bei
+  Hörbuch-Empfehlungen praktisch Pflichtkriterium. (Bei Print-Büchern noch ungetestet.)
 - Gilt „Vorwärtsdrang" auch in langsameren Genres (Epic Fantasy)? → Kontext-Kontrast
 - Splatter/Gore-Grenze generell? (bei DCC unauffällig)

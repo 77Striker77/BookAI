@@ -34,6 +34,8 @@ tags: [moc, home]
 
 ## Zuletzt
 
+- 2026-07-16 — Lesestand: [[Carl's Doomsday Scenario]] (Bd. 2) am Hören; Bd. 3+ warten
+  auf dt. Fassung. **Sprachfrage geklärt: Deutsch bevorzugt.**
 - 2026-07-16 — Erstes Buch analysiert: [[Dungeon Crawler Carl]] (loved, Hörbuch dt.,
   [[Stefan Kaminski]]). Kontext [[LitRPG]] angelegt, 12 Merkmale, No-Gos erfasst
   (Reihen-Pflicht ≥3 Bände, Romantasy-Fokus). Quelle: [[2026-07-16 Erstinterview Dungeon Crawler Carl]]

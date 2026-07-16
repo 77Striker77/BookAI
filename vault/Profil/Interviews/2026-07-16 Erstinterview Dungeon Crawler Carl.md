@@ -58,8 +58,16 @@ clevere System-Tricks) **plus:**
 | Romantasy-Fokus verdirbt | [[No-Gos]] |
 | Format: Buch & Hörbuch gleichwertig | [[Profil]] |
 
+## Nachtrag (gleicher Tag)
+
+**F:** Lesestand der Reihe?
+**A:** „Band 2 bin ich aktuell am Hören. Weitere sind nicht auf Deutsch, und darauf warte ich."
+→ Sprachfrage damit beantwortet: **Deutsch bevorzugt** — wartet lieber, statt englisch
+auszuweichen. Eingeflossen in [[Profil]], [[Dungeon Crawler Carl (Reihe)]],
+[[Carl's Doomsday Scenario]] (warteliste).
+
 ## Offen geblieben
 
-- Sprachen: nur Deutsch oder auch Englisch okay? (bei nächster Gelegenheit klären)
 - Gilt „Vorwärtsdrang" auch außerhalb LitRPG (z. B. Epic Fantasy mit slow-burn)? → Kontext-Kontrast testen
 - Splatter/Gore-Toleranzgrenze (bei DCC kein Problem — generell?)
+- Gilt „Deutsch bevorzugt" auch für gedruckte Bücher oder nur Hörbuch?

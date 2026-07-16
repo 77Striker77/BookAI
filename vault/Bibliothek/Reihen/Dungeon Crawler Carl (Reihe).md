@@ -11,20 +11,22 @@ tags: [reihe]
 von [[Matt Dinniman]] · 8 Bände erschienen, Finale angekündigt (ein Abschlussband,
 gesplittet in zwei Bücher) → **erfüllt die Reihen-Pflicht (≥3 Bände) klar.**
 
-## Lesestand
+## Lesestand (Stand 2026-07-16)
 
 | Bd. | Titel | Status |
 | --- | --- | --- |
 | 1 | [[Dungeon Crawler Carl]] | gehört (dt., loved) |
-| 2 | Carl's Doomsday Scenario | offen — dt. Hörbuch existiert (Kaminski, Audible) → nächster-Band-Kandidat |
-| 3–8 | … | offen; dt. Hörbuch-Fassungen erscheinen sukzessive |
+| 2 | [[Carl's Doomsday Scenario]] | **aktuell am Hören** (dt., Kaminski) |
+| 3–8 | … | ⏳ wartet auf dt. Hörbuch-Fassung — Nutzer weicht NICHT auf Englisch aus |
 
 ## Notizen zur Reihe
 
 - Dt. Hörbücher: [[Stefan Kaminski]], Übersetzung Ruggero Leò (FISCHER Tor/Audible).
-- Engl. Hörbücher: Jeff Hays (Soundbooth Theater), Gesamtreihe ~140 h — falls der
-  Nutzer schneller weiterhören will als die dt. Fassungen erscheinen.
-- **Offen:** Wie weit ist der Nutzer wirklich? (nur Bd. 1 bestätigt)
+- Engl. Hörbücher: Jeff Hays (Soundbooth Theater), Gesamtreihe ~140 h — **für den
+  Nutzer keine Option**: er wartet bewusst auf die deutschen Fassungen (16.07.2026).
+- **Konsequenz für Empfehlungen:** Die Reihe füllt die LitRPG-Lücke nur im Takt der
+  dt. Veröffentlichungen → zwischen den Bänden ist Bedarf an ähnlichem Stoff auf Deutsch.
+- Nach Abschluss von Bd. 2: kurzes Interview + Analyse (zweiter Datenpunkt im Kontext!).
 
 ## Quellen
 
