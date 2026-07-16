@@ -25,34 +25,42 @@ tags: [moc, profil]
 
 ## Roter Faden (gilt überall)
 
-*Erst 1 Titel analysiert — noch kein kontextübergreifend bestätigtes Muster. Hypothesen
-(unbestätigt, aus [[LitRPG]]): Vorwärtsdrang ohne Füller; pragmatische Helden mit
-klarem Kompass; Tonwechsel Humor↔Ernst. Bestätigen, sobald ein zweiter Kontext Daten hat.*
+**Erste kontextübergreifende Muster (2 Kontexte belegt):**
+1. **Sprecher-Performance ist zentral** — [[Stefan Kaminski]] UND [[Günter Merlau]]
+   beide „trägt massiv" → bei Hörbuch-Kandidaten hat der Sprecher Quasi-Vetorecht.
+2. **Figuren-Bindung trägt** — [[Ungleiches Duo]] (LitRPG), [[Akademie-Leben &
+   Gemeinschaft]] (Fantasy): das Miteinander ist beide Male Kernnennung.
+*Weitere Hypothesen (noch Ein-Kontext): Vorwärtsdrang ohne Füller; pragmatische Helden;
+Tonwechsel Humor↔Ernst.*
 
 ## Was ich überall liebe / meide
 
-<!-- Nur kontextübergreifend Bestätigtes, als Links -->
-- **Liebe überall:** — *(Hypothesen s. o.)*
+- **Liebe überall:** starke Sprecher-Performance; tragende Figuren-Beziehungen
 - **Meide überall (hart, kontextunabhängig):** [[No-Gos]] — Reihen-Pflicht ≥3 Bände
   (Universum zählt zusammen), Romantasy-Fokus
 
 ## Hörbuch-Spezifika
 
-- **Geliebte Sprecher:** [[Stefan Kaminski]] („trägt massiv")
-- **Performance:** Solo mit starken Figurenstimmen belegt geliebt; Voll-Cast ungetestet
+- **Geliebte Sprecher:** [[Stefan Kaminski]], [[Günter Merlau]] (beide „trägt massiv")
+- **Performance:** Solo mit starken Figurenstimmen 2× belegt geliebt; Voll-Cast ungetestet
 
-## Analysierte Titel
+## Analysierte Werke
 
-| Titel | Verdikt | Format | analysiert |
+| Werk | Verdikt | Format | analysiert |
 | --- | --- | --- | --- |
-| [[Dungeon Crawler Carl]] ([[LitRPG]]) | loved | hoerbuch (dt.) | 2026-07-16 |
+| [[Dungeon Crawler Carl]] ([[LitRPG]], Reihe) | loved | hoerbuch (dt.) | 2026-07-16 |
+| [[Die Streitenden Götter]] ([[Fantasy]], Verbund: [[Sturmfels-Akademie]] + [[Der Prinz von Staub und Schatten]]) | loved | hoerbuch (dt.) | 2026-07-16 |
 
 ## Muster & Beobachtungen
 
 - 2026-07-16: Nutzer ergänzte eigeninitiativ „Fokus/Story geht immer weiter" → Handwerk
   im Kontext [[LitRPG]] mit 0.15 ungewöhnlich hoch gewichtet (Begründung dort).
-- Alle 10 DCC-Aspekte +2, keine Negativzeile trotz direkter Nachfrage → DCC ist
-  Maßstab-Buch; künftige LitRPG-Kandidaten messen sich an dieser Latte.
+- Alle 10 DCC-Aspekte +2 → DCC ist Maßstab-Werk in LitRPG.
+- 2026-07-16: **Erste Negativ-Wertung:** [[Magiesystem-Tiefe]] −1 bei den Streitenden
+  Göttern — verdirbt kein loved. Zeigt: differenziert auch bei Lieblingswerken.
+- Beide analysierten Werke: deutsche Hörbücher, deutsche Sprecher als Erlebnis-Kern —
+  bestätigt die Deutsch-Präferenz. Weitze schreibt deutsch = kein Übersetzungs-Warten
+  (Gegenmodell zu DCC-Wartezeit!).
 
 ## Widersprüche / offene Fragen
 

@@ -55,6 +55,19 @@ immer auf das komplette Werk (Nutzeraussage 16.07.2026). Deshalb:
 - Bücher im selben Universum zählen als EIN Werk-Verbund (wichtig für die
   Reihen-Pflicht ≥3 Bände aus [[No-Gos]]).
 
+### Werk-Verbund (mehrere Reihen in einem Universum)
+
+Hat ein Universum mehrere Reihen mit je eigenem Flair (Beispiel: „Die Streitenden
+Götter" = Sturmfels-Akademie + Prinz von Staub und Schatten), dann DREI Ebenen:
+
+- **Universum-Notiz** (`werk_typ: universum`): alles GETEILTE — Stil, Welt,
+  Magiesystem, Autor, Sprecher, gemeinsame Aspekt-Bewertungen, Reihen-Übersicht.
+  Die Reihen-Pflicht wird auf Verbund-Ebene geprüft.
+- **Reihen-Notizen** (`werk_typ: reihe`, Feld `universum: "[[…]]"`): nur das je
+  EIGENE — eigene Figuren/Themen-Aspekte, eigener Lesestand. Geteilte Aspekte NICHT
+  duplizieren (leben im Universum).
+- Matching: Kandidaten-Vergleich nutzt Universum- + Reihen-Aspekte zusammen.
+
 ## Kontexte (Geschmacksräume) — Geschmack ist nicht global
 
 Was in Fantasy geliebt wird, kann im Thriller egal oder störend sein. Deshalb:

@@ -1,6 +1,7 @@
 ---
 titel: ""
 werk_typ: ""           # reihe | universum | standalone-universum
+universum: ""          # falls Reihe Teil eines Werk-Verbunds: Name der Universum-Notiz
 autor: ""              # + [[Link]] im Body
 jahr_start:
 baende_gesamt:         # erschienen (+ Anmerkung, was angekündigt ist)

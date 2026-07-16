@@ -11,9 +11,10 @@ tags: [moc, kontexte]
 
 ## Aktive Kontexte
 
-| Kontext | Bücher | zuletzt aktiv | Kurzcharakter |
+| Kontext | Werke | zuletzt aktiv | Kurzcharakter |
 | --- | --- | --- | --- |
 | [[LitRPG]] | 1 | 2026-07-16 | Vorwärtsdrang, Ton-Mix absurd↔ernst, pragmatischer Held, System-Satire |
+| [[Fantasy]] | 1 (Verbund, 2 Reihen) | 2026-07-16 | Figuren & Gemeinschaft, Underdog + Herkunfts-Konflikt, stimmige Welt |
 
 ## Zuordnungsregeln (Buch/Kandidat → Kontext)
 
@@ -25,6 +26,7 @@ tags: [moc, kontexte]
 | --- | --- | --- |
 | LitRPG / GameLit / Progression Fantasy | [[LitRPG]] | gleicher Erlebnis-Kern: System + Progression, egal wie explizit das Interface ist |
 | Science-Fantasy MIT Game-System (z. B. DCC) | [[LitRPG]] | das System prägt das Leseerlebnis, nicht das SF-Setting |
+| Epic/klassische Fantasy OHNE Game-System (z. B. Streitende Götter) | [[Fantasy]] | Magie ja, aber kein Spielsystem — anderes Erlebnis als LitRPG |
 
 - Passt ein Titel in KEINEN existierenden Kontext → beim Analysieren neuen anlegen.
 - Matching ohne existierenden Kontext → globale Defaults aus [[Gewichte]].
