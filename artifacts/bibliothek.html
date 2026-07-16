@@ -139,6 +139,8 @@
   .wh .t { font-size: 1.12rem; font-weight: 750; }
   .wh .tag { font-size: .74rem; color: var(--muted); }
   .verdict { font-size: .72rem; font-weight: 700; color: var(--pos); background: var(--pos-soft); border-radius: 999px; padding: 2px 9px; }
+  .verdict.mix { color: var(--ink2); background: var(--track); }
+  .work.mix { border-left: 3px solid var(--neg); border-radius: 8px 16px 16px 8px; }
   .wmeta { color: var(--ink2); font-size: .83rem; margin: 5px 0 10px; }
 
   .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
@@ -194,6 +196,7 @@
           <div class="dd">
             <a href="#werke" data-view="werke">Alle Werke</a>
             <a href="#dcc" data-view="werke" data-scroll="dcc">Dungeon Crawler Carl <small>LitRPG · Phänomen</small></a>
+            <a href="#survival" data-view="werke" data-scroll="survival">Survival Quest <small>LitRPG · ◐ okay (Graubereich)</small></a>
             <a href="#cunninghams" data-view="werke" data-scroll="cunninghams">Die mörderischen Cunninghams <small>Krimi · Bestseller</small></a>
             <a href="#goetter" data-view="werke" data-scroll="goetter">Die Streitenden Götter <small>Fantasy · 2 Reihen</small></a>
             <a href="#sturmfels" data-view="werke" data-scroll="sturmfels">↳ Sturmfels-Akademie</a>
@@ -214,14 +217,14 @@
       <header class="hero">
         <h1>Willkommen zurück 👋</h1>
         <p class="lead">Das Cockpit meines Buch- &amp; Hörbuch-Geschmacks: was ich liebe, wie bekannt es ist
-          und was als Nächstes erscheint. 3 Reihen analysiert, alle geliebt.</p>
+          und was als Nächstes erscheint. 5 Reihen analysiert — 4 geliebt, erster „okay"-Eintrag im Graubereich.</p>
       </header>
       <div class="stats">
-        <div class="stat"><div class="n tnum">4</div><div class="l">Reihen analysiert</div></div>
+        <div class="stat"><div class="n tnum">5</div><div class="l">Reihen analysiert</div></div>
         <div class="stat"><div class="n tnum">4</div><div class="l">davon geliebt</div></div>
+        <div class="stat"><div class="n tnum">1</div><div class="l">„okay" (Graubereich)</div></div>
         <div class="stat"><div class="n tnum">3</div><div class="l">Geschmacksräume</div></div>
-        <div class="stat"><div class="n">🎧 3 · 📖 1</div><div class="l">gehört / gelesen</div></div>
-        <div class="stat"><div class="n">dt.</div><div class="l">bevorzugte Sprache</div></div>
+        <div class="stat"><div class="n">🎧 4 · 📖 1</div><div class="l">gehört / gelesen</div></div>
       </div>
 
       <section>
@@ -254,6 +257,11 @@
             <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Die mörderischen Cunninghams</b><span class="subtle" style="font-size:.8rem">~340k Wertungen</span></div>
             <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span></div>
               <div class="fame-lab"><b>Bestseller</b> · Krimi <span class="hype">📺 TV-Verfilmung in Arbeit</span></div></div>
+          </div>
+          <div class="fame-item" style="margin:0 0 14px">
+            <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Survival Quest</b> <span class="subtle" style="font-size:.8rem">~44k Wertungen · ◐ okay</span></div>
+            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span><span class="ft"></span></div>
+              <div class="fame-lab"><b>Etabliert</b> · Pionier-LitRPG (russische Schule)</div></div>
           </div>
           <div class="fame-item" style="margin:0 0 14px">
             <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Sturmfels-Akademie</b><span class="subtle" style="font-size:.8rem">~1.680 Wertungen</span></div>
@@ -297,13 +305,18 @@
             <div><div class="mt">Die Streitenden Götter</div><div class="mm">Universum · Overall beider Reihen</div>
               <span class="subtle" style="font-size:.8rem">Sturmfels + Prinz zusammen</span></div>
           </a>
+          <a class="mini" href="#survival" data-view="werke" data-scroll="survival">
+            <div class="cover sm" style="background:linear-gradient(150deg,#4a4a52,#2c2c34 55%,#1c1c22)"><div class="cm">⛏️</div><div class="ct">SQ</div></div>
+            <div><div class="mt">Survival Quest</div><div class="mm">LitRPG · 7/7 · ◐ okay</div>
+              <span class="subtle" style="font-size:.8rem"><span class="sw r"></span>⌀ 4,2/5 · <span class="sw f"></span>Etabliert</span></div>
+          </a>
         </div>
       </section>
     </div>
 
     <!-- ============================================================ WERKE -->
     <div class="view" id="v-werke">
-      <header class="hero"><h1>Meine Werke</h1><p class="lead">Alle geliebten Reihen mit echten Band-Wertungen, meinem Empfinden, Community-Stimmen und Bekanntheit.</p></header>
+      <header class="hero"><h1>Meine Werke</h1><p class="lead">Alle Reihen mit echten Band-Wertungen, meinem Empfinden, Community-Stimmen und Bekanntheit — zuerst die geliebten, dann der <b>Graubereich</b> („okay").</p></header>
       <div class="key" style="margin-top:16px">
         <span><span class="sw r"></span><b>Wertung</b> 0–5 (Qualität)</span>
         <span><span class="sw f"></span><b>Bekanntheit</b> (wie viele)</span>
@@ -461,6 +474,44 @@
           </div>
         </article>
       </div>
+
+      <!-- ===== GRAUBEREICH: „okay" / Anti-Referenzen ===== -->
+      <section style="margin-top:34px">
+        <h2>◐ Graubereich — „okay" &amp; Anti-Referenzen</h2>
+        <p class="hint" style="margin:-4px 0 10px">Werke, die ich nur „okay" fand. Sie markieren, wo aus „geht immer weiter" ein „naja" wird — und schärfen als <b>Anti-Muster</b> die Ausschlüsse fürs Matching.</p>
+
+        <article class="work mix" id="survival">
+          <div class="cover" style="background:linear-gradient(150deg,#4a4a52,#2c2c34 55%,#1c1c22)"><div class="cm">⛏️🎮</div><div><div class="ct">SURVIVAL QUEST</div><div class="ca">Vasily Mahanenko</div></div></div>
+          <div>
+            <div class="wh"><span class="t">Survival Quest</span><span class="verdict mix">◐ okay</span><span class="tag">· LitRPG · 🎧 gehört (dt.)</span></div>
+            <div class="wmeta">7 Bände · <b>abgeschlossen</b> · Hörbuch dt. (Thomas Balou Martin, ungekürzt) · Bastei Lübbe · EN „The Way of the Shaman"</div>
+            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span><span class="ft"></span></div>
+              <div class="fame-lab"><b>Etabliert</b> · ~44k Wertungen · Pionier-/Referenztitel des LitRPG</div></div>
+            <div class="cols" style="margin-top:12px">
+              <div>
+                <p class="box-title">Community-Wertung · Goodreads /5</p>
+                <p class="hint">Balken = Ausschnitt 4,0–5,0 · solide bewertet — mein Urteil liegt aber darunter.</p>
+                <div class="axis"><span class="a"><span>4,0</span><span>5,0</span></span></div>
+                <div class="band mine"><span class="bn">1</span><span class="bt">Der Weg des Schamanen</span><div class="rbar"><span style="width:15%"></span></div><span class="rv">4,15</span></div>
+                <div class="band"><span class="bn">⌀</span><span class="bt">Reihenschnitt (7 Bände)</span><div class="rbar"><span style="width:19%"></span></div><span class="rv">4,19</span></div>
+                <p class="note"><b>Kalibrierung:</b> hoher Community-Schnitt ≠ Passung für mich — genau die Genre-Stärken (Crunch, System-Tiefe) reiben meinen roten Faden.</p>
+              </div>
+              <div>
+                <p class="box-title">Mein Empfinden</p>
+                <div class="asp"><span class="b">−</span>Sidequest-Wildwuchs: offene Fäden häufen sich, HC „bleibt zu selten bei der Sache"</div>
+                <div class="asp"><span class="b">−</span>Setup ohne Payoff: episches Item aufgebaut → ungenutzt verschickt („dumm")</div>
+                <div class="asp"><span class="b">−</span>Überzogener Auserwählter — „eine Spitze zu viel"</div>
+                <div class="asp"><span class="b">−</span>Über-crunchiges Zahlensystem · schwache Rahmenhandlung (0815-Realwelt)</div>
+                <div class="asp"><span class="g">＋</span>Spielwelt Barliona atmosphärisch · einzelne starke Momente</div>
+                <p class="box-title" style="margin-top:12px">Community sagt</p>
+                <div class="comm"><span class="g">👍</span>Pionier-LitRPG · Crafting-/System-Tiefe · Progression</div>
+                <div class="comm"><span class="b">👎</span>sehr crunch-lastig · Held teils zu OP · verlaufende Nebenstränge</div>
+              </div>
+            </div>
+            <div class="synth"><b>Anti-Referenz zu Dungeon Crawler Carl</b> im selben Kontext LitRPG: dieselben Zutaten (System, Progression, Welt), aber ohne Fokus &amp; Payoff → nur „okay". Schärft die Ausschlüsse — <b>Sidequest-Wildwuchs</b> ist jetzt genreübergreifend ein Malus. Sprecher solide, aber kein Verstärker.</div>
+          </div>
+        </article>
+      </section>
     </div>
 
     <!-- ============================================================ BEKANNTHEIT -->
@@ -491,6 +542,12 @@
             <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span></div>
               <div class="fame-lab"><b>Bestseller</b> <span class="hype">📺 TV-Verfilmung von Bd. 1 · USA-Today-Bestseller</span></div></div>
             <p class="note">International bekannt und gehypt — trotz „nur" ~3,8/5 Ø-Wertung (Krimi polarisiert stärker als Fantasy).</p>
+          </div>
+          <div style="margin:0 0 16px">
+            <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Survival Quest</b><span class="subtle" style="font-size:.82rem">~44k Goodreads-Wertungen (Reihe)</span></div>
+            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span><span class="ft"></span></div>
+              <div class="fame-lab"><b>Etabliert</b> · Pionier-/Referenztitel des LitRPG (russische Schule, ~4,19/5)</div></div>
+            <p class="note">Breit bewertet und solide (Community ~4,19) — für MICH aber nur „okay". Zeigt: hohe Reichweite UND gute Wertung heißen nicht, dass es zu meinem Geschmack passt.</p>
           </div>
           <div style="margin:0 0 16px">
             <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Sturmfels-Akademie</b><span class="subtle" style="font-size:.82rem">~1.680 Goodreads-Wertungen</span></div>
@@ -551,10 +608,14 @@
             <span class="chip no">✕ Romance-Fokus (Subplot ok)</span>
             <span class="chip no">✕ zäher Start ohne Payoff</span>
             <span class="chip no">✕ Intrigen-Overload ohne Progress</span>
+            <span class="chip no">✕ Sidequest-Wildwuchs / Setup ohne Payoff</span>
+            <span class="chip no">✕ über-crunchiges Zahlensystem</span>
+            <span class="chip no">✕ überzogener Auserwählter (OP ohne Stakes)</span>
           </div>
           <div class="note">Drei Geschmacksräume mit je eigenen Gewichten: <b>LitRPG</b> (Ton/Figuren/Handwerk hoch),
             <b>Fantasy</b> (Themen/Figuren hoch, Handwerk 0,18) und <b>Krimi</b> (Handwerk/Twist/Locked-Room hoch).
-            <br><b>Blinder Fleck:</b> bisher nur geliebte Werke — abgebrochene/nicht gemochte kommen als eigener Durchlauf (schärfen die Ausschlüsse).</div>
+            <br><b>Graubereich gestartet:</b> erstes „okay"-Werk erfasst (<b>Survival Quest</b>, LitRPG) — liefert 7 neue Negativ-Merkmale
+            als Anti-Muster. Nächster Schritt: weitere „okay"- und abgebrochene Werke ergänzen, um die Ausschlüsse weiter zu schärfen.</div>
         </div>
       </section>
     </div>
@@ -594,7 +655,7 @@
   }
   function route(){
     var h = (location.hash||"#uebersicht").replace("#","");
-    var anchorMap = { dcc:"werke", cunninghams:"werke", goetter:"werke", sturmfels:"werke", prinz:"werke" };
+    var anchorMap = { dcc:"werke", survival:"werke", cunninghams:"werke", goetter:"werke", sturmfels:"werke", prinz:"werke" };
     if(anchorMap[h]) show(anchorMap[h], h);
     else show(h);
   }

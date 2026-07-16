@@ -27,11 +27,14 @@ tags: [moc, profil]
 
 **Kontextübergreifende Muster (in ≥2 Kontexten belegt):**
 1. **Fokus & Vorwärtsdrang (STÄRKSTER Faden, 3 Kontexte)** — [[Konstanter Vorwärtsdrang]]:
-   LitRPG gelobt (DCC +2), **Krimi gelobt (Cunninghams +2, „sehr straff")**, Fantasy 2×
-   verletzt (Sturmfels −2 Fast-Abbruch, Prinz −1). Dazu [[Zäher Start]] (2×) und
-   [[Nebenquest-Wildwuchs]]. **Der zäh-unfokussierte Start ist sein verlässlichster
-   Deal-Breaker** → bei JEDEM Kandidaten Rezensionen auf langsamen Einstieg/Abschweifen
-   prüfen. Milderung: [[Starkes Finale]] (zäher Start verzeihlich, wenn der Payoff kommt).
+   LitRPG gelobt (DCC +2) **UND im selben Kontext verletzt (Survival Quest −1)**, **Krimi
+   gelobt (Cunninghams +2, „sehr straff")**, Fantasy 2× verletzt (Sturmfels −2 Fast-Abbruch,
+   Prinz −1). Dazu [[Zäher Start]] (2×) und [[Nebenquest-Wildwuchs]] (jetzt `status_global:
+   disliked`, in Fantasy UND LitRPG belegt). **Der zäh-unfokussierte Start bzw. das
+   Verzetteln ist sein verlässlichster Deal-Breaker** → bei JEDEM Kandidaten Rezensionen
+   auf langsamen Einstieg/Abschweifen prüfen. Milderung: [[Starkes Finale]] (zäher Start
+   verzeihlich, wenn der Payoff kommt). **Gegenprobe belegt (Survival Quest):** dieselben
+   Genre-Zutaten wie DCC, aber Sidequest-Wildwuchs + [[Setup ohne Payoff]] → nur „okay".
 2. **Held muss handlungsfähig sein** — Achse [[Pragmatischer Held mit klarem Kompass]]
    (Carl +2) ↔ [[Zu lange schwacher Held]] (Niri Bd. 1 −2, Fast-Abbruch).
 3. **Humor als Plus** — [[Absurder Humor]] (LitRPG) & [[Trocken-ironischer Humor]] (Krimi):
@@ -75,6 +78,7 @@ NICHT als alleinigen Kompass nehmen.
 | [[Dungeon Crawler Carl]] ([[LitRPG]], Reihe) | loved | hoerbuch (dt.) | 2026-07-16 |
 | [[Die Streitenden Götter]] ([[Fantasy]], Verbund: [[Sturmfels-Akademie]] + [[Der Prinz von Staub und Schatten]]) | loved | hoerbuch (dt.) | 2026-07-16 |
 | [[Die mörderischen Cunninghams]] ([[Krimi]], Reihe) | loved | **buch/gelesen** (dt.) | 2026-07-16 |
+| [[Survival Quest]] ([[LitRPG]], Reihe, 7 Bände) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-16 |
 
 ## Muster & Beobachtungen
 
@@ -86,6 +90,16 @@ NICHT als alleinigen Kompass nehmen.
 - Beide analysierten Werke: deutsche Hörbücher, deutsche Sprecher als Erlebnis-Kern —
   bestätigt die Deutsch-Präferenz. Weitze schreibt deutsch = kein Übersetzungs-Warten
   (Gegenmodell zu DCC-Wartezeit!).
+- 2026-07-16: **Erstes `mixed`-Werk & Start des Graubereich-Durchlaufs** — [[Survival Quest]]
+  (LitRPG, „okay"). Liefert 7 neue Negativ-Merkmale ([[Nebenquest-Wildwuchs]] jetzt global,
+  [[Setup ohne Payoff]], [[Über-crunchiges Zahlensystem]], [[Regel-Inkonsistenz]],
+  [[Überzogener Auserwählter]], [[Schwache Rahmenhandlung]], [[Blasse Nebenfiguren]]) + 2
+  Kombinationsregeln im Kontext [[LitRPG]]. **Kalibrier-Erkenntnis:** hoher Community-Schnitt
+  (~4,19) ≠ Passung für mich — Genre-Stärken (Crunch, System-Tiefe) können bei mir Minus sein.
+- 2026-07-16: **Nicht jeder OP-/Auserwählten-Held ist gleich** — Achse geschärft:
+  [[Pragmatischer Held mit klarem Kompass]] (Carl, kompetent ABER gefährdet, +2) vs.
+  [[Überzogener Auserwählter]] (Mahan, unglaubwürdig überhöht, −2). Kompetenz ok,
+  Un-Gefährdetheit nicht.
 
 ## Widersprüche / offene Fragen
 

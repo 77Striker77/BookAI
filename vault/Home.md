@@ -34,6 +34,13 @@ tags: [moc, home]
 
 ## Zuletzt
 
+- 2026-07-16 — Werk 5: [[Survival Quest]] (Vasily Mahanenko), **mixed / „okay"** — erstes
+  bewusst als „okay" eingebrachtes Werk, **Start des Graubereich-Durchlaufs**. LitRPG,
+  Hörbuch dt., [[Thomas Balou Martin]] (neutral). Anti-Referenz zu [[Dungeon Crawler Carl]]:
+  Sidequest-Wildwuchs (−2), [[Setup ohne Payoff]] (−2), [[Überzogener Auserwählter]] (−2),
+  über-crunchig, schwache Rahmenhandlung. 7 neue Negativ-Merkmale, [[Nebenquest-Wildwuchs]]
+  jetzt `status_global: disliked`, 2 Kombinationsregeln in [[LitRPG]]. Community ~4,19 >
+  mein Urteil → hohe Genre-Wertung ≠ Passung. Quelle: [[2026-07-16 Interview Survival Quest]].
 - 2026-07-16 — Werk 4: [[Die mörderischen Cunninghams]] (Benjamin Stevenson), **loved, top**.
   Neuer Kontext [[Krimi]]. **Erstes GELESENES Werk** (Buch, dt.) — Format-Lektion: immer
   erfragen, nie annehmen. [[Konstanter Vorwärtsdrang]] jetzt in 3 Kontexten (+2).

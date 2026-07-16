@@ -13,7 +13,7 @@ tags: [moc, kontexte]
 
 | Kontext | Werke | zuletzt aktiv | Kurzcharakter |
 | --- | --- | --- | --- |
-| [[LitRPG]] | 1 | 2026-07-16 | Vorwärtsdrang, Ton-Mix absurd↔ernst, pragmatischer Held, System-Satire |
+| [[LitRPG]] | 2 | 2026-07-16 | Vorwärtsdrang, Ton-Mix absurd↔ernst, pragmatischer Held, System-Satire · Anti-Muster: Sidequest-Wildwuchs, Über-Crunch, OP-Held |
 | [[Fantasy]] | 1 (Verbund, 2 Reihen) | 2026-07-16 | Figuren & Gemeinschaft, Underdog + Herkunfts-Konflikt, stimmige Welt |
 | [[Krimi]] | 1 | 2026-07-16 | Locked-Room, Meta-/Fair-Play-Erzähler, cleverer Twist, straff |
 
