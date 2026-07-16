@@ -46,6 +46,44 @@ wozu. Also: „Was hat dich an X am meisten mitgerissen?" (persönlich) — NICH
 düster oder humorvoll?" (Faktum → selbst recherchieren). Wenn du eine Faktenfrage
 stellen willst, halte inne und recherchiere sie stattdessen.
 
+## 🗂️ Frageform: EINZELN, GETRENNT, GEZIELT (VERBINDLICH)
+
+> Gelernt am 2026-07-16 ([[2026-07-16 Interview Survival Quest]]): gebündelte Fragen
+> („Was war gut UND schlecht?" oder 4 Fragen auf einmal) liefern dünne Antworten und der
+> Fragen-Dialog bricht ab. Einzeln + getrennt gefragt kamen extrem detaillierte,
+> zitierfähige Antworten. Deshalb ist das ab jetzt Pflicht.
+
+1. **Eine Frage nach der anderen — nicht mehrere Dimensionen auf einmal.** Stelle EINE
+   fokussierte Frage, warte die Antwort ab, hake nach, geh dann zur nächsten Dimension.
+   Nicht 4 Fragen in einem Block (überfordert, senkt die Antworttiefe).
+
+2. **Positiv und Negativ IMMER in GETRENNTEN Fragen.** Frage NIE „Was war gut und was
+   schlecht?" in einem Zug. Erst eine eigene Frage nur nach dem, was TRUG (Stärken),
+   dann eine eigene Frage nur nach dem, was BREMSTE/STÖRTE (Schwächen). Getrennt gefragt
+   traut sich der Nutzer, auch beim Lieblingswerk Schwächen zu benennen, und beim „okay"-
+   Werk das Positive — so entsteht das vollständige Bild (Aspekt-Wertungen −2..+2).
+
+3. **Dimension für Dimension durchgehen** (je Dimension mind. eine Frage, Positiv/Negativ
+   getrennt, wo beides sinnvoll ist). Bewährte Reihenfolge:
+   **Hauptfigur(en) → Welt/Setting → Geschichte/Plot(-bogen) → weitere Handwerk-Kritik
+   (Tempo/Grinding, Nebenfiguren, Ton/Humor, Romance-Anteil) → (nur bei Hörbuch) Sprecher.**
+   Passe die Dimensionen ans Werk an, aber lass keine der großen aus.
+
+4. **Klickbare Fragen mit konkreten, profil-geerdeten Optionen** (`AskUserQuestion`, je
+   EINE Frage pro Aufruf). Baue die Antwortoptionen aus dem, was du über den Nutzer schon
+   weißt (roter Faden, bekannte Merkmale), plus dem Gegenpol — so wird die Frage gezielt
+   statt generisch. Mehrfachauswahl erlauben, wo mehrere Aspekte zutreffen können; Freitext
+   ("Other") bleibt immer offen (dort kamen die besten Zitate). Reine Faktenklärung
+   (Format/Sprache/Lesestand) darf knapp im Fließtext bleiben.
+
+5. **Im Erlebnis-Rahmen des Nutzers bleiben = keine Spoiler.** Du kennst seinen Lesestand
+   (welche Bände/wie weit) — formuliere Fragen und Optionen nur zu dem, was er schon
+   erlebt hat. Nie über seinen Stand hinaus andeuten.
+
+6. **Nach jeder Antwort spiegeln + einordnen:** kurz zurückgeben, was du verstanden hast
+   (mit seinen Worten), grob welchem Merkmal/roter Faden es entspricht — dann weiter. Das
+   bestätigt und lädt zum Präzisieren ein.
+
 ## Ablauf
 
 > ⭐ **Bewertungseinheit ist das WERK** (Reihe/Universum als Ganzes): Der Nutzer
@@ -62,9 +100,10 @@ stellen willst, halte inne und recherchiere sie stattdessen.
    Der Nutzer ist überwiegend Hörbuch-Hörer — aber eben nicht immer. Format ist pro Werk
    individuell und wird pro Werk erfragt.
 
-2. **Gezielt nachfragen** – nicht mit allen Fragen auf einmal erschlagen. Stelle 3–5
-   fokussierte Fragen pro Titel/Runde, hake bei interessanten Antworten nach. Decke über
-   die Runden diese Dimensionen ab:
+2. **Gezielt nachfragen — eine Frage nach der anderen** (siehe „Frageform: EINZELN,
+   GETRENNT, GEZIELT" oben; Positiv/Negativ je eigene Frage, nicht bündeln). Hake bei
+   interessanten Antworten nach. Decke über die Runden diese Dimensionen ab (je Dimension
+   getrennt nach Stärken und Schwächen fragen, wo beides sinnvoll ist):
 
    - **Emotion/Sog:** Was hat es mit dir gemacht? Beklemmung, Trost, Nervenkitzel, Staunen?
    - **Genre/Ton:** Mochtest du eher die düstere/leichte/humorvolle Färbung?
@@ -96,9 +135,10 @@ stellen willst, halte inne und recherchiere sie stattdessen.
   im Gedächtnis geblieben?"
 - **Kontraste nutzen:** "Du mochtest A, aber nicht B – was ist der Unterschied für dich?"
 - **Nie den Nutzer ranken lassen.** Frage NICHT "ist X stärker als Y?". Frage je Werk
-  getrennt nach **Stärken UND Schwächen** ("Was trägt bei X für dich, was weniger?") und
-  **ziehe den Vergleich/die Schlüsse selbst** aus den Aspekt-Wertungen. Der Nutzer liefert
-  Empfinden pro Werk, die Synthese ist deine Aufgabe.
+  Stärken und Schwächen in **getrennten Fragen** (erst „Was trug für dich?", dann als
+  eigene Frage „Was bremste/störte?" — nie beides in einem Zug) und **ziehe den
+  Vergleich/die Schlüsse selbst** aus den Aspekt-Wertungen. Der Nutzer liefert Empfinden
+  pro Werk, die Synthese ist deine Aufgabe.
 - **Vage Antworten konkretisieren:** "spannend" → "spannend durch Rätsel, durch Gefahr,
   oder durch zwischenmenschliche Anspannung?"
 - **Widersprüche auflösen = Split-Chance:** Bewertet der Nutzer dasselbe Merkmal mal
