@@ -3,8 +3,13 @@ titel: "Dungeon Crawler Carl"
 werk_typ: "reihe"       # reihe | universum | standalone-universum
 autor: "Matt Dinniman"
 jahr_start: 2020
-baende_gesamt: 8        # erschienen; Abschluss angekündigt (ein Finale, gesplittet in zwei Bücher)
-abgeschlossen: false
+erscheinungsdatum_bd1: "2020-10-02"
+letztes_datum: "2026-05"     # Bd. 8 (Finale) Mai 2026
+baende_gesamt: 8
+baende_geplant: 9            # Finale als 2 Bücher angekündigt
+abgeschlossen: false         # Finalband(e) noch ausstehend
+angekuendigt: "Abschluss der Reihe (Finale gesplittet in 2 Bücher); dt. Hörbücher erscheinen sukzessive nach"
+sprachen_verfuegbar: [en, de, es, fr, it, sv, pt]
 sprache_erlebt: "de"
 isbn_bd1: "9780593820247"
 kontext: "LitRPG"
@@ -13,6 +18,11 @@ format_erlebt: "hoerbuch"
 sprecher: "Stefan Kaminski"
 performance: "solo"
 ungekuerzt: true
+community_score: 91
+community_konfidenz: "hoch"
+community_quellen:
+  - { quelle: "Goodreads (Bd.1 Original)", wert: "4.54/5", stimmen: "~119k" }
+  - { quelle: "Goodreads (Bd.1 Hardcover)", wert: "4.39/5", stimmen: "~104k" }
 rating_goodreads: 4.54  # Bd. 1, Original-Ausgabe, ~119k Ratings
 genres: [LitRPG, Science-Fantasy]
 themen: [Kapitalismus-Satire, Aufbegehren gegen das System, System & Progression]
@@ -57,6 +67,25 @@ Prinzessin Donut kämpfen sich durch. 8 Bände erschienen, Finale angekündigt �
 Einzelbände. Abweichungen einzelner Bände nur, wenn er sie selbst anspricht (s. u.).
 
 **Kontext:** [[LitRPG]] · **Autor:** [[Matt Dinniman]] · **Sprecher (dt.):** [[Stefan Kaminski]]
+
+## 📇 Metadaten & Reihe
+
+- **Erschienen:** Bd. 1 am 02.10.2020 · Bd. 8 (Finale) Mai 2026 · **8 von ~9 Bänden**
+- **Status:** laufend — Abschluss als gesplittetes Finale angekündigt
+- **Sprachen verfügbar:** EN (Original), DE, ES, FR, IT, SV, PT (Buch/Hörbuch, je nach Markt)
+- **Angekündigt:** Reihen-Finale (2 Bücher); dt. Hörbücher folgen sukzessive
+- **Reihen-Pflicht:** 8 Bände → klar erfüllt
+
+## 🌐 Community-Score: 91 / 100 · Konfidenz hoch
+
+| Quelle | Wert | Stimmen |
+| --- | --- | --- |
+| Goodreads (Bd. 1, Original) | 4,54/5 | ~119 000 |
+| Goodreads (Bd. 1, Hardcover) | 4,39/5 | ~104 000 |
+
+**Tenor:** Kultstatus im LitRPG-Genre; gelobt für Humor + emotionale Wucht + Pacing;
+Hörbuch (Jeff Hays engl. / Kaminski dt.) gilt als herausragend. Deckt sich voll mit
+meinem +2-Profil. Sehr breite, stabile Datenbasis → hohe Konfidenz.
 
 ## Lesestand
 

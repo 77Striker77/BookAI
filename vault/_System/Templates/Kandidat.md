@@ -9,13 +9,21 @@ zuletzt_beruehrt:      # Datum der letzten Prüfung (Details: Prüf-Historie unt
 laeufe: []             # ["[[2026-07-16 Ähnlich zu …]]"]
 wiedervorlage: ""      # "neu prüfen, falls ⟨Präferenz⟩ sich ändert" — sonst leer
 # --- Fakten (nur belegt!) ---
+erscheinungsdatum_bd1: ""
+letztes_datum: ""
 baende_gesamt:         # PFLICHT-CHECK: Reihen-Pflicht ≥3 Bände (Universum zählt zusammen!)
+baende_geplant:
 abgeschlossen:
+angekuendigt: ""       # neue Bände / Erweiterungen
 format_verfuegbar: []  # [buch, hoerbuch]
-sprache_verfuegbar: [] # dt. Verfügbarkeit ist bei Hörbuch praktisch Pflicht
+sprachen_verfuegbar: [] # dt. Verfügbarkeit ist bei Hörbuch praktisch Pflicht
 isbn_bd1: ""
 sprecher: ""           # dt. Sprecher, falls Hörbuch
 hoerdauer_std_bd1:
+# --- Community-Score (wie bei Werken; Buch+Hörbuch gleichwertig) ---
+community_score:
+community_konfidenz: ""
+community_quellen: []
 rating_goodreads:
 rating_openlibrary:
 # --- DNA soweit bekannt (Werte = Merkmal-Notiznamen) ---

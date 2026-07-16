@@ -32,6 +32,20 @@ Siehe `references/metadata-sources.md` für konkrete Endpoints. Reihenfolge:
 Erfasse mindestens: `genres`, `subjects/themen`, `year`, `series`, `isbn`, `page_count`,
 `audio_hours` (bei Hörbuch), `narrator`, `language`, `ratings`. Notiere die `sources`.
 
+**Pflicht-Metadatenblock je Werk/Reihe** (Frontmatter + Abschnitte „Metadaten & Reihe"
+und „Community-Score" aus `Werk.md`):
+- **Erscheinungsdatum**: Bd. 1 + jüngster Band; **Bände erschienen vs. geplant**.
+- **Sprachen verfügbar** (Buch UND Hörbuch, z. B. `[de, en, es]`).
+- **Angekündigt**: neue Bände, Spin-offs, Erweiterungen (auch cross-media wie Musik-EPs,
+  Verfilmung) — oder ausdrücklich „nichts bekannt".
+- **Community-Score (0–100) + Konfidenz**: Aggregiere Nutzerwertungen UND Kommentar-Tenor
+  aus mehreren Quellen (Goodreads, LovelyBooks, Amazon, Audible, Reddit/Foren). **Buch und
+  Hörbuch zählen für den INHALT gleichwertig** — inhaltliche Rezensionen beider Formate
+  gemeinsam nutzen. Sprecher-/Produktions-Kritik NICHT in den Inhalts-Score mischen
+  (separat vermerken). Konfidenz nach Menge/Streuung der Datenpunkte (wenige/neue Titel →
+  niedriger). Normalisierung: 5-Sterne-Wert × 20 ≈ /100; mehrere Quellen gewichtet mitteln.
+  Quellenliste mit Wert + Stimmenzahl führen (`community_quellen`).
+
 ### 3. Buch-DNA extrahieren (das Herzstück)
 Verdichte Metadaten + Rezensionen + Interview-Antworten zu diesen Dimensionen (Felder
 identisch zum Frontmatter in `vault/_System/Templates/Werk.md`):

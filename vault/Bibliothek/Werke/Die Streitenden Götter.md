@@ -3,9 +3,16 @@ titel: "Die Streitenden Götter"
 werk_typ: "universum"
 autor: "Torsten Weitze"
 jahr_start: 2023
-baende_gesamt: 7        # Verbund: Sturmfels 5 + Prinz 2 (weitere angekündigt)
-abgeschlossen: false
+erscheinungsdatum_bd1: "2023"
+letztes_datum: "2026"
+baende_gesamt: 7        # Verbund: Sturmfels 5 + Prinz 2
+baende_geplant: 10      # Sturmfels 5 (fertig) + Prinz 5 geplant
+abgeschlossen: false    # Prinz läuft; evtl. weitere Reihen des Epos
+angekuendigt: "Prinz Bd. 3–5; Saltatio-Mortis-Musik-EP-Reihe; ggf. weitere Reihen im Epos"
+sprachen_verfuegbar: [de]
 sprache_erlebt: "de"
+community_score: 87    # Aggregat der untergeordneten Reihen (Sturmfels 89 ~gewichtet, Prinz 85)
+community_konfidenz: "mittel"
 kontext: "Fantasy"
 verdict: "loved"        # beide Reihen „geliebt" (Interview 2026-07-16)
 format_erlebt: "hoerbuch"
@@ -46,6 +53,15 @@ klar erfüllt.**
 > einzelnen Reihen so abzubilden, dass die Overall-Reihe das alles einfängt."
 
 **Kontext:** [[Fantasy]]
+
+## 📇 Metadaten (Verbund)
+
+- **Erschienen:** seit 2023 · jüngstes 2026 · **7 erschienen / ~10 geplant**
+- **Status:** laufend (Sturmfels abgeschlossen, Prinz läuft)
+- **Sprachen verfügbar:** DE (deutsches Original — kein Übersetzungs-Warten)
+- **Angekündigt:** Prinz Bd. 3–5 · Musik-EP-Reihe (Saltatio Mortis) · ggf. weitere Reihen
+- **Community-Score (Aggregat): 87 / 100 · Konfidenz mittel** — Summe/Mittel der Reihen:
+  [[Sturmfels-Akademie]] 89 (hoch) + [[Der Prinz von Staub und Schatten]] 85 (niedrig, neu).
 
 ## Hierarchie (Overall → Reihen)
 

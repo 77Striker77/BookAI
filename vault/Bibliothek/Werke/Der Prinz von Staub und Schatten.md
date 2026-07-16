@@ -4,14 +4,23 @@ werk_typ: "reihe"
 universum: "Die Streitenden Götter"
 autor: "Torsten Weitze"
 jahr_start: 2026
-baende_gesamt: 2        # erschienen (Heimkehr, Widerstand); 5 geplant
+erscheinungsdatum_bd1: "2026"
+letztes_datum: "2026"        # Bd. 2 Widerstand, ebenfalls 2026
+baende_gesamt: 2             # Heimkehr, Widerstand
+baende_geplant: 5
 abgeschlossen: false
+angekuendigt: "5-teilig geplant (Bd. 3–5 ausstehend); begleitende Musik-EP-Reihe von Saltatio Mortis angekündigt"
+sprachen_verfuegbar: [de]    # deutsches Original
 sprache_erlebt: "de"
 kontext: "Fantasy"
 verdict: "loved"
 format_erlebt: "hoerbuch"
 sprecher: "Günter Merlau"
 performance: "solo"
+community_score: 85
+community_konfidenz: "niedrig"   # sehr neu (2026), wenige Datenpunkte
+community_quellen:
+  - { quelle: "Amazon/Audible/LovelyBooks (Bd.1 Heimkehr)", wert: "~4.2–4.4/5", stimmen: "wenige (neu)" }
 genres: [Epic Fantasy]
 themen: [Verlorenes Erbe & Thronanspruch, Rache & Verfolgungsdruck, Geheimnisvolle Macht]
 ton: []
@@ -50,6 +59,26 @@ einer **rätselhaften Gabe**. Rezensionen: flüssiger Stil, starke Figurenentwic
 „ruhig, aber durchgehend spannend".
 
 **Kontext:** [[Fantasy]] · **Autor:** [[Torsten Weitze]] · **Sprecher:** [[Günter Merlau]]
+
+## 📇 Metadaten & Reihe
+
+- **Erschienen:** Bd. 1 „Heimkehr" (2026) · Bd. 2 „Widerstand" (2026) · **2 von 5 geplant**
+- **Status:** laufend (jung — 2026 gestartet)
+- **Sprachen verfügbar:** DE (deutsches Original)
+- **Angekündigt:** Bd. 3–5 ausstehend; **begleitende Musik-EP-Reihe von Saltatio Mortis**
+  (cross-media Erweiterung des Universums)
+- **Reihen-Pflicht:** 2 erschienen / 5 geplant + Werk-Verbund → erfüllt
+
+## 🌐 Community-Score: 85 / 100 · Konfidenz niedrig
+
+| Quelle | Wert | Stimmen |
+| --- | --- | --- |
+| Amazon/Audible/LovelyBooks (Bd. 1) | ~4,2–4,4/5 | wenige (2026, neu) |
+
+**Tenor:** Positiv — „gelungener Auftakt", flüssiger Stil, authentische Figuren, „ruhig
+aber durchgehend spannend". Deckt sich mit meinem Bild (Figur/Mysterium tragen, ruhiges
+Tempo). **Konfidenz niedrig**, weil sehr neu und wenige Wertungen → Score vorläufig, bei
+Empfehlungen nicht allein darauf stützen.
 
 ## Lesestand
 

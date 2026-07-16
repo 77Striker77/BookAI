@@ -4,14 +4,24 @@ werk_typ: "reihe"
 universum: "Die Streitenden Götter"
 autor: "Torsten Weitze"
 jahr_start: 2023
+erscheinungsdatum_bd1: "2023"
+letztes_datum: "2025-01"     # Bd. 5 "Der Turm des Wissens"
 baende_gesamt: 5
-abgeschlossen:          # unklar — ursprünglich Trilogie, Bd. 5 Jan 2025 (offene Frage)
+baende_geplant: 5            # ursprünglich Trilogie, auf 5 erweitert
+abgeschlossen: true          # 5 Bände erschienen; als Reihe abgeschlossen
+angekuendigt: "Reihe abgeschlossen; Fortsetzung des Epos in [[Der Prinz von Staub und Schatten]]"
+sprachen_verfuegbar: [de]    # deutsches Original, keine Übersetzung bekannt
 sprache_erlebt: "de"
 kontext: "Fantasy"
 verdict: "loved"
 format_erlebt: "hoerbuch"
 sprecher: "Günter Merlau"
 performance: "solo"
+community_score: 89
+community_konfidenz: "hoch"
+community_quellen:
+  - { quelle: "Goodreads (Reihe)", wert: "4.40/5", stimmen: "~1700" }
+  - { quelle: "LovelyBooks (Bd.1)", wert: "4.7/5", stimmen: "—" }
 genres: [Epic Fantasy]
 themen: [Underdog-Aufstieg, Herkunfts-Konflikt & Vorurteile]
 ton: []
@@ -48,6 +58,27 @@ Vorurteilen, Freundschaften und dem großen Konflikt dahinter. 5 Bände (2023–
 „Der Turm der Bettler" bis „Der Turm des Wissens").
 
 **Kontext:** [[Fantasy]] · **Autor:** [[Torsten Weitze]] · **Sprecher:** [[Günter Merlau]]
+
+## 📇 Metadaten & Reihe
+
+- **Erschienen:** Bd. 1 (2023) · Bd. 5 „Der Turm des Wissens" (Jan 2025) · **5 von 5 Bänden**
+- **Status:** abgeschlossen (ursprünglich Trilogie, auf 5 erweitert)
+- **Sprachen verfügbar:** DE (deutsches Original; keine Übersetzung bekannt)
+- **Angekündigt:** Reihe abgeschlossen; Epos geht weiter in [[Der Prinz von Staub und Schatten]]
+- **Reihen-Pflicht:** 5 Bände → erfüllt
+
+## 🌐 Community-Score: 89 / 100 · Konfidenz hoch
+
+| Quelle | Wert | Stimmen |
+| --- | --- | --- |
+| Goodreads (Reihe) | 4,40/5 | ~1 700 |
+| LovelyBooks (Bd. 1) | 4,7/5 | — |
+
+**Tenor:** Sehr positiv — gelobt für lebendige Welt, Terminologie/Hintergrund und Niris
+Entwicklung („wächst über sich hinaus"). **Interessant:** Auch Community-Rezensenten
+heben Niris Wandel hervor — meine −2-Kritik am zu schwachen/zähen Start (Bd. 1) taucht
+in der Breite kaum auf, ist also eher meine persönliche Empfindlichkeit (roter Faden
+Fokus/Vorwärtsdrang) als ein Mehrheitsurteil.
 
 ## Lesestand
 

@@ -57,6 +57,9 @@
   .badges { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; }
   .badge { font-size: .74rem; border: 1px solid var(--line); border-radius: 999px; padding: 2px 9px; color: var(--muted); }
   .badge.loved { color: var(--good); border-color: color-mix(in srgb, var(--good) 50%, transparent); font-weight: 600; }
+  .badge.score { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 50%, transparent); font-weight: 650; }
+  .metaline { color: var(--muted); font-size: .8rem; margin: 0 0 8px; display: flex; flex-wrap: wrap; gap: 4px 14px; }
+  .metaline b { color: var(--ink); font-weight: 600; }
   .aspekte { display: grid; grid-template-columns: 1fr 1fr; gap: 2px 18px; margin: 8px 0 4px; font-size: .86rem; }
   @media (max-width: 560px) { .aspekte { grid-template-columns: 1fr; } }
   .aspekte .p::before { content: "＋"; color: var(--good); font-weight: 700; margin-right: 5px; }
@@ -90,6 +93,7 @@
     <div class="stat"><div class="n">3</div><div class="l">Reihen analysiert</div></div>
     <div class="stat"><div class="n">3</div><div class="l">davon geliebt</div></div>
     <div class="stat"><div class="n">🎧 100 %</div><div class="l">Hörbuch, deutsch</div></div>
+    <div class="stat"><div class="n">⌀ 89</div><div class="l">Community-Score</div></div>
     <div class="stat"><div class="n">2</div><div class="l">Kontexte</div></div>
   </div>
 
@@ -164,9 +168,16 @@
       Bewertung gilt fürs Werk gesamt</div>
       <div class="badges">
         <span class="badge loved">♥ geliebt (Werk)</span>
+        <span class="badge score">🌐 Community 91/100 · hoch</span>
         <span class="badge">🎧 Stefan Kaminski · deutsch</span>
         <span class="badge">📖 Bd. 1 gehört · Bd. 2 am Hören · Bd. 3+ ⏳ dt. Fassung</span>
-        <span class="badge">★ 4,54 Goodreads (Bd. 1, 119 k)</span>
+      </div>
+      <div class="metaline">
+        <span><b>Erschienen:</b> seit 2020 · Bd. 8-Finale Mai 2026</span>
+        <span><b>Bände:</b> 8 von ~9</span>
+        <span><b>Sprachen:</b> EN·DE·ES·FR·IT·SV·PT</span>
+        <span><b>Angekündigt:</b> Reihen-Finale (2 Bücher)</span>
+        <span>★ 4,54 Goodreads (119 k)</span>
       </div>
       <div class="aspekte">
         <span class="p">Konstanter Vorwärtsdrang — kein Füllmaterial</span>
@@ -187,6 +198,13 @@
   <article class="overall-head">
     <div class="oh-title">🏰 Die Streitenden Götter <span class="oh-tag">Overall = Summe der Reihen</span></div>
     <div class="meta">Torsten Weitze · Splitterlande · seit 2023 · Epic Fantasy · deutsches Original (kein Übersetzungs-Warten) · gelesen von Günter Merlau (LAUSCH) · loved</div>
+    <div class="metaline">
+      <span class="badge score">🌐 Community 87/100 · mittel (Aggregat)</span>
+      <span><b>Erschienen:</b> 2023–2026</span>
+      <span><b>Bände:</b> 7 erschienen / ~10 geplant</span>
+      <span><b>Sprachen:</b> DE</span>
+      <span><b>Angekündigt:</b> Prinz Bd. 3–5 · Musik-EPs · ggf. weitere Reihen</span>
+    </div>
     <div class="aspekte" style="margin-top:8px">
       <span class="p">Geteilt: Welt stimmig &amp; atmosphärisch (+1)</span>
       <span class="m">Geteilt: Magiesystem bei Standard-Elementen lasch (−1)</span>
@@ -207,7 +225,15 @@
         <div class="meta">2023–2025 · 5 Bände · gelesen von Günter Merlau</div>
         <div class="badges">
           <span class="badge loved">♥ geliebt</span>
+          <span class="badge score">🌐 Community 89/100 · hoch</span>
           <span class="badge">🎧 deutsch (LAUSCH)</span>
+        </div>
+        <div class="metaline">
+          <span><b>Erschienen:</b> 2023 – Jan 2025</span>
+          <span><b>Bände:</b> 5 von 5 · abgeschlossen</span>
+          <span><b>Sprachen:</b> DE</span>
+          <span><b>Angekündigt:</b> Reihe fertig → Epos in „Prinz…"</span>
+          <span>Goodreads 4,40 · LovelyBooks 4,7</span>
         </div>
         <div class="aspekte">
           <span class="p">Underdog-Aufstieg gegen Widerstände (+2)</span>
@@ -230,7 +256,14 @@
         <div class="meta">seit 2026 · Bd. 1–2 von 5 geplant (Heimkehr, Widerstand) · gelesen von Günter Merlau</div>
         <div class="badges">
           <span class="badge loved">♥ geliebt</span>
+          <span class="badge score">🌐 Community ~85/100 · niedrig (neu)</span>
           <span class="badge">🎧 deutsch (LAUSCH)</span>
+        </div>
+        <div class="metaline">
+          <span><b>Erschienen:</b> 2026 (Heimkehr, Widerstand)</span>
+          <span><b>Bände:</b> 2 von 5 geplant · laufend</span>
+          <span><b>Sprachen:</b> DE</span>
+          <span><b>Angekündigt:</b> Bd. 3–5 · Musik-EPs (Saltatio Mortis)</span>
         </div>
         <div class="aspekte">
           <span class="p">Geheimnisvolle Macht/Gabe (Tarikh) — stärkster Reiz</span>
