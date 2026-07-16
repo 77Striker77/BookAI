@@ -55,18 +55,23 @@ immer auf das komplette Werk (Nutzeraussage 16.07.2026). Deshalb:
 - Bücher im selben Universum zählen als EIN Werk-Verbund (wichtig für die
   Reihen-Pflicht ≥3 Bände aus [[No-Gos]]).
 
-### Werk-Verbund (mehrere Reihen in einem Universum)
+### Werk-Verbund (mehrere Reihen in einem Universum) — Richtung: von unten nach oben!
 
 Hat ein Universum mehrere Reihen mit je eigenem Flair (Beispiel: „Die Streitenden
-Götter" = Sturmfels-Akademie + Prinz von Staub und Schatten), dann DREI Ebenen:
+Götter" = Sturmfels-Akademie + Prinz von Staub und Schatten):
 
-- **Universum-Notiz** (`werk_typ: universum`): alles GETEILTE — Stil, Welt,
-  Magiesystem, Autor, Sprecher, gemeinsame Aspekt-Bewertungen, Reihen-Übersicht.
-  Die Reihen-Pflicht wird auf Verbund-Ebene geprüft.
-- **Reihen-Notizen** (`werk_typ: reihe`, Feld `universum: "[[…]]"`): nur das je
-  EIGENE — eigene Figuren/Themen-Aspekte, eigener Lesestand. Geteilte Aspekte NICHT
-  duplizieren (leben im Universum).
-- Matching: Kandidaten-Vergleich nutzt Universum- + Reihen-Aspekte zusammen.
+- **Jede Reihe steht FÜR SICH** (`werk_typ: reihe`, Feld `universum:`): eigenständiges,
+  voll bewertetes Werk mit eigenen Aspekten, eigenem Verdikt, eigenem Lesestand. Damit
+  die Notiz allein lesbar ist, führt sie geteilte Aspekte als **geerbte Zeilen** auf
+  (gekennzeichnet „geerbt aus [[Universum]]" — Pflege nur an der Quelle!).
+- **Die Reihen MÜNDEN in die Overall-Notiz** (`werk_typ: universum`): sie ist die
+  Bündelung, NICHT der Besitzer — aggregiert das Geteilte (Stil, Welt, Sprecher,
+  gemeinsame Aspekt-Bewertungen) und das Gesamtbild über alle Reihen. Reihen-Pflicht
+  (≥3 Bände) wird auf Verbund-Ebene geprüft.
+- **Darstellung (auch im Artefakt): Reihen zuerst, je als eigene Karte; darunter die
+  Overall-Leiste, in die sie münden.** Nie das Universum als Ober-Karte mit
+  eingeklappten Reihen.
+- Matching: Reihen-Aspekte + geerbte Universum-Aspekte zusammen.
 
 ## Kontexte (Geschmacksräume) — Geschmack ist nicht global
 

@@ -32,27 +32,27 @@ analysiert: 2026-07-16
 tags: [werk, universum, hoerbuch, loved, fantasy]
 ---
 
-# Die Streitenden Götter (Universum)
+# Die Streitenden Götter (Overall-Ebene)
 
-Episches Fantasy-Universum von [[Torsten Weitze]] in den **Splitterlanden** — eigener
-Welt mit Magiesystem und dem historischen Konflikt Menschen ↔ Aeldae. Erzählt in
-bisher zwei Reihen (weitere geplant), alle gelesen von [[Günter Merlau]]
-(LAUSCH/Audible). **Werk-Verbund:** Reihen-Pflicht wird hier geprüft → 7 Bände
-erschienen, laufend = **klar erfüllt.**
-
-**Kontext:** [[Fantasy]] · **Reihen:** [[Sturmfels-Akademie]] (5 Bde) ·
-[[Der Prinz von Staub und Schatten]] (2 von 5 geplant)
+**Bündelung, nicht Besitzer:** Die eigenständigen Werke [[Sturmfels-Akademie]] und
+[[Der Prinz von Staub und Schatten]] **münden hier** — diese Notiz hält nur, was
+BEIDE teilen (Stil, Splitterlande-Welt, Magiesystem, Sprecher) und das Gesamtbild.
+Episches Fantasy-Universum von [[Torsten Weitze]], alle Reihen gelesen von
+[[Günter Merlau]] (LAUSCH/Audible). **Reihen-Pflicht auf Verbund-Ebene: 7 Bände
+erschienen, laufend = klar erfüllt.**
 
 > Nutzer: „Sie gehören auf jeden Fall zusammen, der Stil ist gleich, die Welt ist
-> gleich, jedoch hat jede Reihe ihr eigenes Für-sich." → Geteiltes HIER, Eigenes in
-> den Reihen-Notizen.
+> gleich, jedoch hat jede Reihe ihr eigenes Für-sich. Also müssen wir schauen, beide
+> einzelnen Reihen so abzubilden, dass die Overall-Reihe das alles einfängt."
 
-## Reihen-Übersicht
+**Kontext:** [[Fantasy]]
 
-| Reihe | Bände | Status | Verdikt |
+## Es münden hier (Reihen → Overall)
+
+| Eigenständiges Werk | Bände | Status | Verdikt |
 | --- | --- | --- | --- |
-| [[Sturmfels-Akademie]] | 5 (2023–2025) | abgeschlossen? (offene Frage) | loved |
-| [[Der Prinz von Staub und Schatten]] | 2 von 5 geplant (2026: Heimkehr, Widerstand) | laufend | loved |
+| [[Sturmfels-Akademie]] → | 5 (2023–2025) | abgeschlossen? (offene Frage) | loved |
+| [[Der Prinz von Staub und Schatten]] → | 2 von 5 geplant (2026) | laufend | loved |
 
 ## ⭐ Bewertung je Aspekt (geteilt, gilt fürs Universum)
 

@@ -35,11 +35,11 @@ tags: [werk, reihe, hoerbuch, loved, fantasy]
 
 # Sturmfels-Akademie
 
-Reihe 1 des Universums [[Die Streitenden Götter]] (geteilte Aspekte DORT — hier nur
-das Eigene). Die 16-jährige Kohlemagd **Niri**, Halb-Aeldae (Volk der einstigen
-Versklaver), schafft es an die berühmte Sturmfels-Akademie — Magie-/Kampfausbildung
-zwischen Vorurteilen, Freundschaften und dem großen Konflikt dahinter. 5 Bände
-(2023–2025, „Der Turm der Bettler" bis „Der Turm des Wissens").
+**Eigenständiges Werk** — mündet in die Overall-Ebene [[Die Streitenden Götter]].
+Die 16-jährige Kohlemagd **Niri**, Halb-Aeldae (Volk der einstigen Versklaver),
+schafft es an die berühmte Sturmfels-Akademie — Magie-/Kampfausbildung zwischen
+Vorurteilen, Freundschaften und dem großen Konflikt dahinter. 5 Bände (2023–2025,
+„Der Turm der Bettler" bis „Der Turm des Wissens").
 
 **Kontext:** [[Fantasy]] · **Autor:** [[Torsten Weitze]] · **Sprecher:** [[Günter Merlau]]
 
@@ -49,16 +49,18 @@ zwischen Vorurteilen, Freundschaften und dem großen Konflikt dahinter. 5 Bände
 | --- | --- | --- |
 | 1–5 | Der Turm der Bettler … Der Turm des Wissens | gehört (dt.) — Umfang zu bestätigen (offene Frage) |
 
-## ⭐ Bewertung je Aspekt (das Eigene dieser Reihe)
+## ⭐ Bewertung je Aspekt
 
 | Aspekt | Wertung | Warum | Beleg |
 | --- | --- | --- | --- |
 | [[Underdog-Aufstieg]] | +2 | Niris verdienter Weg von ganz unten | Interview: „Niri: Underdog-Aufstieg" gewählt |
 | [[Akademie-Leben & Gemeinschaft]] | +2 | Ausbildung, Freundschaften, Rivalitäten tragen | Interview: „Akademie-Leben & Figuren" gewählt |
 | [[Herkunfts-Konflikt & Vorurteile]] | +2 | Halb-Aeldae-Erbe + Politik dahinter | Interview: „Herkunfts-Konflikt & Politik" gewählt |
+| *geerbt:* [[Stimmige Weltatmosphäre]] | +1 | geerbt aus [[Die Streitenden Götter]] (dort pflegen) | „Welt an sich stimmig und gut" |
+| *geerbt:* [[Magiesystem-Tiefe]] | −1 | geerbt aus [[Die Streitenden Götter]] (dort pflegen) | „Standard-Elemente etwas lasch" |
 
-**Verdikt-Herleitung:** „Beide geliebt" (Interview) + 3 Eigen-Aspekte auf +2;
-geteilte +1/−1-Aspekte s. [[Die Streitenden Götter]].
+**Verdikt-Herleitung:** „Beide geliebt" (Interview) + 3 Eigen-Aspekte auf +2; die
+geerbten Universum-Zeilen machen die Notiz allein lesbar.
 
 ## DNA (das Eigene)
 

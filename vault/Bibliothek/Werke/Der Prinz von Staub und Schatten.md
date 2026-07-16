@@ -32,9 +32,9 @@ tags: [werk, reihe, hoerbuch, loved, fantasy]
 
 # Der Prinz von Staub und Schatten
 
-Reihe 2 des Universums [[Die Streitenden Götter]] (geteilte Aspekte DORT). 2026
-gestartet, bisher 2 von 5 geplanten Bänden: **Heimkehr**, **Widerstand**.
-Reihen-Pflicht: über den Werk-Verbund erfüllt.
+**Eigenständiges Werk** — mündet in die Overall-Ebene [[Die Streitenden Götter]].
+2026 gestartet, bisher 2 von 5 geplanten Bänden: **Heimkehr**, **Widerstand**.
+Reihen-Pflicht: 5 geplant + Verbund → erfüllt.
 
 **Kontext:** [[Fantasy]] · **Autor:** [[Torsten Weitze]] · **Sprecher:** [[Günter Merlau]]
 
@@ -46,14 +46,16 @@ Reihen-Pflicht: über den Werk-Verbund erfüllt.
 | 2 | Widerstand | gehört (dt.) — zu bestätigen |
 | 3–5 | geplant | ⏳ nicht erschienen |
 
-## ⭐ Bewertung je Aspekt (das Eigene dieser Reihe)
+## ⭐ Bewertung je Aspekt
 
 *Verdikt „geliebt" (Interview), aber das „eigene Für-sich" dieser Reihe wurde noch
 nicht erhoben — beim nächsten Gespräch nachfragen (NICHT bandweise!).*
 
 | Aspekt | Wertung | Warum | Beleg |
 | --- | --- | --- | --- |
-| *(noch offen)* | | | |
+| *(Eigen-Aspekte noch offen)* | | | |
+| *geerbt:* [[Stimmige Weltatmosphäre]] | +1 | geerbt aus [[Die Streitenden Götter]] (dort pflegen) | „Welt an sich stimmig und gut" |
+| *geerbt:* [[Magiesystem-Tiefe]] | −1 | geerbt aus [[Die Streitenden Götter]] (dort pflegen) | „Standard-Elemente etwas lasch" |
 
 ## Offene Fragen
 
