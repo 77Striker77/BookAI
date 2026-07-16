@@ -73,8 +73,15 @@ stellen willst, halte inne und recherchiere sie stattdessen.
    EINE Frage pro Aufruf). Baue die Antwortoptionen aus dem, was du über den Nutzer schon
    weißt (roter Faden, bekannte Merkmale), plus dem Gegenpol — so wird die Frage gezielt
    statt generisch. Mehrfachauswahl erlauben, wo mehrere Aspekte zutreffen können; Freitext
-   ("Other") bleibt immer offen (dort kamen die besten Zitate). Reine Faktenklärung
-   (Format/Sprache/Lesestand) darf knapp im Fließtext bleiben.
+   ("Other") bleibt immer offen (dort kamen die besten Zitate).
+
+▶ **Einstiegs-Block zuerst (EINZIGE Ausnahme von Regel 1):** Die reine Faktenklärung
+   **Format (gelesen/gehört) · Sprache · Verdikt (geliebt/okay/abgelehnt/abgebrochen) ·
+   Lesestand** darf als EIN kompakter Block gestellt werden — entweder knapp im Fließtext
+   oder als eine `AskUserQuestion` mit diesen 3–4 Fakt-Fragen gebündelt. **Verdikt IMMER
+   erfragen, nie annehmen — es bestimmt NICHT die Recherchetiefe** (bei „okay"/abgelehnt
+   wird genauso tief gegraben). Erst DANACH beginnen die Gefühls-Dimensionen, und die
+   laufen strikt eine-Frage-nach-der-anderen, Positiv/Negativ getrennt.
 
 5. **Im Erlebnis-Rahmen des Nutzers bleiben = keine Spoiler.** Du kennst seinen Lesestand
    (welche Bände/wie weit) — formuliere Fragen und Optionen nur zu dem, was er schon
