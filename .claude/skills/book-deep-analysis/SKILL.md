@@ -32,19 +32,28 @@ Siehe `references/metadata-sources.md` für konkrete Endpoints. Reihenfolge:
 Erfasse mindestens: `genres`, `subjects/themen`, `year`, `series`, `isbn`, `page_count`,
 `audio_hours` (bei Hörbuch), `narrator`, `language`, `ratings`. Notiere die `sources`.
 
-**Pflicht-Metadatenblock je Werk/Reihe** (Frontmatter + Abschnitte „Metadaten & Reihe"
-und „Community-Score" aus `Werk.md`):
-- **Erscheinungsdatum**: Bd. 1 + jüngster Band; **Bände erschienen vs. geplant**.
-- **Sprachen verfügbar** (Buch UND Hörbuch, z. B. `[de, en, es]`).
-- **Angekündigt**: neue Bände, Spin-offs, Erweiterungen (auch cross-media wie Musik-EPs,
-  Verfilmung) — oder ausdrücklich „nichts bekannt".
-- **Community-Score (0–100) + Konfidenz**: Aggregiere Nutzerwertungen UND Kommentar-Tenor
-  aus mehreren Quellen (Goodreads, LovelyBooks, Amazon, Audible, Reddit/Foren). **Buch und
-  Hörbuch zählen für den INHALT gleichwertig** — inhaltliche Rezensionen beider Formate
-  gemeinsam nutzen. Sprecher-/Produktions-Kritik NICHT in den Inhalts-Score mischen
-  (separat vermerken). Konfidenz nach Menge/Streuung der Datenpunkte (wenige/neue Titel →
-  niedriger). Normalisierung: 5-Sterne-Wert × 20 ≈ /100; mehrere Quellen gewichtet mitteln.
-  Quellenliste mit Wert + Stimmenzahl führen (`community_quellen`).
+**Pflicht: bandgenaue Metadaten, BOTTOM-UP** (Abschnitte „Die Bände einzeln",
+„Nächste Releases", „Reihen-Gesamtbild" aus `Werk.md`). Reihenfolge strikt:
+**erst jeder Band einzeln, das Reihen-Fazit ist IMMER der letzte Schritt.**
+
+Für **JEDEN Band** erfassen (Tabelle + Lob/Kritik):
+- **Titel** (deutsch UND englisch, falls beide existieren).
+- **Erscheinungsdatum getrennt 🇩🇪 Deutsch und 🇬🇧 Englisch** (Buch und Hörbuch) — Deutsch
+  und Englisch sind die wichtigen Sprachen. Fehlt eine Sprache: „noch nicht auf DE/EN".
+- **Echte Nutzerwertung mit ANZAHL** je Quelle (Goodreads/LovelyBooks/Amazon/Audible),
+  z. B. „4,6/5 bei 45 000". **Buch- und Hörbuch-Wertungen zum Inhalt gemeinsam** nutzen;
+  Sprecher-/Produktionskritik separat halten. Keine erfundenen Zahlen — sonst „—".
+- **Echtes Lob und echte Kritik** aus Rezensionen (konkrete Stichpunkte, nicht abstrakt).
+- **Band-Unterschiede** notieren, wenn Wertungen schwanken (z. B. schwächerer Auftakt).
+
+**Nächste Releases & Planung:** wann kommt der nächste Band auf **Deutsch** bzw.
+**Englisch** (Termin/Ankündigung); Bände erschienen vs. geplant; Status; angekündigte
+Erweiterungen (Spin-offs, Musik-EPs, Verfilmung) — oder „nichts bekannt".
+
+**Reihen-Gesamtbild ZULETZT:** erst wenn alle Bände erfasst sind, das Fazit ziehen
+(⌀-Wertung, roter Faden von Lob/Kritik, Abgleich mit MEINEM Empfinden). Bei einem
+Universum fließt dieses Reihen-Fazit dann in die Overall-Notiz ein (die Overall-Summe
+ist der allerletzte Schritt).
 
 ### 3. Buch-DNA extrahieren (das Herzstück)
 Verdichte Metadaten + Rezensionen + Interview-Antworten zu diesen Dimensionen (Felder

@@ -19,12 +19,12 @@ format_erlebt: ""      # buch | hoerbuch | beides
 sprecher: ""           # + [[Link]] im Body
 performance: ""        # solo | voll-cast | duett
 ungekuerzt:
-# --- Community-Score: aus Nutzerwertungen + Kommentaren; Buch UND Hörbuch gleichwertig ---
-community_score:       # 0–100 (normalisiert), synthetisiert aus allen Quellen
-community_konfidenz: "" # hoch | mittel | niedrig (Menge/Streuung der Datenpunkte)
-community_quellen: []  # [{quelle, wert, stimmen}] — Goodreads/LovelyBooks/Amazon/Audible …
-rating_goodreads:      # Rohwert als Referenz
-rating_amazon:
+# --- Nächste Releases (DE und EN sind das Wichtige) ---
+naechster_band_de: ""  # Titel + Datum/Status des nächsten deutschen Bandes
+naechster_band_en: ""  # dito Englisch
+# --- Community-Wertung: ECHTE Werte, bandgenau (Details im Body); Buch+Hörbuch inhaltlich gleich ---
+rating_schnitt: ""     # grober Reihen-Schnitt als Referenz, z. B. "4,5/5"
+rating_stimmen_gesamt: "" # ungefähre Gesamtzahl der Wertungen über die Reihe
 # --- DNA maschinenlesbar (Werte = Namen der Merkmal-Notizen) ---
 genres: []
 themen: []
@@ -53,34 +53,43 @@ Reihen-Pflicht-Check gleich hier.⟩
 
 **Kontext:** [[⟨…⟩]] · **Autor:** [[⟨…⟩]] · **Sprecher:** [[⟨…⟩]]
 
-## 📇 Metadaten & Reihe
+## 📚 Die Bände einzeln (BOTTOM-UP — immer zuerst die Bände, Reihen-Fazit ganz am Ende)
 
-- **Erschienen:** Bd. 1 ⟨Datum⟩ · jüngster Band ⟨Datum⟩ · **⟨n⟩ von ⟨m geplant⟩ Bänden**
-- **Status:** ⟨laufend / abgeschlossen⟩
-- **Sprachen verfügbar:** ⟨de, en …⟩ (Buch/Hörbuch)
-- **Angekündigt:** ⟨neue Bände / Spin-offs / Erweiterungen — oder „nichts bekannt"⟩
+> Reihenfolge der Analyse: erst Band für Band (echte Wertungen + echtes Lob/Kritik),
+> DANN das Reihen-Gesamtbild als letzter Schritt. **Deutsch und Englisch sind die
+> wichtigen Sprachen** — beide Release-Daten getrennt führen.
 
-## 🌐 Community-Score: ⟨0–100⟩ / 100 · Konfidenz ⟨hoch/mittel/niedrig⟩
+| # | Titel | 🇩🇪 Release (Buch/Hörb.) | 🇬🇧 Release | ⭐ Wertung (⌀ · Anzahl) | mein Lesestand |
+| --- | --- | --- | --- | --- | --- |
+| 1 | ⟨…⟩ | ⟨2026⟩ | ⟨2020⟩ | GR ⟨4,5⟩ · ⟨120k⟩ · LB ⟨4,7⟩ · ⟨80⟩ | gehört |
+| 2 | ⟨…⟩ | ⟨…⟩ | ⟨…⟩ | ⟨…⟩ | am Hören |
 
-> Aus Nutzerwertungen + Kommentaren aggregiert. **Buch und Hörbuch zählen für den Inhalt
-> gleich** — inhaltliche Kommentheit beider Formate wird zusammen genutzt (Sprecher-
-> Kritik NICHT in den Inhalts-Score mischen, separat notieren).
+**Wertung = echte Zahlen je Band** (Goodreads/LovelyBooks/Amazon/Audible mit ANZAHL der
+Wertungen). Buch- und Hörbuch-Wertungen zum Inhalt gemeinsam nutzen; Sprecherkritik
+separat. Keine erfundenen Werte — fehlt eine Wertung, „—" eintragen.
 
-| Quelle | Wert | Stimmen |
-| --- | --- | --- |
-| Goodreads | ⟨4,4/5⟩ | ⟨1 700⟩ |
-| LovelyBooks | ⟨4,7/5⟩ | ⟨…⟩ |
-| Amazon/Audible | ⟨…⟩ | ⟨…⟩ |
+### 👍 Was die Community lobt (aus echten Rezensionen)
+- ⟨konkreter Pluspunkt + ggf. woher⟩
 
-**Tenor der Kommentare:** ⟨1–2 Sätze: was die Community lobt / kritisiert; deckt sich das
-mit meinem Empfinden?⟩
+### 👎 Was die Community kritisiert (aus echten Rezensionen)
+- ⟨konkreter Kritikpunkt⟩
 
-## Lesestand
+### Auffällige Band-Unterschiede (falls die Wertungen je Band schwanken)
+- ⟨z. B. „Bd. 1 schwächer bewertet als der Rest — deckt sich mit meinem zähen Start"⟩
 
-| Bd. | Titel | Status |
-| --- | --- | --- |
-| 1 | ⟨…⟩ | gehört/gelesen |
-| 2 | ⟨…⟩ | am Hören / offen / ⏳ wartet auf dt. Fassung |
+## 🗓️ Nächste Releases & Planung
+
+- **Nächster Band Deutsch:** ⟨Titel + Datum/Status, oder „alle erschienen"⟩
+- **Nächster Band Englisch:** ⟨…⟩
+- **Bände gesamt:** ⟨n erschienen / m geplant⟩ · **Status:** ⟨laufend/abgeschlossen⟩
+- **Angekündigt/Erweiterungen:** ⟨Spin-offs, Musik-EPs, Verfilmung … oder „nichts bekannt"⟩
+
+## Lesestand (nur meine Formate/Fortschritt)
+
+| Bd. | Status |
+| --- | --- |
+| 1 | gehört (dt.) |
+| 2 | am Hören / ⏳ wartet auf dt. Fassung |
 
 ## ⭐ Bewertung je Aspekt (Werk gesamt)
 
@@ -110,6 +119,13 @@ mit meinem Empfinden?⟩
 ## Hörbuch-Erlebnis (falls gehört)
 
 ⟨Sprecher-Performance über die Reihe; Wechsel des Sprechers zwischen Bänden vermerken!⟩
+
+## 🧮 Reihen-Gesamtbild (LETZTER Schritt — erst nach allen Bänden)
+
+⟨Kurzes Fazit, das die Einzelbände zusammenzieht: durchschnittliche Community-Wertung,
+roter Faden von Lob/Kritik über alle Bände, und wie sich das zu MEINEM Empfinden verhält
+(deckt es sich, oder ist meine Kritik/mein Lob eine persönliche Eigenheit?). Bei einem
+Universum: dieses Fazit fließt seinerseits in die Overall-Notiz ein.⟩
 
 ## Offene Fragen
 
