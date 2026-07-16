@@ -4,24 +4,23 @@ werk_typ: "reihe"
 universum: "Die Streitenden Götter"
 autor: "Torsten Weitze"
 jahr_start: 2023
-erscheinungsdatum_bd1: "2023"
-letztes_datum: "2025-01"     # Bd. 5 "Der Turm des Wissens"
+erscheinungsdatum_bd1: "2023-07"   # Hörbuch 21.07.2023
+letztes_datum: "2025-07"           # Bd. 5 "Der Turm des Wissens", 22./25.07.2025
 baende_gesamt: 5
-baende_geplant: 5            # ursprünglich Trilogie, auf 5 erweitert
-abgeschlossen: true          # 5 Bände erschienen; als Reihe abgeschlossen
-angekuendigt: "Reihe abgeschlossen; Fortsetzung des Epos in [[Der Prinz von Staub und Schatten]]"
-sprachen_verfuegbar: [de]    # deutsches Original, keine Übersetzung bekannt
+baende_geplant: 5                  # Niri-Zyklus abgeschlossen (5 Schuljahre = 5 Türme)
+abgeschlossen: true
+angekuendigt: "Niri-Zyklus abgeschlossen; Epos geht weiter in [[Der Prinz von Staub und Schatten]]"
+naechster_band_de: "keiner (Reihe abgeschlossen) — Epos-Fortsetzung: Prinz von Staub und Schatten"
+naechster_band_en: "keine engl. Ausgabe geplant/bekannt"
+sprachen_verfuegbar: [de]          # nur Deutsch, keine engl. Übersetzung
 sprache_erlebt: "de"
+rating_schnitt: "~4,4/5"           # Goodreads, über alle 5 Bände
+rating_stimmen_gesamt: "~1.680 (Goodreads, Summe Bd. 1–5)"
 kontext: "Fantasy"
 verdict: "loved"
 format_erlebt: "hoerbuch"
 sprecher: "Günter Merlau"
 performance: "solo"
-community_score: 89
-community_konfidenz: "hoch"
-community_quellen:
-  - { quelle: "Goodreads (Reihe)", wert: "4.40/5", stimmen: "~1700" }
-  - { quelle: "LovelyBooks (Bd.1)", wert: "4.7/5", stimmen: "—" }
 genres: [Epic Fantasy]
 themen: [Underdog-Aufstieg, Herkunfts-Konflikt & Vorurteile]
 ton: []
@@ -59,32 +58,51 @@ Vorurteilen, Freundschaften und dem großen Konflikt dahinter. 5 Bände (2023–
 
 **Kontext:** [[Fantasy]] · **Autor:** [[Torsten Weitze]] · **Sprecher:** [[Günter Merlau]]
 
-## 📇 Metadaten & Reihe
+## 📚 Die Bände einzeln
 
-- **Erschienen:** Bd. 1 (2023) · Bd. 5 „Der Turm des Wissens" (Jan 2025) · **5 von 5 Bänden**
-- **Status:** abgeschlossen (ursprünglich Trilogie, auf 5 erweitert)
-- **Sprachen verfügbar:** DE (deutsches Original; keine Übersetzung bekannt)
-- **Angekündigt:** Reihe abgeschlossen; Epos geht weiter in [[Der Prinz von Staub und Schatten]]
-- **Reihen-Pflicht:** 5 Bände → erfüllt
+Nur Deutsch (keine engl. Übersetzung), Hörbücher LAUSCH/[[Günter Merlau]] (~18–19 h je
+Band). Goodreads-Werte je Band gesichert; LovelyBooks/Audible-Zähler blockiert (⚠️).
 
-## 🌐 Community-Score: 89 / 100 · Konfidenz hoch
+| # | Titel | 🇩🇪 Buch / Hörbuch | 🇬🇧 | ⭐ Goodreads (⌀ · Anzahl) | Lesestand |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Der Turm der Bettler | 2023 · Hörb. 21.07.2023 | — | **4,32** · 504 | gehört |
+| 2 | Der Turm des Goldes | eBook 19.01.2024 · Hörb. 26.01.2024 | — | 4,41 · 385 | gehört |
+| 3 | Der Turm der Könige | 02.07.2024 · Hörb. 05.07.2024 | — | 4,45 · 311 | gehört |
+| 4 | Der Turm des Blutes | Jan 2025 · Hörb. 10.01.2025 | — | 4,42 · 260 | gehört |
+| 5 | Der Turm des Wissens | 22.07.2025 · Hörb. 25.07.2025 | — | 4,45 · 218 | gehört |
 
-| Quelle | Wert | Stimmen |
-| --- | --- | --- |
-| Goodreads (Reihe) | 4,40/5 | ~1 700 |
-| LovelyBooks (Bd. 1) | 4,7/5 | — |
+*Audible Bd. 1 kursiert mit ~4,9/500+ (Audible-Blog) — nicht offiziell bestätigt ⚠️.*
 
-**Tenor:** Sehr positiv — gelobt für lebendige Welt, Terminologie/Hintergrund und Niris
-Entwicklung („wächst über sich hinaus"). **Interessant:** Auch Community-Rezensenten
-heben Niris Wandel hervor — meine −2-Kritik am zu schwachen/zähen Start (Bd. 1) taucht
-in der Breite kaum auf, ist also eher meine persönliche Empfindlichkeit (roter Faden
-Fokus/Vorwärtsdrang) als ein Mehrheitsurteil.
+### 👍 Was die Community lobt (echte Rezensionen)
+- Starker Weltenbau (Splitterlande, Götter/Sigille); liebevoll ausgearbeitete Nebenfiguren.
+- [[Günter Merlau]]s Sprecherleistung durchweg gelobt.
+- Ab Bd. 3–5 wachsende Komplexität, politische Intrigen; Bd. 5: „jetzt geht es richtig los",
+  dramatisches Finale, befriedigender Abschluss.
 
-## Lesestand
+### 👎 Was die Community kritisiert (echte Rezensionen)
+- **Bd. 1: langsamer Start** — „der Autor braucht rund ein Viertel des Buches" für Welt-/
+  Figureneinführung; für erfahrene Leser vieles vorhersehbar, zu wenig Gefahr.
+- Episodisch-lineares „Akademie-Jahr"-Schema wiederholt sich; RPG-/Tabletop-Einschlag
+  (Loot, Quests, lineare Progression), teils „kindliche" Wortwahl.
+- Spätere Bände: viele parallele Stränge; kein Quereinstieg (starke Fortsetzungsbindung).
 
-| Bd. | Titel | Status |
-| --- | --- | --- |
-| 1–5 | Der Turm der Bettler … Der Turm des Wissens | gehört (dt.) — Umfang zu bestätigen (offene Frage) |
+### Band-Unterschiede — ⭐ deckt mein Empfinden!
+Goodreads steigt von **Bd. 1 (4,32, niedrigster)** über 4,41 → 4,45 und bleibt oben. Die
+Community bewertet Band 1 **objektiv am schwächsten** und nennt exakt den **langsamen
+Start** — genau meine −2-Kritik (Fast-Abbruch, „Vollkatastrophe" erste Hälfte). Mein
+roter Faden Fokus/Vorwärtsdrang ist hier also **kein Einzelempfinden, sondern
+Community-gestützt.** Und der Aufwärtstrend bestätigt mein „gegen Ende richtig gut".
+
+## 🗓️ Nächste Releases & Planung
+- **Nächster Band DE:** keiner — **Reihe (Niri-Zyklus) mit 5 Bänden abgeschlossen.**
+- **Nächster Band EN:** keine englische Ausgabe.
+- **Fortsetzung des Epos:** [[Der Prinz von Staub und Schatten]] (neuer Zyklus um Tarikh).
+
+## Lesestand (meine Formate)
+
+| Bd. | Status |
+| --- | --- |
+| 1–5 | gehört (dt.) — vollständigen Durchlauf noch bestätigen |
 
 ## ⭐ Bewertung je Aspekt
 
@@ -130,9 +148,18 @@ Beide teilen **dieselbe Kernschwäche**: langsamer, unfokussierter Einstieg, Fok
   alles im Start und zahlt am Ende, Prinz gleichmäßiger aber diffuser. Gemeinsamer wunder
   Punkt = der zähe, unfokussierte Start → exakt der rote Faden des Nutzers.
 
+## 🧮 Reihen-Gesamtbild (letzter Schritt)
+
+Community Goodreads ⌀ ~4,4/5 (~1.680 Wertungen, Bd. 1–5), durchweg positiv (Weltenbau,
+Nebenfiguren, Merlau). **Zentrale Deckung mit meinem Empfinden:** Bd. 1 ist objektiv der
+schwächste (4,32) und wird explizit für den „langsamen Start (erstes Viertel)"
+kritisiert — genau meine −2. Die Wertungen STEIGEN danach (bis 4,45), was mein „gegen
+Ende immer besser / starkes Finale" stützt. Mein roter Faden Fokus/Vorwärtsdrang ist
+hier also **Community-belegt, kein Einzelurteil.**
+
 ## Offene Fragen
 
-- Alle 5 Bände gehört? Reihe offiziell abgeschlossen (Trilogie-Ursprung)?
-- Hördauer/ISBNs je Band.
+- Alle 5 Bände gehört? (Reihe ist abgeschlossen — 5 Bände bestätigt)
+- Hördauer je Band grob bekannt (~18–19 h); ISBNs teils.
 
 Quelle Interview: [[2026-07-16 Interview Streitende Götter]]

@@ -3,12 +3,14 @@ titel: "Dungeon Crawler Carl"
 werk_typ: "reihe"       # reihe | universum | standalone-universum
 autor: "Matt Dinniman"
 jahr_start: 2020
-erscheinungsdatum_bd1: "2020-10-02"
-letztes_datum: "2026-05"     # Bd. 8 (Finale) Mai 2026
-baende_gesamt: 8
-baende_geplant: 9            # Finale als 2 Bücher angekündigt
-abgeschlossen: false         # Finalband(e) noch ausstehend
-angekuendigt: "Abschluss der Reihe (Finale gesplittet in 2 Bücher); dt. Hörbücher erscheinen sukzessive nach"
+erscheinungsdatum_bd1: "2020-10-02"   # EN Original; DE Hörbuch 01.02.2026
+letztes_datum: "2026-05"     # Bd. 8 "A Parade of Horribles" (EN), ~12.05.2026
+baende_gesamt: 8             # von 9 Story-Bänden erschienen
+baende_geplant: 9            # Finale (Bd. 9) als 2 physische Bücher
+abgeschlossen: false         # Bd. 9 (Finale) ausstehend, kein Termin
+angekuendigt: "Bd. 9 'The Beautiful Place' (Finale, 2 Bücher) — EN kein Termin; DE Bd. 3 Print 18.11.2026"
+naechster_band_de: "Bd. 3 'The Dungeon Anarchist's Cookbook' — Print 18.11.2026 (Fischer Tor); Hörbuch-Termin offen"
+naechster_band_en: "Bd. 9 'The Beautiful Place' (Finale) — kein Termin, Prolog Juni 2026 auf Patreon"
 sprachen_verfuegbar: [en, de, es, fr, it, sv, pt]
 sprache_erlebt: "de"
 isbn_bd1: "9780593820247"
@@ -18,12 +20,9 @@ format_erlebt: "hoerbuch"
 sprecher: "Stefan Kaminski"
 performance: "solo"
 ungekuerzt: true
-community_score: 91
-community_konfidenz: "hoch"
-community_quellen:
-  - { quelle: "Goodreads (Bd.1 Original)", wert: "4.54/5", stimmen: "~119k" }
-  - { quelle: "Goodreads (Bd.1 Hardcover)", wert: "4.39/5", stimmen: "~104k" }
-rating_goodreads: 4.54  # Bd. 1, Original-Ausgabe, ~119k Ratings
+rating_schnitt: "~4,5–4,6/5"   # Goodreads, über die Reihe
+rating_stimmen_gesamt: "~1,7 Mio (Goodreads, Summe Bd. 1–8) + engl. Audible ~4,9 · 34k+"
+rating_goodreads: 4.45  # Bd. 1 Hauptseite, ~442k
 genres: [LitRPG, Science-Fantasy]
 themen: [Kapitalismus-Satire, Aufbegehren gegen das System, System & Progression]
 ton: [Absurder Humor, Tonwechsel Humor-Ernst]
@@ -68,32 +67,56 @@ Einzelbände. Abweichungen einzelner Bände nur, wenn er sie selbst anspricht (s
 
 **Kontext:** [[LitRPG]] · **Autor:** [[Matt Dinniman]] · **Sprecher (dt.):** [[Stefan Kaminski]]
 
-## 📇 Metadaten & Reihe
+## 📚 Die Bände einzeln
 
-- **Erschienen:** Bd. 1 am 02.10.2020 · Bd. 8 (Finale) Mai 2026 · **8 von ~9 Bänden**
-- **Status:** laufend — Abschluss als gesplittetes Finale angekündigt
-- **Sprachen verfügbar:** EN (Original), DE, ES, FR, IT, SV, PT (Buch/Hörbuch, je nach Markt)
-- **Angekündigt:** Reihen-Finale (2 Bücher); dt. Hörbücher folgen sukzessive
-- **Reihen-Pflicht:** 8 Bände → klar erfüllt
+EN komplett (Jeff Hays/Soundbooth), DE im Aufbau (Fischer Tor, [[Stefan Kaminski]], seit
+Feb 2026). Goodreads-Werte editionsabhängig/schwankend (⚠️ Snippets, keine Live-Abrufe).
 
-## 🌐 Community-Score: 91 / 100 · Konfidenz hoch
+| # | Titel | 🇬🇧 EN | 🇩🇪 DE (Buch/Hörb.) | ⭐ Goodreads (⌀ · Anzahl) | Lesestand |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Dungeon Crawler Carl | 02.10.2020 | Hörb. 01.02.2026 · Print 25.02.2026 | 4,45 · ~442k | gehört |
+| 2 | Carl's Doomsday Scenario | 2021 | 24.06.2026 (Buch+Hörb.) | 4,49 · ~323k | **am Hören** |
+| 3 | The Dungeon Anarchist's Cookbook | 2021 | **Print 18.11.2026** · Hörb. offen | 4,40 · ~260k (niedrigster) | ⏳ |
+| 4 | The Gate of the Feral Gods | 14.06.2021 | — noch nicht | 4,54 · ~200k | ⏳ |
+| 5 | The Butcher's Masquerade | 19.02.2022 | — noch nicht | **4,69 · ~174k (höchster)** | ⏳ |
+| 6 | The Eye of the Bedlam Bride | 02.07.2023 | — noch nicht | 4,65 · ~130k | ⏳ |
+| 7 | This Inevitable Ruin | 03.11.2024 | — noch nicht | 4,68 · ~125k | ⏳ |
+| 8 | A Parade of Horribles | ~12.05.2026 | — noch nicht | ~4,63 (neu ⚠️) | ⏳ |
 
-| Quelle | Wert | Stimmen |
-| --- | --- | --- |
-| Goodreads (Bd. 1, Original) | 4,54/5 | ~119 000 |
-| Goodreads (Bd. 1, Hardcover) | 4,39/5 | ~104 000 |
+### 👍 Was die Community lobt (echte Rezensionen)
+- Carl-&-Donut-Dynamik; Mischung aus Laut-Komik und überraschender emotionaler Tiefe/Trauma.
+- Scharfe Reality-TV-/Ausbeutungs-Satire; tragisches System-KI/NPC-Motiv.
+- Hörbuch-Produktion Jeff Hays (EN) durchweg als herausragend gefeiert; Kaminski (DE) ebenso.
 
-**Tenor:** Kultstatus im LitRPG-Genre; gelobt für Humor + emotionale Wucht + Pacing;
-Hörbuch (Jeff Hays engl. / Kaminski dt.) gilt als herausragend. Deckt sich voll mit
-meinem +2-Profil. Sehr breite, stabile Datenbasis → hohe Konfidenz.
+### 👎 Was die Community kritisiert (echte Rezensionen)
+- Derb-vulgärer Humor „nutzt sich für manche ab", „überschreitet zweimal eine Grenze".
+- LitRPG-typische Stat-Blöcke (hier aber überspringbar gehalten).
+- **Bd. 7 „This Inevitable Ruin": „Wo ist der Spaß hin?"** — dunkler, weniger witzig,
+  „Tempo wie im Leerlauf", zu viele Subplots, **aufgebläht**. Bd. 3 gilt als schwächster
+  („gut, aber nicht großartig", Übergangsband).
 
-## Lesestand
+### Band-Unterschiede
+Höhepunkt-Bänder: **Bd. 5 (4,69)**, Bd. 7 (4,68 trotz Kritik), Bd. 6 (4,65). Schwächster:
+**Bd. 3 (4,40)**. **Relevant für meinen roten Faden:** Bd. 7 wird für genau meine
+Schwäche kritisiert (Leerlauf/aufgebläht/zu viele Stränge) — dort sollte ich bei DCC
+aufpassen, wenn ich hinkomme (bin erst bei Bd. 2 dt.).
 
-| Bd. | Titel | Status |
-| --- | --- | --- |
-| 1 | Dungeon Crawler Carl | gehört (dt., 14 h 24) |
-| 2 | Carl's Doomsday Scenario | **aktuell am Hören** (dt., 12 h 41) |
-| 3–8 | … | ⏳ wartet auf dt. Hörbuch — Nutzer weicht bewusst NICHT auf Englisch aus |
+## 🗓️ Nächste Releases & Planung
+- **Nächster Band DE:** Bd. 3 „The Dungeon Anarchist's Cookbook" — **Print 18.11.2026**
+  (Fischer Tor); dt. Hörbuch angekündigt, Termin offen. Bd. 4+ dt. noch nicht terminiert.
+- **Nächster Band EN:** Bd. 9 „The Beautiful Place" (Finale) — **kein Termin**, Prolog
+  Juni 2026 auf Patreon; erscheint als 2 physische Bücher.
+- **Bände:** 8 von 9 Story-Bänden erschienen · Status: laufend (Finale ausstehend).
+- **Sprachen:** EN komplett; DE, ES, FR, IT, SV, PT (je nach Band/Markt).
+
+## Lesestand (meine Formate)
+
+| Bd. | Status |
+| --- | --- |
+| 1 | gehört (dt., 14 h 24) |
+| 2 | **am Hören** (dt., 12 h 42) |
+| 3 | ⏳ dt. Print 18.11.2026 / Hörbuch offen |
+| 4–8 | ⏳ noch nicht auf Deutsch — Nutzer wartet bewusst (kein Englisch) |
 
 → Zwischen den dt. Veröffentlichungen entsteht die Lücke, die ähnliche Empfehlungen
 füllen sollen. Engl. Fassung (Jeff Hays/Soundbooth, ~140 h gesamt) ist keine Option.
@@ -148,7 +171,16 @@ Quelle: [[2026-07-16 Erstinterview Dungeon Crawler Carl]].
 Dt. Fassung (Übers. Ruggero Leò, FISCHER Tor/Audible), [[Stefan Kaminski]] solo:
 **„Trägt massiv."** Sprecherqualität belegt hochrelevant.
 
+## 🧮 Reihen-Gesamtbild (letzter Schritt)
+
+Community ⌀ ~4,5–4,6/5 bei ~1,7 Mio Goodreads-Wertungen (engl. Audible ~4,9 · 34k+) —
+LitRPG-Phänomen mit sehr breiter, stabiler Basis. Tenor deckt sich voll mit meinem
++2-Profil (Duo, Humor+Tiefe, Satire, Sprecher). **Ein Warnsignal für später:** Bd. 7
+wird für „Leerlauf-Tempo, aufgebläht, zu viele Subplots" kritisiert — exakt mein roter
+Faden [[Konstanter Vorwärtsdrang]]. Da ich (dt.) erst bei Bd. 2 bin, noch irrelevant,
+aber vermerkt. Reihe (noch) nicht abgeschlossen (Finale Bd. 9 offen).
+
 ## Offene Fragen
 
 - Deutsche Print-/E-Book-ISBN nicht erfasst (ISBN oben = US-Ace-Hardcover Bd. 1).
-- Erscheinungstakt der weiteren dt. Hörbücher beobachten (Bd. 3+).
+- Dt. Hörbuch-Termin Bd. 3 (Print 18.11.2026 steht); Bd. 4+ dt. unterminiert.

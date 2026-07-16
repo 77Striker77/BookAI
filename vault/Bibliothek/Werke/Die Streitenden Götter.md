@@ -3,16 +3,18 @@ titel: "Die Streitenden Götter"
 werk_typ: "universum"
 autor: "Torsten Weitze"
 jahr_start: 2023
-erscheinungsdatum_bd1: "2023"
-letztes_datum: "2026"
+erscheinungsdatum_bd1: "2023-07"
+letztes_datum: "2026-05"
 baende_gesamt: 7        # Verbund: Sturmfels 5 + Prinz 2
 baende_geplant: 10      # Sturmfels 5 (fertig) + Prinz 5 geplant
 abgeschlossen: false    # Prinz läuft; evtl. weitere Reihen des Epos
-angekuendigt: "Prinz Bd. 3–5; Saltatio-Mortis-Musik-EP-Reihe; ggf. weitere Reihen im Epos"
+angekuendigt: "Prinz Bd. 3–5 (2026–27); Saltatio-Mortis-Musik-EP-Reihe; ggf. weitere Reihen im Epos"
+naechster_band_de: "Prinz Bd. 3 (evtl. 'Hoffnung') ~Sept 2026 — unbestätigt"
+naechster_band_en: "keine engl. Ausgabe"
 sprachen_verfuegbar: [de]
 sprache_erlebt: "de"
-community_score: 87    # Aggregat der untergeordneten Reihen (Sturmfels 89 ~gewichtet, Prinz 85)
-community_konfidenz: "mittel"
+rating_schnitt: "~4,4–4,7/5"
+rating_stimmen_gesamt: "Sturmfels ~1.680 (Goodreads) + Prinz ~650 (Amazon.de Bd.1)"
 kontext: "Fantasy"
 verdict: "loved"        # beide Reihen „geliebt" (Interview 2026-07-16)
 format_erlebt: "hoerbuch"
@@ -56,12 +58,11 @@ klar erfüllt.**
 
 ## 📇 Metadaten (Verbund)
 
-- **Erschienen:** seit 2023 · jüngstes 2026 · **7 erschienen / ~10 geplant**
-- **Status:** laufend (Sturmfels abgeschlossen, Prinz läuft)
-- **Sprachen verfügbar:** DE (deutsches Original — kein Übersetzungs-Warten)
+- **Erschienen:** seit Juli 2023 · jüngstes Mai 2026 · **7 erschienen / ~10 geplant**
+- **Status:** laufend ([[Sturmfels-Akademie]] abgeschlossen, [[Der Prinz von Staub und Schatten]] läuft)
+- **Sprachen:** DE (deutsches Original — kein Übersetzungs-Warten); keine engl. Ausgabe
+- **Nächster Band DE:** Prinz Bd. 3 (evtl. „Hoffnung") ~Sept 2026 (⚠️ unbestätigt)
 - **Angekündigt:** Prinz Bd. 3–5 · Musik-EP-Reihe (Saltatio Mortis) · ggf. weitere Reihen
-- **Community-Score (Aggregat): 87 / 100 · Konfidenz mittel** — Summe/Mittel der Reihen:
-  [[Sturmfels-Akademie]] 89 (hoch) + [[Der Prinz von Staub und Schatten]] 85 (niedrig, neu).
 
 ## Hierarchie (Overall → Reihen)
 
@@ -123,8 +124,18 @@ verzeihlich, wenn ein starkes Finale trägt (Kombinationsregel [[Fantasy]]).
 Maximal-Urteil → Sprecherqualität ist ein kontextübergreifendes Kernkriterium
 ([[Profil]]).
 
+## 🧮 Community-Gesamtbild des Verbunds (allerletzter Schritt)
+
+Aggregat der Reihen-Fazits (die je aus ihren Bänden entstanden sind):
+- [[Sturmfels-Akademie]]: Goodreads ⌀ ~4,4 (~1.680), Bd. 1 schwächster (langsamer Start),
+  danach steigend.
+- [[Der Prinz von Staub und Schatten]]: Amazon.de Bd. 1 ~4,7 (~650), Bd. 2 „schwächer".
+- **Roter Faden der Community über den Verbund:** starke Welt/Figuren/Sprecher; die
+  Schwächen liegen bei **Auftakt-Tempo bzw. Fokus** — **exakt mein persönlicher Kritikpunkt.**
+  Das erhöht mein Vertrauen: Bei Weitze-artigen Empfehlungen ist der Fokus-/Tempo-Check
+  besonders wichtig.
+
 ## Offene Fragen
 
-- Sturmfels-Akademie offiziell abgeschlossen? (5. Band Jan 2025; ursprünglich Trilogie)
-- Hördauern je Band nicht erfasst; ISBNs fehlen.
-- Dritte Reihe des Epos angekündigt?
+- Weitere Reihen des Epos „Die Streitenden Götter" nach dem Prinzen? (Hinweis auf mehrteilige Anlage)
+- Prinz Bd. 3 Titel/Termin bestätigen.

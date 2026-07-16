@@ -4,14 +4,18 @@ werk_typ: "reihe"
 universum: "Die Streitenden Götter"
 autor: "Torsten Weitze"
 jahr_start: 2026
-erscheinungsdatum_bd1: "2026"
-letztes_datum: "2026"        # Bd. 2 Widerstand, ebenfalls 2026
-baende_gesamt: 2             # Heimkehr, Widerstand
-baende_geplant: 5
+erscheinungsdatum_bd1: "2026-01"   # Heimkehr, Jan 2026
+letztes_datum: "2026-05"           # Widerstand, Mai 2026
+baende_gesamt: 2                   # Heimkehr, Widerstand
+baende_geplant: 5                  # Pentalogie
 abgeschlossen: false
-angekuendigt: "5-teilig geplant (Bd. 3–5 ausstehend); begleitende Musik-EP-Reihe von Saltatio Mortis angekündigt"
-sprachen_verfuegbar: [de]    # deutsches Original
+angekuendigt: "Pentalogie (5 Romane über 2026–2027); Bd. 3 ~Sept 2026 (unbestätigt, evtl. 'Hoffnung'); je Roman eine Saltatio-Mortis-Musik-EP ('Staub & Schatten'), EP 1 am 23.01.2026"
+naechster_band_de: "Bd. 3 (evtl. 'Hoffnung') ~September 2026 — unbestätigt"
+naechster_band_en: "keine engl. Ausgabe geplant/bekannt"
+sprachen_verfuegbar: [de]          # nur Deutsch, keine engl. Übersetzung
 sprache_erlebt: "de"
+rating_schnitt: "~4,7/5"           # Amazon.de Bd.1
+rating_stimmen_gesamt: "~650+ (Bd.1; Bd.2 noch wenige)"
 kontext: "Fantasy"
 verdict: "loved"
 format_erlebt: "hoerbuch"
@@ -60,33 +64,47 @@ einer **rätselhaften Gabe**. Rezensionen: flüssiger Stil, starke Figurenentwic
 
 **Kontext:** [[Fantasy]] · **Autor:** [[Torsten Weitze]] · **Sprecher:** [[Günter Merlau]]
 
-## 📇 Metadaten & Reihe
+## 📚 Die Bände einzeln
 
-- **Erschienen:** Bd. 1 „Heimkehr" (2026) · Bd. 2 „Widerstand" (2026) · **2 von 5 geplant**
-- **Status:** laufend (jung — 2026 gestartet)
-- **Sprachen verfügbar:** DE (deutsches Original)
-- **Angekündigt:** Bd. 3–5 ausstehend; **begleitende Musik-EP-Reihe von Saltatio Mortis**
-  (cross-media Erweiterung des Universums)
-- **Reihen-Pflicht:** 2 erschienen / 5 geplant + Werk-Verbund → erfüllt
+Reihe brandneu (2026) → wenige, schnell steigende Wertungen. Zielseiten (Audible/Amazon/
+LovelyBooks) blockieren Direktabruf; Werte aus Such-Snippets, als **unsicher** markiert.
+Keine englische Ausgabe.
 
-## 🌐 Community-Score: 85 / 100 · Konfidenz niedrig
+| # (Epos) | Titel | 🇩🇪 Release (Buch/Hörb.) | 🇬🇧 | ⭐ Wertung (⌀ · Anzahl) | Lesestand |
+| --- | --- | --- | --- | --- | --- |
+| 1 (6) | **Heimkehr** | Jan 2026 · Hörb. 23.01.2026 (Merlau, 18 h 24) | — | Amazon.de ~4,7 · 654 · Audible ~4,9 · 500+ ⚠️ | gehört (?) |
+| 2 (7) | **Widerstand** | Mai 2026 · Hörb. 2026 (Merlau, 18 h 47) | — | zu wenige Wertungen (neu) ⚠️ | gehört (?) |
 
-| Quelle | Wert | Stimmen |
-| --- | --- | --- |
-| Amazon/Audible/LovelyBooks (Bd. 1) | ~4,2–4,4/5 | wenige (2026, neu) |
+### 👍 Was die Community lobt (echte Rezensionen)
+- Flüssiger, angenehmer Schreibstil — „schnell in der Geschichte".
+- Authentische, lebendig gezeichnete Figuren mit emotionaler Bindung.
+- Dichte Wüsten-/Orient-Atmosphäre (Königreich Aun-Mal); „gelungener Auftakt mit Herz".
 
-**Tenor:** Positiv — „gelungener Auftakt", flüssiger Stil, authentische Figuren, „ruhig
-aber durchgehend spannend". Deckt sich mit meinem Bild (Figur/Mysterium tragen, ruhiges
-Tempo). **Konfidenz niedrig**, weil sehr neu und wenige Wertungen → Score vorläufig, bei
-Empfehlungen nicht allein darauf stützen.
+### 👎 Was die Community kritisiert (echte Rezensionen)
+- **Bd. 2 „Widerstand":** Tarikh **verliere zunehmend seine anfänglichen Eigenheiten** und
+  ähnele am Ende stark Niri (aus Sturmfels) — „unterscheiden sich fast nur noch durch Namen
+  und Fähigkeiten".
+- Bd. 2 „solide Fortsetzung, aber **nicht so stark wie die Vorgänger**", etwas geringere Sogwirkung.
+- Bd. 1: kaum konkrete Kritik auffindbar (überwiegend Lob).
 
-## Lesestand
+### Band-Unterschiede
+Auftakt (Heimkehr) stärker gelobt als Bd. 2 (Widerstand). **Deckt sich mit meinem
+Empfinden:** Ich mochte Gabe/Erbe/Verfolgung, bemängelte aber Fokus-Drift — die
+Community-Kritik an Bd. 2 (Figur verwässert, schwächer) zeigt in dieselbe Richtung.
 
-| Bd. | Titel | Status |
-| --- | --- | --- |
-| 1 | Heimkehr | gehört (dt.) — zu bestätigen |
-| 2 | Widerstand | gehört (dt.) — zu bestätigen |
-| 3–5 | geplant | ⏳ nicht erschienen |
+## 🗓️ Nächste Releases & Planung
+- **Nächster Band DE:** Bd. 3 (evtl. „Hoffnung") **~September 2026** — ⚠️ unbestätigt (Nutzerangabe).
+- **Nächster Band EN:** keine englische Ausgabe geplant/bekannt.
+- **Bände:** 2 erschienen / **5 geplant (Pentalogie)**, 2026–2027 · Status: laufend.
+- **Erweiterung:** Saltatio-Mortis-Musik-EP-Reihe „Staub & Schatten" — je Roman eine EP
+  (EP 1 am 23.01.2026, Single „Stormbringer"); Burgentour 2026.
+
+## Lesestand (meine Formate)
+
+| Bd. | Status |
+| --- | --- |
+| 1 Heimkehr · 2 Widerstand | gehört (dt.) — zu bestätigen |
+| 3–5 | ⏳ nicht erschienen |
 
 ## ⭐ Bewertung je Aspekt
 
@@ -106,17 +124,6 @@ das „geliebt" klar — trotz zweier realer Schwächen (zäher Start, Fokusverl
 Schwächen sind Matching-relevant: Der Nutzer wünscht sich hier ausdrücklich MEHR Fokus
 und Progress → genau sein DCC-Kernwert. Tempo „trägt, aber grenzwertig".
 
-## Meine Analyse: Prinz vs. Sturmfels (selbst gezogen)
-
-- **Sturmfels** trägt über **Aufstieg + Gemeinschaft** (Niri, Akademie): warm, sozial,
-  klar zielgerichtet — kein Fokus-Problem gemeldet.
-- **Prinz** trägt über **Mysterium + Erbe + Verfolgung** (Tarikh, Wüste): reifer, düster-
-  getriebener, aber mit Fokus-/Tempo-Schwäche.
-- **Schluss:** Beide geliebt, aber Sturmfels ist für den Nutzer runder (keine
-  Negativzeile), der Prinz fesselt über die Gabe, verschenkt aber Potenzial durch
-  Abschweifen. Für Empfehlungen heißt das: Wüsten-/Erbe-/Gaben-Stoff trifft, MUSS aber
-  fokussiert erzählt sein — sonst wiederholt sich die Prinz-Schwäche.
-
 ## DNA (das Eigene)
 
 - **Themen:** [[Verlorenes Erbe & Thronanspruch]], [[Rache & Verfolgungsdruck]], [[Geheimnisvolle Macht]]
@@ -124,9 +131,19 @@ und Progress → genau sein DCC-Kernwert. Tempo „trägt, aber grenzwertig".
 - **Handwerk (negativ):** [[Zäher Start]], [[Konstanter Vorwärtsdrang]] verletzt
 - **Tempo:** ruhig-stetig, „trägt, aber grenzwertig"
 
+## 🧮 Reihen-Gesamtbild (letzter Schritt)
+
+Community ⌀ ~4,7/5 (Bd. 1, ~650 Wertungen; Bd. 2 noch dünn). Tenor: flüssiger Stil,
+starke Figuren, dichte Wüsten-Atmosphäre; einzige nennenswerte Kritik ist der **schwächere
+Bd. 2** (Figur verwässert). **Mein Empfinden trifft die Community an einem Punkt genau:**
+die Fokus-/Progress-Schwäche, die ich fühle, spiegelt sich in der Community-Kritik an Bd. 2.
+Für Empfehlungen: Wüsten-/Erbe-/Gaben-Stoff trifft, MUSS aber fokussiert erzählt sein und
+die Hauptfigur klar konturiert halten. Vergleich zu Sturmfels: siehe dort (beide gleich
+stark geliebt, gleicher wunder Punkt — der zäh-unfokussierte Start).
+
 ## Offene Fragen
 
-- Beide Bände wirklich schon durch? Erscheinungstermin Bd. 3?
-- Sturmfels: eigene Schwächen/Tempo noch zu erheben (bisher nur Stärken).
+- Beide Bände wirklich schon durch? (Bd. 2 ggf. wegen der „schwächer"-Kritik nachbesprechen)
+- Bd. 3 „Hoffnung" ~Sept 2026 bestätigen.
 
 Quelle Interview: [[2026-07-16 Interview Streitende Götter]]
