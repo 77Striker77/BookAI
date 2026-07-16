@@ -16,6 +16,11 @@ Bevor du irgendetwas empfiehlst, musst du die Referenztitel **wirklich verstehen
 objektiv (Metadaten) und subjektiv (warum der Nutzer sie mochte). Das Ergebnis ist die
 **Buch-DNA**, gegen die später gematcht wird.
 
+> 🕵️ **Investigativ arbeiten:** Grabe die Fakten so tief wie möglich (mehrere Quellen,
+> bandgenau, echte Zahlen) und verschmilz sie mit dem — hartnäckig erfragten —
+> Empfinden des Nutzers (positive UND negative Aspekte). Bleib dran, bis das Bild rund
+> ist; offene Fäden notieren und weiterverfolgen.
+
 ## Ablauf pro Titel
 
 ### 1. Identität eindeutig klären

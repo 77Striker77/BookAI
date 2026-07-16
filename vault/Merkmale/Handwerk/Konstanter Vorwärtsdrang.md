@@ -1,7 +1,7 @@
 ---
 typ: handwerk
-status_global: loved   # kontextübergreifend belegt (LitRPG + Fantasy)
-status_kontexte: { LitRPG: loved, Fantasy: loved }
+status_global: loved   # kontextübergreifend belegt (LitRPG + Fantasy + Krimi)
+status_kontexte: { LitRPG: loved, Fantasy: loved, Krimi: loved }
 staerke: hoch
 seit: 2026-07-16
 uebergeordnet: ""
@@ -23,6 +23,7 @@ auch ruhige Szenen zählen, solange sie tragen. Gegenteil: Filler-Etagen, Nebenq
 | --- | --- | --- |
 | [[LitRPG]] | loved | [[Dungeon Crawler Carl]] +2; „Fokus. Story geht immer weiter, wenig unnötige Abzweigungen" ([[2026-07-16 Erstinterview Dungeon Crawler Carl]]) |
 | [[Fantasy]] | loved | 2× verletzt: [[Sturmfels-Akademie]] **−2** (Band 1: „zu wenig Progress, man weiß nicht wohin die Reise geht") · [[Der Prinz von Staub und Schatten]] **−1** („Fokus geht vom Ziel weg … könnte mehr Progress machen") ([[2026-07-16 Interview Streitende Götter]]) |
+| [[Krimi]] | loved | [[Die mörderischen Cunninghams]] **+2** — „Sehr straff", alles zahlt auf den Fall ein, kein Leerlauf ([[2026-07-16 Interview Die mörderischen Cunninghams]]) |
 
 ## Kontextübergreifend bestätigt (roter Faden!)
 
@@ -35,7 +36,9 @@ Mittelteil zieht").
 ## Träger dieses Merkmals
 
 - [[Dungeon Crawler Carl]] (+2)
+- [[Die mörderischen Cunninghams]] (+2)
 - [[Sturmfels-Akademie]] (−2, Band 1)
 - [[Der Prinz von Staub und Schatten]] (−1)
 
-**3× belegt (1 loved, 2 verletzt) → stärkster roter Faden des Profils.**
+**In 3 Kontexten belegt (LitRPG +2, Krimi +2, Fantasy 2× verletzt) → mit Abstand der
+stärkste rote Faden des Profils. Bei JEDEM Kandidaten prüfen.**

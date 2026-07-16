@@ -26,20 +26,28 @@ tags: [moc, profil]
 ## Roter Faden (gilt überall)
 
 **Kontextübergreifende Muster (in ≥2 Kontexten belegt):**
-1. **Fokus & Vorwärtsdrang (STÄRKSTER Faden, 3× belegt)** — [[Konstanter Vorwärtsdrang]]:
-   LitRPG gelobt (DCC +2), Fantasy 2× verletzt (Sturmfels −2 Fast-Abbruch, Prinz −1).
-   Dazu [[Zäher Start]] (2×) und [[Nebenquest-Wildwuchs]]. **Der zäh-unfokussierte Start
-   ist sein verlässlichster Deal-Breaker** → bei JEDEM Kandidaten Rezensionen auf
-   langsamen Einstieg/Abschweifen/Längen prüfen. Milderung: [[Starkes Finale]]
-   (Kombinationsregel — zäher Start verzeihlich, wenn der Payoff kommt).
+1. **Fokus & Vorwärtsdrang (STÄRKSTER Faden, 3 Kontexte)** — [[Konstanter Vorwärtsdrang]]:
+   LitRPG gelobt (DCC +2), **Krimi gelobt (Cunninghams +2, „sehr straff")**, Fantasy 2×
+   verletzt (Sturmfels −2 Fast-Abbruch, Prinz −1). Dazu [[Zäher Start]] (2×) und
+   [[Nebenquest-Wildwuchs]]. **Der zäh-unfokussierte Start ist sein verlässlichster
+   Deal-Breaker** → bei JEDEM Kandidaten Rezensionen auf langsamen Einstieg/Abschweifen
+   prüfen. Milderung: [[Starkes Finale]] (zäher Start verzeihlich, wenn der Payoff kommt).
 2. **Held muss handlungsfähig sein** — Achse [[Pragmatischer Held mit klarem Kompass]]
-   (Carl +2) ↔ [[Zu lange schwacher Held]] (Niri Bd. 1 −2, Fast-Abbruch). Passive/zu
-   schwache Protagonisten sind ein starker Negativfaktor.
-3. **Sprecher-Performance ist zentral** — [[Stefan Kaminski]] UND [[Günter Merlau]]
-   beide „trägt massiv" → bei Hörbuch-Kandidaten Quasi-Vetorecht.
-4. **Figuren-Bindung trägt** — [[Ungleiches Duo]] (LitRPG), [[Akademie-Leben &
-   Gemeinschaft]] (Fantasy): das Miteinander ist beide Male Kernnennung.
-*Weitere Hypothese (noch Ein-Kontext): Tonwechsel Humor↔Ernst.*
+   (Carl +2) ↔ [[Zu lange schwacher Held]] (Niri Bd. 1 −2, Fast-Abbruch).
+3. **Humor als Plus** — [[Absurder Humor]] (LitRPG) & [[Trocken-ironischer Humor]] (Krimi):
+   in zwei Kontexten trägt Humor (verschiedene Spielarten).
+4. **Sprecher-Performance ist zentral** — [[Stefan Kaminski]] UND [[Günter Merlau]]
+   „trägt massiv" → bei Hörbuch-Kandidaten Quasi-Vetorecht. (Gilt nur fürs Hörbuch;
+   siehe Format-Hinweis.)
+5. **Figuren-Bindung trägt** — [[Ungleiches Duo]] (LitRPG), [[Akademie-Leben & Gemeinschaft]] (Fantasy).
+
+**Format-Erkenntnis (2026-07-16):** Der Nutzer HÖRT überwiegend, LIEST aber auch
+([[Die mörderischen Cunninghams]] gelesen, dt.). **Format pro Werk erfragen, nie
+annehmen; Sprecher-Kriterien nur bei Hörbüchern.**
+
+**Community-Score-Warnung:** Bei [[Krimi]] liegt mein Urteil klar über dem Community-⌀
+(~3,8) — mein Locked-Room-/Meta-Faible schlägt den Massengeschmack. Community-Scores
+NICHT als alleinigen Kompass nehmen.
 
 ## Was ich überall liebe / meide
 
@@ -62,6 +70,7 @@ tags: [moc, profil]
 | --- | --- | --- | --- |
 | [[Dungeon Crawler Carl]] ([[LitRPG]], Reihe) | loved | hoerbuch (dt.) | 2026-07-16 |
 | [[Die Streitenden Götter]] ([[Fantasy]], Verbund: [[Sturmfels-Akademie]] + [[Der Prinz von Staub und Schatten]]) | loved | hoerbuch (dt.) | 2026-07-16 |
+| [[Die mörderischen Cunninghams]] ([[Krimi]], Reihe) | loved | **buch/gelesen** (dt.) | 2026-07-16 |
 
 ## Muster & Beobachtungen
 

@@ -34,6 +34,11 @@ tags: [moc, home]
 
 ## Zuletzt
 
+- 2026-07-16 — Werk 4: [[Die mörderischen Cunninghams]] (Benjamin Stevenson), **loved, top**.
+  Neuer Kontext [[Krimi]]. **Erstes GELESENES Werk** (Buch, dt.) — Format-Lektion: immer
+  erfragen, nie annehmen. [[Konstanter Vorwärtsdrang]] jetzt in 3 Kontexten (+2).
+  Bekanntheit: Bestseller (TV-Verfilmung). Community-⌀ ~3,8 < mein Urteil → Locked-Room-Faible.
+  Agent-Haltung geschärft: investigativer Journalist (Fakten graben, Gefühle bohren).
 - 2026-07-16 — Sturmfels-Tiefeninterview: Bd. 1 fast abgebrochen (zäher Start −2, Niri
   zu schwach −2, Fokusverlust −2), gerettet durch [[Starkes Finale]]. Neu:
   [[Zu lange schwacher Held]], [[Nebenquest-Wildwuchs]], [[Starkes Finale]] +

@@ -1,11 +1,9 @@
 <!--
-  VORLAGE für Artefakt 1 "Meine Bibliothek" (artifacts/bibliothek.html) — DASHBOARD.
-  Republish unter derselben URL (title + favicon 📚 nie ändern!). KEINE <html>/<head>/<body>.
-  AUFBAU: Sticky-Nav mit Untermenü (Dropdown "Meine Werke") + JS-Hash-Routing der Ansichten
-  (#uebersicht Startseite · #werke · #bekanntheit · #releases · #geschmack; Werk-Anker #dcc…).
-  FARB-SYSTEM (SKILL.md): Blau=Wertung 0-5 · GOLD=Bekanntheit/Reichweite · Grün=positiv · Rot=negativ.
-  Fame-Meter = 5 Gold-Stufen aus bekanntheit_stufe/hype im Vault. Cover selbst gestaltet.
-  Beispielinhalt = Stand 16.07.2026; beim Publish mit echten Vault-Daten füllen.
+  VORLAGE Artefakt 1 "Meine Bibliothek" (artifacts/bibliothek.html) — DASHBOARD.
+  Republish unter derselben URL (title + favicon 📚 nie ändern). KEINE <html>/<head>/<body>.
+  Sticky-Nav + Untermenü + JS-Hash-Routing (#uebersicht/#werke/#bekanntheit/#releases/#geschmack; Werk-Anker).
+  FARBEN: Blau=Wertung 0-5 · GOLD=Bekanntheit · Grün=positiv · Rot=negativ. Fame=5 Gold-Stufen.
+  Cover selbst gestaltet je Weltton. Beispielinhalt = Stand 16.07.2026; beim Publish mit Vault-Daten füllen.
 -->
 <title>Meine Bibliothek</title>
 <style>
@@ -203,6 +201,7 @@
           <div class="dd">
             <a href="#werke" data-view="werke">Alle Werke</a>
             <a href="#dcc" data-view="werke" data-scroll="dcc">Dungeon Crawler Carl <small>LitRPG · Phänomen</small></a>
+            <a href="#cunninghams" data-view="werke" data-scroll="cunninghams">Die mörderischen Cunninghams <small>Krimi · Bestseller</small></a>
             <a href="#goetter" data-view="werke" data-scroll="goetter">Die Streitenden Götter <small>Fantasy · 2 Reihen</small></a>
             <a href="#sturmfels" data-view="werke" data-scroll="sturmfels">↳ Sturmfels-Akademie</a>
             <a href="#prinz" data-view="werke" data-scroll="prinz">↳ Prinz von Staub und Schatten</a>
@@ -225,11 +224,11 @@
           und was als Nächstes erscheint. 3 Reihen analysiert, alle geliebt.</p>
       </header>
       <div class="stats">
-        <div class="stat"><div class="n tnum">3</div><div class="l">Reihen analysiert</div></div>
-        <div class="stat"><div class="n tnum">3</div><div class="l">davon geliebt</div></div>
-        <div class="stat"><div class="n">4,5<span class="subtle" style="font-size:.62em"> /5</span></div><div class="l">Community ⌀</div></div>
-        <div class="stat"><div class="n">🎧 dt.</div><div class="l">Format</div></div>
-        <div class="stat"><div class="n tnum">2</div><div class="l">Geschmacksräume</div></div>
+        <div class="stat"><div class="n tnum">4</div><div class="l">Reihen analysiert</div></div>
+        <div class="stat"><div class="n tnum">4</div><div class="l">davon geliebt</div></div>
+        <div class="stat"><div class="n tnum">3</div><div class="l">Geschmacksräume</div></div>
+        <div class="stat"><div class="n">🎧 3 · 📖 1</div><div class="l">gehört / gelesen</div></div>
+        <div class="stat"><div class="n">dt.</div><div class="l">bevorzugte Sprache</div></div>
       </div>
 
       <section>
@@ -259,6 +258,11 @@
               <div class="fame-lab"><b>Phänomen</b> · Kult im LitRPG <span class="hype">🔥 &gt;10 Mio verkauft</span></div></div>
           </div>
           <div class="fame-item" style="margin:0 0 14px">
+            <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Die mörderischen Cunninghams</b><span class="subtle" style="font-size:.8rem">~340k Wertungen</span></div>
+            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span></div>
+              <div class="fame-lab"><b>Bestseller</b> · Krimi <span class="hype">📺 TV-Verfilmung in Arbeit</span></div></div>
+          </div>
+          <div class="fame-item" style="margin:0 0 14px">
             <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Sturmfels-Akademie</b><span class="subtle" style="font-size:.8rem">~1.680 Wertungen</span></div>
             <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft"></span><span class="ft"></span><span class="ft"></span></div>
               <div class="fame-lab"><b>Szene-bekannt</b> · in DE etabliert, international Nische</div></div>
@@ -279,6 +283,11 @@
             <div class="cover sm" style="background:linear-gradient(150deg,#3a2d6b,#1a1330 55%,#0e1a2e)"><div class="cm">🎮</div><div class="ct">DCC</div></div>
             <div><div class="mt">Dungeon Crawler Carl</div><div class="mm">LitRPG · 8/9 Bände · ♥ geliebt</div>
               <span class="subtle" style="font-size:.8rem"><span class="sw r"></span>⌀ 4,5/5 · <span class="sw f"></span>Phänomen</span></div>
+          </a>
+          <a class="mini" href="#cunninghams" data-view="werke" data-scroll="cunninghams">
+            <div class="cover sm" style="background:linear-gradient(150deg,#3f4a3a,#2a2118 55%,#1a1412)"><div class="cm">🔎</div><div class="ct">DMC</div></div>
+            <div><div class="mt">Die mörderischen Cunninghams</div><div class="mm">Krimi · 📖 gelesen · ♥ geliebt</div>
+              <span class="subtle" style="font-size:.8rem"><span class="sw r"></span>⌀ 3,8/5 · <span class="sw f"></span>Bestseller 📺</span></div>
           </a>
           <a class="mini" href="#sturmfels" data-view="werke" data-scroll="sturmfels">
             <div class="cover sm" style="background:linear-gradient(150deg,#4a5a86,#2c3a5c 55%,#20283c)"><div class="cm">🎓</div><div class="ct">SA</div></div>
@@ -343,6 +352,42 @@
             </div>
           </div>
           <div class="synth">Maßstab-Werk in LitRPG (10 Aspekte ＋2). Community bestätigt: Bd. 5 bester, Bd. 3 schwächster (dennoch 4,40/5 = stark). Warnsignal Bd. 7 (Fokus) — noch irrelevant, ich bin dt. erst bei Bd. 2.</div>
+        </div>
+      </article>
+
+      <!-- Cunninghams -->
+      <article class="work" id="cunninghams">
+        <div class="cover" style="background:linear-gradient(150deg,#3f4a3a,#2a2118 55%,#1a1412)"><div class="cm">🔎🩸</div><div><div class="ct">DIE MÖRDERISCHEN CUNNINGHAMS</div><div class="ca">Benjamin Stevenson</div></div></div>
+        <div>
+          <div class="wh"><span class="t">Die mörderischen Cunninghams</span><span class="verdict">♥ geliebt · top</span><span class="tag">· Krimi · 📖 gelesen (dt.)</span></div>
+          <div class="wmeta">EN 4 Bände / DE 2 · Benjamin Stevenson · Ullstein (Übers. Robert Brack) · meta-Whodunit (vgl. Knives Out) · <b>gelesen, kein Hörbuch</b></div>
+          <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span></div>
+            <div class="fame-lab"><b>Bestseller</b> · ~340k Wertungen <span class="hype">📺 TV-Verfilmung · USA-Today-Bestseller</span></div></div>
+          <div class="cols" style="margin-top:12px">
+            <div>
+              <p class="box-title">Community-Wertung je Band · Goodreads /5</p>
+              <p class="hint">Balken = Ausschnitt 3,5–5,0 · niedriger als meine Fantasy/LitRPG — aber ich liebe es.</p>
+              <div class="axis"><span class="a"><span>3,5</span><span>5,0</span></span></div>
+              <div class="band mine"><span class="bn">1</span><span class="bt">Irgendwen haben wir doch alle …</span><div class="rbar"><span style="width:17%"></span></div><span class="rv">3,75</span></div>
+              <div class="band top mine"><span class="bn">2</span><span class="bt">Jeder im Zug ist verdächtig</span><div class="rbar"><span style="width:21%"></span></div><span class="rv">3,82</span></div>
+              <div class="band"><span class="bn">3</span><span class="bt">Everyone This Christmas … (nur EN)</span><div class="rbar"><span style="width:8%;background:var(--track)"></span></div><span class="rv warn">—</span></div>
+              <div class="band"><span class="bn">4</span><span class="bt">Everyone in This Bank … (nur EN)</span><div class="rbar"><span style="width:8%;background:var(--track)"></span></div><span class="rv warn">—</span></div>
+              <p class="note"><b>Bd. 2 (Zug) &gt; Bd. 1</b> — geschlossener Kreis = mein Locked-Room-Faible. Community bestätigt (3,82 &gt; 3,75).</p>
+            </div>
+            <div>
+              <p class="box-title">Mein Empfinden</p>
+              <div class="asp"><span class="g">＋</span>Locked-Room-Mystery (geschlossener Kreis)</div>
+              <div class="asp"><span class="g">＋</span>Meta / Fair-Play-Erzähler — faires Miträtseln</div>
+              <div class="asp"><span class="g">＋</span>Cleverer, verschachtelter Twist-Plot</div>
+              <div class="asp"><span class="g">＋</span>Trocken-ironischer Humor · „sehr straff"</div>
+              <p class="box-title" style="margin-top:12px">Community sagt</p>
+              <div class="comm"><span class="g">👍</span>cleveres Miträtseln · faire Twists · sarkastischer Humor</div>
+              <div class="comm"><span class="b">👎</span>manchen die Meta-Ebene zu konstruiert (⌀ „nur" 3,8 — Geschmackssache)</div>
+            </div>
+          </div>
+          <div class="synth">Objektiv „nur" solide (~3,8/5), aber sehr bekannt (Bestseller, TV) — und für MICH ein Volltreffer.
+            <b>Wichtig:</b> Bei Krimi schlägt mein Locked-Room-/Meta-Faible den Community-Durchschnitt; Scores nicht als alleinigen Kompass nehmen.
+            Mein erstes <b>gelesenes</b> Werk (Format zählt pro Werk).</div>
         </div>
       </article>
 
@@ -449,6 +494,12 @@
             <p class="note">Eines der größten LitRPG-Werke überhaupt; das Hörbuch verkauft sich besser als Print/eBook.</p>
           </div>
           <div style="margin:0 0 16px">
+            <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Die mörderischen Cunninghams</b><span class="subtle" style="font-size:.82rem">~340k Goodreads-Wertungen (Bd. 1–2)</span></div>
+            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span></div>
+              <div class="fame-lab"><b>Bestseller</b> <span class="hype">📺 TV-Verfilmung von Bd. 1 · USA-Today-Bestseller</span></div></div>
+            <p class="note">International bekannt und gehypt — trotz „nur" ~3,8/5 Ø-Wertung (Krimi polarisiert stärker als Fantasy).</p>
+          </div>
+          <div style="margin:0 0 16px">
             <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Sturmfels-Akademie</b><span class="subtle" style="font-size:.82rem">~1.680 Goodreads-Wertungen</span></div>
             <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft"></span><span class="ft"></span><span class="ft"></span></div>
               <div class="fame-lab"><b>Szene-bekannt</b></div></div>
@@ -544,7 +595,7 @@
   }
   function route(){
     var h = (location.hash||"#uebersicht").replace("#","");
-    var anchorMap = { dcc:"werke", goetter:"werke", sturmfels:"werke", prinz:"werke" };
+    var anchorMap = { dcc:"werke", cunninghams:"werke", goetter:"werke", sturmfels:"werke", prinz:"werke" };
     if(anchorMap[h]) show(anchorMap[h], h);
     else show(h);
   }
