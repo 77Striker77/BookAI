@@ -33,11 +33,18 @@ werden **an Ort und Stelle aktualisiert**, nie neu erzeugt:
 
 ## Datenquellen (Vault — nie raten)
 
-- `vault/Profil/Profil.md` + `Gewichte.md` + `No-Gos.md` — Kerndaten, Gewichte, No-Gos.
-- `vault/Bibliothek/Bücher/*.md` — alle analysierten Titel (Frontmatter = Metadaten/DNA).
+- `vault/Profil/Profil.md` (Übergreifendes) + `Kontexte/*.md` (Gewichte & Top-Merkmale
+  je Geschmacksraum) + `Gewichte.md` (Fallback) + `No-Gos.md`.
+- `vault/Bibliothek/Bücher/*.md` — Titel inkl. **Aspekt-Bewertungen** (`bewertung:`).
 - `vault/Empfehlungen/Läufe/` — die **neueste** Lauf-Notiz, plus die zugehörigen
-  Kandidaten-Notizen (`vault/Empfehlungen/Kandidaten/`, dort liegen Scores/✓/✗/Quellen)
-  für Artefakt 2.
+  Kandidaten-Notizen (`vault/Empfehlungen/Kandidaten/`, dort liegen Scores, Prognosen
+  je Aspekt, ✓/✗, Quellen) für Artefakt 2.
+
+**Darstellungs-Konsequenzen:** In "Meine Bibliothek" die Bücher **nach Kontext
+gruppieren** (je Gruppe eigener Kerndaten-Block mit den Kontext-Gewichten); je Buchkarte
+die stärksten +/−-Aspekte zeigen (z. B. "✚ Rahmenerzählung · − Mittelteil zieht").
+Im "Empfehlungen"-Artefakt den Kontext des Laufs nennen und je Empfehlung die
+aspekt-basierten ✓/✗ aus der Prognose verwenden.
 
 Vorher `dataviz`-Skill lesen (Farben/Balken/Dark-Mode), Vorlagen als Startpunkt nutzen:
 `references/bibliothek-template.html` und `references/empfehlungen-template.html`.

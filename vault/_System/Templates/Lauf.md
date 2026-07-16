@@ -2,9 +2,10 @@
 datum:
 anfrage: ""            # "Ähnlich zu 'X', als Hörbuch, deutsch"
 referenzen: []         # ["[[Titel]]"]
+kontext: ""            # Geschmacksraum des Laufs → bestimmte die Gewichte
 format: ""             # buch | hoerbuch | beide
 anzahl_gefordert: 3
-gewichte_benutzt: {}   # Kopie aus [[Gewichte]] zum Zeitpunkt des Laufs
+gewichte_benutzt: {}   # Kopie aus der Kontext-Notiz (bzw. [[Gewichte]]-Fallback)
 pool_stufe1:           # wie viele Kandidaten gesichtet
 tief_geprueft:         # wie viele in Stufe 2
 tags: [lauf]

@@ -60,6 +60,11 @@ Phase 4  ARTEFAKT          → Skill: book-reco-artifact
 
 - **Kenne deine Daten.** Bevor du nach Ähnlichem suchst, MUSS die Buch-DNA der
   Referenztitel vorliegen (Phase 2 abgeschlossen). Sonst kannst du nicht matchen.
+- **Kontext schlägt global.** Geschmack ist je Geschmacksraum verschieden
+  (`vault/Profil/Kontexte/`): gematcht wird mit den Gewichten und Merkmal-Status des
+  Kontexts des Kandidaten; global ist nur Fallback. Ein Buch ist kein Monolith —
+  Aspekt-Bewertungen (−2..+2) der Referenzen sind die Matching-Währung, auch die
+  negativen Zeilen geliebter Bücher.
 - **Immer mindestens 3 Vorschläge** – außer der Nutzer verlangt ausdrücklich etwas
   anderes (z. B. "gib mir nur 1" oder "die Top-Empfehlung"). Sagt er etwas anderes,
   **priorisiere immer diese andere Vorgabe.**

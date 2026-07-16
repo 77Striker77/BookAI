@@ -19,12 +19,19 @@ muss zwei Siebe passieren. Was durchfällt, wird verworfen – nicht durchgewunk
 
 ## Voraussetzung: "Kenne deine Daten"
 Bevor du startest, MUSS vorliegen:
-- `vault/Profil/Profil.md` + `Gewichte.md` (Frontmatter `gewicht_*`) + `No-Gos.md`.
-- Die Buch-DNA der Referenztitel (`vault/Bibliothek/Bücher/<Titel>.md`); relevante
-  Merkmal-Notizen unter `vault/Merkmale/` (status loved/disliked).
+- **Der Kontext der Suche** (Geschmacksraum, z. B. Fantasy — aus Referenztitel/Anfrage):
+  `vault/Profil/Kontexte/<Raum>.md` liefert die geltenden **Gewichte & Präferenzen**;
+  Fallback `vault/Profil/Gewichte.md`. Dazu `Profil.md` (Übergreifendes) + `No-Gos.md`
+  (global + `kontext_no_gos` der Kontext-Notiz).
+- Die Referenztitel mit ihren **Aspekt-Bewertungen** (`vault/Bibliothek/Bücher/`,
+  Tabelle "Bewertung je Aspekt") — auch die NEGATIVEN Zeilen geliebter Bücher!
+- Relevante Merkmal-Notizen unter `vault/Merkmale/` (Status IM KONTEXT via
+  `status_kontexte`; Kontext schlägt global).
 - **Das Gedächtnis:** `vault/Empfehlungen/Kandidaten/` — Frontmatter aller Notizen
-  sichten. `geprueft-verworfen` nie erneut vorschlagen (außer Nutzer bittet um
-  Neubewertung); für Bekanntes vorhandene Metadaten wiederverwenden statt neu suchen.
+  sichten. `geprueft-verworfen` nie erneut vorschlagen — AUSSER der
+  `wiedervorlage:`-Trigger greift (die zugrunde liegende Präferenz hat sich geändert)
+  oder der Nutzer bittet um Neubewertung; dann regulär neu durch Stufe 2, mit neuer
+  Historie-Zeile. Für Bekanntes vorhandene Metadaten/Prognosen wiederverwenden.
 Fehlt die DNA eines genannten Referenztitels → erst `book-deep-analysis` dafür laufen lassen.
 
 Kläre außerdem: **Format** (Buch/Hörbuch/beides), **Sprache**, gewünschte **Anzahl**
@@ -48,9 +55,10 @@ Profil, ungefähr passende Länge/Ton. Zu weit weg → sofort raus. Ziel: 8–15
 
 **📝 Gedächtnis-Pflicht Stufe 1:** JEDER gesichtete Titel — auch die sofort
 Aussortierten — bekommt eine Notiz `vault/Empfehlungen/Kandidaten/<Titel>.md`
-(Template `Kandidat.md`) mit `status: gesichtet`, dem Kurzgrund und allen bereits
-gefundenen Metadaten. Bereits vorhandene Notizen nur aktualisieren
-(`zuletzt_beruehrt`, Lauf-Link ergänzen) — nie überschreiben, Wissen bleibt.
+(Template `Kandidat.md`) mit `kontext:`, `status: gesichtet`, allen gefundenen
+Metadaten UND einer neuen Zeile in der **Prüf-Historie** (append-only: Datum, Lauf,
+Stufe, Status, Grund). Bestehende Notizen: nur Frontmatter-Spiegel + neue
+Historie-Zeile — nie alte Einträge überschreiben, Wissen bleibt.
 
 > Sei hier tolerant: Stufe 1 soll nicht perfekt sein, nur den offensichtlichen Müll
 > aussieben. Die echte Entscheidung fällt in Stufe 2.
@@ -60,16 +68,22 @@ gefundenen Metadaten. Bereits vorhandene Notizen nur aktualisieren
 Für **jeden** übrig gebliebenen Kandidaten:
 1. **Metadaten holen** (wie in `book-deep-analysis`, Kurzform): Genre, Themen, Ton,
    Erzählstil, Tempo, Setting, Länge; bei Hörbuch Sprecher/Dauer. Quellen notieren.
-2. **Dimension für Dimension gegen das Profil scoren** (0–100 je Dimension).
-   Konkret über den Graphen: Welche Merkmal-Notizen mit `status: loved` würde der
-   Kandidat verlinken, welche mit `disliked`?
-   - 90–100 = trifft ein `loved`-Merkmal des Nutzers genau.
+2. **Prognose je Aspekt, dann Dimension scoren** (0–100 je Dimension) — im KONTEXT:
+   a) Baue die **Prognose-Tabelle** der Kandidaten-Notiz: je relevantem Merkmal die
+      erwartete Nutzer-Wertung (−2..+2) MIT Beleg (Rezensionszitat + Quelle), abgeglichen
+      mit den Aspekt-Bewertungen der Referenzbücher ("Nutzer strafte [[Aufgeblähter
+      Mittelteil]] bei X mit −1 ab; 3 Rezensionen nennen Längen → erwartet −1").
+   b) Aggregiere die Aspekt-Prognosen zur Dimensions-Punktzahl. Merkmal-Status gilt
+      IM Kontext (`status_kontexte`), nicht global:
+   - 90–100 = trifft loved-Merkmale des Kontexts genau, keine negativen Prognosen.
    - 60–89 = passt gut, kleine Abweichung.
-   - 30–59 = neutral/teils.
-   - 0–29 = widerspricht dem Geschmack.
-   - Trifft ein `disliked`/No-Go → harte Abwertung, ggf. Ausschluss.
+   - 30–59 = neutral/teils, oder positive und negative Prognosen mischen sich.
+   - 0–29 = widerspricht dem Geschmack im Kontext.
+   - disliked-Merkmal/No-Go (global ODER Kontext) → harte Abwertung, ggf. Ausschluss.
+   - `handwerk` als eigene Dimension scoren, wenn der Kontext sie gewichtet.
 3. **Gesamt-Match-% berechnen** = gewichtete Summe der Dimensions-Scores mit den
-   `gewicht_*`-Werten aus `vault/Profil/Gewichte.md`. Formel:
+   Gewichten des **Kontexts** (`gewichte:` der Kontext-Notiz; Fallback
+   `vault/Profil/Gewichte.md`). Formel:
    `match = Σ(score_dim × weight_dim) / Σ(weight_dim)`  (nur berücksichtigte Dimensionen).
 4. **Verdikt:**
    - **Bestätigt** wenn Gesamt-Match ≥ 65 UND kein No-Go verletzt UND keine für den
@@ -77,10 +91,12 @@ Für **jeden** übrig gebliebenen Kandidaten:
    - Sonst **verworfen** – mit Grund (welche Dimension warum durchfiel).
 
 **📝 Gedächtnis-Pflicht Stufe 2:** Kandidaten-Notiz jedes tief geprüften Titels
-aktualisieren: `status: geprueft-verworfen` oder `empfohlen`, `overall` + `scores`
-ins Frontmatter, Verdikt-Begründung + ✓/✗ in den Body, alle recherchierten Metadaten
-und Quellen hinein (erspart beim nächsten Lauf die komplette Recherche). DNA-Merkmale
-als `[[Links]]` eintragen — so tauchen Kandidaten in den Backlinks der Merkmal-Notizen auf.
+aktualisieren: Prognose-Tabelle (je Aspekt, mit Belegen), neue **Historie-Zeile**
+(append-only), `status` + `overall` + `scores` als Frontmatter-Spiegel des jüngsten
+Stands, Verdikt-Begründung ✓/✗, alle Rohdaten/Quellen in "Notizen & Rohdaten".
+**Bei Verwerfen an EINER Präferenz** (z. B. nur Tempo): `wiedervorlage:` setzen
+("neu prüfen, falls Tempo-Präferenz sich lockert"). DNA-Merkmale als `[[Links]]` —
+so tauchen Kandidaten in den Backlinks der Merkmal-Notizen auf.
 
 Sei in Stufe 2 **streng**: lieber einen plausibel klingenden Titel verwerfen, als den
 Nutzer mit einem enttäuschenden Vorschlag zu verlieren.

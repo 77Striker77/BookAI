@@ -14,77 +14,119 @@ Obsidian-Vault: atomare Notizen, YAML-Frontmatter, `[[Wikilinks]]`, Tags.
 vault/
 ├── Home.md                    Dashboard/MOC (Einstieg)
 ├── Profil/
-│   ├── Profil.md              MOC "mein Geschmack" + skalare Präferenzen (Frontmatter)
-│   ├── Gewichte.md            Match-Gewichte (Frontmatter) + Begründung (Body)
-│   ├── No-Gos.md              harte Ausschlüsse, je mit Herkunft
+│   ├── Profil.md              MOC "mein Geschmack": NUR kontextübergreifende Muster
+│   ├── Kontexte/              ⭐ je Geschmacksraum (Genre-Cluster) eine Notiz mit
+│   │   │                        EIGENEN Gewichten & Präferenzen (Fantasy ≠ Thriller!)
+│   │   └── Kontexte.md        MOC + Zuordnungsregeln
+│   ├── Gewichte.md            GLOBALE Default-Gewichte (Kontexte überschreiben sie)
+│   ├── No-Gos.md              harte Ausschlüsse (global; Kontext-No-Gos in Kontext-Notiz)
 │   └── Interviews/            je Interviewrunde eine datierte Notiz (Provenienz!)
 ├── Bibliothek/
-│   ├── Bücher/                voll analysierte, ERLEBTE Titel (Buch-DNA)
+│   ├── Bücher/                erlebte Titel — mit ASPEKT-BEWERTUNGEN (siehe unten)
 │   ├── Autoren/  Reihen/  Sprecher/     je Entität eine Notiz
-├── Merkmale/                  ⭐ DNA-Atome: je Merkmal EINE Notiz
+├── Merkmale/                  DNA-Atome: je Merkmal EINE Notiz, Status JE KONTEXT
 │   ├── Genres/  Themen/  Ton/  Erzählstil/  Figuren/  Setting/
+│   └── Handwerk/              ⭐ Ausführungsqualitäten: [[Aufgeblähter Mittelteil]],
+│                                [[Starkes Finale]], [[Infodump-Weltenbau]] …
 ├── Empfehlungen/
-│   ├── Warteliste.md          bestätigt, aber noch nicht gelesen/gehört
+│   ├── Warteliste.md
 │   ├── Läufe/                 je Empfehlungslauf eine Notiz (Historie)
-│   └── Kandidaten/            ⭐ GEDÄCHTNIS: jeder je berührte Titel
+│   └── Kandidaten/            GEDÄCHTNIS: jeder je berührte Titel — mit Prognose je
+│                                Aspekt + append-only Prüf-Historie + Wiedervorlage
 └── _System/
     ├── Konventionen.md        dieses Dokument
-    └── Templates/             Kopiervorlagen für jeden Notiztyp
+    └── Templates/             Kopiervorlagen (9 Notiztypen)
 ```
 
-## Die Gedächtnis-Regel (wichtigste Regel)
+## Kontexte (Geschmacksräume) — Geschmack ist nicht global
 
-**Jeder Titel, der je auftaucht, bekommt eine Notiz** — egal ob nur im Gespräch erwähnt,
-in Stufe 1 grob gesichtet, in Stufe 2 verworfen oder empfohlen. Ohne Ausnahme.
+Was in Fantasy geliebt wird, kann im Thriller egal oder störend sein. Deshalb:
 
-Status-Lebenszyklus (`status:` im Frontmatter der Kandidaten-Notiz):
+- Ein **Kontext** = grober Geschmacksraum (z. B. `Fantasy`, `Thriller/Krimi`, `SciFi`,
+  `Sachbuch`). Notiz unter `Profil/Kontexte/` (Template `Kontext.md`), angelegt, sobald
+  das erste Buch dieses Raums analysiert wird — nicht auf Vorrat.
+- Jede Kontext-Notiz trägt: eigene `gewichte:` (überschreiben [[Gewichte]]), eigene
+  Top-loved/disliked-Merkmale, Längen-/Tempo-Präferenz, ggf. Kontext-No-Gos.
+- Jedes Buch und jeder Kandidat bekommt `kontext:` im Frontmatter (über seine Genres
+  zugeordnet; Zuordnungsregeln in `Kontexte/Kontexte.md`). Grenzfälle: der dominante Raum.
+- **Matching läuft immer im Kontext des Kandidaten**: dessen Gewichte + Merkmal-Status
+  in DIESEM Kontext. Existiert (noch) kein Kontext → globale Defaults.
+- [[Profil]] selbst hält nur noch das Kontextübergreifende: rote Fäden, die überall
+  gelten, globale No-Gos, Format-/Sprachpräferenzen.
+
+## Aspekt-Bewertungen — ein Buch ist kein Monolith
+
+`verdict: loved` ist nur die Zusammenfassung. Die eigentliche Währung ist die
+**Bewertung je Aspekt** in jeder Buch-Notiz:
+
+| Skala | Bedeutung |
+|---|---|
+| +2 | herausragend, trägt das Buch für mich |
+| +1 | gefiel |
+| 0 | neutral / egal |
+| −1 | störte |
+| −2 | hat es mir fast/ganz verdorben |
+
+- Jede Zeile: **Aspekt als `[[Merkmal-Link]]`** + Wertung + Warum + möglichst Beleg/Zitat.
+- Auch geliebte Bücher haben negative Zeilen ("Mittelteil zieht: −1") — und die zählen
+  beim Matching: ein Kandidat, der für [[Aufgeblähter Mittelteil]] bekannt ist, wird
+  abgestraft, selbst wenn er sonst der Referenz ähnelt.
+- Wiederkehrende Kritikpunkte über mehrere Bücher → als Merkmal-Notiz anlegen (oft in
+  `Merkmale/Handwerk/`) und in der Kontext-/Profil-Notiz als Muster vermerken.
+- Frontmatter spiegelt die Tabelle maschinenlesbar: `bewertung: [{aspekt, wert}, …]`.
+
+## Merkmal-Status je Kontext
+
+Merkmal-Notizen haben `status_global` UND `status_kontexte` (Map). Beispiel
+[[Explizite Gewalt]]: Thriller `neutral`, Fantasy `disliked`. Evidenz (welches
+Buch/Interview) steht in der Merkmal-Notiz; Backlinks zeigen alle Träger.
+
+## Die Gedächtnis-Regel
+
+**Jeder Titel, der je auftaucht, bekommt eine Kandidaten-Notiz** — erwähnt, grob
+gesichtet, tief geprüft, empfohlen. Ohne Ausnahme. Zusätzlich gilt:
 
 ```
-erwaehnt ──────────► (im Gespräch genannt, nicht weiter verfolgt)
-gesichtet ─────────► (Stufe 1: grob geprüft; Kurzgrund, warum raus/nicht weiterverfolgt)
-geprueft-verworfen ► (Stufe 2: tief geprüft & abgelehnt; Scores + Gründe PFLICHT)
-empfohlen ─────────► (Stufe 2 bestanden, im Lauf ausgesprochen)
-warteliste ────────► (Nutzer will es lesen/hören → auch in [[Warteliste]] eintragen)
-gelesen ───────────► Notiz wandert nach Bibliothek/Bücher/ (volle Analyse),
-                     Kandidaten-Notiz wird durch Verweis-Stub ersetzt
+erwaehnt → gesichtet → geprueft-verworfen | empfohlen → warteliste → gelesen
+                                                          (→ Notiz wandert nach
+                                                           Bibliothek/Bücher/, Stub bleibt)
 ```
 
-Konsequenzen:
-- **Vor jeder Suche zuerst `Empfehlungen/Kandidaten/` lesen** (Frontmatter genügt):
-  Verworfenes nie erneut vorschlagen (außer der Nutzer bittet um Neubewertung),
-  Gesichtetes nicht doppelt recherchieren — vorhandene Metadaten wiederverwenden.
-- Auch dem book-scout Agent die Liste bekannter Titel mitgeben ("überspringen").
+- **Prüf-Historie ist append-only:** jede Prüfung wird als neue Zeile angehängt
+  (Datum, Lauf, Status, Score, Grund) — nie alte Einträge überschreiben. So sieht man,
+  DASS und WARUM ein Titel schon 2× verworfen wurde.
+- **Prognose je Aspekt** statt Pauschalurteil: erwartete Wertung pro Merkmal mit Beleg
+  (Rezensionszitat, Quelle). Das macht Verwerfen/Bestätigen nachprüfbar.
+- **Wiedervorlage-Trigger:** wenn ein Verwerfen an EINER Präferenz hing ("Tempo zu
+  langsam"), notieren: "neu prüfen, falls sich ⟨Präferenz⟩ ändert". Ändert sich das
+  Profil an dieser Stelle → Kandidat automatisch wieder in den Pool.
+- Vor jeder Suche zuerst `Kandidaten/` sichten (Frontmatter genügt); Verworfenes nie
+  erneut vorschlagen (außer Wiedervorlage-Trigger greift oder Nutzer bittet darum).
+  Skip-Liste an den book-scout Agent geben.
 
 ## Verlinkungsregeln (das macht den Graphen)
 
-- **Merkmale immer als Links, nie als tote Strings.** In Buch-/Kandidaten-Notizen:
-  `ton: "[[Melancholisch]], [[Nostalgisch]]"` im Body-Abschnitt "DNA"; im Frontmatter
-  zusätzlich als Klartext-Array für maschinelles Lesen (`ton: [Melancholisch, Nostalgisch]`).
-- Existiert die Merkmal-Notiz noch nicht → **anlegen** (Template `Merkmal.md`), mit
-  eigener Definition ("wie ICH das meine") und `status: loved|liked|neutral|disliked`.
-- Autoren, Reihen, Sprecher ebenso verlinken (`[[Patrick Rothfuss]]`) und bei Bedarf anlegen.
-- Backlinks beantworten dann: "alle Bücher mit [[Verlust]]", "alles von [[Stefan Kaminski]]".
-- Matching Stufe 2 wird dadurch konkret: Welche loved-Merkmal-Notizen verlinkt der
-  Kandidat, welche disliked? (Plus Gewichte aus [[Gewichte]].)
+- **Merkmale immer als Links, nie als tote Strings** — in Büchern UND Kandidaten
+  (Bewertungs-/Prognose-Tabellen). Frontmatter zusätzlich als Klartext-Arrays.
+- Fehlende Merkmal-/Autor-/Reihen-/Sprecher-/Kontext-Notizen anlegen (Templates),
+  mit eigener Definition ("wie ICH das meine") und Evidenz-Links.
+- Backlinks beantworten: "alle Träger von [[Verlust]]", "alles von [[Stefan Kaminski]]",
+  "alle Bücher im Kontext [[Fantasy]]".
 
 ## Allgemeine Konventionen
 
-- Dateiname = natürlicher Titel/Name: `Der Name des Windes.md`, `Patrick Rothfuss.md`.
-  Bei Kollision Klammerzusatz: `Titel (Autor).md`.
-- Frontmatter = maschinenlesbar (Metadaten, Status, Scores). Body = Bedeutung
-  (Prosa, Begründungen, Zitate, Links).
+- Dateiname = natürlicher Titel/Name; Kollision → `Titel (Autor).md`.
+- Frontmatter = maschinenlesbar. Body = Bedeutung (Prosa, Begründung, Zitate, Links).
 - Templates aus `_System/Templates/` kopieren, nicht verändern.
-- `verdict`: loved | liked | mixed | disliked. Tags klein: #loved, #hoerbuch, #buch.
-- **Keine erfundenen Werte.** Fehlendes leer lassen + unter "Offene Fragen" notieren.
-  `quellen:` immer pflegen.
-- Nach jeder Änderung: [[Home]] "Zuletzt" kurz ergänzen; nach Analysen [[Profil]] und
-  betroffene Merkmal-Notizen fortschreiben.
+- `verdict`: loved | liked | mixed | disliked (Zusammenfassung der Aspekt-Bewertungen).
+- **Keine erfundenen Werte**; `quellen:` pflegen; Unsicheres unter "Offene Fragen".
+- Nach Änderungen: [[Home]] "Zuletzt", betroffene Kontext-/Merkmal-Notizen, [[Profil]].
 
 ## Wer liest/schreibt was
 
 | Konsument | liest | schreibt |
 |---|---|---|
-| book-taste-interview | Profil/, Merkmale/ | Profil/Interviews/<Datum>.md |
-| book-deep-analysis | Interviews, Bibliothek/, Merkmale/ | Bibliothek/** , Merkmale/**, Profil/ |
-| book-similarity-search | Profil/, Bibliothek/, Merkmale/, **Kandidaten/** | Empfehlungen/Läufe/, **Kandidaten/** |
-| book-reco-artifact | Profil/, Bibliothek/, neuester Lauf | artifacts/*.html |
+| book-taste-interview | Profil/, Kontexte/, Merkmale/ | Interviews/, Kandidaten (erwaehnt) |
+| book-deep-analysis | Interviews, Bibliothek/, Merkmale/ | Bücher (Aspekt-Bewertungen!), Merkmale/**, Entitäten, Kontexte/, Profil/ |
+| book-similarity-search | Kontexte/, Merkmale/, Bücher/, **Kandidaten/** | Läufe/, **Kandidaten/** (Prognose + Historie) |
+| book-reco-artifact | Kontexte/, Bücher/, neuester Lauf + Kandidaten | artifacts/*.html |

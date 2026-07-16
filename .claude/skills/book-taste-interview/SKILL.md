@@ -30,7 +30,10 @@ Buch aus komplett verschiedenen Gründen – der Grund entscheidet über gute Em
    - **Tempo:** Slow-burn, der sich aufbaut, oder direkt Vollgas?
    - **Setting/Welt:** Hat dich die Welt gepackt oder war sie nur Kulisse?
    - **Konkrete Szene:** Gibt es eine Szene/Stelle, die du nie vergessen hast? (sehr aufschlussreich)
-   - **Was hat gestört?** Auch beim Lieblingsbuch – wo hast du die Augen gerollt?
+   - **Was hat gestört?** Auch beim Lieblingsbuch – wo hast du die Augen gerollt? Wie
+     schlimm war es (hat genervt vs. fast verdorben)? → wird zur Aspekt-Wertung −1/−2.
+   - **Kontext-Kontraste:** Gilt das auch in anderen Genres? ("Slow-burn liebst du in
+     Fantasy – auch im Thriller?") → füllt `status_kontexte` der Merkmale.
 
 3. **Bei Hörbüchern zusätzlich:**
    - Sprecher-Performance: Solo-Sprecher oder voller Cast? Stimme, Tempo, Betonung?

@@ -8,12 +8,18 @@ gewicht_tempo: 0.08
 gewicht_komplexitaet: 0.07
 gewicht_figuren: 0.10
 gewicht_setting: 0.05
+gewicht_handwerk: 0.00
 tags: [profil, gewichte]
 ---
 
-# ⚖️ Gewichte des Match-Scores
+# ⚖️ Gewichte des Match-Scores — GLOBALE DEFAULTS
 
 Formel: `match = Σ(score_dim × gewicht_dim) / Σ(gewicht_dim)` — Summe der Gewichte ≈ 1.0.
+
+> **Kontext schlägt global:** hat der Kontext des Kandidaten (`Profil/Kontexte/<X>.md`)
+> eigene `gewichte:`, gelten DIE. Diese Datei ist nur der Fallback für Kontexte ohne
+> eigene Gewichte und für kontextlose Fälle. `handwerk` startet global bei 0.00 und
+> wird erst gewichtet, wo Handwerks-Muster belegt sind (meist je Kontext).
 
 ## Begründung je Gewicht
 

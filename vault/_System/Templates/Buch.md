@@ -6,7 +6,8 @@ reihe: ""              # + [[Link]] im Body
 band:
 sprache: ""
 isbn: ""
-verdict: ""            # loved | liked | mixed | disliked
+kontext: ""            # Geschmacksraum, z. B. Fantasy (→ Profil/Kontexte/)
+verdict: ""            # loved | liked | mixed | disliked — SUMME der Aspekt-Bewertungen
 format_erlebt: ""      # buch | hoerbuch | beides
 seiten:
 hoerdauer_std:
@@ -16,7 +17,7 @@ ungekuerzt:
 rating_goodreads:
 rating_amazon:
 rating_openlibrary:
-# --- DNA maschinenlesbar (Werte = Namen der Merkmal-Notizen!) ---
+# --- DNA maschinenlesbar (Werte = Namen der Merkmal-Notizen) ---
 genres: []
 themen: []
 ton: []
@@ -25,7 +26,12 @@ tempo: ""
 komplexitaet: ""
 figuren: []
 setting: []
-cover: ""              # https://covers.openlibrary.org/b/isbn/<ISBN>-M.jpg
+handwerk: []           # Ausführungs-Merkmale, z. B. [Starkes Finale, Aufgeblähter Mittelteil]
+# --- Aspekt-Bewertungen maschinenlesbar (Spiegel der Tabelle unten; wert: -2..+2) ---
+bewertung: []
+#  - { aspekt: "Rahmenerzählung", wert: 2 }
+#  - { aspekt: "Aufgeblähter Mittelteil", wert: -1 }
+cover: ""
 quellen: []
 analysiert:
 tags: [buch]           # + hoerbuch/loved/…
@@ -35,34 +41,37 @@ tags: [buch]           # + hoerbuch/loved/…
 
 ⟨Kurzbeschreibung 2–3 Sätze, aus belegten Quellen.⟩
 
-**Autor:** [[⟨Autor⟩]] · **Reihe:** [[⟨Reihe⟩]] Bd. ⟨n⟩ · **Sprecher:** [[⟨Sprecher⟩]]
+**Kontext:** [[⟨Fantasy⟩]] · **Autor:** [[⟨Autor⟩]] · **Reihe:** [[⟨Reihe⟩]] Bd. ⟨n⟩ ·
+**Sprecher:** [[⟨Sprecher⟩]]
 
-## DNA (als Links — das baut den Graphen)
+## ⭐ Bewertung je Aspekt (die eigentliche Währung)
 
-- **Genres:** [[⟨…⟩]]
-- **Themen:** [[⟨…⟩]], [[⟨…⟩]]
-- **Ton:** [[⟨…⟩]]
-- **Erzählstil:** [[⟨…⟩]]
-- **Figuren:** [[⟨…⟩]]
-- **Setting:** [[⟨…⟩]]
-- **Tempo/Komplexität:** ⟨slow-burn / hoch⟩
+> Skala: +2 trägt das Buch · +1 gefiel · 0 neutral · −1 störte · −2 fast verdorben.
+> Aspekt IMMER als Link (Merkmal-Notiz anlegen, falls fehlt — auch für Kritikpunkte,
+> meist unter Merkmale/Handwerk/). Beleg = Nutzer-Zitat aus [[⟨Interview⟩]] o. Szene.
 
-## Was mir gefiel
+| Aspekt | Wertung | Warum | Beleg |
+| --- | --- | --- | --- |
+| [[⟨Rahmenerzählung⟩]] | +2 | ⟨macht den Sog aus⟩ | „⟨Zitat⟩" |
+| [[⟨Melancholisch⟩]] | +1 | ⟨…⟩ | ⟨…⟩ |
+| [[⟨Aufgeblähter Mittelteil⟩]] | −1 | ⟨Band 2. Drittel zieht⟩ | „⟨Zitat⟩" |
 
-- …
+**Verdikt-Herleitung:** ⟨1 Satz: warum ergibt das in Summe loved/liked/mixed/disliked⟩
 
-## Was mich störte
+## DNA (als Links — baut den Graphen)
 
-- …
+- **Genres:** [[⟨…⟩]] · **Themen:** [[⟨…⟩]], [[⟨…⟩]] · **Ton:** [[⟨…⟩]]
+- **Erzählstil:** [[⟨…⟩]] · **Figuren:** [[⟨…⟩]] · **Setting:** [[⟨…⟩]]
+- **Handwerk:** [[⟨…⟩]] · **Tempo/Komplexität:** ⟨slow-burn / hoch⟩
 
 ## DNA-Begründung
 
 *Woraus abgeleitet (Beschreibung, Rezensionen, Interview)? Was macht das Buch objektiv
-aus vs. was mochte ICH daran? Quelle: [[⟨Interview-Notiz⟩]]*
+aus vs. was mochte ICH daran?*
 
-## Zitate von mir
+## Hörbuch-Erlebnis (falls gehört)
 
-> „…"
+⟨Sprecher-Performance: was trug/störte; hätte es gedruckt genauso gewirkt?⟩
 
 ## Offene Fragen
 

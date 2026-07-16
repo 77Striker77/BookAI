@@ -14,24 +14,25 @@ tags: [moc, profil]
 
 # 🧬 Profil — mein Geschmack (MOC)
 
-> Verdichtung aus allen [[Profil/Interviews|Interviews]] und Analysen. Die einzelnen
-> Merkmale leben als atomare Notizen unter `Merkmale/` (dort steht auch je Merkmal
-> `status: loved/disliked` + Begründung). Hier laufen die Fäden zusammen.
-> Gewichtung: [[Gewichte]] · Ausschlüsse: [[No-Gos]]
+> Hier steht NUR das **Kontextübergreifende** — Muster, die in allen Geschmacksräumen
+> gelten. Alles Kontextspezifische (Gewichte, loved/disliked je Raum) lebt in
+> [[Kontexte]] → `Profil/Kontexte/<Raum>.md`. Merkmale sind atomare Notizen unter
+> `Merkmale/` (Status je Kontext). Gewichts-Fallback: [[Gewichte]] · Hart: [[No-Gos]]
 
-## Roter Faden
+## Meine Geschmacksräume
 
-*Noch leer — entsteht aus den ersten analysierten Titeln.*
+→ [[Kontexte]] (je Raum eigene Gewichte & Präferenzen)
 
-## Was ich liebe (die stärksten Merkmale)
+## Roter Faden (gilt überall)
 
-<!-- Nur die Top-Merkmale je Dimension, als Links. Vollständig: Backlinks/Ordner Merkmale/ -->
-- **Themen:** —
-- **Ton:** —
-- **Erzählstil:** —
-- **Figuren:** —
-- **Genres:** —
-- **Setting:** —
+*Noch leer — entsteht aus den ersten analysierten Titeln. Nur Muster eintragen, die
+über MEHRERE Kontexte bestätigt sind; Einzelraum-Muster gehören in die Kontext-Notiz.*
+
+## Was ich überall liebe / meide
+
+<!-- Nur kontextübergreifend Bestätigtes, als Links -->
+- **Liebe überall:** —
+- **Meide überall:** — (weich; hart → [[No-Gos]])
 
 ## Was ich meide
 

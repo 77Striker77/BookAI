@@ -2,25 +2,31 @@
 titel: ""
 autor: ""
 jahr:
+kontext: ""            # Geschmacksraum → bestimmt Gewichte fürs Matching
 status: ""             # erwaehnt | gesichtet | geprueft-verworfen | empfohlen | warteliste | gelesen
-zuletzt_beruehrt:      # Datum
+zuletzt_beruehrt:      # Datum der letzten Prüfung (Details: Prüf-Historie unten)
 laeufe: []             # ["[[2026-07-16 Ähnlich zu …]]"]
+wiedervorlage: ""      # "neu prüfen, falls ⟨Präferenz⟩ sich ändert" — sonst leer
+# --- Fakten (nur belegt!) ---
 format_verfuegbar: []  # [buch, hoerbuch]
 sprache: ""
 isbn: ""
+seiten:
 sprecher: ""
 hoerdauer_std:
-seiten:
-# --- so viel DNA wie bekannt (Werte = Merkmal-Notiznamen) ---
+rating_goodreads:
+rating_openlibrary:
+# --- DNA soweit bekannt (Werte = Merkmal-Notiznamen) ---
 genres: []
 themen: []
 ton: []
 erzaehlstil: []
 figuren: []
 setting: []
-# --- Bewertung (nur wenn Stufe 2 gelaufen) ---
+handwerk: []
+# --- letztes Prüfergebnis (Spiegel der jüngsten Historie-Zeile) ---
 overall:
-scores: {}             # { genres: 90, themen: 85, … }
+scores: {}             # { genres: 90, themen: 85, …, handwerk: 40 }
 cover: ""
 quellen: []
 tags: [kandidat]
@@ -28,19 +34,37 @@ tags: [kandidat]
 
 # ⟨Titel⟩
 
-**Status: ⟨status⟩** · zuletzt berührt ⟨Datum⟩ · Läufe: [[⟨Lauf⟩]]
+**Status: ⟨status⟩** · Kontext [[⟨Fantasy⟩]] · zuletzt ⟨Datum⟩ ·
+Wiedervorlage: ⟨Trigger oder —⟩
 
-## Warum Kandidat / wie gefunden
+## Wie gefunden / warum Kandidat
 
-⟨Suchwinkel, geteilte Merkmale: [[⟨Thema⟩]], [[⟨Ton⟩]]⟩
+⟨Suchwinkel; geteilte Merkmale mit Referenz: [[⟨Thema⟩]], [[⟨Ton⟩]]⟩
 
-## Verdikt & Begründung
+## 🔮 Prognose je Aspekt (Stufe 2 — nachprüfbar, nicht pauschal)
 
-<!-- je nach Status: -->
-- **gesichtet:** ⟨1 Zeile: warum in Stufe 1 raus bzw. nicht weiterverfolgt⟩
-- **geprueft-verworfen:** ⟨welche Dimension mit welchem Score durchfiel, was widersprach⟩
-- **empfohlen:** ✓ was passt / ✗ was nicht (Kurzform; Details im Lauf)
+> Erwartete Wertung (-2..+2) je relevantem Merkmal, IMMER mit Beleg (Rezensionszitat,
+> Beschreibung, Quelle). Gegen die Aspekt-Bewertungen der Referenzbücher und den
+> Merkmal-Status im Kontext gehalten.
 
-## Notizen
+| Aspekt | erwartet | Beleg (Quelle) | Referenz-Abgleich |
+| --- | --- | --- | --- |
+| [[⟨Melancholisch⟩]] | +2 | „⟨Rezensionszitat⟩" (⟨Quelle⟩) | wie [[⟨Buch⟩]] +2 |
+| [[⟨Aufgeblähter Mittelteil⟩]] | −1 | ⟨mehrere Rezensionen nennen Längen⟩ | Nutzer strafte das bei [[⟨Buch⟩]] ab |
 
-*Alles Wissenswerte für später — erspart die Doppelrecherche.*
+## Prüf-Historie (append-only — NIE Zeilen löschen/ändern)
+
+| Datum | Lauf | Stufe | Status danach | Score | Kern-Grund |
+| --- | --- | --- | --- | --- | --- |
+| ⟨2026-07-16⟩ | [[⟨Lauf⟩]] | 1 | gesichtet | — | ⟨passt grob: Genre + Ton⟩ |
+| ⟨2026-07-16⟩ | [[⟨Lauf⟩]] | 2 | geprueft-verworfen | 48 % | ⟨ton 25: widerspricht [[Melancholisch]]⟩ |
+
+## Verdikt-Begründung (aktuellster Stand)
+
+- **empfohlen:** ✓ ⟨was passt⟩ / ✗ ⟨was nicht⟩
+- **verworfen:** ⟨welche Dimension/Aspekte durchfielen, mit Zahlen⟩
+
+## Notizen & Rohdaten
+
+*Alles Recherchierte hier lassen (Beschreibungen, Rezensionsauszüge mit Quelle) —
+erspart beim nächsten Lauf die Doppelrecherche.*

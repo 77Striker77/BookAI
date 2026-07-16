@@ -1,7 +1,8 @@
 ---
-typ: ""                # genre | thema | ton | erzaehlstil | figur | setting
-status: ""             # loved | liked | neutral | disliked
-staerke: ""            # hoch | mittel | niedrig  (wie stark das Signal ist)
+typ: ""                # genre | thema | ton | erzaehlstil | figur | setting | handwerk
+status_global: ""      # loved | liked | neutral | disliked — nur falls kontextübergreifend klar
+status_kontexte: {}    # { Fantasy: loved, Thriller: neutral } — Kontext schlägt global!
+staerke: ""            # hoch | mittel | niedrig (wie stark/gesichert das Signal ist)
 seit:                  # Datum der ersten Beobachtung
 tags: [merkmal]
 ---
@@ -10,18 +11,24 @@ tags: [merkmal]
 
 ## Definition — wie ICH es meine
 
-⟨Eigene Worte, Abgrenzung: was zählt dazu, was NICHT. Beispiel: "Melancholisch = getragen
-und wehmütig, aber nicht deprimierend — Trauer mit Wärme."⟩
+⟨Eigene Worte, Abgrenzung: was zählt dazu, was NICHT. Beispiel: "Aufgeblähter Mittelteil =
+das mittlere Drittel könnte um ein Viertel gekürzt werden, ohne dass Plot oder Figuren
+verlieren — NICHT dasselbe wie gewolltes slow-burn."⟩
 
-## Evidenz
+## Wirkung nach Kontext
 
-*Woher weiß das System das? Interviews/Bücher verlinken.*
+| Kontext | Status | Evidenz |
+| --- | --- | --- |
+| [[⟨Fantasy⟩]] | loved | [[⟨Buch⟩]] +2, [[⟨Interview⟩]]: „⟨Zitat⟩" |
+| [[⟨Thriller⟩]] | neutral | ⟨noch dünn — 1 Datenpunkt⟩ |
 
-- [[⟨Interview-Notiz⟩]]: „⟨Zitat⟩"
-- [[⟨Buchtitel⟩]] (loved) trägt es zentral
+## Evidenz gesamt
 
-## Bücher & Kandidaten mit diesem Merkmal
+- [[⟨Buch⟩]] bewertet ⟨+2⟩: ⟨Warum-Spalte⟩
+- [[⟨Interview⟩]]: „⟨Zitat⟩"
 
-*→ Backlinks dieser Notiz (Obsidian zeigt sie automatisch). Wichtigste hier pinnen:*
+## Träger dieses Merkmals
+
+*→ Backlinks (Bücher UND Kandidaten). Wichtigste gepinnt:*
 
 - [[⟨…⟩]]
