@@ -1,0 +1,141 @@
+<!--
+  VORLAGE Empfehlungs-Artefakt. Beim Publish über das Artifact-Tool wird der Inhalt in ein
+  <!doctype><head>…</head><body>-Gerüst gewickelt — hier also KEINE <html>/<head>/<body>-Tags
+  hinzufügen; nur <style> + Seiteninhalt. Beispieldaten unten mit ⟨…⟩ / data-fill ersetzen.
+  Hinweis Cover: In einem PUBLIZIERTEN Artefakt sind externe Bild-URLs per CSP blockiert.
+  Entweder Cover als data:-URI einbetten oder die Platzhalter-Box (📖) lassen. Als per
+  SendUserFile geöffnete Datei funktionieren externe Cover-URLs dagegen.
+-->
+<title>Buchempfehlungen ⟨THEMA⟩</title>
+<style>
+  :root {
+    --bg: #faf9f7; --card: #ffffff; --ink: #1c1b19; --muted: #6b6862; --line: #e7e3dc;
+    --accent: #7c5cff; --good: #2f9e6f; --mid: #d99a2b; --bad: #d9534f;
+    --track: #eceae5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#16151a; --card:#201f26; --ink:#f2f0ec; --muted:#a5a19a; --line:#33313b;
+            --accent:#a78bfa; --good:#4ec38a; --mid:#e6b34a; --bad:#e8776f; --track:#2b2933; }
+  }
+  :root[data-theme="light"] { --bg:#faf9f7; --card:#fff; --ink:#1c1b19; --muted:#6b6862;
+    --line:#e7e3dc; --accent:#7c5cff; --track:#eceae5; }
+  :root[data-theme="dark"]  { --bg:#16151a; --card:#201f26; --ink:#f2f0ec; --muted:#a5a19a;
+    --line:#33313b; --accent:#a78bfa; --track:#2b2933; }
+
+  * { box-sizing: border-box; }
+  body-wrap, .wrap { max-width: 960px; margin: 0 auto; padding: 28px 20px 60px; }
+  .wrap { color: var(--ink); background: var(--bg); font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; }
+  h2 { font-size: 1.05rem; margin: 32px 0 12px; letter-spacing: .02em; text-transform: uppercase; color: var(--muted); }
+  .sub { color: var(--muted); margin: 0 0 8px; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
+  .chip { background: color-mix(in srgb, var(--accent) 14%, transparent); color: var(--ink);
+    border: 1px solid var(--line); border-radius: 999px; padding: 3px 10px; font-size: .82rem; }
+  .chip.nogo { background: color-mix(in srgb, var(--bad) 16%, transparent); text-decoration: line-through; color: var(--bad); }
+
+  .basis { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px; }
+  .basis .dim-weights { display: grid; grid-template-columns: 140px 1fr 44px; gap: 6px 10px; align-items: center; margin-top: 10px; }
+  .basis .dim-weights .lbl { font-size: .85rem; color: var(--muted); }
+
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px;
+    padding: 18px; margin: 14px 0; display: grid; grid-template-columns: 84px 1fr; gap: 16px; }
+  @media (max-width: 560px) { .card { grid-template-columns: 1fr; } }
+  .cover { width: 84px; height: 122px; border-radius: 8px; background: var(--track);
+    display: flex; align-items: center; justify-content: center; font-size: 34px; overflow: hidden; }
+  .cover img { width: 100%; height: 100%; object-fit: cover; }
+  .rank { font-size: .8rem; color: var(--muted); }
+  .title { font-size: 1.12rem; font-weight: 650; margin: 2px 0; }
+  .meta { color: var(--muted); font-size: .88rem; margin-bottom: 10px; }
+
+  .overall { display: flex; align-items: center; gap: 10px; margin: 8px 0 12px; }
+  .overall .num { font-weight: 700; font-size: 1.1rem; min-width: 52px; }
+  .bar { position: relative; height: 12px; border-radius: 999px; background: var(--track); flex: 1; overflow: hidden; }
+  .bar > span { position: absolute; inset: 0 auto 0 0; border-radius: 999px; }
+  .fill-good > span { background: var(--good); } .fill-mid > span { background: var(--mid); } .fill-bad > span { background: var(--bad); }
+
+  .dims { display: grid; grid-template-columns: 120px 1fr 40px; gap: 5px 10px; align-items: center; margin: 4px 0 12px; }
+  .dims .lbl { font-size: .82rem; color: var(--muted); }
+  .dims .bar { height: 8px; } .dims .val { font-size: .78rem; color: var(--muted); text-align: right; }
+
+  .fit { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 6px; }
+  @media (max-width: 560px) { .fit { grid-template-columns: 1fr; } }
+  .fit ul { margin: 4px 0 0; padding-left: 18px; } .fit li { margin: 2px 0; font-size: .88rem; }
+  .fit .good b { color: var(--good); } .fit .bad b { color: var(--bad); }
+
+  details.rejected { margin-top: 20px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 8px 14px; }
+  details.rejected summary { cursor: pointer; color: var(--muted); }
+  .src { color: var(--muted); font-size: .76rem; margin-top: 8px; }
+</style>
+
+<div class="wrap">
+
+  <h1>📚 Empfehlungen: ⟨THEMA⟩</h1>
+  <p class="sub">Anfrage: <em>⟨z. B. „Ähnlich zu ‚Der Name des Windes‘, als Hörbuch, deutsch"⟩</em> · Stand ⟨2026-07-16⟩</p>
+
+  <!-- ============ B) BASIS / KERNDATEN ============ -->
+  <h2>Basis · unsere Kerndaten</h2>
+  <div class="basis">
+    <p class="sub">Roter Faden: <b>⟨1–2 Sätze, was den Geschmack ausmacht⟩</b></p>
+    <div class="chips">
+      <span class="chip">⟨geliebtes Genre⟩</span>
+      <span class="chip">⟨geliebtes Thema⟩</span>
+      <span class="chip">⟨Ton: düster⟩</span>
+      <span class="chip">⟨unzuverlässiger Erzähler⟩</span>
+      <span class="chip nogo">⟨No-Go⟩</span>
+    </div>
+    <div class="dim-weights">
+      <!-- Gewichte aus profile.json — zeigt, was im Match zählt -->
+      <span class="lbl">Themen</span>   <div class="bar fill-good"><span style="width:25%"></span></div> <span class="val">25%</span>
+      <span class="lbl">Ton/Stimmung</span><div class="bar fill-good"><span style="width:20%"></span></div><span class="val">20%</span>
+      <span class="lbl">Genre</span>    <div class="bar fill-good"><span style="width:15%"></span></div> <span class="val">15%</span>
+      <span class="lbl">Figuren</span>  <div class="bar fill-good"><span style="width:10%"></span></div> <span class="val">10%</span>
+    </div>
+  </div>
+
+  <!-- ============ C) EMPFEHLUNGEN (≥3) ============ -->
+  <h2>Empfehlungen</h2>
+
+  <!-- Karte pro Empfehlung. Fill-Klasse je Höhe: good ≥65, mid 45–64, bad <45. -->
+  <article class="card">
+    <div class="cover"><!-- <img src="data:image/jpeg;base64,…"> oder --> 📖</div>
+    <div>
+      <div class="rank">#1 · Match ⟨82⟩%</div>
+      <div class="title">⟨Titel⟩</div>
+      <div class="meta">⟨Autor⟩ · ⟨Jahr⟩ · Hörbuch, gelesen von ⟨Sprecher⟩ · ⟨24 h⟩</div>
+
+      <div class="overall">
+        <span class="num">⟨82⟩%</span>
+        <div class="bar fill-good"><span style="width:82%"></span></div>
+      </div>
+
+      <div class="dims">
+        <span class="lbl">Genre</span>       <div class="bar fill-good"><span style="width:90%"></span></div> <span class="val">90</span>
+        <span class="lbl">Themen</span>      <div class="bar fill-good"><span style="width:85%"></span></div> <span class="val">85</span>
+        <span class="lbl">Ton/Stimmung</span><div class="bar fill-good"><span style="width:80%"></span></div> <span class="val">80</span>
+        <span class="lbl">Erzählstil</span>  <div class="bar fill-good"><span style="width:70%"></span></div> <span class="val">70</span>
+        <span class="lbl">Tempo</span>       <div class="bar fill-mid"><span style="width:60%"></span></div>  <span class="val">60</span>
+        <span class="lbl">Setting</span>     <div class="bar fill-mid"><span style="width:55%"></span></div>  <span class="val">55</span>
+      </div>
+
+      <div class="fit">
+        <div class="good"><b>✓ Was passt</b>
+          <ul><li>⟨…⟩</li><li>⟨…⟩</li></ul></div>
+        <div class="bad"><b>✗ Was passt nicht</b>
+          <ul><li>⟨…⟩</li><li>⟨…⟩</li></ul></div>
+      </div>
+      <div class="src">Quellen: ⟨Open Library, …⟩</div>
+    </div>
+  </article>
+
+  <!-- Karte #2 und #3 analog kopieren (Pflicht: mindestens 3) -->
+
+  <!-- ============ D) VERWORFEN (optional) ============ -->
+  <details class="rejected">
+    <summary>Warum nicht andere? (verworfene Kandidaten)</summary>
+    <ul>
+      <li><b>⟨Titel⟩</b> — ⟨Grund, z. B. „Ton zu leicht (25) – widerspricht ‚düster'"⟩</li>
+    </ul>
+  </details>
+
+</div>
