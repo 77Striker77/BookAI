@@ -34,10 +34,13 @@ tags: [moc, home]
 
 ## Zuletzt
 
+- 2026-07-16 — Prinz-Tiefeninterview: Eigen-Aspekte erhoben ([[Geheimnisvolle Macht]] +2,
+  [[Verlorenes Erbe & Thronanspruch]] +2, [[Rache & Verfolgungsdruck]] +2; −1 [[Zäher Start]]
+  & Fokusverlust). **[[Konstanter Vorwärtsdrang]] jetzt kontextübergreifend (roter Faden).**
+  Overall [[Die Streitenden Götter]] als Summe beider Reihen ausstaffiert.
 - 2026-07-16 — Werke 2+3: [[Die Streitenden Götter]] (Verbund) mit [[Sturmfels-Akademie]]
   (loved) + [[Der Prinz von Staub und Schatten]] (loved). Kontext [[Fantasy]] angelegt,
-  5 neue Merkmale, erste Negativ-Wertung ([[Magiesystem-Tiefe]] −1), [[Günter Merlau]]
-  loved. Roter Faden: Sprecher + Figuren-Bindung kontextübergreifend.
+  [[Günter Merlau]] loved.
 - 2026-07-16 — Lesestand (in Werk-Notiz): DCC Bd. 2 am Hören; Bd. 3+ warten
   auf dt. Fassung. **Sprachfrage geklärt: Deutsch bevorzugt.**
 - 2026-07-16 — Erstes Buch analysiert: [[Dungeon Crawler Carl]] (loved, Hörbuch dt.,

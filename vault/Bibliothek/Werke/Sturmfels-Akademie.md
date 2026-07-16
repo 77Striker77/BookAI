@@ -68,9 +68,17 @@ geerbten Universum-Zeilen machen die Notiz allein lesbar.
 - **Setting:** [[Akademie-Leben & Gemeinschaft]] (tragend, nicht Kulisse)
 - **Figuren:** Niri als Identifikations-Underdog
 
+## Mein Kontrast zum [[Der Prinz von Staub und Schatten]] (selbst gezogen)
+
+Sturmfels ist für den Nutzer die **rundere** der beiden Reihen: alle drei Eigen-Aspekte
++2, KEINE Negativzeile, kein Fokus-/Tempoproblem gemeldet — trägt warm über Aufstieg &
+Gemeinschaft. Der Prinz fesselt zwar stark über die Gabe, verschenkt aber Potenzial
+(zäher Start, Fokusverlust). → Sturmfels = das „sichere" Muster im Universum.
+
 ## Offene Fragen
 
 - Alle 5 Bände gehört? Reihe offiziell abgeschlossen?
+- Eigene Schwächen/Tempo noch nicht erhoben (bisher nur Stärken) → nächste Runde.
 - Hördauer/ISBNs je Band.
 
 Quelle Interview: [[2026-07-16 Interview Streitende Götter]]

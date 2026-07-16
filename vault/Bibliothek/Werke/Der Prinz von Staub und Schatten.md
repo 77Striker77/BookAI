@@ -13,15 +13,21 @@ format_erlebt: "hoerbuch"
 sprecher: "Günter Merlau"
 performance: "solo"
 genres: [Epic Fantasy]
-themen: []
+themen: [Verlorenes Erbe & Thronanspruch, Rache & Verfolgungsdruck, Geheimnisvolle Macht]
 ton: []
 erzaehlstil: []
-tempo: ""
+tempo: "ruhig-stetig (Nutzer: 'trägt, aber grenzwertig')"
 komplexitaet: ""
-figuren: []
-setting: []
-handwerk: []
-bewertung: []           # Eigen-Aspekte noch nicht erhoben (s. Offene Fragen)
+figuren: [Wachsende Hauptfigur]
+setting: [Wüstenreich Aun-Mal]
+handwerk: [Zäher Start, Konstanter Vorwärtsdrang]
+bewertung:
+  - { aspekt: "Geheimnisvolle Macht", wert: 2 }
+  - { aspekt: "Verlorenes Erbe & Thronanspruch", wert: 2 }
+  - { aspekt: "Rache & Verfolgungsdruck", wert: 2 }
+  - { aspekt: "Wachsende Hauptfigur", wert: 1 }
+  - { aspekt: "Zäher Start", wert: -1 }
+  - { aspekt: "Konstanter Vorwärtsdrang", wert: -1 }
 cover: ""
 quellen:
   - "https://www.audible.de/series/Der-Prinz-von-Staub-und-Schatten-Hoerbuecher/B0GMZ91231"
@@ -36,6 +42,13 @@ tags: [werk, reihe, hoerbuch, loved, fantasy]
 2026 gestartet, bisher 2 von 5 geplanten Bänden: **Heimkehr**, **Widerstand**.
 Reihen-Pflicht: 5 geplant + Verbund → erfüllt.
 
+**Worum es geht (selbst recherchiert):** Tarikh al Sal-ka-Nar kehrt nach einem Leben im
+Exil ins Wüstenreich **Aun-Mal** zurück. Ein rachsüchtiges Adelshaus trachtet dem
+letzten Spross des Hauses al Sal-ka-Nar nach dem Leben; Tarikh will den Thron der Sande
+erreichen und als wahrer Prinz anerkannt werden — verfolgt von Meuchlern, getrieben von
+einer **rätselhaften Gabe**. Rezensionen: flüssiger Stil, starke Figurenentwicklung,
+„ruhig, aber durchgehend spannend".
+
 **Kontext:** [[Fantasy]] · **Autor:** [[Torsten Weitze]] · **Sprecher:** [[Günter Merlau]]
 
 ## Lesestand
@@ -48,18 +61,43 @@ Reihen-Pflicht: 5 geplant + Verbund → erfüllt.
 
 ## ⭐ Bewertung je Aspekt
 
-*Verdikt „geliebt" (Interview), aber das „eigene Für-sich" dieser Reihe wurde noch
-nicht erhoben — beim nächsten Gespräch nachfragen (NICHT bandweise!).*
-
 | Aspekt | Wertung | Warum | Beleg |
 | --- | --- | --- | --- |
-| *(Eigen-Aspekte noch offen)* | | | |
+| [[Geheimnisvolle Macht]] | +2 | Tarikhs Gabe zieht am stärksten — mit ungenutztem Potenzial | „Die geheimnisvolle Macht, die er hat. Darauf könnte sich es noch viel mehr fokussieren sogar." |
+| [[Verlorenes Erbe & Thronanspruch]] | +2 | Rückkehr des Gestürzten, Kampf um den Thron | „Tarikhs Rückkehr & Erbe" gewählt |
+| [[Rache & Verfolgungsdruck]] | +2 | Meuchler im Nacken, ständiger Druck | „Rache & Verfolgungsdruck" gewählt |
+| [[Wachsende Hauptfigur]] | +1 | Tarikh gewinnt an Substanz | „Tarikh als Figur" gewählt |
+| [[Zäher Start]] | −1 | Kommt langsam in Fahrt | „Brauchte etwas, bis es in Fahrt gekommen ist." |
+| [[Konstanter Vorwärtsdrang]] | −1 | Fokus driftet vom Kernziel/der Gabe weg, zu wenig Progress | „Der Fokus geht stark von seiner Fähigkeit und seinem ursprünglichen Ziel weg … könnte fokussierter sein und mehr Progress machen." |
 | *geerbt:* [[Stimmige Weltatmosphäre]] | +1 | geerbt aus [[Die Streitenden Götter]] (dort pflegen) | „Welt an sich stimmig und gut" |
 | *geerbt:* [[Magiesystem-Tiefe]] | −1 | geerbt aus [[Die Streitenden Götter]] (dort pflegen) | „Standard-Elemente etwas lasch" |
 
+**Verdikt-Herleitung:** Drei starke +2-Eigen-Aspekte (Gabe, Erbe, Verfolgung) tragen
+das „geliebt" klar — trotz zweier realer Schwächen (zäher Start, Fokusverlust). Die
+Schwächen sind Matching-relevant: Der Nutzer wünscht sich hier ausdrücklich MEHR Fokus
+und Progress → genau sein DCC-Kernwert. Tempo „trägt, aber grenzwertig".
+
+## Meine Analyse: Prinz vs. Sturmfels (selbst gezogen)
+
+- **Sturmfels** trägt über **Aufstieg + Gemeinschaft** (Niri, Akademie): warm, sozial,
+  klar zielgerichtet — kein Fokus-Problem gemeldet.
+- **Prinz** trägt über **Mysterium + Erbe + Verfolgung** (Tarikh, Wüste): reifer, düster-
+  getriebener, aber mit Fokus-/Tempo-Schwäche.
+- **Schluss:** Beide geliebt, aber Sturmfels ist für den Nutzer runder (keine
+  Negativzeile), der Prinz fesselt über die Gabe, verschenkt aber Potenzial durch
+  Abschweifen. Für Empfehlungen heißt das: Wüsten-/Erbe-/Gaben-Stoff trifft, MUSS aber
+  fokussiert erzählt sein — sonst wiederholt sich die Prinz-Schwäche.
+
+## DNA (das Eigene)
+
+- **Themen:** [[Verlorenes Erbe & Thronanspruch]], [[Rache & Verfolgungsdruck]], [[Geheimnisvolle Macht]]
+- **Figuren:** [[Wachsende Hauptfigur]] (Tarikh) · **Setting:** Wüstenreich Aun-Mal
+- **Handwerk (negativ):** [[Zäher Start]], [[Konstanter Vorwärtsdrang]] verletzt
+- **Tempo:** ruhig-stetig, „trägt, aber grenzwertig"
+
 ## Offene Fragen
 
-- **Was macht das Eigene dieser Reihe aus** (vs. Sturmfels)? → nächstes Interview
-- Beide Bände wirklich schon gehört? Erscheinungstermin Bd. 3?
+- Beide Bände wirklich schon durch? Erscheinungstermin Bd. 3?
+- Sturmfels: eigene Schwächen/Tempo noch zu erheben (bisher nur Stärken).
 
 Quelle Interview: [[2026-07-16 Interview Streitende Götter]]

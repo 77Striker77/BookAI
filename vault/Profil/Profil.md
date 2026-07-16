@@ -25,17 +25,22 @@ tags: [moc, profil]
 
 ## Roter Faden (gilt überall)
 
-**Erste kontextübergreifende Muster (2 Kontexte belegt):**
-1. **Sprecher-Performance ist zentral** — [[Stefan Kaminski]] UND [[Günter Merlau]]
+**Kontextübergreifende Muster (in ≥2 Kontexten belegt):**
+1. **Fokus & Vorwärtsdrang** — [[Konstanter Vorwärtsdrang]]: in LitRPG gelobt (DCC +2),
+   in Fantasy vermisst (Prinz −1, „Fokus geht vom Ziel weg, könnte mehr Progress
+   machen"). **Genreunabhängiger Kernwert** → bei JEDEM Kandidaten Rezensionen auf
+   Abschweifen/Längen prüfen.
+2. **Sprecher-Performance ist zentral** — [[Stefan Kaminski]] UND [[Günter Merlau]]
    beide „trägt massiv" → bei Hörbuch-Kandidaten hat der Sprecher Quasi-Vetorecht.
-2. **Figuren-Bindung trägt** — [[Ungleiches Duo]] (LitRPG), [[Akademie-Leben &
+3. **Figuren-Bindung trägt** — [[Ungleiches Duo]] (LitRPG), [[Akademie-Leben &
    Gemeinschaft]] (Fantasy): das Miteinander ist beide Male Kernnennung.
-*Weitere Hypothesen (noch Ein-Kontext): Vorwärtsdrang ohne Füller; pragmatische Helden;
-Tonwechsel Humor↔Ernst.*
+*Weitere Hypothesen (noch Ein-Kontext): pragmatische Helden; Tonwechsel Humor↔Ernst.*
 
 ## Was ich überall liebe / meide
 
-- **Liebe überall:** starke Sprecher-Performance; tragende Figuren-Beziehungen
+- **Liebe überall:** [[Konstanter Vorwärtsdrang]] (Fokus, kein Abschweifen, Progress);
+  starke Sprecher-Performance; tragende Figuren-Beziehungen
+- **Meide überall (weich):** Abschweifen/Fokusverlust, [[Zäher Start]]
 - **Meide überall (hart, kontextunabhängig):** [[No-Gos]] — Reihen-Pflicht ≥3 Bände
   (Universum zählt zusammen), Romantasy-Fokus
 

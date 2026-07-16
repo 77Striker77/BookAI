@@ -64,9 +64,12 @@ Götter" = Sturmfels-Akademie + Prinz von Staub und Schatten):
   voll bewertetes Werk mit eigenen Aspekten, eigenem Verdikt, eigenem Lesestand. Damit
   die Notiz allein lesbar ist, führt sie geteilte Aspekte als **geerbte Zeilen** auf
   (gekennzeichnet „geerbt aus [[Universum]]" — Pflege nur an der Quelle!).
-- **Die Overall-Notiz ist der Elternknoten** (`werk_typ: universum`): sie steht in der
-  Hierarchie OBEN und aggregiert das Geteilte (Stil, Welt, Sprecher, gemeinsame
-  Aspekt-Bewertungen) und das Gesamtbild. Reihen-Pflicht (≥3 Bände) wird hier geprüft.
+- **Die Overall-Notiz ist der Elternknoten** (`werk_typ: universum`) und die **SUMME der
+  untergeordneten Reihen**: sie steht in der Hierarchie OBEN und aggregiert (a) das
+  Geteilte (Stil, Welt, Sprecher, gemeinsame Aspekte) UND (b) rollt die je eigenen
+  Aspekte jeder Reihe auf ("eingebracht von [[Reihe X]]") zu einem Gesamtbild samt
+  eigenem Schluss. Wird eine untergeordnete Reihe neu bewertet/ergänzt, MUSS die
+  Overall-Summe nachgezogen werden. Reihen-Pflicht (≥3 Bände) wird hier geprüft.
 - **Hierarchie/Darstellung — Overall oben, Reihen darunter eingerückt:**
   ```
   Die Streitenden Götter (Overall)

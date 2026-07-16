@@ -34,12 +34,12 @@ tags: [werk, universum, hoerbuch, loved, fantasy]
 
 # Die Streitenden Götter (Overall-Ebene)
 
-**Bündelung, nicht Besitzer:** Die eigenständigen Werke [[Sturmfels-Akademie]] und
-[[Der Prinz von Staub und Schatten]] **münden hier** — diese Notiz hält nur, was
-BEIDE teilen (Stil, Splitterlande-Welt, Magiesystem, Sprecher) und das Gesamtbild.
-Episches Fantasy-Universum von [[Torsten Weitze]], alle Reihen gelesen von
-[[Günter Merlau]] (LAUSCH/Audible). **Reihen-Pflicht auf Verbund-Ebene: 7 Bände
-erschienen, laufend = klar erfüllt.**
+**Summe der untergeordneten Reihen:** Diese Overall-Ebene ist die **Aggregation** der
+eigenständigen Werke [[Sturmfels-Akademie]] und [[Der Prinz von Staub und Schatten]] —
+sie fängt das Geteilte (Splitterlande-Welt, Magiesystem, Weitze-Stil, [[Günter Merlau]])
+UND das Gesamtbild über beide Reihen ein. Episches Fantasy-Universum von
+[[Torsten Weitze]]. **Reihen-Pflicht auf Verbund-Ebene: 7 Bände erschienen, laufend =
+klar erfüllt.**
 
 > Nutzer: „Sie gehören auf jeden Fall zusammen, der Stil ist gleich, die Welt ist
 > gleich, jedoch hat jede Reihe ihr eigenes Für-sich. Also müssen wir schauen, beide
@@ -60,16 +60,35 @@ Die Streitenden Götter (Overall)
 | [[Sturmfels-Akademie]] | 5 (2023–2025) | abgeschlossen? (offene Frage) | loved |
 | [[Der Prinz von Staub und Schatten]] | 2 von 5 geplant (2026) | laufend | loved |
 
-## ⭐ Bewertung je Aspekt (geteilt, gilt fürs Universum)
+## ⭐ Summe der Bewertungen (Overall = Aggregat beider Reihen)
 
-| Aspekt | Wertung | Warum | Beleg |
-| --- | --- | --- | --- |
-| [[Stimmige Weltatmosphäre]] | +1 | Welt trägt, Atmosphäre stimmt | „aber die Welt an sich ist stimmig und gut" |
-| [[Magiesystem-Tiefe]] | **−1** | Standard-Elemente zu wenig originell/tief | „Magiesystem ist bei den Standard-Elementen etwas lasch" |
+### Geteilt (gilt fürs ganze Universum)
 
-**Verdikt-Herleitung:** Beide Reihen „geliebt" trotz der Magiesystem-Schwäche — die
-Negativ-Zeile bleibt aber Matching-relevant: Kandidaten mit lasch beschriebenem
-Magiesystem bekommen KEINEN Bonus, Kandidaten mit gelobtem System schon.
+| Aspekt | Wertung | Beleg |
+| --- | --- | --- |
+| [[Stimmige Weltatmosphäre]] | +1 | „die Welt an sich ist stimmig und gut" |
+| [[Magiesystem-Tiefe]] | **−1** | „Magiesystem bei den Standard-Elementen etwas lasch" |
+
+### Eingebracht von [[Sturmfels-Akademie]]
+
+| Aspekt | Wertung |
+| --- | --- |
+| [[Underdog-Aufstieg]] · [[Akademie-Leben & Gemeinschaft]] · [[Herkunfts-Konflikt & Vorurteile]] | je +2 |
+
+### Eingebracht von [[Der Prinz von Staub und Schatten]]
+
+| Aspekt | Wertung |
+| --- | --- |
+| [[Geheimnisvolle Macht]] · [[Verlorenes Erbe & Thronanspruch]] · [[Rache & Verfolgungsdruck]] | je +2 |
+| [[Wachsende Hauptfigur]] | +1 |
+| [[Zäher Start]] · [[Konstanter Vorwärtsdrang]] (verletzt) | je −1 |
+
+**Gesamtbild (mein Schluss):** Das Universum wird **von beiden Enden getragen** —
+Sturmfels warm über Aufstieg & Gemeinschaft (rundum positiv), der Prinz reifer über
+Mysterium, Erbe & Verfolgung (stärker, aber mit Fokus-/Startschwäche). Gemeinsamer
+Boden: stimmige Welt, schwaches Magiesystem, [[Günter Merlau]]. **Beide geliebt** →
+Overall loved. Für Empfehlungen: Weitze-artiger deutscher Fantasy-Stoff trifft, MUSS
+aber fokussiert erzählt sein (Prinz-Schwäche nicht wiederholen).
 
 ## DNA (geteilt, als Links)
 

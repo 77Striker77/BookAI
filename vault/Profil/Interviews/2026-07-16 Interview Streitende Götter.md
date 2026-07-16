@@ -42,8 +42,45 @@ tags: [interview]
 | Welt-Atmosphäre trägt trotzdem | [[Stimmige Weltatmosphäre]] (+1) |
 | Zweiter Sprecher „trägt massiv" → Muster! | [[Günter Merlau]] (loved); [[Profil]]: Sprecherqualität kontextübergreifend zentral |
 
+## Runde 2 (Prinz von Staub und Schatten — Eigen-Aspekte)
+
+Fakten selbst recherchiert (nicht erfragt): Tarikh al Sal-ka-Nar kehrt aus dem Exil ins
+Wüstenreich Aun-Mal zurück; verlorenes Erbe/Thronanspruch, rachsüchtiges Adelshaus +
+Meuchler, rätselhafte Gabe; Rezensionen: „ruhig, aber durchgehend spannend", starke
+Figurenentwicklung.
+
+**Persönliches Empfinden des Nutzers:**
+
+**F:** Was zieht dich beim Prinzen am stärksten rein?
+**A:** Tarikhs Rückkehr & Erbe · Rache & Verfolgungsdruck · Tarikh als Figur **plus wörtlich:**
+> „**Die geheimnisvolle Macht, die er hat. Darauf könnte sich es noch viel mehr
+> fokussieren sogar.**" → geliebtes Element MIT ungenutztem Potenzial.
+
+**F:** Tempo (ruhiger als DCC)?
+**A:** „Trägt, aber grenzwertig."
+
+**F:** Was hat gestört?
+**A (wörtlich):**
+> „**Brauchte etwas, bis es in Fahrt gekommen ist. Der Fokus geht auch stark von seiner
+> Fähigkeit und seinem ursprünglichen Ziel weg. Das ist zwar ganz okay, interessant und
+> spannend, aber es könnte fokussierter sein und mehr Progress machen.**"
+→ zäher Start (−1) UND Fokusverlust/fehlender Progress (−1) = **derselbe Wert wie DCCs
+[[Konstanter Vorwärtsdrang]]**, hier verletzt → Merkmal wird kontextübergreifend.
+
+## Abgeleitete Erkenntnisse (Runde 2)
+
+| Erkenntnis | eingeflossen in |
+| --- | --- |
+| Geheimnisvolle Macht zieht, Wunsch nach mehr Fokus darauf | [[Geheimnisvolle Macht]] (loved, Fantasy) |
+| Verlorenes Erbe / Thronrückkehr packt | [[Verlorenes Erbe & Thronanspruch]] (loved) |
+| Rache- & Verfolgungsdruck treibt | [[Rache & Verfolgungsdruck]] (loved) |
+| Tarikh als Figur trägt (Entwicklung) | [[Wachsende Hauptfigur]] (liked) |
+| Fokusverlust / zu wenig Progress stört | [[Konstanter Vorwärtsdrang]] −1 (jetzt auch Fantasy!) → Kandidat für roten Faden |
+| Zäher Start | [[Zäher Start]] (−1, Handwerk) |
+| Ranking-Vergleich verweigert → Skill: nie ranken lassen | book-taste-interview |
+
 ## Offen geblieben
 
-- Sturmfels-Akademie: alle 5 Bände gehört? Prinz: beide bisherigen Bände (Heimkehr, Widerstand)?
-- Was macht das „eigene Für-sich" des Prinzen aus (eigene Aspekte der Reihe 2)?
+- Sturmfels-Akademie: alle 5 Bände gehört? Prinz: beide Bände (Heimkehr, Widerstand)?
+- Sturmfels: Schwächen/Tempo noch nicht erhoben (bisher nur 3× +2) — nächste Runde.
 - Ist Sturmfels-Akademie offiziell abgeschlossen (5 Bände)?

@@ -9,10 +9,10 @@ gewichte:
   ton: 0.12
   erzaehlstil: 0.05
   tempo: 0.05
-  komplexitaet: 0.04
+  komplexitaet: 0.02
   figuren: 0.22
-  setting: 0.12
-  handwerk: 0.10
+  setting: 0.10
+  handwerk: 0.14
 tempo_pref: ""
 komplexitaet_pref: ""
 laenge_seiten: ""
@@ -39,7 +39,13 @@ Magiesystem schwächeln, ohne das Werk zu verderben. Maßstab-Werk:
 | [[Underdog-Aufstieg]] | loved | [[Sturmfels-Akademie]] +2 |
 | [[Akademie-Leben & Gemeinschaft]] | loved | [[Sturmfels-Akademie]] +2 |
 | [[Herkunfts-Konflikt & Vorurteile]] | loved | [[Sturmfels-Akademie]] +2 |
+| [[Geheimnisvolle Macht]] | loved | [[Der Prinz von Staub und Schatten]] +2 |
+| [[Verlorenes Erbe & Thronanspruch]] | loved | [[Der Prinz von Staub und Schatten]] +2 |
+| [[Rache & Verfolgungsdruck]] | loved | [[Der Prinz von Staub und Schatten]] +2 |
+| [[Wachsende Hauptfigur]] | liked | [[Der Prinz von Staub und Schatten]] +1 |
 | [[Stimmige Weltatmosphäre]] | liked | [[Die Streitenden Götter]] +1 |
+| [[Konstanter Vorwärtsdrang]] | **loved (roter Faden)** | [[Der Prinz von Staub und Schatten]] −1 (verletzt) — genreübergreifend, s. [[Profil]] |
+| [[Zäher Start]] | disliked | [[Der Prinz von Staub und Schatten]] −1 |
 | [[Magiesystem-Tiefe]] | liked (Tiefe erwünscht) | [[Die Streitenden Götter]] −1 („lasch") |
 
 ## Kombinationsregeln (Wechselwirkungen — schlagen Einzel-Status)
@@ -59,3 +65,4 @@ Magiesystem schwächeln, ohne das Werk zu verderben. Maßstab-Werk:
 | Datum | Änderung | Anlass/Evidenz |
 | --- | --- | --- |
 | 2026-07-16 | Erstbelegung: themen/figuren je 0.22, setting 0.12, ton 0.12, handwerk 0.10 | Interview Streitende Götter: Themen (Underdog, Herkunfts-Konflikt) + Gemeinschaft/Figuren als Kern; Setting relevant (Welt „stimmig", Magiesystem-Kritik zeigt: Welt wird bewusst wahrgenommen); Ton noch unbelegt → moderat |
+| 2026-07-16 | handwerk 0.10 → 0.14, setting 0.12 → 0.10, komplexitaet 0.04 → 0.02 | Prinz-Analyse: Fokusverlust (−1) + zäher Start (−1) waren dem Nutzer wichtig genug, sie unaufgefordert zu nennen → Handwerk zählt auch in Fantasy mehr (roter Faden [[Konstanter Vorwärtsdrang]]) |
