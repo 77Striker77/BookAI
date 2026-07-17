@@ -12,6 +12,8 @@ wiedervorlage: ""
 erscheinungsdatum_bd1: "2018"   # dt. Ausgabe; Original 2016
 letztes_datum: ""
 baende_gesamt: 3           # Magpie / Moonflower / Marble Hall Murders
+universum: "Susan Ryeland (Atticus Pünd) — eigenständige Trilogie"
+verwandte_reihen: []       # getrennt von [[Hawthorne ermittelt]] (gleicher Autor, andere Welt)
 baende_geplant:
 abgeschlossen: false       # laufende Reihe, aber ≥3 → Pflicht erfüllt
 angekuendigt: ""
@@ -59,6 +61,18 @@ Whodunit (Ermittler Atticus Pünd = Poirot-Hommage) steckt im Rahmen einer zweit
 Mordermittlung der Lektorin Susan Ryeland → **doppelt fair-play und hochgradig meta**.
 Kern-Match zu [[Die mörderischen Cunninghams]]: [[Meta-Fair-Play-Krimi]] + [[Cleverer
 Twist-Plot]] + [[Locked-Room-Mystery]]-Anklänge (Landhaus).
+
+## 🗺️ Universum & Reihenfolge
+
+- **Abgeschlossene Trilogie** (Roman-im-Roman um Lektorin Susan Ryeland + fiktiven Detektiv
+  Atticus Pünd): **Reihenfolge zwingend** wegen fortlaufender Enthüllungen —
+  1. „Die Morde von Pye Hall" (Magpie Murders, 2016) → 2. „Moonflower Murders" (2020) →
+  3. „Marble Hall Murders" (2025).
+- **Verhältnis zu [[Hawthorne ermittelt]]:** gleicher Autor [[Anthony Horowitz]], aber
+  **getrennte Welt** — keine gemeinsamen Figuren. Verbindend nur die Meta-Handschrift. Hier
+  tritt Horowitz **nicht** als Figur auf (das ist das Hawthorne-Merkmal).
+- **Autor kurz:** [[Anthony Horowitz]] — England (*1955), weltbekannt (Alex Rider >21 Mio;
+  offizielle Sherlock- & Bond-Romane; OBE/CBE).
 
 ## 🔮 Prognose je Aspekt
 

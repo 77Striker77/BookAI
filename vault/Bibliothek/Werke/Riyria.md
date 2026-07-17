@@ -1,7 +1,8 @@
 ---
 titel: "Riyria"
 werk_typ: "reihe"
-universum: ""
+universum: "Elan"
+verwandte_reihen: ["Riyria Chronicles (Prequel, 5/8)", "Legends of the First Empire (6)", "The Rise and Fall (3, nur EN)"]
 autor: "Michael J. Sullivan"
 jahr_start: 2008
 erscheinungsdatum_bd1: "EN 'The Crown Conspiracy' Okt 2008 (Aspirations/Ridan); DE 'Der Thron von Melengar' Hörbuch 07.03.2014 (der Hörverlag), Print Klett-Cotta 2014"
@@ -75,6 +76,21 @@ erfasst.)
 > (fehlende Machtkurve, dünnes/unbalanciertes Machtsystem).
 
 **Kontext:** [[Fantasy]] · **Autor:** [[Michael J. Sullivan]] · **Sprecher (dt.):** [[David Nathan]]
+
+## 🗺️ Universum & Reihenfolge
+
+- **Universum:** [[Elan]] — eine ~3000-jährige Chronik in EINER Welt, 4 Reihen (chronologisch:
+  Legends → Rise and Fall → Chronicles → **Riyria Revelations** = dieses Werk):
+  | Reihe (dt.) | Bände | Zeit | dt. |
+  | --- | --- | --- | --- |
+  | Legends of the First Empire („Zeit der Legenden") | 6 | Frühzeit | teilw. (5/6) |
+  | The Rise and Fall | 3 | ~1000 J. vor Riyria | **nein** (nur EN) |
+  | Riyria Chronicles („Riyria-Chroniken") | 5 (8 gepl.) | unmittelbares Prequel | ja |
+  | **Riyria (Revelations)** — „Der Thron von Melengar" … | 6 | „Gegenwart" | ja (David Nathan) |
+- **Reihenfolge (offizielle Autoren-Empfehlung): Publikationsreihenfolge** — Revelations
+  **zuerst**, dann Chronicles, dann Legends, dann Rise and Fall. Chronologischer Einstieg
+  (Legends zuerst) möglich, nimmt aber Riyria den Mythos-Aha-Effekt. „Rise and Fall"
+  **spoilert** Legends. → Für Neulinge: mit „Der Thron von Melengar" (Revelations Bd. 1) starten.
 
 ## 📚 Die Bände einzeln
 

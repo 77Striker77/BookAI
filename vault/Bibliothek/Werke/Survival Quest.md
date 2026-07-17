@@ -1,7 +1,8 @@
 ---
 titel: "Survival Quest"
 werk_typ: "reihe"
-universum: ""
+universum: "Barliona"
+verwandte_reihen: ["The Bard from Barliona (Spin-off)"]
 autor: "Vasily Mahanenko"
 jahr_start: 2012
 erscheinungsdatum_bd1: "RU 'Путь Шамана. Начало Пути' 2012 (Web)/2013 (Druck); EN 'Survival Quest' Kindle 20.04.2015; DE 'Der Weg des Schamanen' TB + eBook + Hörbuch 21.12.2018 (Bastei Lübbe / Lübbe Audio)"
@@ -73,6 +74,14 @@ Reihen-Pflicht (≥3) klar erfüllt.**
 > Anti-Referenz zu [[Dungeon Crawler Carl]] im selben Kontext [[LitRPG]].
 
 **Kontext:** [[LitRPG]] · **Autor:** [[Vasily Mahanenko]] · **Sprecher (dt.):** [[Thomas Balou Martin]]
+
+## 🗺️ Universum & Reihenfolge
+
+- **Universum:** [[Barliona]] (VR-Straf-Realität). „Survival Quest" = Bd. 1 der Hauptreihe
+  **The Way of the Shaman** (7 Bände + Bonus).
+- **Reihen in derselben Welt:** Hauptreihe **zuerst**, dann Spin-off „The Bard from Barliona"
+  (setzt Weltkenntnis voraus). ⚠️ „Dark Paladin", „Galactogon" u. a. sind **separate Welten**.
+- **Autor kurz:** [[Vasily Mahanenko]] — Russe (*1981), LitRPG-Pionier.
 
 ## 📚 Die Bände einzeln
 

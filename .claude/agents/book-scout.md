@@ -38,6 +38,11 @@ macht der aufrufende Skill (`book-similarity-search`).
 3. Offensichtliche Fehlpässe (hartes No-Go, falsches Format/Sprache, klar falsches Genre)
    selbst aussortieren. Grenzfälle drinlassen – die Tiefenprüfung macht der Aufrufer.
 4. Keine Duplikate zu den Referenztiteln.
+5. **🗺️ Universum & Reihenfolge + Autor-Herkunft mitliefern (Pflicht):** Für jeden
+   Kandidaten recherchieren: Zu welchem **Universum** gehört die Reihe, welche **anderen
+   Reihen spielen in derselben Welt** (wichtig für die Reihen-Pflicht ≥3 Bände!), und die
+   **empfohlene Lese-/Hör-Reihenfolge** (muss man etwas zuerst lesen/hören?). Dazu ein
+   Kurz-Autoren-Dossier: **Herkunft** (Land/Region) und **Bekanntheit**. Mit Quellen.
 
 ## Output (nur das, als JSON — es IST dein Rückgabewert)
 ```json
@@ -51,6 +56,10 @@ macht der aufrufende Skill (`book-similarity-search`).
       "narrator": null, "audio_hours": null,
       "genres": ["…"], "subjects": ["…"], "tone_hint": "…",
       "ratings": { "openlibrary": 4.1, "goodreads": null },
+      "universum": "Name oder 'eigenständig'",
+      "verwandte_reihen": [{ "titel": "…", "baende": 0, "rolle": "Prequel/Spin-off", "dt": true }],
+      "empfohlene_reihenfolge": "z. B. 'Reihe A vor B; Prequel C erst nach A (Spoiler)'",
+      "autor_herkunft": "Land/Region", "autor_bekanntheit": "Szene-bekannt/Bestseller/…",
       "why_candidate": "teilt Subjects X, Y mit Referenz",
       "sources": ["https://openlibrary.org/…", "https://…"]
     }

@@ -1,7 +1,8 @@
 ---
 titel: "Scholomance"
 werk_typ: "reihe"
-universum: ""
+universum: "Scholomance (eigenständig)"
+verwandte_reihen: []       # keine — abgeschlossene Trilogie ohne Anschlusswerke
 autor: "Naomi Novik"
 jahr_start: 2020
 erscheinungsdatum_bd1: "EN 'A Deadly Education' 29.09.2020 (Del Rey); DE 'Tödliche Lektion' 22.03.2021 (cbj Print + Audible-Hörbuch)"
@@ -75,6 +76,14 @@ Reihen-Pflicht (≥3) erfüllt.**
 > [[Die Streitenden Götter]] im selben Kontext.
 
 **Kontext:** [[Fantasy]] · **Autorin:** [[Naomi Novik]] · **Sprecherin (dt.):** [[Leonie Landa]]
+
+## 🗺️ Universum & Reihenfolge
+
+- **Abgeschlossene, eigenständige Trilogie** (keine Anschlusswerke): 1. „Tödliche Lektion"
+  (A Deadly Education, 2020) → 2. „Der letzte Absolvent" (2021) → 3. „Die goldenen Enklaven"
+  (2022). Reihenfolge zwingend (Bd. 2 endet mit Cliffhanger). dt. bei cbj.
+- **Andere Novik-Welten** (getrennt): Temeraire (9 Bd.), Uprooted, Spinning Silver.
+- **Autorin kurz:** [[Naomi Novik]] — US-Autorin (*1973), Nebula 2015 (Uprooted), AO3-Mitgründerin.
 
 ## 📚 Die Bände einzeln
 

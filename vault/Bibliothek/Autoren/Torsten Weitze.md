@@ -2,18 +2,46 @@
 name: "Torsten Weitze"
 sprachen: [de]
 status: loved
+herkunft: "Deutschland (geb. Krefeld)"
+geburtsjahr: "1976"
+bekanntheit: "Etabliert (dt. High-/Urban-Fantasy)"
+universen: ["[[Die Streitenden Götter]] (Welt Deatril)"]
 tags: [autor]
 ---
 
 # Torsten Weitze
 
+> ⚠️ **Nicht verwechseln:** Weitze schreibt [[Die Streitenden Götter]] — NICHT das
+> Askir-Universum, das ist [[Richard Schwartz]].
+
+## Herkunft & Werdegang
+
+**Deutscher** Fantasy-Autor, geboren **1976 in Krefeld**. Ausbildung zum Verlagskaufmann;
+langjähriger **Pen-&-Paper-Spielleiter** (eigene Welten) → kam so zum Schreiben. Debüt mit
+„Der 13. Paladin". **Direkt auf Deutsch geschrieben** — kein Warten auf Übersetzungen
+(relevant für die Deutsch-Präferenz des Nutzers!). Hörbücher bei **LAUSCH Medien**,
+Stammsprecher [[Günter Merlau]].
+
+## Bekanntheit & Reichweite
+
+Etablierter deutscher High-/Urban-Fantasy-Autor; präsent bei Thalia, Hugendubel, Storytel,
+Audible; mehrere abgeschlossene Reihen.
+
 ## Stil & Handschrift
 
-Deutscher Fantasy-Autor (*1976), einer der erfolgreichsten deutschen Fantasy-Autoren
-der letzten Jahre. Epos **Die Streitenden Götter** (Splitterlande) seit 2023; davor
-bekannt durch die Reihe „Der 13. Paladin". Hörbücher bei LAUSCH, Stammsprecher
-[[Günter Merlau]]. **Direkt auf Deutsch geschrieben** — kein Warten auf Übersetzungen
-(relevant für die Deutsch-Präferenz des Nutzers!).
+Epische High-Fantasy mit Akademie-/Underdog-Motiven, tragende Figurengruppen; Welt **Deatril
+(Kontinent Kernheym)**.
+
+## 🗺️ Universen & Reihen dieses Autors
+
+- **[[Die Streitenden Götter]]** — Epos in der Welt Deatril (Kontinent Kernheym):
+  | Reihe | Bände | Rolle | Reihenfolge |
+  | --- | --- | --- | --- |
+  | [[Sturmfels-Akademie]] | 5 (Turm der Bettler → … → Turm des Wissens) | Auftakt (= Bd. 1–5 des Epos) | **zuerst** |
+  | [[Der Prinz von Staub und Schatten]] | laufend (ab „Heimkehr" = Bd. 6) | Fortsetzung, gleiche Welt | danach |
+  Fortlaufende Epos-Nummerierung ab Bd. 6 → **Sturmfels-Pentalogie zuerst abschließen**.
+- Andere Welten: **Der 13. Paladin** (13 Bd., abgeschlossen; Welt mit Waldläufer Ahren),
+  **Nebula Convicto** + „Grenzgänger" (Urban Fantasy, gleiche Welt).
 
 ## Meine Erfahrungen
 

@@ -12,6 +12,8 @@ wiedervorlage: ""      # "neu prüfen, falls ⟨Präferenz⟩ sich ändert" — 
 erscheinungsdatum_bd1: ""
 letztes_datum: ""
 baende_gesamt:         # PFLICHT-CHECK: Reihen-Pflicht ≥3 Bände (Universum zählt zusammen!)
+universum: ""          # Name des Universums / "eigenständig"
+verwandte_reihen: []   # andere Reihen in derselben Welt (für Reihen-Pflicht + Reihenfolge!)
 baende_geplant:
 abgeschlossen:
 angekuendigt: ""       # neue Bände / Erweiterungen
@@ -53,6 +55,12 @@ zusammen?⟩ → ⟨erfüllt / verletzt Reihen-Pflicht⟩
 ## Wie gefunden / warum Kandidat
 
 ⟨Suchwinkel; geteilte Merkmale mit Referenz: [[⟨Thema⟩]], [[⟨Ton⟩]]⟩
+
+## 🗺️ Universum & Reihenfolge (investigativ — Pflicht)
+
+⟨Welche Reihe ist das? Andere Reihen in derselben Welt? Empfohlene Lese-/Hör-Reihenfolge
+(muss man etwas zuerst lesen/hören?)? Wichtig auch für die Reihen-Pflicht ≥3 Bände
+(Universum zählt zusammen). Kurz-Autoren-Dossier: Herkunft + Bekanntheit. Mit Quellen.⟩
 
 ## 🔮 Prognose je Aspekt (Stufe 2 — nachprüfbar, nicht pauschal)
 

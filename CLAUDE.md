@@ -67,6 +67,14 @@ möglich werden.** Daraus folgt kompromisslos:
   Nutzers hartnäckig erfragen (positive UND negative Aspekte, auch beim Lieblingswerk).
 - **Fakten grabe ich, Gefühle erfrage ich.** Nie Fakten an den Nutzer delegieren, nie
   Gefühle annehmen. **Format (gelesen/gehört) und Sprache IMMER erfragen, nie voraussetzen.**
+- **🗺️ Universum & Reihenfolge sind Pflichtrecherche.** Bei JEDEM Werk/Kandidaten klären:
+  Welche Reihe ist das? Spielen andere Reihen in derselben Welt? Wie hängen sie zusammen,
+  und in welcher **Lese-/Hör-Reihenfolge** (muss man etwas zuerst lesen/hören)? Immer im
+  Vault festhalten (`universum:` + `verwandte_reihen:` + Abschnitt „Universum & Reihen-
+  Landkarte"). Zählt auch für die Reihen-Pflicht ≥3 Bände (Universum zählt zusammen).
+- **⭐ Autoren-Dossier ist Pflichtrecherche.** Wer ist der Autor: Herkunft (Land/Region),
+  Werdegang, Bekanntheit/Reichweite (mit Belegen), welche Universen/Reihen. In der
+  Autoren-Notiz pflegen. Details, Details, Details — investigativ bis ins Kleinste.
 - **Bewertungseinheit ist das WERK** (Reihe/Universum), nie der Einzelband. Nie bandweise
   interviewen; Band-Abweichungen nur, wenn der Nutzer sie selbst nennt.
 - **Kontext schlägt global:** je Geschmacksraum eigene Gewichte/Merkmal-Status.

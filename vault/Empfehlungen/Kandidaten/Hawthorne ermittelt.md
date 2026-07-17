@@ -11,7 +11,9 @@ wiedervorlage: ""
 # --- Fakten (nur belegt!) ---
 erscheinungsdatum_bd1: "2018"
 letztes_datum: "2024"
-baende_gesamt: 5           # Original bis „Close to Death" (2024); dt. Bd. 1-2+ laufend
+baende_gesamt: 6           # bis „A Deadly Episode" (2026); dt. Bd. 1-2+ laufend
+universum: "Hawthorne & Horowitz"
+verwandte_reihen: []       # getrennt von [[Susan Ryeland ermittelt (Magpie Murders)]] (gleicher Autor, andere Welt)
 baende_geplant:
 abgeschlossen: false       # laufend, ≥3 → Pflicht erfüllt
 angekuendigt: ""
@@ -58,6 +60,17 @@ Roman (er begleitet den Ex-Cop Hawthorne) — extrem meta, klassischer Whodunit 
 fairer Auflösung. Kern-Match zu [[Die mörderischen Cunninghams]]: [[Meta-Fair-Play-Krimi]]
 + [[Ich-Erzähler]] + [[Cleverer Twist-Plot]] + [[Trocken-ironischer Humor]] + [[Ungleiches
 Duo]] (Autor/Ermittler).
+
+## 🗺️ Universum & Reihenfolge
+
+- **Laufende Reihe (6 Bände)**, jeder Fall abgeschlossen, aber Hawthornes Vergangenheit wird
+  **graduell enthüllt** → Reihenfolge empfohlen: 1. „Ein perfider Plan / Wenn Worte töten"
+  (The Word is Murder, 2017) → 2. „Mord in Highgate" (2018) → 3. „A Line to Kill" (2021) →
+  4. „The Twist of a Knife" (2022) → 5. „Close to Death" (2024) → 6. „A Deadly Episode" (2026).
+- **Verhältnis zu [[Susan Ryeland ermittelt (Magpie Murders)]]:** gleicher Autor, **getrennte
+  Welt**. Hawthorne-Merkmal: Horowitz schreibt sich **selbst als Watson-Figur** hinein.
+- **Autor kurz:** [[Anthony Horowitz]] — England (*1955), weltbekannt (OBE/CBE; offizielle
+  Sherlock- & Bond-Romane).
 
 ## 🔮 Prognose je Aspekt
 

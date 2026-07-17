@@ -30,10 +30,16 @@ Gewichte + Aspekt-Bewertungen der Referenzwerke geprüft.
 | # | Titel | Kontext | Match | Kurzbegründung |
 | --- | --- | --- | --- | --- |
 | 1 | [[Die guten Jungs]] | LitRPG | 86 % | DCC-Ton-Zwilling (Humor↔Härte), pragm. Held, dt. Hörbuch, kurze Bände (~9 h) |
-| 2 | [[Das Geheimnis von Askir]] | Fantasy | 85 % | **gleicher Autor** wie Streitende Götter, verlorenes Erbe + geheimnisv. Macht, dt. Original |
-| 3 | [[Susan Ryeland ermittelt (Magpie Murders)]] | Krimi | 84 % | Roman-im-Roman, doppeltes Fair-Play, Christie-Hommage |
-| 4 | [[Hawthorne ermittelt]] | Krimi | 83 % | Autor = Watson-Figur: Meta-Fair-Play in Reinform, trockener Humor, Ich-Erzähler |
+| 2 | [[Susan Ryeland ermittelt (Magpie Murders)]] | Krimi | 84 % | Roman-im-Roman, doppeltes Fair-Play, Christie-Hommage |
+| 3 | [[Hawthorne ermittelt]] | Krimi | 83 % | Autor = Watson-Figur: Meta-Fair-Play in Reinform, trockener Humor, Ich-Erzähler |
+| 4 | [[Das Geheimnis von Askir]] | Fantasy | 81 % | verlorenes Erbe + geheimnisv. Macht + geregeltes Magiesystem, dt. Original ([[Richard Schwartz]]) |
 | 5 | [[Die Gilde der schwarzen Magier]] | Fantasy | 80 % | reinste Akademie-Underdog-Story (Sonea aus dem Slum), Herkunfts-Konflikt |
+
+> **Faktenkorrektur 2026-07-17 (Recherche-Vertiefung):** Askir war fälschlich als „gleicher
+> Autor wie Die Streitenden Götter" gelistet — falsch. **Askir = [[Richard Schwartz]]**,
+> **Die Streitenden Götter = [[Torsten Weitze]]** (belegt). Askir-Match von 85 % auf 81 %
+> korrigiert (Autoren-Bonus entfällt, Match steht auf eigenen Merkmalen). Alle 5 Empfehlungen
+> haben jetzt Universum-/Reihenfolge- und Autoren-Dossiers im Vault.
 
 > **Korrektur 2026-07-17 (nach Nutzerhinweis):** Ursprünglich als #5 empfohlenes **Riyria**
 > **zurückgezogen** — der Nutzer hat es **bereits erlebt und als „okay" eingestuft** (steht im
