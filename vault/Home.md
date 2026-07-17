@@ -34,6 +34,12 @@ tags: [moc, home]
 
 ## Zuletzt
 
+- 2026-07-17 — **Erster Empfehlungslauf:** [[2026-07-17 Deutsche Bücher quer über alle Räume]].
+  Drei book-scout-Agenten (LitRPG/Fantasy/Krimi) → 31 Kandidaten → **6 verifizierte
+  Empfehlungen** auf Deutsch: [[Die guten Jungs]] · [[Das Geheimnis von Askir]] ·
+  [[Susan Ryeland ermittelt (Magpie Murders)]] · [[Hawthorne ermittelt]] ·
+  [[Riyria (Der Thron von Melengar)]] · [[Die Gilde der schwarzen Magier]]. Format pro
+  Titel noch offen (Mistborn/Rabenschatten als Buch nachrückbereit).
 - 2026-07-16 — Werk 4: [[Die mörderischen Cunninghams]] (Benjamin Stevenson), **loved, top**.
   Neuer Kontext [[Krimi]]. **Erstes GELESENES Werk** (Buch, dt.) — Format-Lektion: immer
   erfragen, nie annehmen. [[Konstanter Vorwärtsdrang]] jetzt in 3 Kontexten (+2).

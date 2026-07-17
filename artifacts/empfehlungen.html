@@ -1,0 +1,337 @@
+<title>Empfehlungen</title>
+<style>
+  :root {
+    --bg: #faf9f7; --card: #ffffff; --ink: #1c1b19; --muted: #6b6862; --line: #e7e3dc;
+    --accent: #7c5cff; --good: #2f9e6f; --mid: #d99a2b; --bad: #d9534f;
+    --track: #eceae5;
+    --litrpg:#7c5cff; --fantasy:#2f9e6f; --krimi:#d99a2b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#16151a; --card:#201f26; --ink:#f2f0ec; --muted:#a5a19a; --line:#33313b;
+            --accent:#a78bfa; --good:#4ec38a; --mid:#e6b34a; --bad:#e8776f; --track:#2b2933;
+            --litrpg:#a78bfa; --fantasy:#4ec38a; --krimi:#e6b34a; }
+  }
+  :root[data-theme="light"] { --bg:#faf9f7; --card:#fff; --ink:#1c1b19; --muted:#6b6862;
+    --line:#e7e3dc; --accent:#7c5cff; --track:#eceae5; --good:#2f9e6f; --mid:#d99a2b; --bad:#d9534f;
+    --litrpg:#7c5cff; --fantasy:#2f9e6f; --krimi:#d99a2b; }
+  :root[data-theme="dark"]  { --bg:#16151a; --card:#201f26; --ink:#f2f0ec; --muted:#a5a19a;
+    --line:#33313b; --accent:#a78bfa; --track:#2b2933; --good:#4ec38a; --mid:#e6b34a; --bad:#e8776f;
+    --litrpg:#a78bfa; --fantasy:#4ec38a; --krimi:#e6b34a; }
+
+  * { box-sizing: border-box; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 28px 20px 60px;
+    color: var(--ink); background: var(--bg);
+    font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; }
+  h2 { font-size: 1.05rem; margin: 32px 0 12px; letter-spacing: .02em; text-transform: uppercase; color: var(--muted); }
+  .sub { color: var(--muted); margin: 0 0 8px; }
+
+  .legend { display:flex; flex-wrap:wrap; gap:14px; font-size:.78rem; color:var(--muted); margin:10px 0 0; }
+  .legend span { display:inline-flex; align-items:center; gap:5px; }
+  .dot { width:10px; height:10px; border-radius:3px; display:inline-block; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+  .chip { background: color-mix(in srgb, var(--accent) 14%, transparent); color: var(--ink);
+    border: 1px solid var(--line); border-radius: 999px; padding: 3px 10px; font-size: .82rem; }
+  .chip.nogo { background: color-mix(in srgb, var(--bad) 16%, transparent); text-decoration: line-through; color: var(--bad); }
+
+  .basis { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px; }
+  .ktx-weights { display:grid; grid-template-columns:1fr; gap:10px; margin-top:12px; }
+  @media (min-width:620px){ .ktx-weights { grid-template-columns:repeat(3,1fr); } }
+  .ktx { border:1px solid var(--line); border-radius:10px; padding:10px 12px; }
+  .ktx h3 { margin:0 0 6px; font-size:.9rem; }
+  .ktx .row { display:grid; grid-template-columns:78px 1fr 30px; gap:4px 8px; align-items:center; font-size:.76rem; color:var(--muted); }
+  .ktx .bar { height:7px; }
+
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px;
+    padding: 18px; margin: 14px 0; display: grid; grid-template-columns: 84px 1fr; gap: 16px; }
+  @media (max-width: 560px) { .card { grid-template-columns: 1fr; } }
+  .cover { width: 84px; height: 122px; border-radius: 8px; background: var(--track);
+    display: flex; align-items: center; justify-content: center; font-size: 34px; }
+  .toprow { display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+  .rank { font-size: .8rem; color: var(--muted); }
+  .badge { font-size:.72rem; font-weight:600; padding:2px 9px; border-radius:999px; border:1px solid var(--line); }
+  .badge.litrpg { color:var(--litrpg); background:color-mix(in srgb,var(--litrpg) 14%,transparent); }
+  .badge.fantasy { color:var(--fantasy); background:color-mix(in srgb,var(--fantasy) 14%,transparent); }
+  .badge.krimi { color:var(--krimi); background:color-mix(in srgb,var(--krimi) 16%,transparent); }
+  .title { font-size: 1.12rem; font-weight: 650; margin: 4px 0 2px; }
+  .meta { color: var(--muted); font-size: .88rem; margin-bottom: 10px; }
+
+  .overall { display: flex; align-items: center; gap: 10px; margin: 8px 0 12px; }
+  .overall .num { font-weight: 700; font-size: 1.1rem; min-width: 52px; }
+  .bar { position: relative; height: 12px; border-radius: 999px; background: var(--track); flex: 1; overflow: hidden; }
+  .bar > span { position: absolute; inset: 0 auto 0 0; border-radius: 999px; }
+  .fill-good > span { background: var(--good); } .fill-mid > span { background: var(--mid); } .fill-bad > span { background: var(--bad); }
+
+  .dims { display: grid; grid-template-columns: 130px 1fr 34px; gap: 5px 10px; align-items: center; margin: 4px 0 12px; }
+  .dims .lbl { font-size: .82rem; color: var(--muted); }
+  .dims .bar { height: 8px; } .dims .val { font-size: .78rem; color: var(--muted); text-align: right; }
+
+  .fit { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 6px; }
+  @media (max-width: 560px) { .fit { grid-template-columns: 1fr; } }
+  .fit ul { margin: 4px 0 0; padding-left: 18px; } .fit li { margin: 3px 0; font-size: .88rem; }
+  .fit .good b { color: var(--good); } .fit .bad b { color: var(--bad); }
+  .src { color: var(--muted); font-size: .76rem; margin-top: 8px; }
+
+  details.rejected { margin-top: 20px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 8px 14px; }
+  details.rejected summary { cursor: pointer; color: var(--muted); font-weight:600; }
+  details.rejected ul { margin:10px 0 4px; }
+  details.rejected li { margin:5px 0; font-size:.9rem; }
+  .note { background: color-mix(in srgb, var(--mid) 12%, transparent); border:1px solid var(--line);
+    border-radius:12px; padding:12px 16px; margin:14px 0; font-size:.9rem; }
+</style>
+
+<div class="wrap">
+
+  <h1>🎯 Empfehlungen</h1>
+  <p class="sub">Anfrage: <em>„suche für mich nach Büchern auf Deutsch die mir gefallen könnten"</em> · Lauf vom 17.07.2026 · alle 3 Geschmacksräume</p>
+  <div class="legend">
+    <span><i class="dot" style="background:var(--good)"></i> Balken = Match 0–100 (Dimension)</span>
+    <span><i class="dot" style="background:var(--good)"></i> ✓ passt</span>
+    <span><i class="dot" style="background:var(--bad)"></i> ✗ passt nicht</span>
+    <span><i class="dot" style="background:var(--litrpg)"></i> LitRPG</span>
+    <span><i class="dot" style="background:var(--fantasy)"></i> Fantasy</span>
+    <span><i class="dot" style="background:var(--krimi)"></i> Krimi</span>
+  </div>
+
+  <!-- ============ BASIS-KURZBLOCK ============ -->
+  <h2>Gematcht gegen deine Kerndaten</h2>
+  <div class="basis">
+    <p class="sub">Roter Faden über alle Räume: <b>Fokus &amp; Vorwärtsdrang (kein zäher Start / Abschweifen), handlungsfähiger Held, Humor als Plus, starker Sprecher beim Hörbuch.</b> <em>Vollständig im Artefakt „Meine Bibliothek".</em></p>
+    <div class="chips">
+      <span class="chip">Konstanter Vorwärtsdrang</span>
+      <span class="chip">handlungsfähiger Held</span>
+      <span class="chip">Humor</span>
+      <span class="chip">starke Sprecher-Performance</span>
+      <span class="chip nogo">Reihe &lt;3 Bände</span>
+      <span class="chip nogo">Romance als Treiber</span>
+      <span class="chip nogo">Reihenschnitt &gt; ~20 h</span>
+    </div>
+    <p class="sub" style="margin-top:14px">Gematcht wurde <b>je Kandidat im Kontext seines Geschmacksraums</b> — jede Dimension zählt anders:</p>
+    <div class="ktx-weights">
+      <div class="ktx">
+        <h3 style="color:var(--litrpg)">🎮 LitRPG</h3>
+        <div class="row"><span>Figuren</span><div class="bar fill-good"><span style="width:20%"></span></div><span>.20</span></div>
+        <div class="row"><span>Ton</span><div class="bar fill-good"><span style="width:20%"></span></div><span>.20</span></div>
+        <div class="row"><span>Themen</span><div class="bar fill-good"><span style="width:20%"></span></div><span>.20</span></div>
+        <div class="row"><span>Handwerk</span><div class="bar fill-good"><span style="width:15%"></span></div><span>.15</span></div>
+        <div class="row"><span>Genre</span><div class="bar fill-good"><span style="width:10%"></span></div><span>.10</span></div>
+      </div>
+      <div class="ktx">
+        <h3 style="color:var(--fantasy)">⚔️ Fantasy</h3>
+        <div class="row"><span>Themen</span><div class="bar fill-good"><span style="width:20%"></span></div><span>.20</span></div>
+        <div class="row"><span>Figuren</span><div class="bar fill-good"><span style="width:20%"></span></div><span>.20</span></div>
+        <div class="row"><span>Handwerk</span><div class="bar fill-good"><span style="width:18%"></span></div><span>.18</span></div>
+        <div class="row"><span>Ton</span><div class="bar fill-good"><span style="width:10%"></span></div><span>.10</span></div>
+        <div class="row"><span>Setting</span><div class="bar fill-good"><span style="width:8%"></span></div><span>.08</span></div>
+      </div>
+      <div class="ktx">
+        <h3 style="color:var(--krimi)">🔍 Krimi</h3>
+        <div class="row"><span>Themen</span><div class="bar fill-good"><span style="width:22%"></span></div><span>.22</span></div>
+        <div class="row"><span>Handwerk</span><div class="bar fill-good"><span style="width:20%"></span></div><span>.20</span></div>
+        <div class="row"><span>Erzählstil</span><div class="bar fill-good"><span style="width:15%"></span></div><span>.15</span></div>
+        <div class="row"><span>Komplexität</span><div class="bar fill-good"><span style="width:10%"></span></div><span>.10</span></div>
+        <div class="row"><span>Tempo</span><div class="bar fill-good"><span style="width:8%"></span></div><span>.08</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ EMPFEHLUNGEN ============ -->
+  <h2>6 verifizierte Empfehlungen (nach Match sortiert)</h2>
+
+  <!-- #1 Die guten Jungs -->
+  <article class="card">
+    <div class="cover">📖</div>
+    <div>
+      <div class="toprow"><span class="rank">#1 · Match 86 %</span><span class="badge litrpg">🎮 LitRPG</span></div>
+      <div class="title">Die guten Jungs</div>
+      <div class="meta">Eric Ugland · ab 2023 · 16 Bände (abgeschlossen) · Buch &amp; Hörbuch (Robert Frank) · Bd. 1 ≈ 8 h 53 min</div>
+      <div class="overall"><span class="num">86 %</span><div class="bar fill-good"><span style="width:86%"></span></div></div>
+      <div class="dims">
+        <span class="lbl">Ton (Humor↔Härte)</span><div class="bar fill-good"><span style="width:88%"></span></div><span class="val">88</span>
+        <span class="lbl">Figuren</span><div class="bar fill-good"><span style="width:88%"></span></div><span class="val">88</span>
+        <span class="lbl">Tempo</span><div class="bar fill-good"><span style="width:88%"></span></div><span class="val">88</span>
+        <span class="lbl">Genre</span><div class="bar fill-good"><span style="width:90%"></span></div><span class="val">90</span>
+        <span class="lbl">Handwerk</span><div class="bar fill-good"><span style="width:80%"></span></div><span class="val">80</span>
+        <span class="lbl">Themen</span><div class="bar fill-good"><span style="width:78%"></span></div><span class="val">78</span>
+      </div>
+      <div class="fit">
+        <div class="good"><b>✓ Was passt</b>
+          <ul><li>Nächster DCC-Ton-Zwilling: schwarzer/absurder Humor + echte Härte</li>
+              <li>Pragmatischer, handlungsfähiger Held (Montana) — „stolpert durch Pragmatismus &amp; Hartnäckigkeit"</li>
+              <li>Kurze Bände (~9 h) = purer Vorwärtsdrang, kein Grinding-Leerlauf; dt. Hörbuch</li></ul></div>
+        <div class="bad"><b>✗ Was passt nicht</b>
+          <ul><li>Weniger Kapitalismus-/System-Satire als DCC</li>
+              <li>Episodische Struktur — Gesamtbogen über 16 Bände wirkt dünner</li></ul></div>
+      </div>
+      <div class="src">Quellen: Audible.de, Amazon.de, BücherTreff</div>
+    </div>
+  </article>
+
+  <!-- #2 Askir -->
+  <article class="card">
+    <div class="cover">📖</div>
+    <div>
+      <div class="toprow"><span class="rank">#2 · Match 85 %</span><span class="badge fantasy">⚔️ Fantasy</span></div>
+      <div class="title">Das Geheimnis von Askir</div>
+      <div class="meta">Richard Schwartz · ab 2007 · 6 Bände + Folgezyklus · Buch &amp; Hörbuch (Michael Hansonis)</div>
+      <div class="overall"><span class="num">85 %</span><div class="bar fill-good"><span style="width:85%"></span></div></div>
+      <div class="dims">
+        <span class="lbl">Themen</span><div class="bar fill-good"><span style="width:90%"></span></div><span class="val">90</span>
+        <span class="lbl">Figuren</span><div class="bar fill-good"><span style="width:85%"></span></div><span class="val">85</span>
+        <span class="lbl">Handwerk</span><div class="bar fill-good"><span style="width:82%"></span></div><span class="val">82</span>
+        <span class="lbl">Setting</span><div class="bar fill-good"><span style="width:82%"></span></div><span class="val">82</span>
+        <span class="lbl">Genre</span><div class="bar fill-good"><span style="width:80%"></span></div><span class="val">80</span>
+        <span class="lbl">Ton</span><div class="bar fill-good"><span style="width:78%"></span></div><span class="val">78</span>
+      </div>
+      <div class="fit">
+        <div class="good"><b>✓ Was passt</b>
+          <ul><li><b>Derselbe Autor wie „Die Streitenden Götter"</b> — DNA-nah, deutscher Originalautor (kein Übersetzungs-Warten)</li>
+              <li>Verlorenes Erbe (untergegangenes Askir) + geheimnisvolle Macht + Verfolgungsdruck</li>
+              <li>Handlungsfähiger Ich-Held (Havald), stringente militärische Handlung</li></ul></div>
+        <div class="bad"><b>✗ Was passt nicht</b>
+          <ul><li>Etwas langsamer Einstieg („anfangs langwierig, aber notwendig") — dein Payoff-Faible fängt das ab (Kombiregel)</li>
+              <li>Exakte Hördauer pro Band vor dem Kauf gegen die ~20-h-Grenze prüfen</li></ul></div>
+      </div>
+      <div class="src">Quellen: Goodreads, Audible.de, LovelyBooks</div>
+    </div>
+  </article>
+
+  <!-- #3 Susan Ryeland -->
+  <article class="card">
+    <div class="cover">📖</div>
+    <div>
+      <div class="toprow"><span class="rank">#3 · Match 84 %</span><span class="badge krimi">🔍 Krimi</span></div>
+      <div class="title">Susan Ryeland ermittelt <span style="font-weight:400;color:var(--muted)">(Bd. 1: „Die Morde von Pye Hall")</span></div>
+      <div class="meta">Anthony Horowitz · ab 2018 · 3 Bände · Buch &amp; Hörbuch · ≈ 11,6 h</div>
+      <div class="overall"><span class="num">84 %</span><div class="bar fill-good"><span style="width:84%"></span></div></div>
+      <div class="dims">
+        <span class="lbl">Erzählstil (Meta)</span><div class="bar fill-good"><span style="width:95%"></span></div><span class="val">95</span>
+        <span class="lbl">Handwerk (Twist)</span><div class="bar fill-good"><span style="width:90%"></span></div><span class="val">90</span>
+        <span class="lbl">Komplexität</span><div class="bar fill-good"><span style="width:90%"></span></div><span class="val">90</span>
+        <span class="lbl">Genre</span><div class="bar fill-good"><span style="width:88%"></span></div><span class="val">88</span>
+        <span class="lbl">Themen</span><div class="bar fill-good"><span style="width:78%"></span></div><span class="val">78</span>
+        <span class="lbl">Tempo</span><div class="bar fill-good"><span style="width:70%"></span></div><span class="val">70</span>
+      </div>
+      <div class="fit">
+        <div class="good"><b>✓ Was passt</b>
+          <ul><li>Roman-im-Roman: ein Golden-Age-Whodunit steckt im Rahmen einer 2. Ermittlung → <b>doppeltes Fair-Play</b></li>
+              <li>Meta-Erzählstil + cleverer Twist auf Cunninghams-Niveau, Christie-Hommage</li>
+              <li>Deutsch als Buch &amp; Hörbuch, angenehme Länge</li></ul></div>
+        <div class="bad"><b>✗ Was passt nicht</b>
+          <ul><li>Die verschachtelte Doppelstruktur bremst stellenweise das Tempo</li>
+              <li>Landhaus-Fall statt echtem geschlossenem Kreis (Zug/Insel) — Locked-Room etwas schwächer</li></ul></div>
+      </div>
+      <div class="src">Quellen: Suhrkamp, BücherTreff, Storytel</div>
+    </div>
+  </article>
+
+  <!-- #4 Hawthorne -->
+  <article class="card">
+    <div class="cover">📖</div>
+    <div>
+      <div class="toprow"><span class="rank">#4 · Match 83 %</span><span class="badge krimi">🔍 Krimi</span></div>
+      <div class="title">Hawthorne ermittelt <span style="font-weight:400;color:var(--muted)">(Bd. 1: „Ein perfider Plan")</span></div>
+      <div class="meta">Anthony Horowitz · ab 2018 · 5 Bände · Buch &amp; Hörbuch (Volker Hanisch)</div>
+      <div class="overall"><span class="num">83 %</span><div class="bar fill-good"><span style="width:83%"></span></div></div>
+      <div class="dims">
+        <span class="lbl">Erzählstil (Meta)</span><div class="bar fill-good"><span style="width:95%"></span></div><span class="val">95</span>
+        <span class="lbl">Ton (trocken)</span><div class="bar fill-good"><span style="width:90%"></span></div><span class="val">90</span>
+        <span class="lbl">Handwerk (Twist)</span><div class="bar fill-good"><span style="width:88%"></span></div><span class="val">88</span>
+        <span class="lbl">Komplexität</span><div class="bar fill-good"><span style="width:85%"></span></div><span class="val">85</span>
+        <span class="lbl">Genre</span><div class="bar fill-good"><span style="width:85%"></span></div><span class="val">85</span>
+        <span class="lbl">Themen</span><div class="bar fill-good"><span style="width:70%"></span></div><span class="val">70</span>
+      </div>
+      <div class="fit">
+        <div class="good"><b>✓ Was passt</b>
+          <ul><li>Horowitz schreibt sich <b>selbst als Watson-Figur</b> in den Roman → Meta-Fair-Play in Reinform</li>
+              <li>Trockener Humor + Ich-Erzähler wie bei Cunninghams; cleverer, fairer Twist</li>
+              <li>Lange Reihe (5 Bände), dt. Buch &amp; Hörbuch</li></ul></div>
+        <div class="bad"><b>✗ Was passt nicht</b>
+          <ul><li>Klassischer Fall-Whodunit statt geschlossenem Kreis — dein Locked-Room-Bonus fehlt</li></ul></div>
+      </div>
+      <div class="src">Quellen: BücherTreff, Goodreads</div>
+    </div>
+  </article>
+
+  <!-- #5 Riyria -->
+  <article class="card">
+    <div class="cover">📖</div>
+    <div>
+      <div class="toprow"><span class="rank">#5 · Match 82 %</span><span class="badge fantasy">⚔️ Fantasy</span></div>
+      <div class="title">Riyria <span style="font-weight:400;color:var(--muted)">(Bd. 1: „Der Thron von Melengar")</span></div>
+      <div class="meta">Michael J. Sullivan · ab 2014 · 6 Bände + Prequels · Buch &amp; Hörbuch (David Nathan) · ≈ 11 h/Band</div>
+      <div class="overall"><span class="num">82 %</span><div class="bar fill-good"><span style="width:82%"></span></div></div>
+      <div class="dims">
+        <span class="lbl">Figuren (Duo)</span><div class="bar fill-good"><span style="width:88%"></span></div><span class="val">88</span>
+        <span class="lbl">Themen (Erbe)</span><div class="bar fill-good"><span style="width:85%"></span></div><span class="val">85</span>
+        <span class="lbl">Tempo</span><div class="bar fill-good"><span style="width:85%"></span></div><span class="val">85</span>
+        <span class="lbl">Genre</span><div class="bar fill-good"><span style="width:82%"></span></div><span class="val">82</span>
+        <span class="lbl">Handwerk</span><div class="bar fill-good"><span style="width:78%"></span></div><span class="val">78</span>
+        <span class="lbl">Setting</span><div class="bar fill-good"><span style="width:75%"></span></div><span class="val">75</span>
+      </div>
+      <div class="fit">
+        <div class="good"><b>✓ Was passt</b>
+          <ul><li>Verschollener Thronerbe + kompetentes Dieb-Duo (Royce &amp; Hadrian = ungleiches Duo)</li>
+              <li>Schneller Einstieg „ohne Umschweife", <b>nur ~11 h/Band</b> — bequem unter deiner Grenze</li>
+              <li>Top-Sprecher David Nathan; Reihe abgeschlossen (kein Warten)</li></ul></div>
+        <div class="bad"><b>✗ Was passt nicht</b>
+          <ul><li>Eine Einzel-Rezension nennt stellenweise Tempo-Abflachung im Mittelteil (niedrige Konfidenz)</li></ul></div>
+      </div>
+      <div class="src">Quellen: Audioteka, Klett-Cotta, Goodreads</div>
+    </div>
+  </article>
+
+  <!-- #6 Gilde -->
+  <article class="card">
+    <div class="cover">📖</div>
+    <div>
+      <div class="toprow"><span class="rank">#6 · Match 80 %</span><span class="badge fantasy">⚔️ Fantasy</span></div>
+      <div class="title">Die Gilde der schwarzen Magier <span style="font-weight:400;color:var(--muted)">(Bd. 1: „Die Rebellin")</span></div>
+      <div class="meta">Trudi Canavan · ab 2004 · Trilogie + Folgereihen · Buch &amp; Hörbuch (Martina Rester-Gellhaus)</div>
+      <div class="overall"><span class="num">80 %</span><div class="bar fill-good"><span style="width:80%"></span></div></div>
+      <div class="dims">
+        <span class="lbl">Themen (Underdog)</span><div class="bar fill-good"><span style="width:88%"></span></div><span class="val">88</span>
+        <span class="lbl">Setting (Akademie)</span><div class="bar fill-good"><span style="width:85%"></span></div><span class="val">85</span>
+        <span class="lbl">Figuren</span><div class="bar fill-good"><span style="width:82%"></span></div><span class="val">82</span>
+        <span class="lbl">Genre</span><div class="bar fill-good"><span style="width:80%"></span></div><span class="val">80</span>
+        <span class="lbl">Handwerk</span><div class="bar fill-good"><span style="width:72%"></span></div><span class="val">72</span>
+        <span class="lbl">Tempo</span><div class="bar fill-good"><span style="width:72%"></span></div><span class="val">72</span>
+      </div>
+      <div class="fit">
+        <div class="good"><b>✓ Was passt</b>
+          <ul><li>Reinste Akademie-Underdog-Story: Sonea aus dem Slum steigt in die Magiergilde auf</li>
+              <li>Herkunfts-Konflikt &amp; Vorurteile sogar stärker als bei Sturmfels; aktive, aufmüpfige Heldin</li>
+              <li>Deutsch als Buch &amp; Hörbuch</li></ul></div>
+        <div class="bad"><b>✗ Was passt nicht</b>
+          <ul><li>Mittelteil (Versteck-/Suchphase) könnte dein Tempo-Faible testen</li>
+              <li>Liebes-Subplot in Folgebänden (aber <b>kein</b> Handlungstreiber → No-Go nicht verletzt)</li></ul></div>
+      </div>
+      <div class="src">Quellen: Audible.de, Penguin, Goodreads</div>
+    </div>
+  </article>
+
+  <!-- ============ HINWEIS FORMAT ============ -->
+  <div class="note">
+    <b>📖 vs. 🎧 — der offene Hebel:</b> Sag mir pro Titel, ob du <b>liest</b> oder <b>hörst</b>.
+    Zwei thematische Volltreffer — <b>Die Nebelgeborenen (Mistborn)</b> und <b>Rabenschatten
+    (Das Lied des Blutes)</b> — sind nur als Hörbuch zu lang (~27–29 h/Band). <b>Als Buch</b>
+    rücken sie sofort in diese Liste.
+  </div>
+
+  <!-- ============ VERWORFEN ============ -->
+  <details class="rejected">
+    <summary>Warum nicht andere? (verworfene &amp; zurückgestellte Kandidaten)</summary>
+    <ul>
+      <li><b>He Who Fights With Monsters</b> — dt. Hörbuch evtl. ~33 h (Längen-Malus) + mäandernder Plot / „Zäher Start"-Risiko.</li>
+      <li><b>The Primal Hunter</b> — Bände ~25 h (Längen-Malus) + „bogged down in word count" / Tempo.</li>
+      <li><b>Die Nebelgeborenen (Mistborn)</b> — Ideal-Match, aber Hörbuch ~27 h. <em>Als Buch top.</em></li>
+      <li><b>Rabenschatten (Das Lied des Blutes)</b> — strukturell wie Sturmfels, aber Hörbuch ~29 h. <em>Als Buch stark.</em></li>
+      <li><b>Die Wiege (Cradle)</b> — Top-Progression &amp; Länge, aber wenig Humor + nur 3 dt. Bände.</li>
+      <li><b>Die Chronik der Weitseher</b> — Themen top, aber Slow-Burn + phasenweise passiver Held (dein Fast-Abbruch-Muster).</li>
+      <li><b>Der Donnerstagsmordclub</b> — solide Cosy-Alternative, aber weniger Locked-Room/Meta als Cunninghams.</li>
+    </ul>
+    <p class="src">Der komplette Kandidatenpool (31 Titel) &amp; alle Begründungen liegen im Vault unter <code>Empfehlungen/</code>.</p>
+  </details>
+
+</div>
