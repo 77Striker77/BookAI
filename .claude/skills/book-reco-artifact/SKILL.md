@@ -12,6 +12,24 @@ description: >
 
 # Die zwei festen Artefakte
 
+## ⚠️ OBERSTE REGEL zuerst — Vault → Artefakt, nie umgekehrt
+
+Artefakte sind **reine Projektionen des Vaults** (`vault/`). Verbindlich (siehe `CLAUDE.md`):
+
+1. **Nur aus dem Vault erzeugen.** Jede Zahl, jeder Titel, jeder Satz im Artefakt MUSS
+   bereits im Vault stehen. Steht etwas nur „im Kopf" oder frisch recherchiert bereit →
+   erst in den Vault schreiben, dann ins Artefakt.
+2. **Nie Artefakt über Vault.** Enthält ein (auch veröffentlichtes) Artefakt Infos, die der
+   Vault nicht hat → Bug: **erst in den Vault backporten**, dann das Artefakt neu erzeugen.
+3. **Publish = Commit.** Reihenfolge IMMER: Vault schreiben → committen → Artefakt aus Vault
+   erzeugen → publizieren → pushen. Vor Publish `bash scripts/vault-first.sh` laufen lassen;
+   nie publizieren, solange Vault-Änderungen uncommittet sind (ephemerer Container → Verlust).
+4. **Repo-Datei = Live-Version.** Nach dem Publish muss `artifacts/<name>.html` im Repo mit
+   der veröffentlichten Fassung übereinstimmen und committet sein (sonst überschreibt ein
+   späterer Publish die gute Live-Version mit altem Stand — Vorfall 2026-07-17).
+
+# Es gibt genau zwei Artefakte
+
 Es gibt **genau zwei** Artefakte — beide leben unter stabilen Dateipfaden im Repo und
 werden **an Ort und Stelle aktualisiert**, nie neu erzeugt:
 

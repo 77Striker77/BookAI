@@ -34,6 +34,16 @@ tags: [moc, home]
 
 ## Zuletzt
 
+- 2026-07-17 — **Branch-Zusammenführung auf `main`:** die interview-basierten Vollversionen
+  der 3 „okay"-Werke ([[Riyria]], [[Survival Quest]], [[Scholomance]], MIT Aspekt-Bewertungen)
+  und der Empfehlungslauf beider Sessions in einem `main` vereint. Ersetzt die frühere, aus
+  dem Artefakt rekonstruierte Fassung (s. [[Profil]] Sync-Vorfall).
+- 2026-07-17 — **Erster Empfehlungslauf:** [[2026-07-17 Deutsche Bücher quer über alle Räume]].
+  Drei book-scout-Agenten (LitRPG/Fantasy/Krimi) → 31 Kandidaten → **5 verifizierte
+  Empfehlungen** auf Deutsch: [[Die guten Jungs]] · [[Das Geheimnis von Askir]] ·
+  [[Susan Ryeland ermittelt (Magpie Murders)]] · [[Hawthorne ermittelt]] ·
+  [[Die Gilde der schwarzen Magier]]. (Riyria zurückgezogen: bereits „okay".) Format pro
+  Titel noch offen (Mistborn/Rabenschatten als Buch nachrückbereit).
 - 2026-07-16 — Werk 7: [[Riyria]] (Michael J. Sullivan, Revelations, 6 Bände), **mixed /
   „okay"** — 3. Graubereich-Werk, 2. mixed in [[Fantasy]]. Hörbuch dt., **[[David Nathan]]**
   (loved, 4. „trägt"-Stimme). **Doppel-Referenz:** geliebt [[Ungleiches Duo]] (+2, Royce &

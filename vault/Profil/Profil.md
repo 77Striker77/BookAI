@@ -55,6 +55,11 @@ tags: [moc, profil]
    „trägt massiv" → bei Hörbuch-Kandidaten Quasi-Vetorecht. (Gilt nur fürs Hörbuch;
    siehe Format-Hinweis.)
 5. **Figuren-Bindung trägt** — [[Ungleiches Duo]] (LitRPG), [[Akademie-Leben & Gemeinschaft]] (Fantasy).
+6. **Machtsteigerungs-Kurve MIT Peak + Magie-/Power-Fantasy-Lean (geschärft, Graubereich)** —
+   erwünscht ist eine spürbare Macht-/Fortschritts-Kurve mit Peak/Limit-Break; **beide flachen
+   Pole sind Malus**: OP-von-Anfang ([[Scholomance]]) UND gedeckelt-ohne-Limit-Break ([[Riyria]]).
+   Dazu spürbarer Magie-/Power-Fantasy-Anteil („zu wenig Fantasy" stört). Details: [[No-Gos]].
+   *(Rekonstruiert 2026-07-17 aus dem Bibliotheks-Artefakt — s. Sync-Vorfall unten.)*
 
 **Format-Erkenntnis (2026-07-16):** Der Nutzer HÖRT überwiegend, LIEST aber auch
 ([[Die mörderischen Cunninghams]] gelesen, dt.). **Format pro Werk erfragen, nie
@@ -93,6 +98,13 @@ NICHT als alleinigen Kompass nehmen.
 | [[Survival Quest]] ([[LitRPG]], Reihe, 7 Bände) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-16 |
 | [[Scholomance]] ([[Fantasy]], Trilogie) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-16 |
 | [[Riyria]] ([[Fantasy]], Revelations, 6 Bände) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-16 |
+
+> ⚠️ **Sync-Vorfall 2026-07-17 (BEHOBEN):** Die drei „okay"-Werke waren zwischenzeitlich nur
+> im veröffentlichten Bibliotheks-Artefakt erhalten, **nicht im Vault** (eine frühere Session
+> wurde nie committet, Container ephemer → Verlust) und wurden aus dem Artefakt rekonstruiert.
+> **Behoben mit der `main`-Zusammenführung 2026-07-17:** die vollen, **interview-basierten
+> Versionen MIT Aspekt-Bewertungen** (mit Zitaten) ersetzen die Rekonstruktion. Lehre: Vault
+> IMMER committen — jetzt als **OBERSTE REGEL** in [[Konventionen]] / CLAUDE.md verankert.
 
 ## Muster & Beobachtungen
 

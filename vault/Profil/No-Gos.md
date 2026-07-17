@@ -29,6 +29,27 @@ Herkunft: [[2026-07-16 Profil-Schärfung (Sprache, Länge, Romance)]].
 - [[Intrigen-Overload ohne Progress]] — Intrige nach der anderen ohne Haupt-Progress = raus.
 - [[Zäher Start]] · [[Nebenquest-Wildwuchs]] · [[Zu lange schwacher Held]] · [[Kitschig]] (falls belegt).
 
+## ⚡ Machtsteigerungs-Kurve MIT Peak (geschärft, aus Graubereich-Analyse)
+
+> Herkunft: frühere Graubereich-Analyse (Werke [[Riyria]], [[Scholomance]], [[Survival Quest]]),
+> **war nur im Bibliotheks-Artefakt erhalten, am 2026-07-17 in den Vault rekonstruiert** (eine
+> Session wurde nie committet → Verlust). Details/Aspekt-Bewertungen noch nachzutragen.
+
+Erwünscht ist eine **spürbare Machtsteigerungs-Kurve mit Peak/Limit-Break** — **beide Pole
+der flachen Kurve sind Malus:**
+- **OP-von-Anfang ohne Machtprogression** (Beispiel: El in [[Scholomance]]).
+- **Gedeckelt ohne Limit-Break** (Beispiel: Royce/Hadrian in [[Riyria]] — bleiben etwa gleich stark).
+
+Dazu: **Magie-/Power-Fantasy-Lean** („zu wenig Fantasy" stört) + Wunsch nach einem
+**ausbalancierten Machtsystem** (nicht zu crunchig, nicht beliebig).
+
+## Zusätzliche weiche No-Gos (aus derselben Analyse)
+
+- ✕ **über-crunchiges Zahlensystem** (zu viel Stat-/Zahlen-Klein-Klein).
+- ✕ **OP-von-Anfang ohne Machtprogression** (s. o.).
+- ✕ **überladenes Weltdetail** (Worldbuilding, das die Handlung erstickt / „verschenkt").
+- ✕ **Romance-Überhang · Dauer-Zynismus** (Ton-Ermüdung).
+
 ## Sprache (KEIN No-Go mehr)
 
 **Deutsch bevorzugt, Englisch als Fallback** (lange Wartezeit / großer Wunsch). Englische
