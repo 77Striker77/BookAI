@@ -33,8 +33,13 @@ Gewichte + Aspekt-Bewertungen der Referenzwerke geprüft.
 | 2 | [[Das Geheimnis von Askir]] | Fantasy | 85 % | **gleicher Autor** wie Streitende Götter, verlorenes Erbe + geheimnisv. Macht, dt. Original |
 | 3 | [[Susan Ryeland ermittelt (Magpie Murders)]] | Krimi | 84 % | Roman-im-Roman, doppeltes Fair-Play, Christie-Hommage |
 | 4 | [[Hawthorne ermittelt]] | Krimi | 83 % | Autor = Watson-Figur: Meta-Fair-Play in Reinform, trockener Humor, Ich-Erzähler |
-| 5 | [[Riyria (Der Thron von Melengar)]] | Fantasy | 82 % | verschollener Thronerbe + Dieb-Duo, schneller Start, **~11 h/Band**, David Nathan |
-| 6 | [[Die Gilde der schwarzen Magier]] | Fantasy | 80 % | reinste Akademie-Underdog-Story (Sonea aus dem Slum), Herkunfts-Konflikt |
+| 5 | [[Die Gilde der schwarzen Magier]] | Fantasy | 80 % | reinste Akademie-Underdog-Story (Sonea aus dem Slum), Herkunfts-Konflikt |
+
+> **Korrektur 2026-07-17 (nach Nutzerhinweis):** Ursprünglich als #5 empfohlenes **Riyria**
+> **zurückgezogen** — der Nutzer hat es **bereits erlebt und als „okay" eingestuft** (steht im
+> Bibliotheks-Artefakt, fehlte aber im Vault → s. Sync-Vorfall in [[Profil]]). Riyria verletzt
+> zudem den geschärften Faden **„Machtsteigerungs-Kurve mit Peak"** (keine Magie/Machtprogression).
+> Werk-Notiz [[Riyria]] angelegt. Ergebnis: **5 verifizierte Empfehlungen** (weiterhin ≥3).
 
 *Scores, ✓/✗-Details und Quellen in den jeweiligen Kandidaten-Notizen.*
 

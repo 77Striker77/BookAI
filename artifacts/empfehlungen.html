@@ -73,6 +73,13 @@
   .fit .good b { color: var(--good); } .fit .bad b { color: var(--bad); }
   .src { color: var(--muted); font-size: .76rem; margin-top: 8px; }
 
+  .world { display:grid; grid-template-columns:1fr; gap:8px; margin:2px 0 14px; }
+  @media (min-width:520px){ .world { grid-template-columns:1fr 1fr; } }
+  .world .box { background:color-mix(in srgb, var(--accent) 6%, transparent);
+    border:1px solid var(--line); border-radius:10px; padding:9px 12px; }
+  .world .box b { font-size:.78rem; display:block; margin-bottom:3px; letter-spacing:.01em; }
+  .world .box p { margin:0; font-size:.85rem; color:var(--ink); line-height:1.45; }
+
   details.rejected { margin-top: 20px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 8px 14px; }
   details.rejected summary { cursor: pointer; color: var(--muted); font-weight:600; }
   details.rejected ul { margin:10px 0 4px; }
@@ -137,7 +144,7 @@
   </div>
 
   <!-- ============ EMPFEHLUNGEN ============ -->
-  <h2>6 verifizierte Empfehlungen (nach Match sortiert)</h2>
+  <h2>5 verifizierte Empfehlungen (nach Match sortiert)</h2>
 
   <!-- #1 Die guten Jungs -->
   <article class="card">
@@ -146,6 +153,10 @@
       <div class="toprow"><span class="rank">#1 · Match 86 %</span><span class="badge litrpg">🎮 LitRPG</span></div>
       <div class="title">Die guten Jungs</div>
       <div class="meta">Eric Ugland · ab 2023 · 16 Bände (abgeschlossen) · Buch &amp; Hörbuch (Robert Frank) · Bd. 1 ≈ 8 h 53 min</div>
+      <div class="world">
+        <div class="box"><b>🌍 Welt</b><p>Die VR-Spielwelt <b>iNcarn8</b> („ein komplett neues Leben") — eine klassische mittelalterliche Fantasywelt namens <b>Vuldranni</b>. Der Held wacht als übergroßer Krieger <b>Montana</b> auf und wird prompt Erbe eines Herzogtums.</p></div>
+        <div class="box"><b>✨ Machtsystem</b><p>Klassisches <b>LitRPG/GameLit</b>: Level-ups, Klassen, Skills, ein tiefes Magie- und Spielsystem im Stil klassischer D&amp;D-Kampagnen. Fortschritt über clevere Quests und kreative Kämpfe — nicht über stumpfes Grinding.</p></div>
+      </div>
       <div class="overall"><span class="num">86 %</span><div class="bar fill-good"><span style="width:86%"></span></div></div>
       <div class="dims">
         <span class="lbl">Ton (Humor↔Härte)</span><div class="bar fill-good"><span style="width:88%"></span></div><span class="val">88</span>
@@ -175,6 +186,10 @@
       <div class="toprow"><span class="rank">#2 · Match 85 %</span><span class="badge fantasy">⚔️ Fantasy</span></div>
       <div class="title">Das Geheimnis von Askir</div>
       <div class="meta">Richard Schwartz · ab 2007 · 6 Bände + Folgezyklus · Buch &amp; Hörbuch (Michael Hansonis)</div>
+      <div class="world">
+        <div class="box"><b>🌍 Welt</b><p>Die einstige Weltmetropole <b>Askir</b>, Zentrum eines kontinentalen Imperiums (~2 Mio. Einwohner), das in <b>sieben Königreiche</b> zerfallen ist. Bunte Welt mit realen Anleihen (u. a. ein Kalifat im 1001-Nacht-Stil); der Held reist durch dieses zersplitterte Reich.</p></div>
+        <div class="box"><b>✨ Machtsystem</b><p>Magie als <b>erlernbares Handwerk</b> mit klaren Regeln — sie folgt dem <b>Energieerhaltungssatz</b> und fordert immer einen Preis (Umgebung oder Körper). Stärkste Quelle: der <b>Weltenstrom</b>, der in Ley-Linien mit Knotenpunkten fließt.</p></div>
+      </div>
       <div class="overall"><span class="num">85 %</span><div class="bar fill-good"><span style="width:85%"></span></div></div>
       <div class="dims">
         <span class="lbl">Themen</span><div class="bar fill-good"><span style="width:90%"></span></div><span class="val">90</span>
@@ -204,6 +219,10 @@
       <div class="toprow"><span class="rank">#3 · Match 84 %</span><span class="badge krimi">🔍 Krimi</span></div>
       <div class="title">Susan Ryeland ermittelt <span style="font-weight:400;color:var(--muted)">(Bd. 1: „Die Morde von Pye Hall")</span></div>
       <div class="meta">Anthony Horowitz · ab 2018 · 3 Bände · Buch &amp; Hörbuch · ≈ 11,6 h</div>
+      <div class="world">
+        <div class="box"><b>🌍 Welt / Prämisse</b><p>Das heutige England — und darin eingebettet ein <b>Golden-Age-Whodunit der 1950er</b> (Ermittler Atticus Pünd, Poirot-Hommage) im Landhaus-Milieu. Lektorin <b>Susan Ryeland</b> liest ein Krimi-Manuskript, dessen fiktiver Mord in ihre reale Welt übergreift.</p></div>
+        <div class="box"><b>🧩 Fair-Play-Prinzip</b><p>Kein Magiesystem, sondern ein <b>Doppelrätsel</b>: zwei ineinander verschachtelte Fälle, alle Hinweise offen. Die Lösung des inneren Romans ist der Schlüssel zum äußeren Mord — Miträtseln ist Pflicht.</p></div>
+      </div>
       <div class="overall"><span class="num">84 %</span><div class="bar fill-good"><span style="width:84%"></span></div></div>
       <div class="dims">
         <span class="lbl">Erzählstil (Meta)</span><div class="bar fill-good"><span style="width:95%"></span></div><span class="val">95</span>
@@ -233,6 +252,10 @@
       <div class="toprow"><span class="rank">#4 · Match 83 %</span><span class="badge krimi">🔍 Krimi</span></div>
       <div class="title">Hawthorne ermittelt <span style="font-weight:400;color:var(--muted)">(Bd. 1: „Ein perfider Plan")</span></div>
       <div class="meta">Anthony Horowitz · ab 2018 · 5 Bände · Buch &amp; Hörbuch (Volker Hanisch)</div>
+      <div class="world">
+        <div class="box"><b>🌍 Welt / Prämisse</b><p>Das heutige <b>London</b>: der schroffe Ex-Detective <b>Daniel Hawthorne</b> ermittelt als externer Berater der Polizei — begleitet vom Autor <b>Anthony Horowitz</b> selbst, der die Fälle als Buch dokumentieren soll.</p></div>
+        <div class="box"><b>🧩 Fair-Play-Prinzip</b><p>Kein Magiesystem — der Clou ist die <b>Meta-Ebene</b>: Horowitz schreibt sich als „Watson" in seinen eigenen Roman. Klassischer Whodunit nach Golden-Age-Regeln, fair aufgelöst, alle Indizien sichtbar.</p></div>
+      </div>
       <div class="overall"><span class="num">83 %</span><div class="bar fill-good"><span style="width:83%"></span></div></div>
       <div class="dims">
         <span class="lbl">Erzählstil (Meta)</span><div class="bar fill-good"><span style="width:95%"></span></div><span class="val">95</span>
@@ -254,39 +277,11 @@
     </div>
   </article>
 
-  <!-- #5 Riyria -->
+  <!-- #5 Gilde -->
   <article class="card">
     <div class="cover">📖</div>
     <div>
-      <div class="toprow"><span class="rank">#5 · Match 82 %</span><span class="badge fantasy">⚔️ Fantasy</span></div>
-      <div class="title">Riyria <span style="font-weight:400;color:var(--muted)">(Bd. 1: „Der Thron von Melengar")</span></div>
-      <div class="meta">Michael J. Sullivan · ab 2014 · 6 Bände + Prequels · Buch &amp; Hörbuch (David Nathan) · ≈ 11 h/Band</div>
-      <div class="overall"><span class="num">82 %</span><div class="bar fill-good"><span style="width:82%"></span></div></div>
-      <div class="dims">
-        <span class="lbl">Figuren (Duo)</span><div class="bar fill-good"><span style="width:88%"></span></div><span class="val">88</span>
-        <span class="lbl">Themen (Erbe)</span><div class="bar fill-good"><span style="width:85%"></span></div><span class="val">85</span>
-        <span class="lbl">Tempo</span><div class="bar fill-good"><span style="width:85%"></span></div><span class="val">85</span>
-        <span class="lbl">Genre</span><div class="bar fill-good"><span style="width:82%"></span></div><span class="val">82</span>
-        <span class="lbl">Handwerk</span><div class="bar fill-good"><span style="width:78%"></span></div><span class="val">78</span>
-        <span class="lbl">Setting</span><div class="bar fill-good"><span style="width:75%"></span></div><span class="val">75</span>
-      </div>
-      <div class="fit">
-        <div class="good"><b>✓ Was passt</b>
-          <ul><li>Verschollener Thronerbe + kompetentes Dieb-Duo (Royce &amp; Hadrian = ungleiches Duo)</li>
-              <li>Schneller Einstieg „ohne Umschweife", <b>nur ~11 h/Band</b> — bequem unter deiner Grenze</li>
-              <li>Top-Sprecher David Nathan; Reihe abgeschlossen (kein Warten)</li></ul></div>
-        <div class="bad"><b>✗ Was passt nicht</b>
-          <ul><li>Eine Einzel-Rezension nennt stellenweise Tempo-Abflachung im Mittelteil (niedrige Konfidenz)</li></ul></div>
-      </div>
-      <div class="src">Quellen: Audioteka, Klett-Cotta, Goodreads</div>
-    </div>
-  </article>
-
-  <!-- #6 Gilde -->
-  <article class="card">
-    <div class="cover">📖</div>
-    <div>
-      <div class="toprow"><span class="rank">#6 · Match 80 %</span><span class="badge fantasy">⚔️ Fantasy</span></div>
+      <div class="toprow"><span class="rank">#5 · Match 80 %</span><span class="badge fantasy">⚔️ Fantasy</span></div>
       <div class="title">Die Gilde der schwarzen Magier <span style="font-weight:400;color:var(--muted)">(Bd. 1: „Die Rebellin")</span></div>
       <div class="meta">Trudi Canavan · ab 2004 · Trilogie + Folgereihen · Buch &amp; Hörbuch (Martina Rester-Gellhaus)</div>
       <div class="overall"><span class="num">80 %</span><div class="bar fill-good"><span style="width:80%"></span></div></div>
@@ -311,18 +306,25 @@
     </div>
   </article>
 
-  <!-- ============ HINWEIS FORMAT ============ -->
+  <!-- ============ HINWEIS PROFIL-KORREKTUR ============ -->
+  <div class="note">
+    <b>✨ Geschärftes Profil (aus „Meine Bibliothek"):</b> Du magst eine <b>Machtsteigerungs-Kurve
+    MIT Peak</b> und einen spürbaren <b>Magie-/Power-Fantasy-Lean</b>. <b>Riyria</b> hast du deshalb
+    schon als „okay" eingestuft (starkes Duo &amp; Mystery, aber <b>keine Magie/Machtprogression</b>) —
+    darum ist es hier <b>raus</b>. Deshalb der beste Fantasy-Fit für dieses Kriterium:
+    <b>Die Nebelgeborenen (Mistborn)</b> — Allomantie-Machtaufstieg mit legendärem Finale. Nur als
+    Hörbuch zu lang (~27 h); <b>als Buch die Nummer 1</b>.
+  </div>
   <div class="note">
     <b>📖 vs. 🎧 — der offene Hebel:</b> Sag mir pro Titel, ob du <b>liest</b> oder <b>hörst</b>.
-    Zwei thematische Volltreffer — <b>Die Nebelgeborenen (Mistborn)</b> und <b>Rabenschatten
-    (Das Lied des Blutes)</b> — sind nur als Hörbuch zu lang (~27–29 h/Band). <b>Als Buch</b>
-    rücken sie sofort in diese Liste.
+    Mistborn und <b>Rabenschatten</b> sind nur als Hörbuch zu lang (~27–29 h/Band) — als Buch beide top.
   </div>
 
   <!-- ============ VERWORFEN ============ -->
   <details class="rejected">
-    <summary>Warum nicht andere? (verworfene &amp; zurückgestellte Kandidaten)</summary>
+    <summary>Warum nicht andere? (verworfene, zurückgestellte &amp; bereits bekannte)</summary>
     <ul>
+      <li><b>Riyria</b> — <b>bereits erlebt &amp; als „okay" eingestuft</b> (keine Magie/Machtprogression). Nicht erneut empfohlen.</li>
       <li><b>He Who Fights With Monsters</b> — dt. Hörbuch evtl. ~33 h (Längen-Malus) + mäandernder Plot / „Zäher Start"-Risiko.</li>
       <li><b>The Primal Hunter</b> — Bände ~25 h (Längen-Malus) + „bogged down in word count" / Tempo.</li>
       <li><b>Die Nebelgeborenen (Mistborn)</b> — Ideal-Match, aber Hörbuch ~27 h. <em>Als Buch top.</em></li>

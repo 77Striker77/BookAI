@@ -34,11 +34,14 @@ tags: [moc, home]
 
 ## Zuletzt
 
+- 2026-07-17 — **Sync-Reparatur:** 3 „okay"-Werke ([[Riyria]], [[Survival Quest]],
+  [[Scholomance]]) + geschärfter Faden #6 („Machtsteigerungs-Kurve mit Peak") waren nur im
+  Bibliotheks-Artefakt, nicht im Vault → aus Artefakt rekonstruiert (s. [[Profil]] Sync-Vorfall).
 - 2026-07-17 — **Erster Empfehlungslauf:** [[2026-07-17 Deutsche Bücher quer über alle Räume]].
-  Drei book-scout-Agenten (LitRPG/Fantasy/Krimi) → 31 Kandidaten → **6 verifizierte
+  Drei book-scout-Agenten (LitRPG/Fantasy/Krimi) → 31 Kandidaten → **5 verifizierte
   Empfehlungen** auf Deutsch: [[Die guten Jungs]] · [[Das Geheimnis von Askir]] ·
   [[Susan Ryeland ermittelt (Magpie Murders)]] · [[Hawthorne ermittelt]] ·
-  [[Riyria (Der Thron von Melengar)]] · [[Die Gilde der schwarzen Magier]]. Format pro
+  [[Die Gilde der schwarzen Magier]]. (Riyria zurückgezogen: bereits „okay".) Format pro
   Titel noch offen (Mistborn/Rabenschatten als Buch nachrückbereit).
 - 2026-07-16 — Werk 4: [[Die mörderischen Cunninghams]] (Benjamin Stevenson), **loved, top**.
   Neuer Kontext [[Krimi]]. **Erstes GELESENES Werk** (Buch, dt.) — Format-Lektion: immer

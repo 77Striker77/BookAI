@@ -40,6 +40,11 @@ tags: [moc, profil]
    „trägt massiv" → bei Hörbuch-Kandidaten Quasi-Vetorecht. (Gilt nur fürs Hörbuch;
    siehe Format-Hinweis.)
 5. **Figuren-Bindung trägt** — [[Ungleiches Duo]] (LitRPG), [[Akademie-Leben & Gemeinschaft]] (Fantasy).
+6. **Machtsteigerungs-Kurve MIT Peak + Magie-/Power-Fantasy-Lean (geschärft, Graubereich)** —
+   erwünscht ist eine spürbare Macht-/Fortschritts-Kurve mit Peak/Limit-Break; **beide flachen
+   Pole sind Malus**: OP-von-Anfang ([[Scholomance]]) UND gedeckelt-ohne-Limit-Break ([[Riyria]]).
+   Dazu spürbarer Magie-/Power-Fantasy-Anteil („zu wenig Fantasy" stört). Details: [[No-Gos]].
+   *(Rekonstruiert 2026-07-17 aus dem Bibliotheks-Artefakt — s. Sync-Vorfall unten.)*
 
 **Format-Erkenntnis (2026-07-16):** Der Nutzer HÖRT überwiegend, LIEST aber auch
 ([[Die mörderischen Cunninghams]] gelesen, dt.). **Format pro Werk erfragen, nie
@@ -75,6 +80,15 @@ NICHT als alleinigen Kompass nehmen.
 | [[Dungeon Crawler Carl]] ([[LitRPG]], Reihe) | loved | hoerbuch (dt.) | 2026-07-16 |
 | [[Die Streitenden Götter]] ([[Fantasy]], Verbund: [[Sturmfels-Akademie]] + [[Der Prinz von Staub und Schatten]]) | loved | hoerbuch (dt.) | 2026-07-16 |
 | [[Die mörderischen Cunninghams]] ([[Krimi]], Reihe) | loved | **buch/gelesen** (dt.) | 2026-07-16 |
+| [[Riyria]] ([[Fantasy]], Universum) | **mixed (okay)** | ⚠️ unbekannt | rekonstruiert 2026-07-17 |
+| [[Survival Quest]] ([[LitRPG]], Reihe) | **mixed (okay)** | ⚠️ unbekannt | rekonstruiert 2026-07-17 |
+| [[Scholomance]] ([[Fantasy]], Reihe) | **mixed (okay)** | ⚠️ unbekannt | rekonstruiert 2026-07-17 |
+
+> ⚠️ **Sync-Vorfall 2026-07-17:** Die drei „okay"-Werke ([[Riyria]], [[Survival Quest]],
+> [[Scholomance]]) UND der geschärfte rote Faden #6 waren nur im veröffentlichten
+> Bibliotheks-Artefakt erhalten, **nicht im Vault** — eine frühere Session wurde nie
+> committet (Container ephemer → Verlust). Aus dem Artefakt rekonstruiert; **Aspekt-
+> Bewertungen dieser 3 Werke fehlen noch (nachinterviewen).** Lehre: Vault IMMER committen.
 
 ## Muster & Beobachtungen
 
