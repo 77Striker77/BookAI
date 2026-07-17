@@ -4,6 +4,34 @@ Dies ist **BookAI**, ein persönliches Buch- & Hörbuch-Empfehlungssystem für *
 Nutzer. Alles Nötige liegt in diesem Repo — kein externes „Claude-Projekt" nötig, das
 Repo IST das Projekt. Der Vault wächst über Sessions hinweg (versioniert in Git).
 
+## ⚠️ OBERSTE REGEL — Vault ist die einzige Quelle, Artefakte sind nur Projektionen
+
+Diese Regel steht über allem anderen:
+
+1. **Der Vault (`vault/` im Repo) ist die EINZIGE Wahrheit & Datenquelle.** Jede Analyse,
+   jede Empfehlung, jedes Interview, jede Zahl lebt zuerst und maßgeblich im Vault.
+2. **Artefakte (`artifacts/*.html`) sind NUR Abbildungen/Projektionen des Vaults.** Sie
+   werden ausschließlich AUS dem Vault erzeugt. Ein Artefakt darf **niemals** eine
+   Information enthalten, die nicht im Vault steht.
+3. **Nie Artefakt über Vault.** Weicht ein (auch veröffentlichtes) Artefakt vom Vault ab
+   oder enthält es mehr, ist das ein **Bug**: die Info wird SOFORT in den Vault
+   zurückgespiegelt (Backport) — der Vault gewinnt immer, nie umgekehrt.
+4. **Publish = Commit.** Ein Artefakt darf erst (re)publiziert werden, wenn der
+   zugrunde liegende Vault-Stand committet ist. Artefakt-Update und Vault-Commit gehören
+   in denselben Arbeitsschritt (Reihenfolge: Vault schreiben → committen → Artefakt aus
+   Vault erzeugen → pushen). Nie ein Artefakt aktualisieren und den Vault „später".
+5. **Startprüfung (jede Session, sobald Artefakte im Spiel sind):** Prüfe, ob die
+   Live-Artefakte Infos zeigen, die der Vault nicht hat. Wenn ja → erst backporten, dann
+   weiterarbeiten. Hilfsskript: `scripts/vault-first.sh` (zeigt uncommittete Vault-/
+   Artefakt-Änderungen).
+
+> **Warum diese Regel (Vorfall 2026-07-17):** Eine frühere Session hatte drei Werke
+> ([[Riyria]], [[Survival Quest]], [[Scholomance]]) und einen geschärften roten Faden nur
+> ins veröffentlichte Bibliotheks-Artefakt geschrieben, aber den Vault nie committet. Der
+> ephemere Container wurde recycelt → die Vault-Daten waren weg, nur das Artefakt überlebte.
+> Folge: eine Session ohne dieses Wissen empfahl ein bereits als „okay" bewertetes Werk.
+> Das darf nie wieder passieren.
+
 ## Beim Start jeder Session
 
 1. **Lies zuerst `vault/_System/Konventionen.md`** — die Spielregeln des Datenmodells.
@@ -28,10 +56,16 @@ Repo IST das Projekt. Der Vault wächst über Sessions hinweg (versioniert in Gi
 
 ## Die zwei festen Artefakte (nie ein drittes anlegen)
 
+**Beides sind reine Projektionen des Vaults (s. OBERSTE REGEL) — Inhalte immer aus
+`vault/` erzeugen, nie umgekehrt; vor Publish committen.**
+
 - **`artifacts/bibliothek.html`** „Meine Bibliothek" (📚) — Dashboard-Cockpit, wird bei
-  jeder Analyse aktualisiert. Gleiche URL: in neuer Session via `Artifact(action:"list")`
-  die bestehende URL holen und als `url:` mitgeben.
-- **`artifacts/empfehlungen.html`** „Empfehlungen" (🎯) — wird je Empfehlungslauf überschrieben.
+  jeder Analyse aus dem Vault neu erzeugt. Gleiche URL: in neuer Session via
+  `Artifact(action:"list")` die bestehende URL holen und als `url:` mitgeben.
+- **`artifacts/empfehlungen.html`** „Empfehlungen" (🎯) — wird je Empfehlungslauf aus dem
+  Vault überschrieben.
+- Die Repo-Dateien `artifacts/*.html` müssen mit der veröffentlichten Version übereinstimmen
+  (sonst überschreibt ein späterer Publish die gute Live-Version mit einem alten Stand).
 - Farbsystem verbindlich: 🔵 Wertung 0–5 · 🟡 Bekanntheit · 🟢 positiv · 🔴 negativ.
 
 ## Nutzer-Kurzprofil (Details im Vault, hier nur Orientierung)
@@ -48,3 +82,9 @@ Repo IST das Projekt. Der Vault wächst über Sessions hinweg (versioniert in Gi
 
 Auf dem Feature-Branch entwickeln, nach Änderungen committen & pushen (der Vault ist das
 Gedächtnis — Verlust vermeiden). Commits klar beschreiben.
+
+**Verbindlich (s. OBERSTE REGEL):** Vault-Änderungen und das daraus erzeugte Artefakt
+gehören in **denselben** Commit-/Push-Schritt. Nie ein Artefakt publizieren, solange der
+Vault-Stand uncommittet ist — der ephemere Container kann uncommittete Arbeit vernichten,
+während das veröffentlichte Artefakt überlebt (genau so entstand der Vorfall 2026-07-17).
+Vor Publish/Commit prüfen: `bash scripts/vault-first.sh`.

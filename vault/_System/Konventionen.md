@@ -8,6 +8,12 @@ Dieser Vault ist die **einzige Wahrheit** des Empfehlungssystems — ein normale
 Obsidian-Vault: atomare Notizen, YAML-Frontmatter, `[[Wikilinks]]`, Tags.
 **Nie raten — immer hier lesen, bevor gesucht oder empfohlen wird.**
 
+> ⚠️ **OBERSTE REGEL (siehe `CLAUDE.md`):** Der Vault ist die EINZIGE Quelle. Die
+> `artifacts/*.html` sind nur **Projektionen** daraus — nur aus dem Vault erzeugt, nie
+> umgekehrt. Enthält ein (auch veröffentlichtes) Artefakt mehr als der Vault, ist das ein
+> Bug: **erst in den Vault backporten**, dann das Artefakt neu erzeugen. Publish nur mit
+> committetem Vault-Stand (`bash scripts/vault-first.sh`).
+
 ## Struktur
 
 ```

@@ -50,6 +50,12 @@ Phase 4  ARTEFAKT          → Skill: book-reco-artifact
 
 ## Startlogik (immer zuerst)
 
+0. **OBERSTE REGEL beachten (siehe `CLAUDE.md`):** Der Vault ist die EINZIGE Quelle;
+   Artefakte sind nur Projektionen. **Bevor du dem Vault vertraust, mach den Drift-Check:**
+   enthält ein Live-Artefakt (`Artifact(action:"list")` → „Meine Bibliothek" per WebFetch)
+   Werke/Fakten, die im Vault fehlen? Wenn ja → **erst in den Vault backporten**
+   (der Vault gewinnt, nie das Artefakt), dann weiterarbeiten. Sonst riskierst du, bereits
+   bewertete Werke erneut zu empfehlen (Vorfall 2026-07-17). Publish immer mit Commit.
 1. **Lade den Vault** (Obsidian-Style, Konventionen: `vault/_System/Konventionen.md`):
    `vault/Profil/Profil.md` + `Gewichte.md` + `No-Gos.md`, relevante
    `vault/Bibliothek/Werke/*.md` und — vor jeder Suche — das **Gedächtnis**
