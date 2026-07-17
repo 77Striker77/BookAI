@@ -63,7 +63,7 @@
   .bar > span { position: absolute; inset: 0 auto 0 0; border-radius: 999px; }
   .fill-good > span { background: var(--good); } .fill-mid > span { background: var(--mid); } .fill-bad > span { background: var(--bad); }
 
-  .dims { display: grid; grid-template-columns: 130px 1fr 34px; gap: 5px 10px; align-items: center; margin: 4px 0 12px; }
+  .dims { display: grid; grid-template-columns: 135px 1fr 34px; gap: 5px 10px; align-items: center; margin: 4px 0 12px; }
   .dims .lbl { font-size: .82rem; color: var(--muted); }
   .dims .bar { height: 8px; } .dims .val { font-size: .78rem; color: var(--muted); text-align: right; }
 
@@ -73,12 +73,13 @@
   .fit .good b { color: var(--good); } .fit .bad b { color: var(--bad); }
   .src { color: var(--muted); font-size: .76rem; margin-top: 8px; }
 
-  .world { display:grid; grid-template-columns:1fr; gap:8px; margin:2px 0 14px; }
+  .world { display:grid; grid-template-columns:1fr; gap:8px; margin:2px 0 12px; }
   @media (min-width:520px){ .world { grid-template-columns:1fr 1fr; } }
   .world .box { background:color-mix(in srgb, var(--accent) 6%, transparent);
     border:1px solid var(--line); border-radius:10px; padding:9px 12px; }
   .world .box b { font-size:.78rem; display:block; margin-bottom:3px; letter-spacing:.01em; }
   .world .box p { margin:0; font-size:.85rem; color:var(--ink); line-height:1.45; }
+  .world .box.full { grid-column: 1 / -1; }
 
   details.rejected { margin-top: 20px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 8px 14px; }
   details.rejected summary { cursor: pointer; color: var(--muted); font-weight:600; }
@@ -104,12 +105,13 @@
   <!-- ============ BASIS-KURZBLOCK ============ -->
   <h2>Gematcht gegen deine Kerndaten</h2>
   <div class="basis">
-    <p class="sub">Roter Faden über alle Räume: <b>Fokus &amp; Vorwärtsdrang (kein zäher Start / Abschweifen), handlungsfähiger Held, Humor als Plus, starker Sprecher beim Hörbuch.</b> <em>Vollständig im Artefakt „Meine Bibliothek".</em></p>
+    <p class="sub">Roter Faden über alle Räume: <b>Fokus &amp; Vorwärtsdrang (kein zäher Start), handlungsfähiger Held, Humor als Plus, starker Sprecher beim Hörbuch</b> — plus geschärft: <b>Machtsteigerungs-Kurve mit Peak / Magie-Lean</b>. <em>Vollständig im Artefakt „Meine Bibliothek".</em></p>
     <div class="chips">
       <span class="chip">Konstanter Vorwärtsdrang</span>
       <span class="chip">handlungsfähiger Held</span>
       <span class="chip">Humor</span>
       <span class="chip">starke Sprecher-Performance</span>
+      <span class="chip">Machtprogression mit Peak</span>
       <span class="chip nogo">Reihe &lt;3 Bände</span>
       <span class="chip nogo">Romance als Treiber</span>
       <span class="chip nogo">Reihenschnitt &gt; ~20 h</span>
@@ -154,8 +156,8 @@
       <div class="title">Die guten Jungs</div>
       <div class="meta">Eric Ugland · ab 2023 · 16 Bände (abgeschlossen) · Buch &amp; Hörbuch (Robert Frank) · Bd. 1 ≈ 8 h 53 min</div>
       <div class="world">
-        <div class="box"><b>🌍 Welt</b><p>Die VR-Spielwelt <b>iNcarn8</b> („ein komplett neues Leben") — eine klassische mittelalterliche Fantasywelt namens <b>Vuldranni</b>. Der Held wacht als übergroßer Krieger <b>Montana</b> auf und wird prompt Erbe eines Herzogtums.</p></div>
-        <div class="box"><b>✨ Machtsystem</b><p>Klassisches <b>LitRPG/GameLit</b>: Level-ups, Klassen, Skills, ein tiefes Magie- und Spielsystem im Stil klassischer D&amp;D-Kampagnen. Fortschritt über clevere Quests und kreative Kämpfe — nicht über stumpfes Grinding.</p></div>
+        <div class="box"><b>🌍 Welt</b><p>VR-Spielwelt <b>iNcarn8</b> / Fantasywelt <b>Vuldranni</b>. Der Held wacht als übergroßer Krieger <b>Montana</b> auf und wird Herzogs-Erbe.</p></div>
+        <div class="box"><b>✨ Machtsystem</b><p><b>LitRPG/GameLit</b>: Level, Klassen, Skills im D&amp;D-Stil; Fortschritt über clevere Quests und Kämpfe — kein stumpfes Grinding.</p></div>
       </div>
       <div class="overall"><span class="num">86 %</span><div class="bar fill-good"><span style="width:86%"></span></div></div>
       <div class="dims">
@@ -169,59 +171,30 @@
       <div class="fit">
         <div class="good"><b>✓ Was passt</b>
           <ul><li>Nächster DCC-Ton-Zwilling: schwarzer/absurder Humor + echte Härte</li>
-              <li>Pragmatischer, handlungsfähiger Held (Montana) — „stolpert durch Pragmatismus &amp; Hartnäckigkeit"</li>
-              <li>Kurze Bände (~9 h) = purer Vorwärtsdrang, kein Grinding-Leerlauf; dt. Hörbuch</li></ul></div>
+              <li>Pragmatischer, handlungsfähiger Held (Montana)</li>
+              <li>Kurze Bände (~9 h) = purer Vorwärtsdrang; dt. Hörbuch</li></ul></div>
         <div class="bad"><b>✗ Was passt nicht</b>
           <ul><li>Weniger Kapitalismus-/System-Satire als DCC</li>
-              <li>Episodische Struktur — Gesamtbogen über 16 Bände wirkt dünner</li></ul></div>
+              <li>Episodische Struktur — Gesamtbogen dünner</li></ul></div>
       </div>
-      <div class="src">Quellen: Audible.de, Amazon.de, BücherTreff</div>
-    </div>
-  </article>
-
-  <!-- #2 Askir -->
-  <article class="card">
-    <div class="cover">📖</div>
-    <div>
-      <div class="toprow"><span class="rank">#2 · Match 85 %</span><span class="badge fantasy">⚔️ Fantasy</span></div>
-      <div class="title">Das Geheimnis von Askir</div>
-      <div class="meta">Richard Schwartz · ab 2007 · 6 Bände + Folgezyklus · Buch &amp; Hörbuch (Michael Hansonis)</div>
       <div class="world">
-        <div class="box"><b>🌍 Welt</b><p>Die einstige Weltmetropole <b>Askir</b>, Zentrum eines kontinentalen Imperiums (~2 Mio. Einwohner), das in <b>sieben Königreiche</b> zerfallen ist. Bunte Welt mit realen Anleihen (u. a. ein Kalifat im 1001-Nacht-Stil); der Held reist durch dieses zersplitterte Reich.</p></div>
-        <div class="box"><b>✨ Machtsystem</b><p>Magie als <b>erlernbares Handwerk</b> mit klaren Regeln — sie folgt dem <b>Energieerhaltungssatz</b> und fordert immer einen Preis (Umgebung oder Körper). Stärkste Quelle: der <b>Weltenstrom</b>, der in Ley-Linien mit Knotenpunkten fließt.</p></div>
+        <div class="box"><b>🗺️ Universum &amp; Reihenfolge</b><p>Welt <b>Vuldranni</b>: <b>„Die guten Jungs" zuerst</b>, dann „Die bösen Jungs" (Gegenseite, gleiche Welt) — spätere Crossover-Bände verweben beide.</p></div>
+        <div class="box"><b>👤 Autor</b><p><b>Eric Ugland</b> — US-Indie-LitRPG-Autor (Los Angeles), etabliert, sehr hohe Veröffentlichungsfrequenz.</p></div>
       </div>
-      <div class="overall"><span class="num">85 %</span><div class="bar fill-good"><span style="width:85%"></span></div></div>
-      <div class="dims">
-        <span class="lbl">Themen</span><div class="bar fill-good"><span style="width:90%"></span></div><span class="val">90</span>
-        <span class="lbl">Figuren</span><div class="bar fill-good"><span style="width:85%"></span></div><span class="val">85</span>
-        <span class="lbl">Handwerk</span><div class="bar fill-good"><span style="width:82%"></span></div><span class="val">82</span>
-        <span class="lbl">Setting</span><div class="bar fill-good"><span style="width:82%"></span></div><span class="val">82</span>
-        <span class="lbl">Genre</span><div class="bar fill-good"><span style="width:80%"></span></div><span class="val">80</span>
-        <span class="lbl">Ton</span><div class="bar fill-good"><span style="width:78%"></span></div><span class="val">78</span>
-      </div>
-      <div class="fit">
-        <div class="good"><b>✓ Was passt</b>
-          <ul><li><b>Derselbe Autor wie „Die Streitenden Götter"</b> — DNA-nah, deutscher Originalautor (kein Übersetzungs-Warten)</li>
-              <li>Verlorenes Erbe (untergegangenes Askir) + geheimnisvolle Macht + Verfolgungsdruck</li>
-              <li>Handlungsfähiger Ich-Held (Havald), stringente militärische Handlung</li></ul></div>
-        <div class="bad"><b>✗ Was passt nicht</b>
-          <ul><li>Etwas langsamer Einstieg („anfangs langwierig, aber notwendig") — dein Payoff-Faible fängt das ab (Kombiregel)</li>
-              <li>Exakte Hördauer pro Band vor dem Kauf gegen die ~20-h-Grenze prüfen</li></ul></div>
-      </div>
-      <div class="src">Quellen: Goodreads, Audible.de, LovelyBooks</div>
+      <div class="src">Quellen: Audible.de, Amazon.de, BücherTreff, Fandom</div>
     </div>
   </article>
 
-  <!-- #3 Susan Ryeland -->
+  <!-- #2 Susan Ryeland -->
   <article class="card">
     <div class="cover">📖</div>
     <div>
-      <div class="toprow"><span class="rank">#3 · Match 84 %</span><span class="badge krimi">🔍 Krimi</span></div>
+      <div class="toprow"><span class="rank">#2 · Match 84 %</span><span class="badge krimi">🔍 Krimi</span></div>
       <div class="title">Susan Ryeland ermittelt <span style="font-weight:400;color:var(--muted)">(Bd. 1: „Die Morde von Pye Hall")</span></div>
       <div class="meta">Anthony Horowitz · ab 2018 · 3 Bände · Buch &amp; Hörbuch · ≈ 11,6 h</div>
       <div class="world">
-        <div class="box"><b>🌍 Welt / Prämisse</b><p>Das heutige England — und darin eingebettet ein <b>Golden-Age-Whodunit der 1950er</b> (Ermittler Atticus Pünd, Poirot-Hommage) im Landhaus-Milieu. Lektorin <b>Susan Ryeland</b> liest ein Krimi-Manuskript, dessen fiktiver Mord in ihre reale Welt übergreift.</p></div>
-        <div class="box"><b>🧩 Fair-Play-Prinzip</b><p>Kein Magiesystem, sondern ein <b>Doppelrätsel</b>: zwei ineinander verschachtelte Fälle, alle Hinweise offen. Die Lösung des inneren Romans ist der Schlüssel zum äußeren Mord — Miträtseln ist Pflicht.</p></div>
+        <div class="box"><b>🌍 Welt / Prämisse</b><p>Heutiges England + eingebetteter <b>Golden-Age-Whodunit der 1950er</b> (Atticus Pünd, Poirot-Hommage). Lektorin Susan Ryeland liest ein Manuskript, dessen Mord in die Realität übergreift.</p></div>
+        <div class="box"><b>🧩 Fair-Play-Prinzip</b><p><b>Doppelrätsel</b>: zwei verschachtelte Fälle, alle Hinweise offen. Die Lösung des inneren Romans ist der Schlüssel zum äußeren Mord.</p></div>
       </div>
       <div class="overall"><span class="num">84 %</span><div class="bar fill-good"><span style="width:84%"></span></div></div>
       <div class="dims">
@@ -234,27 +207,31 @@
       </div>
       <div class="fit">
         <div class="good"><b>✓ Was passt</b>
-          <ul><li>Roman-im-Roman: ein Golden-Age-Whodunit steckt im Rahmen einer 2. Ermittlung → <b>doppeltes Fair-Play</b></li>
-              <li>Meta-Erzählstil + cleverer Twist auf Cunninghams-Niveau, Christie-Hommage</li>
+          <ul><li>Roman-im-Roman → <b>doppeltes Fair-Play</b>, Christie-Hommage</li>
+              <li>Meta-Erzählstil + cleverer Twist auf Cunninghams-Niveau</li>
               <li>Deutsch als Buch &amp; Hörbuch, angenehme Länge</li></ul></div>
         <div class="bad"><b>✗ Was passt nicht</b>
-          <ul><li>Die verschachtelte Doppelstruktur bremst stellenweise das Tempo</li>
-              <li>Landhaus-Fall statt echtem geschlossenem Kreis (Zug/Insel) — Locked-Room etwas schwächer</li></ul></div>
+          <ul><li>Doppelstruktur bremst stellenweise das Tempo</li>
+              <li>Landhaus-Fall statt echtem geschlossenem Kreis</li></ul></div>
       </div>
-      <div class="src">Quellen: Suhrkamp, BücherTreff, Storytel</div>
+      <div class="world">
+        <div class="box"><b>🗺️ Universum &amp; Reihenfolge</b><p>Abgeschlossene Trilogie <b>in Reihenfolge</b>: Die Morde von Pye Hall → Moonflower Murders → Marble Hall Murders. <b>Getrennt</b> von der Hawthorne-Reihe (gleiche Autor, andere Welt).</p></div>
+        <div class="box"><b>👤 Autor</b><p><b>Anthony Horowitz</b> — England (*1955), weltbekannt: Alex Rider (&gt;21 Mio), <b>offizielle Sherlock- &amp; Bond-Romane</b>, OBE/CBE.</p></div>
+      </div>
+      <div class="src">Quellen: Suhrkamp, BücherTreff, Storytel, Wikipedia</div>
     </div>
   </article>
 
-  <!-- #4 Hawthorne -->
+  <!-- #3 Hawthorne -->
   <article class="card">
     <div class="cover">📖</div>
     <div>
-      <div class="toprow"><span class="rank">#4 · Match 83 %</span><span class="badge krimi">🔍 Krimi</span></div>
+      <div class="toprow"><span class="rank">#3 · Match 83 %</span><span class="badge krimi">🔍 Krimi</span></div>
       <div class="title">Hawthorne ermittelt <span style="font-weight:400;color:var(--muted)">(Bd. 1: „Ein perfider Plan")</span></div>
-      <div class="meta">Anthony Horowitz · ab 2018 · 5 Bände · Buch &amp; Hörbuch (Volker Hanisch)</div>
+      <div class="meta">Anthony Horowitz · ab 2017 · 6 Bände · Buch &amp; Hörbuch (Volker Hanisch)</div>
       <div class="world">
-        <div class="box"><b>🌍 Welt / Prämisse</b><p>Das heutige <b>London</b>: der schroffe Ex-Detective <b>Daniel Hawthorne</b> ermittelt als externer Berater der Polizei — begleitet vom Autor <b>Anthony Horowitz</b> selbst, der die Fälle als Buch dokumentieren soll.</p></div>
-        <div class="box"><b>🧩 Fair-Play-Prinzip</b><p>Kein Magiesystem — der Clou ist die <b>Meta-Ebene</b>: Horowitz schreibt sich als „Watson" in seinen eigenen Roman. Klassischer Whodunit nach Golden-Age-Regeln, fair aufgelöst, alle Indizien sichtbar.</p></div>
+        <div class="box"><b>🌍 Welt / Prämisse</b><p>Heutiges <b>London</b>: Ex-Detective <b>Daniel Hawthorne</b> ermittelt als Berater — begleitet vom Autor <b>Anthony Horowitz</b> selbst.</p></div>
+        <div class="box"><b>🧩 Fair-Play-Prinzip</b><p>Meta in Reinform: Horowitz schreibt sich als <b>„Watson"</b> in seinen eigenen Roman. Golden-Age-Regeln, fair aufgelöst.</p></div>
       </div>
       <div class="overall"><span class="num">83 %</span><div class="bar fill-good"><span style="width:83%"></span></div></div>
       <div class="dims">
@@ -267,13 +244,54 @@
       </div>
       <div class="fit">
         <div class="good"><b>✓ Was passt</b>
-          <ul><li>Horowitz schreibt sich <b>selbst als Watson-Figur</b> in den Roman → Meta-Fair-Play in Reinform</li>
-              <li>Trockener Humor + Ich-Erzähler wie bei Cunninghams; cleverer, fairer Twist</li>
-              <li>Lange Reihe (5 Bände), dt. Buch &amp; Hörbuch</li></ul></div>
+          <ul><li>Horowitz <b>als Watson-Figur</b> → Meta-Fair-Play in Reinform</li>
+              <li>Trockener Humor + Ich-Erzähler wie bei Cunninghams</li>
+              <li>Lange Reihe (6 Bände), dt. Buch &amp; Hörbuch</li></ul></div>
         <div class="bad"><b>✗ Was passt nicht</b>
-          <ul><li>Klassischer Fall-Whodunit statt geschlossenem Kreis — dein Locked-Room-Bonus fehlt</li></ul></div>
+          <ul><li>Klassischer Fall-Whodunit statt geschlossenem Kreis</li></ul></div>
       </div>
-      <div class="src">Quellen: BücherTreff, Goodreads</div>
+      <div class="world">
+        <div class="box"><b>🗺️ Universum &amp; Reihenfolge</b><p>6-Bände-Reihe <b>in Reihenfolge</b> (Word is Murder → … → A Deadly Episode); Hawthornes Vergangenheit wird graduell enthüllt. <b>Getrennt</b> von Susan Ryeland.</p></div>
+        <div class="box"><b>👤 Autor</b><p><b>Anthony Horowitz</b> — England (*1955), OBE/CBE; offizielle Sherlock- &amp; Bond-Romane.</p></div>
+      </div>
+      <div class="src">Quellen: BücherTreff, anthonyhorowitz.com, Goodreads</div>
+    </div>
+  </article>
+
+  <!-- #4 Askir (korrigiert) -->
+  <article class="card">
+    <div class="cover">📖</div>
+    <div>
+      <div class="toprow"><span class="rank">#4 · Match 81 %</span><span class="badge fantasy">⚔️ Fantasy</span></div>
+      <div class="title">Das Geheimnis von Askir</div>
+      <div class="meta">Richard Schwartz · ab 2006 · 6 Bände (+ Fortsetzung „Die Götterkriege") · Buch &amp; Hörbuch (Michael Hansonis)</div>
+      <div class="world">
+        <div class="box"><b>🌍 Welt</b><p>Die einstige Weltmetropole <b>Askir</b>, ein in <b>7 Königreiche</b> zerfallenes Imperium; bunte Welt mit realen Anleihen (u. a. 1001-Nacht-Kalifat).</p></div>
+        <div class="box"><b>✨ Machtsystem</b><p>Magie als <b>erlernbares Handwerk</b> mit klaren Regeln (Energieerhaltung, Preis für jeden Zauber); Quelle: der <b>Weltenstrom</b> (Ley-Linien). Passt zum Magie-Lean.</p></div>
+      </div>
+      <div class="overall"><span class="num">81 %</span><div class="bar fill-good"><span style="width:81%"></span></div></div>
+      <div class="dims">
+        <span class="lbl">Themen (Erbe/Macht)</span><div class="bar fill-good"><span style="width:90%"></span></div><span class="val">90</span>
+        <span class="lbl">Figuren</span><div class="bar fill-good"><span style="width:85%"></span></div><span class="val">85</span>
+        <span class="lbl">Setting</span><div class="bar fill-good"><span style="width:82%"></span></div><span class="val">82</span>
+        <span class="lbl">Handwerk</span><div class="bar fill-good"><span style="width:80%"></span></div><span class="val">80</span>
+        <span class="lbl">Genre</span><div class="bar fill-good"><span style="width:80%"></span></div><span class="val">80</span>
+        <span class="lbl">Ton</span><div class="bar fill-good"><span style="width:78%"></span></div><span class="val">78</span>
+      </div>
+      <div class="fit">
+        <div class="good"><b>✓ Was passt</b>
+          <ul><li>Verlorenes Erbe + geheimnisvolle Macht (wie beim geliebten „Prinz von Staub und Schatten")</li>
+              <li><b>Geregeltes Magiesystem</b> — trifft deinen Magie-/Machtsystem-Faible</li>
+              <li>Handlungsfähiger Ich-Held; <b>dt. Original</b> (kein Übersetzungs-Warten)</li></ul></div>
+        <div class="bad"><b>✗ Was passt nicht</b>
+          <ul><li><b>Nicht</b> der Weitze-Ton — <b>anderer Autor</b> (Richard Schwartz, nicht „Streitende Götter")</li>
+              <li>Leicht langsamer Einstieg (mit Payoff); Bandlänge vs. ~20 h prüfen</li></ul></div>
+      </div>
+      <div class="world">
+        <div class="box"><b>🗺️ Universum &amp; Reihenfolge</b><p>Welt Askir: <b>„Das Geheimnis von Askir" zuerst</b> (6 Bd.), dann <b>„Die Götterkriege"</b> (7 Bd., Fortsetzung — spoilert den Erstzyklus).</p></div>
+        <div class="box"><b>👤 Autor</b><p><b>Richard Schwartz</b> — Deutscher (*1958 Frankfurt), einer der bekanntesten dt. High-Fantasy-Autoren. <b>≠ Torsten Weitze</b> (Streitende Götter).</p></div>
+      </div>
+      <div class="src">Quellen: Goodreads, Piper, LovelyBooks, Wikipedia</div>
     </div>
   </article>
 
@@ -283,7 +301,11 @@
     <div>
       <div class="toprow"><span class="rank">#5 · Match 80 %</span><span class="badge fantasy">⚔️ Fantasy</span></div>
       <div class="title">Die Gilde der schwarzen Magier <span style="font-weight:400;color:var(--muted)">(Bd. 1: „Die Rebellin")</span></div>
-      <div class="meta">Trudi Canavan · ab 2004 · Trilogie + Folgereihen · Buch &amp; Hörbuch (Martina Rester-Gellhaus)</div>
+      <div class="meta">Trudi Canavan · ab 2004 · Trilogie (+ Sonea-Trilogie + Prequel) · Buch &amp; Hörbuch (Martina Rester-Gellhaus)</div>
+      <div class="world">
+        <div class="box"><b>🌍 Welt</b><p>Reich <b>Kyralia</b>, Hauptstadt <b>Imardin</b>, beherrscht von der Magiergilde; Sonea, ein Slum-Mädchen, entpuppt sich als Talent.</p></div>
+        <div class="box"><b>✨ Machtsystem</b><p><b>Ungeschulte Magie entlädt sich tödlich</b> → Ausbildung ist überlebenswichtig (klare Machtprogression). Gegenpol: schwarze Magie (Lebenskraft).</p></div>
+      </div>
       <div class="overall"><span class="num">80 %</span><div class="bar fill-good"><span style="width:80%"></span></div></div>
       <div class="dims">
         <span class="lbl">Themen (Underdog)</span><div class="bar fill-good"><span style="width:88%"></span></div><span class="val">88</span>
@@ -295,25 +317,28 @@
       </div>
       <div class="fit">
         <div class="good"><b>✓ Was passt</b>
-          <ul><li>Reinste Akademie-Underdog-Story: Sonea aus dem Slum steigt in die Magiergilde auf</li>
-              <li>Herkunfts-Konflikt &amp; Vorurteile sogar stärker als bei Sturmfels; aktive, aufmüpfige Heldin</li>
+          <ul><li>Reinste Akademie-Underdog-Story (Sonea aus dem Slum in die Gilde)</li>
+              <li>Herkunfts-Konflikt stärker als bei Sturmfels; klare Machtprogression</li>
               <li>Deutsch als Buch &amp; Hörbuch</li></ul></div>
         <div class="bad"><b>✗ Was passt nicht</b>
           <ul><li>Mittelteil (Versteck-/Suchphase) könnte dein Tempo-Faible testen</li>
-              <li>Liebes-Subplot in Folgebänden (aber <b>kein</b> Handlungstreiber → No-Go nicht verletzt)</li></ul></div>
+              <li>Liebes-Subplot in Folgebänden (kein Treiber → No-Go nicht verletzt)</li></ul></div>
       </div>
-      <div class="src">Quellen: Audible.de, Penguin, Goodreads</div>
+      <div class="world">
+        <div class="box"><b>🗺️ Universum &amp; Reihenfolge</b><p>Welt Kyralia: <b>Kernreihe zuerst</b> (Rebellin/Novizin/Meisterin), dann Sonea-Trilogie (spoilert); Prequel „Magie" jederzeit. ⚠️ dt. Bandzählung beachten.</p></div>
+        <div class="box"><b>👤 Autor</b><p><b>Trudi Canavan</b> — Australierin (*1969), Bestseller (&gt;1,6 Mio verkauft, 23+ Sprachen).</p></div>
+      </div>
+      <div class="src">Quellen: Audible.de, Penguin, trudicanavan.com, Wikipedia</div>
     </div>
   </article>
 
-  <!-- ============ HINWEIS PROFIL-KORREKTUR ============ -->
+  <!-- ============ HINWEIS PROFIL ============ -->
   <div class="note">
-    <b>✨ Geschärftes Profil (aus „Meine Bibliothek"):</b> Du magst eine <b>Machtsteigerungs-Kurve
-    MIT Peak</b> und einen spürbaren <b>Magie-/Power-Fantasy-Lean</b>. <b>Riyria</b> hast du deshalb
-    schon als „okay" eingestuft (starkes Duo &amp; Mystery, aber <b>keine Magie/Machtprogression</b>) —
-    darum ist es hier <b>raus</b>. Deshalb der beste Fantasy-Fit für dieses Kriterium:
-    <b>Die Nebelgeborenen (Mistborn)</b> — Allomantie-Machtaufstieg mit legendärem Finale. Nur als
-    Hörbuch zu lang (~27 h); <b>als Buch die Nummer 1</b>.
+    <b>✨ Geschärftes Profil:</b> Du magst eine <b>Machtsteigerungs-Kurve mit Peak</b> und einen
+    <b>Magie-Lean</b>. Der beste Fantasy-Fit dafür ist <b>Die Nebelgeborenen (Mistborn)</b> —
+    Allomantie-Machtaufstieg mit legendärem Finale; nur als Hörbuch zu lang (~27 h), <b>als Buch
+    die Nummer 1</b>. (<b>Riyria</b> hast du bereits als „okay" eingestuft — es fehlt genau diese
+    Magie/Machtprogression, daher nicht empfohlen.)
   </div>
   <div class="note">
     <b>📖 vs. 🎧 — der offene Hebel:</b> Sag mir pro Titel, ob du <b>liest</b> oder <b>hörst</b>.
@@ -330,10 +355,10 @@
       <li><b>Die Nebelgeborenen (Mistborn)</b> — Ideal-Match, aber Hörbuch ~27 h. <em>Als Buch top.</em></li>
       <li><b>Rabenschatten (Das Lied des Blutes)</b> — strukturell wie Sturmfels, aber Hörbuch ~29 h. <em>Als Buch stark.</em></li>
       <li><b>Die Wiege (Cradle)</b> — Top-Progression &amp; Länge, aber wenig Humor + nur 3 dt. Bände.</li>
-      <li><b>Die Chronik der Weitseher</b> — Themen top, aber Slow-Burn + phasenweise passiver Held (dein Fast-Abbruch-Muster).</li>
+      <li><b>Die Chronik der Weitseher</b> — Themen top, aber Slow-Burn + phasenweise passiver Held.</li>
       <li><b>Der Donnerstagsmordclub</b> — solide Cosy-Alternative, aber weniger Locked-Room/Meta als Cunninghams.</li>
     </ul>
-    <p class="src">Der komplette Kandidatenpool (31 Titel) &amp; alle Begründungen liegen im Vault unter <code>Empfehlungen/</code>.</p>
+    <p class="src">Der komplette Kandidatenpool (31 Titel), alle Autoren-Dossiers &amp; Universum-Landkarten liegen im Vault unter <code>vault/</code>.</p>
   </details>
 
 </div>

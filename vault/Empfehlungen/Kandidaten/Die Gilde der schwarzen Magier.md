@@ -11,7 +11,9 @@ wiedervorlage: ""
 # --- Fakten (nur belegt!) ---
 erscheinungsdatum_bd1: "2004"
 letztes_datum: ""
-baende_gesamt: 3           # Kern-Trilogie; + Folgereihen (Sonea/Das Zeitalter der Fünf angrenzend) → ≥3 erfüllt
+baende_gesamt: 3           # Kern-Trilogie; + Sonea-Trilogie + Prequel im selben Universum → ≥3 klar erfüllt
+universum: "Kyralia (Gilde der schwarzen Magier)"
+verwandte_reihen: ["Sonea (Traitor Spy, 3 Bd.)", "Magie (The Magician's Apprentice, Prequel)"]
 baende_geplant:
 abgeschlossen: true
 angekuendigt: ""
@@ -59,6 +61,19 @@ verletzt mit einem Steinwurf einen Magier — und entpuppt sich als unentdecktes
 in die **Magiergilde/Akademie** aufsteigt. Sehr starker Kern-Match zu [[Sturmfels-Akademie]]:
 [[Underdog-Aufstieg]] + [[Akademie-Leben & Gemeinschaft]] + [[Herkunfts-Konflikt &
 Vorurteile]]. Aktive, aufmüpfige Heldin (kein passiver Held).
+
+## 🗺️ Universum & Reihenfolge
+
+- **Universum:** [[Kyralia (Gilde der schwarzen Magier)]] (Reich Kyralia + Sachaka):
+  | Reihe (dt.) | Bände | Rolle | Reihenfolge |
+  | --- | --- | --- | --- |
+  | **Die Gilde der schwarzen Magier** (Rebellin/Novizin/Meisterin) | 3 | Kernreihe (Sonea) | **zuerst** |
+  | Sonea (Traitor Spy: Hüterin/Heilerin/Königin) | 3 | ~1 Generation später | danach |
+  | „Magie" (The Magician's Apprentice) | 1 | Standalone-Prequel (Jahrhunderte früher) | jederzeit (spoilerfrei) |
+- **Reihenfolge:** Kernreihe **zuerst**; die Sonea-Trilogie spielt danach und **spoilert** den
+  Ausgang. Der Prequel „Magie" ist in jede Richtung spoilerfrei. ⚠️ **Dt. Zählung** (Blanvalet
+  splittet teils Bände) — an Original/Autorin-FAQ orientieren.
+- **Autor kurz:** [[Trudi Canavan]] — Australierin (*1969), Bestseller (>1,6 Mio, 23+ Sprachen).
 
 ## 🔮 Prognose je Aspekt
 

@@ -12,7 +12,7 @@ Notiz wandert nach `Bibliothek/Werke/`, Zeile hier abhaken.
 | Titel | Format | aus Lauf | Match | Status |
 | --- | --- | --- | --- | --- |
 | [[Die guten Jungs]] | Buch/Hörbuch (Robert Frank) | [[2026-07-17 Deutsche Bücher quer über alle Räume]] | 86 % | empfohlen |
-| [[Das Geheimnis von Askir]] | Buch/Hörbuch (M. Hansonis) | [[2026-07-17 Deutsche Bücher quer über alle Räume]] | 85 % | empfohlen |
+| [[Das Geheimnis von Askir]] ([[Richard Schwartz]]) | Buch/Hörbuch (M. Hansonis) | [[2026-07-17 Deutsche Bücher quer über alle Räume]] | 81 % | empfohlen |
 | [[Susan Ryeland ermittelt (Magpie Murders)]] | Buch/Hörbuch | [[2026-07-17 Deutsche Bücher quer über alle Räume]] | 84 % | empfohlen |
 | [[Hawthorne ermittelt]] | Buch/Hörbuch (V. Hanisch) | [[2026-07-17 Deutsche Bücher quer über alle Räume]] | 83 % | empfohlen |
 | [[Die Gilde der schwarzen Magier]] | Buch/Hörbuch (M. Rester-Gellhaus) | [[2026-07-17 Deutsche Bücher quer über alle Räume]] | 80 % | empfohlen |

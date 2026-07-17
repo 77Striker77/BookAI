@@ -12,6 +12,8 @@ wiedervorlage: ""
 erscheinungsdatum_bd1: "2023"
 letztes_datum: "2025"
 baende_gesamt: 16          # dt. Reihe abgeschlossen 2025 (engl. 17)
+universum: "Vuldranni (iNcarn8)"
+verwandte_reihen: ["[[Die bösen Jungs]]"]
 baende_geplant:
 abgeschlossen: true
 angekuendigt: ""
@@ -57,6 +59,19 @@ Suchwinkel „nächster DCC-Cousin (Ton)": stärkster Ton-Match zu [[Dungeon Cra
 schwarzer/absurder Humor + echte Härte, handlungsfähiger, pragmatischer Held (Montana),
 System clever ausgenutzt. Kurze Bände (~9 h) = [[Konstanter Vorwärtsdrang]] ohne Grinding-
 Leerlauf. Deutsch als Buch UND Hörbuch (Robert Frank).
+
+## 🗺️ Universum & Reihenfolge
+
+- **Universum:** [[Vuldranni (iNcarn8)]] (Spielwelt im Spiel iNcarn8). Diese Reihe = **Hauptreihe**.
+- **Reihen in derselben Welt:**
+  | Reihe | Bände | Rolle | dt. Sprecher |
+  | --- | --- | --- | --- |
+  | **Die guten Jungs** | 16 | Hauptreihe (Held Montana Coggeshall) | Robert Frank |
+  | [[Die bösen Jungs]] | 11 | Parallelreihe, Gegenseite (Dieb Clyde, Stadt Glaton) | Thomas Nicolai |
+- **Reihenfolge:** „Die guten Jungs" **zuerst** (2018). „Die bösen Jungs" ist eigenständig
+  lesbar, spielt aber in derselben Welt; **Crossover-Bände** verweben beide Stränge (dann
+  Kenntnis beider von Vorteil, Spoiler-Gefahr). Empfehlung: guten Jungs zuerst, böse danach/verschränkt.
+- **Autor kurz:** [[Eric Ugland]] — US-Indie-LitRPG-Autor (L.A.), etabliert, hohe Frequenz.
 
 ## 🔮 Prognose je Aspekt
 

@@ -1,8 +1,9 @@
 ---
 titel: "Survival Quest"
 werk_typ: "reihe"          # „The Way of the Shaman" / Survival Quest — russische LitRPG-Schule
-universum: ""
-autor: "Vasily Mahanenko"  # ⚠️ rekonstruiert — verifizieren
+universum: "Barliona"
+verwandte_reihen: ["The Bard from Barliona (Spin-off)"]
+autor: "Vasily Mahanenko"  # bestätigt 2026-07-17
 jahr_start:
 erscheinungsdatum_bd1: ""
 letztes_datum: ""
@@ -44,7 +45,15 @@ tags: [werk, reihe, mixed, litrpg, rekonstruiert]
 
 Pionier-/Referenztitel des LitRPG (russische Schule).
 
-**Kontext:** [[LitRPG]] · **Verdikt: mixed („okay")**
+**Kontext:** [[LitRPG]] · **Verdikt: mixed („okay")** · Autor [[Vasily Mahanenko]]
+
+## 🗺️ Universum & Reihenfolge
+
+- **Universum:** [[Barliona]] (VR-Straf-Realität). „Survival Quest" = Bd. 1 der Hauptreihe
+  **The Way of the Shaman** (7 Bände + Bonus).
+- **Reihen in derselben Welt:** Hauptreihe **zuerst**, dann Spin-off „The Bard from Barliona"
+  (setzt Weltkenntnis voraus). ⚠️ „Dark Paladin", „Galactogon" u. a. sind **separate Welten**.
+- **Autor kurz:** [[Vasily Mahanenko]] — Russe (*1981), LitRPG-Pionier.
 
 ## Warum nur „okay" (das Anti-Muster)
 

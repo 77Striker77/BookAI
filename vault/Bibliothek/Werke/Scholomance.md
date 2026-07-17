@@ -1,8 +1,9 @@
 ---
 titel: "Scholomance"
-werk_typ: "reihe"          # A Deadly Education / Die Schule des Bösen — Trilogie
-universum: ""
-autor: "Naomi Novik"       # ⚠️ rekonstruiert — verifizieren
+werk_typ: "reihe"          # A Deadly Education / Die Scholomance-Reihe — abgeschlossene Trilogie
+universum: "Scholomance (eigenständig)"
+verwandte_reihen: []       # keine — abgeschlossene Trilogie ohne Anschlusswerke
+autor: "Naomi Novik"       # bestätigt 2026-07-17
 jahr_start:
 erscheinungsdatum_bd1: ""
 letztes_datum: ""
@@ -44,7 +45,15 @@ tags: [werk, reihe, mixed, fantasy, rekonstruiert]
 
 Dark-Academia-Fantasy an einer tödlichen Zauberschule; Ich-Erzählerin **El** (Galadriel).
 
-**Kontext:** [[Fantasy]] · **Verdikt: mixed („okay")**
+**Kontext:** [[Fantasy]] · **Verdikt: mixed („okay")** · Autor [[Naomi Novik]]
+
+## 🗺️ Universum & Reihenfolge
+
+- **Abgeschlossene, eigenständige Trilogie** (keine Anschlusswerke): 1. „Tödliche Lektion"
+  (A Deadly Education, 2020) → 2. „Der letzte Absolvent" (2021) → 3. „Die goldenen Enklaven"
+  (2022). Reihenfolge zwingend (Bd. 2 endet mit Cliffhanger). dt. bei cbj.
+- **Andere Novik-Welten** (getrennt): Temeraire (9 Bd.), Uprooted, Spinning Silver.
+- **Autor kurz:** [[Naomi Novik]] — US-Autorin (*1973), Nebula 2015 (Uprooted), AO3-Mitgründerin.
 
 ## Warum nur „okay" (das Anti-Muster)
 
