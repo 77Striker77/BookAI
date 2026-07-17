@@ -2,6 +2,7 @@
 titel: ""
 werk_typ: ""           # reihe | universum | standalone-universum
 universum: ""          # falls Reihe Teil eines Werk-Verbunds: Name der Universum-Notiz
+verwandte_reihen: []   # andere Reihen in DERSELBEN Welt (Namen der Werk-Notizen)
 autor: ""              # + [[Link]] im Body
 jahr_start:
 erscheinungsdatum_bd1: ""   # genaues Datum Bd. 1 (falls auffindbar)
@@ -55,6 +56,21 @@ Reihen-Pflicht-Check gleich hier.⟩
 > NIE bandweise interviewen. Band-Abweichungen nur erfassen, wenn er sie selbst nennt.
 
 **Kontext:** [[⟨…⟩]] · **Autor:** [[⟨…⟩]] · **Sprecher:** [[⟨…⟩]]
+
+## 🗺️ Universum & Reihen-Landkarte (investigativ — Pflicht)
+
+> Welche Reihe ist das? Spielen ANDERE Reihen in derselben Welt/demselben Universum? Wenn
+> ja: alle nennen, wie sie zusammenhängen, und **die empfohlene Lese-/Hör-Reihenfolge** —
+> muss man etwas VOR etwas anderem gelesen/gehört haben? Spoiler-Abhängigkeiten? Mit Quellen.
+
+- **Universum:** ⟨Name / „eigenständig"⟩ · **Diese Reihe:** ⟨Rolle: Hauptreihe / Prequel / Spin-off⟩
+- **Reihen in derselben Welt:**
+  | Reihe | Bände | Rolle | dt. verfügbar? |
+  | --- | --- | --- | --- |
+  | [[⟨Reihe A⟩]] | ⟨n⟩ | Hauptreihe | ⟨ja/nein⟩ |
+  | [[⟨Reihe B⟩]] | ⟨m⟩ | Prequel/Spin-off | ⟨…⟩ |
+- **Empfohlene Lese-/Hör-Reihenfolge:** ⟨z. B. „A vor B; Prequel C erst nach A lesen (Spoiler)"⟩
+- **Einstieg für Neulinge:** ⟨welche Reihe zuerst?⟩ · **Spoiler-Hinweise:** ⟨…⟩
 
 ## 📚 Die Bände einzeln (BOTTOM-UP — immer zuerst die Bände, Reihen-Fazit ganz am Ende)
 

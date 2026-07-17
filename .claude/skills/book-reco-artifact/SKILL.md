@@ -137,6 +137,10 @@ Inhalt:
 3. **Empfehlungskarten (≥3, nach Match sortiert):** Cover/📖, Titel, Autor, Jahr, Format,
    Sprecher/Stunden bei Hörbuch, **großer Gesamt-Match-%-Balken**, Dimensions-Balken
    (0–100 je Dimension), **✓ Was passt** / **✗ Was passt nicht** in Klartext, Quellen dezent.
+   **Pflicht-Kurzblöcke je Karte (aus dem Vault):** 🌍 Welt · ✨ Machtsystem (falls
+   vorhanden) · 🗺️ **Universum & Reihenfolge** (welche Reihe, Geschwister-Reihen in
+   derselben Welt, empfohlene Lese-/Hör-Reihenfolge) · 👤 **Autor kurz** (Herkunft +
+   Bekanntheit). Alles muss so bereits im Vault stehen (nur Projektion!).
 4. **Verworfen** (einklappbar): stärkste verworfene Kandidaten + Grund.
 
 ## Regeln

@@ -62,6 +62,19 @@ kommentieren — das misst Reichweite/Hype, NICHT Qualität. Aus der Gesamt-Stim
 setzen bei Signalen: brandneu/schnell steigend, Cross-Media (Musik/Film/Serie),
 Bestseller-Listen, hohe Verkaufszahlen. (Im Cockpit als eigener Gold-Meter dargestellt.)
 
+**🗺️ Universum & Reihen-Landkarte + Reihenfolge (PFLICHT — investigativ):** Für jedes Werk
+klären und in der Werk-Notiz (Abschnitt „Universum & Reihen-Landkarte") festhalten:
+- **Welche Reihe ist das** (Hauptreihe / Prequel / Spin-off)?
+- **Spielen ANDERE Reihen in derselben Welt/demselben Universum?** Alle nennen (Bandzahlen,
+  Rolle), auch wenn der Nutzer sie (noch) nicht kennt — sie zählen für die Reihen-Pflicht
+  ≥3 Bände (Universum zählt zusammen) UND sind Kandidatenquelle.
+- **Wie hängen sie zusammen** (gemeinsame Figuren, Timeline, geteilte Welt)?
+- **Empfohlene Lese-/Hör-Reihenfolge:** Muss man etwas VOR etwas anderem gelesen/gehört
+  haben? Gibt es eine offizielle Autoren-Empfehlung? Spoiler-Abhängigkeiten (z. B. Prequel
+  besser später)? Womit steigt ein Neuling am besten ein? Mit Quellen belegen.
+Frontmatter: `universum:` + `verwandte_reihen:` setzen; verwandte Reihen als `[[Links]]`
+(fehlende Werk-/Kandidaten-Stubs anlegen, damit der Graph stimmt).
+
 **Reihen-Gesamtbild ZULETZT:** erst wenn alle Bände erfasst sind, das Fazit ziehen
 (⌀-Wertung, roter Faden von Lob/Kritik, Abgleich mit MEINEM Empfinden). Bei einem
 Universum fließt dieses Reihen-Fazit dann in die Overall-Notiz ein (die Overall-Summe
@@ -121,6 +134,12 @@ Templates aus `vault/_System/Templates/`, Konventionen aus `vault/_System/Konven
 4. **Entitäts-Notizen:** Autor (`Bibliothek/Autoren/`) und Sprecher (`Sprecher/`)
    anlegen/fortschreiben — inkl. Abschnitt "Weitere Werke/Einlesungen" als spätere
    Kandidatenquelle. (Reihen-Infos/Lesestand leben IN der Werk-Notiz.)
+   **⭐ Autoren-Dossier (investigativ — Pflicht, mit Quellen):** Herkunft (Land/Region,
+   ggf. Geburtsjahr), Werdegang/Hintergrund (z. B. deutscher Originalautor = kein
+   Übersetzungs-Warten; Selfpub→Verlag), **Bekanntheit/Reichweite mit Belegen**
+   (Verkaufszahlen, Bestseller, Preise) und die **Universen/Reihen-Landkarte des Autors**
+   (welche seiner Reihen spielen in derselben Welt) — Felder `herkunft`, `geburtsjahr`,
+   `bekanntheit`, `universen` im Frontmatter (Template `Autor.md`).
 5. **Profil aktualisieren:** `vault/Profil/Profil.md` NUR mit kontextübergreifend
    bestätigten Mustern (roter Faden, Tabelle "Analysierte Titel"). Kontextspezifisches
    gehört in die Kontext-Notiz. Neue harte Ausschlüsse → `No-Gos.md` mit Herkunft.
