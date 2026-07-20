@@ -24,8 +24,8 @@ naechster_band_de: "keiner — DE nach Bd. 2 eingestellt (Bd. 3–6 nur Englisch
 naechster_band_en: "Reihe abgeschlossen (Bd. 6 'The Vexed Generation', 2019)"
 rating_schnitt: "EN Goodreads ~3,9/5 (Bd. 1 4,00 → Mitte 3,65 → Bd. 6 4,11)"
 rating_stimmen_gesamt: "EN Goodreads ~105k über 6 Bände (Bd. 1 ~43k, fallend bis Bd. 6 ~4k); EN Audible Bd. 1 ~31,5k · 4,4"
-bekanntheit_stufe: "Bestseller"   # Nischen-Bestseller (Comedy-SciFi/geek fiction), v. a. Amazon/Audible
-hype: "Self-Publishing-Erfolg → 47North; Kult im Comedy-SciFi/'geek fiction'-Segment; EN-Hörbuch (Luke Daniels) vielfach gefeiert — aber kein Mainstream-Megaseller"
+bekanntheit_stufe: "Etabliert"   # Bd. 1 ~43k Stimmen = 10k–100k (wie Alex Verus 32k / Survival Quest 44k); NICHT „Bestseller" (100k+). Die ~105k waren eine 6-Band-Summe → überhöht.
+hype: "Self-Publishing-Erfolg → 47North; Geek-Fiction-/Comedy-SciFi-Kult (Nische), v. a. Amazon/Audible; EN-Hörbuch (Luke Daniels) vielfach gefeiert — kein Mainstream-Megaseller"
 rating_goodreads: 4.00     # Bd. 1
 genres: [Humor-SciFi, Science-Fantasy, Portal-Fantasy]
 themen: [Realität als Code, Nerd-Wunscherfüllung, Selbstermächtigung durch Wissen]
@@ -204,8 +204,9 @@ Handlung/Figuren, Held „nicht konsequent"). Sein Abbruch bei Bd. 4 ist **sprac
 
 ## 🧮 Reihen-Gesamtbild (letzter Schritt)
 
-EN-Community ⌀ ~3,9/5 (Bd. 1 4,00 → Mitte 3,65 → Bd. 6 4,11) bei ~105k Wertungen — solider
-Nischen-Bestseller im Comedy-SciFi, kein Mainstream-Phänomen. **Mein loved liegt über dem
+EN-Community ⌀ ~3,9/5 (Bd. 1 4,00 → Mitte 3,65 → Bd. 6 4,11); Reichweite **Etabliert** (Bd. 1
+~43k Stimmen; die ~105k sind eine 6-Band-Summe und überhöhen die Reichweite) — ein
+**Geek-Fiction-/Comedy-SciFi-Kult in der Nische**, kein Mainstream-Phänomen. **Mein loved liegt über dem
 Reihenschnitt**, weil ich es als **leichte Kost** genieße und nur Bd. 1–4 (die stärkere Hälfte)
 gelesen habe. **Zwei Kalibrier-Erkenntnisse:** (1) **Englisch-Müdigkeit** kann selbst eine
 *geliebte* Reihe stoppen → dt. Verfügbarkeit ist für mich faktisch Pflicht (schärft [[Profil]]).
