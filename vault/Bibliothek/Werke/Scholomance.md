@@ -23,9 +23,9 @@ ungekuerzt: true
 naechster_band_de: "alle 3 erschienen (abgeschlossen)"
 naechster_band_en: "alle 3 erschienen (abgeschlossen)"
 rating_schnitt: "EN Goodreads ~4,0/5 (Bd. 1 3,93 · Bd. 2 4,20 · Bd. 3 ~4,08); DE ~4,1–4,3 (LovelyBooks/BücherTreff, wenige Stimmen)"
-rating_stimmen_gesamt: "EN Goodreads grob ~300–380k über die Trilogie (Anzahl je Band nur Snippet-Schätzung: Bd.1 ~180–230k, Bd.2 ~92k, Bd.3 ~72k — unsicher)"
+rating_stimmen_gesamt: "EN Goodreads ~470k über die Trilogie (work-level je Band, Snippet-Stand 2026-07: Bd.1 ~230k, Bd.2 ~137k [Hardcover-Edition allein ~97k], Bd.3 ~107k)"
 bekanntheit_stufe: "Bestseller"
-hype: "NYT-Bestsellertrilogie · Bd. 2 gewann Lodestar Award 2022 · Bd. 1 & 3 Hugo/Locus/Lodestar-Finalisten"
+hype: "NYT-Bestsellertrilogie · Bd. 2 gewann Lodestar Award 2022 · Bd. 3 gewann Dragon Award 2023 (Best YA/Middle Grade) · Bd. 1 & 3 Lodestar-Finalisten"
 rating_goodreads: 3.93
 genres: [Fantasy]
 themen: [Überlebensdruck als Motor, Herkunfts-Konflikt & Vorurteile]
@@ -124,15 +124,16 @@ zurück (~4,08 — das Finale, das ich nicht als Highlight wählte).
 ## 🗃️ Metadaten je Band (vollständig)
 
 > Kern-Fakten mehrfach belegt; unsichere Werte „?"/„n. gef.". Alle Shop-Seiten
-> (DE + EN) lieferten beim Fetch 403 → Werte aus Suchsnippets, Goodreads-Anzahl daher
-> unsicher. Sprecherin dt. **[[Leonie Landa]]**, Übers. **Doris Attwood**.
+> (DE + EN) lieferten beim Fetch 403 → Werte aus Suchsnippets; Goodreads-Anzahl =
+> work-level-Snippet-Stand 2026-07 (Bd.1 ~230k · Bd.2 ~137k · Bd.3 ~107k). Sprecherin
+> dt. **[[Leonie Landa]]**, Übers. **Doris Attwood**.
 
 ### 🇩🇪 Deutsche Ausgaben (Hörbuch · Print)
 
 | # | Hörbuch: Dauer · Datum · ASIN · Label | Print: Verlag · ISBN-13 · Seiten · Datum |
 | --- | --- | --- |
 | 1 | 12 h 44 · 22.03.2021 · B08Z4F5MKX · Audible Studios (CD: DAV, ISBN 9783742442079) | cbj · 9783570166093 · 480 S? · 22.03.2021 |
-| 2 | 15 h 40 · 11.10.2021 · B09H32X4BT · Audible Studios | cbj · 9783570166109 · 512 S · Okt 2021 |
+| 2 | 15 h 40 · 11.10.2021 · B09H32X4BT · Audible Studios | cbj · 9783570166109 · 512 S · 11.10.2021 |
 | 3 | 15 h 14 · 23.02.2023 · B0BM51BMSM · Audible Studios | cbj · 9783570166116 · 528 S · 09.11.2022 |
 
 ### 🇬🇧 Englische Originale + EN-Hörbuch
@@ -142,9 +143,9 @@ EN Print **Del Rey** (Penguin Random House); EN-Hörbuch **Random House Audio**,
 
 | # | EN Hardcover: Datum · Seiten · ISBN-13 | EN-Hörbuch (Dadia): Dauer · Datum · ISBN | Goodreads ⌀ · Anzahl (unsicher) | Auszeichnungen |
 | --- | --- | --- | --- | --- |
-| 1 | 29.09.2020 · 336 S (Quelle nennt tw. 320) · 9780593128480 | 10 h 59 · 29.09.2020 · 9780593287415 | 3,93 · ~180–230k? | Lodestar- & Locus-Finalist 2021 |
-| 2 | 28.09.2021 · 388 S · 9780593128862 | 13 h 27 · 28.09.2021 · 9780593287439 | 4,20 · ~92k? | **Lodestar Award 2022 (Gewinner)** |
-| 3 | 27.09.2022 · 416 S · 9780593158357 | 14 h 49 · 27.09.2022 · 9780593287453 | ~4,08 · ~72k? | Hugo/Locus/Lodestar-Finalist 2023 |
+| 1 | 29.09.2020 · 336 S (Quelle nennt tw. 320) · 9780593128480 | 10 h 59 · 29.09.2020 · 9780593287415 | 3,93 · ~230k | Lodestar-Finalist 2021 (Locus/Hugo-Novel nicht belegbar) |
+| 2 | 28.09.2021 · 388 S · 9780593128862 | 13 h 27 · 28.09.2021 · 9780593287439 | 4,20 · ~137k (HC-Edition ~97k) | **Lodestar Award 2022 (Gewinner)** |
+| 3 | 27.09.2022 · 416 S · 9780593158357 | 14 h 49 · 27.09.2022 · 9780593287453 | ~4,08 · ~107k | **Dragon Award 2023 (Gewinner, Best YA/Middle Grade)** · Lodestar-Finalist 2023 · Locus #7 |
 
 ## 🗓️ Nächste Releases & Planung
 - **Trilogie abgeschlossen** (DE + EN). Keine Wartezeit, kein Nachschub.
@@ -233,8 +234,14 @@ Prädiktor.
 
 ## Offene Fragen
 
-- Goodreads-**Anzahl** je Band unsicher (Shops/GR 403 → nur Snippets): Bd. 1 ~180–230k?,
-  Bd. 2 ~92k?, Bd. 3 ~72k? — ⌀-Werte dagegen quellenübergreifend stabil.
-- Dt. Print-Seitenzahl Bd. 1 (480 vs. 467) und taggenaues Print-Datum Bd. 2 unbestätigt.
-- Dragon-Award-Gewinn Bd. 3 nur aus Snippet (unbestätigt); Finalist-Status Hugo/Locus/
-  Lodestar belegt, Lodestar-Gewinn Bd. 2 sicher.
+- ~~Goodreads-Anzahl je Band unsicher~~ ✓ aktualisiert (Snippet-Stand 2026-07, work-level):
+  Bd. 1 ~230k · Bd. 2 ~137k (Hardcover-Edition allein ~97k) · Bd. 3 ~107k; ⌀ je Band stabil
+  (~3,93 / ~4,2 / ~4,1). Nur noch grob, da GR/Shops via Proxy 403.
+- ~~Taggenaues Print-Datum Bd. 2~~ ✓ **11.10.2021** (cbj, ISBN 9783570166109; mehrfach belegt).
+- ~~Dragon-Award-Gewinn Bd. 3~~ ✓ **gewonnen — Dragon Award 2023, Kategorie „Best Young Adult /
+  Middle Grade Novel"** (NICHT „Best Fantasy"; die ging an *Witch King*, M. Wells). Noviks 2. Dragon-Award.
+- **Award-Korrektur:** Bd. 1 war **Lodestar-Finalist 2021**, aber **kein Locus-Finalist** und
+  **kein** Hugo-Best-Novel-Finalist (nicht belegbar; die „Hugo"-Snippets meinen den parallel
+  administrierten Lodestar). Bd. 3: Lodestar-Finalist 2023 + Locus #7. Lodestar-Gewinn Bd. 2 sicher.
+- Dt. Print-Seitenzahl Bd. 1 weiter **480 vs. 467** widersprüchlich (eurobuch/Verlag 480 ·
+  buechertreff 467; Verlags-Tiebreaker via Proxy 403) — Tendenz **480**, bleibt offen.
