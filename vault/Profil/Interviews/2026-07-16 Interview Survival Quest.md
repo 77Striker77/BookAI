@@ -72,11 +72,11 @@ Problems.
 
 | Erkenntnis | eingeflossen in |
 | --- | --- |
-| Offene Handlungsfäden häufen sich schneller an, als sie eingelöst werden | [[Nebenquest-Wildwuchs]] (−2 hier); ggf. neues Merkmal [[Lose Enden ohne Einlösung]] |
+| Offene Handlungsfäden häufen sich schneller an, als sie eingelöst werden | [[Nebenquest-Wildwuchs]] (−2 hier); ggf. neues Merkmal [[Setup ohne Payoff|Lose Enden ohne Einlösung]] |
 | Groß aufgebautes Item/Setup wird ohne Payoff fallengelassen | neues Handwerk-Merkmal [[Setup ohne Payoff]] (−) |
 | HC „bleibt zu selten bei der Sache" → Fokusverlust | [[Konstanter Vorwärtsdrang]] verletzt (−); roter Faden #1 bestätigt |
 | HC-Potenzial ungenutzt, „besten Werte spielen zu selten eine Rolle" | [[Wachsende Hauptfigur]] nur teils; Anmerkung Figuren |
-| Über-crunchiges Zahlen-/Statistik-System, %/Boni-Flut | neues Handwerk-Merkmal [[Stat-Spam / Über-crunchiges System]] (−) |
+| Über-crunchiges Zahlen-/Statistik-System, %/Boni-Flut | neues Handwerk-Merkmal [[Über-crunchiges Zahlensystem|Stat-Spam / Über-crunchiges System]] (−) |
 | HC hält sich nicht an die eigenen Spielregeln → Immersionsbruch | neues Handwerk-Merkmal [[Regel-Inkonsistenz]] (−) |
 | Überzogener Auserwählter „eine Spitze zu viel" | neues Merkmal [[Überzogener Auserwählter]] (−) / Figuren |
 | Schwache Rahmenhandlung (0815-Zukunftswelt, „Müll") | neues Merkmal [[Schwache Rahmenhandlung]] (−) / Setting |

@@ -5,7 +5,7 @@ status: unbekannt          # zwei empfohlene Kandidaten (Hawthorne, Susan Ryelan
 herkunft: "England (geb. Stanmore, Middlesex)"
 geburtsjahr: "1955"
 bekanntheit: "Phänomen (weltbekannt; OBE/CBE)"
-universen: ["[[Hawthorne & Horowitz]]", "[[Susan Ryeland (Atticus Pünd)]]"]
+universen: ["[[Hawthorne ermittelt|Hawthorne & Horowitz]]", "[[Susan Ryeland ermittelt (Magpie Murders)|Susan Ryeland (Atticus Pünd)]]"]
 tags: [autor]
 ---
 
@@ -37,11 +37,11 @@ trocken-witzig, clever verschachtelte Twists mit sauberer Auflösung.
 **Zwei GETRENNTE Krimireihen** (keine gemeinsame Story, keine wiederkehrenden Figuren —
 verbindend nur die metafiktionale Handschrift):
 
-- **[[Susan Ryeland (Atticus Pünd)]]** — abgeschlossene Trilogie, Roman-im-Roman:
+- **[[Susan Ryeland ermittelt (Magpie Murders)|Susan Ryeland (Atticus Pünd)]]** — abgeschlossene Trilogie, Roman-im-Roman:
   1. [[Susan Ryeland ermittelt (Magpie Murders)]] „Die Morde von Pye Hall" (2016) →
   2. „Moonflower Murders" (2020) → 3. „Marble Hall Murders" (2025). Horowitz tritt hier
   **nicht** als Figur auf.
-- **[[Hawthorne & Horowitz]]** — laufende 6-Bände-Reihe, **Horowitz schreibt sich selbst
+- **[[Hawthorne ermittelt|Hawthorne & Horowitz]]** — laufende 6-Bände-Reihe, **Horowitz schreibt sich selbst
   als Watson-Figur** neben Ermittler Daniel Hawthorne:
   1. [[Hawthorne ermittelt]] „Ein perfider Plan / Wenn Worte töten" (2017) → 2. „Mord in
   Highgate" (2018) → 3. „A Line to Kill" (2021) → 4. „The Twist of a Knife" (2022) →
