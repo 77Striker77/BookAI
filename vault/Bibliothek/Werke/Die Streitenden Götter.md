@@ -99,9 +99,9 @@ Die Streitenden Götter (Overall)
 
 | Aspekt | Wertung |
 | --- | --- |
-| [[Geheimnisvolle Macht]] · [[Verlorenes Erbe & Thronanspruch]] · [[Rache & Verfolgungsdruck]] | je +2 |
+| [[Geheimnisvolle Macht]] · [[Rätselhafte Herkunft]] · [[Geheimnisvoll-mysteriöse Aura]] · [[Verlorenes Erbe & Thronanspruch]] · [[Rache & Verfolgungsdruck]] | je +2 |
 | [[Wachsende Hauptfigur]] | +1 |
-| [[Zäher Start]] · [[Konstanter Vorwärtsdrang]] (verletzt) | je −1 |
+| [[Zäher Start]] · [[Konstanter Vorwärtsdrang]] (verletzt) · [[Intrigen-Overload ohne Progress]] (Bd. 2, „zu politisch") | je −1 |
 
 **Gesamtbild (mein Schluss):** Das Universum trägt über **starke Themen + Figuren-Aufstieg
 + Welt + [[Günter Merlau]]** — und **rettet sich beide Male über die Ziellinie** trotz
@@ -111,6 +111,10 @@ beim Prinzen milder). **Beide geliebt** → Overall loved, aber **hart erarbeite
 Für Empfehlungen: Weitze-artiger dt. Fantasy-Stoff trifft — MUSS aber fokussiert
 erzählt sein und eine handlungsfähige Hauptfigur haben; ein zäher Start ist nur
 verzeihlich, wenn ein starkes Finale trägt (Kombinationsregel [[Fantasy]]).
+**Präzisierung aus dem Prinz-Interview 2026-07-20:** Beim Prinzen ist der stärkste Sog das
+**Geheimnisvolle um Held & Gabe** ([[Geheimnisvolle Macht]], [[Rätselhafte Herkunft]]),
+und die Fokus-Drift hat einen Namen — **[[Intrigen-Overload ohne Progress]]** („zu politisch",
+verdrängt die Macht). Matching-Regel: Macht-/Geheimnis-Achse zentral halten, Polit-Überhang meiden.
 
 ## DNA (geteilt, als Links)
 

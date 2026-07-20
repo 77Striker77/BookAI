@@ -86,6 +86,25 @@ Götter" = Sturmfels-Akademie + Prinz von Staub und Schatten):
   (eingerückt/als Kinder). Jede Reihe bleibt inhaltlich für sich voll bewertet.
 - Matching: Reihen-Aspekte + geerbte Overall-Aspekte zusammen.
 
+## Format (gelesen/gehört) — die Basis ist immer das Buch, der Sprecher ist Bonus
+
+Regel (Nutzeraussage 2026-07-20): **Das Werk/Buch ist immer die Basis.** Ob der Nutzer
+es **gelesen** (`format_erlebt: buch`) oder **gehört** (`format_erlebt: hoerbuch`, = Hörbuch
+komplett durch) hat, ändert **nichts am inhaltlichen Matching** — die Ähnlichkeitssuche
+läuft rein über die Werk-/Buch-DNA. Ein Kandidat wird nicht besser/schlechter, weil er
+als Hörbuch vorliegt.
+
+- **Format immer erfragen, nie annehmen** (pro Werk individuell; der Nutzer ist überwiegend
+  Hörer, aber nicht immer). `format_erlebt` sauber setzen, damit gelesen/gehört
+  unterscheidbar bleibt.
+- **Der Sprecher ist eine ZUSÄTZLICHE Dimension — ausschließlich bei `hoerbuch`.** Nur
+  dann nach ihm fragen (Stimme, Tempo, Betonung, Solo/Cast) und als eigene Aspekt-Zeile
+  bewerten. Bei `buch` (gelesen) gibt es **keinen** Sprecher-Aspekt — Feld `sprecher: ""`.
+- **Nutzen in Empfehlungen:** Ein **starker Sprecher wird als Plus aktiv hervorgehoben**
+  (z. B. „…gelesen von einem Top-Sprecher wie [[…]]"). Er verschiebt nicht das
+  inhaltliche Match, sondern ist ein zusätzliches Verkaufsargument obendrauf. Das stützt
+  den roten Faden „starker Sprecher (Hörbuch)".
+
 ## Negativraum: disliked/abgebrochene Werke = eigener Durchlauf
 
 Bislang enthält die Bibliothek nur `loved`-Werke. **Was der Nutzer NICHT mochte oder

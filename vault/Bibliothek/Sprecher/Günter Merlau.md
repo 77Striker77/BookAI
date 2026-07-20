@@ -16,6 +16,7 @@ Sprecher und Hörbuch-Produzent (LAUSCH Phantastische Hörbücher). Stammspreche
 | Hörbuch | Verdikt/Status | Notiz |
 | --- | --- | --- |
 | [[Die Streitenden Götter]] (beide Reihen) | loved | **„Trägt massiv"** ([[2026-07-16 Interview Streitende Götter]]) |
+| [[Der Prinz von Staub und Schatten]] | loved (+2) | „Ja, trug es klar" — werk-spezifisch bestätigt ([[2026-07-20 Interview Prinz von Staub und Schatten]]) |
 
 ## Weitere Einlesungen (Kandidatenquelle!)
 

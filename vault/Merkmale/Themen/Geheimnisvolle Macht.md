@@ -22,7 +22,7 @@ Fokus verliert.
 
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
-| [[Fantasy]] | loved | [[Der Prinz von Staub und Schatten]] +2 — „Die geheimnisvolle Macht, die er hat. Darauf könnte sich es noch viel mehr fokussieren sogar." ([[2026-07-16 Interview Streitende Götter]]) · [[Riyria]] +2 — „das geheimnis aus der untergegangenen welt … hat gut gefallen" ([[2026-07-16 Interview Riyria]]) |
+| [[Fantasy]] | loved | [[Der Prinz von Staub und Schatten]] +2 — „Die geheimnisvolle Macht, die er hat. Darauf könnte sich es noch viel mehr fokussieren sogar." ([[2026-07-16 Interview Streitende Götter]]); **wiederbestätigt 2026-07-20:** „Es könnte noch mehr um seine Macht gehen für mich." ([[2026-07-20 Interview Prinz von Staub und Schatten]]) · [[Riyria]] +2 — „das geheimnis aus der untergegangenen welt … hat gut gefallen" ([[2026-07-16 Interview Riyria]]) |
 
 ## Hinweis
 
