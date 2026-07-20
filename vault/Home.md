@@ -34,6 +34,14 @@ tags: [moc, home]
 
 ## Zuletzt
 
+- 2026-07-20 — Werk 10: **[[Magic 2.0]]** (Scott Meyer, Comedy-SciFi), **loved** (als leichte
+  Kost) — **neuer Kontext [[Humor-Phantastik]]**, 2. gelesenes Werk (Buch, kein Sprecher). Trägt
+  über [[Absurder Humor]] (+2, jetzt 2 Kontexte), [[Nerd-/Popkultur-Humor]] (+2) & [[Originelle
+  Prämisse]] (+2, „Realität = editierbare Datei"). Held Martin = cleverer aktiver Nerd-Everyman.
+  **Zwei Kalibrier-Erkenntnisse:** (1) **Deutsch-Präferenz drastisch geschärft** — Englisch-Müdigkeit
+  stoppte die *geliebte* Reihe bei Bd. 4 (nicht Qualität) → Englisch = starker Malus, nicht bloß
+  Fallback. (2) **OP-Held ist im Humor-Kontext KEIN Malus** (Kontext schlägt global, Gegenprobe zu
+  Scholomance). 5 neue Merkmale, neuer Autor [[Scott Meyer]]. Quelle: [[2026-07-20 Interview Magic 2.0]].
 - 2026-07-20 — Werk 9: **[[Haus Ashford]]** (Benedict Jacka, An Inheritance of Magic, Urban
   Fantasy, 3 Bände), **mixed / „okay"** — **Negativ-Gegenentwurf beim SELBEN Autor** wie das
   geliebte [[Alex Verus]]. Gehört dt., **[[Johannes Klaußner]]** (hier **+1**, bei Verus 0 →

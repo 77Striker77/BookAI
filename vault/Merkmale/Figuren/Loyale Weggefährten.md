@@ -1,7 +1,7 @@
 ---
 typ: figur
 status_global: ""
-status_kontexte: { Fantasy: liked }
+status_kontexte: { Fantasy: liked, Humor-Phantastik: liked }
 staerke: mittel
 seit: 2026-07-20
 uebergeordnet: ""
@@ -30,6 +30,7 @@ Figuren-Bindungs-Vorliebe des Nutzers, aber breiter als ein Duo oder eine Schul-
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
 | [[Fantasy]] | liked | [[Alex Verus]] **+1**: „Alex' Wahlfamilie" (Luna, Anne, Variam …) als einziger gewählter Figuren-Reiz; Anne-Subplot „hat mich sogar getragen" ([[2026-07-20 Interview Alex Verus]]) |
+| [[Humor-Phantastik]] | liked | [[Magic 2.0]] +1: Freundeskreis der ‚Zauberer' (Programmierer-Community) ([[2026-07-20 Interview Magic 2.0]]) |
 
 ## Matching-Konsequenz
 
@@ -40,3 +41,4 @@ Profil-Muster „Figuren-Bindung trägt". Ein gut integrierter Beziehungs-Subplo
 ## Träger dieses Merkmals
 
 - [[Alex Verus]] (+1, Wahlfamilie um Alex inkl. Anne-Subplot)
+- [[Magic 2.0]] (+1, Programmierer-/Zauberer-Community)

@@ -65,8 +65,10 @@ tags: [moc, profil]
 2d. **Moralisch ambivalenter Antiheld als Plus (NEU, 2026-07-20)** — [[Moralisch ambivalenter
    Antiheld]] (Alex Verus +2): moralische Verdunkelung + Zurückschlagen + Konsequenz/kein Reset
    ziehen, solange glaubwürdig/verdient. Bisher 1 Kontext (Fantasy) — beobachten.
-3. **Humor als Plus** — [[Absurder Humor]] (LitRPG) & [[Trocken-ironischer Humor]] (Krimi +
-   Fantasy, jetzt 3 Werke): in zwei Kontexten trägt Humor (verschiedene Spielarten).
+3. **Humor als Plus (STARKER Faden, jetzt 3 Kontexte)** — [[Absurder Humor]] trägt in **LitRPG**
+   ([[Dungeon Crawler Carl]] +2) UND **Humor-Phantastik** ([[Magic 2.0]] +2); [[Trocken-ironischer
+   Humor]] in Krimi + Fantasy + Humor-Phantastik. Neu: [[Nerd-/Popkultur-Humor]] (+2) &
+   [[Situationskomik]] als eigene Spielarten. Humor ist eine der verlässlichsten Plus-Achsen.
 4. **Sprecher-Performance ist zentral** — [[Stefan Kaminski]] UND [[Günter Merlau]]
    „trägt massiv" → bei Hörbuch-Kandidaten Quasi-Vetorecht. (Gilt nur fürs Hörbuch;
    siehe Format-Hinweis.)
@@ -76,9 +78,9 @@ tags: [moc, profil]
      Artefakt rekonstruierte Dublette von 2b/2c → 2026-07-20 entfernt; Inhalt lebt in 2b+2c. -->
 
 
-**Format-Erkenntnis (2026-07-16):** Der Nutzer HÖRT überwiegend, LIEST aber auch
-([[Die mörderischen Cunninghams]] gelesen, dt.). **Format pro Werk erfragen, nie
-annehmen; Sprecher-Kriterien nur bei Hörbüchern.**
+**Format-Erkenntnis (2026-07-16, erweitert 20.07.2026):** Der Nutzer HÖRT überwiegend, LIEST aber
+auch — inzwischen 2 gelesene Werke ([[Die mörderischen Cunninghams]], [[Magic 2.0]], beide ohne
+Sprecher-Aspekt). **Format pro Werk erfragen, nie annehmen; Sprecher-Kriterien nur bei Hörbüchern.**
 
 **Community-Score-Warnung:** Bei [[Krimi]] liegt mein Urteil klar über dem Community-⌀
 (~3,8) — mein Locked-Room-/Meta-Faible schlägt den Massengeschmack. Community-Scores
@@ -110,6 +112,7 @@ NICHT als alleinigen Kompass nehmen.
 | [[Die mörderischen Cunninghams]] ([[Krimi]], Reihe) | loved | **buch/gelesen** (dt.) | 2026-07-16 |
 | [[Alex Verus]] ([[Fantasy]]/Urban Fantasy, Benedict Jacka, 12 Bände) | **loved** | hoerbuch (dt.) | 2026-07-20 |
 | [[Haus Ashford]] ([[Fantasy]]/Urban Fantasy, Benedict Jacka, An Inheritance of Magic, 3 Bände) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-20 |
+| [[Magic 2.0]] ([[Humor-Phantastik]], Scott Meyer, 6 Bände EN / 2 DE) | **loved** (leichte Kost) | **buch/gelesen** (dt.+engl.) | 2026-07-20 |
 | [[Survival Quest]] ([[LitRPG]], Reihe, 7 Bände) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-16 |
 | [[Scholomance]] ([[Fantasy]], Trilogie) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-16 |
 | [[Riyria]] ([[Fantasy]], Revelations, 6 Bände) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-16 |
@@ -181,12 +184,25 @@ NICHT als alleinigen Kompass nehmen.
   0 → Diskrepanz notiert). Mein „okay" deckt sich mit dem Community-Tenor (Slow-Burn, dünner
   „will-stärker-werden"-Plot, reaktiver Held) und der leicht steigenden Kurve (4,09 → 4,15; Bd. 3
   bester). Quelle: [[2026-07-20 Interview Haus Ashford]].
+- 2026-07-20: **Neuer Kontext [[Humor-Phantastik]] & 2. gelesenes Werk — [[Magic 2.0]]** (Scott
+  Meyer, Comedy-SciFi, **loved** als leichte Kost, Bd. 1–4 gelesen: DE Bd. 1–2, EN Bd. 3–4).
+  **Zwei starke Erkenntnisse:** (1) **Deutsch-Präferenz drastisch geschärft** — Englisch-Müdigkeit
+  stoppte eine *geliebte* Reihe (s. o. „Sprachen"). (2) **Kontext schlägt global (OP-Held):** die
+  Fast-Allmacht störte hier NICHT (Comedy-Rahmen) — Gegenprobe zu [[Scholomance]] (Fantasy, dort
+  [[Flache Machtprogression]] −2). Humor als Treiber (3 neue Humor-Merkmale: [[Nerd-/Popkultur-Humor]]
+  +2, [[Situationskomik]], + [[Originelle Prämisse]] +2, [[Ideenreichtum]]); [[Absurder Humor]] jetzt
+  2 Kontexte. Neuer Autor [[Scott Meyer]]. Quelle: [[2026-07-20 Interview Magic 2.0]].
 
 ## Widersprüche / offene Fragen
 
-- ~~Sprachen~~ **geklärt (16.07.2026, erweitert 20.07.2026):** Deutsch bevorzugt — wartet bei
+- ~~Sprachen~~ **geklärt (16.07.2026, mehrfach geschärft 20.07.2026):** Deutsch bevorzugt — wartet bei
   DCC auf dt. Hörbücher statt englisch auszuweichen. → Deutsche Verfügbarkeit ist bei
-  Hörbuch-Empfehlungen praktisch Pflichtkriterium. **Gilt auch für Print** (bestätigt
-  2026-07-20: wartet bei [[Die mörderischen Cunninghams]] Bd. 3+ auf die dt. Übersetzung).
+  Empfehlungen praktisch Pflichtkriterium. **Gilt auch für Print** (wartet bei [[Die mörderischen
+  Cunninghams]] Bd. 3+ auf die dt. Übersetzung). **⭐ Drastisch bestätigt durch [[Magic 2.0]]
+  (20.07.2026):** Der Nutzer brach eine **geliebte** Reihe bei Bd. 4 ab — NICHT wegen Qualität,
+  sondern weil ihm das **englische Lesen zu mühsam** wurde („kein Bock mehr auf englisch zu lesen").
+  **Englisch ist also ein echter Erlebnis-Dämpfer, der selbst hohe Liebe überstimmt** — kein
+  bloßer „Fallback". Konsequenz: Bei Kandidaten ohne dt. Ausgabe/Fortsetzung ist die
+  Englisch-Hürde als **starker Malus** zu werten (nicht nur als Fußnote).
 - Gilt „Vorwärtsdrang" auch in langsameren Genres (Epic Fantasy)? → Kontext-Kontrast
 - Splatter/Gore-Grenze generell? (bei DCC unauffällig)

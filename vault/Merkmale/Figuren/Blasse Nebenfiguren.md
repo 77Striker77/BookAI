@@ -1,7 +1,7 @@
 ---
 typ: figur
 status_global: ""
-status_kontexte: { LitRPG: disliked }
+status_kontexte: { LitRPG: disliked, Humor-Phantastik: disliked }
 staerke: mittel
 seit: 2026-07-16
 uebergeordnet: ""
@@ -23,6 +23,7 @@ hat. Kein tragendes Gegenüber = ein Fehlen, das ich als Minus spüre.
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
 | [[LitRPG]] | disliked | [[Survival Quest]] −1: keine Nebenfigur trägt wie ein [[Ungleiches Duo]] ([[2026-07-16 Interview Survival Quest]]) |
+| [[Humor-Phantastik]] | disliked | [[Magic 2.0]] −1: Nebencharaktere zu dünn ([[2026-07-20 Interview Magic 2.0]]) |
 
 ## Matching-Konsequenz
 
@@ -32,3 +33,4 @@ Rezensionen mit „flat/forgettable side characters", „no strong supporting ca
 ## Träger
 
 - [[Survival Quest]] (−1)
+- [[Magic 2.0]] (−1)

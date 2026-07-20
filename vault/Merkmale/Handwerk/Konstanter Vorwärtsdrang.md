@@ -1,7 +1,7 @@
 ---
 typ: handwerk
 status_global: loved   # kontextübergreifend belegt (LitRPG + Fantasy + Krimi)
-status_kontexte: { LitRPG: loved, Fantasy: loved, Krimi: loved }
+status_kontexte: { LitRPG: loved, Fantasy: loved, Krimi: loved, Humor-Phantastik: loved }
 staerke: hoch
 seit: 2026-07-16
 uebergeordnet: ""
@@ -24,6 +24,7 @@ auch ruhige Szenen zählen, solange sie tragen. Gegenteil: Filler-Etagen, Nebenq
 | [[LitRPG]] | loved | [[Dungeon Crawler Carl]] +2 („Fokus. Story geht immer weiter") — ABER **im selben Kontext verletzt**: [[Survival Quest]] **−1** („der HC bleibt einfach zu selten bei der Sache", Sidequest-Wildwuchs) ([[2026-07-16 Erstinterview Dungeon Crawler Carl]] · [[2026-07-16 Interview Survival Quest]]) |
 | [[Fantasy]] | loved | 2× verletzt: [[Sturmfels-Akademie]] **−2** (Band 1: „zu wenig Progress, man weiß nicht wohin die Reise geht") · [[Der Prinz von Staub und Schatten]] **−1** („Fokus geht vom Ziel weg … könnte mehr Progress machen") ([[2026-07-16 Interview Streitende Götter]]) · [[Riyria]] **+1** — „Abenteuer-/Heist-Struktur + roter Faden über die Bände" (zügig, großer Bogen) ([[2026-07-16 Interview Riyria]]) |
 | [[Krimi]] | loved | [[Die mörderischen Cunninghams]] **+2** — „Sehr straff", alles zahlt auf den Fall ein, kein Leerlauf ([[2026-07-16 Interview Die mörderischen Cunninghams]]) |
+| [[Humor-Phantastik]] | loved | [[Magic 2.0]] **+1** — blieb flott & kurzweilig (nur stellenweise zäh) ([[2026-07-20 Interview Magic 2.0]]) |
 
 ## Kontextübergreifend bestätigt (roter Faden!)
 
@@ -40,6 +41,7 @@ Mittelteil zieht").
 - [[Survival Quest]] (−1, LitRPG — Gegenprobe zu DCC im selben Kontext)
 - [[Sturmfels-Akademie]] (−2, Band 1)
 - [[Der Prinz von Staub und Schatten]] (−1)
+- [[Magic 2.0]] (+1, flott & kurzweilig)
 
 **In 3 Kontexten belegt (LitRPG +2 UND −1, Krimi +2, Fantasy 2× verletzt) → mit Abstand
 der stärkste rote Faden des Profils. Besonders stark: im selben Kontext (LitRPG) hebt

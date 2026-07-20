@@ -1,7 +1,7 @@
 ---
 typ: figur
 status_global: ""
-status_kontexte: { Fantasy: liked }
+status_kontexte: { Fantasy: liked, Humor-Phantastik: liked }
 staerke: niedrig
 seit: 2026-07-20
 uebergeordnet: ""
@@ -26,10 +26,12 @@ Kippt ins Negative, wenn „nahbar" in Passivität/Klagen umschlägt → [[Zu pa
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
 | [[Fantasy]] | liked | [[Haus Ashford]] +1 — „ein char zum reinversetzen. auch sein Umfeld" ([[2026-07-20 Interview Haus Ashford]]) |
+| [[Humor-Phantastik]] | liked | [[Magic 2.0]] +1: sympathischer Nerd-Everyman zum Reinversetzen ([[2026-07-20 Interview Magic 2.0]]) |
 
 ## Evidenz gesamt
 
 - [[Haus Ashford]] +1: Stephen + sein geerdetes Umfeld als Immersions-Anker.
+- [[Magic 2.0]] +1: sympathischer Nerd-Everyman zum Reinversetzen.
 
 ## Matching-Konsequenz
 
@@ -39,3 +41,4 @@ Datenlage noch dünn (1 Werk) — beobachten, ob es sich verfestigt.
 ## Träger dieses Merkmals
 
 - [[Haus Ashford]] (+1)
+- [[Magic 2.0]] (+1)
