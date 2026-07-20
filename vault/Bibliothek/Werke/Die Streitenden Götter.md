@@ -74,7 +74,7 @@ Die Streitenden Götter (Overall)
 
 | Untergeordnete Reihe | Bände | Status | Verdikt |
 | --- | --- | --- | --- |
-| [[Sturmfels-Akademie]] | 5 (2023–2025) | abgeschlossen? (offene Frage) | loved |
+| [[Sturmfels-Akademie]] | 5 (2023–2025) | abgeschlossen (Niri-Zyklus, 5 Bände) | loved |
 | [[Der Prinz von Staub und Schatten]] | 2 von 5 geplant (2026) | laufend | loved |
 
 ## ⭐ Summe der Bewertungen (Overall = Aggregat beider Reihen)

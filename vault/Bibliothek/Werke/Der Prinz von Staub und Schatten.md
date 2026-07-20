@@ -48,7 +48,7 @@ cover: ""
 quellen:
   - "https://www.audible.de/series/Der-Prinz-von-Staub-und-Schatten-Hoerbuecher/B0GMZ91231"
   - "https://www.buechertreff.de/buchreihe/208542-prinz-von-staub-und-schatten-torsten-weitze-reihenfolge/"
-analysiert: 2026-07-16
+analysiert: "2026-07-16 (Nachinterview 2026-07-20: Ton/Aspekte ergänzt)"
 tags: [werk, reihe, hoerbuch, loved, fantasy]
 ---
 
@@ -165,4 +165,4 @@ stark geliebt, gleicher wunder Punkt — der zäh-unfokussierte Start).
 - ~~Beide Bände wirklich schon durch?~~ ✓ bestätigt (Interview 2026-07-20) — beide Hörbücher komplett gehört.
 - Bd. 3 „Hoffnung" ~Sept 2026 bestätigen.
 
-Quelle Interview: [[2026-07-16 Interview Streitende Götter]]
+Quelle Interview: [[2026-07-20 Interview Prinz von Staub und Schatten]] (Erstanalyse: [[2026-07-16 Interview Streitende Götter]])

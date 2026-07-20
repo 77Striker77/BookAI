@@ -118,7 +118,10 @@ Durchschnitt. Und: dies ist mein erstes GELESENES Werk (Format zählt individuel
 
 ## Offene Fragen
 
-- Wartet er bei Bd. 3+ auf die dt. Übersetzung (wie bei DCC)?
-- Was genau macht Bd. 2 stärker (nur Setting oder auch Plot)?
+- ~~Was genau macht Bd. 2 stärker (nur Setting oder auch Plot)?~~ ✓ geklärt (Interview): die
+  Locked-Room-/geschlossener-Kreis-Anlage (Bd. 2 im Zug) zieht ihn stärker — „Ich liebe
+  Locked-Room-Mystery und Co. Deswegen auch der zweite Teil nochmal besser als der erste."
+- ~~Wartet er bei Bd. 3+ auf die dt. Übersetzung (wie bei DCC)?~~ ✓ geklärt (2026-07-20): JA —
+  wartet auch bei Print auf die deutsche Übersetzung (Deutsch-Präferenz gilt Print wie Hörbuch).
 
 Quelle Interview: [[2026-07-16 Interview Die mörderischen Cunninghams]]

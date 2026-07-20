@@ -1,6 +1,6 @@
 ---
-aktualisiert: 2026-07-16
-sprachen: [de, en]         # Deutsch bevorzugt, Englisch als Fallback (nicht mehr hart, 16.07.2026)
+aktualisiert: 2026-07-20
+sprachen: [de, en]         # Deutsch bevorzugt (auch Print, best. 20.07.2026), Englisch als Fallback (nicht mehr hart, 16.07.2026)
 formate: [buch, hoerbuch]  # überwiegend Hörbuch, aber liest auch (Cunninghams) — Format pro Werk erfragen!
 format_notizen: "Buch und Hörbuch gleichwertig; Format IMMER erfragen, nie annehmen"
 tempo_pref: "straff, Vorwärtsdrang (roter Faden)"
@@ -55,11 +55,10 @@ tags: [moc, profil]
    „trägt massiv" → bei Hörbuch-Kandidaten Quasi-Vetorecht. (Gilt nur fürs Hörbuch;
    siehe Format-Hinweis.)
 5. **Figuren-Bindung trägt** — [[Ungleiches Duo]] (LitRPG), [[Akademie-Leben & Gemeinschaft]] (Fantasy).
-6. **Machtsteigerungs-Kurve MIT Peak + Magie-/Power-Fantasy-Lean (geschärft, Graubereich)** —
-   erwünscht ist eine spürbare Macht-/Fortschritts-Kurve mit Peak/Limit-Break; **beide flachen
-   Pole sind Malus**: OP-von-Anfang ([[Scholomance]]) UND gedeckelt-ohne-Limit-Break ([[Riyria]]).
-   Dazu spürbarer Magie-/Power-Fantasy-Anteil („zu wenig Fantasy" stört). Details: [[No-Gos]].
-   *(Rekonstruiert 2026-07-17 aus dem Bibliotheks-Artefakt — s. Sync-Vorfall unten.)*
+
+<!-- Früherer Punkt 6 (Machtsteigerungs-Kurve + Magie-Lean) war eine 2026-07-17 aus dem
+     Artefakt rekonstruierte Dublette von 2b/2c → 2026-07-20 entfernt; Inhalt lebt in 2b+2c. -->
+
 
 **Format-Erkenntnis (2026-07-16):** Der Nutzer HÖRT überwiegend, LIEST aber auch
 ([[Die mörderischen Cunninghams]] gelesen, dt.). **Format pro Werk erfragen, nie
@@ -74,8 +73,6 @@ NICHT als alleinigen Kompass nehmen.
 - **Liebe überall:** [[Konstanter Vorwärtsdrang]] (Fokus, kein Abschweifen, Progress);
   handlungsfähige Helden ([[Pragmatischer Held mit klarem Kompass]]); starke
   Sprecher-Performance; tragende Figuren-Beziehungen; [[Starkes Finale]]
-- **Meide überall (weich):** [[Zäher Start]], [[Nebenquest-Wildwuchs]],
-  [[Zu lange schwacher Held]], Fokusverlust
 - **Meide überall (weich):** [[Zäher Start]], [[Nebenquest-Wildwuchs]],
   [[Zu lange schwacher Held]], [[Intrigen-Overload ohne Progress]], Fokusverlust
 - **Meide überall (hart):** [[No-Gos]] — Reihen-Pflicht ≥3 Bände (Universum zählt),
@@ -143,8 +140,9 @@ NICHT als alleinigen Kompass nehmen.
 
 ## Widersprüche / offene Fragen
 
-- ~~Sprachen~~ **geklärt (16.07.2026):** Deutsch bevorzugt — wartet bei DCC auf dt.
-  Hörbücher statt englisch auszuweichen. → Deutsche Verfügbarkeit ist bei
-  Hörbuch-Empfehlungen praktisch Pflichtkriterium. (Bei Print-Büchern noch ungetestet.)
+- ~~Sprachen~~ **geklärt (16.07.2026, erweitert 20.07.2026):** Deutsch bevorzugt — wartet bei
+  DCC auf dt. Hörbücher statt englisch auszuweichen. → Deutsche Verfügbarkeit ist bei
+  Hörbuch-Empfehlungen praktisch Pflichtkriterium. **Gilt auch für Print** (bestätigt
+  2026-07-20: wartet bei [[Die mörderischen Cunninghams]] Bd. 3+ auf die dt. Übersetzung).
 - Gilt „Vorwärtsdrang" auch in langsameren Genres (Epic Fantasy)? → Kontext-Kontrast
 - Splatter/Gore-Grenze generell? (bei DCC unauffällig)
