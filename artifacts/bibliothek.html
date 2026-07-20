@@ -915,9 +915,16 @@
   }
   function route(){
     var h = (location.hash||"#uebersicht").replace("#","");
-    var anchorMap = { dcc:"werke", survival:"werke", scholomance:"werke", riyria:"werke", cunninghams:"werke", goetter:"werke", sturmfels:"werke", prinz:"werke", alexverus:"werke" };
-    if(anchorMap[h]) show(anchorMap[h], h);
-    else show(h);
+    // Ist der Hash direkt eine Ansicht? -> zeigen.
+    if(views.indexOf(h) >= 0){ show(h); return; }
+    // Sonst: Anker eines Werks/Elements -> dynamisch die enthaltende Ansicht finden
+    // (kein hartcodiertes Mapping mehr, damit neue Werke automatisch funktionieren).
+    var el = h ? document.getElementById(h) : null;
+    if(el){
+      var viewEl = el.closest(".view");
+      if(viewEl && viewEl.id.indexOf("v-")===0){ show(viewEl.id.slice(2), h); return; }
+    }
+    show("uebersicht");
   }
   // intercept clicks with data-view to set hash + scroll target
   document.addEventListener("click", function(e){
