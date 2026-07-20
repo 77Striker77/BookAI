@@ -102,14 +102,14 @@ Sammelbände ([[Tim Gerard Reynolds]], Recorded Books). Goodreads = EN.
 | # | Titel 🇩🇪 | Titel 🇬🇧 | 🇩🇪 Hörbuch (Nathan) | ⭐ Goodreads (⌀ · Anzahl) | Lesestand |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Der Thron von Melengar | The Crown Conspiracy | 10 h 59 · 07.03.2014 | 4,19 · ~26k | gehört |
-| 2 | Der Turm von Avempartha | Avempartha | ~11 h 11 · Aug 2014 | 4,30 · ~15,5k | gehört |
-| 3 | Der Aufstieg Nyphrons | Nyphron Rising | ~12 h 42 · 23.03.2015 | 4,34 · ~11–12k | gehört |
-| 4 | An Bord der Smaragdsturm | The Emerald Storm | ~12 h 18 · 25.09.2015 | 4,30 · ~9,7k | gehört |
-| 5 | Das Fest von Aquesta | Wintertide | ~10 h 38 · 22.02.2016 | 4,46 · ~12k | gehört |
-| 6 | Die verborgene Stadt Percepliquis | Percepliquis | ~18 h 08 · ~Nov 2016 | **4,57 (höchster) · ~11,8k** | gehört |
+| 2 | Der Turm von Avempartha | Avempartha | 11 h 11 · 25.08.2014 | 4,30 · ~15,5k | gehört |
+| 3 | Der Aufstieg Nyphrons | Nyphron Rising | 12 h 42 · 23.03.2015 | 4,34 · ~11–12k | gehört |
+| 4 | An Bord der Smaragdsturm | The Emerald Storm | 12 h 18 · 25.09.2015 | 4,30 · ~9,7k | gehört |
+| 5 | Das Fest von Aquesta | Wintertide | 10 h 38 · 22.02.2016 | 4,46 · ~12k | gehört |
+| 6 | Die verborgene Stadt Percepliquis | Percepliquis | 18 h 08 · 07.11.2016 | **4,57 (höchster) · ~11,8k** | gehört |
 
-*⚠️ Hördauern Bd. 2–6 und Daten Bd. 2/6 aus Sekundärquellen (dt. Shops 403); Bd. 1 (10:59)
-gesichert. ASINs/ISBNs/Übersetzer belegt.*
+*Hördauern Bd. 1–6 mehrfach belegt (Snippets; dt. Shops 403); Hörbuch-Daten Bd. 2 (25.08.2014)
+& Bd. 6 (07.11.2016) taggenau bestätigt (Recherche 2026-07-20). ASINs/ISBNs/Übersetzer belegt.*
 
 **EN-Sammelbände (Goodreads):** Theft of Swords (Bd. 1+2) **4,23 · ~79k** · Rise of Empire
 (Bd. 3+4) **4,36 · ~58k** · Heir of Novron (Bd. 5+6) **4,51 · ~56k**. → ~190k Wertungen
@@ -144,11 +144,11 @@ gesamt, **Bestseller**-Reichweite.
 | # | Hörbuch: Dauer · Datum · ASIN · ISBN | Print (Klett-Cotta): ISBN-13 · Seiten · Datum |
 | --- | --- | --- |
 | 1 | 10 h 59 · 07.03.2014 · B00IOTXZQA · 9783844514957 | 9783608960259 (HC) · 381 S · 2014 |
-| 2 | ~11 h 11 · Aug 2014 · B00LPR3THI · n. gef. | 9783608960136 · 394 S · 23.08.2014 |
-| 3 | ~12 h 42 · 23.03.2015 · B00UC34IEE · 9783844516074 | 9783608960143 · 448 S · 06.03.2015 |
-| 4 | ~12 h 18 · 25.09.2015 · B0158MH0SE · n. gef. | 9783608960150 · ~448 S · 14.09.2015 |
-| 5 | ~10 h 38 · 22.02.2016 · B01BKN3A7U · n. gef. | 9783608960167 · ~379 S · 15.02.2016 |
-| 6 | ~18 h 08 · ~Nov 2016? · B01M5E2FDJ · n. gef. | 9783608960174 · 644 S · 21.10.2016 |
+| 2 | 11 h 11 · 25.08.2014 · B00LPR3THI · 9783844516067 | 9783608960136 · 394 S · 23.08.2014 |
+| 3 | 12 h 42 · 23.03.2015 · B00UC34IEE · 9783844516074 | 9783608960143 · 448 S · 06.03.2015 |
+| 4 | 12 h 18 · 25.09.2015 · B0158MH0SE · 9783844516081 | 9783608960150 · ~448 S · 14.09.2015 |
+| 5 | 10 h 38 · 22.02.2016 · B01BKN3A7U · n. gef. | 9783608960167 · ~379 S · 15.02.2016 |
+| 6 | 18 h 08 · 07.11.2016 · B01M5E2FDJ · 9783844516104 | 9783608960174 · 644 S · 21.10.2016 |
 
 ### 🇬🇧 Englische Ausgaben (Einzel = Ridan; Sammelband = Orbit; EN-Hörbuch = Reynolds)
 
@@ -250,6 +250,13 @@ zweite belastbare Prädiktor aus diesem Werk.
 
 ## Offene Fragen
 
-- Dt. Hördauern Bd. 2–6 und Hörbuch-Daten Bd. 2/6 nur aus Snippets (Bd. 1 = 10:59 sicher).
-- Dt. Community-Wertungen je Einzelband nicht extrahierbar (nur Reihe ~4,4/188, BücherTreff).
-- EN Goodreads-Anzahlen editionsabhängig/schwankend (Einzel vs. Sammelband gebündelt).
+- ~~Dt. Hördauern Bd. 2–6 + Hörbuch-Daten Bd. 2/6~~ ✓ bestätigt (Recherche 2026-07-20):
+  Dauern 11:11 / 12:42 / 12:18 / 10:38 / 18:08 (Bd. 5 vereinzelt 10:37, Rundung); Bd. 2
+  Hörbuch **25.08.2014**, Bd. 6 **07.11.2016**. Hörbuch-ISBNs neu: Bd. 2 9783844516067 ·
+  Bd. 4 9783844516081 · Bd. 6 9783844516104.
+- Dt. Community-Wertungen je Band teils erhoben (LovelyBooks, **kleine Stichproben**): Bd. 1
+  **4,2 · 198 Bew.** (55 Rez.), Bd. 5 **~4,72 · 58**, Bd. 4 **50 Bew.** (Schnitt unklar);
+  Bd. 2 ~4,4 (Anzahl n. extrahierbar), Bd. 3 & 6 **nicht belegbar**. Amazon.de-Sternezahlen
+  je Band weiter nicht belegbar (403). Serien-Aggregat BücherTreff 4,4 · 188 bleibt Referenz.
+- EN Goodreads editionsabhängig: Bd. 4 „~9,7k" = Ridan-Einzeledition, Work-Gesamt ~11,5k;
+  Sammelbände Theft ~79k · Rise ~58k · Heir ~56k. Steigende Kurve 4,19→4,57 stabil.
