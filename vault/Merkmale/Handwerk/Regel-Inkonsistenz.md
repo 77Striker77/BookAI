@@ -1,7 +1,7 @@
 ---
 typ: handwerk
 status_global: ""
-status_kontexte: { LitRPG: disliked }
+status_kontexte: { LitRPG: disliked, Fantasy: disliked }
 staerke: mittel
 seit: 2026-07-16
 uebergeordnet: ""
@@ -24,6 +24,7 @@ auch Weltlogik, die nicht trägt („Kontinente bleiben Kontinente auch im Spiel
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
 | [[LitRPG]] | disliked | [[Survival Quest]] −1: „am Ende befolgt vor allem der HC die meisten Spielregeln überhaupt nicht"; „die Welt ist nicht wirklich konsistent" ([[2026-07-16 Interview Survival Quest]]) |
+| [[Fantasy]] | disliked | [[Alex Verus]] −1: am Ende „ohne Erklärung super mächtig … mächtiger als er ist hingestellt" — Machtsprung nicht sauber hergeleitet ([[2026-07-20 Interview Alex Verus]]) |
 
 ## Matching-Konsequenz
 
@@ -34,3 +35,4 @@ System der Kern des Erlebnisses ist.
 ## Träger
 
 - [[Survival Quest]] (−1)
+- [[Alex Verus]] (−1, unerklärter Machtsprung)

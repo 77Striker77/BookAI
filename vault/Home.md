@@ -34,6 +34,20 @@ tags: [moc, home]
 
 ## Zuletzt
 
+- 2026-07-20 — Werk 8: **[[Alex Verus]]** (Benedict Jacka, Urban Fantasy, 12 Bände), **loved**
+  — **2. loved-Werk in [[Fantasy]] & erster Positiv-Gegenentwurf** zu den 3 Fantasy-„okay"-Werken.
+  Gehört dt., **[[Johannes Klaußner]]** (neutral, „kein Verstärker"). Löst Progression-/Magie-
+  Faden POSITIV ein: Machtaufstieg (+2) + [[Wuchtig-spektakuläre Magie]] (+2, „fliegen die
+  Fetzen", balanciert) + [[Verborgene Magie im Alltag]] (+2) + neuer Plus-Typ [[Moralisch
+  ambivalenter Antiheld]] (+2). Neue Schwächen: [[Rückgestaute Machtkurve]] (Aufstieg zu
+  backloaded), [[Zu passiver Held]], [[Setup ohne Payoff]], [[Regel-Inkonsistenz]],
+  [[Intrigen-Overload ohne Progress]]. 6 neue Merkmale; Fantasy setting-Gewicht 0.08→0.12.
+  [[Trocken-ironischer Humor]] jetzt 3 Werke. Autor-Kandidat: „An Inheritance of Magic".
+  Quelle: [[2026-07-20 Interview Alex Verus]].
+- 2026-07-20 — **Vault-Metadaten-Kur (alle 6 Bestandswerke):** dt. Hördauern/ISBNs/Daten,
+  RU-Jahre, GR-Snapshots nachrecherchiert; Award-Korrekturen (Scholomance: Dragon Award
+  Bd. 3 YA, kein Locus/Hugo-Finalist); Konsistenz-Fixes (Sturmfels „abgeschlossen",
+  Cunninghams-Scheinfragen). Deutsch-Präferenz jetzt auch für Print bestätigt.
 - 2026-07-17 — **Branch-Zusammenführung auf `main`:** die interview-basierten Vollversionen
   der 3 „okay"-Werke ([[Riyria]], [[Survival Quest]], [[Scholomance]], MIT Aspekt-Bewertungen)
   und der Empfehlungslauf beider Sessions in einem `main` vereint. Ersetzt die frühere, aus

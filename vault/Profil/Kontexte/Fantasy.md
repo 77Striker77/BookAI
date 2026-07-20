@@ -1,17 +1,17 @@
 ---
 name: "Fantasy"
-aktualisiert: 2026-07-16
+aktualisiert: 2026-07-20
 uebergeordnet: ""
-buecher: 3              # Streitende Götter (Verbund) + Scholomance (mixed) + Riyria (mixed)
+buecher: 4              # Streitende Götter (Verbund, loved) + Alex Verus (loved, Urban Fantasy) + Scholomance (mixed) + Riyria (mixed)
 gewichte:
-  genres: 0.07
+  genres: 0.05
   themen: 0.20
   ton: 0.10
   erzaehlstil: 0.05
-  tempo: 0.05
+  tempo: 0.03
   komplexitaet: 0.02
   figuren: 0.20
-  setting: 0.08
+  setting: 0.12
   handwerk: 0.18
 tempo_pref: ""
 komplexitaet_pref: ""
@@ -28,9 +28,16 @@ Epic/klassische Fantasy ohne Game-System (mit System → [[LitRPG]]).
 ## Charakter dieses Geschmacksraums
 
 Hier tragen **Figuren & Gemeinschaft** (Akademie-Leben) und **Themen** (Underdog-
-Aufstieg, Herkunfts-Konflikt/Politik); die **Welt** muss stimmig sein, darf aber beim
-Magiesystem schwächeln, ohne das Werk zu verderben. Maßstab-Werk:
+Aufstieg, Herkunfts-Konflikt/Politik); die **Welt** muss stimmig sein. Maßstab-Werk:
 [[Die Streitenden Götter]] (Sturmfels-Akademie + Prinz von Staub und Schatten).
+
+**Positiv-Gegenentwurf (2026-07-20): [[Alex Verus]] (Urban Fantasy)** — 2. `loved`-Werk und
+der klare Beleg, wie es RICHTIG läuft: spürbare **Machtaufstiegs-Kurve** (nicht flach/
+gedeckelt wie Scholomance/Riyria) + **wuchtiges, aber ausbalanciertes Magiesystem** +
+**moralisch ambivalenter Antiheld** als Plus. Hier trägt das **Setting/Magiesystem** primär
+(→ setting-Gewicht hoch). Neue Schwäche-Nuance: der Aufstieg darf nicht **backloaded** sein
+([[Rückgestaute Machtkurve]]). *(Urban Fantasy vorerst unter Fantasy geführt; bei weiteren
+UF-Werken eigenen Sub-Kontext mit dem Nutzer erwägen.)*
 
 ## Top-Merkmale in diesem Kontext
 
@@ -46,14 +53,19 @@ Magiesystem schwächeln, ohne das Werk zu verderben. Maßstab-Werk:
 | [[Geheimnisvolle Macht]] | loved | [[Der Prinz von Staub und Schatten]] +2 |
 | [[Verlorenes Erbe & Thronanspruch]] | loved | [[Der Prinz von Staub und Schatten]] +2 |
 | [[Rache & Verfolgungsdruck]] | loved | [[Der Prinz von Staub und Schatten]] +2 |
-| [[Wachsende Hauptfigur]] | liked | [[Der Prinz von Staub und Schatten]] +1 |
+| [[Wachsende Hauptfigur]] | loved | [[Alex Verus]] +2 (Antihelden-Aufstieg) · [[Der Prinz von Staub und Schatten]] +1 |
 | [[Ungleiches Duo]] | loved | [[Riyria]] +2 (Royce & Hadrian, „zwei echte buddys") — auch LitRPG loved |
 | [[Trocken-ironischer Humor]] | loved | [[Riyria]] +1 (Duo-Banter) — auch Krimi loved |
 | [[Pragmatischer Held mit klarem Kompass]] | loved | [[Riyria]] +1 (kompetente Macher) |
-| [[Stimmige Weltatmosphäre]] | liked | [[Die Streitenden Götter]] +1 |
-| [[Konstanter Vorwärtsdrang]] | **loved (roter Faden)** | [[Der Prinz von Staub und Schatten]] −1 (verletzt) — genreübergreifend, s. [[Profil]] |
-| [[Zäher Start]] | disliked | [[Der Prinz von Staub und Schatten]] −1 |
-| [[Magiesystem-Tiefe]] | liked (Tiefe erwünscht) | [[Die Streitenden Götter]] −1 („lasch") |
+| [[Stimmige Weltatmosphäre]] | liked | [[Die Streitenden Götter]] +1 · [[Alex Verus]] +1 (gnadenlose Magier-Gesellschaft) |
+| [[Konstanter Vorwärtsdrang]] | **loved (roter Faden)** | [[Der Prinz von Staub und Schatten]] −1 (verletzt) · [[Alex Verus]] +1 (Gefahr/Druck) — genreübergreifend, s. [[Profil]] |
+| [[Zäher Start]] | disliked | [[Der Prinz von Staub und Schatten]] −1 (bei [[Alex Verus]] Bd. 1 objektiv, vom Nutzer NICHT als Störer genannt) |
+| [[Magiesystem-Tiefe]] | liked → **loved bei Balance** | [[Die Streitenden Götter]] −1 („lasch") · [[Scholomance]] +1 · [[Alex Verus]] **+2** (durchdacht + ausbalanciert) |
+| [[Wuchtig-spektakuläre Magie]] | **loved (neu)** | [[Alex Verus]] +2 — „fliegen die Fetzen", aber balanciert |
+| [[Moralisch ambivalenter Antiheld]] | **loved (neu)** | [[Alex Verus]] +2 — moralische Verdunkelung als Plus |
+| [[Verborgene Magie im Alltag]] | **loved (neu)** | [[Alex Verus]] +2 — Urban Fantasy, Magie im realen London |
+| [[Eskalations-Setpieces]] | loved | [[Alex Verus]] +2 (gefährliche magische Schauplätze) — auch LitRPG (DCC) |
+| [[Loyale Weggefährten]] | liked (neu) | [[Alex Verus]] +1 — Wahlfamilie inkl. Anne-Subplot |
 
 ## Top-DISLIKED-Merkmale in diesem Kontext (Anti-Muster, aus [[Scholomance]])
 
@@ -67,7 +79,11 @@ Magiesystem schwächeln, ohne das Werk zu verderben. Maßstab-Werk:
 | [[Unbalanciertes Machtsystem]] | disliked | [[Riyria]] −1, „Magie nutzlos oder unerreichbar, Sprung zu arg" |
 | [[Schwache Haupthandlung]] | disliked | [[Riyria]] −1, „Nebengeschichten spannender als Hauptplot" |
 | [[Dünnes Weltdetail]] | disliked | [[Riyria]] −1, „Weltdetail dünn/oberflächlich, zu wenig Fantasy" |
-| [[Setup ohne Payoff]] | disliked | [[Riyria]] −1, „Magie versprochen, in Handlung irrelevant" |
+| [[Setup ohne Payoff]] | disliked | [[Riyria]] −1, „Magie versprochen, irrelevant" · [[Alex Verus]] −1, Gegenspieler schwache Auflösung + offene Fäden |
+| [[Rückgestaute Machtkurve]] | disliked (neu) | [[Alex Verus]] −1, Aufstieg zu spät/abrupt, zu wenig frühe Limit-Breaks |
+| [[Zu passiver Held]] | disliked (neu) | [[Alex Verus]] −1, „lässt sich zu viel gefallen" |
+| [[Regel-Inkonsistenz]] | disliked | [[Alex Verus]] −1, „ohne Erklärung super mächtig" (auch [[Survival Quest]]) |
+| [[Intrigen-Overload ohne Progress]] | disliked | [[Alex Verus]] −1 · [[Der Prinz von Staub und Schatten]] −1, Politik verdrängt Fokus |
 
 ## Kombinationsregeln (Wechselwirkungen — schlagen Einzel-Status)
 
@@ -83,6 +99,7 @@ Magiesystem schwächeln, ohne das Werk zu verderben. Maßstab-Werk:
 | Titel | Verdikt |
 | --- | --- |
 | [[Die Streitenden Götter]] (Verbund: [[Sturmfels-Akademie]] + [[Der Prinz von Staub und Schatten]]) | loved |
+| [[Alex Verus]] (Benedict Jacka, Urban Fantasy, 12 Bände) | **loved** (Positiv-Gegenentwurf: Machtaufstieg + wuchtige, balancierte Magie) |
 | [[Scholomance]] (Naomi Novik, Trilogie) | mixed (Anti-Referenz −) |
 | [[Riyria]] (Michael J. Sullivan, Revelations, 6 Bände) | mixed (Duo/Mystery +, Magie/Macht −) |
 
@@ -95,3 +112,4 @@ Magiesystem schwächeln, ohne das Werk zu verderben. Maßstab-Werk:
 | 2026-07-16 | handwerk 0.14 → 0.18, figuren 0.22 → 0.20, ton 0.12 → 0.10 | Sturmfels-Tiefeninterview: zäher Start/Fokusverlust −2 (Fast-Abbruch!) + Sidequests → Handwerk ist DER Hebel in Fantasy; Held-Handlungsfähigkeit (figuren) durch [[Zu lange schwacher Held]] bestätigt wichtig |
 | 2026-07-16 | Gewichte unverändert; 2. Werk [[Scholomance]] (mixed) + 5 Negativ- & 2 Positiv-Merkmale + 2 Kombinationsregeln | Bestätigt figuren/handwerk hoch: [[Flache Machtprogression]] (−2) drückt trotz starker Welt aufs „okay" → Progression/Aufstieg ist auch in Fantasy zentral. [[Zäher Start]] jetzt 3× belegt. Neue Achse Erzählstimme (bissig + / Dauer-Zynismus −) |
 | 2026-07-16 | Gewichte unverändert; 3. Werk [[Riyria]] (mixed) + 3 Negativ-Merkmale | Duo (+2) & Mystery (+2) geliebt, aber Magie/Machtsystem trägt das „okay": [[Flache Machtprogression]] deckt jetzt BEIDE Pole (Scholomance OP / Riyria gedeckelt). Neu: Magie-/Power-Fantasy-Lean („zu wenig Fantasy") → [[Magiesystem-Tiefe]] als Wunsch bestätigt. Balance-Wunsch ([[Unbalanciertes Machtsystem]] −) |
+| 2026-07-20 | **setting 0.08→0.12, genres 0.07→0.05, tempo 0.05→0.03**; 4. Werk [[Alex Verus]] (**loved**, Urban Fantasy) + 6 neue Merkmale | Erstes loved-Werk, das primär über **Setting/Magiesystem** trägt (Magie-Wucht+Balance, verborgene Welt, Setpieces = die stärksten +2) → setting hochgewichtet. **Positiv-Gegenentwurf** zu Scholomance/Riyria: Machtaufstieg + ausbalancierte Magie. Neu: [[Moralisch ambivalenter Antiheld]] (Plus!), [[Wuchtig-spektakuläre Magie]], [[Verborgene Magie im Alltag]], [[Loyale Weggefährten]]; neue Schwächen [[Rückgestaute Machtkurve]], [[Zu passiver Held]]. |

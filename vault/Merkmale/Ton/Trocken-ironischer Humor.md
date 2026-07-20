@@ -22,7 +22,10 @@ Zwei Varianten desselben Humor-Spektrums (Kandidat für Merkmal-Hub, falls mehr 
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
 | [[Krimi]] | loved | [[Die mörderischen Cunninghams]] +2 — „Humor & Ton" gewählt; Rezensionen: „sarkastischer Humor" ([[2026-07-16 Interview Die mörderischen Cunninghams]]) |
-| [[Fantasy]] | loved | [[Riyria]] +1 — „Wortgefechte & Humor" des Duos gewählt (Royce/Hadrian-Banter) ([[2026-07-16 Interview Riyria]]) |
+| [[Fantasy]] | loved | [[Riyria]] +1 — „Wortgefechte & Humor" des Duos gewählt (Royce/Hadrian-Banter) ([[2026-07-16 Interview Riyria]]) · [[Alex Verus]] +1 — „trocken-sarkastischer Ich-Ton" + „Galgenhumor in Gefahr" gewählt (Urban Fantasy) ([[2026-07-20 Interview Alex Verus]]) |
+
+> **Jetzt in 3 Werken über 2 Kontexte belegt (Krimi + Fantasy 2×) → robuster roter Faden:
+> trockener/sarkastischer Witz trägt genreübergreifend.**
 
 ## Verwandt
 
@@ -33,3 +36,4 @@ Zwei Varianten desselben Humor-Spektrums (Kandidat für Merkmal-Hub, falls mehr 
 
 - [[Die mörderischen Cunninghams]] (+2)
 - [[Riyria]] (+1, Duo-Banter)
+- [[Alex Verus]] (+1, Ich-Ton + Galgenhumor)

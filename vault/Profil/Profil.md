@@ -36,21 +36,29 @@ tags: [moc, profil]
    verzeihlich, wenn der Payoff kommt). **Gegenprobe belegt (Survival Quest):** dieselben
    Genre-Zutaten wie DCC, aber Sidequest-Wildwuchs + [[Setup ohne Payoff]] → nur „okay".
 2. **Held muss handlungsfähig sein** — Achse [[Pragmatischer Held mit klarem Kompass]]
-   (Carl +2) ↔ [[Zu lange schwacher Held]] (Niri Bd. 1 −2, Fast-Abbruch).
-2b. **Machtsteigerungs-Kurve MIT Peak erwünscht (roter Faden, 2 Kontexte, 3 Werke)** — der
+   (Carl +2) ↔ [[Zu lange schwacher Held]] (Niri Bd. 1 −2) / [[Zu passiver Held]] (Alex Verus
+   −1, „lässt sich zu viel gefallen"). Zu schwach ODER zu duldsam sind beide Malus.
+2b. **Machtsteigerungs-Kurve MIT Peak erwünscht (roter Faden, 2 Kontexte, 4 Werke)** — der
    Nutzer liebt Stärkerwerden/Wachstum + spektakuläre Eskalation ([[Underdog-Aufstieg]],
    [[System & Progression]], [[Wachsende Hauptfigur]], [[Eskalations-Setpieces]]) und
    straft **beide Pole der flachen Kurve** ab: OP-von-Anfang ([[Scholomance]] −2) UND
    gedeckelt-ohne-Peak ([[Riyria]] −2, „kein Limit-Break"), dazu unglaubwürdig überhöht
-   ([[Überzogener Auserwählter]], [[Survival Quest]] −2). → Kandidaten brauchen einen
-   klaren **Climb + Payoff**; „OP from start / no growth" UND „stays weak / no power
-   ceiling" sind beide Malus.
-2c. **Magie-/Power-Fantasy-Lean (NEU)** — „zu wenig Fantasy", „kaum Magie" ([[Riyria]])
-   werden bemängelt; der Nutzer will Wunder/Magie-Reichtum + ein durchdacht-**ausbalanciertes**
-   Machtsystem ([[Magiesystem-Tiefe]] als Wunsch, [[Unbalanciertes Machtsystem]] als Malus).
-   Tendenz weg von low-magic-geerdeter Fantasy, hin zu magiereich/eskalierend (LitRPG-nah).
-3. **Humor als Plus** — [[Absurder Humor]] (LitRPG) & [[Trocken-ironischer Humor]] (Krimi):
-   in zwei Kontexten trägt Humor (verschiedene Spielarten).
+   ([[Überzogener Auserwählter]], [[Survival Quest]] −2). **✅ Positiv eingelöst bei
+   [[Alex Verus]]** (Antihelden-Aufstieg = Kern-Sog, +2). **Schärfung:** die Kurve muss auch
+   gut **getaktet** sein — nicht ans Ende gestaucht ([[Rückgestaute Machtkurve]] −1, „gegen
+   Ende sehr mächtig sehr schnell"). → Kandidaten brauchen einen **früh einsetzenden Climb +
+   sauberen Payoff**; „OP from start", „stays weak / no ceiling" UND „backloaded spike" sind Malus.
+2c. **Magie-/Power-Fantasy-Lean** — „zu wenig Fantasy", „kaum Magie" ([[Riyria]]) werden
+   bemängelt; der Nutzer will Wunder/Magie-Reichtum + ein durchdacht-**ausbalanciertes**
+   Machtsystem ([[Magiesystem-Tiefe]], [[Unbalanciertes Machtsystem]] als Malus). **✅ Ideal
+   getroffen bei [[Alex Verus]]:** [[Wuchtig-spektakuläre Magie]] (+2) — „nicht sparsam,
+   fliegen die Fetzen", aber Gute mächtig / Schwache nicht nutzlos. Tendenz zu magiereich/
+   eskalierend, aber sauber skaliert.
+2d. **Moralisch ambivalenter Antiheld als Plus (NEU, 2026-07-20)** — [[Moralisch ambivalenter
+   Antiheld]] (Alex Verus +2): moralische Verdunkelung + Zurückschlagen + Konsequenz/kein Reset
+   ziehen, solange glaubwürdig/verdient. Bisher 1 Kontext (Fantasy) — beobachten.
+3. **Humor als Plus** — [[Absurder Humor]] (LitRPG) & [[Trocken-ironischer Humor]] (Krimi +
+   Fantasy, jetzt 3 Werke): in zwei Kontexten trägt Humor (verschiedene Spielarten).
 4. **Sprecher-Performance ist zentral** — [[Stefan Kaminski]] UND [[Günter Merlau]]
    „trägt massiv" → bei Hörbuch-Kandidaten Quasi-Vetorecht. (Gilt nur fürs Hörbuch;
    siehe Format-Hinweis.)
@@ -92,6 +100,7 @@ NICHT als alleinigen Kompass nehmen.
 | [[Dungeon Crawler Carl]] ([[LitRPG]], Reihe) | loved | hoerbuch (dt.) | 2026-07-16 |
 | [[Die Streitenden Götter]] ([[Fantasy]], Verbund: [[Sturmfels-Akademie]] + [[Der Prinz von Staub und Schatten]]) | loved | hoerbuch (dt.) | 2026-07-16 |
 | [[Die mörderischen Cunninghams]] ([[Krimi]], Reihe) | loved | **buch/gelesen** (dt.) | 2026-07-16 |
+| [[Alex Verus]] ([[Fantasy]]/Urban Fantasy, Benedict Jacka, 12 Bände) | **loved** | hoerbuch (dt.) | 2026-07-20 |
 | [[Survival Quest]] ([[LitRPG]], Reihe, 7 Bände) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-16 |
 | [[Scholomance]] ([[Fantasy]], Trilogie) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-16 |
 | [[Riyria]] ([[Fantasy]], Revelations, 6 Bände) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-16 |
@@ -137,6 +146,19 @@ NICHT als alleinigen Kompass nehmen.
   Inkonsistenz. Erste weiche Romance-Warnung ([[Romance-Überhang]] −1) ohne harten
   No-Go-Bruch. **[[Leonie Landa]]** als 3. „trägt massiv"-Sprecherin. Community mag Bd. 3
   weniger (dt. 4,1) — deckt meine Bd.-3-Skepsis.
+- 2026-07-20: **2. `loved`-Werk in Fantasy & erster Positiv-Gegenentwurf — [[Alex Verus]]**
+  (Benedict Jacka, Urban Fantasy, 12 Bände, gehört dt.). **Löst den Progression-/Magie-Faden
+  positiv ein:** spürbare **Machtaufstiegs-Kurve** (nicht flach wie Scholomance/Riyria) +
+  **wuchtig-spektakuläres, aber AUSBALANCIERTES Magiesystem** ([[Wuchtig-spektakuläre Magie]]
+  +2, [[Magiesystem-Tiefe]] +2) — genau die Gegenprobe zu „zu wenig Fantasy"/„Sprung zu arg".
+  **Neuer Plus-Typ:** [[Moralisch ambivalenter Antiheld]] (moralische Verdunkelung als Reiz,
+  nicht Störer). **Schärfung Faden 2b:** die Kurve muss auch gut **getaktet** sein — der
+  Aufstieg darf nicht ans Ende gestaucht sein ([[Rückgestaute Machtkurve]] −1, „gegen Ende
+  sehr mächtig sehr schnell"). Handlungsfähigkeit-Achse ergänzt um [[Zu passiver Held]] −1
+  („lässt sich zu viel gefallen"). [[Trocken-ironischer Humor]] jetzt in **3 Werken/2 Kontexten**.
+  Romance als **integrierter Subplot** hier sogar ein Plus ([[Loyale Weggefährten]]).
+  **[[Johannes Klaußner]]** (Sprecher) neutral — „solide, kein Verstärker". Mein loved deckt
+  sich mit der steigenden Community-Kurve (3,90 → 4,51).
 
 ## Widersprüche / offene Fragen
 

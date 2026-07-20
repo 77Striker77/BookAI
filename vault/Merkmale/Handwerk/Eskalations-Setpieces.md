@@ -1,7 +1,7 @@
 ---
 typ: handwerk
 status_global: ""
-status_kontexte: { LitRPG: loved }
+status_kontexte: { LitRPG: loved, Fantasy: loved }
 staerke: mittel
 seit: 2026-07-16
 uebergeordnet: ""
@@ -22,7 +22,9 @@ machina-Rettungen.
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
 | [[LitRPG]] | loved | [[Dungeon Crawler Carl]] +2 ([[2026-07-16 Erstinterview Dungeon Crawler Carl]]) |
+| [[Fantasy]] | loved | [[Alex Verus]] +2 — gefährliche magische Schauplätze (Vaults, „Elsewhere") ([[2026-07-20 Interview Alex Verus]]) |
 
 ## Träger dieses Merkmals
 
 - [[Dungeon Crawler Carl]] (+2)
+- [[Alex Verus]] (+2, magische Setpieces)
