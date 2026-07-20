@@ -142,4 +142,5 @@ Aggregat der Reihen-Fazits (die je aus ihren Bänden entstanden sind):
 ## Offene Fragen
 
 - Weitere Reihen des Epos „Die Streitenden Götter" nach dem Prinzen? (Hinweis auf mehrteilige Anlage)
-- Prinz Bd. 3 Titel/Termin bestätigen.
+- ~~Prinz Bd. 3 Titel bestätigen~~ ✓ (2026-07-20): Bd. 3 „Hoffnung", Bd. 4 „Zorn", Bd. 5
+  „Vollendung" (Titel via Saltatio-EPs gesichert). **Roman-Termine Bd. 3–5 weiter offen.**
