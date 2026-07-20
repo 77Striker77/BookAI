@@ -91,6 +91,38 @@ stellen willst, halte inne und recherchiere sie stattdessen.
    (mit seinen Worten), grob welchem Merkmal/roter Faden es entspricht — dann weiter. Das
    bestätigt und lädt zum Präzisieren ein.
 
+## ✅ Abdeckungs-Matrix (PFLICHT-GATE — sichtbar mitführen, macht Skippen unmöglich)
+
+> Eingeführt 2026-07-20, nachdem eine Session bei „Welt/Magie" und „Plot" nur die
+> **Positiv**-Frage stellte und das Interview positiv-lastig schließen wollte. Genau die
+> übersprungenen Negativ-Fragen brachten danach die wertvollsten Antworten. Lehre: die
+> Trennung positiv/negativ je Dimension muss **überprüfbar und sichtbar** sein — nicht auf
+> Selbstdisziplin vertrauen.
+
+**Regel:** Führe ab der ersten Gefühls-Frage eine **sichtbare Matrix** mit und **zeige sie
+dem Nutzer** (z. B. nach jeder 2–3 Fragen und verpflichtend am Ende). Erst wenn jede
+Kern-Dimension **+ UND −** einen Haken hat (oder ein begründetes „—"), darf an
+**book-deep-analysis** übergeben werden. Fehlt ein Haken → nachfragen, nicht übergeben.
+
+| Dimension | + (was trug) | − (was bremste/störte) |
+|---|---|---|
+| Fakten-Block (Format · Sprache · Verdikt · Lesestand) | ⬜ | — |
+| Held/Hauptfigur | ⬜ | ⬜ |
+| Welt/Setting (+ Magiesystem, falls vorhanden) | ⬜ | ⬜ |
+| Plot/Geschichte(-bogen) | ⬜ | ⬜ |
+| Tempo / Vorwärtsdrang | ⬜ | ⬜ |
+| Ton/Humor | ⬜ | ⬜ |
+| Nebenfiguren / Beziehungen (falls relevant) | ⬜ | ⬜ |
+| Sprecher (**nur bei Hörbuch**) | ⬜ | ⬜ |
+| No-Gos / Near-No-Gos | ⬜ | — |
+
+- **Ein „—" ist erlaubt**, aber nur mit Grund (z. B. „Tempo +: entfällt, Werk ist bewusst
+  slow und das war hier kein Plus"). Ein leeres ⬜ ist es NICHT.
+- **Verdikt ändert das Gate NICHT:** bei „okay"/abgelehnt genauso vollständig abfragen (die
+  Negativseite ist dort erst recht Gold).
+- Am Ende die **ausgefüllte Matrix** ins Interview-Protokoll und in die Abschluss-Nachricht
+  an den Nutzer aufnehmen (Transparenz + Provenienz).
+
 ## Ablauf
 
 > ⭐ **Bewertungseinheit ist das WERK** (Reihe/Universum als Ganzes): Der Nutzer
@@ -169,8 +201,10 @@ auch gut", "Y habe ich abgebrochen"), lege sofort Kandidaten-Notizen mit
 ## Übergabe an die Analyse
 
 Wörtliche Zitate des Nutzers sind Gold – sie zeigen, welche Sprache/Kategorien er selbst
-nutzt. Übergib an **book-deep-analysis**, das diese Interview-Signale mit objektiven
-Metadaten zur Buch-DNA verschmilzt und den Vault aktualisiert.
+nutzt. **Vor der Übergabe: Abdeckungs-Matrix (oben) prüfen — jede Kern-Dimension + UND −
+abgehakt (oder begründetes „—").** Ist die Matrix unvollständig, NICHT übergeben, sondern
+die fehlenden Fragen nachholen. Erst dann an **book-deep-analysis** übergeben, das diese
+Interview-Signale mit objektiven Metadaten zur Buch-DNA verschmilzt und den Vault aktualisiert.
 
 Wenn `vault/Profil/Profil.md` schon gefüllt ist: gleiche die neuen Antworten damit ab und weise
 auf Muster oder Widersprüche hin ("Du sagst düster, aber deine Top-3 sind eher hoffnungsvoll –

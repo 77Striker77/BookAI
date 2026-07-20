@@ -21,6 +21,22 @@ tags: [interview]
 - **Verdikt:** mixed / „okay"
 - **Lesestand:** alle auf Deutsch erschienenen Bände (Bd. 1–3)
 
+## ✅ Abdeckungs-Matrix (ausgefüllt — Skill-Pflicht-Gate)
+
+| Dimension | + (was trug) | − (was bremste/störte) |
+|---|---|---|
+| Fakten-Block | ✅ Hörbuch · Deutsch · mixed · Bd. 1–3 | — |
+| Held | ✅ wissbegierig/begabt, Selbermacher, clever | ✅ langsamer Machtaufbau, Alltag/Nebenjob, passiv/reaktiv |
+| Welt/Magie | ✅ reale Welt + neue (verborgene) Magie | ✅ Magie „lasch"/zu aufwendig, geld-gated unausgewogen |
+| Plot/Story | ✅ Erzählweise/Reinversetzen, Herkunfts-Geheimnis, Action | ✅ langsam in Fahrt (Bd. 3 bester), Intrigen grenzwertig |
+| Tempo | — (Vorwärtsdrang war hier kein Plus) | ✅ −1, v. a. Auftakt (Bd. 1) zäh |
+| Ton/Humor | ✅ trocken-sarkastisch, britisch, bodenständig | ✅ „zu viel Gejammer" |
+| Sprecher (Hörbuch) | ✅ Klaußner +1 | — (kein Störfaktor genannt) |
+| No-Gos / Near-No-Gos | — | ✅ Intrigen/Politik „grenzwertig", aber im Rahmen (kein Bruch) |
+
+**Hebel zu „geliebt" (Synthese):** mehr Limit-Break-Momente · schnellerer Machtaufbau ·
+aktiverer Held · straffere Story (alle vier vom Nutzer gewählt).
+
 ## Fragen & Antworten
 
 **F (Held +):** Was hat dich am Helden Stephen Oakwood am ehesten getragen?
