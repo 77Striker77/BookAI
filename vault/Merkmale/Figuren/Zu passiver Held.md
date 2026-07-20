@@ -28,7 +28,7 @@ des Nutzers: nicht körperlich schwach, sondern zu wenig treibend/durchsetzungss
 
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
-| [[Fantasy]] | disliked | [[Alex Verus]] **−1**: „Es lässt sich zu viel gefallen" ([[2026-07-20 Interview Alex Verus]]) — verstärkt den Wunsch „endlich zurückschlagen" |
+| [[Fantasy]] | disliked | [[Alex Verus]] **−1**: „Es lässt sich zu viel gefallen" ([[2026-07-20 Interview Alex Verus]]) — verstärkt den Wunsch „endlich zurückschlagen" · [[Haus Ashford]] −1: „‚Zu passiv/reaktiv'; Community: ‚still on the outside looking in'" ([[2026-07-20 Interview Haus Ashford]]) |
 
 ## Matching-Konsequenz
 
@@ -39,3 +39,4 @@ Held": ein zu duldsamer, reaktiver Protagonist reibt. Bei weiteren Belegen ggf. 
 ## Träger dieses Merkmals
 
 - [[Alex Verus]] (−1, „lässt sich zu viel gefallen")
+- [[Haus Ashford]] (−1, „zu passiv/reaktiv")

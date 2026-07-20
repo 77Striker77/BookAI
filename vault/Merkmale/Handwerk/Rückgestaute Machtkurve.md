@@ -31,7 +31,7 @@ Der Wunsch: der Climb soll **früher & schrittweise** laufen, nicht ans Ende ges
 
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
-| [[Fantasy]] | disliked | [[Alex Verus]] **−1**: „zu langsam wurde er stärker … es gab schon mächtigere Wahrsager, also hätte das noch mehr im Fokus stehen können. mehr Limit-Break-Momente. Gegen Ende wird er sehr mächtig sehr schnell, so hätte es schon vorher ansatzweise laufen können" ([[2026-07-20 Interview Alex Verus]]) |
+| [[Fantasy]] | disliked | [[Alex Verus]] **−1**: „zu langsam wurde er stärker … es gab schon mächtigere Wahrsager, also hätte das noch mehr im Fokus stehen können. mehr Limit-Break-Momente. Gegen Ende wird er sehr mächtig sehr schnell, so hätte es schon vorher ansatzweise laufen können" ([[2026-07-20 Interview Alex Verus]]) · [[Haus Ashford]] −1: „Zu langsamer Machtaufbau — Aufstieg zu zäh/backloaded" ([[2026-07-20 Interview Haus Ashford]]) |
 
 ## Matching-Konsequenz
 
@@ -43,3 +43,4 @@ mit Limit-Breaks** — der Peak darf nicht erst im Finale aus dem Nichts kommen.
 ## Träger dieses Merkmals
 
 - [[Alex Verus]] (−1, Aufstieg zu spät & End-Spike zu abrupt)
+- [[Haus Ashford]] (−1, Aufstieg zu zäh/backloaded)

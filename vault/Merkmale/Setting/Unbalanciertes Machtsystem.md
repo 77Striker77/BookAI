@@ -25,7 +25,7 @@ dessen, was ich lobe: ein **durchdacht-ausbalanciertes** System (Scholomance +1)
 
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
-| [[Fantasy]] | disliked | [[Riyria]] −1: „das machtsystem war nicht durchdacht. magie entweder unsagbar schwach … oder total unerreichbar … die Elfen … unaufhaltsame macht … von gefühlt garnichts im zaum gehalten … der sprung war zu arg" ([[2026-07-16 Interview Riyria]]) |
+| [[Fantasy]] | disliked | [[Riyria]] −1: „das machtsystem war nicht durchdacht. magie entweder unsagbar schwach … oder total unerreichbar … die Elfen … unaufhaltsame macht … von gefühlt garnichts im zaum gehalten … der sprung war zu arg" ([[2026-07-16 Interview Riyria]]) · [[Haus Ashford]] −1: geld-gated & unausgewogen: „hast Geld → krass, sonst ackerst du ab"; „Käufliche Magie unrund" ([[2026-07-20 Interview Haus Ashford]]) |
 
 ## Matching-Konsequenz
 
@@ -37,3 +37,4 @@ Umgekehrt: gelobte, kalkulierbare Machtbalance = Plus (verbindet mit dem Wunsch 
 ## Träger
 
 - [[Riyria]] (−1)
+- [[Haus Ashford]] (−1, geld-gated/käufliche Magie unrund)

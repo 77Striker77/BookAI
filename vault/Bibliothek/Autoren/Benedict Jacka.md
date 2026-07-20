@@ -49,18 +49,25 @@ Schneller Vorwärtsdrang mit Kapitel-Cliffhangern.
 | Werk | Verdikt/Status |
 | --- | --- |
 | [[Alex Verus]] (12 Bände, komplett) | **loved** (Antihelden-Aufstieg + wuchtige, balancierte Magie + verborgene London-Welt) |
+| [[Haus Ashford]] (An Inheritance of Magic, Bd. 1–3, gehört) | **mixed / „okay"** (Selbermacher-Held + gute Limit-Break-Momente +, aber Magie „lasch"/geld-gated & zäher Alltag/Aufstieg −) |
 
-**Muster:** Jackas Stärken (spürbare Machtaufstiegs-Kurve, wuchtig-spektakuläres aber
-ausbalanciertes Magiesystem, verborgene Magie im Alltag, trockener Ich-Ton) treffen den
-roten Faden des Nutzers punktgenau. Schwächen des Nutzers lagen bei der **Ausführung** des
-Aufstiegs (zu spätes/abruptes Timing, schwacher End-Payoff), nicht am Autor-Stil an sich.
+**Muster (2 Werke, loved + mixed — sehr aufschlussreich):** Jackas **Handschrift** (verborgene
+Magie im Alltag, trockener Ich-Ton, Machtsystem im Fokus) trifft den Nutzer bei BEIDEN Werken.
+Der Unterschied **loved ↔ okay** liegt allein in der **Ausführung**:
+- **[[Alex Verus]] (loved):** [[Wuchtig-spektakuläre Magie]] +2 & **ausbalanciertes** System +2,
+  Antihelden-Aufstieg als Kern-Sog. Schwäche nur im Timing ([[Rückgestaute Machtkurve]]).
+- **[[Haus Ashford]] (okay):** dieselben UF-Stärken, aber **gedämpft** — Magie „lasch"/zu aufwendig
+  ([[Gedämpfte umständliche Magie]]) & **unausbalanciert** geld-gated ([[Unbalanciertes Machtsystem]]),
+  Aufstieg noch backloadeter, dazu [[Bremsender Alltags-Ballast]] und ein teils klagender Held.
+→ **Autoren-Lehre:** Jacka-Werke lohnen sich, aber der Nutzer braucht die **wuchtige, balancierte**
+Magie-Variante + Tempo. Bei künftigen Jacka-Titeln gezielt Rezensionen auf Magie-Wucht/Balance,
+Aufstiegs-Timing und Slow-Burn-Anteil prüfen.
 
 ## Weitere Werke (Kandidatenquelle!)
 
-- **„An Inheritance of Magic"** (laufende Reihe, eigenes Universum) — **starker
-  Kandidat**, sobald ≥3 Bände vorliegen: gleicher Autor, Urban Fantasy, Machtsystem im
-  Fokus. Prüfen: Machtprogression-Timing (Nutzer-Kritik bei Verus) + gibt es ein **dt.
-  Hörbuch** + Sprecher? → als Kandidat vormerken.
+- **„An Inheritance of Magic" / [[Haus Ashford]]** — **bereits gelesen** (Bd. 1–3 dt., mixed),
+  siehe [[Haus Ashford]]. Nicht mehr als Kandidat vorschlagen.
+- Frühe Kurzgeschichten/Novellen im Verus-Umfeld (Randmaterial) — noch ungeprüft.
 
 ## Quellen
 

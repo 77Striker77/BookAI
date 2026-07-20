@@ -2,7 +2,7 @@
 name: "Fantasy"
 aktualisiert: 2026-07-20
 uebergeordnet: ""
-buecher: 4              # Streitende Götter (Verbund, loved) + Alex Verus (loved, Urban Fantasy) + Scholomance (mixed) + Riyria (mixed)
+buecher: 5              # Streitende Götter (Verbund, loved) + Alex Verus (loved, UF) + Scholomance (mixed) + Riyria (mixed) + Haus Ashford (mixed, UF)
 gewichte:
   genres: 0.05
   themen: 0.20
@@ -39,6 +39,15 @@ gedeckelt wie Scholomance/Riyria) + **wuchtiges, aber ausbalanciertes Magiesyste
 ([[Rückgestaute Machtkurve]]). *(Urban Fantasy vorerst unter Fantasy geführt; bei weiteren
 UF-Werken eigenen Sub-Kontext mit dem Nutzer erwägen.)*
 
+**Negativ-Gegenentwurf beim SELBEN Autor (2026-07-20): [[Haus Ashford]] (Urban Fantasy,
+Benedict Jacka, mixed).** Dieselbe Handschrift wie [[Alex Verus]], aber die Verus-Pluspunkte
+**gedämpft** und die Minuspunkte **verstärkt** → nur „okay". Beweist: **die Ausführung
+entscheidet, nicht Autor/Genre.** Was fehlte: [[Wuchtig-spektakuläre Magie]] (hier
+[[Gedämpfte umständliche Magie]] −1 + [[Unbalanciertes Machtsystem]] −1, geld-gated statt
+balanciert), früher/schnellerer Aufstieg ([[Rückgestaute Machtkurve]] −1), Fokus statt
+[[Bremsender Alltags-Ballast]] (−1). Neu positiv verankert: [[Limit-Break-Momente]] (die
+gewünschten Macht-Peaks — „sehr gut, nur zu selten") und [[Wissbegieriger Selbermacher-Held]].
+
 ## Top-Merkmale in diesem Kontext
 
 | Merkmal | Status hier | Evidenz |
@@ -63,9 +72,14 @@ UF-Werken eigenen Sub-Kontext mit dem Nutzer erwägen.)*
 | [[Magiesystem-Tiefe]] | liked → **loved bei Balance** | [[Die Streitenden Götter]] −1 („lasch") · [[Scholomance]] +1 · [[Alex Verus]] **+2** (durchdacht + ausbalanciert) |
 | [[Wuchtig-spektakuläre Magie]] | **loved (neu)** | [[Alex Verus]] +2 — „fliegen die Fetzen", aber balanciert |
 | [[Moralisch ambivalenter Antiheld]] | **loved (neu)** | [[Alex Verus]] +2 — moralische Verdunkelung als Plus |
-| [[Verborgene Magie im Alltag]] | **loved (neu)** | [[Alex Verus]] +2 — Urban Fantasy, Magie im realen London |
-| [[Eskalations-Setpieces]] | loved | [[Alex Verus]] +2 (gefährliche magische Schauplätze) — auch LitRPG (DCC) |
+| [[Verborgene Magie im Alltag]] | **loved (neu)** | [[Alex Verus]] +2 — Urban Fantasy, Magie im realen London · [[Haus Ashford]] +1 |
+| [[Eskalations-Setpieces]] | loved | [[Alex Verus]] +2 (gefährliche magische Schauplätze) — auch LitRPG (DCC) · [[Haus Ashford]] +1 |
 | [[Loyale Weggefährten]] | liked (neu) | [[Alex Verus]] +1 — Wahlfamilie inkl. Anne-Subplot |
+| [[Trocken-ironischer Humor]] (Fantasy) | loved | [[Haus Ashford]] +1 (trocken/britisch/bodenständig) — s. auch Krimi/Riyria |
+| [[Wissbegieriger Selbermacher-Held]] | **loved (neu)** | [[Haus Ashford]] +2 — wissbegierig/begabt, Selbermacher, clever (trug am stärksten) |
+| [[Limit-Break-Momente]] | **loved (neu, roter Faden 2b)** | [[Haus Ashford]] +2 — „sehr gut, nur zu selten"; Wunsch auch bei [[Alex Verus]]/[[Riyria]] |
+| [[Nahbarer Everyman-Held]] | liked (neu) | [[Haus Ashford]] +1 — „char zum reinversetzen" + Umfeld |
+| [[Rätselhafte Herkunft]] | liked | [[Haus Ashford]] +1 — Herkunfts-Geheimnis (auch [[Der Prinz von Staub und Schatten]]) |
 
 ## Top-DISLIKED-Merkmale in diesem Kontext (Anti-Muster, aus [[Scholomance]])
 
@@ -76,7 +90,10 @@ UF-Werken eigenen Sub-Kontext mit dem Nutzer erwägen.)*
 | [[Eindimensionale Gegenspieler]] | disliked | [[Scholomance]] −1 |
 | [[Romance-Überhang]] | disliked | [[Scholomance]] −1, „am Ende zu arg und zu viel" |
 | [[Dauer-Zynismus]] | disliked | [[Scholomance]] −1, Erzählstimme kippt |
-| [[Unbalanciertes Machtsystem]] | disliked | [[Riyria]] −1, „Magie nutzlos oder unerreichbar, Sprung zu arg" |
+| [[Unbalanciertes Machtsystem]] | disliked | [[Riyria]] −1, „Magie nutzlos oder unerreichbar, Sprung zu arg" · [[Haus Ashford]] −1, geld-gated „krass oder ackern" |
+| [[Gedämpfte umständliche Magie]] | disliked (neu) | [[Haus Ashford]] −1 — Magie „zu aufwendig → lasch, fehlt wirkliche Macht" (Negativ-Gegenpol zu [[Wuchtig-spektakuläre Magie]]) |
+| [[Bremsender Alltags-Ballast]] | disliked (neu) | [[Haus Ashford]] −1 — Job/Training/Alltag bremst den Vorwärtsdrang |
+| [[Weinerlicher Held]] | disliked (neu) | [[Haus Ashford]] −1 — Ton kippt ins Klagende („Jammerlappen") |
 | [[Schwache Haupthandlung]] | disliked | [[Riyria]] −1, „Nebengeschichten spannender als Hauptplot" |
 | [[Dünnes Weltdetail]] | disliked | [[Riyria]] −1, „Weltdetail dünn/oberflächlich, zu wenig Fantasy" |
 | [[Setup ohne Payoff]] | disliked | [[Riyria]] −1, „Magie versprochen, irrelevant" · [[Alex Verus]] −1, Gegenspieler schwache Auflösung + offene Fäden |
@@ -102,6 +119,7 @@ UF-Werken eigenen Sub-Kontext mit dem Nutzer erwägen.)*
 | [[Alex Verus]] (Benedict Jacka, Urban Fantasy, 12 Bände) | **loved** (Positiv-Gegenentwurf: Machtaufstieg + wuchtige, balancierte Magie) |
 | [[Scholomance]] (Naomi Novik, Trilogie) | mixed (Anti-Referenz −) |
 | [[Riyria]] (Michael J. Sullivan, Revelations, 6 Bände) | mixed (Duo/Mystery +, Magie/Macht −) |
+| [[Haus Ashford]] (Benedict Jacka, An Inheritance of Magic, UF, 3 Bände) | **mixed** (Negativ-Gegenentwurf zum selben Autor wie [[Alex Verus]]: Magie gedämpft/unbalanciert, Alltag/Aufstieg zäh) |
 
 ## Gewichts-Begründung & Änderungshistorie
 
@@ -113,3 +131,4 @@ UF-Werken eigenen Sub-Kontext mit dem Nutzer erwägen.)*
 | 2026-07-16 | Gewichte unverändert; 2. Werk [[Scholomance]] (mixed) + 5 Negativ- & 2 Positiv-Merkmale + 2 Kombinationsregeln | Bestätigt figuren/handwerk hoch: [[Flache Machtprogression]] (−2) drückt trotz starker Welt aufs „okay" → Progression/Aufstieg ist auch in Fantasy zentral. [[Zäher Start]] jetzt 3× belegt. Neue Achse Erzählstimme (bissig + / Dauer-Zynismus −) |
 | 2026-07-16 | Gewichte unverändert; 3. Werk [[Riyria]] (mixed) + 3 Negativ-Merkmale | Duo (+2) & Mystery (+2) geliebt, aber Magie/Machtsystem trägt das „okay": [[Flache Machtprogression]] deckt jetzt BEIDE Pole (Scholomance OP / Riyria gedeckelt). Neu: Magie-/Power-Fantasy-Lean („zu wenig Fantasy") → [[Magiesystem-Tiefe]] als Wunsch bestätigt. Balance-Wunsch ([[Unbalanciertes Machtsystem]] −) |
 | 2026-07-20 | **setting 0.08→0.12, genres 0.07→0.05, tempo 0.05→0.03**; 4. Werk [[Alex Verus]] (**loved**, Urban Fantasy) + 6 neue Merkmale | Erstes loved-Werk, das primär über **Setting/Magiesystem** trägt (Magie-Wucht+Balance, verborgene Welt, Setpieces = die stärksten +2) → setting hochgewichtet. **Positiv-Gegenentwurf** zu Scholomance/Riyria: Machtaufstieg + ausbalancierte Magie. Neu: [[Moralisch ambivalenter Antiheld]] (Plus!), [[Wuchtig-spektakuläre Magie]], [[Verborgene Magie im Alltag]], [[Loyale Weggefährten]]; neue Schwächen [[Rückgestaute Machtkurve]], [[Zu passiver Held]]. |
+| 2026-07-20 | Gewichte unverändert; 5. Werk [[Haus Ashford]] (**mixed**, UF, Benedict Jacka) + 6 neue Merkmale | **Negativ-Gegenentwurf beim SELBEN Autor** wie [[Alex Verus]] → belegt: die **Ausführung** entscheidet (Magie-Wucht/Balance, Tempo, Held-Aktivität), nicht Autor/Genre. Neue Positiv-Merkmale [[Wissbegieriger Selbermacher-Held]] (+2), [[Limit-Break-Momente]] (+2, roter Faden 2b), [[Nahbarer Everyman-Held]] (+1). Neue Negativ-Merkmale [[Gedämpfte umständliche Magie]] (−1, Gegenpol zu Wuchtig-spektakuläre Magie), [[Bremsender Alltags-Ballast]] (−1), [[Weinerlicher Held]] (−1). Bestätigt [[Rückgestaute Machtkurve]], [[Zu passiver Held]], [[Unbalanciertes Machtsystem]], [[Zäher Start]], [[Intrigen-Overload ohne Progress]] (2. Beleg je). |

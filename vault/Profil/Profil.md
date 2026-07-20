@@ -38,7 +38,7 @@ tags: [moc, profil]
 2. **Held muss handlungsfähig sein** — Achse [[Pragmatischer Held mit klarem Kompass]]
    (Carl +2) ↔ [[Zu lange schwacher Held]] (Niri Bd. 1 −2) / [[Zu passiver Held]] (Alex Verus
    −1, „lässt sich zu viel gefallen"). Zu schwach ODER zu duldsam sind beide Malus.
-2b. **Machtsteigerungs-Kurve MIT Peak erwünscht (roter Faden, 2 Kontexte, 4 Werke)** — der
+2b. **Machtsteigerungs-Kurve MIT Peak erwünscht (roter Faden, 2 Kontexte, 5 Werke)** — der
    Nutzer liebt Stärkerwerden/Wachstum + spektakuläre Eskalation ([[Underdog-Aufstieg]],
    [[System & Progression]], [[Wachsende Hauptfigur]], [[Eskalations-Setpieces]]) und
    straft **beide Pole der flachen Kurve** ab: OP-von-Anfang ([[Scholomance]] −2) UND
@@ -48,12 +48,20 @@ tags: [moc, profil]
    gut **getaktet** sein — nicht ans Ende gestaucht ([[Rückgestaute Machtkurve]] −1, „gegen
    Ende sehr mächtig sehr schnell"). → Kandidaten brauchen einen **früh einsetzenden Climb +
    sauberen Payoff**; „OP from start", „stays weak / no ceiling" UND „backloaded spike" sind Malus.
+   **Präzisiert (2026-07-20, [[Haus Ashford]] mixed):** der Peak hat jetzt einen Namen —
+   [[Limit-Break-Momente]] (+2, „sehr gut, nur zu selten"). Der Nutzer will sie **häufig +
+   verdient über die Reihe verteilt**, nicht nur einen End-Spike. Zu wenige davon + zäher
+   Aufstieg ([[Rückgestaute Machtkurve]]) + [[Bremsender Alltags-Ballast]] = genau die Mischung,
+   die Haus Ashford beim selben Autor wie Alex Verus nur auf „okay" hält.
 2c. **Magie-/Power-Fantasy-Lean** — „zu wenig Fantasy", „kaum Magie" ([[Riyria]]) werden
    bemängelt; der Nutzer will Wunder/Magie-Reichtum + ein durchdacht-**ausbalanciertes**
    Machtsystem ([[Magiesystem-Tiefe]], [[Unbalanciertes Machtsystem]] als Malus). **✅ Ideal
    getroffen bei [[Alex Verus]]:** [[Wuchtig-spektakuläre Magie]] (+2) — „nicht sparsam,
    fliegen die Fetzen", aber Gute mächtig / Schwache nicht nutzlos. Tendenz zu magiereich/
-   eskalierend, aber sauber skaliert.
+   eskalierend, aber sauber skaliert. **Gegenprobe (2026-07-20, [[Haus Ashford]]):** ist die
+   Magie „zu aufwendig → lasch, fehlt wirkliche Macht" ([[Gedämpfte umständliche Magie]] −1)
+   und geld-gated unausgewogen ([[Unbalanciertes Machtsystem]] −1), zieht das aktiv Punkte —
+   Wucht UND Balance müssen zusammenkommen.
 2d. **Moralisch ambivalenter Antiheld als Plus (NEU, 2026-07-20)** — [[Moralisch ambivalenter
    Antiheld]] (Alex Verus +2): moralische Verdunkelung + Zurückschlagen + Konsequenz/kein Reset
    ziehen, solange glaubwürdig/verdient. Bisher 1 Kontext (Fantasy) — beobachten.
@@ -101,6 +109,7 @@ NICHT als alleinigen Kompass nehmen.
 | [[Die Streitenden Götter]] ([[Fantasy]], Verbund: [[Sturmfels-Akademie]] + [[Der Prinz von Staub und Schatten]]) | loved | hoerbuch (dt.) | 2026-07-16 |
 | [[Die mörderischen Cunninghams]] ([[Krimi]], Reihe) | loved | **buch/gelesen** (dt.) | 2026-07-16 |
 | [[Alex Verus]] ([[Fantasy]]/Urban Fantasy, Benedict Jacka, 12 Bände) | **loved** | hoerbuch (dt.) | 2026-07-20 |
+| [[Haus Ashford]] ([[Fantasy]]/Urban Fantasy, Benedict Jacka, An Inheritance of Magic, 3 Bände) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-20 |
 | [[Survival Quest]] ([[LitRPG]], Reihe, 7 Bände) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-16 |
 | [[Scholomance]] ([[Fantasy]], Trilogie) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-16 |
 | [[Riyria]] ([[Fantasy]], Revelations, 6 Bände) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-16 |
@@ -159,6 +168,19 @@ NICHT als alleinigen Kompass nehmen.
   Romance als **integrierter Subplot** hier sogar ein Plus ([[Loyale Weggefährten]]).
   **[[Johannes Klaußner]]** (Sprecher) neutral — „solide, kein Verstärker". Mein loved deckt
   sich mit der steigenden Community-Kurve (3,90 → 4,51).
+- 2026-07-20: **Negativ-Gegenentwurf beim SELBEN Autor — [[Haus Ashford]]** (Benedict Jacka,
+  An Inheritance of Magic, Urban Fantasy, 3 Bände, gehört dt., **mixed / „okay"**). **Stärkste
+  Kalibrier-Erkenntnis:** loved↔okay hängt bei Jacka NICHT am Stil/Genre, sondern an der
+  **Ausführung** — dieselbe UF-Handschrift wie [[Alex Verus]], aber Pluspunkte gedämpft
+  ([[Gedämpfte umständliche Magie]] statt [[Wuchtig-spektakuläre Magie]], [[Unbalanciertes
+  Machtsystem]] geld-gated statt balanciert) und Minuspunkte verstärkt ([[Rückgestaute
+  Machtkurve]], [[Zu passiver Held]] + neu [[Bremsender Alltags-Ballast]], [[Weinerlicher Held]],
+  [[Zäher Start]], [[Intrigen-Overload ohne Progress]]). **Positiv verankert:** die gewünschten
+  Macht-Peaks als [[Limit-Break-Momente]] (+2, „sehr gut, nur zu selten" — schärft Faden 2b) und
+  [[Wissbegieriger Selbermacher-Held]] (+2). **Sprecher [[Johannes Klaußner]] hier +1** (bei Verus
+  0 → Diskrepanz notiert). Mein „okay" deckt sich mit dem Community-Tenor (Slow-Burn, dünner
+  „will-stärker-werden"-Plot, reaktiver Held) und der leicht steigenden Kurve (4,09 → 4,15; Bd. 3
+  bester). Quelle: [[2026-07-20 Interview Haus Ashford]].
 
 ## Widersprüche / offene Fragen
 

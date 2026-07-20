@@ -22,8 +22,9 @@ hier soziale/fähigkeitsbezogene Entwicklung).
 
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
-| [[Fantasy]] | loved | [[Sturmfels-Akademie]] +2 — „Niri: Underdog-Aufstieg" als Kern gewählt ([[2026-07-16 Interview Streitende Götter]]) |
+| [[Fantasy]] | loved | [[Sturmfels-Akademie]] +2 — „Niri: Underdog-Aufstieg" als Kern gewählt ([[2026-07-16 Interview Streitende Götter]]) · [[Haus Ashford]]: Streben nach Macht (thematisch) ([[2026-07-20 Interview Haus Ashford]]) |
 
 ## Träger dieses Merkmals
 
 - [[Sturmfels-Akademie]] (+2, Niri)
+- [[Haus Ashford]] (thematisch)

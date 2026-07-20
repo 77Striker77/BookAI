@@ -34,6 +34,16 @@ tags: [moc, home]
 
 ## Zuletzt
 
+- 2026-07-20 — Werk 9: **[[Haus Ashford]]** (Benedict Jacka, An Inheritance of Magic, Urban
+  Fantasy, 3 Bände), **mixed / „okay"** — **Negativ-Gegenentwurf beim SELBEN Autor** wie das
+  geliebte [[Alex Verus]]. Gehört dt., **[[Johannes Klaußner]]** (hier **+1**, bei Verus 0 →
+  Diskrepanz notiert). Beweist: die **Ausführung** entscheidet loved↔okay, nicht Autor/Genre —
+  dieselbe UF-Handschrift, aber Magie [[Gedämpfte umständliche Magie|„lasch"]]/[[Unbalanciertes
+  Machtsystem|geld-gated]] statt wuchtig+balanciert, Aufstieg zäh ([[Rückgestaute Machtkurve]] +
+  neu [[Bremsender Alltags-Ballast]]), Held teils passiv/klagend ([[Weinerlicher Held]]). **6 neue
+  Merkmale**, davon 2 Plus-Anker: [[Limit-Break-Momente]] (+2, „sehr gut, nur zu selten" → schärft
+  roten Faden 2b) und [[Wissbegieriger Selbermacher-Held]] (+2). Kandidat „An Inheritance of Magic"
+  → gelesen (Stub). Quelle: [[2026-07-20 Interview Haus Ashford]].
 - 2026-07-20 — Werk 8: **[[Alex Verus]]** (Benedict Jacka, Urban Fantasy, 12 Bände), **loved**
   — **2. loved-Werk in [[Fantasy]] & erster Positiv-Gegenentwurf** zu den 3 Fantasy-„okay"-Werken.
   Gehört dt., **[[Johannes Klaußner]]** (neutral, „kein Verstärker"). Löst Progression-/Magie-

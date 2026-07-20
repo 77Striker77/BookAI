@@ -23,7 +23,7 @@ und [[Verlorenes Erbe & Thronanspruch]] (der dynastische Anspruch) — hier aber
 
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
-| [[Fantasy]] | loved | [[Der Prinz von Staub und Schatten]] +2 — „seine geheimnisvolle Geschichte" zieht; gewählt: „die rätselhafte Herkunft/Vorgeschichte — wer er wirklich ist, woher die Macht kommt" ([[2026-07-20 Interview Prinz von Staub und Schatten]]) |
+| [[Fantasy]] | loved | [[Der Prinz von Staub und Schatten]] +2 — „seine geheimnisvolle Geschichte" zieht; gewählt: „die rätselhafte Herkunft/Vorgeschichte — wer er wirklich ist, woher die Macht kommt" ([[2026-07-20 Interview Prinz von Staub und Schatten]]) · [[Haus Ashford]] +1: „‚Herkunfts-Geheimnis' um Stephen zieht" ([[2026-07-20 Interview Haus Ashford]]) |
 
 ## Matching-Konsequenz
 
@@ -34,3 +34,4 @@ treffen einen Nerv — besonders in Kombination mit [[Geheimnisvolle Macht]].
 ## Träger dieses Merkmals
 
 - [[Der Prinz von Staub und Schatten]] (+2, Tarikhs ungeklärte Herkunft & Vorgeschichte)
+- [[Haus Ashford]] (+1, Stephens Herkunfts-Geheimnis)

@@ -22,9 +22,10 @@ machina-Rettungen.
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
 | [[LitRPG]] | loved | [[Dungeon Crawler Carl]] +2 ([[2026-07-16 Erstinterview Dungeon Crawler Carl]]) |
-| [[Fantasy]] | loved | [[Alex Verus]] +2 — gefährliche magische Schauplätze (Vaults, „Elsewhere") ([[2026-07-20 Interview Alex Verus]]) |
+| [[Fantasy]] | loved | [[Alex Verus]] +2 — gefährliche magische Schauplätze (Vaults, „Elsewhere") ([[2026-07-20 Interview Alex Verus]]) · [[Haus Ashford]] +1: „‚Action-Setpieces' — die seltenen, längeren Gefahrenszenen" ([[2026-07-20 Interview Haus Ashford]]) |
 
 ## Träger dieses Merkmals
 
 - [[Dungeon Crawler Carl]] (+2)
 - [[Alex Verus]] (+2, magische Setpieces)
+- [[Haus Ashford]] (+1, seltene längere Gefahrenszenen)

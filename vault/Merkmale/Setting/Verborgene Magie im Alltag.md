@@ -22,7 +22,7 @@ Wunder/Gefahr, statt reiner Secondary-World-Kulisse.
 
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
-| [[Fantasy]] | loved (Urban Fantasy) | [[Alex Verus]] **+2**: „Magie versteckt im realen London" gewählt ([[2026-07-20 Interview Alex Verus]]) — Camden-Laden/Council-Welt/Schattenmarkt als Sog |
+| [[Fantasy]] | loved (Urban Fantasy) | [[Alex Verus]] **+2**: „Magie versteckt im realen London" gewählt ([[2026-07-20 Interview Alex Verus]]) — Camden-Laden/Council-Welt/Schattenmarkt als Sog · [[Haus Ashford]] +1: „‚reale Welt mit neuer Magie' — verborgene Magie im heutigen England" ([[2026-07-20 Interview Haus Ashford]]) |
 
 ## Matching-Konsequenz
 
@@ -33,3 +33,4 @@ einen eigenen Sub-Kontext „Urban Fantasy" (mit Nutzer bestätigen).
 ## Träger dieses Merkmals
 
 - [[Alex Verus]] (+2, verborgene Magierwelt im realen London)
+- [[Haus Ashford]] (+1, verborgene Magie im heutigen England)
