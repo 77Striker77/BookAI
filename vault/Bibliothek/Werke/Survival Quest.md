@@ -23,7 +23,7 @@ ungekuerzt: true
 naechster_band_de: "alle 7 erschienen (abgeschlossen)"
 naechster_band_en: "alle erschienen (The Way of the Shaman, abgeschlossen)"
 rating_schnitt: "~4,19/5 (Goodreads, bandgewichteter Reihenschnitt)"
-rating_stimmen_gesamt: "~42.600 (Goodreads live, Summe Bd. 1–7: 11,2k+7,7k+5,9k+5,4k+5,0k+4,1k+3,3k; Bd. 2 & 4 leicht niedriger als frühere Snapshots)"
+rating_stimmen_gesamt: "~41–44k (Goodreads-Snapshot 2026-07; je Band 11.226/6.781/5.926/4.803/5.016/4.093/3.251 = ~41k, Serienseite ~44k; Bd. 2 & 4 Anzahl gesunken ggü. früher, ⌀ stabil)"
 bekanntheit_stufe: "Etabliert"
 hype: "Genre-Säule/Pionier des LitRPG (russischer Ursprung, breit übersetzt) — kein aktueller Hype"
 rating_goodreads: 4.15
@@ -95,17 +95,18 @@ Ausgaben haben zu wenige Einzelwertungen). Vollständige Metadaten je Band → S
 | # | Titel 🇩🇪 | Titel 🇬🇧 | 🇩🇪 Hörbuch (Dauer · Datum) | ⭐ Goodreads (⌀ · Anzahl) | Lesestand |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Der Weg des Schamanen | Survival Quest (EN 2015 · RU 2012) | 11 h 42 · 21.12.2018 | 4,15 · ~11,2k | gehört |
-| 2 | Der dunkle Schamane | The Kartoss Gambit | 15 h 46 · ~2019/20 | **4,26 · ~7,7k** | gehört |
+| 2 | Der dunkle Schamane | The Kartoss Gambit | 15 h 46 · 31.07.2019 | **4,26 · ~6,8k** | gehört |
 | 3 | Das Geheimnis des dunklen Waldes | The Secret of the Dark Forest | 15 h 27 · 2020 | 4,23 · ~5,9k | gehört |
-| 4 | Die Phantomburg | The Phantom Castle | ~18 h 21 · ~2020/21 | **4,14 · ~5,4k** (2.-niedrigster) | gehört |
-| 5 | Das Karmadont-Schachspiel | The Karmadont Chess Set | ~15 h 24 · ~2021 | 4,21 · ~5,0k | gehört |
-| 6 | Die Rache des Schamanen | Shaman's Revenge | ~16 h 23 · ~2021 | **4,27 · ~4,1k (höchster)** | gehört |
-| 7 | Krieg der Clans | Clans War (EN 2018) | ~15 h 45 · ~Mai 2022 | **4,05 · ~3,3k (niedrigster — Finale)** | gehört |
+| 4 | Die Phantomburg | The Phantom Castle | 18 h 21 · 2020 (Tag unsicher) | **4,14 · ~4,8k** (2.-niedrigster) | gehört |
+| 5 | Das Karmadont-Schachspiel | The Karmadont Chess Set | 15 h 24? · 25.10.2021 | 4,21 · ~5,0k | gehört |
+| 6 | Die Rache des Schamanen | Shaman's Revenge | 16 h 23 · 20.12.2021 | **4,27 · ~4,1k (höchster)** | gehört |
+| 7 | Krieg der Clans | Clans War (EN 2018) | 15 h 45 · 09.05.2022 | **4,05 · ~3,3k (niedrigster — Finale)** | gehört |
 
-*⚠️ Hördauern Bd. 4–7 und Hörbuch-Daten Bd. 2–7 aus Sekundärquellen (dt. Shop-Seiten per
-Fetch 403-gesperrt) — als unbestätigt behandeln; ASINs/EANs/ISBNs dagegen direkt belegt.*
+*Hördauern Bd. 4/6/7 (18:21 / 16:23 / 15:45) und Hörbuch-Daten Bd. 2 (31.07.2019), 6
+(20.12.2021), 7 (09.05.2022) bestätigt (Recherche 2026-07-20; Snippets, dt. Shops 403).
+Weiter offen: Bd. 5 Dauer (15:24 vs. 15:27) und Bd. 4 Hörbuch-Tag (2020 vs. 2021). ASINs/EANs/ISBNs belegt.*
 
-**Reihenschnitt ~4,19/5 (~42,6k Wertungen gesamt).** Höchster: Bd. 6 „Die Rache des
+**Reihenschnitt ~4,19/5 (~44k Wertungen, Stand 2026-07).** Höchster: Bd. 6 „Die Rache des
 Schamanen" (4,27), knapp vor Bd. 2 (4,26). Niedrigster: **Bd. 7 „Krieg der Clans" (4,05),
 das Finale**; zweitniedrigster Bd. 4 „Die Phantomburg" (4,14). Die Wertungszahlen fallen
 über die Reihe (11k → 3k) = normale Reihen-Abnutzung.
@@ -151,12 +152,12 @@ das Finale**; zweitniedrigster Bd. 4 „Die Phantomburg" (4,14). Die Wertungszah
 | # | Hörbuch: Dauer · Datum · ASIN · EAN | Print: Verlag · ISBN-13 · Seiten · Datum | eBook ASIN |
 | --- | --- | --- | --- | --- |
 | 1 | 11 h 42 · 21.12.2018 · B07KKLB38V · 9783838789200 | Bastei Lübbe TB · 9783404209330 · 384 S · 21.12.2018 | B07D18CFMD |
-| 2 | 15 h 46 · ~2019/20? · B07T5WRP8Q · 9783838790602 | Bastei Lübbe TB · 9783404209507 · 512 S? · 31.07.2019? | B07K4FH9ZV |
-| 3 | 15 h 27 · 2020 · B087M8M4YC · 9783838794853 | Magic Dome · 9788076191075 · 477 S? · Dez 2019? | B07XDH1SBQ |
-| 4 | ~18 h 21? · 2020/21? · B08BFLYFRQ · 9783838794860 | Magic Dome · 9788076191297 · Seiten n. gef. · Jan 2020? | B07YL3QVYQ |
-| 5 | ~15 h 24? · ~25.10.2021? · B08L87S8GJ · 9783838797410 | Magic Dome · 9788076191709 · n. gef. | B082QP33S4 |
-| 6 | ~16 h 23? · ~20.12.2021? · B08PPTTX3S · 9783838797427 | Magic Dome · 9788076195851 · n. gef. | B0855QMVXS |
-| 7 | ~15 h 45? · ~09.05.2022? · B091ZCHCBJ · 9783838797434 | Magic Dome · 9788076192065 · 487 S? | B087VXWXD8 |
+| 2 | 15 h 46 · 31.07.2019 · B07T5WRP8Q · 9783838790602 | Bastei Lübbe TB · 9783404209507 · 512 S? · 31.07.2019 | B07K4FH9ZV |
+| 3 | 15 h 27 · 2020 · B087M8M4YC · 9783838794853 | Magic Dome · 9788076191075 · 477 S? · 2019? | B07XDH1SBQ |
+| 4 | 18 h 21 · 2020 (Tag unsicher) · B08BFLYFRQ · 9783838794860 | Magic Dome · 9788076191297 · Seiten n. gef. | B07YL3QVYQ |
+| 5 | 15 h 24? · 25.10.2021 · B08L87S8GJ · 9783838797410 | Magic Dome · 9788076191709 · n. gef. · ~05.04.2020? | B082QP33S4 |
+| 6 | 16 h 23 · 20.12.2021 · B08PPTTX3S · 9783838797427 | Magic Dome · 9788076195851 · 509 S · Mrz 2022? | B0855QMVXS |
+| 7 | 15 h 45 · 09.05.2022 · B091ZCHCBJ · 9783838797434 | Magic Dome · 9788076192065 · 487 S? | B087VXWXD8 |
 
 ### 🇬🇧 Englische Ausgaben + 🇷🇺 Original + EN-Hörbuch
 
@@ -166,9 +167,9 @@ Audio). RU-Reihe „Путь Шамана" (Vasily Mahanenko).
 | # | EN: Datum · Seiten · ISBN-13 · ASIN | EN-Hörbuch (Yen): Dauer · Datum | 🇷🇺 Original-Titel · Jahr | Goodreads ⌀ · Anzahl |
 | --- | --- | --- | --- | --- |
 | 1 | Kindle 20.04.2015 · Print 2017 · 426 S · 9788088231127 · B00VQRW14E | 11 h 24 · 15.03.2016 | Начало Пути · 2012(Web)/2013(Druck) | 4,15 · 11.226 |
-| 2 | Kindle 11.11.2015 · 361 S · 9788088231073 · B017F71H6Q | 15 h 48 · 12.04.2016 | Гамбит Картоса · 2013 | 4,26 · ~7,7k |
+| 2 | Kindle 11.11.2015 · 361 S · 9788088231073 · B017F71H6Q | 15 h 48 · 12.04.2016 | Гамбит Картоса · 2013 | 4,26 · 6.781 |
 | 3 | Kindle 04.07.2016 · 596 S · 9788088231165 · B01HZ4TYDM | 19 h 00 · 08.11.2016 | Тайна Тёмного леса · 2013/14 | 4,23 · 5.926 |
-| 4 | Kindle 28.11.2016 · Seiten n. gef. · 9788088231110 · B01M8JW7DQ | 19 h 05 · 07.03.2017 | Призрачный замок · 2014 | 4,14 · ~5,4k |
+| 4 | Kindle 28.11.2016 · 591 S · 9788088231110 · B01M8JW7DQ | 19 h 05 · 07.03.2017 | Призрачный замок · 2014 | 4,14 · 4.803 |
 | 5 | Print 01.04.2017 · 504 S · 9788088231035 · B01MR50Z43 | 15 h 54 · 16.05.2017 | Шахматы Кармадонта · 2014 | 4,21 · 5.019 |
 | 6 | Kindle 20.08.2017 · 559 S · 9788088231394 · B074V8YB1M | 16 h 51 · 21.11.2017 | Всё только начинается · 2015 | 4,27 · 4.093 |
 | 7 | Kindle 12.02.2018 · Print 26.07.2018 · 554 S · 9788088231592 · B079N9DBB9 | 16 h 54 · 22.05.2018 | Война кланов · 2015/16 | 4,05 · 3.251 |
@@ -189,12 +190,12 @@ Das **englische Hörbuch (Jonathan Yen, Tantor)** ist NICHT die vom Nutzer gehö
 | 1 | gehört (dt., 11 h 42) |
 | 2 | gehört (dt., 15 h 46) |
 | 3 | gehört (dt., 15 h 27) |
-| 4 | gehört (dt., ~18 h 21?) |
-| 5 | gehört (dt., ~15 h 24?) |
-| 6 | gehört (dt., ~16 h 23?) |
-| 7 | gehört (dt., ~15 h 45?) |
+| 4 | gehört (dt., 18 h 21) |
+| 5 | gehört (dt., 15 h 24?) |
+| 6 | gehört (dt., 16 h 23) |
+| 7 | gehört (dt., 15 h 45) |
 
-→ Reihe komplett gehört und abgeschlossen (**gesamt ~109 h**, Bd. 4–7 unbestätigt;
+→ Reihe komplett gehört und abgeschlossen (**gesamt ~109 h**, nur Bd. 5 Dauer unbestätigt;
 **Reihenschnitt ~15–16 h/Band ≤ ~20 h → im Komfortbereich**). Kein Nachschub nötig; dient
 als **Kalibrier- und Anti-Referenz** fürs Matching, nicht als Lücke, die gefüllt werden muss.
 
@@ -256,7 +257,7 @@ Verstärker** — ordentlich gelesen, jedoch kein Erlebnis-Faktor wie [[Stefan K
 
 ## 🧮 Reihen-Gesamtbild (letzter Schritt)
 
-Community-⌀ ~4,19/5 (~42,6k Goodreads) — etablierte, solide bewertete Genre-Säule; mein
+Community-⌀ ~4,19/5 (~44k Goodreads, Stand 2026-07) — etablierte, solide bewertete Genre-Säule; mein
 Urteil (mixed) liegt **unter** dem Community-Schnitt. Das ist konsistent: Was die
 LitRPG-Szene an Mahanenko schätzt (System-Tiefe, Crunch, Progression), ist genau das, was
 meinen roten Faden [[Konstanter Vorwärtsdrang]] reibt. **Kalibrier-Erkenntnis:** hohe
@@ -268,14 +269,14 @@ Negativ-Prädiktoren.
 *(Restlücken trotz gründlicher Zwei-Agenten-Recherche; dt. Shop-Seiten per Fetch 403 →
 nur Sekundärquellen. Bei Gelegenheit direkt an Audible.de/Amazon.de gegenlesen.)*
 
-- **Dt. Hördauern Bd. 4–7** nur aus Suchzusammenfassungen (~18:21 / ~15:24 / ~16:23 /
-  ~15:45) — Bd. 1–3 gesichert (11:42 / 15:46 / 15:27). Für Bd. 3 nannte eine Quelle
-  abweichend 18:19 h (verworfen).
-- **Dt. Hörbuch-Erscheinungsdaten Bd. 2–7** unbestätigt (nur Bd. 1 = 21.12.2018 hart).
-- **Dt. Print (Magic Dome) Seiten/Datum Bd. 5 & 6** nicht gefunden; Bd. 3/4/7 Seiten
-  unbestätigt.
-- **EN Seitenzahl Bd. 4** (The Phantom Castle) nicht belegbar.
-- **RU-Erscheinungsjahre Bd. 3/4/7** schwanken je Quelle um ±1 Jahr (Web-Erstveröffentl.
-  vs. Druck).
-- Goodreads-Zählstände schwanken über die Zeit (Bd. 2 & 4 aktuell etwas niedriger als
-  frühere Snapshots) — Schnitt je Band stabil.
+- ~~Dt. Hördauern Bd. 4/6/7~~ ✓ bestätigt (2026-07-20): Bd. 4 = 18:21 (1101 min, 355 Tracks),
+  Bd. 6 = 16:23, Bd. 7 = 15:45. **Bd. 5 weiter offen** (15:24 vs. 15:27 — Konflations-Verdacht mit Bd. 3).
+- ~~Dt. Hörbuch-Daten Bd. 2/6/7~~ ✓ bestätigt: Bd. 2 = 31.07.2019, Bd. 6 = 20.12.2021,
+  Bd. 7 = 09.05.2022. **Offen:** Bd. 4 Hörbuch-Tag (17.07.2020 vs. 19.07.2021), Bd. 3 nur jahresgenau (2020).
+- ~~EN Seitenzahl Bd. 4~~ ✓ **591 S** (Magic Dome). ~~DE-Print Seiten Bd. 6~~ ✓ **509 S**.
+  **Offen:** DE-Print-Seiten Bd. 4 & 5 (n. gef.), Bd. 3 (477?)/Bd. 7 (487?) nicht gegenbestätigt;
+  DE-Print-Datum Bd. 5 (~05.04.2020, Amazon-Platzhalter-Verdacht).
+- ~~RU-Erscheinungsjahre Bd. 3/4/7~~ ✓ präzisiert: Bd. 3 = 2013 (Web)/2014 (Druck), Bd. 4 = 2014,
+  Bd. 7 = 2016 (Druck; Web evtl. 2015).
+- Goodreads-Snapshot 2026-07 aktualisiert: Serie ~41–44k; Bd. 2 (6.781) & Bd. 4 (4.803)
+  Anzahl weiter gesunken, ⌀ je Band stabil.
