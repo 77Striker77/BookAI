@@ -5,7 +5,7 @@
 # Jeder Versuch, auf einen anderen Branch zu pushen (= faktisch einen neuen
 # Branch anzulegen), wird blockiert und laut gemeldet ("Alarm").
 # ============================================================================
-ALLOWED_BRANCH="claude/books-library-feedback-rhkjwj"
+ALLOWED_BRANCH="main"
 ALLOWED_REF="refs/heads/${ALLOWED_BRANCH}"
 
 status=0

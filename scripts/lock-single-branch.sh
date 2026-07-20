@@ -12,4 +12,4 @@ cd "$repo_root"
 git config core.hooksPath .githooks
 chmod +x .githooks/pre-push 2>/dev/null || true
 
-echo "🔒 Ein-Branch-Verriegelung aktiv: Pushes nur auf 'claude/books-library-feedback-rhkjwj'."
+echo "🔒 Ein-Branch-Verriegelung aktiv: Pushes nur auf 'main'."
