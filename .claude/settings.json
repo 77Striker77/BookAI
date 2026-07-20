@@ -5,7 +5,17 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash \"$CLAUDE_PROJECT_DIR/scripts/lock-single-branch.sh\""
+            "command": "bash \"$CLAUDE_PROJECT_DIR/scripts/branch-policy.sh\""
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/scripts/session-end-branch-reminder.sh\""
           }
         ]
       }

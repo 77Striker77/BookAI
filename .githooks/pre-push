@@ -1,27 +1,28 @@
 #!/usr/bin/env bash
 # ============================================================================
-# EIN-BRANCH-VERRIEGELUNG (harte Regel des Nutzers, 2026-07-20)
-# Erlaubt Pushes AUSSCHLIESSLICH auf den einen Arbeits-Branch.
-# Jeder Versuch, auf einen anderen Branch zu pushen (= faktisch einen neuen
-# Branch anzulegen), wird blockiert und laut gemeldet ("Alarm").
+# BRANCH-POLITIK (Regel des Nutzers, aktualisiert 2026-07-20)
+# Seiten-Branches sind ERLAUBT. Diese Hook blockiert nichts mehr, sondern
+# erinnert bei jedem Push auf einen Nicht-main-Branch daran, dass am Ende der
+# Session alles auf 'main' zusammengeführt werden muss — damit der Seiten-
+# Branch danach gefahrlos gelöscht werden kann.
 # ============================================================================
-ALLOWED_BRANCH="main"
-ALLOWED_REF="refs/heads/${ALLOWED_BRANCH}"
+MAIN_BRANCH="main"
+MAIN_REF="refs/heads/${MAIN_BRANCH}"
 
-status=0
 while read -r local_ref local_sha remote_ref remote_sha; do
   # Leere Zeile / Löschung ohne Ref überspringen
   [ -z "$remote_ref" ] && continue
-  if [ "$remote_ref" != "$ALLOWED_REF" ]; then
+  if [ "$remote_ref" != "$MAIN_REF" ]; then
+    branch="${remote_ref#refs/heads/}"
     echo "" >&2
-    echo "🚨🔒 ALARM — PUSH BLOCKIERT (Ein-Branch-Verriegelung)" >&2
-    echo "   Ziel:    $remote_ref" >&2
-    echo "   Erlaubt: $ALLOWED_REF" >&2
-    echo "   Es darf NUR auf den einen Branch '$ALLOWED_BRANCH' gepusht werden." >&2
-    echo "   Kein neuer Branch. Nie. (Regel vom 2026-07-20.)" >&2
+    echo "🌿 Hinweis — Push auf SEITEN-BRANCH '$branch' (nicht 'main')." >&2
+    echo "   Das ist erlaubt. ABER: vor Session-Ende ALLES auf '$MAIN_BRANCH'" >&2
+    echo "   zusammenführen (mergen/pushen), dann diesen Seiten-Branch löschen:" >&2
+    echo "     git checkout $MAIN_BRANCH && git merge $branch && git push origin $MAIN_BRANCH" >&2
+    echo "     git branch -d $branch && git push origin --delete $branch" >&2
     echo "" >&2
-    status=1
   fi
 done
 
-exit $status
+# Nie blockieren.
+exit 0

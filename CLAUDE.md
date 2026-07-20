@@ -111,6 +111,15 @@ möglich werden.** Daraus folgt kompromisslos:
 Auf dem Feature-Branch entwickeln, nach Änderungen committen & pushen (der Vault ist das
 Gedächtnis — Verlust vermeiden). Commits klar beschreiben.
 
+**Branch-Politik (Nutzer-Regel, 2026-07-20):** Seiten-Branches **dürfen** entstehen
+(z. B. je Arbeitspaket/Session). **Aber vor Session-Ende muss ALLES auf `main` landen**
+— zusammenführen (mergen/pushen), damit kein Wissen auf einem vergessenen Seiten-Branch
+versauert (passt zur „Vault ist das Gedächtnis"-Regel). Danach den Seiten-Branch löschen:
+`git checkout main && git merge <branch> && git push origin main` → `git branch -d <branch>
+&& git push origin --delete <branch>`. Darauf wird aktiv hingewiesen: SessionStart-Hook
+(`scripts/branch-policy.sh`) + Stop-Hook (`scripts/session-end-branch-reminder.sh`) melden,
+wenn noch etwas nicht in `main` ist. Der `pre-push`-Hook blockiert nicht mehr, erinnert nur.
+
 **Verbindlich (s. OBERSTE REGEL):** Vault-Änderungen und das daraus erzeugte Artefakt
 gehören in **denselben** Commit-/Push-Schritt. Nie ein Artefakt publizieren, solange der
 Vault-Stand uncommittet ist — der ephemere Container kann uncommittete Arbeit vernichten,
