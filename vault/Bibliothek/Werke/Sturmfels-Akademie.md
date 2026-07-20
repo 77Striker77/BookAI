@@ -62,18 +62,36 @@ Vorurteilen, Freundschaften und dem großen Konflikt dahinter. 5 Bände (2023–
 
 ## 📚 Die Bände einzeln
 
-Nur Deutsch (keine engl. Übersetzung), Hörbücher LAUSCH/[[Günter Merlau]] (~18–19 h je
-Band). Goodreads-Werte je Band gesichert; LovelyBooks/Audible-Zähler blockiert (⚠️).
+Nur Deutsch (keine engl. Übersetzung), Hörbücher **LAUSCH medien** / [[Günter Merlau]]
+(16:58 / 18:52 / 17:50 / 18:07 / 19:03 — gesamt ~90 h 50, Schnitt ~18:10; Bd. 1 der
+kürzeste). Print: **Bd. 1 TALOS Verlag → Bd. 2–5 Nova MD** (Verlagswechsel). Goodreads-Werte
+je Band gesichert; LovelyBooks/Audible-Zähler blockiert (⚠️).
 
 | # | Titel | 🇩🇪 Buch / Hörbuch | 🇬🇧 | ⭐ Goodreads (⌀ · Anzahl) | Lesestand |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Der Turm der Bettler | 2023 · Hörb. 21.07.2023 | — | **4,32** · 504 | gehört |
-| 2 | Der Turm des Goldes | eBook 19.01.2024 · Hörb. 26.01.2024 | — | 4,41 · 385 | gehört |
-| 3 | Der Turm der Könige | 02.07.2024 · Hörb. 05.07.2024 | — | 4,45 · 311 | gehört |
-| 4 | Der Turm des Blutes | Jan 2025 · Hörb. 10.01.2025 | — | 4,42 · 260 | gehört |
-| 5 | Der Turm des Wissens | 22.07.2025 · Hörb. 25.07.2025 | — | 4,45 · 218 | gehört |
+| 1 | Der Turm der Bettler | 2023 · Hörb. 21.07.2023 · 16 h 58 | — | **4,32** · 504 | gehört |
+| 2 | Der Turm des Goldes | eBook 19.01.2024 · Hörb. 26.01.2024 · 18 h 52 | — | 4,41 · 385 | gehört |
+| 3 | Der Turm der Könige | Print 02.07.2024 · Hörb. 05.07.2024 · 17 h 50 | — | 4,45 · 311 | gehört |
+| 4 | Der Turm des Blutes | Jan 2025 · Hörb. 10.01.2025 · 18 h 07 | — | 4,42 · 260 | gehört |
+| 5 | Der Turm des Wissens | Print 22.07.2025 · Hörb. 25.07.2025 · 19 h 03 | — | 4,45 · 218 | gehört |
 
 *Audible Bd. 1 kursiert mit ~4,9/500+ (Audible-Blog) — nicht offiziell bestätigt ⚠️.*
+
+### 🗃️ Dt. Ausgaben — ISBNs, Seiten & Verlag (Recherche 2026-07-20)
+
+> dt. Shops via Proxy 403 → Werte aus Snippets. **Print-Verlagswechsel:** Bd. 1 **TALOS
+> Verlag**, Bd. 2–5 **Nova MD**. Hörbuch durchgehend **LAUSCH medien** ([[Günter Merlau]]);
+> Audible führt nur ASINs (keine Hörbuch-ISBN-13).
+
+| # | Print-PB (ISBN · Seiten) | HC-Schmuckausg. (ISBN) | eBook (Kindle-ASIN) | Hörbuch-ASIN |
+| --- | --- | --- | --- | --- |
+| 1 | 9783988965257 · 468 S (TALOS) | 9783989422636 | B0C7YLDBVH | B0CBQ1LJTN |
+| 2 | 9783989422445 · 532 S (Nova MD) | 9783989422544 (~536 S) | B0CQDC3PJZ | B0CSG9SXQL |
+| 3 | 9783989425378 · 502 S | n. gef. | n. gef. | B0D6VWTYW9 |
+| 4 | 9783989425484 · 504 S | 9783989425477 (508 S) | n. gef. | B0DRCSNBVZ |
+| 5 | 9783989425507 · 506 S | n. gef. | n. gef. | B0FH2XP6LX |
+
+Taggenaue Print-Daten: Bd. 3 **02.07.2024**, Bd. 5 **22.07.2025** belegt; Bd. 1 & 4 nur Monat/Jahr.
 
 ### 👍 Was die Community lobt (echte Rezensionen)
 - Starker Weltenbau (Splitterlande, Götter/Sigille); liebevoll ausgearbeitete Nebenfiguren.
@@ -161,7 +179,11 @@ hier also **Community-belegt, kein Einzelurteil.**
 
 ## Offene Fragen
 
-- Alle 5 Bände gehört? (Reihe ist abgeschlossen — 5 Bände bestätigt)
-- Hördauer je Band grob bekannt (~18–19 h); ISBNs teils.
+- Alle 5 Bände gehört? (Reihe abgeschlossen — 5 Bände bestätigt; vollständigen Hör-Durchlauf
+  noch vom Nutzer bestätigen lassen.)
+- ~~Hördauer je Band grob (~18–19 h); ISBNs teils~~ ✓ erhoben (2026-07-20): Dauern
+  16:58 / 18:52 / 17:50 / 18:07 / 19:03; Print-ISBNs + Seiten Bd. 1–5 belegt (s. „Dt. Ausgaben").
+- Offen/nicht belegbar: eBook-ASINs Bd. 3–5, Schmuck-HC-ISBNs Bd. 3 & 5, taggenaue Print-Daten
+  Bd. 1 & 4, echte Shop-Wertungszähler (Amazon.de/Audible.de/LovelyBooks/BücherTreff — Proxy 403).
 
 Quelle Interview: [[2026-07-16 Interview Streitende Götter]]
