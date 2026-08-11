@@ -215,6 +215,12 @@
   .bk.ok { background: var(--rating-soft); border-color: transparent; }
   .bk.hier { background: var(--rating); color: #fff; border-color: transparent; }
   .arr { color: var(--muted); font-size: .78rem; }
+  .bk { position: relative; }
+  .stp { position: absolute; top: -7px; left: -5px; font-size: .58rem; font-weight: 800; color: var(--muted);
+    background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 0 4px; line-height: 1.4; }
+  .bk.hier .stp { color: var(--ink); }
+  .freetag { font-size: .66rem; font-weight: 800; border-radius: 999px; padding: 1px 8px; margin-right: 6px;
+    background: var(--track); color: var(--ink2); white-space: nowrap; }
   .etwhy { font-size: .84rem; color: var(--ink2); margin: 8px 0 0; }
 
   .footer { margin-top: 34px; color: var(--muted); font-size: .78rem; line-height: 1.6; border-top: 1px solid var(--line); padding-top: 16px; }
@@ -988,7 +994,7 @@
     <div class="view" id="v-reihenfolge">
       <header class="hero"><h1>🎧 Hörreihenfolge Vuldranni</h1>
         <p class="lead"><b>Die guten Jungs</b> (16 Bände) und <b>Die bösen Jungs</b> (11 Bände) spielen in derselben Welt und laufen am Ende zusammen.
-          Diese Reihenfolge führt beide zusammen — <b>27 Bände in 11 Etappen</b>.</p></header>
+          Diese Reihenfolge führt beide zusammen — <b>27 Bände, Schritt für Schritt</b>, nach der Erscheinungsreihenfolge des Originals.</p></header>
 
       <section>
         <div class="grid2">
@@ -996,7 +1002,7 @@
             <h3>Die drei Regeln</h3>
             <div class="thread">
               <div class="k">1</div><div><b>Die guten Jungs sind die Basis.</b> Sie legen Welt, Adel und Politik von Vuldranni. Wer sie zuerst hört, versteht die bösen Jungs deutlich besser.</div>
-              <div class="k">2</div><div><b>Umstieg nach Band 5.</b> „Schurken &amp; Halunken" erschien im Original direkt nach „Hochadel für Einsteiger" — ab da verschränkt weiterhören.</div>
+              <div class="k">2</div><div><b>Umstieg nach Band 5.</b> „Schurken &amp; Halunken" erschien im Original direkt nach „Hochadel für Einsteiger" — ab da Band für Band verschränkt weiterhören.</div>
               <div class="k">3</div><div><b>Am Ende zwingend:</b> <span style="white-space:nowrap">BJ 11 <span class="arr">→</span> GJ 15</span>. Der Crossover-Band zahlt beide Reihen ein.</div>
             </div>
           </div>
@@ -1011,8 +1017,9 @@
             <div class="seq">
               <span class="bk gj ok">gehört</span> <span class="bk gj hier">hier bist du</span>
             </div>
-            <p class="note" style="margin-top:10px"><b>Mein Stand:</b> guten Jungs Bd. 1–5 ✅ · böse Jungs Bd. 1 ▶️ läuft.
-              Das entspricht genau Etappe 3 — der Umstieg ist also schon geschafft.</p>
+            <div class="seq"><span class="subtle" style="font-size:.82rem">Die kleine Zahl oben links ist der <b>Schritt 1–27</b> in der Gesamtreihenfolge.</span></div>
+            <p class="note" style="margin-top:10px"><b>Mein Stand:</b> guten Jungs Bd. 1–5 ✅ · böse Jungs Bd. 1 ▶️ läuft — das ist <b>Schritt 6 von 27</b>.
+              Der Umstieg ist also schon geschafft.</p>
           </div>
         </div>
       </section>
@@ -1021,48 +1028,44 @@
         <h2>Die 11 Etappen</h2>
         <div class="route">
         <div class="et">
-          <div class="etn">Etappe 1<b>Einstieg — Welt kennenlernen</b><span class="subtle" style="font-weight:400">Original 2018</span><div style="margin-top:6px"><span class="st done">✅ gehört</span></div></div>
-          <div><div class="seq"><span class="bk gj ok">GJ&nbsp;1</span> <span class="bk gj ok">GJ&nbsp;2</span> <span class="bk gj ok">GJ&nbsp;3</span></div><p class="etwhy">Die guten Jungs legen das Fundament: Vuldranni, das Spiel iNcarn8, die Regeln. Ohne das ist der Rest halb so gut.</p></div>
+          <div class="etn">Etappe 1<b>Einstieg — Welt kennenlernen</b><span class="subtle" style="font-weight:400">Schritt 1–3 · Original 2018</span><div style="margin-top:6px"><span class="st done">✅ gehört</span></div></div>
+          <div><div class="seq"><span class="bk gj ok"><span class="stp">1</span>GJ&nbsp;1</span> <span class="arr">→</span> <span class="bk gj ok"><span class="stp">2</span>GJ&nbsp;2</span> <span class="arr">→</span> <span class="bk gj ok"><span class="stp">3</span>GJ&nbsp;3</span></div><p class="etwhy">Die guten Jungs legen das Fundament: Vuldranni, das Spiel iNcarn8, die Regeln.</p></div>
         </div>
         <div class="et">
-          <div class="etn">Etappe 2<b>Herzogtum &amp; Adel</b><span class="subtle" style="font-weight:400">Original 2019</span><div style="margin-top:6px"><span class="st done">✅ gehört</span></div></div>
-          <div><div class="seq"><span class="bk gj ok">GJ&nbsp;4</span> <span class="bk gj ok">GJ&nbsp;5</span></div><p class="etwhy">Montana erbt und beginnt aufzubauen — hier kommt der Adel ins Spiel, den die andere Reihe später von unten zeigt.</p></div>
+          <div class="etn">Etappe 2<b>Herzogtum &amp; Adel</b><span class="subtle" style="font-weight:400">Schritt 4–5 · Original 2019</span><div style="margin-top:6px"><span class="st done">✅ gehört</span></div></div>
+          <div><div class="seq"><span class="bk gj ok"><span class="stp">4</span>GJ&nbsp;4</span> <span class="arr">→</span> <span class="bk gj ok"><span class="stp">5</span>GJ&nbsp;5</span></div><p class="etwhy">Montana erbt und beginnt aufzubauen — der Adel kommt ins Spiel, den die andere Reihe später von unten zeigt.</p></div>
         </div>
         <div class="et here">
-          <div class="etn">Etappe 3<b>Umstieg: die andere Seite</b><span class="subtle" style="font-weight:400">Original 2019</span><div style="margin-top:6px"><span class="st now">▶️ du bist hier</span></div></div>
-          <div><div class="seq"><span class="bk bj hier">BJ&nbsp;1</span> <span class="arr">→</span> <span class="bk bj">BJ&nbsp;2</span></div><p class="etwhy"><b>Jetzt einsteigen, nicht früher:</b> „Schurken &amp; Halunken“ erschien im Original direkt nach „Hochadel für Einsteiger“. Ab hier läuft beides parallel — Clyde in Glaton, Montana im Herzogtum.</p></div>
+          <div class="etn">Etappe 3<b>Umstieg: die andere Seite</b><span class="subtle" style="font-weight:400">Schritt 6 · Original 2019</span><div style="margin-top:6px"><span class="st now">▶️ du bist hier</span></div></div>
+          <div><div class="seq"><span class="bk bj hier"><span class="stp">6</span>BJ&nbsp;1</span></div><p class="etwhy"><b>Genau hier einsteigen:</b> „Schurken &amp; Halunken“ erschien im Original direkt nach „Hochadel für Einsteiger“. Ab jetzt laufen beide Stränge parallel — Clyde in Glaton, Montana im Herzogtum.</p></div>
         </div>
         <div class="et">
-          <div class="etn">Etappe 4<b>Zurück nach Coggeshall</b><span class="subtle" style="font-weight:400">Original 2019</span></div>
-          <div><div class="seq"><span class="bk gj">GJ&nbsp;6</span> <span class="bk gj">GJ&nbsp;7</span></div><p class="etwhy">Belagerung und Jagd — Montanas Strang zieht nach, damit beide Zeitlinien wieder gleichauf sind.</p></div>
+          <div class="etn">Etappe 4<b>Beide Seiten im Wechsel</b><span class="subtle" style="font-weight:400">Schritt 7–9 · Original 2019</span></div>
+          <div><div class="seq"><span class="bk gj"><span class="stp">7</span>GJ&nbsp;6</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">8</span>BJ&nbsp;2</span> <span class="arr">→</span> <span class="bk gj"><span class="stp">9</span>GJ&nbsp;7</span></div><p class="etwhy">Ab hier wird echt verschränkt — Band für Band abwechselnd.</p></div>
         </div>
         <div class="et">
-          <div class="etn">Etappe 5<b>Glaton eskaliert</b><span class="subtle" style="font-weight:400">Original 2020</span></div>
-          <div><div class="seq"><span class="bk bj">BJ&nbsp;3</span> <span class="bk bj">BJ&nbsp;4</span> <span class="bk bj">BJ&nbsp;5</span> <span class="bk bj">BJ&nbsp;6</span></div><p class="etwhy">Der längste Block der bösen Jungs am Stück. Vier Bände Unterwelt, bevor es wieder wechselt.</p></div>
+          <div class="etn">Etappe 5<b>Der dichteste Wechselblock</b><span class="subtle" style="font-weight:400">Schritt 10–15 · Original 2020</span></div>
+          <div><div class="seq"><span class="bk bj"><span class="stp">10</span>BJ&nbsp;3</span> <span class="arr">→</span> <span class="bk gj"><span class="stp">11</span>GJ&nbsp;8</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">12</span>BJ&nbsp;4</span> <span class="arr">→</span> <span class="bk gj"><span class="stp">13</span>GJ&nbsp;9</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">14</span>BJ&nbsp;5</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">15</span>BJ&nbsp;6</span></div><p class="etwhy">Sechs Bände im Reißverschluss. ⚠️ Ab Schritt 14 kann das <b>deutsche Hörbuch</b> knapp werden (belegt eingelesen: guten Jungs bis Bd. 9, böse Jungs bis Bd. 8).</p></div>
         </div>
         <div class="et">
-          <div class="etn">Etappe 6<b>Montana zieht nach</b><span class="subtle" style="font-weight:400">Original 2020</span></div>
-          <div><div class="seq"><span class="bk gj">GJ&nbsp;8</span> <span class="bk gj">GJ&nbsp;9</span></div></div>
+          <div class="etn">Etappe 6<b>Montana zieht davon</b><span class="subtle" style="font-weight:400">Schritt 16–19 · Original 2021</span></div>
+          <div><div class="seq"><span class="bk gj"><span class="stp">16</span>GJ&nbsp;10</span> <span class="arr">→</span> <span class="bk gj"><span class="stp">17</span>GJ&nbsp;11</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">18</span>BJ&nbsp;7</span> <span class="arr">→</span> <span class="bk gj"><span class="stp">19</span>GJ&nbsp;12</span></div><p class="etwhy"><span class="freetag">frei tauschbar</span> Im Mittelteil (Schritte 16–24) laufen beide Handlungen weitgehend parallel — hier ist die exakte Reihenfolge <b>nicht kritisch</b>. Praktisch: wenn ein dt. Hörbuch noch fehlt, einfach den nächsten verfügbaren Band nehmen.</p></div>
         </div>
         <div class="et">
-          <div class="etn">Etappe 7<b>Beide Stränge parallel</b><span class="subtle" style="font-weight:400">Original 2021</span></div>
-          <div><div class="seq"><span class="bk bj">BJ&nbsp;7</span> <span class="arr">→</span> <span class="bk gj">GJ&nbsp;10</span> <span class="bk gj">GJ&nbsp;11</span> <span class="bk gj">GJ&nbsp;12</span></div></div>
+          <div class="etn">Etappe 7<b>Vorbereitung</b><span class="subtle" style="font-weight:400">Schritt 20–22 · Original 2022</span></div>
+          <div><div class="seq"><span class="bk gj"><span class="stp">20</span>GJ&nbsp;13</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">21</span>BJ&nbsp;8</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">22</span>BJ&nbsp;9</span></div><p class="etwhy"><span class="freetag">frei tauschbar</span> <span class="subtle">gehört zum unkritischen Mittelteil (Schritte 16–24)</span></p></div>
         </div>
         <div class="et">
-          <div class="etn">Etappe 8<b>Vorbereitung des Crossovers</b><span class="subtle" style="font-weight:400">Original 2022</span></div>
-          <div><div class="seq"><span class="bk bj">BJ&nbsp;8</span> <span class="bk bj">BJ&nbsp;9</span> <span class="arr">→</span> <span class="bk gj">GJ&nbsp;13</span></div><p class="etwhy">⚠️ Ab hier wird es beim <b>deutschen Hörbuch</b> eng — belegt eingelesen sind bislang guten Jungs bis Bd. 9 und böse Jungs bis Bd. 8.</p></div>
-        </div>
-        <div class="et">
-          <div class="etn">Etappe 9<b>Letzte Aufstellung</b><span class="subtle" style="font-weight:400">Original 2023</span></div>
-          <div><div class="seq"><span class="bk gj">GJ&nbsp;14</span> <span class="arr">→</span> <span class="bk bj">BJ&nbsp;10</span></div></div>
+          <div class="etn">Etappe 8<b>Letzte Aufstellung</b><span class="subtle" style="font-weight:400">Schritt 23–24 · Original 2023</span></div>
+          <div><div class="seq"><span class="bk gj"><span class="stp">23</span>GJ&nbsp;14</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">24</span>BJ&nbsp;10</span></div><p class="etwhy"><span class="freetag">frei tauschbar</span> <span class="subtle">gehört zum unkritischen Mittelteil (Schritte 16–24)</span></p></div>
         </div>
         <div class="et hard">
-          <div class="etn">Etappe 10<b>Crossover — Reihenfolge zwingend</b><span class="subtle" style="font-weight:400">Original 2024</span><div style="margin-top:6px"><span class="st cross">🔀 Crossover</span></div></div>
-          <div><div class="seq"><span class="bk bj">BJ&nbsp;11</span> <span class="arr">→</span> <span class="bk gj">GJ&nbsp;15</span></div><p class="etwhy"><b>Die eine harte Regel:</b> „2 Lügen, 2 Throne“ muss <b>vor</b> „Kampf um den Keramikthron“ kommen. In Band 15 kollidieren Montanas und Clydes Weg — der Band zahlt die Vorarbeit <b>beider</b> Reihen ein. Andersherum spoilerst du dir den ganzen Clyde-Strang.</p></div>
+          <div class="etn">Etappe 9<b>Crossover — Reihenfolge zwingend</b><span class="subtle" style="font-weight:400">Schritt 25–26 · Original 2024</span><div style="margin-top:6px"><span class="st cross">🔀 Crossover</span></div></div>
+          <div><div class="seq"><span class="bk bj"><span class="stp">25</span>BJ&nbsp;11</span> <span class="arr">→</span> <span class="bk gj"><span class="stp">26</span>GJ&nbsp;15</span></div><p class="etwhy"><b>Die eine harte Regel:</b> „2 Lügen, 2 Throne“ muss <b>vor</b> „Kampf um den Keramikthron“ kommen. In Band 15 tun Montana und Clyde sich zusammen — der Band zahlt die Vorarbeit <b>beider</b> Reihen ein. Andersherum spoilerst du dir den ganzen Clyde-Strang.</p></div>
         </div>
         <div class="et">
-          <div class="etn">Etappe 11<b>Finale</b><span class="subtle" style="font-weight:400">Original 2025</span></div>
-          <div><div class="seq"><span class="bk gj">GJ&nbsp;16</span></div><p class="etwhy">Der Abschluss des Universums (soweit auf Deutsch erzählt).</p></div>
+          <div class="etn">Etappe 10<b>Finale</b><span class="subtle" style="font-weight:400">Schritt 27 · Original 2025</span></div>
+          <div><div class="seq"><span class="bk gj"><span class="stp">27</span>GJ&nbsp;16</span></div><p class="etwhy">Der Abschluss des Universums (soweit auf Deutsch erzählt).</p></div>
         </div>
         </div>
       </section>
@@ -1071,9 +1074,9 @@
         <h2>Wichtige Einschränkungen — ehrlich gesagt</h2>
         <div class="panel">
           <div class="asp"><span class="b">!</span><b>Das deutsche Hörbuch kann diese Reihenfolge überholen.</b> Belegt eingelesen sind bislang <b>guten Jungs bis Bd. 9</b> und <b>böse Jungs bis Bd. 8</b> — die Bücher gibt es komplett, die Hörbücher noch nicht. Ab Etappe 8 also vorher prüfen, ob der nächste Band schon vorliegt. Bis dahin sind es noch ~12 Bände Puffer.</div>
-          <div class="asp"><span class="b">!</span><b>Innerhalb eines Erscheinungsjahres ist die Reihenfolge nicht monatsgenau belegt.</b> Deshalb Blöcke statt Scheingenauigkeit. Sicher sind: die Basis-Regel, der Umstieg nach GJ 5 und die Crossover-Regel am Ende.</div>
+          <div class="asp"><span class="b">!</span><b>Im Mittelteil (Schritte 16–24) ist die exakte Reihenfolge nicht kritisch.</b> Die Handlungen laufen dort weitgehend parallel — man darf frei tauschen, etwa wenn ein dt. Hörbuch noch fehlt. <b>Hart ist nur eines: BJ 11 vor GJ 15.</b></div>
           <div class="asp"><span class="b">!</span><b>Beide Reihen sind auch einzeln vollständig hörbar.</b> Diese Reihenfolge ist ein Optimum, kein Zwang — nur die Crossover-Regel (Etappe 10) sollte man wirklich einhalten.</div>
-          <p class="note">Quellen dieser Reihenfolge: Erscheinungschronologie der Originalausgaben (FantasticFiction/Goodreads), die Verlags-/Community-Aussage „beide Reihen sind unabhängig lesbar, aber weltbewegende Ereignisse werden aus zwei Perspektiven erzählt", die Leserempfehlung „erst die guten Jungs für Welt- und Politikwissen" und die Crossover-Anlage von „Bad to the Throne" (= GJ 15). Vollständig im Vault hinterlegt.</p>
+          <p class="note"><b>Quellen dieser Reihenfolge:</b> Erscheinungschronologie der Originalausgaben (FantasticFiction, aufbereitet von <i>Most Recommended Books</i>), die Verlags-/Community-Aussage „beide Reihen sind unabhängig lesbar, aber weltbewegende Ereignisse werden aus zwei Perspektiven erzählt", die Leserempfehlung „erst die guten Jungs für Welt- und Politikwissen" und die Crossover-Anlage von „Bad to the Throne" (= GJ 15). Die Jahre sind <b>Original-eBook-Erscheinungen</b>; die dt. Hörbücher kamen später und in anderer Taktung. Vollständig im Vault hinterlegt.</p>
         </div>
       </section>
 

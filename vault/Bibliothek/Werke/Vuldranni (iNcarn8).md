@@ -108,27 +108,71 @@ Vuldranni (iNcarn8) (Overall)
    Montanas und Clydes Weg — der Band zahlt die Vorarbeit **beider** Reihen ein. Umgekehrte
    Reihenfolge spoilert den Clyde-Strang.
 
-**Konkrete Etappen** (Gruppierung nach Erscheinungsjahr des Originals; **Monatsgenauigkeit
-innerhalb eines Jahres nicht belegt** → Blöcke, keine Scheinpräzision):
+### 📋 Die kanonische 27-Schritt-Liste (Erscheinungsreihenfolge des Originals)
 
-| # | Etappe | Bände | Jahr (EN) | Status Nutzer |
+> **Herkunft dieser Fassung (2026-08-11, Runde 3):** Der Nutzer hat seine eigene Recherche
+> nachgeliefert (Quelle: *Most Recommended Books*, gestützt auf FantasticFiction). Sie ist
+> **feinkörniger als meine erste Fassung**: ich hatte nur Jahres-Blöcke, weil
+> `mostrecommendedbooks.com` in dieser Session vom Egress-Proxy geblockt war und ich die
+> Monatsabfolge innerhalb eines Jahres nicht belegen konnte. **Alle harten Anker meiner
+> Fassung waren identisch** (GJ 1–5 → BJ 1 · BJ 11 vor GJ 15 · GJ 16 zuletzt); nur der
+> Mittelteil ist jetzt exakt statt blockweise. **Diese Liste gilt.**
+
+| Schritt | Reihe | Bd. | Titel (EN Original) | dt. Titel | Jahr | Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | guten | 1 | One More Last Time | Noch einmal mit Gefühl | 2018 | ✅ gehört |
+| 2 | guten | 2 | Heir Today, Pawn Tomorrow | Heute Erbe, morgen Schachfigur | 2018 | ✅ gehört |
+| 3 | guten | 3 | Dungeon Mauling | Dungeonschinder | 2018 | ✅ gehört |
+| 4 | guten | 4 | Four: The Loot | Und täglich droht die Nebenquest | 2019 | ✅ gehört |
+| 5 | guten | 5 | Dukes and Ladders | Hochadel für Einsteiger | 2019 | ✅ gehört |
+| **6** | **bösen** | **1** | **Scamps & Scoundrels** | **Schurken & Halunken** | 2019 | ▶️ **läuft** |
+| 7 | guten | 6 | Home, Siege Home | Eine Belagerung kommt selten allein ⚠️ | 2019 | offen |
+| 8 | bösen | 2 | Second Story Man | Der Dieb im ersten Stock | 2019 | offen |
+| 9 | guten | 7 | The Bare Hunt | Ein Halali für den Herzog | 2019 | offen |
+| 10 | bösen | 3 | Skull and Thrones | Die Freischaufler | 2020 | offen |
+| 11 | guten | 8 | Eastbound and Town | Wer stirbt, braucht festes Schuhwerk ⚠️ | 2020 | offen |
+| 12 | bösen | 4 | War of the Posers | Krieg der Aufschneider | 2020 | offen |
+| 13 | guten | 9 | Four Beheadings and a Funeral | Vier Enthauptungen und ein Todesfall | 2020 | offen |
+| 14 | bösen | 5 | Seas the Day | Seeungeheuer und andere Kalamitäten ⚠️ | 2020 | offen |
+| 15 | bösen | 6 | High Gloom | Unterm Arsch der Welt, und dann links ⚠️ | 2020 | offen |
+| 16 | guten | 10 | Eat, Slay, Love | Nacht der Unholde ⚠️ | 2021 | offen |
+| 17 | guten | 11 | Killing Them Awfully | Ein Goblin kommt selten allein ⚠️⚠️ | 2021 | offen |
+| 18 | bösen | 7 | Back to One | Zurück auf Eins | 2021 | offen |
+| 19 | guten | 12 | Wild Wild Quest | Wild Wild Quest ⚠️ | 2021 | offen |
+| 20 | guten | 13 | Flex in the City | Gemetzel in the City | 2022 | offen |
+| 21 | bösen | 8 | Trick of the Night | Spaß in der Nacht | 2022 | offen |
+| 22 | bösen | 9 | Darktown Funk | ⚠️ dt. Titel unbestätigt | 2022 | offen |
+| 23 | guten | 14 | Of Slicing Men | Grob tranchierte Gegner | 2023 | offen |
+| 24 | bösen | 10 | On a Throne of Lies | Auf einem Thron aus Lügen | 2023 | offen |
+| **25** | **bösen** | **11** | **2 Lies, 2 Thrones** | **2 Lügen, 2 Throne** | 2024 | offen |
+| **26** | **guten** | **15** | **Bad to the Throne** 🔀 **Crossover** | **Kampf um den Keramikthron** ⚠️ | 2024 | offen |
+| 27 | guten | 16 | One Man's Laughter | Acht Beine für ein Halleluja ⚠️ | 2025 | offen |
+
+**Etappen-Gliederung fürs Artefakt** (dieselbe Liste, nur gruppiert):
+
+| Etappe | Schritte | Bände | Jahr | Status |
 | --- | --- | --- | --- | --- |
-| 1 | Einstieg — Welt kennenlernen | GJ 1 → 2 → 3 | 2018 | ✅ gehört |
-| 2 | Herzogtum & Adel | GJ 4 → 5 | 2019 | ✅ gehört |
-| 3 | **Umstieg: die andere Seite** | **BJ 1 → 2** | 2019 | ▶️ **hier: BJ 1 läuft** |
-| 4 | zurück nach Coggeshall | GJ 6 → 7 | 2019 | offen |
-| 5 | Glaton eskaliert | BJ 3 → 4 → 5 → 6 | 2020 | offen |
-| 6 | Montana zieht nach | GJ 8 → 9 | 2020 | offen |
-| 7 | beide Stränge parallel | BJ 7 → GJ 10 → 11 → 12 | 2021 | offen |
-| 8 | Vorbereitung des Crossovers | BJ 8 → 9 → GJ 13 | 2022 | offen |
-| 9 | letzte Aufstellung | GJ 14 → BJ 10 | 2023 | offen |
-| 10 | **Crossover — Reihenfolge zwingend** | **BJ 11 → GJ 15** | 2024 | offen |
-| 11 | Finale | GJ 16 | 2025 | offen |
+| 1 Einstieg — Welt kennenlernen | 1–3 | GJ 1 → 2 → 3 | 2018 | ✅ gehört |
+| 2 Herzogtum & Adel | 4–5 | GJ 4 → 5 | 2019 | ✅ gehört |
+| 3 **Umstieg: die andere Seite** | 6 | **BJ 1** | 2019 | ▶️ **hier** |
+| 4 Beide Seiten im Wechsel | 7–9 | GJ 6 → BJ 2 → GJ 7 | 2019 | offen |
+| 5 Der dichteste Wechselblock | 10–15 | BJ 3 → GJ 8 → BJ 4 → GJ 9 → BJ 5 → BJ 6 | 2020 | offen |
+| 6 Montana zieht davon | 16–19 | GJ 10 → GJ 11 → BJ 7 → GJ 12 | 2021 | offen |
+| 7 Vorbereitung | 20–22 | GJ 13 → BJ 8 → BJ 9 | 2022 | offen |
+| 8 Letzte Aufstellung | 23–24 | GJ 14 → BJ 10 | 2023 | offen |
+| 9 **Crossover — zwingend** | 25–26 | **BJ 11 → GJ 15** | 2024 | offen |
+| 10 Finale | 27 | GJ 16 | 2025 | offen |
+
+**Wie streng ist das?** Nutzeraussage 2026-08-11: „bei den mittleren Bänden (16–24) ist die
+exakte Reihenfolge **nicht kritisch** — die Handlungen laufen weitgehend parallel.
+**Hart ist nur: BG 11 vor GG 15.**" Das entspricht Etappen 6–8; dort darf man also frei
+tauschen (praktisch relevant, wenn ein dt. Hörbuch noch fehlt).
 
 ⚠️ **Praxis-Warnung (dt. Hörbuch):** Diese Reihenfolge kann die deutsche **Hörbuch**-
-Veröffentlichung überholen. Belegt sind dt. Hörbücher bis mindestens **GJ Bd. 9** und
-**BJ Bd. 8**; alles darüber ist ⚠️ offen. Ab Etappe 8 also vorher prüfen, ob der nächste
-Band schon eingelesen ist — sonst reißt die Verschränkung.
+Veröffentlichung überholen. Belegt sind dt. Hörbücher bis mindestens **GJ Bd. 9** (= Schritt 13)
+und **BJ Bd. 8** (= Schritt 21); alles darüber ist ⚠️ offen. Ab etwa Schritt 14 also vorher
+prüfen, ob der nächste Band schon eingelesen ist. Die Jahresangaben sind **Original-eBook-
+Erscheinungen** — die dt. Hörbücher kamen später und in anderer Taktung.
 
 ## ⭐ Summe der Bewertungen (Overall = Aggregat beider Reihen)
 
@@ -200,7 +244,8 @@ Stimme ständig.
   Egress-Proxy blockiert, nur Websuche verfügbar.
 - ⚠️ Serien-Rating + Stimmenzahl für [[Die bösen Jungs]].
 - Erscheint „The Grim Guys" auf Deutsch? (dritte Reihe im selben Universum)
-- Spielen GJ und BJ zeitlich exakt parallel, oder versetzt? (Für die Etappen 5–9 wäre eine
-  bandgenaue In-World-Chronologie besser als die Erscheinungs-Chronologie.)
+- ~~Spielen GJ und BJ zeitlich exakt parallel, oder versetzt?~~ ✅ **beantwortet 2026-08-11**
+  (Nutzer-Recherche): die Handlungen laufen **weitgehend parallel**, deshalb ist im Mittelteil
+  (Schritte 16–24) die exakte Reihenfolge unkritisch. Verbindlich bleibt nur BJ 11 → GJ 15.
 
 Quelle Interview: [[2026-08-11 Interview Die guten Jungs & Die bösen Jungs]]

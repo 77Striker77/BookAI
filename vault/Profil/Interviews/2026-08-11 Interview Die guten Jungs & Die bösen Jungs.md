@@ -39,6 +39,35 @@ Vorgelegte und **bestätigte** Reihenfolge-These: *GJ als Basis zuerst · BJ 1 s
 erscheinungschronologisch nach GJ 5 ein · harte Regel am Ende: BJ 11 „2 Lügen, 2 Throne"
 VOR GJ 15 „Kampf um den Keramikthron" (Crossover).*
 
+## Runde 3 — der Nutzer liefert seine eigene Recherche nach
+
+Der Nutzer legte nach dem Abgleich seine **vollständige 27-Schritt-Liste** vor (Quelle:
+*Most Recommended Books*, gestützt auf FantasticFiction) und fragte, ob das dem entspricht,
+was ich gefunden hatte.
+
+**Abgleich — was übereinstimmte:**
+
+| Anker | meine Fassung | Nutzer-Fassung | Deckung |
+| --- | --- | --- | --- |
+| Basis-Regel (guten Jungs zuerst) | ✓ | ✓ | identisch |
+| Einstieg BJ 1 nach GJ 5 | ✓ | ✓ (Schritt 6) | identisch |
+| Crossover BJ 11 vor GJ 15 | ✓ | ✓ (Schritte 25→26) | identisch |
+| Finale GJ 16 zuletzt | ✓ | ✓ (Schritt 27) | identisch |
+| Prinzip = Erscheinungsreihenfolge | ✓ | ✓ | identisch |
+
+**Was seine Fassung besser konnte:** die **exakte Verschränkung im Mittelteil**. Ich hatte
+dort nur Jahres-Blöcke, weil `mostrecommendedbooks.com` in dieser Session vom Egress-Proxy
+geblockt war — Monatsabfolgen innerhalb eines Jahres konnte ich nicht belegen und habe
+deshalb bewusst gruppiert statt Scheinpräzision erzeugt. Seine Liste löst genau diese Lücke.
+
+**Neue Sachaussage (in den Vault übernommen):** „bei den mittleren Bänden (16–24) ist die
+exakte Reihenfolge **nicht kritisch** — die Handlungen laufen weitgehend parallel. **Hart ist
+nur: BG 11 vor GG 15.**" Damit ist die bisherige offene Frage zur In-World-Chronologie
+beantwortet.
+
+**Lehre für den Vault:** Wenn eine Quelle blockiert ist, lieber grob + ehrlich markiert als
+präzise + geraten — die Lücke war korrekt ausgewiesen und ließ sich sauber schließen.
+
 ## Was daraus folgt (Ableitungen)
 
 ### Neue Merkmale (4)
