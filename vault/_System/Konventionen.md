@@ -86,6 +86,27 @@ Götter" = Sturmfels-Akademie + Prinz von Staub und Schatten):
   (eingerückt/als Kinder). Jede Reihe bleibt inhaltlich für sich voll bewertet.
 - Matching: Reihen-Aspekte + geerbte Overall-Aspekte zusammen.
 
+## 🙈 Spoilerfreiheit der Artefakte (Nutzerregel 2026-08-11)
+
+> „wichtig ist auch im artefakt sollen keine inhaltlichen **spoiler** sein zu den teilen die
+> ich noch nicht gelesen oder gehört habe!“
+
+Der **Vault darf alles enthalten** (er ist Arbeitsmaterial). Die **Artefakte werden gefiltert**:
+maßgeblich ist der **Lesestand** des jeweiligen Werks.
+
+| jenseits des Lesestands | erlaubt? |
+| --- | --- |
+| Titel (DE/EN), Bandnummer, Jahr, Hördauer, Sprecher, Verlag, ISBN | ✅ |
+| Verfügbarkeit, Position in einer Lese-/Hörreihenfolge | ✅ |
+| Wertungen, Stimmenzahl, Bekanntheit | ✅ |
+| **Handlung, Wendungen, Figuren-Entwicklung, Orte, Ausgang eines Bandes** | ❌ |
+| Community-Kritik, die Inhalte verrät (etwa: wer in Band Y ausscheidet) | ❌ |
+| Community-Kritik ohne Inhalt („Bd. 7 hat Leerlauf“) | ✅ |
+
+**Grenzfall Reihenfolge-Begründung:** Dass ein Band zwei Stränge zusammenführt, ist
+**Reihenfolge-Information** und darf stehen — sonst wäre die Regel nicht begründbar. **Wie**
+das geschieht, bleibt draußen. Im Zweifel: die Reihenfolge-Wirkung nennen, nicht die Handlung.
+
 ## Format (gelesen/gehört) — die Basis ist immer das Buch, der Sprecher ist Bonus
 
 Regel (Nutzeraussage 2026-07-20): **Das Werk/Buch ist immer die Basis.** Ob der Nutzer

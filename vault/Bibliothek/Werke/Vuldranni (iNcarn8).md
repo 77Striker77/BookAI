@@ -6,9 +6,9 @@ jahr_start: 2018
 erscheinungsdatum_bd1: "2018"        # The Good Guys 1 „One More Last Time"
 letztes_datum: "2025"                # The Good Guys 16 „One Man's Laughter"
 baende_gesamt: 27                    # Verbund: guten Jungs 16 + bösen Jungs 11
-baende_geplant: 27                   # beide dt. Reihen abgeschlossen; EN läuft „The Grim Guys" weiter
-abgeschlossen: false                 # dritte Reihe (The Grim Guys) läuft, nicht auf Deutsch
-angekuendigt: "The Grim Guys (EN, Yonder-Serial) — dritte Reihe im selben Universum, keine dt. Ausgabe bekannt"
+baende_geplant: 29                   # ⚠️ KORREKTUR 2026-08-11: +GJ 17 +BJ 12 (beide 2026 angekündigt)
+abgeschlossen: false                 # BEIDE Reihen laufen weiter, dazu The Grim Guys (EN)
+angekuendigt: "⚠️ KORREKTUR: Guten Jungs Bd. 17 UND Böse Jungs Bd. 12 für 2026 angekündigt — KEINE der beiden Reihen ist abgeschlossen. Dazu The Grim Guys (EN, Yonder-Serial) als dritte Reihe."
 naechster_band_de: "keiner — beide dt. Reihen komplett erschienen (Buch); dt. HÖRBUCH-Produktion läuft noch (⚠️ aktueller Stand offen)"
 naechster_band_en: "The Grim Guys (laufend)"
 sprachen_verfuegbar: [de, en]
@@ -55,7 +55,7 @@ tags: [werk, universum, hoerbuch, liked, litrpg]
 eigenständigen Werke [[Die guten Jungs]] und [[Die bösen Jungs]] von [[Eric Ugland]] —
 sie fängt das Geteilte (Spielwelt Vuldranni, Zugang über das Spiel **iNcarn8**, Ugland-
 Handschrift, Humor/Ton, Systemlogik) UND das Gesamtbild über beide Reihen ein.
-**Reihen-Pflicht auf Verbund-Ebene: 27 Bände, beide Reihen abgeschlossen = klar erfüllt.**
+**Reihen-Pflicht auf Verbund-Ebene: 27 erschienene Bände = klar erfüllt.** ⚠️ **Korrektur 2026-08-11:** entgegen dem ersten Stand ist **keine** der beiden Reihen abgeschlossen — **Guten Jungs Bd. 17** und **Böse Jungs Bd. 12** sind für **2026** angekündigt.
 
 > Nutzer: „sie spielen ja beides in der selben Welt und es gab eine Empfehlung der
 > Hörreihenfolge … sowohl die einzelnen Teile als auch die ganze Reihe sowie die empfohlene
@@ -67,9 +67,11 @@ Handschrift, Humor/Ton, Systemlogik) UND das Gesamtbild über beide Reihen ein.
 ## 📇 Metadaten (Verbund)
 
 - **Erschienen (EN):** 2018 (Good Guys 1) – 2025 (Good Guys 16) · **27 Bände** in zwei Reihen
-- **Status:** beide erzählten Stränge abgeschlossen; im selben Universum läuft EN eine
-  **dritte Reihe „The Grim Guys"** weiter (Yonder-Serial, Brüder Julian & Greg in
-  **Mahrduhm**) — ⚠️ **keine deutsche Ausgabe bekannt**
+- **Status:** ⚠️ **KORREKTUR 2026-08-11 — beide Reihen laufen weiter:** [[Die guten Jungs]]
+  **Bd. 17** und [[Die bösen Jungs]] **Bd. 12** sind für **2026** angekündigt (Risingshadow,
+  Book Notification). Der erste Stand („beide abgeschlossen") war falsch. Jüngster erschienener
+  Band: GJ 16, **07.07.2025**. Dazu im selben Universum eine **dritte Reihe „The Grim Guys"**
+  (Yonder-Serial, Brüder Julian & Greg in **Mahrduhm**) — ⚠️ **keine deutsche Ausgabe bekannt**
 - **Sprachen:** EN (Original) · DE (LMBPN International; Hörbuch Audible Studios)
 - **Hörbuch DE:** zwei verschiedene Sprecher — [[Robert Frank]] (guten Jungs) /
   [[Thomas Nicolai]] (bösen Jungs). ⚠️ Die dt. **Hörbuch**-Produktion hinkt den Büchern
@@ -87,8 +89,8 @@ Vuldranni (iNcarn8) (Overall)
 
 | Untergeordnete Reihe | Bände | Held / Ort | dt. Sprecher | Verdikt |
 | --- | --- | --- | --- | --- |
-| [[Die guten Jungs]] | 16 (2018–2025) | Montana Coggeshall (Tank, Herzog von Coggeshall) | [[Robert Frank]] | liked (vorläufig, 5/16) |
-| [[Die bösen Jungs]] | 11 (2019–2024) | Clyde Hatchett (Dieb, Hauptstadt Glaton) | [[Thomas Nicolai]] | liked (vorläufig, 1/11) |
+| [[Die guten Jungs]] | 16 erschienen (2018–2025), **Bd. 17 für 2026** | Montana Coggeshall (Tank) | [[Robert Frank]] | liked (vorläufig, 5/16) |
+| [[Die bösen Jungs]] | 11 erschienen (2019–2024), **Bd. 12 für 2026** | Clyde Hatchett (Dieb, Glaton) | [[Thomas Nicolai]] | liked (vorläufig, 1/11) |
 
 ## 🎧 EMPFOHLENE HÖRREIHENFOLGE (Verbund) — vom Nutzer bestätigt 2026-08-11
 
@@ -147,6 +149,47 @@ Vuldranni (iNcarn8) (Overall)
 | **25** | **bösen** | **11** | **2 Lies, 2 Thrones** | **2 Lügen, 2 Throne** | 2024 | offen |
 | **26** | **guten** | **15** | **Bad to the Throne** 🔀 **Crossover** | **Kampf um den Keramikthron** ⚠️ | 2024 | offen |
 | 27 | guten | 16 | One Man's Laughter | Acht Beine für ein Halleluja ⚠️ | 2025 | offen |
+
+### 🔬 Verifikationsstand der Reihenfolge (Recherche 2026-08-11, Runde 4)
+
+Der Nutzer fragte ausdrücklich nach: *„ist das wirklich das Optimum? hast du das an mehreren
+Quellen verifiziert?"* — Ehrliche Antwort, aufgeschlüsselt statt pauschal:
+
+| Aussage | Belege | Konfidenz |
+| --- | --- | --- |
+| **BJ 11 VOR GJ 15** (die harte Regel) | (a) **Erscheinungsdaten**: „2 Lies, 2 Thrones" **21.04.2024**, „Bad to the Throne" **08.06.2024** → BJ 11 kam ~6 Wochen früher. (b) Verlagstext zu GJ 15: „blockbuster crossover event … Montana's path collides with Clyde's, **paying off years of groundwork from both series**". (c) Leser-Rezension: „I finally got that crossover with The Good Guys, only it turns out that I'm like **4 books behind in the other series**" | **hoch** — 3 unabhängige Belege, einer davon hart datiert |
+| Prinzip = **Erscheinungsreihenfolge** | Standard-Empfehlung für Parallelreihen; von mehreren Reihenfolge-Datenbanken so geführt; Nutzer-Quelle (*Most Recommended Books*) folgt ihr ebenfalls | **mittel-hoch** — Konvention, **kein** Autoren-Statement gefunden |
+| **Guten Jungs zuerst als Basis** | Leser-Empfehlung („gutes Hintergrundwissen über Vuldranni und die politischen Entwicklungen"); Verlagstext: beide Reihen unabhängig lesbar, aber Ereignisse aus zwei Perspektiven | **mittel** — 2 Belege, beides Empfehlung, keine Notwendigkeit |
+| **Umstieg genau nach GJ 5** | BJ 1 „Scamps & Scoundrels" **15.08.2019** belegt; GJ 5 „Dukes and Ladders" nur **Jahr 2019** belegt (Hörbuch Tantor 10.09.2019) | **mittel** — die Klammer stimmt, der exakte Monat von GJ 5 fehlt |
+| Mittelteil bandgenau (Schritte 7–24) | **eine** Quelle (Nutzer-Recherche). Eigene Stichproben passen: BJ 2 **17.10.2019**, GJ 7 **14.12.2019** — beide nach BJ 1, Reihenfolge stimmig | **niedrig-mittel** — aber laut Nutzerquelle **ohnehin unkritisch** |
+| Es gibt **keine** offizielle Autoren-Reihenfolge | ericugland.com und das Fandom-Wiki waren egress-geblockt; in erreichbaren Quellen kein Autoren-Statement auffindbar | offen |
+
+**Gefundene Alternative (bewusst nicht verworfen):** *„Erst [[Die guten Jungs]] komplett, dann
+[[Die bösen Jungs]]"* — ebenfalls eine belegte Leser-Empfehlung. Nachteil: der Crossover
+GJ 15 kommt dann, bevor man BJ 11 kennt, also **genau falsch herum**. Wer seriell hören will,
+müsste GJ 15–16 ans Ende schieben.
+
+**Fazit, ehrlich formuliert:** Es gibt **keine nachweisbar „optimale"** Reihenfolge — es gibt
+**eine harte Regel** (BJ 11 vor GJ 15, gut belegt) und darum herum eine **sinnvolle Konvention**
+(Erscheinungsreihenfolge). Der Mittelteil ist Geschmackssache und laut Quelle unkritisch.
+Die gewählte Fassung ist damit **gut begründet, aber nicht „bewiesen"** — und sie hat den
+praktischen Vorteil, dass sie exakt zum bereits eingeschlagenen Weg des Nutzers passt.
+
+### 🙈 Spoiler-Regel für dieses Werk (Nutzerwunsch 2026-08-11)
+
+> „wichtig ist auch im artefakt sollen keine inhaltlichen **spoiler** sein zu den teilen die ich
+> noch nicht gelesen oder gehört habe!"
+
+Verbindlich für alle Projektionen (siehe auch [[Konventionen]]):
+- **Erlaubt jenseits des Lesestands:** Titel (DE/EN), Bandnummer, Jahr, Hördauer, Sprecher,
+  Verfügbarkeit, Reihenfolge-Position, Wertungen/Bekanntheit.
+- **Verboten jenseits des Lesestands:** Handlung, Wendungen, Figuren-Entwicklungen, Orte,
+  wer wem begegnet, Ausgang von Bänden.
+- **Grenzfall Crossover:** dass GJ 15 beide Stränge zusammenführt, ist **Reihenfolge-Information**
+  und bleibt (ohne diese Info ist die harte Regel nicht begründbar) — **wie** das passiert,
+  bleibt draußen.
+- Inhaltliche Beschreibungen im Vault sind davon **nicht** betroffen (der Vault ist Arbeitsmaterial);
+  die Filterung passiert beim Erzeugen des Artefakts.
 
 **Etappen-Gliederung fürs Artefakt** (dieselbe Liste, nur gruppiert):
 

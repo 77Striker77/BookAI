@@ -34,6 +34,7 @@ tags: [moc, home]
 
 ## Zuletzt
 
+- 2026-08-11 (Nachgang) — **Reihenfolgen als eigenes Thema:** neue MOC [[Reihenfolgen]] (alle Werke, 5 Reihenfolge-Typen, Verfügbarkeits-Engpässe). Dazu zwei **Korrekturen** aus der Verifikationsrunde: (1) ⚠️ **Weder [[Die guten Jungs]] noch [[Die bösen Jungs]] ist abgeschlossen** — Bd. 17 bzw. Bd. 12 sind für 2026 angekündigt (erster Stand war falsch); (2) die Crossover-Regel **BJ 11 vor GJ 15** ist jetzt **hart belegt** über die Erscheinungsdaten (21.04.2024 vs. 08.06.2024) plus Verlagstext plus Leser-Rezension. Verifikationsstand mit Konfidenz je Aussage steht in [[Vuldranni (iNcarn8)]]. Neue Nutzerregel in [[Konventionen]]: **Artefakte müssen spoilerfrei sein** — jenseits des Lesestands nur Metadaten, keine Handlung.
 - 2026-08-11 — Werke 12+13 als **Verbund**: **[[Vuldranni (iNcarn8)]]** ([[Eric Ugland]]) mit
   [[Die guten Jungs]] (16 Bd.) + [[Die bösen Jungs]] (11 Bd.) — beide **liked (vorläufig)**,
   🎧 dt. Hörbuch. **Zweiter Werk-Verbund** nach [[Die Streitenden Götter]] — und der erste, in dem
