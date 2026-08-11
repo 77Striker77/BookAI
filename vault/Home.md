@@ -34,6 +34,20 @@ tags: [moc, home]
 
 ## Zuletzt
 
+- 2026-08-11 — Werk 11: **[[Der Donnerstagsmordclub]]** (Richard Osman, Cosy Crime, 5 Bände),
+  **liked** — **2. Werk im Kontext [[Krimi]]** und **erstes `liked`** überhaupt (zwischen loved
+  und mixed). Gehört dt., **[[Johannes Steck]]** + **[[Beate Himmelstoß]]** (Zwei-Stimmen-Lesung,
+  Sprecher **0** — „solide, unauffällig"). **Die zentrale Erkenntnis schärft den stärksten roten
+  Faden: Fokus ≠ Tempo.** Gemütlich ist okay ([[Cosy-Wohlfühlatmosphäre]] +2, alle vier
+  Ton-Optionen), **Verdrängung** ist es nicht — neues Merkmal [[Persona-Strang verdrängt
+  Haupthandlung]] (−2, „dafür lese ich keinen krimi!"; Demenz-Strang, **bandgenau als Bd. 4
+  identifiziert**). Trotz Volltreffern bei Ton (+2), [[Unterschätztes Ermittler-Ensemble]] (+2),
+  [[Cleverer Twist-Plot]] (+2) und perfekter formaler Passung nur `liked` — **erstes Werk, das
+  an einem einzigen Faktor scheitert**. [[Locked-Room-Mystery]] von Bedingung zu **Bonus**
+  relativiert. Krimi-Gewichte nachgezogen (figuren 0.05→0.12). Neuer Autor [[Richard Osman]]
+  (**Phänomen** — 17+ Mio. Bücher, reichweitenstärkster Autor im Vault; Netflix 2025).
+  **Community-Score-Warnung verschärft:** Bd. 4 ist der *bestbewertete* Band (4,46) — die
+  Mehrheit feiert genau den Störfaktor. Quelle: [[2026-08-11 Interview Der Donnerstagsmordclub]].
 - 2026-07-20 — Werk 10: **[[Magic 2.0]]** (Scott Meyer, Comedy-SciFi), **loved** (als leichte
   Kost) — **neuer Kontext [[Humor-Phantastik]]**, 2. gelesenes Werk (Buch, kein Sprecher). Trägt
   über [[Absurder Humor]] (+2, jetzt 2 Kontexte), [[Nerd-/Popkultur-Humor]] (+2) & [[Originelle

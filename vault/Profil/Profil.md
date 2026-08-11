@@ -1,5 +1,5 @@
 ---
-aktualisiert: 2026-07-20
+aktualisiert: 2026-08-11
 sprachen: [de, en]         # Deutsch bevorzugt (auch Print, best. 20.07.2026), Englisch als Fallback (nicht mehr hart, 16.07.2026)
 formate: [buch, hoerbuch]  # überwiegend Hörbuch, aber liest auch (Cunninghams) — Format pro Werk erfragen!
 format_notizen: "Buch und Hörbuch gleichwertig; Format IMMER erfragen, nie annehmen"
@@ -26,15 +26,25 @@ tags: [moc, profil]
 ## Roter Faden (gilt überall)
 
 **Kontextübergreifende Muster (in ≥2 Kontexten belegt):**
-1. **Fokus & Vorwärtsdrang (STÄRKSTER Faden, 3 Kontexte)** — [[Konstanter Vorwärtsdrang]]:
+1. **Fokus & Vorwärtsdrang (STÄRKSTER Faden, jetzt 4 Kontexte)** — [[Konstanter Vorwärtsdrang]]:
    LitRPG gelobt (DCC +2) **UND im selben Kontext verletzt (Survival Quest −1)**, **Krimi
-   gelobt (Cunninghams +2, „sehr straff")**, Fantasy 2× verletzt (Sturmfels −2 Fast-Abbruch,
-   Prinz −1). Dazu [[Zäher Start]] (2×) und [[Nebenquest-Wildwuchs]] (jetzt `status_global:
+   gelobt (Cunninghams +2, „sehr straff") UND im selben Kontext verletzt (Donnerstagsmordclub
+   −1)**, Fantasy 2× verletzt (Sturmfels −2 Fast-Abbruch, Prinz −1), Humor-Phantastik +1.
+   Dazu [[Zäher Start]] (2×) und [[Nebenquest-Wildwuchs]] (jetzt `status_global:
    disliked`, in Fantasy UND LitRPG belegt). **Der zäh-unfokussierte Start bzw. das
    Verzetteln ist sein verlässlichster Deal-Breaker** → bei JEDEM Kandidaten Rezensionen
    auf langsamen Einstieg/Abschweifen prüfen. Milderung: [[Starkes Finale]] (zäher Start
    verzeihlich, wenn der Payoff kommt). **Gegenprobe belegt (Survival Quest):** dieselben
    Genre-Zutaten wie DCC, aber Sidequest-Wildwuchs + [[Setup ohne Payoff]] → nur „okay".
+   **⭐ Vierte Ausprägung + entscheidende Schärfung (2026-08-11, [[Der Donnerstagsmordclub]]):**
+   Neben zähem Start, Nebenquest-Wildwuchs und [[Bremsender Alltags-Ballast]] gibt es jetzt
+   [[Persona-Strang verdrängt Haupthandlung]] (−2) — ein **gewichtiges Figuren-Thema**
+   (Demenz), das die Haupthandlung kapert. **Und die Präzisierung des ganzen Fadens:
+   Er verlangt KEIN hohes Tempo — er verlangt, dass die HAUPTHANDLUNG VORNE BLEIBT.**
+   Wörtlich: „die fälle an sich waren ganz spannend **wenn sie nicht in den hintergrund
+   geraten**." Ein gemütlicher Cosy-Ton stört ihn null ([[Cosy-Wohlfühlatmosphäre]] +2) —
+   Verdrängung stört. → Beim Matching **nicht auf „pacy/fast-paced" filtern**, sondern auf
+   den **Fokus-Anteil der Haupthandlung**.
 2. **Held muss handlungsfähig sein** — Achse [[Pragmatischer Held mit klarem Kompass]]
    (Carl +2) ↔ [[Zu lange schwacher Held]] (Niri Bd. 1 −2) / [[Zu passiver Held]] (Alex Verus
    −1, „lässt sich zu viel gefallen"). Zu schwach ODER zu duldsam sind beide Malus.
@@ -82,9 +92,14 @@ tags: [moc, profil]
 auch — inzwischen 2 gelesene Werke ([[Die mörderischen Cunninghams]], [[Magic 2.0]], beide ohne
 Sprecher-Aspekt). **Format pro Werk erfragen, nie annehmen; Sprecher-Kriterien nur bei Hörbüchern.**
 
-**Community-Score-Warnung:** Bei [[Krimi]] liegt mein Urteil klar über dem Community-⌀
-(~3,8) — mein Locked-Room-/Meta-Faible schlägt den Massengeschmack. Community-Scores
-NICHT als alleinigen Kompass nehmen.
+**Community-Score-Warnung (verschärft 2026-08-11):** Bei [[Krimi]] weicht mein Urteil in
+**BEIDE Richtungen** vom Massengeschmack ab. [[Die mörderischen Cunninghams]]: mein `loved`
+liegt klar **über** dem Community-⌀ (~3,8) — mein Locked-Room-/Meta-Faible schlägt den
+Durchschnitt. [[Der Donnerstagsmordclub]]: mein `liked` liegt **unter** dem Tenor — und
+ausgerechnet der Band mit dem dominantesten Störfaktor (Bd. 4, Demenz-Strang) ist der
+**bestbewertete der Reihe** (4,46). Die Mehrheit feiert also genau das, was mich stört.
+→ **Community-Scores sind im Krimi kein Kompass, in keiner Richtung.** Stattdessen gezielt
+auf das **Verhältnis Fall ↔ Nebenstränge** in Rezensionen achten.
 
 ## Was ich überall liebe / meide
 
@@ -100,8 +115,16 @@ NICHT als alleinigen Kompass nehmen.
 
 ## Hörbuch-Spezifika
 
-- **Geliebte Sprecher:** [[Stefan Kaminski]], [[Günter Merlau]] (beide „trägt massiv")
-- **Performance:** Solo mit starken Figurenstimmen 2× belegt geliebt; Voll-Cast ungetestet
+- **Geliebte Sprecher:** [[Stefan Kaminski]], [[Günter Merlau]] (beide „trägt massiv"),
+  [[David Nathan]], [[Leonie Landa]]
+- **Neutrale Sprecher:** [[Johannes Klaußner]] (neutral-plus), **[[Johannes Steck]]** (0),
+  [[Beate Himmelstoß]] (0), [[Thomas Balou Martin]]
+- **Performance:** Solo mit starken Figurenstimmen 2× belegt geliebt; **Duett/Zwei-Stimmen
+  erstmals getestet (Donnerstagsmordclub) → beeindruckte NICHT** (nicht als Plus angehakt);
+  Voll-Cast weiterhin ungetestet
+- **Mögliches Muster (1 Werk, beobachten):** Im **Krimi/Cosy** scheint die Sprecherleistung
+  für ihn **weniger ausschlaggebend** zu sein als in LitRPG/Fantasy — „hätte mir gedruckt
+  ähnlich gut gefallen".
 
 ## Analysierte Werke
 
@@ -113,6 +136,7 @@ NICHT als alleinigen Kompass nehmen.
 | [[Alex Verus]] ([[Fantasy]]/Urban Fantasy, Benedict Jacka, 12 Bände) | **loved** | hoerbuch (dt.) | 2026-07-20 |
 | [[Haus Ashford]] ([[Fantasy]]/Urban Fantasy, Benedict Jacka, An Inheritance of Magic, 3 Bände) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-20 |
 | [[Magic 2.0]] ([[Humor-Phantastik]], Scott Meyer, 6 Bände EN / 2 DE) | **loved** (leichte Kost) | **buch/gelesen** (dt.+engl.) | 2026-07-20 |
+| [[Der Donnerstagsmordclub]] ([[Krimi]], Richard Osman, 5 Bände) | **liked** | hoerbuch (dt.) | 2026-08-11 |
 | [[Survival Quest]] ([[LitRPG]], Reihe, 7 Bände) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-16 |
 | [[Scholomance]] ([[Fantasy]], Trilogie) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-16 |
 | [[Riyria]] ([[Fantasy]], Revelations, 6 Bände) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-16 |
@@ -192,6 +216,26 @@ NICHT als alleinigen Kompass nehmen.
   [[Flache Machtprogression]] −2). Humor als Treiber (3 neue Humor-Merkmale: [[Nerd-/Popkultur-Humor]]
   +2, [[Situationskomik]], + [[Originelle Prämisse]] +2, [[Ideenreichtum]]); [[Absurder Humor]] jetzt
   2 Kontexte. Neuer Autor [[Scott Meyer]]. Quelle: [[2026-07-20 Interview Magic 2.0]].
+
+- 2026-08-11: **2. Krimi-Werk & erstes `liked` überhaupt — [[Der Donnerstagsmordclub]]**
+  (Richard Osman, Cosy Crime, 5 Bände, gehört dt., Sprecher [[Johannes Steck]] +
+  [[Beate Himmelstoß]]). **Die wichtigste Erkenntnis ist eine Schärfung des Haupt-Fadens:**
+  Fokus ≠ Tempo. Der Nutzer mag gemütlich ([[Cosy-Wohlfühlatmosphäre]] +2, alle vier
+  Ton-Optionen gewählt) — was ihn stört, ist **Verdrängung** der Haupthandlung
+  ([[Persona-Strang verdrängt Haupthandlung]] −2, „dafür lese ich keinen krimi!"). Neue
+  Merkmale: dieses plus [[Unterschätztes Ermittler-Ensemble]] (+2) und die Cosy-Atmosphäre.
+  **Erste Werk-Bewertung, die an EINEM einzigen Faktor scheitert:** Ton (+2), Ensemble (+2),
+  Twist (+2) und Humor (+2) treffen voll, formal passt alles (5 Bände, dt. komplett,
+  ~11,5 h/Band, keine No-Go-Verstöße) — trotzdem nur `liked` wegen des −2 auf dem Fokus-Faden.
+  **[[Locked-Room-Mystery]] von Bedingung zu Bonus relativiert** (fehlt hier komplett, wurde
+  aber nicht vermisst). **Fair-Play-Diskrepanz:** er empfand das Rätsel als fair, die
+  Community-Kritik sieht es kritisch (Off-Page-Durchbrüche, Last-Minute-Backstory) → er
+  braucht **kein** strenges Golden-Age-Fair-Play. **Sprecher [[Johannes Steck]] 0** („solide,
+  unauffällig") — auch die Zwei-Stimmen-Lesung (erste Duett-Produktion im Vault) beeindruckte
+  nicht; mögliches Muster: **im Krimi/Cosy zählt der Sprecher für ihn weniger** als in
+  LitRPG/Fantasy (Datenlage 1 Werk, beobachten). Neuer Autor [[Richard Osman]] (Stufe
+  **Phänomen** — 17+ Mio. Bücher, reichweitenstärkster Autor im Vault).
+  Quelle: [[2026-08-11 Interview Der Donnerstagsmordclub]].
 
 ## Widersprüche / offene Fragen
 
