@@ -1,7 +1,7 @@
 ---
 typ: handwerk
 status_global: ""
-status_kontexte: { Fantasy: disliked }
+status_kontexte: { Fantasy: disliked, Krimi: disliked }
 staerke: mittel
 seit: 2026-07-20
 uebergeordnet: ""
@@ -27,10 +27,20 @@ den Zug erstickt.
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
 | [[Fantasy]] | disliked | [[Haus Ashford]] −1 — „Zu viel Alltag/Nebenjob"; Community: „Dead-End-Job + Magie-Üben", Haus-/Intrigen-Ebene wirkt wie Neben-Plot ([[2026-07-20 Interview Haus Ashford]]) |
+| [[Krimi]] | disliked | [[Der Donnerstagsmordclub]] −1 — Residenz-/Rentneralltag in „Coopers Chase" teils zäh; Nutzer wählte „Teils zäher Alltag" ([[2026-08-11 Interview Der Donnerstagsmordclub]]) |
 
 ## Evidenz gesamt
 
 - [[Haus Ashford]] −1: großer Bd.-1-Anteil = Stephens Job + Übungsroutine → Story tritt auf der Stelle.
+- [[Der Donnerstagsmordclub]] −1: das Klein-Klein des Residenz-Alltags (Ausflüge, Gremien,
+  Wohnanlagen-Themen) bremst zwischen den Ermittlungsschritten.
+
+## Verwandt / Abgrenzung
+
+- [[Persona-Strang verdrängt Haupthandlung]] (Krimi, −2) — die **schwerere Schwester**: dort
+  kein mundanes Klein-Klein, sondern ein gewichtiges Figuren-Thema (Krankheit/Alter), das
+  die Handlung ganz übernimmt. Beim [[Der Donnerstagsmordclub]] treten **beide zusammen** auf,
+  und die Persona-Variante wiegt für den Nutzer deutlich schwerer.
 
 ## Matching-Konsequenz
 
