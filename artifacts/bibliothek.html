@@ -48,7 +48,7 @@
   body { margin: 0; }
   /* Fokusring global aus dem Token — sonst greift der UA-Default (#101010),
      der im Dunkelmodus auf 1,1:1 faellt (Messung 11.08.2026). */
-  :where(a, button, [tabindex]):focus-visible { outline: 2px solid var(--rating); outline-offset: 2px; border-radius: 4px; }
+  :where(a, button, summary, input, select, [tabindex]):focus-visible { outline: 2px solid var(--rating); outline-offset: 2px; border-radius: 4px; }
   .page { background: var(--bg); color: var(--ink);
     font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; min-height: 100vh; }
   .wrap { max-width: 1060px; margin: 0 auto; padding: 0 18px 72px; }
@@ -322,6 +322,23 @@
   .mittelteil-hinweis { font-size: .84rem; color: var(--ink2); max-width: 68ch; margin: 14px 0 2px;
     padding-left: 10px; border-left: 3px solid var(--track); }
 
+  /* ---------- Fußnavigation ----------
+     Im Artefakt-Host waechst das iframe auf Inhaltshoehe. Es scrollt nie
+     selbst, also wird `position: sticky` an der Topnav NIE aktiv — sie ist
+     nach unten weg. Deshalb steht die Navigation zusaetzlich am Ende jeder
+     Ansicht: dort, wo man nach dem Lesen ankommt. */
+  .fussnav { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 26px 0 0;
+    padding: 14px 0 0; border-top: 1px solid var(--line); }
+  .fussnav .fnl { font-size: .68rem; text-transform: uppercase; letter-spacing: .07em;
+    color: var(--muted); font-weight: 700; margin-right: 4px; }
+  .fussnav a { font-size: .82rem; font-weight: 600; text-decoration: none; color: var(--ink2);
+    background: var(--card); border: 1px solid var(--line); border-radius: 999px;
+    padding: 6px 13px; min-height: 32px; display: inline-flex; align-items: center; }
+  .fussnav a:hover { border-color: var(--rating); color: var(--ink); }
+  .fussnav a.active { background: var(--rating-soft); border-color: transparent; color: var(--ink); }
+  .subnav.unten { position: static; margin-top: 18px; border-bottom: 0; border-top: 1px solid var(--line);
+    background: none; backdrop-filter: none; -webkit-backdrop-filter: none; }
+
   .footer { margin-top: 34px; color: var(--muted); font-size: .78rem; line-height: 1.6; border-top: 1px solid var(--line); padding-top: 16px; }
 </style>
 
@@ -383,8 +400,8 @@
       </section>
 
       <section>
-        <h2>🔊 Bekanntheits-Ranking — wie viele kennen &amp; bewerten es</h2>
-        <div class="panel">
+        <details class="dt"><summary>🔊 Bekanntheits-Ranking <span class="zahl">— wie viele kennen &amp; bewerten es</span></summary>
+        <div class="dtin">
           <div class="fame-item" style="margin:0 0 14px">
             <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Dungeon Crawler Carl</b><span class="subtle" style="font-size:.8rem">~1,7 Mio Wertungen</span></div>
             <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span></div>
@@ -420,8 +437,8 @@
             <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft"></span><span class="ft"></span><span class="ft"></span><span class="ft"></span></div>
               <div class="fame-lab"><b>Geheimtipp</b> · brandneu <span class="hype">🚀 Hype: Saltatio-Mortis-Cross-Media</span></div></div>
           </div>
-          <a class="biglink" href="#werke" data-view="werke">Zu meinen Werken →</a>
-        </div>
+        </div></details>
+        <a class="biglink" href="#werke" data-view="werke">Zu meinen Werken →</a>
       </section>
 
       <section>
@@ -504,6 +521,17 @@
           </a>
         </div>
       </section>
+    
+      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-cunninghams" data-view="w-cunninghams">Die mörderischen Cunninghams ›</a></div>
+    
+      <nav class="fussnav" aria-label="Hauptbereiche">
+        <span class="fnl">Weiter zu</span>
+        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
+        <a href="#werke" data-view="werke">Werke</a>
+        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
+        <a href="#releases" data-view="releases">Releases</a>
+        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+      </nav>
     </div>
 
     <!-- ============================================================ WERKE -->
@@ -762,6 +790,15 @@
         </div>
         </div>
       </details>
+    
+      <nav class="fussnav" aria-label="Hauptbereiche">
+        <span class="fnl">Weiter zu</span>
+        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
+        <a href="#werke" data-view="werke">Werke</a>
+        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
+        <a href="#releases" data-view="releases">Releases</a>
+        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+      </nav>
     </div>
 
 
@@ -803,6 +840,15 @@
         </div>
       </article>
       
+    
+      <nav class="fussnav" aria-label="Hauptbereiche">
+        <span class="fnl">Weiter zu</span>
+        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
+        <a href="#werke" data-view="werke">Werke</a>
+        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
+        <a href="#releases" data-view="releases">Releases</a>
+        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+      </nav>
     </div>
 
     <div class="view" id="v-w-cunninghams">
@@ -842,6 +888,17 @@
         </div>
       </article>
       
+    
+      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-dcc" data-view="w-dcc">‹ Dungeon Crawler Carl</a><a class="bk2" href="#w-goetter" data-view="w-goetter">Die Streitenden Götter ›</a></div>
+    
+      <nav class="fussnav" aria-label="Hauptbereiche">
+        <span class="fnl">Weiter zu</span>
+        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
+        <a href="#werke" data-view="werke">Werke</a>
+        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
+        <a href="#releases" data-view="releases">Releases</a>
+        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+      </nav>
     </div>
 
     <div class="view" id="v-w-goetter">
@@ -860,6 +917,17 @@
         </div>
       </div>
       <div class="unikinder"><p class="box-title">Die Reihen dieses Universums — einzeln</p><a class="bk2 gross" href="#w-sturmfels" data-view="w-sturmfels">Sturmfels-Akademie ›</a><a class="bk2 gross" href="#w-prinz" data-view="w-prinz">Der Prinz von Staub und Schatten ›</a></div>
+    
+      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-cunninghams" data-view="w-cunninghams">‹ Die mörderischen Cunninghams</a><a class="bk2" href="#w-sturmfels" data-view="w-sturmfels">Sturmfels-Akademie ›</a></div>
+    
+      <nav class="fussnav" aria-label="Hauptbereiche">
+        <span class="fnl">Weiter zu</span>
+        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
+        <a href="#werke" data-view="werke">Werke</a>
+        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
+        <a href="#releases" data-view="releases">Releases</a>
+        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+      </nav>
     </div>
 
     <div class="view" id="v-w-sturmfels">
@@ -897,6 +965,17 @@
           </div>
         </article>
       
+    
+      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><a class="bk2" href="#w-goetter" data-view="w-goetter">↰ Die Streitenden Götter</a><span class="spacer"></span><a class="bk2" href="#w-goetter" data-view="w-goetter">‹ Die Streitenden Götter</a><a class="bk2" href="#w-prinz" data-view="w-prinz">Der Prinz von Staub und Schatten ›</a></div>
+    
+      <nav class="fussnav" aria-label="Hauptbereiche">
+        <span class="fnl">Weiter zu</span>
+        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
+        <a href="#werke" data-view="werke">Werke</a>
+        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
+        <a href="#releases" data-view="releases">Releases</a>
+        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+      </nav>
     </div>
 
     <div class="view" id="v-w-prinz">
@@ -933,6 +1012,17 @@
           </div>
         </article>
       
+    
+      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><a class="bk2" href="#w-goetter" data-view="w-goetter">↰ Die Streitenden Götter</a><span class="spacer"></span><a class="bk2" href="#w-sturmfels" data-view="w-sturmfels">‹ Sturmfels-Akademie</a><a class="bk2" href="#w-alexverus" data-view="w-alexverus">Alex Verus ›</a></div>
+    
+      <nav class="fussnav" aria-label="Hauptbereiche">
+        <span class="fnl">Weiter zu</span>
+        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
+        <a href="#werke" data-view="werke">Werke</a>
+        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
+        <a href="#releases" data-view="releases">Releases</a>
+        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+      </nav>
     </div>
 
     <div class="view" id="v-w-alexverus">
@@ -981,6 +1071,17 @@
         </div>
       </article>
       
+    
+      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-prinz" data-view="w-prinz">‹ Der Prinz von Staub und Schatten</a><a class="bk2" href="#w-magic20" data-view="w-magic20">Magic 2.0 ›</a></div>
+    
+      <nav class="fussnav" aria-label="Hauptbereiche">
+        <span class="fnl">Weiter zu</span>
+        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
+        <a href="#werke" data-view="werke">Werke</a>
+        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
+        <a href="#releases" data-view="releases">Releases</a>
+        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+      </nav>
     </div>
 
     <div class="view" id="v-w-magic20">
@@ -1022,6 +1123,17 @@
         </div>
       </article>
       
+    
+      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-alexverus" data-view="w-alexverus">‹ Alex Verus</a><a class="bk2" href="#w-vuldranni" data-view="w-vuldranni">Vuldranni (iNcarn8) ›</a></div>
+    
+      <nav class="fussnav" aria-label="Hauptbereiche">
+        <span class="fnl">Weiter zu</span>
+        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
+        <a href="#werke" data-view="werke">Werke</a>
+        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
+        <a href="#releases" data-view="releases">Releases</a>
+        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+      </nav>
     </div>
 
     <div class="view" id="v-w-vuldranni">
@@ -1044,6 +1156,17 @@
         </div>
       </div>
       <div class="unikinder"><p class="box-title">Die Reihen dieses Universums — einzeln</p><a class="bk2 gross" href="#w-gutenjungs" data-view="w-gutenjungs">Die guten Jungs ›</a><a class="bk2 gross" href="#w-boesenjungs" data-view="w-boesenjungs">Die bösen Jungs ›</a></div>
+    
+      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-magic20" data-view="w-magic20">‹ Magic 2.0</a><a class="bk2" href="#w-gutenjungs" data-view="w-gutenjungs">Die guten Jungs ›</a></div>
+    
+      <nav class="fussnav" aria-label="Hauptbereiche">
+        <span class="fnl">Weiter zu</span>
+        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
+        <a href="#werke" data-view="werke">Werke</a>
+        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
+        <a href="#releases" data-view="releases">Releases</a>
+        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+      </nav>
     </div>
 
     <div class="view" id="v-w-gutenjungs">
@@ -1105,6 +1228,17 @@
           </div>
         </article>
       
+    
+      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><a class="bk2" href="#w-vuldranni" data-view="w-vuldranni">↰ Vuldranni (iNcarn8)</a><span class="spacer"></span><a class="bk2" href="#w-vuldranni" data-view="w-vuldranni">‹ Vuldranni (iNcarn8)</a><a class="bk2" href="#w-boesenjungs" data-view="w-boesenjungs">Die bösen Jungs ›</a></div>
+    
+      <nav class="fussnav" aria-label="Hauptbereiche">
+        <span class="fnl">Weiter zu</span>
+        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
+        <a href="#werke" data-view="werke">Werke</a>
+        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
+        <a href="#releases" data-view="releases">Releases</a>
+        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+      </nav>
     </div>
 
     <div class="view" id="v-w-boesenjungs">
@@ -1158,6 +1292,17 @@
           </div>
         </article>
       
+    
+      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><a class="bk2" href="#w-vuldranni" data-view="w-vuldranni">↰ Vuldranni (iNcarn8)</a><span class="spacer"></span><a class="bk2" href="#w-gutenjungs" data-view="w-gutenjungs">‹ Die guten Jungs</a><a class="bk2" href="#w-mordclub" data-view="w-mordclub">Der Donnerstagsmordclub ›</a></div>
+    
+      <nav class="fussnav" aria-label="Hauptbereiche">
+        <span class="fnl">Weiter zu</span>
+        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
+        <a href="#werke" data-view="werke">Werke</a>
+        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
+        <a href="#releases" data-view="releases">Releases</a>
+        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+      </nav>
     </div>
 
     <div class="view" id="v-w-mordclub">
@@ -1199,6 +1344,17 @@
         </div>
       </article>
       
+    
+      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-boesenjungs" data-view="w-boesenjungs">‹ Die bösen Jungs</a><a class="bk2" href="#w-survival" data-view="w-survival">Survival Quest ›</a></div>
+    
+      <nav class="fussnav" aria-label="Hauptbereiche">
+        <span class="fnl">Weiter zu</span>
+        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
+        <a href="#werke" data-view="werke">Werke</a>
+        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
+        <a href="#releases" data-view="releases">Releases</a>
+        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+      </nav>
     </div>
 
     <div class="view" id="v-w-survival">
@@ -1240,6 +1396,17 @@
           </div>
         </article>
       
+    
+      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-mordclub" data-view="w-mordclub">‹ Der Donnerstagsmordclub</a><a class="bk2" href="#w-scholomance" data-view="w-scholomance">Scholomance ›</a></div>
+    
+      <nav class="fussnav" aria-label="Hauptbereiche">
+        <span class="fnl">Weiter zu</span>
+        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
+        <a href="#werke" data-view="werke">Werke</a>
+        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
+        <a href="#releases" data-view="releases">Releases</a>
+        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+      </nav>
     </div>
 
     <div class="view" id="v-w-scholomance">
@@ -1278,6 +1445,17 @@
           </div>
         </article>
       
+    
+      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-survival" data-view="w-survival">‹ Survival Quest</a><a class="bk2" href="#w-riyria" data-view="w-riyria">Riyria ›</a></div>
+    
+      <nav class="fussnav" aria-label="Hauptbereiche">
+        <span class="fnl">Weiter zu</span>
+        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
+        <a href="#werke" data-view="werke">Werke</a>
+        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
+        <a href="#releases" data-view="releases">Releases</a>
+        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+      </nav>
     </div>
 
     <div class="view" id="v-w-riyria">
@@ -1319,6 +1497,17 @@
           </div>
         </article>
       
+    
+      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-scholomance" data-view="w-scholomance">‹ Scholomance</a><a class="bk2" href="#w-ashford" data-view="w-ashford">Haus Ashford ›</a></div>
+    
+      <nav class="fussnav" aria-label="Hauptbereiche">
+        <span class="fnl">Weiter zu</span>
+        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
+        <a href="#werke" data-view="werke">Werke</a>
+        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
+        <a href="#releases" data-view="releases">Releases</a>
+        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+      </nav>
     </div>
 
     <div class="view" id="v-w-ashford">
@@ -1359,6 +1548,17 @@
           </div>
         </article>
       
+    
+      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-riyria" data-view="w-riyria">‹ Riyria</a></div>
+    
+      <nav class="fussnav" aria-label="Hauptbereiche">
+        <span class="fnl">Weiter zu</span>
+        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
+        <a href="#werke" data-view="werke">Werke</a>
+        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
+        <a href="#releases" data-view="releases">Releases</a>
+        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+      </nav>
     </div>
 
     <!-- ============================================================ REIHENFOLGEN -->
@@ -1581,6 +1781,15 @@
           </div>
         </div>
       </section>
+    
+      <nav class="fussnav" aria-label="Hauptbereiche">
+        <span class="fnl">Weiter zu</span>
+        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
+        <a href="#werke" data-view="werke">Werke</a>
+        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
+        <a href="#releases" data-view="releases">Releases</a>
+        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+      </nav>
     </div>
 
     <!-- ============================================================ BEKANNTHEIT -->
@@ -1606,6 +1815,15 @@
         </div>
         <p class="note">Aktuell am Hören: <b>Die bösen Jungs Bd. 1</b> „Schurken &amp; Halunken" (dt.) — parallel sind die <b>guten Jungs</b> bis Bd. 5 durch. Davor: <b>DCC Bd. 2</b> „Carl's Doomsday Scenario" (dt.). Zwischen den dt. DCC-Bänden ist die Lücke, die Empfehlungen füllen sollen.</p>
       </section>
+    
+      <nav class="fussnav" aria-label="Hauptbereiche">
+        <span class="fnl">Weiter zu</span>
+        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
+        <a href="#werke" data-view="werke">Werke</a>
+        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
+        <a href="#releases" data-view="releases">Releases</a>
+        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+      </nav>
     </div>
 
     <!-- ============================================================ GESCHMACK -->
@@ -1681,6 +1899,15 @@
               schwerer</b>, weil Statblöcke vorgelesen werden und nicht überspringbar sind.</p></div></details>
         </div>
       </section>
+    
+      <nav class="fussnav" aria-label="Hauptbereiche">
+        <span class="fnl">Weiter zu</span>
+        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
+        <a href="#werke" data-view="werke">Werke</a>
+        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
+        <a href="#releases" data-view="releases">Releases</a>
+        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+      </nav>
     </div>
 
     <p class="footer">
@@ -1717,6 +1944,15 @@
   if (window.ResizeObserver) new ResizeObserver(navHoehe).observe(nav);
   else window.addEventListener("resize", navHoehe);
 
+  // ACHTUNG, gemessen 2026-08-11: Im Artefakt-Host waechst das iframe auf
+  // Inhaltshoehe. Folge: (a) `position: sticky` wird nie aktiv, (b) der
+  // Eltern-Scroll laesst sich von hier aus NICHT bewegen — window.scrollTo
+  // ist wirkungslos, und die Seite kann auch nicht kurz kleiner gemeldet
+  // werden (documentElement.scrollHeight ist mindestens so hoch wie das
+  // iframe). Deshalb wird die Navigation nicht ueber Scrollen geloest,
+  // sondern ueber ihre Platzierung: Kopf UND Fuss jeder Ansicht.
+  function nachOben(){ try { window.scrollTo(0, 0); } catch(e) {} }
+
   function show(view, scrollId){
     var views = alleViews();
     if(views.indexOf(view) < 0) view = "uebersicht";
@@ -1726,10 +1962,10 @@
     });
     // Werk-Detailseiten markieren den Menüpunkt "Werke" mit.
     var gruppe = view.indexOf("w-")===0 ? "werke" : view;
-    menu.querySelectorAll("[data-view]").forEach(function(a){
+    document.querySelectorAll("#menu [data-view], .fussnav [data-view]").forEach(function(a){
       a.classList.toggle("active", a.getAttribute("data-view")===gruppe);
     });
-    window.scrollTo(0,0);
+    nachOben();
     if(scrollId){
       var t = document.getElementById(scrollId);
       if(t) setTimeout(function(){ t.scrollIntoView({behavior:"smooth", block:"start"}); }, 60);
@@ -1818,7 +2054,7 @@
   document.addEventListener("click", function(e){
     var b = e.target.closest("[data-tab]");
     if(!b) return;
-    if(b.tagName === "BUTTON"){ e.preventDefault(); reiter(b.getAttribute("data-tab")); }
+    if(b.tagName === "BUTTON"){ e.preventDefault(); reiter(b.getAttribute("data-tab")); nachOben(); }
   });
 
   window.addEventListener("hashchange", route);
