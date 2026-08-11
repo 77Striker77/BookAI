@@ -339,6 +339,43 @@
   .subnav.unten { position: static; margin-top: 18px; border-bottom: 0; border-top: 1px solid var(--line);
     background: none; backdrop-filter: none; -webkit-backdrop-filter: none; }
 
+  /* ---------- Landingpage ---------- */
+  .landing { padding: 44px 0 8px; }
+  .eyebrow { font-size: .7rem; text-transform: uppercase; letter-spacing: .12em; color: var(--muted);
+    font-weight: 700; margin: 0 0 14px; }
+  h1.gross { font-size: clamp(1.9rem, 4.4vw, 3rem); line-height: 1.08; letter-spacing: -.025em;
+    margin: 0 0 16px; text-wrap: balance; }
+  .lead.gross { font-size: 1.02rem; max-width: 62ch; }
+  .zahlen { display: flex; flex-wrap: wrap; gap: 10px 26px; margin: 22px 0 0; font-size: .84rem; color: var(--ink2); }
+  .zahlen b { font-size: 1.5rem; font-weight: 750; color: var(--ink); margin-right: 6px; }
+
+  .jetzt { display: grid; grid-template-columns: 1.35fr 1fr; gap: 14px; }
+  @media (max-width: 760px){ .jetzt { grid-template-columns: 1fr; } }
+  .jetzt-haupt, .jetzt-neben { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 18px; }
+  .jetzt-haupt { border-left: 3px solid var(--rating); }
+  .jetzt-lab { font-size: .68rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted);
+    font-weight: 700; margin: 0 0 6px; }
+  .jetzt-titel { font-size: 1.24rem; font-weight: 750; margin: 0 0 4px; letter-spacing: -.01em; }
+  .jetzt-titel.klein { font-size: 1rem; }
+  .jetzt-sub { font-size: .85rem; color: var(--ink2); margin: 0 0 6px; max-width: 56ch; }
+  .fortschritt { height: 6px; border-radius: 999px; background: var(--track); margin: 12px 0 10px; overflow: hidden; }
+  .fortschritt > span { display: block; height: 100%; background: var(--rating); border-radius: 999px; }
+  .knopf { display: inline-flex; align-items: center; min-height: 38px; margin-top: 8px; padding: 8px 16px;
+    border-radius: 999px; background: var(--rating); color: #fff; font-size: .86rem; font-weight: 650;
+    text-decoration: none; }
+  .knopf:hover { filter: brightness(1.08); }
+
+  .tueren { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  @media (max-width: 860px){ .tueren { grid-template-columns: 1fr; } }
+  .tuer { display: flex; flex-direction: column; gap: 6px; background: var(--card); border: 1px solid var(--line);
+    border-radius: 16px; padding: 20px; text-decoration: none; color: inherit; }
+  .tuer:hover { border-color: var(--rating); }
+  .tuer .tz { font-size: .7rem; font-weight: 800; color: var(--muted); letter-spacing: .1em;
+    font-variant-numeric: tabular-nums; }
+  .tuer b { font-size: 1.18rem; letter-spacing: -.01em; }
+  .tuer .ts { font-size: .85rem; color: var(--ink2); max-width: 42ch; }
+  .tuer .tm { font-size: .78rem; font-weight: 650; color: var(--rating-ink); margin-top: auto; padding-top: 10px; }
+
   .footer { margin-top: 34px; color: var(--muted); font-size: .78rem; line-height: 1.6; border-top: 1px solid var(--line); padding-top: 16px; }
 </style>
 
@@ -349,11 +386,10 @@
     <div class="nav-in">
       <span class="brand">📚 Meine Bibliothek <small>· Dashboard</small></span>
       <div class="menu" id="menu">
-        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
-        <a href="#werke" data-view="werke">Werke</a>
-        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
-        <a href="#releases" data-view="releases">Releases</a>
-        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+        <a href="#home" data-view="home">Home</a>
+        <a href="#werke" data-view="werke">Library</a>
+        <a href="#upnext" data-view="upnext">Up Next</a>
+        <a href="#geschmack" data-view="geschmack">Taste</a>
       </div>
     </div>
   </nav>
@@ -361,176 +397,85 @@
   <div class="wrap">
 
     <!-- ============================================================ ÜBERSICHT (Startseite) -->
-    <div class="view" id="v-uebersicht">
-      <header class="hero">
-        <h1>Willkommen zurück 👋</h1>
-        <p class="lead">Das Cockpit meines Buch- &amp; Hörbuch-Geschmacks: was ich liebe, wie bekannt es ist
-          und was als Nächstes erscheint. 13 Reihen analysiert — 6 geliebt, 3 „gut", 4 „okay" im Graubereich, verteilt auf 2 Universen.</p>
+    <div class="view on" id="v-home">
+      <header class="landing">
+        <p class="eyebrow">Buch- &amp; Hörbuch-Cockpit · Stand 11.08.2026</p>
+        <h1 class="gross">Ich weiß ziemlich genau,<br>was mir gefällt.</h1>
+        <p class="lead gross">Fünfzehn Werke, bandgenau erfasst: was ich gehört habe, was ich davon hielt,
+          und in welcher Reihenfolge der Rest kommt. Kein Ratespiel — <b>jede Zahl hat eine Quelle,
+          jede Lücke ist als Lücke markiert.</b></p>
+        <div class="zahlen">
+          <span><b class="tnum">15</b> Werke</span>
+          <span><b class="tnum">6</b> geliebt</span>
+          <span><b class="tnum">4</b> Geschmacksräume</span>
+          <span><b class="tnum">73</b> Merkmale</span>
+    </div>
       </header>
-      <div class="stats">
-        <div class="stat"><div class="n tnum">13</div><div class="l">Reihen analysiert</div></div>
-        <div class="stat"><div class="n tnum">6</div><div class="l">davon geliebt</div></div>
-        <div class="stat"><div class="n tnum">3</div><div class="l">„gut"</div></div>
-        <div class="stat"><div class="n tnum">4</div><div class="l">„okay" (Graubereich)</div></div>
-        <div class="stat"><div class="n tnum">4</div><div class="l">Geschmacksräume</div></div>
-        <div class="stat"><div class="n">🎧 11 · 📖 2</div><div class="l">gehört / gelesen</div></div>
-        <div class="stat"><div class="n tnum">2</div><div class="l">Universen (Verbünde)</div></div>
-      </div>
 
       <section>
-        <div class="grid2">
-          <div class="card2">
-            <h3>🎧 Jetzt &amp; als Nächstes</h3>
-            <p style="margin:0 0 8px;font-size:.9rem"><b>Am Hören:</b> DCC Bd. 2 „Carl's Doomsday Scenario" (dt.)</p>
-            <p style="margin:0 0 8px;font-size:.9rem"><b>Läuft gerade:</b> <span class="flag de">DE</span>
-              <b>Die bösen Jungs Bd. 1</b> „Schurken &amp; Halunken" — <b>Die guten Jungs</b> sind bis Bd. 5 durch.
-              Beide gehören ins selbe Universum <b>Vuldranni</b> und werden <b>verschränkt</b> gehört.</p>
-            <a class="biglink" href="#rf-vuldranni" data-view="reihenfolge" data-tab="rf-vuldranni" style="margin-top:0">🎧 Meine Hörreihenfolge ansehen →</a>
-            <p style="margin:10px 0 0;font-size:.9rem"><b>Nächstes dt. Release:</b> <span class="flag de">DE</span>
-              <b>Prinz Bd. 3 „Hoffnung"</b> <span class="subtle">(Termin offen)</span>, dann DCC Bd. 3 am 18.11.2026.</p>
-            <a class="biglink" href="#releases" data-view="releases">Alle Releases ansehen →</a>
+        <h2>Gerade läuft</h2>
+        <div class="jetzt">
+          <div class="jetzt-haupt">
+            <p class="jetzt-lab">🎧 Im Ohr</p>
+            <p class="jetzt-titel">Die bösen Jungs — Band 1</p>
+            <p class="jetzt-sub">„Schurken &amp; Halunken" · Thomas Nicolai · 15 h 23</p>
+            <div class="fortschritt"><span style="width:22%"></span></div>
+            <p class="jetzt-sub"><b>Schritt 6 von 27</b> der Vuldranni-Hörreihenfolge —
+              die guten Jungs sind bis Band 5 durch.</p>
+            <a class="knopf" href="#rf-vuldranni" data-view="upnext" data-tab="rf-vuldranni">Reihenfolge ansehen →</a>
           </div>
-          <div class="card2">
-            <h3>🧭 Mein roter Faden</h3>
-            <p style="margin:0;font-size:.9rem"><b>Fokus &amp; Vorwärtsdrang</b> (in 4 Genres belegt) · handlungsfähiger Held ·
-              starker Sprecher · cleveres Rätsel (Krimi). <span class="subtle">Deutsch bevorzugt (EN Fallback) · Reihe ≥ 3 Bände · ≤ ~20 h · kein Romance-Fokus.</span></p>
-            <a class="biglink" href="#geschmack" data-view="geschmack">Geschmack im Detail →</a>
+          <div class="jetzt-neben">
+            <p class="jetzt-lab">Parallel</p>
+            <p class="jetzt-titel klein">Dungeon Crawler Carl — Band 2</p>
+            <p class="jetzt-sub">Deutsch · Stefan Kaminski · dt. Band 3 erst am <b>18.11.2026</b></p>
+            <p class="jetzt-lab" style="margin-top:14px">Mein roter Faden</p>
+            <p class="jetzt-sub"><b>Fokus &amp; Vorwärtsdrang</b> · handlungsfähiger Held ·
+              starker Sprecher · Deutsch bevorzugt · Reihe ≥ 3 Bände</p>
           </div>
         </div>
       </section>
 
       <section>
-        <details class="dt"><summary>🔊 Bekanntheits-Ranking <span class="zahl">— wie viele kennen &amp; bewerten es</span></summary>
-        <div class="dtin">
-          <div class="fame-item" style="margin:0 0 14px">
-            <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Dungeon Crawler Carl</b><span class="subtle" style="font-size:.8rem">~1,7 Mio Wertungen</span></div>
-            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span></div>
-              <div class="fame-lab"><b>Phänomen</b> · Kult im LitRPG <span class="hype">🔥 &gt;10 Mio verkauft</span></div></div>
-          </div>
-          <div class="fame-item" style="margin:0 0 14px">
-            <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Der Donnerstagsmordclub</b> <span class="subtle" style="font-size:.8rem">~1,91 Mio Wertungen · ♡ gut</span></div>
-            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span></div>
-              <div class="fame-lab"><b>Phänomen</b> · Cosy Crime <span class="hype">🔥 17+ Mio verkauft · 🎬 Netflix 2025</span></div></div>
-          </div>
-          <div class="fame-item" style="margin:0 0 14px">
-            <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Die mörderischen Cunninghams</b><span class="subtle" style="font-size:.8rem">~340k Wertungen</span></div>
-            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span></div>
-              <div class="fame-lab"><b>Bestseller</b> · Krimi <span class="hype">📺 TV-Verfilmung in Arbeit</span></div></div>
-          </div>
-          <div class="fame-item" style="margin:0 0 14px">
-            <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Alex Verus</b> <span class="subtle" style="font-size:.8rem">~32k (Bd. 1) · ♥ geliebt</span></div>
-            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span><span class="ft"></span></div>
-              <div class="fame-lab"><b>Etabliert</b> · Urban Fantasy <span class="hype">📖 „Dresden-Files-Readalike" (Jim Butcher)</span></div></div>
-          </div>
-          <div class="fame-item" style="margin:0 0 14px">
-            <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Survival Quest</b> <span class="subtle" style="font-size:.8rem">~44k Wertungen · ◐ okay</span></div>
-            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span><span class="ft"></span></div>
-              <div class="fame-lab"><b>Etabliert</b> · Pionier-LitRPG (russische Schule)</div></div>
-          </div>
-          <div class="fame-item" style="margin:0 0 14px">
-            <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Sturmfels-Akademie</b><span class="subtle" style="font-size:.8rem">~1.680 Wertungen</span></div>
-            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft"></span><span class="ft"></span><span class="ft"></span></div>
-              <div class="fame-lab"><b>Szene-bekannt</b> · in DE etabliert, international Nische</div></div>
-          </div>
-          <div class="fame-item">
-            <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Der Prinz von Staub und Schatten</b><span class="subtle" style="font-size:.8rem">~1.633 Audible-Bew. (Bd. 1)</span></div>
-            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft"></span><span class="ft"></span><span class="ft"></span><span class="ft"></span></div>
-              <div class="fame-lab"><b>Geheimtipp</b> · brandneu <span class="hype">🚀 Hype: Saltatio-Mortis-Cross-Media</span></div></div>
-          </div>
-        </div></details>
-        <a class="biglink" href="#werke" data-view="werke">Zu meinen Werken →</a>
-      </section>
-
-      <section>
-        <h2>📚 Meine Werke</h2>
-        <div class="grid2">
-          <a class="mini" href="#w-dcc" data-view="w-dcc">
-            <div class="cover sm" style="background:linear-gradient(150deg,#3a2d6b,#1a1330 55%,#0e1a2e)"><div class="cm">🎮</div><div class="ct">DCC</div></div>
-            <div><div class="mt">Dungeon Crawler Carl</div><div class="mm">LitRPG · 8/9 Bände · ♥ geliebt</div>
-              <span class="subtle" style="font-size:.8rem"><span class="sw r"></span>⌀ 4,5/5 · <span class="sw f"></span>Phänomen</span></div>
+        <h2>Wohin?</h2>
+        <div class="tueren">
+          <a class="tuer" href="#werke" data-view="werke">
+            <span class="tz">01</span>
+            <b>Library</b>
+            <span class="ts">Alle 15 Werke in einer Tabelle — Verdikt, Bände, Wertung, Bekanntheit.
+              Eine Zeile anklicken öffnet das Werk mit Bandliste und meinem Empfinden.</span>
+            <span class="tm">15 Werke · 2 Universen →</span>
           </a>
-          <a class="mini" href="#w-cunninghams" data-view="w-cunninghams">
-            <div class="cover sm" style="background:linear-gradient(150deg,#3f4a3a,#2a2118 55%,#1a1412)"><div class="cm">🔎</div><div class="ct">DMC</div></div>
-            <div><div class="mt">Die mörderischen Cunninghams</div><div class="mm">Krimi · 📖 gelesen · ♥ geliebt</div>
-              <span class="subtle" style="font-size:.8rem"><span class="sw r"></span>⌀ 3,8/5 · <span class="sw f"></span>Bestseller 📺</span></div>
+          <a class="tuer" href="#upnext" data-view="upnext">
+            <span class="tz">02</span>
+            <b>Up Next</b>
+            <span class="ts">Was als Nächstes dran ist: Hörreihenfolgen über ganze Universen,
+              kommende Releases und die Stellen, an denen die deutsche Ausgabe klemmt.</span>
+            <span class="tm">7 Ansichten · 1 harte Regel →</span>
           </a>
-          <a class="mini" href="#w-sturmfels" data-view="w-sturmfels">
-            <div class="cover sm" style="background:linear-gradient(150deg,#4a5a86,#2c3a5c 55%,#20283c)"><div class="cm">🎓</div><div class="ct">SA</div></div>
-            <div><div class="mt">Sturmfels-Akademie</div><div class="mm">Fantasy · 5/5 · ♥ geliebt</div>
-              <span class="subtle" style="font-size:.8rem"><span class="sw r"></span>⌀ 4,4/5 · <span class="sw f"></span>Szene-bekannt</span></div>
-          </a>
-          <a class="mini" href="#w-prinz" data-view="w-prinz">
-            <div class="cover sm" style="background:linear-gradient(150deg,#b07b2e,#7a5019 55%,#3d2f1c)"><div class="cm">👑</div><div class="ct">PSS</div></div>
-            <div><div class="mt">Der Prinz von Staub und Schatten</div><div class="mm">Fantasy · 2/5 · ♥ geliebt</div>
-              <span class="subtle" style="font-size:.8rem"><span class="sw r"></span>⌀ 4,9/5 · <span class="sw f"></span>Geheimtipp 🚀</span></div>
-          </a>
-          <a class="mini" href="#w-goetter" data-view="w-goetter">
-            <div class="cover sm" style="background:linear-gradient(150deg,#7a3b1e,#3d2415 50%,#20242e)"><div class="cm">🏰</div><div class="ct">DSG</div></div>
-            <div><div class="mt">Die Streitenden Götter</div><div class="mm">Universum · Overall beider Reihen</div>
-              <span class="subtle" style="font-size:.8rem">Sturmfels + Prinz zusammen</span></div>
-          </a>
-          <a class="mini" href="#w-vuldranni" data-view="w-vuldranni">
-            <div class="cover sm" style="background:linear-gradient(150deg,#7d4a12,#3f2a0e 50%,#1e2430)"><div class="cm">🗺️</div><div class="ct">VUL</div></div>
-            <div><div class="mt">Vuldranni (iNcarn8)</div><div class="mm">Universum · Overall beider Reihen</div>
-              <span class="subtle" style="font-size:.8rem">guten + bösen Jungs zusammen · 27 Bände</span></div>
-          </a>
-          <a class="mini" href="#w-gutenjungs" data-view="w-gutenjungs">
-            <div class="cover sm" style="background:linear-gradient(150deg,#2f5f45,#1d3b2c 55%,#14211a)"><div class="cm">🛡️</div><div class="ct">GJ</div></div>
-            <div><div class="mt">Die guten Jungs</div><div class="mm">LitRPG · 5/16 · 🎧 gehört · ♡ gut</div>
-              <span class="subtle" style="font-size:.8rem"><span class="sw r"></span>⌀ 4,38/5 · <span class="sw f"></span>Etabliert</span></div>
-          </a>
-          <a class="mini" href="#w-boesenjungs" data-view="w-boesenjungs">
-            <div class="cover sm" style="background:linear-gradient(150deg,#4a2140,#2b1428 55%,#170d15)"><div class="cm">🗡️</div><div class="ct">BJ</div></div>
-            <div><div class="mt">Die bösen Jungs</div><div class="mm">LitRPG · 1/11 · 🎧 läuft · ♡ gut</div>
-              <span class="subtle" style="font-size:.8rem"><span class="sw f"></span>Etabliert · ⚠ Wertung unbelegt</span></div>
-          </a>
-          <a class="mini" href="#w-alexverus" data-view="w-alexverus">
-            <div class="cover sm" style="background:linear-gradient(150deg,#3a2a5c,#1c1830 55%,#0e1220)"><div class="cm">🔮</div><div class="ct">AV</div></div>
-            <div><div class="mt">Alex Verus</div><div class="mm">Urban Fantasy · 12/12 · ♥ geliebt</div>
-              <span class="subtle" style="font-size:.8rem"><span class="sw r"></span>⌀ 4,2/5 · <span class="sw f"></span>Etabliert</span></div>
-          </a>
-          <a class="mini" href="#w-magic20" data-view="w-magic20">
-            <div class="cover sm" style="background:linear-gradient(150deg,#153a2a,#0e2419 55%,#0a1410)"><div class="cm">🧙</div><div class="ct">M2</div></div>
-            <div><div class="mt">Magic 2.0</div><div class="mm">Humor-Phantastik · 📖 gelesen · ♥ geliebt</div>
-              <span class="subtle" style="font-size:.8rem"><span class="sw r"></span>⌀ 3,9/5 · <span class="sw f"></span>Etabliert</span></div>
-          </a>
-          <a class="mini" href="#w-mordclub" data-view="w-mordclub">
-            <div class="cover sm" style="background:linear-gradient(150deg,#2f5a4e,#1c3830 55%,#12211d)"><div class="cm">🫖</div><div class="ct">DMC</div></div>
-            <div><div class="mt">Der Donnerstagsmordclub</div><div class="mm">Cosy Crime · 5/5 · 🎧 gehört · ♡ gut</div>
-              <span class="subtle" style="font-size:.8rem"><span class="sw r"></span>⌀ 4,25/5 · <span class="sw f"></span>Phänomen 🎬</span></div>
-          </a>
-          <a class="mini" href="#w-survival" data-view="w-survival">
-            <div class="cover sm" style="background:linear-gradient(150deg,#4a4a52,#2c2c34 55%,#1c1c22)"><div class="cm">⛏️</div><div class="ct">SQ</div></div>
-            <div><div class="mt">Survival Quest</div><div class="mm">LitRPG · 7/7 · ◐ okay</div>
-              <span class="subtle" style="font-size:.8rem"><span class="sw r"></span>⌀ 4,2/5 · <span class="sw f"></span>Etabliert</span></div>
-          </a>
-          <a class="mini" href="#w-scholomance" data-view="w-scholomance">
-            <div class="cover sm" style="background:linear-gradient(150deg,#1f3b2e,#14231c 55%,#0e1512)"><div class="cm">🏫</div><div class="ct">SCH</div></div>
-            <div><div class="mt">Scholomance</div><div class="mm">Fantasy · 3/3 · ◐ okay</div>
-              <span class="subtle" style="font-size:.8rem"><span class="sw r"></span>⌀ 4,0/5 · <span class="sw f"></span>Bestseller</span></div>
-          </a>
-          <a class="mini" href="#w-riyria" data-view="w-riyria">
-            <div class="cover sm" style="background:linear-gradient(150deg,#5a4632,#33261a 55%,#1c140d)"><div class="cm">🗡️</div><div class="ct">RIY</div></div>
-            <div><div class="mt">Riyria</div><div class="mm">Fantasy · 6/6 · ◐ okay</div>
-              <span class="subtle" style="font-size:.8rem"><span class="sw r"></span>⌀ 4,4/5 · <span class="sw f"></span>Bestseller</span></div>
-          </a>
-          <a class="mini" href="#w-ashford" data-view="w-ashford">
-            <div class="cover sm" style="background:linear-gradient(150deg,#2e3a4a,#1c2530 55%,#14181f)"><div class="cm">🏛️</div><div class="ct">HA</div></div>
-            <div><div class="mt">Haus Ashford</div><div class="mm">Urban Fantasy · 3/~10 · ◐ okay</div>
-              <span class="subtle" style="font-size:.8rem"><span class="sw r"></span>⌀ 4,1/5 · <span class="sw f"></span>Etabliert</span></div>
+          <a class="tuer" href="#geschmack" data-view="geschmack">
+            <span class="tz">03</span>
+            <b>Taste</b>
+            <span class="ts">Wogegen neue Bücher gematcht werden: roter Faden, vier Geschmacksräume
+              mit eigenen Gewichten, No-Gos und die Anti-Muster aus dem Graubereich.</span>
+            <span class="tm">4 Räume · 25 Kriterien →</span>
           </a>
         </div>
       </section>
-    
-      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-cunninghams" data-view="w-cunninghams">Die mörderischen Cunninghams ›</a></div>
-    
+
+      <section>
+        <div class="panel">
+          <p style="margin:0;font-size:.88rem"><b>🙈 Spoilerfrei.</b> Zu allem, was ich noch nicht gehört habe,
+            stehen hier nur Titel, Jahr, Länge, Sprecher, Wertung und Verfügbarkeit — <b>keine Handlung</b>.
+            Die Grenze steht bandgenau im Vault und wird bei jeder Änderung maschinell geprüft.</p>
+        </div>
+      </section>
+
       <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Weiter zu</span>
-        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
-        <a href="#werke" data-view="werke">Werke</a>
-        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
-        <a href="#releases" data-view="releases">Releases</a>
-        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+        <span class="fnl">Go to</span>
+        <a href="#home" data-view="home">Home</a>
+        <a href="#werke" data-view="werke">Library</a>
+        <a href="#upnext" data-view="upnext">Up Next</a>
+        <a href="#geschmack" data-view="geschmack">Taste</a>
       </nav>
     </div>
 
@@ -792,12 +737,11 @@
       </details>
     
       <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Weiter zu</span>
-        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
-        <a href="#werke" data-view="werke">Werke</a>
-        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
-        <a href="#releases" data-view="releases">Releases</a>
-        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+        <span class="fnl">Go to</span>
+        <a href="#home" data-view="home">Home</a>
+        <a href="#werke" data-view="werke">Library</a>
+        <a href="#upnext" data-view="upnext">Up Next</a>
+        <a href="#geschmack" data-view="geschmack">Taste</a>
       </nav>
     </div>
 
@@ -842,12 +786,11 @@
       
     
       <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Weiter zu</span>
-        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
-        <a href="#werke" data-view="werke">Werke</a>
-        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
-        <a href="#releases" data-view="releases">Releases</a>
-        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+        <span class="fnl">Go to</span>
+        <a href="#home" data-view="home">Home</a>
+        <a href="#werke" data-view="werke">Library</a>
+        <a href="#upnext" data-view="upnext">Up Next</a>
+        <a href="#geschmack" data-view="geschmack">Taste</a>
       </nav>
     </div>
 
@@ -892,12 +835,11 @@
       <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-dcc" data-view="w-dcc">‹ Dungeon Crawler Carl</a><a class="bk2" href="#w-goetter" data-view="w-goetter">Die Streitenden Götter ›</a></div>
     
       <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Weiter zu</span>
-        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
-        <a href="#werke" data-view="werke">Werke</a>
-        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
-        <a href="#releases" data-view="releases">Releases</a>
-        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+        <span class="fnl">Go to</span>
+        <a href="#home" data-view="home">Home</a>
+        <a href="#werke" data-view="werke">Library</a>
+        <a href="#upnext" data-view="upnext">Up Next</a>
+        <a href="#geschmack" data-view="geschmack">Taste</a>
       </nav>
     </div>
 
@@ -921,12 +863,11 @@
       <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-cunninghams" data-view="w-cunninghams">‹ Die mörderischen Cunninghams</a><a class="bk2" href="#w-sturmfels" data-view="w-sturmfels">Sturmfels-Akademie ›</a></div>
     
       <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Weiter zu</span>
-        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
-        <a href="#werke" data-view="werke">Werke</a>
-        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
-        <a href="#releases" data-view="releases">Releases</a>
-        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+        <span class="fnl">Go to</span>
+        <a href="#home" data-view="home">Home</a>
+        <a href="#werke" data-view="werke">Library</a>
+        <a href="#upnext" data-view="upnext">Up Next</a>
+        <a href="#geschmack" data-view="geschmack">Taste</a>
       </nav>
     </div>
 
@@ -969,12 +910,11 @@
       <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><a class="bk2" href="#w-goetter" data-view="w-goetter">↰ Die Streitenden Götter</a><span class="spacer"></span><a class="bk2" href="#w-goetter" data-view="w-goetter">‹ Die Streitenden Götter</a><a class="bk2" href="#w-prinz" data-view="w-prinz">Der Prinz von Staub und Schatten ›</a></div>
     
       <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Weiter zu</span>
-        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
-        <a href="#werke" data-view="werke">Werke</a>
-        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
-        <a href="#releases" data-view="releases">Releases</a>
-        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+        <span class="fnl">Go to</span>
+        <a href="#home" data-view="home">Home</a>
+        <a href="#werke" data-view="werke">Library</a>
+        <a href="#upnext" data-view="upnext">Up Next</a>
+        <a href="#geschmack" data-view="geschmack">Taste</a>
       </nav>
     </div>
 
@@ -1016,12 +956,11 @@
       <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><a class="bk2" href="#w-goetter" data-view="w-goetter">↰ Die Streitenden Götter</a><span class="spacer"></span><a class="bk2" href="#w-sturmfels" data-view="w-sturmfels">‹ Sturmfels-Akademie</a><a class="bk2" href="#w-alexverus" data-view="w-alexverus">Alex Verus ›</a></div>
     
       <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Weiter zu</span>
-        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
-        <a href="#werke" data-view="werke">Werke</a>
-        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
-        <a href="#releases" data-view="releases">Releases</a>
-        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+        <span class="fnl">Go to</span>
+        <a href="#home" data-view="home">Home</a>
+        <a href="#werke" data-view="werke">Library</a>
+        <a href="#upnext" data-view="upnext">Up Next</a>
+        <a href="#geschmack" data-view="geschmack">Taste</a>
       </nav>
     </div>
 
@@ -1075,12 +1014,11 @@
       <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-prinz" data-view="w-prinz">‹ Der Prinz von Staub und Schatten</a><a class="bk2" href="#w-magic20" data-view="w-magic20">Magic 2.0 ›</a></div>
     
       <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Weiter zu</span>
-        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
-        <a href="#werke" data-view="werke">Werke</a>
-        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
-        <a href="#releases" data-view="releases">Releases</a>
-        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+        <span class="fnl">Go to</span>
+        <a href="#home" data-view="home">Home</a>
+        <a href="#werke" data-view="werke">Library</a>
+        <a href="#upnext" data-view="upnext">Up Next</a>
+        <a href="#geschmack" data-view="geschmack">Taste</a>
       </nav>
     </div>
 
@@ -1127,12 +1065,11 @@
       <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-alexverus" data-view="w-alexverus">‹ Alex Verus</a><a class="bk2" href="#w-vuldranni" data-view="w-vuldranni">Vuldranni (iNcarn8) ›</a></div>
     
       <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Weiter zu</span>
-        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
-        <a href="#werke" data-view="werke">Werke</a>
-        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
-        <a href="#releases" data-view="releases">Releases</a>
-        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+        <span class="fnl">Go to</span>
+        <a href="#home" data-view="home">Home</a>
+        <a href="#werke" data-view="werke">Library</a>
+        <a href="#upnext" data-view="upnext">Up Next</a>
+        <a href="#geschmack" data-view="geschmack">Taste</a>
       </nav>
     </div>
 
@@ -1152,7 +1089,8 @@
           <details class="dt"><summary>Warum das Urteil so lautet</summary><div class="dtin"><div class="synth"><b>Ich bin mitten drin:</b> guten Jungs Bd. 1–5 gehört, bösen Jungs Bd. 1 läuft.
             Beide Reihen erzählen <b>dieselbe Welt von zwei Moralseiten</b> — Aufbauer vs. Dieb — und laufen am Ende zusammen.
             Deshalb gibt es eine <b>eigene Hörreihenfolge</b> über beide Reihen hinweg.
-            <a class="biglink" href="#rf-vuldranni" data-view="reihenfolge" data-tab="rf-vuldranni" style="margin-top:6px">🎧 Zur Hörreihenfolge (27 Schritte) →</a></div></div></details>
+            </div></div></details>
+          <a class="biglink" href="#rf-vuldranni" data-view="upnext" data-tab="rf-vuldranni">🎧 Zur Hörreihenfolge (27 Schritte) →</a>
         </div>
       </div>
       <div class="unikinder"><p class="box-title">Die Reihen dieses Universums — einzeln</p><a class="bk2 gross" href="#w-gutenjungs" data-view="w-gutenjungs">Die guten Jungs ›</a><a class="bk2 gross" href="#w-boesenjungs" data-view="w-boesenjungs">Die bösen Jungs ›</a></div>
@@ -1160,12 +1098,11 @@
       <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-magic20" data-view="w-magic20">‹ Magic 2.0</a><a class="bk2" href="#w-gutenjungs" data-view="w-gutenjungs">Die guten Jungs ›</a></div>
     
       <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Weiter zu</span>
-        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
-        <a href="#werke" data-view="werke">Werke</a>
-        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
-        <a href="#releases" data-view="releases">Releases</a>
-        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+        <span class="fnl">Go to</span>
+        <a href="#home" data-view="home">Home</a>
+        <a href="#werke" data-view="werke">Library</a>
+        <a href="#upnext" data-view="upnext">Up Next</a>
+        <a href="#geschmack" data-view="geschmack">Taste</a>
       </nav>
     </div>
 
@@ -1232,12 +1169,11 @@
       <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><a class="bk2" href="#w-vuldranni" data-view="w-vuldranni">↰ Vuldranni (iNcarn8)</a><span class="spacer"></span><a class="bk2" href="#w-vuldranni" data-view="w-vuldranni">‹ Vuldranni (iNcarn8)</a><a class="bk2" href="#w-boesenjungs" data-view="w-boesenjungs">Die bösen Jungs ›</a></div>
     
       <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Weiter zu</span>
-        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
-        <a href="#werke" data-view="werke">Werke</a>
-        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
-        <a href="#releases" data-view="releases">Releases</a>
-        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+        <span class="fnl">Go to</span>
+        <a href="#home" data-view="home">Home</a>
+        <a href="#werke" data-view="werke">Library</a>
+        <a href="#upnext" data-view="upnext">Up Next</a>
+        <a href="#geschmack" data-view="geschmack">Taste</a>
       </nav>
     </div>
 
@@ -1296,12 +1232,11 @@
       <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><a class="bk2" href="#w-vuldranni" data-view="w-vuldranni">↰ Vuldranni (iNcarn8)</a><span class="spacer"></span><a class="bk2" href="#w-gutenjungs" data-view="w-gutenjungs">‹ Die guten Jungs</a><a class="bk2" href="#w-mordclub" data-view="w-mordclub">Der Donnerstagsmordclub ›</a></div>
     
       <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Weiter zu</span>
-        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
-        <a href="#werke" data-view="werke">Werke</a>
-        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
-        <a href="#releases" data-view="releases">Releases</a>
-        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+        <span class="fnl">Go to</span>
+        <a href="#home" data-view="home">Home</a>
+        <a href="#werke" data-view="werke">Library</a>
+        <a href="#upnext" data-view="upnext">Up Next</a>
+        <a href="#geschmack" data-view="geschmack">Taste</a>
       </nav>
     </div>
 
@@ -1348,12 +1283,11 @@
       <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-boesenjungs" data-view="w-boesenjungs">‹ Die bösen Jungs</a><a class="bk2" href="#w-survival" data-view="w-survival">Survival Quest ›</a></div>
     
       <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Weiter zu</span>
-        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
-        <a href="#werke" data-view="werke">Werke</a>
-        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
-        <a href="#releases" data-view="releases">Releases</a>
-        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+        <span class="fnl">Go to</span>
+        <a href="#home" data-view="home">Home</a>
+        <a href="#werke" data-view="werke">Library</a>
+        <a href="#upnext" data-view="upnext">Up Next</a>
+        <a href="#geschmack" data-view="geschmack">Taste</a>
       </nav>
     </div>
 
@@ -1400,12 +1334,11 @@
       <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-mordclub" data-view="w-mordclub">‹ Der Donnerstagsmordclub</a><a class="bk2" href="#w-scholomance" data-view="w-scholomance">Scholomance ›</a></div>
     
       <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Weiter zu</span>
-        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
-        <a href="#werke" data-view="werke">Werke</a>
-        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
-        <a href="#releases" data-view="releases">Releases</a>
-        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+        <span class="fnl">Go to</span>
+        <a href="#home" data-view="home">Home</a>
+        <a href="#werke" data-view="werke">Library</a>
+        <a href="#upnext" data-view="upnext">Up Next</a>
+        <a href="#geschmack" data-view="geschmack">Taste</a>
       </nav>
     </div>
 
@@ -1449,12 +1382,11 @@
       <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-survival" data-view="w-survival">‹ Survival Quest</a><a class="bk2" href="#w-riyria" data-view="w-riyria">Riyria ›</a></div>
     
       <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Weiter zu</span>
-        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
-        <a href="#werke" data-view="werke">Werke</a>
-        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
-        <a href="#releases" data-view="releases">Releases</a>
-        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+        <span class="fnl">Go to</span>
+        <a href="#home" data-view="home">Home</a>
+        <a href="#werke" data-view="werke">Library</a>
+        <a href="#upnext" data-view="upnext">Up Next</a>
+        <a href="#geschmack" data-view="geschmack">Taste</a>
       </nav>
     </div>
 
@@ -1501,12 +1433,11 @@
       <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-scholomance" data-view="w-scholomance">‹ Scholomance</a><a class="bk2" href="#w-ashford" data-view="w-ashford">Haus Ashford ›</a></div>
     
       <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Weiter zu</span>
-        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
-        <a href="#werke" data-view="werke">Werke</a>
-        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
-        <a href="#releases" data-view="releases">Releases</a>
-        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+        <span class="fnl">Go to</span>
+        <a href="#home" data-view="home">Home</a>
+        <a href="#werke" data-view="werke">Library</a>
+        <a href="#upnext" data-view="upnext">Up Next</a>
+        <a href="#geschmack" data-view="geschmack">Taste</a>
       </nav>
     </div>
 
@@ -1552,18 +1483,17 @@
       <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-riyria" data-view="w-riyria">‹ Riyria</a></div>
     
       <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Weiter zu</span>
-        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
-        <a href="#werke" data-view="werke">Werke</a>
-        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
-        <a href="#releases" data-view="releases">Releases</a>
-        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+        <span class="fnl">Go to</span>
+        <a href="#home" data-view="home">Home</a>
+        <a href="#werke" data-view="werke">Library</a>
+        <a href="#upnext" data-view="upnext">Up Next</a>
+        <a href="#geschmack" data-view="geschmack">Taste</a>
       </nav>
     </div>
 
     <!-- ============================================================ REIHENFOLGEN -->
-    <div class="view" id="v-reihenfolge">
-      <header class="hero"><h1>🔢 Reihenfolgen</h1>
+    <div class="view" id="v-upnext">
+      <header class="hero"><h1>Up Next</h1>
         <p class="lead">In welcher Reihenfolge höre bzw. lese ich was — über <b>alle</b> Werke hinweg.
           Bei den meisten Reihen ist das trivial (1 → 2 → 3). Interessant wird es, wo ein Universum
           <b>mehrere Reihen</b> hat, wo ein <b>Prequel</b> lauert oder wo die <b>deutsche Ausgabe</b> nicht hinterherkommt.</p>
@@ -1572,29 +1502,67 @@
       </header>
 
       <div class="subnav" style="margin:14px 0 0">
-        <button class="fc on" data-tab="rf-wichtig" aria-pressed="true">Wo es wirklich zählt</button>
+        <button class="fc on" data-tab="rf-now" aria-pressed="true">Jetzt</button>
         <button class="fc" data-tab="rf-vuldranni" aria-pressed="false">🗺️ Vuldranni · 27 Schritte</button>
+        <button class="fc" data-tab="rf-wichtig" aria-pressed="false">Wo es zählt</button>
+        <button class="fc" data-tab="rf-series" aria-pressed="false">Andere Reihen</button>
         <button class="fc" data-tab="rf-beleg" aria-pressed="false">🔬 Wie gut belegt?</button>
-        <button class="fc" data-tab="rf-goetter" aria-pressed="false">🏰 Streitende Götter</button>
-        <button class="fc" data-tab="rf-dcc" aria-pressed="false">🎮 Dungeon Crawler Carl</button>
-        <button class="fc" data-tab="rf-rest" aria-pressed="false">Alle übrigen Reihen</button>
+        <button class="fc" data-tab="rf-releases" aria-pressed="false">📅 Releases</button>
         <button class="fc" data-tab="rf-engpass" aria-pressed="false">⚠️ Verfügbarkeit</button>
       </div>
 
-      <section class="tabsec on" id="rf-wichtig">
+      <section class="tabsec on" id="rf-now">
+        <h2>Wo ich gerade stehe</h2>
+        <div class="ixtab">
+          <div class="ix ixhead" style="grid-template-columns:minmax(170px,2fr) 120px 1fr">
+            <span>Werk</span><span>Stand</span><span>Als Nächstes</span></div>
+          <a class="ix" href="#w-gutenjungs" data-view="w-gutenjungs" style="grid-template-columns:minmax(170px,2fr) 120px 1fr">
+            <span class="ixt">Die guten Jungs</span><span class="ixb tnum" style="text-align:left">Bd. 5 von 16 ✅</span>
+            <span class="ixk">pausiert — laut Reihenfolge sind erst die bösen Jungs dran</span></a>
+          <a class="ix" href="#w-boesenjungs" data-view="w-boesenjungs" style="grid-template-columns:minmax(170px,2fr) 120px 1fr">
+            <span class="ixt">Die bösen Jungs</span><span class="ixb tnum" style="text-align:left"><b>Bd. 1 läuft</b> ▶️</span>
+            <span class="ixk"><b>Schritt 6 von 27</b> der Vuldranni-Reihenfolge · danach Bd. 2</span></a>
+          <a class="ix" href="#w-dcc" data-view="w-dcc" style="grid-template-columns:minmax(170px,2fr) 120px 1fr">
+            <span class="ixt">Dungeon Crawler Carl</span><span class="ixb tnum" style="text-align:left"><b>Bd. 2 läuft</b> ▶️</span>
+            <span class="ixk">dt. Bd. 3 erst am 18.11.2026 — danach Wartezeit</span></a>
+          <a class="ix" href="#w-cunninghams" data-view="w-cunninghams" style="grid-template-columns:minmax(170px,2fr) 120px 1fr">
+            <span class="ixt">Die mörderischen Cunninghams</span><span class="ixb tnum" style="text-align:left">Bd. 2 von 4</span>
+            <span class="ixk">⚠️ dt. Bd. 3 nicht angekündigt — englisch verfügbar</span></a>
+          <a class="ix" href="#w-magic20" data-view="w-magic20" style="grid-template-columns:minmax(170px,2fr) 120px 1fr">
+            <span class="ixt">Magic 2.0</span><span class="ixb tnum" style="text-align:left">Bd. 4 von 6</span>
+            <span class="ixk">⚠️ dt. nach Bd. 2 eingestellt — Rest nur englisch</span></a>
+          <a class="ix" href="#w-prinz" data-view="w-prinz" style="grid-template-columns:minmax(170px,2fr) 120px 1fr">
+            <span class="ixt">Der Prinz von Staub und Schatten</span><span class="ixb tnum" style="text-align:left">Bd. 2 von 5</span>
+            <span class="ixk">wartet auf Bd. 3 „Hoffnung" — Termin offen</span></a>
+        </div>
+        <p class="note">Sieben weitere Werke sind durchgehört bzw. abgeschlossen — sie stehen in der
+          <a href="#werke" data-view="werke">Library</a>.</p>
+        <div class="grid2" style="margin-top:18px">
+          <div class="card2"><h3>Die eine harte Regel</h3>
+            <p style="margin:0;font-size:.9rem">Im Vuldranni-Universum muss <b>BJ 11</b> vor <b>GJ 15</b> kommen —
+              der Crossover setzt beide Reihen voraus. Alles andere ist Empfehlung.</p>
+            <a class="biglink" href="#rf-vuldranni" data-view="upnext" data-tab="rf-vuldranni">Zur 27-Schritt-Reihenfolge →</a></div>
+          <div class="card2"><h3>Der eigentliche Engpass</h3>
+            <p style="margin:0;font-size:.9rem">Bei vier Werken existiert die richtige Reihenfolge — nur die
+              <b>deutsche Ausgabe</b> kommt nicht hinterher.</p>
+            <a class="biglink" href="#rf-engpass" data-view="upnext" data-tab="rf-engpass">Engpässe ansehen →</a></div>
+        </div>
+      </section>
+
+      <section class="tabsec" id="rf-wichtig">
         <h2>Wo die Reihenfolge wirklich zählt — drei Fälle</h2>
         <div class="grid2">
           <div class="card2">
             <h3>🗺️ Vuldranni — zwei Reihen, ein Crossover</h3>
             <p style="margin:0;font-size:.9rem">Die guten Jungs und die bösen Jungs laufen <b>parallel</b> und treffen am Ende aufeinander.
               Hier gibt es die <b>einzige harte Regel</b> meiner ganzen Bibliothek: <b>BJ 11 vor GJ 15</b>.</p>
-            <a class="biglink" href="#rf-vuldranni" data-view="reihenfolge" data-tab="rf-vuldranni">Zur 27-Schritt-Reihenfolge →</a>
+            <a class="biglink" href="#rf-vuldranni" data-view="upnext" data-tab="rf-vuldranni">Zur 27-Schritt-Reihenfolge →</a>
           </div>
           <div class="card2">
             <h3>🏰 Die Streitenden Götter — Epos in Etappen</h3>
             <p style="margin:0;font-size:.9rem">Zwei Reihen, aber <b>nacheinander</b> statt verschränkt: erst Sturmfels-Akademie (5, abgeschlossen),
               dann Der Prinz von Staub und Schatten (2 von 5). Kein Wahlrecht — der Prinz setzt Sturmfels voraus.</p>
-            <a class="biglink" href="#rf-goetter" data-view="reihenfolge" data-tab="rf-goetter">Details →</a>
+            <a class="biglink" href="#rf-series" data-view="upnext" data-tab="rf-series">Details →</a>
           </div>
           <div class="card2">
             <h3>🗡️ Riyria — die Prequel-Falle</h3>
@@ -1606,7 +1574,7 @@
             <h3>⚠️ …und der vierte Fall: Verfügbarkeit</h3>
             <p style="margin:0;font-size:.9rem">Bei vier Werken existiert die richtige Reihenfolge — nur die <b>deutsche Ausgabe</b> kommt nicht hinterher.
               Das ist praktisch der häufigste Grund, warum ich nicht weiterhören kann.</p>
-            <a class="biglink" href="#rf-engpass" data-view="reihenfolge" data-tab="rf-engpass">Engpässe ansehen →</a>
+            <a class="biglink" href="#rf-engpass" data-view="upnext" data-tab="rf-engpass">Engpässe ansehen →</a>
           </div>
         </div>
       </section>
@@ -1710,7 +1678,7 @@
         </div>
       </section>
 
-      <section class="tabsec" id="rf-goetter">
+      <section class="tabsec" id="rf-series">
         <h2>🏰 Die Streitenden Götter — nacheinander, nicht verschränkt</h2>
         <div class="panel">
           <div class="seq" style="margin-top:0">
@@ -1727,9 +1695,8 @@
           <div class="asp"><span style="color:var(--muted);font-weight:800;margin-right:7px">○</span>Wartet auf Prinz Bd. 3 „Hoffnung" — <b>Termin offen</b> (Titel über die Saltatio-Mortis-EPs gesichert).</div>
           <div class="asp"><span style="color:var(--muted);font-weight:800;margin-right:7px">○</span>Nur auf Deutsch — kein Übersetzungs-Warten, dafür international eine Nische.</div>
         </div>
-      </section>
+      
 
-      <section class="tabsec" id="rf-dcc">
         <h2>🎮 Dungeon Crawler Carl — einfache Bandreihenfolge, komplizierte Verfügbarkeit</h2>
         <div class="panel">
           <div class="seq" style="margin-top:0">
@@ -1747,9 +1714,8 @@
           <div class="asp"><span style="color:var(--muted);font-weight:800;margin-right:7px">○</span>Bd. 9 (Finale, EN) — kein Termin.</div>
           <p class="note">Genau diese Lücke zwischen den deutschen Bänden ist es, die Empfehlungen füllen sollen.</p>
         </div>
-      </section>
+      
 
-      <section class="tabsec" id="rf-rest">
         <h2>Alle übrigen Reihen — Bandreihenfolge, ohne Fallstricke</h2>
         <div class="panel" style="padding:0;overflow:hidden">
           <div class="rf-tab">
@@ -1765,6 +1731,30 @@
           </div>
         </div>
       </section>
+
+      <section class="tabsec" id="rf-releases"><h2>Kommende Releases</h2>
+        <div class="rel">
+          <div class="rel-row"><div class="rel-date">Termin offen <small>⚠️ nicht datiert</small></div>
+            <div class="rel-what"><span class="flag de">DE</span> <b>Der Prinz von Staub und Schatten — Bd. 3 „Hoffnung"</b><div class="s">Titel gesichert (Saltatio-EP) · kein Beleg für „Sept 2026" (BücherTreff tippt 2027) · Hörbuch Günter Merlau</div></div></div>
+          <div class="rel-row"><div class="rel-date">18.11.2026 <small>Print bestätigt</small></div>
+            <div class="rel-what"><span class="flag de">DE</span> <b>Dungeon Crawler Carl — Bd. 3</b> „The Dungeon Anarchist's Cookbook"<div class="s">Fischer Tor · dt. Hörbuch: noch kein Termin (nur im Audible-System vorgemerkt)</div></div></div>
+          <div class="rel-row"><div class="rel-date">offen <small>kein Termin</small></div>
+            <div class="rel-what"><span class="flag en">EN</span> <b>Dungeon Crawler Carl — Bd. 9</b> „The Beautiful Place" (Finale)<div class="s">Prolog Juni 2026 · für mich nachrangig (ich warte auf Deutsch)</div></div></div>
+          <div class="rel-row"><div class="rel-date">danach</div>
+            <div class="rel-what">DCC Bd. 4 dt. Print <b>24.02.2027</b> (Bd. 5+ unterminiert) · Prinz Bd. 4 „Zorn" / Bd. 5 „Vollendung" (Termine offen) · Saltatio-Mortis-EPs zum Prinzen</div></div>
+          <div class="rel-row"><div class="rel-date">laufend <small>⚠️ Termine unbelegt</small></div>
+            <div class="rel-what"><span class="flag de">DE</span> <b>Vuldranni — dt. Hörbuch-Produktion</b><div class="s">16 bzw. 11 Bände als Buch erschienen, <b>Hörbücher noch nicht</b>: belegt eingelesen sind guten Jungs bis Bd. 9 und böse Jungs bis Bd. 8. Für meine <a href="#rf-vuldranni" data-view="upnext" data-tab="rf-vuldranni">Hörreihenfolge</a> heißt das: ab Schritt 14 vorher prüfen — bis dahin ~8 Bände Puffer.</div></div>
+          <div class="rel-row"><div class="rel-date">2026 <small>⚠️ Termin offen</small></div>
+            <div class="rel-what"><span class="flag en">EN</span> <b>Die guten Jungs Bd. 17 · Die bösen Jungs Bd. 12</b><div class="s">Beide für 2026 angekündigt — <b>keine der Reihen ist abgeschlossen</b> (Korrektur 11.08.2026). Dt. Ausgaben entsprechend später.</div></div></div></div>
+        </div>
+        <p class="note">Aktuell am Hören: <b>Die bösen Jungs Bd. 1</b> „Schurken &amp; Halunken" (dt.) — parallel sind die <b>guten Jungs</b> bis Bd. 5 durch. Davor: <b>DCC Bd. 2</b> „Carl's Doomsday Scenario" (dt.). Zwischen den dt. DCC-Bänden ist die Lücke, die Empfehlungen füllen sollen.</p>
+      </section>
+
+      
+
+      
+
+      
 
       <section class="tabsec" id="rf-engpass">
         <h2>⚠️ Verfügbarkeit schlägt Reihenfolge</h2>
@@ -1783,12 +1773,11 @@
       </section>
     
       <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Weiter zu</span>
-        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
-        <a href="#werke" data-view="werke">Werke</a>
-        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
-        <a href="#releases" data-view="releases">Releases</a>
-        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+        <span class="fnl">Go to</span>
+        <a href="#home" data-view="home">Home</a>
+        <a href="#werke" data-view="werke">Library</a>
+        <a href="#upnext" data-view="upnext">Up Next</a>
+        <a href="#geschmack" data-view="geschmack">Taste</a>
       </nav>
     </div>
 
@@ -1796,35 +1785,7 @@
     
 
     <!-- ============================================================ RELEASES -->
-    <div class="view" id="v-releases">
-      <header class="hero"><h1>Kommende Releases</h1><p class="lead">Was ich als Nächstes hören/lesen kann — Deutsch und Englisch getrennt.</p></header>
-      <section>
-        <div class="rel">
-          <div class="rel-row"><div class="rel-date">Termin offen <small>⚠️ nicht datiert</small></div>
-            <div class="rel-what"><span class="flag de">DE</span> <b>Der Prinz von Staub und Schatten — Bd. 3 „Hoffnung"</b><div class="s">Titel gesichert (Saltatio-EP) · kein Beleg für „Sept 2026" (BücherTreff tippt 2027) · Hörbuch Günter Merlau</div></div></div>
-          <div class="rel-row"><div class="rel-date">18.11.2026 <small>Print bestätigt</small></div>
-            <div class="rel-what"><span class="flag de">DE</span> <b>Dungeon Crawler Carl — Bd. 3</b> „The Dungeon Anarchist's Cookbook"<div class="s">Fischer Tor · dt. Hörbuch: noch kein Termin (nur im Audible-System vorgemerkt)</div></div></div>
-          <div class="rel-row"><div class="rel-date">offen <small>kein Termin</small></div>
-            <div class="rel-what"><span class="flag en">EN</span> <b>Dungeon Crawler Carl — Bd. 9</b> „The Beautiful Place" (Finale)<div class="s">Prolog Juni 2026 · für mich nachrangig (ich warte auf Deutsch)</div></div></div>
-          <div class="rel-row"><div class="rel-date">danach</div>
-            <div class="rel-what">DCC Bd. 4 dt. Print <b>24.02.2027</b> (Bd. 5+ unterminiert) · Prinz Bd. 4 „Zorn" / Bd. 5 „Vollendung" (Termine offen) · Saltatio-Mortis-EPs zum Prinzen</div></div>
-          <div class="rel-row"><div class="rel-date">laufend <small>⚠️ Termine unbelegt</small></div>
-            <div class="rel-what"><span class="flag de">DE</span> <b>Vuldranni — dt. Hörbuch-Produktion</b><div class="s">16 bzw. 11 Bände als Buch erschienen, <b>Hörbücher noch nicht</b>: belegt eingelesen sind guten Jungs bis Bd. 9 und böse Jungs bis Bd. 8. Für meine <a href="#rf-vuldranni" data-view="reihenfolge" data-tab="rf-vuldranni">Hörreihenfolge</a> heißt das: ab Schritt 14 vorher prüfen — bis dahin ~8 Bände Puffer.</div></div>
-          <div class="rel-row"><div class="rel-date">2026 <small>⚠️ Termin offen</small></div>
-            <div class="rel-what"><span class="flag en">EN</span> <b>Die guten Jungs Bd. 17 · Die bösen Jungs Bd. 12</b><div class="s">Beide für 2026 angekündigt — <b>keine der Reihen ist abgeschlossen</b> (Korrektur 11.08.2026). Dt. Ausgaben entsprechend später.</div></div></div></div>
-        </div>
-        <p class="note">Aktuell am Hören: <b>Die bösen Jungs Bd. 1</b> „Schurken &amp; Halunken" (dt.) — parallel sind die <b>guten Jungs</b> bis Bd. 5 durch. Davor: <b>DCC Bd. 2</b> „Carl's Doomsday Scenario" (dt.). Zwischen den dt. DCC-Bänden ist die Lücke, die Empfehlungen füllen sollen.</p>
-      </section>
     
-      <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Weiter zu</span>
-        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
-        <a href="#werke" data-view="werke">Werke</a>
-        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
-        <a href="#releases" data-view="releases">Releases</a>
-        <a href="#geschmack" data-view="geschmack">Geschmack</a>
-      </nav>
-    </div>
 
     <!-- ============================================================ GESCHMACK -->
     <div class="view" id="v-geschmack">
@@ -1901,12 +1862,11 @@
       </section>
     
       <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Weiter zu</span>
-        <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
-        <a href="#werke" data-view="werke">Werke</a>
-        <a href="#reihenfolge" data-view="reihenfolge">Reihenfolgen</a>
-        <a href="#releases" data-view="releases">Releases</a>
-        <a href="#geschmack" data-view="geschmack">Geschmack</a>
+        <span class="fnl">Go to</span>
+        <a href="#home" data-view="home">Home</a>
+        <a href="#werke" data-view="werke">Library</a>
+        <a href="#upnext" data-view="upnext">Up Next</a>
+        <a href="#geschmack" data-view="geschmack">Taste</a>
       </nav>
     </div>
 
@@ -1953,6 +1913,8 @@
   // sondern ueber ihre Platzierung: Kopf UND Fuss jeder Ansicht.
   function nachOben(){ try { window.scrollTo(0, 0); } catch(e) {} }
 
+  var offenerReiter = null;
+
   function show(view, scrollId){
     var views = alleViews();
     if(views.indexOf(view) < 0) view = "uebersicht";
@@ -1965,6 +1927,10 @@
     document.querySelectorAll("#menu [data-view], .fussnav [data-view]").forEach(function(a){
       a.classList.toggle("active", a.getAttribute("data-view")===gruppe);
     });
+    // Menuepunkt "Up Next" landet immer auf "Jetzt" — ein Bereich soll
+    // vorhersagbar oeffnen, nicht dort, wo man beim letzten Mal aufgehoert hat.
+    if(offenerReiter){ reiter(offenerReiter); offenerReiter = null; }
+    else if(view === "upnext" && !scrollId){ reiter("rf-now"); }
     nachOben();
     if(scrollId){
       var t = document.getElementById(scrollId);
@@ -1993,6 +1959,10 @@
     var view = a.getAttribute("data-view");
     var scrollId = a.getAttribute("data-scroll");
     var href = a.getAttribute("href");
+    // Reiterwunsch HIER merken, nicht im zweiten Zuhoerer: der lief spaeter
+    // als dieser, dadurch oeffnete ein Reiter-Link immer den Standardreiter.
+    var tabWunsch = a.getAttribute("data-tab");
+    if(tabWunsch) offenerReiter = tabWunsch;
     if(href && href.charAt(0)==="#"){
       e.preventDefault();
       var newHash = scrollId ? "#"+scrollId : "#"+view;
@@ -2051,10 +2021,16 @@
       if(b.hasAttribute("aria-pressed")) b.setAttribute("aria-pressed", String(an));
     });
   }
+  // Ein Link mit data-tab (Beispiel: der Sprung zur 27-Schritt-Reihenfolge) kommt aus einer
+  // ANDEREN Ansicht. Frueher tat er nichts sichtbares: der Reiter-Handler
+  // reagierte nur auf Knopf-Elemente, und der Ansichts-Handler kannte den Reiter
+  // nicht — man landete auf dem ersten Reiter statt auf dem gemeinten.
   document.addEventListener("click", function(e){
     var b = e.target.closest("[data-tab]");
     if(!b) return;
-    if(b.tagName === "BUTTON"){ e.preventDefault(); reiter(b.getAttribute("data-tab")); nachOben(); }
+    var ziel = b.getAttribute("data-tab");
+    if(b.tagName === "BUTTON"){ e.preventDefault(); reiter(ziel); nachOben(); }
+    // Links werden oben im Ansichts-Zuhoerer behandelt (Reihenfolge!).
   });
 
   window.addEventListener("hashchange", route);
