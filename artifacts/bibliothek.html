@@ -9,39 +9,66 @@
      Ohne diese Marker RAET mess.sh den Grund, gegen den es den Kontrast misst.
      Sie muessen mitgezogen werden, wenn --bg / --panel geaendert werden. */
   /* @artefakt */
-  /* @grund-hell: #f2f0ea */
-  /* @grund-dunkel: #121118 */
-  /* @serien-hell: #245fb0,#12813f,#c23a34,#9a6b12 */
-  /* @serien-dunkel: #5b9bee,#3fc069,#e5706a,#e3b64e */
+  /* @grund-hell: #f4ece0 */
+  /* @grund-dunkel: #16110d */
+  /* @serien-hell: #1d5694,#2b6b34,#a83b2a,#8a5e10 */
+  /* @serien-dunkel: #7ab0f0,#63c47c,#f0837a,#e6b95c */
+
+  /* Display-Schrift als Daten-URI — der Artefakt-CSP blockt Font-CDNs, ein
+     externer Link fiele still auf die Systemschrift zurück. 18 KB woff2.
+     Fraunces, weil sie nach Buchladen klingt und nicht nach Dashboard. */
+  @font-face {
+    font-family: "Fraunces";
+    src: url("data:font/woff2;base64,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") format("woff2");
+    font-weight: 600; font-style: normal; font-display: swap;
+  }
+
   :root {
     color-scheme: light;
-    --bg:#f2f0ea; --panel:#faf9f6; --card:#ffffff;
-    --ink:#1b1915; --ink2:#565349; --muted:#6e6a61; --line:#e6e2d9; --track:#e9e5dc;
-    --rating:#245fb0; --rating-soft:#dbe6f6; --rating-ink:#245fb0;
-    --pos:#12813f; --pos-soft:#dcefe1; --pos-ink:#0f7038;
-    --neg:#c23a34; --neg-soft:#f3ddda; --neg-ink:#b32f29;
-    --fame:#9a6b12; --fame-soft:#f0e4c8; --fame-ink:#835a08;
-    --de:#245fb0; --en:#7a4bc4; --navbg:rgba(250,249,246,.9);
+    /* Tagsüber im Laden: Papier, Leinen, Nussholz. */
+    --bg:#f4ece0; --panel:#fbf6ee; --card:#fffdf9;
+    --ink:#241a12; --ink2:#54463a; --muted:#6b5c4d; --line:#e0d3c0; --track:#e9dfd0;
+    --holz:#8a6a45; --holz-tief:#5d452b; --lampe:#f0b350; --lampe-weich:#f7e3bd;
+    --rating:#1d5694; --rating-soft:#dbe6f4; --rating-ink:#1d5694;
+    --pos:#2b6b34; --pos-soft:#dcecd9; --pos-ink:#255c2d;
+    --neg:#a83b2a; --neg-soft:#f4dcd5; --neg-ink:#9a3526;
+    --fame:#8a5e10; --fame-soft:#f2e4c5; --fame-ink:#79510c;
+    --de:#1d5694; --en:#6d3fa8; --navbg:rgba(251,246,238,.93);
+    --schatten:0 1px 2px rgba(60,40,20,.09), 0 10px 26px -14px rgba(60,40,20,.32);
+    --schatten-buch:0 1px 1px rgba(40,25,10,.30), 0 8px 14px -8px rgba(40,25,10,.55);
   }
   @media (prefers-color-scheme: dark){ :root:where(:not([data-theme="light"])){
     color-scheme: dark;
-    --bg:#121118; --panel:#1b1a21; --card:#222029;
-    --ink:#f0eee9; --ink2:#bdb9b0; --muted:#8f8b83; --line:#302e39; --track:#2a2833;
-    --rating:#5b9bee; --rating-soft:#20304a; --rating-ink:#5b9bee;
-    --pos:#3fc069; --pos-soft:#183a26; --pos-ink:#3fc069;
-    --neg:#e5706a; --neg-soft:#3d2320; --neg-ink:#e5706a;
-    --fame:#e3b64e; --fame-soft:#3a2f16; --fame-ink:#e3b64e;
-    --de:#5b9bee; --en:#b596ec; --navbg:rgba(27,26,33,.9);
+    /* Abends im Laden: Lampe an, Holz dunkel, Papier warm. */
+    --bg:#16110d; --panel:#1f1811; --card:#271f16;
+    --ink:#f3e8d9; --ink2:#cbb9a4; --muted:#a08e79; --line:#3a2e22; --track:#31271c;
+    --holz:#9d7a4f; --holz-tief:#3a2c1c; --lampe:#f5c169; --lampe-weich:#3d2f18;
+    --rating:#7ab0f0; --rating-soft:#1c2c42; --rating-ink:#7ab0f0;
+    --pos:#63c47c; --pos-soft:#1a3320; --pos-ink:#63c47c;
+    --neg:#f0837a; --neg-soft:#3c211c; --neg-ink:#f0837a;
+    --fame:#e6b95c; --fame-soft:#382a12; --fame-ink:#e6b95c;
+    --de:#7ab0f0; --en:#c2a0ec; --navbg:rgba(31,24,17,.93);
+    --schatten:0 1px 2px rgba(0,0,0,.55), 0 12px 30px -16px rgba(0,0,0,.85);
+    --schatten-buch:0 1px 1px rgba(0,0,0,.6), 0 10px 18px -8px rgba(0,0,0,.9);
   }}
   :root[data-theme="dark"]{
     color-scheme: dark;
-    --bg:#121118; --panel:#1b1a21; --card:#222029;
-    --ink:#f0eee9; --ink2:#bdb9b0; --muted:#8f8b83; --line:#302e39; --track:#2a2833;
-    --rating:#5b9bee; --rating-soft:#20304a; --rating-ink:#5b9bee;
-    --pos:#3fc069; --pos-soft:#183a26; --pos-ink:#3fc069;
-    --neg:#e5706a; --neg-soft:#3d2320; --neg-ink:#e5706a;
-    --fame:#e3b64e; --fame-soft:#3a2f16; --fame-ink:#e3b64e;
-    --de:#5b9bee; --en:#b596ec; --navbg:rgba(27,26,33,.9);
+    --bg:#16110d; --panel:#1f1811; --card:#271f16;
+    --ink:#f3e8d9; --ink2:#cbb9a4; --muted:#a08e79; --line:#3a2e22; --track:#31271c;
+    --holz:#9d7a4f; --holz-tief:#3a2c1c; --lampe:#f5c169; --lampe-weich:#3d2f18;
+    --rating:#7ab0f0; --rating-soft:#1c2c42; --rating-ink:#7ab0f0;
+    --pos:#63c47c; --pos-soft:#1a3320; --pos-ink:#63c47c;
+    --neg:#f0837a; --neg-soft:#3c211c; --neg-ink:#f0837a;
+    --fame:#e6b95c; --fame-soft:#382a12; --fame-ink:#e6b95c;
+    --de:#7ab0f0; --en:#c2a0ec; --navbg:rgba(31,24,17,.93);
+    --schatten:0 1px 2px rgba(0,0,0,.55), 0 12px 30px -16px rgba(0,0,0,.85);
+    --schatten-buch:0 1px 1px rgba(0,0,0,.6), 0 10px 18px -8px rgba(0,0,0,.9);
+  }
+
+  :root {
+    --f-display: "Fraunces", "Iowan Old Style", Palatino, Georgia, serif;
+    --f-text: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --f-data: ui-monospace, "DejaVu Sans Mono", "SFMono-Regular", Menlo, monospace;
   }
 
   * { box-sizing: border-box; }
@@ -56,7 +83,20 @@
     padding: 9px 14px; font-weight: 700; text-decoration: none; transition: top .12s ease; }
   .skip:focus { top: 8px; }
   .page { background: var(--bg); color: var(--ink);
-    font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; min-height: 100vh; }
+    font: 15.5px/1.6 var(--f-text); min-height: 100vh; position: relative; }
+  /* Papierkorn und Lampenlicht von oben — zwei Verläufe, keine Bilddatei
+     (der Artefakt-CSP lässt keine externen Bilder zu, und Data-URIs für
+     Rauschen wären Kilobytes für nichts). */
+  .page::before {
+    content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 0;
+    background:
+      radial-gradient(120% 70% at 50% -10%, color-mix(in srgb, var(--lampe) 16%, transparent), transparent 62%),
+      repeating-linear-gradient(0deg, rgba(120,90,50,.035) 0 1px, transparent 1px 3px),
+      repeating-linear-gradient(90deg, rgba(120,90,50,.03) 0 1px, transparent 1px 4px);
+  }
+  .page > * { position: relative; z-index: 1; }
+  .tnum, .zahl, .band .rv, .brow .meta, .brow .bn2, .ixb, .ixw {
+    font-family: var(--f-data); font-variant-numeric: tabular-nums; letter-spacing: -.01em; }
   .wrap { max-width: 1060px; margin: 0 auto; padding: 0 18px 72px; }
   .tnum { font-variant-numeric: tabular-nums; }
   .subtle { color: var(--muted); }
@@ -74,16 +114,172 @@
   .menu > a.active { background: var(--rating-soft); color: var(--ink); }
   .menu a:focus-visible { outline: 2px solid var(--rating); outline-offset: 2px; }
 
+
+  /* =============== COZY BUCHLADEN: Regalbretter, Lampe, Bewegung =============== */
+
+  /* ---------- Lampenlicht über dem, was gerade läuft ----------
+     Geerntet aus design:artefakt-bausteine → border-beam-panel: Ring aus
+     Kegelverlauf, mit zwei Masken auf den Rahmen beschnitten, plus ein
+     unscharfer Zwilling dahinter als Schein. Die Feder-Mechanik des Originals
+     brauchen wir nicht — hier dreht sich das Licht ruhig und gleichmäßig,
+     wie eine Ladenlampe. */
+  @property --lampenwinkel { syntax: "<angle>"; inherits: true; initial-value: 0deg; }
+  .lampe-huelle { position: relative; }
+  .lampe-ring, .lampe-glut {
+    position: absolute; inset: -1px; border-radius: 17px; pointer-events: none;
+    background: conic-gradient(from var(--lampenwinkel),
+      transparent 0deg,
+      color-mix(in srgb, var(--lampe) 6%, transparent) 24deg,
+      color-mix(in srgb, var(--lampe) 62%, transparent) 52deg,
+      var(--lampe) 62deg,
+      color-mix(in srgb, var(--lampe) 30%, #fff) 66deg,
+      transparent 70deg,
+      transparent 200deg,
+      color-mix(in srgb, var(--holz) 40%, transparent) 244deg,
+      color-mix(in srgb, var(--holz) 75%, transparent) 258deg,
+      transparent 264deg,
+      transparent 360deg);
+    animation: lampendreh 14s linear infinite;
+  }
+  .lampe-ring { padding: 2px;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude; }
+  .lampe-glut { filter: blur(20px); opacity: .55; }
+  @keyframes lampendreh { to { --lampenwinkel: 360deg; } }
+  @media (prefers-reduced-motion: reduce){
+    .lampe-ring, .lampe-glut { animation: none; --lampenwinkel: 42deg; } }
+  @media (forced-colors: active){ .lampe-ring, .lampe-glut { display: none; } }
+
+  .imohr { position: relative; background: var(--panel); border: 1px solid var(--line);
+    border-radius: 16px; padding: 20px 22px; display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr)); gap: 26px; }
+  @media (max-width: 780px){ .imohr { grid-template-columns: 1fr; gap: 20px; } }
+  .lauft { display: grid; grid-template-columns: 108px minmax(0,1fr); gap: 16px; align-items: start;
+    text-decoration: none; color: inherit; }
+  .lauft .cover { transition: transform .22s ease; }
+  .lauft:hover .cover { transform: translateY(-4px) rotate(-1deg); }
+  @media (prefers-reduced-motion: reduce){ .lauft:hover .cover { transform: none; } }
+  /* Alle Bausteine hier sind <span> — ohne display:block bleiben sie inline,
+     dann greifen Hoehe, Rand und overflow nicht (der Fortschrittsbalken lief
+     als Klecks ueber die halbe Karte). */
+  .lauft > span, .lauft .rolle, .lauft .wt, .lauft .ws,
+  .lauft .fortschritt, .lauft .fortschritt-lab { display: block; }
+  .cover .ct, .cover .ca, .cover .cm { display: block; }
+  .cover > span { display: block; }
+  .lauft .rolle { font-size: .68rem; text-transform: uppercase; letter-spacing: .12em;
+    color: var(--muted); font-weight: 700; margin: 0 0 4px; }
+  .lauft .wt { font-family: var(--f-display); font-weight: 600; font-size: 1.16rem;
+    line-height: 1.2; margin: 0 0 2px; }
+  .lauft .ws { font-size: .84rem; color: var(--ink2); margin: 0 0 10px; }
+  .fortschritt { height: 7px; border-radius: 999px; background: var(--track); overflow: hidden;
+    box-shadow: inset 0 1px 2px rgba(60,40,20,.18); }
+  .fortschritt > span { display: block; height: 100%; border-radius: 999px;
+    background: linear-gradient(90deg, var(--rating), color-mix(in srgb, var(--rating) 70%, var(--lampe))); }
+  .fortschritt-lab { font-family: var(--f-data); font-size: .72rem; color: var(--muted); padding-top: 5px; }
+
+  /* ---------- Regalbretter ---------- */
+  .regalbrett { margin: 0 0 26px; }
+  .bretter { display: flex; flex-wrap: wrap; gap: 14px 16px; align-items: flex-end;
+    padding: 6px 14px 0; }
+  .brett-holz { height: 12px; border-radius: 2px 2px 5px 5px; margin: 0 4px 26px;
+    background: linear-gradient(180deg,
+      color-mix(in srgb, var(--holz) 82%, #fff) 0 2px,
+      var(--holz) 2px 7px,
+      var(--holz-tief) 7px 100%);
+    box-shadow: 0 5px 12px -4px rgba(60,40,20,.5); }
+  .buch { position: relative; text-decoration: none; color: inherit; width: 92px;
+    display: flex; flex-direction: column; align-items: center; }
+  .buch .cover { width: 92px; height: 134px; padding: 8px 7px 8px 11px;
+    transition: transform .2s ease, box-shadow .2s ease; }
+  /* Lange Titel liefen auf 92px Ruecken aus dem Cover heraus ("DIE
+     MOERDERISCH…"). Kleiner setzen, trennen lassen, notfalls nach drei
+     Zeilen sauber abschneiden statt mitten im Wort. */
+  .buch .cover .ct { font-size: .55rem; line-height: 1.14; hyphens: auto;
+    overflow-wrap: anywhere; display: -webkit-box; -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical; overflow: hidden; }
+  .buch .cover .cm { font-size: 17px; }
+  .buch:hover .cover, .buch:focus-visible .cover {
+    transform: translateY(-9px) rotate(-1.5deg);
+    box-shadow: 0 4px 4px rgba(40,25,10,.3), 0 20px 26px -12px rgba(40,25,10,.7); }
+  @media (prefers-reduced-motion: reduce){ .buch:hover .cover, .buch:focus-visible .cover { transform: none; } }
+  .buch .bt { display: block; font-size: .74rem; font-weight: 650; line-height: 1.25;
+    text-align: center; padding: 7px 0 2px; color: var(--ink); }
+  .buch .bm { display: block; text-align: center; }
+  .buch .bm { font-family: var(--f-data); font-size: .68rem; color: var(--muted); }
+  .buch .bv { position: absolute; top: -6px; right: 0; width: 21px; height: 21px; z-index: 2;
+    border-radius: 50%; display: grid; place-items: center; font-size: .68rem; font-weight: 800;
+    border: 1.5px solid var(--card); box-shadow: 0 1px 3px rgba(40,25,10,.4); }
+  .bv.lov { background: var(--pos); color: #fff; } .bv.lik { background: var(--rating); color: #fff; }
+  .bv.mix { background: var(--track); color: var(--ink2); } .bv.aus { background: var(--muted); color: #fff; }
+  /* Lesestand als Streifen unten am Buchschnitt — Grafik statt Zahl im Fließtext */
+  .buch .bs { display: flex; gap: 1.5px; width: 92px; margin-top: 9px; }
+  .buch .bs i { flex: 1; height: 4px; border-radius: 1px; background: var(--track); }
+  .buch .bs i.voll { background: var(--rating); }
+  .buch .bs i.jetzt { background: var(--lampe); }
+
+  .kpi-band { display: flex; flex-wrap: wrap; gap: 8px 30px; align-items: baseline;
+    padding: 16px 20px; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; }
+  .kpi-band b { font-family: var(--f-display); font-weight: 600; font-size: 1.6rem;
+    font-variant-numeric: tabular-nums; margin-right: 7px; }
+  .kpi-band span { font-size: .84rem; color: var(--ink2); }
+  .kpi-band .verteilung { display: flex; gap: 2px; flex: 1 1 160px; min-width: 140px; align-self: center; }
+  .kpi-band .verteilung i { height: 8px; border-radius: 2px; flex: 1; }
+  .verteilung i.lov { background: var(--pos); } .verteilung i.lik { background: var(--rating); }
+  .verteilung i.mix { background: var(--track); } .verteilung i.aus { background: var(--muted); }
+
+
+
+  /* ---------- Empfindungsprofil: −2 … +2 als divergierende Balken ----------
+     Der Vault hält je Aspekt einen abgestuften Wert (156 insgesamt). Vorher
+     stand davon nur das Vorzeichen im Artefakt — ein Bit von fünf Stufen. */
+  .profil { margin: 4px 0 0; }
+  .pz { display: grid; grid-template-columns: minmax(0,1fr) 132px 30px; gap: 10px;
+    align-items: center; padding: 3px 0; font-size: .85rem; }
+  .pz .pl { text-align: right; color: var(--ink2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .pz.stark .pl { color: var(--ink); font-weight: 650; }
+  .pbar { position: relative; height: 13px; background: var(--track); border-radius: 3px;
+    box-shadow: inset 0 1px 2px rgba(60,40,20,.15); }
+  .pbar::before { content: ""; position: absolute; left: 50%; top: -2px; bottom: -2px;
+    width: 1px; background: var(--line); }
+  .pbar i { position: absolute; top: 2px; bottom: 2px; border-radius: 2px; }
+  .pbar i.p { left: 50%; background: var(--pos); }
+  .pbar i.n { right: 50%; background: var(--neg); }
+  .pbar i.z { left: calc(50% - 3px); width: 6px; background: var(--muted); border-radius: 50%; top: 4px; bottom: 4px; }
+  .pz .pw { font-family: var(--f-data); font-size: .76rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .pw.p { color: var(--pos-ink); } .pw.n { color: var(--neg-ink); } .pw.z { color: var(--muted); }
+  .profil-skala { display: grid; grid-template-columns: minmax(0,1fr) 132px 30px; gap: 10px;
+    font-size: .64rem; color: var(--muted); font-family: var(--f-data); padding-bottom: 3px; }
+  .profil-skala .sk { display: flex; justify-content: space-between; grid-column: 2; }
+  @media (max-width: 620px){
+    .pz, .profil-skala { grid-template-columns: minmax(0,1fr) 92px 26px; }
+    .pz .pl { white-space: normal; }
+  }
+  .bilanz { display: flex; height: 9px; margin: 10px 0 2px; gap: 1.5px; }
+  .bilanz i { flex: 1; border-radius: 1px; }
+  .bilanz i.p2 { background: var(--pos); } .bilanz i.p1 { background: color-mix(in srgb, var(--pos) 55%, var(--track)); }
+  .bilanz i.z0 { background: var(--track); } .bilanz i.m1 { background: color-mix(in srgb, var(--neg) 55%, var(--track)); }
+  .bilanz i.m2 { background: var(--neg); }
+  .bilanz-lab { font-size: .74rem; color: var(--muted); font-family: var(--f-data); margin: 0; }
+
   /* ---------- views ---------- */
   .view { display: none; }
   .view.on { display: block; animation: fade .18s ease; }
   @keyframes fade { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
   @media (prefers-reduced-motion: reduce){ .view.on { animation: none; } }
 
-  h1 { font-size: 1.75rem; margin: 0 0 6px; letter-spacing: -.015em; }
+  h1 { font-family: var(--f-display); font-weight: 600; font-size: 2.05rem;
+    margin: 0 0 8px; letter-spacing: -.012em; text-wrap: balance; }
+  /* Abschnittsüberschriften waren mit 12,5px KLEINER als der Fließtext —
+     dadurch lasen sie als Beschriftung, nicht als Abschnitt (Gutachten). */
+  h2 { font-family: var(--f-display); font-weight: 600; font-size: 1.16rem;
+    letter-spacing: -.005em; text-transform: none; color: var(--ink);
+    margin: 0 0 12px; display: flex; align-items: baseline; gap: 10px; }
+  h2::after { content: ""; flex: 1; height: 1px; background: var(--line); }
   .lead { color: var(--ink2); margin: 0; max-width: 64ch; }
   .hero { padding: 30px 0 4px; }
-  section { margin: 30px 0 0; scroll-margin-top: calc(var(--nav-h, 62px) + 10px); }
+  section { margin: 42px 0 0; scroll-margin-top: calc(var(--nav-h, 62px) + 10px); }
   h2 { font-size: .78rem; margin: 0 0 12px; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
 
   .stats { display: flex; gap: 8px; flex-wrap: wrap; margin: 16px 0 2px; }
@@ -118,18 +314,18 @@
   .sw.r { background: var(--rating); } .sw.p { background: var(--pos); } .sw.n { background: var(--neg); } .sw.f { background: var(--fame); }
 
   /* ---------- covers ---------- */
-  .cover { width: 84px; height: 124px; border-radius: 3px 7px 7px 3px; position: relative; overflow: hidden;
-    box-shadow: 0 3px 10px rgba(0,0,0,.22), inset 0 0 0 1px rgba(255,255,255,.07);
+  .cover { width: 108px; height: 158px; border-radius: 3px 8px 8px 3px; position: relative; overflow: hidden;
+    box-shadow: var(--schatten-buch), inset 0 0 0 1px rgba(255,255,255,.09);
     display: flex; flex-direction: column; justify-content: space-between; padding: 10px 9px 9px 14px; color: #f6efe1; flex: 0 0 auto; }
   .cover.sm { width: 60px; height: 88px; padding: 7px 6px 7px 10px; }
   .cover::before { content:""; position:absolute; left:0; top:0; bottom:0; width:6px; background: linear-gradient(90deg, rgba(0,0,0,.35), rgba(0,0,0,0)); }
   .cover::after { content:""; position:absolute; inset:0; background: radial-gradient(120% 60% at 20% 0%, rgba(255,255,255,.14), transparent 60%); }
   .cover .cm { font-size: 21px; line-height: 1; filter: drop-shadow(0 1px 2px rgba(0,0,0,.5)); }
   .cover.sm .cm { font-size: 15px; }
-  .cover .ct { font-size: .62rem; font-weight: 800; line-height: 1.16; text-shadow: 0 1px 2px rgba(0,0,0,.45); position: relative; }
+  .cover .ct { font-family: var(--f-display); font-size: .72rem; font-weight: 800; line-height: 1.16; text-shadow: 0 1px 2px rgba(0,0,0,.45); position: relative; }
   .cover.sm .ct { font-size: .5rem; }
   .cover .ca { font-size: .5rem; opacity: .82; margin-top: 2px; position: relative; }
-  .cover.sm .ca { display:none; }
+  .cover.sm .ca, .buch .cover .ca { display:none; }
 
   /* ---------- fame meter (GOLD = Reichweite) ---------- */
   .fame { margin: 6px 0; }
@@ -141,7 +337,9 @@
   .hype { font-size: .72rem; font-weight: 700; color: var(--fame-ink); background: var(--fame-soft); border-radius: 999px; padding: 1px 8px; margin-left: 4px; }
 
   /* ---------- work card ---------- */
-  .work { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 18px; margin: 12px 0; display: grid; grid-template-columns: 84px 1fr; gap: 18px; scroll-margin-top: calc(var(--nav-h, 62px) + 10px); }
+  .work { background: var(--card); border: 1px solid var(--line); border-radius: 16px;
+    padding: 20px; margin: 14px 0; display: grid; grid-template-columns: 108px 1fr; gap: 22px;
+    box-shadow: var(--schatten); scroll-margin-top: calc(var(--nav-h, 62px) + 10px); }
   .work.child { margin: 0; }
   @media (max-width: 560px){ .work { grid-template-columns: 1fr; } }
   .wh { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; }
@@ -378,8 +576,7 @@
   .tuer { display: flex; flex-direction: column; gap: 6px; background: var(--card); border: 1px solid var(--line);
     border-radius: 16px; padding: 20px; text-decoration: none; color: inherit; }
   .tuer:hover { border-color: var(--rating); }
-  .tuer .tz { font-size: .7rem; font-weight: 800; color: var(--muted); letter-spacing: .1em;
-    font-variant-numeric: tabular-nums; }
+  .tuer .tz { font-size: 1.35rem; line-height: 1; }
   .tuer b { font-size: 1.18rem; letter-spacing: -.01em; }
   .tuer .ts { font-size: .85rem; color: var(--ink2); max-width: 42ch; }
   .tuer .tm { font-size: .78rem; font-weight: 650; color: var(--rating-ink); margin-top: auto; padding-top: 10px; }
@@ -407,77 +604,103 @@
 
     <!-- ============================================================ ÜBERSICHT (Startseite) -->
     <div class="view on" id="v-home">
-      <header class="landing">
-        <p class="eyebrow">Buch- &amp; Hörbuch-Cockpit · Stand 11.08.2026</p>
-        <h1 class="gross">Ich weiß ziemlich genau,<br>was mir gefällt.</h1>
-        <p class="lead gross">Fünfzehn Werke, bandgenau erfasst: was ich gehört habe, was ich davon hielt,
-          und in welcher Reihenfolge der Rest kommt. Kein Ratespiel — <b>jede Zahl hat eine Quelle,
-          jede Lücke ist als Lücke markiert.</b></p>
-        <div class="zahlen">
-          <span><b class="tnum">15</b> Werke</span>
-          <span><b class="tnum">7</b> geliebt</span>
-          <span><b class="tnum">1</b> Bewertung offen</span>
-          <span><b class="tnum">4</b> Geschmacksräume</span>
-          <span><b class="tnum">73</b> Merkmale</span>
-    </div>
-      </header>
 
-      <section>
-        <h2>Gerade läuft</h2>
-        <div class="jetzt">
-          <div class="jetzt-haupt">
-            <p class="jetzt-lab">🎧 Im Ohr</p>
-            <p class="jetzt-titel">Die bösen Jungs — Band 1</p>
-            <p class="jetzt-sub">„Schurken &amp; Halunken" · Thomas Nicolai · 15 h 23</p>
-            <div class="fortschritt"><span style="width:22%"></span></div>
-            <p class="jetzt-sub"><b>Schritt 6 von 27</b> der Vuldranni-Hörreihenfolge —
-              die guten Jungs sind bis Band 5 durch.</p>
-            <a class="knopf" href="#rf-vuldranni" data-view="upnext" data-tab="rf-vuldranni">Reihenfolge ansehen →</a>
-          </div>
-          <div class="jetzt-neben">
-            <p class="jetzt-lab">Parallel</p>
-            <p class="jetzt-titel klein">Dungeon Crawler Carl — Band 2</p>
-            <p class="jetzt-sub">Deutsch · Stefan Kaminski · dt. Band 3 erst am <b>18.11.2026</b></p>
-            <p class="jetzt-lab" style="margin-top:14px">Mein roter Faden</p>
-            <p class="jetzt-sub"><b>Fokus &amp; Vorwärtsdrang</b> · handlungsfähiger Held ·
-              starker Sprecher · Deutsch bevorzugt · Reihe ≥ 3 Bände</p>
+      <section style="margin-top:26px">
+        <h2>Gerade im Ohr</h2>
+        <div class="lampe-huelle">
+          <span class="lampe-glut" aria-hidden="true"></span>
+          <span class="lampe-ring" aria-hidden="true"></span>
+          <div class="imohr">
+            <a class="lauft" href="#w-boesenjungs" data-view="w-boesenjungs">
+              <span class="cover" style="background:linear-gradient(150deg,#4a2140,#2b1428 55%,#170d15)"><span class="cm">🗡️🌃</span><span><span class="ct">DIE BÖSEN JUNGS</span><span class="ca">Eric Ugland</span></span></span>
+              <span>
+                <span class="rolle">🎧 läuft</span>
+                <span class="wt">Die bösen Jungs — Band 1</span>
+                <span class="ws">„Schurken &amp; Halunken" · Thomas Nicolai · 15 h 23 · deutsch</span>
+                <span class="fortschritt"><span style="width:22%"></span></span>
+                <span class="fortschritt-lab">Band 1 von 11 · Schritt 6 von 27 der Vuldranni-Reihenfolge</span>
+              </span>
+            </a>
+            <a class="lauft" href="#w-dcc" data-view="w-dcc">
+              <span class="cover" style="background:linear-gradient(150deg,#3a2d6b,#1a1330 55%,#0e1a2e)"><span class="cm">🎮⚔️</span><span><span class="ct">DUNGEON CRAWLER CARL</span><span class="ca">Matt Dinniman</span></span></span>
+              <span>
+                <span class="rolle">🎧 parallel</span>
+                <span class="wt">Dungeon Crawler Carl — Band 2</span>
+                <span class="ws">Stefan Kaminski · deutscher Band 3 am <b>18.11.2026</b></span>
+                <span class="fortschritt"><span style="width:25%"></span></span>
+                <span class="fortschritt-lab">Band 2 von 8 erschienen</span>
+              </span>
+            </a>
           </div>
         </div>
       </section>
 
       <section>
-        <h2>Wohin?</h2>
+        <h2>Meine Regalbretter</h2>
+        <p class="hint">Alle 15 Werke. <b>Ein Buch anklicken</b> öffnet alles dazu — Bände, Wertungen,
+          mein Empfinden. Der Streifen unter dem Buch ist mein Lesestand, das Zeichen oben rechts mein Urteil.</p>
+        <div class="regalbrett">
+          <div class="bretter"><a class="buch" href="#w-dcc" data-view="w-dcc" title="Dungeon Crawler Carl — geliebt, 1 von 8 erlebt, 1 läuft"><span class="bv lov" aria-hidden="true">♥</span><span class="cover" style="background:linear-gradient(150deg,#3a2d6b,#1a1330 55%,#0e1a2e)"><span class="cm">🎮⚔️</span><span><span class="ct">DUNGEON CRAWLER CARL</span></span></span><span class="bs"><i class="voll"></i><i class="jetzt"></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="bt">Dungeon Crawler Carl</span><span class="bm">1/8</span></a>
+            <a class="buch" href="#w-cunninghams" data-view="w-cunninghams" title="Die mörderischen Cunninghams — geliebt, 2 von 4 erlebt"><span class="bv lov" aria-hidden="true">♥</span><span class="cover" style="background:linear-gradient(150deg,#3f4a3a,#2a2118 55%,#1a1412)"><span class="cm">🔎🩸</span><span><span class="ct">DIE MÖRDERISCHEN CUNNINGHAMS</span></span></span><span class="bs"><i class="voll"></i><i class="voll"></i><i></i><i></i></span><span class="bt">Die mörderischen Cunninghams</span><span class="bm">2/4</span></a>
+            <a class="buch" href="#w-goetter" data-view="w-goetter" title="Die Streitenden Götter — geliebt, 7 von 10 erlebt"><span class="bv lov" aria-hidden="true">♥</span><span class="cover" style="background:linear-gradient(150deg,#7a3b1e,#3d2415 50%,#20242e)"><span class="cm">🏰⚡</span><span><span class="ct">DIE STREITENDEN GÖTTER</span></span></span><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i></i><i></i><i></i></span><span class="bt">Die Streitenden Götter</span><span class="bm">7/10</span></a>
+            <a class="buch" href="#w-sturmfels" data-view="w-sturmfels" title="Sturmfels-Akademie — geliebt, 5 von 5 erlebt"><span class="bv lov" aria-hidden="true">♥</span><span class="cover" style="background:linear-gradient(150deg,#4a5a86,#2c3a5c 55%,#20283c)"><span class="cm">🎓🗼</span><span><span class="ct">STURMFELS-AKADEMIE</span></span></span><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i></span><span class="bt">Sturmfels-Akademie</span><span class="bm">5/5</span></a>
+            <a class="buch" href="#w-prinz" data-view="w-prinz" title="Der Prinz von Staub und Schatten — geliebt, 2 von 5 erlebt"><span class="bv lov" aria-hidden="true">♥</span><span class="cover" style="background:linear-gradient(150deg,#b07b2e,#7a5019 50%,#3d2f1c)"><span class="cm">👑🏜️</span><span><span class="ct">DER PRINZ VON STAUB UND SCHATTEN</span></span></span><span class="bs"><i class="voll"></i><i class="voll"></i><i></i><i></i><i></i></span><span class="bt">Der Prinz von Staub und Schatten</span><span class="bm">2/5</span></a></div>
+          <div class="brett-holz"></div>
+        </div>
+        <div class="regalbrett">
+          <div class="bretter"><a class="buch" href="#w-alexverus" data-view="w-alexverus" title="Alex Verus — geliebt, 12 von 12 erlebt"><span class="bv lov" aria-hidden="true">♥</span><span class="cover" style="background:linear-gradient(150deg,#3a2a5c,#1c1830 55%,#0e1220)"><span class="cm">🔮🌃</span><span><span class="ct">ALEX VERUS</span></span></span><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i></span><span class="bt">Alex Verus</span><span class="bm">12/12</span></a>
+            <a class="buch" href="#w-magic20" data-view="w-magic20" title="Magic 2.0 — geliebt, 4 von 6 erlebt"><span class="bv lov" aria-hidden="true">♥</span><span class="cover" style="background:linear-gradient(150deg,#153a2a,#0e2419 55%,#0a1410)"><span class="cm">🧙💻</span><span><span class="ct">MAGIC 2.0</span></span></span><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i></i><i></i></span><span class="bt">Magic 2.0</span><span class="bm">4/6</span></a>
+            <a class="buch" href="#w-vuldranni" data-view="w-vuldranni" title="Vuldranni (iNcarn8) — gut, 5 von 27 erlebt, 1 läuft"><span class="bv lik" aria-hidden="true">♡</span><span class="cover" style="background:linear-gradient(150deg,#7d4a12,#3f2a0e 50%,#1e2430)"><span class="cm">🗺️⚔️</span><span><span class="ct">VULDRANNI (INCARN8)</span></span></span><span class="bs"><i class="voll"></i><i class="voll"></i><i class="jetzt"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="bt">Vuldranni (iNcarn8)</span><span class="bm">5/27</span></a>
+            <a class="buch" href="#w-gutenjungs" data-view="w-gutenjungs" title="Die guten Jungs — gut, 5 von 16 erlebt"><span class="bv lik" aria-hidden="true">♡</span><span class="cover" style="background:linear-gradient(150deg,#2f5f45,#1d3b2c 55%,#14211a)"><span class="cm">🛡️🏰</span><span><span class="ct">DIE GUTEN JUNGS</span></span></span><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="bt">Die guten Jungs</span><span class="bm">5/16</span></a>
+            <a class="buch" href="#w-boesenjungs" data-view="w-boesenjungs" title="Die bösen Jungs — offen, 0 von 11 erlebt, 1 läuft"><span class="bv aus" aria-hidden="true">⛔</span><span class="cover" style="background:linear-gradient(150deg,#4a2140,#2b1428 55%,#170d15)"><span class="cm">🗡️🌃</span><span><span class="ct">DIE BÖSEN JUNGS</span></span></span><span class="bs"><i class="jetzt"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="bt">Die bösen Jungs</span><span class="bm">0/11</span></a></div>
+          <div class="brett-holz"></div>
+        </div>
+        <div class="regalbrett">
+          <div class="bretter"><a class="buch" href="#w-mordclub" data-view="w-mordclub" title="Der Donnerstagsmordclub — gut, 5 von 5 erlebt"><span class="bv lik" aria-hidden="true">♡</span><span class="cover" style="background:linear-gradient(150deg,#2f5a4e,#1c3830 55%,#12211d)"><span class="cm">🫖🔍</span><span><span class="ct">DER DONNERSTAGSMORDCLUB</span></span></span><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i></span><span class="bt">Der Donnerstagsmordclub</span><span class="bm">5/5</span></a>
+            <a class="buch" href="#w-survival" data-view="w-survival" title="Survival Quest — okay, 7 von 7 erlebt"><span class="bv mix" aria-hidden="true">◐</span><span class="cover" style="background:linear-gradient(150deg,#4a4a52,#2c2c34 55%,#1c1c22)"><span class="cm">⛏️🎮</span><span><span class="ct">SURVIVAL QUEST</span></span></span><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i></span><span class="bt">Survival Quest</span><span class="bm">7/7</span></a>
+            <a class="buch" href="#w-scholomance" data-view="w-scholomance" title="Scholomance — okay, 3 von 3 erlebt"><span class="bv mix" aria-hidden="true">◐</span><span class="cover" style="background:linear-gradient(150deg,#1f3b2e,#14231c 55%,#0e1512)"><span class="cm">🏫💀</span><span><span class="ct">SCHOLOMANCE</span></span></span><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i></span><span class="bt">Scholomance</span><span class="bm">3/3</span></a>
+            <a class="buch" href="#w-riyria" data-view="w-riyria" title="Riyria — okay, 6 von 6 erlebt"><span class="bv mix" aria-hidden="true">◐</span><span class="cover" style="background:linear-gradient(150deg,#5a4632,#33261a 55%,#1c140d)"><span class="cm">🗡️🎭</span><span><span class="ct">RIYRIA</span></span></span><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i></span><span class="bt">Riyria</span><span class="bm">6/6</span></a>
+            <a class="buch" href="#w-ashford" data-view="w-ashford" title="Haus Ashford — okay, 3 von 3 erlebt"><span class="bv mix" aria-hidden="true">◐</span><span class="cover" style="background:linear-gradient(150deg,#2e3a4a,#1c2530 55%,#14181f)"><span class="cm">🏛️⚗️</span><span><span class="ct">HAUS ASHFORD</span></span></span><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i></span><span class="bt">Haus Ashford</span><span class="bm">3/3</span></a></div>
+          <div class="brett-holz"></div>
+        </div>
+
+        <div class="kpi-band">
+          <span><b class="tnum">15</b>Werke</span>
+          <span><b class="tnum">7</b>geliebt</span>
+          <span><b class="tnum">73</b>Merkmale</span>
+          <span><b class="tnum">4</b>Geschmacksräume</span>
+          <span class="verteilung" title="7 geliebt · 3 gut · 4 okay · 1 offen">
+            <i class="lov"></i><i class="lov"></i><i class="lov"></i><i class="lov"></i><i class="lov"></i><i class="lov"></i><i class="lov"></i><i class="lik"></i><i class="lik"></i><i class="lik"></i><i class="mix"></i><i class="mix"></i><i class="mix"></i><i class="mix"></i><i class="aus"></i></span>
+        </div>
+      </section>
+
+      <section>
+        <h2>Wohin als Nächstes?</h2>
         <div class="tueren">
           <a class="tuer" href="#werke" data-view="werke">
-            <span class="tz">01</span>
+            <span class="tz">📚</span>
             <b>Library</b>
-            <span class="ts">Alle 15 Werke in einer Tabelle — Verdikt, Bände, Wertung, Bekanntheit.
-              Eine Zeile anklicken öffnet das Werk mit Bandliste und meinem Empfinden.</span>
+            <span class="ts">Alle 15 Werke als Tabelle — Verdikt, Bände, Wertung, Bekanntheit,
+              Format. Filterbar nach Geschmacksraum.</span>
             <span class="tm">15 Werke · 2 Universen →</span>
           </a>
           <a class="tuer" href="#upnext" data-view="upnext">
-            <span class="tz">02</span>
+            <span class="tz">🎧</span>
             <b>Up Next</b>
-            <span class="ts">Was als Nächstes dran ist: Hörreihenfolgen über ganze Universen,
-              kommende Releases und die Stellen, an denen die deutsche Ausgabe klemmt.</span>
+            <span class="ts">Die 27-Schritt-Hörreihenfolge durch Vuldranni, kommende Termine
+              und die Stellen, an denen die deutsche Ausgabe klemmt.</span>
             <span class="tm">7 Ansichten · 1 harte Regel →</span>
           </a>
           <a class="tuer" href="#geschmack" data-view="geschmack">
-            <span class="tz">03</span>
+            <span class="tz">🧭</span>
             <b>Taste</b>
-            <span class="ts">Wogegen neue Bücher gematcht werden: roter Faden, vier Geschmacksräume
-              mit eigenen Gewichten, No-Gos und die Anti-Muster aus dem Graubereich.</span>
-            <span class="tm">4 Räume · 25 Kriterien →</span>
+            <span class="ts">Wogegen neue Bücher gematcht werden: roter Faden, vier
+              Geschmacksräume mit eigenen Gewichten, No-Gos, Anti-Muster.</span>
+            <span class="tm">4 Räume · 73 Merkmale →</span>
           </a>
         </div>
-      </section>
-
-      <section>
-        <div class="panel">
-          <p style="margin:0;font-size:.88rem"><b>🙈 Spoilerfrei.</b> Zu allem, was ich noch nicht gehört habe,
-            stehen hier nur Titel, Jahr, Länge, Sprecher, Wertung und Verfügbarkeit — <b>keine Handlung</b>.
-            Die Grenze steht bandgenau im Vault und wird bei jeder Änderung maschinell geprüft.</p>
-        </div>
+        <p class="note">🙈 <b>Spoilerfrei.</b> Zu allem, was ich noch nicht gehört habe, stehen hier nur
+          Titel, Jahr, Länge, Sprecher, Wertung und Verfügbarkeit — <b>keine Handlung</b>.</p>
       </section>
 
       <nav class="fussnav" aria-label="Hauptbereiche">
@@ -782,11 +1005,28 @@
             </div>
             <div>
               <p class="box-title">Mein Empfinden</p>
+            <div class="profil">
+              <div class="profil-skala"><span></span><span class="sk"><span>−2</span><span>0</span><span>＋2</span></span><span></span></div>
+              <div class="pz stark"><span class="pl">Absurder Humor</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Tonwechsel Humor-Ernst</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Ungleiches Duo</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">System & Progression</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Kapitalismus-Satire</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Aufbegehren gegen das System</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Pragmatischer Held mit klarem Kompass</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Konstanter Vorwärtsdrang</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Eskalations-Setpieces</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Emotionale Sucker-Punches</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="bilanz"><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p2"></i></div>
+              <p class="bilanz-lab">10 Aspekte · 10 positiv · 0 neutral · 0 negativ</p>
+            </div>
+            <details class="dt" style="margin-top:10px"><summary>Meine Worte, die Bandliste und die Community-Stimmen <span class="zahl">— 10 Notizen</span></summary><div class="dtin">
               <div class="asp"><span class="g">＋</span>Konstanter Vorwärtsdrang, kein Füller</div>
               <div class="asp"><span class="g">＋</span>Carl: pragmatisch, klarer Kompass („perfekt")</div>
               <div class="asp"><span class="g">＋</span>Tonwechsel albern ↔ brutal ernst</div>
               <div class="asp"><span class="g">＋</span>Carl &amp; Donut · System-Satire · clevere Tricks</div>
-              <details class="dt"><summary>Was die Community sagt <span class="zahl">— 2 Stimmen &amp; offene Fragen</span></summary><div class="dtin"><p class="box-title" style="margin-top:12px">Community sagt</p>
+              <details class="dt"><summary>Was die Community sagt <span class="zahl">— 2 Stimmen &amp; offene Fragen</span></summary><div class="dtin"></div></details>
+              <p class="box-title" style="margin-top:12px">Community sagt</p>
               <div class="comm"><span class="g">👍</span>Duo · Humor + emotionale Tiefe · Satire · Sprecher</div>
               <div class="comm"><span class="b">👎</span>derber Humor polarisiert · <b>Bd. 7 „wo ist der Spaß hin", Leerlauf/aufgebläht</b> = mein roter Faden!</div>
             </div></details></div>
@@ -827,11 +1067,23 @@
             </div>
             <div>
               <p class="box-title">Mein Empfinden</p>
+            <div class="profil">
+              <div class="profil-skala"><span></span><span class="sk"><span>−2</span><span>0</span><span>＋2</span></span><span></span></div>
+              <div class="pz stark"><span class="pl">Locked-Room-Mystery</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Meta-Fair-Play-Krimi</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Cleverer Twist-Plot</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Trocken-ironischer Humor</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Konstanter Vorwärtsdrang</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="bilanz"><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p2"></i></div>
+              <p class="bilanz-lab">5 Aspekte · 5 positiv · 0 neutral · 0 negativ</p>
+            </div>
+            <details class="dt" style="margin-top:10px"><summary>Meine Worte, die Bandliste und die Community-Stimmen <span class="zahl">— 5 Notizen</span></summary><div class="dtin">
               <div class="asp"><span class="g">＋</span>Locked-Room-Mystery (geschlossener Kreis)</div>
               <div class="asp"><span class="g">＋</span>Meta / Fair-Play-Erzähler — faires Miträtseln</div>
               <div class="asp"><span class="g">＋</span>Cleverer, verschachtelter Twist-Plot</div>
               <div class="asp"><span class="g">＋</span>Trocken-ironischer Humor · „sehr straff"</div>
-              <details class="dt"><summary>Was die Community sagt <span class="zahl">— 2 Stimmen &amp; offene Fragen</span></summary><div class="dtin"><p class="box-title" style="margin-top:12px">Community sagt</p>
+              <details class="dt"><summary>Was die Community sagt <span class="zahl">— 2 Stimmen &amp; offene Fragen</span></summary><div class="dtin"></div></details>
+              <p class="box-title" style="margin-top:12px">Community sagt</p>
               <div class="comm"><span class="g">👍</span>cleveres Miträtseln · faire Twists · sarkastischer Humor</div>
               <div class="comm"><span class="b">👎</span>manchen die Meta-Ebene zu konstruiert (⌀ „nur" 3,8 — Geschmackssache)</div>
             </div></details></div>
@@ -905,11 +1157,27 @@
               </div>
               <div>
                 <p class="box-title">Mein Empfinden</p>
+            <div class="profil">
+              <div class="profil-skala"><span></span><span class="sk"><span>−2</span><span>0</span><span>＋2</span></span><span></span></div>
+              <div class="pz stark"><span class="pl">Underdog-Aufstieg</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Akademie-Leben & Gemeinschaft</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Starkes Finale</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz"><span class="pl">Herkunfts-Konflikt & Vorurteile</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Wachsende Hauptfigur</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Nebenquest-Wildwuchs</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz stark"><span class="pl">Konstanter Vorwärtsdrang</span><span class="pbar"><i class="n" style="width:50%"></i></span><span class="pw n">−2</span></div>
+              <div class="pz stark"><span class="pl">Zäher Start</span><span class="pbar"><i class="n" style="width:50%"></i></span><span class="pw n">−2</span></div>
+              <div class="pz stark"><span class="pl">Zu lange schwacher Held</span><span class="pbar"><i class="n" style="width:50%"></i></span><span class="pw n">−2</span></div>
+              <div class="bilanz"><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p1"></i><i class="p1"></i><i class="m1"></i><i class="m2"></i><i class="m2"></i><i class="m2"></i></div>
+              <p class="bilanz-lab">9 Aspekte · 5 positiv · 0 neutral · 4 negativ</p>
+            </div>
+            <details class="dt" style="margin-top:10px"><summary>Meine Worte, die Bandliste und die Community-Stimmen <span class="zahl">— 9 Notizen</span></summary><div class="dtin">
                 <div class="asp"><span class="g">＋</span>Underdog-Aufstieg (Niri) · Akademie-Gemeinschaft</div>
                 <div class="asp"><span class="g">＋</span>Starkes Finale — „gegen Ende richtig gut"</div>
                 <div class="asp"><span class="b">−</span>Bd. 1 erste Hälfte „Vollkatastrophe" — Fast-Abbruch</div>
                 <div class="asp"><span class="b">−</span>Niri zu lange zu schwach · zu wenig Progress</div>
-                <details class="dt"><summary>Was die Community sagt <span class="zahl">— 2 Stimmen &amp; offene Fragen</span></summary><div class="dtin"><p class="box-title" style="margin-top:12px">Community sagt</p>
+                <details class="dt"><summary>Was die Community sagt <span class="zahl">— 2 Stimmen &amp; offene Fragen</span></summary><div class="dtin"></div></details>
+              <p class="box-title" style="margin-top:12px">Community sagt</p>
                 <div class="comm"><span class="g">👍</span>Weltenbau · Nebenfiguren · Merlau · Finale</div>
                 <div class="comm"><span class="b">👎</span><b>Bd. 1 langsamer Start (erstes Viertel)</b> = deckt meine −-Kritik</div>
               </div></details></div>
@@ -949,13 +1217,30 @@
               </div>
               <div>
                 <p class="box-title">Mein Empfinden</p>
+            <div class="profil">
+              <div class="profil-skala"><span></span><span class="sk"><span>−2</span><span>0</span><span>＋2</span></span><span></span></div>
+              <div class="pz stark"><span class="pl">Geheimnisvolle Macht</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Rätselhafte Herkunft</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Geheimnisvoll-mysteriöse Aura</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Verlorenes Erbe & Thronanspruch</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Rache & Verfolgungsdruck</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Günter Merlau</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz"><span class="pl">Wachsende Hauptfigur</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Zäher Start</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Konstanter Vorwärtsdrang</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Intrigen-Overload ohne Progress</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="bilanz"><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p1"></i><i class="m1"></i><i class="m1"></i><i class="m1"></i></div>
+              <p class="bilanz-lab">10 Aspekte · 7 positiv · 0 neutral · 3 negativ</p>
+            </div>
+            <details class="dt" style="margin-top:10px"><summary>Meine Worte, die Bandliste und die Community-Stimmen <span class="zahl">— 10 Notizen</span></summary><div class="dtin">
                 <div class="asp"><span class="g">＋</span>Geheimnisvolle Macht (Tarikh) — stärkster Reiz <span class="subtle">„könnte noch mehr um seine Macht gehen"</span></div>
                 <div class="asp"><span class="g">＋</span>Rätselhafte Herkunft · geheimnisvoll-mysteriöse Aura</div>
                 <div class="asp"><span class="g">＋</span>Verlorenes Erbe &amp; Thron · Rache/Verfolgung</div>
                 <div class="asp"><span class="g">＋</span>🎙️ Günter Merlau „trug es klar" <span class="subtle">(Hörbuch-Bonus)</span></div>
                 <div class="asp"><span class="b">−</span>Zäher Start · Fokus driftet vom Ziel weg</div>
                 <div class="asp"><span class="b">−</span>Bd. 2 „zu politisch" → Intrigen-Overload verdrängt die Macht (Canon)</div>
-                <details class="dt"><summary>Was die Community sagt <span class="zahl">— 2 Stimmen &amp; offene Fragen</span></summary><div class="dtin"><p class="box-title" style="margin-top:12px">Community sagt</p>
+                <details class="dt"><summary>Was die Community sagt <span class="zahl">— 2 Stimmen &amp; offene Fragen</span></summary><div class="dtin"></div></details>
+              <p class="box-title" style="margin-top:12px">Community sagt</p>
                 <div class="comm"><span class="g">👍</span>flüssiger Stil · lebendige Figuren · Wüsten-Atmosphäre</div>
                 <div class="comm"><span class="b">👎</span>Bd. 2 „schwächer", Tarikh verwässert → deckt meine Fokus-Kritik</div>
               </div></details></div>
@@ -1005,6 +1290,28 @@
             </div>
             <div>
               <p class="box-title">Mein Empfinden</p>
+            <div class="profil">
+              <div class="profil-skala"><span></span><span class="sk"><span>−2</span><span>0</span><span>＋2</span></span><span></span></div>
+              <div class="pz stark"><span class="pl">Wachsende Hauptfigur</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Moralisch ambivalenter Antiheld</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Wuchtig-spektakuläre Magie</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Verborgene Magie im Alltag</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Magiesystem-Tiefe</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Eskalations-Setpieces</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz"><span class="pl">Stimmige Weltatmosphäre</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Konstanter Vorwärtsdrang</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Loyale Weggefährten</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Trocken-ironischer Humor</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Johannes Klaußner</span><span class="pbar"><i class="z"></i></span><span class="pw z">0</span></div>
+              <div class="pz"><span class="pl">Rückgestaute Machtkurve</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Setup ohne Payoff</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Regel-Inkonsistenz</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Zu passiver Held</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Intrigen-Overload ohne Progress</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="bilanz"><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p1"></i><i class="p1"></i><i class="p1"></i><i class="p1"></i><i class="z0"></i><i class="m1"></i><i class="m1"></i><i class="m1"></i><i class="m1"></i><i class="m1"></i></div>
+              <p class="bilanz-lab">16 Aspekte · 10 positiv · 1 neutral · 5 negativ</p>
+            </div>
+            <details class="dt" style="margin-top:10px"><summary>Meine Worte, die Bandliste und die Community-Stimmen <span class="zahl">— 16 Notizen</span></summary><div class="dtin">
               <div class="asp"><span class="g">＋</span>Antihelden-Aufstieg mit Preis (Macht + Verdunkelung + Konsequenz) — <b>Kern-Sog</b></div>
               <div class="asp"><span class="g">＋</span>Wuchtig-spektakuläre, aber <b>ausbalancierte</b> Magie — „fliegen die Fetzen"</div>
               <div class="asp"><span class="g">＋</span>Verborgene Magie im realen London · gefährliche Setpieces</div>
@@ -1012,7 +1319,8 @@
               <div class="asp"><span class="b">−</span>Machtaufstieg zu spät/abrupt: zu wenig frühe Limit-Breaks, End-Spike „ohne Erklärung"</div>
               <div class="asp"><span class="b">−</span>Held „lässt sich zu viel gefallen" · Gegenspieler schwache Auflösung, offene Fäden</div>
               <div class="asp"><span class="b">−</span>Magier-Politik / Intrigen (streckenweise)</div>
-              <details class="dt"><summary>Was die Community sagt <span class="zahl">— 2 Stimmen &amp; offene Fragen</span></summary><div class="dtin"><p class="box-title" style="margin-top:12px">Community sagt</p>
+              <details class="dt"><summary>Was die Community sagt <span class="zahl">— 2 Stimmen &amp; offene Fragen</span></summary><div class="dtin"></div></details>
+              <p class="box-title" style="margin-top:12px">Community sagt</p>
               <div class="comm"><span class="g">👍</span>cleverer Diviner-Held · „praktisches" Magiesystem · Humor · Cliffhanger · starkes Finale</div>
               <div class="comm"><span class="b">👎</span>langsamer Auftakt (Bd. 1) · Mittelband „Veiled" schwächer · „Elsewhere" als Info-Vehikel</div>
             </div></details></div>
@@ -1057,13 +1365,33 @@
             </div>
             <div>
               <p class="box-title">Mein Empfinden</p>
+            <div class="profil">
+              <div class="profil-skala"><span></span><span class="sk"><span>−2</span><span>0</span><span>＋2</span></span><span></span></div>
+              <div class="pz stark"><span class="pl">Absurder Humor</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Nerd-/Popkultur-Humor</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Originelle Prämisse</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz"><span class="pl">Pragmatischer Held mit klarem Kompass</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Nahbarer Everyman-Held</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Trocken-ironischer Humor</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Situationskomik</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Ideenreichtum</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Loyale Weggefährten</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Konstanter Vorwärtsdrang</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Schwache Haupthandlung</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Blasse Nebenfiguren</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Inkonsequenter Held</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="bilanz"><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p1"></i><i class="p1"></i><i class="p1"></i><i class="p1"></i><i class="p1"></i><i class="p1"></i><i class="p1"></i><i class="m1"></i><i class="m1"></i><i class="m1"></i></div>
+              <p class="bilanz-lab">13 Aspekte · 10 positiv · 0 neutral · 3 negativ</p>
+            </div>
+            <details class="dt" style="margin-top:10px"><summary>Meine Worte, die Bandliste und die Community-Stimmen <span class="zahl">— 13 Notizen</span></summary><div class="dtin">
               <div class="asp"><span class="g">＋</span>Absurder Nerd-/Programmier-Humor (Kern) — verwandt mit DCC</div>
               <div class="asp"><span class="g">＋</span>Geniale Prämisse: Realität = editierbare Datei</div>
               <div class="asp"><span class="g">＋</span>Cleverer, aktiver Hacker-Everyman · Zauberer-Freundeskreis</div>
               <div class="asp"><span class="g">＋</span>Ideenreichtum · trocken-ironisch · Situationskomik (Moderne↔Mittelalter)</div>
               <div class="asp"><span class="b">−</span>Haupthandlung &amp; Nebenfiguren dünn (aber „nette, leichte Kost")</div>
               <div class="asp"><span class="b">−</span>Held „manchmal nicht konsequent genug"</div>
-              <details class="dt"><summary>Was die Community sagt <span class="zahl">— 2 Stimmen &amp; offene Fragen</span></summary><div class="dtin"><p class="box-title" style="margin-top:12px">Community sagt</p>
+              <details class="dt"><summary>Was die Community sagt <span class="zahl">— 2 Stimmen &amp; offene Fragen</span></summary><div class="dtin"></div></details>
+              <p class="box-title" style="margin-top:12px">Community sagt</p>
               <div class="comm"><span class="g">👍</span>absurder Humor (Monty Python/Hitchhiker/Scheibenwelt) · Nerd-Witz · Luke Daniels (EN-Audio)</div>
               <div class="comm"><span class="b">👎</span>ab Bd. 4 repetitiv · Allmacht drückt die Stakes</div>
             </div></details></div>
@@ -1157,6 +1485,28 @@
             <div class="cols" style="margin-top:14px">
               <div>
                 <p class="box-title">Mein Empfinden</p>
+            <div class="profil">
+              <div class="profil-skala"><span></span><span class="sk"><span>−2</span><span>0</span><span>＋2</span></span><span></span></div>
+              <div class="pz stark"><span class="pl">Absurder Humor</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Pragmatischer Held mit klarem Kompass</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Stimmige Weltatmosphäre</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Weltgeheimnisse & Entdeckung</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Monster-Vielfalt & Bestiarium</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Basisaufbau & Siedlungsentwicklung</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Handfeste Kampf-Action</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Robert Frank</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz"><span class="pl">Tonwechsel Humor-Ernst</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Konstanter Vorwärtsdrang</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Loyale Weggefährten</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Intrigen-Overload ohne Progress</span><span class="pbar"><i class="z"></i></span><span class="pw z">0</span></div>
+              <div class="pz"><span class="pl">Regel-Inkonsistenz</span><span class="pbar"><i class="z"></i></span><span class="pw z">0</span></div>
+              <div class="pz"><span class="pl">Über-crunchiges Zahlensystem</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Wissbegieriger Selbermacher-Held</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Magiesystem-Tiefe</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="bilanz"><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p1"></i><i class="p1"></i><i class="p1"></i><i class="z0"></i><i class="z0"></i><i class="m1"></i><i class="m1"></i><i class="m1"></i></div>
+              <p class="bilanz-lab">16 Aspekte · 11 positiv · 2 neutral · 3 negativ</p>
+            </div>
+            <details class="dt" style="margin-top:10px"><summary>Meine Worte, die Bandliste und die Community-Stimmen <span class="zahl">— 16 Notizen</span></summary><div class="dtin">
                 <div class="asp"><span class="g">＋</span><b>Welt, Geheimnisse und Monster</b> — der stärkste Sog <span class="subtle">(wörtlich genannt)</span></div>
                 <div class="asp"><span class="g">＋</span>Aufbau: Herzogtum &amp; Basis <span class="subtle">— neuer Plus-Typ in meinem Profil</span></div>
                 <div class="asp"><span class="g">＋</span>Humor &amp; Schnoddrigkeit — der Ton zündet <span class="subtle">(Tonwechsel etwas zurückhaltender als bei DCC: 7–8 statt 9)</span></div>
@@ -1171,7 +1521,8 @@
                 <div class="asp"><span style="color:var(--muted);font-weight:800;margin-right:7px">○</span>Kein Inventar trotz Spielwelt — <span class="subtle">aber der Autor macht einen Gag daraus, also kein Malus</span></div>
               </div>
               <div>
-                <details class="dt"><summary>Was die Community sagt <span class="zahl">— 5 Stimmen &amp; offene Fragen</span></summary><div class="dtin"><p class="box-title">Community sagt</p>
+                <details class="dt"><summary>Was die Community sagt <span class="zahl">— 5 Stimmen &amp; offene Fragen</span></summary><div class="dtin"></div></details>
+              <p class="box-title">Community sagt</p>
                 <div class="comm"><span class="g">👍</span>„zündet vom ersten Band an und wird kontinuierlich besser"</div>
                 <div class="comm"><span class="g">👍</span>rasante Action · charmanter Wortwitz · liebevoll aufgebaute Welt</div>
                 <div class="comm"><span class="b">👎</span>episodische Struktur, Gesamtplot über viele Bände dünner</div>
@@ -1230,6 +1581,19 @@
             <div class="cols" style="margin-top:14px">
               <div>
                 <p class="box-title">Mein Empfinden <span class="subtle" style="text-transform:none">(Bd. 1 läuft noch)</span></p>
+            <div class="profil">
+              <div class="profil-skala"><span></span><span class="sk"><span>−2</span><span>0</span><span>＋2</span></span><span></span></div>
+              <div class="pz stark"><span class="pl">Absurder Humor</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Tonwechsel Humor-Ernst</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Pragmatischer Held mit klarem Kompass</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Stimmige Weltatmosphäre</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz"><span class="pl">Moralisch ambivalenter Antiheld</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Über-crunchiges Zahlensystem</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Thomas Nicolai</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="bilanz"><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p1"></i><i class="m1"></i><i class="m1"></i></div>
+              <p class="bilanz-lab">7 Aspekte · 5 positiv · 0 neutral · 2 negativ</p>
+            </div>
+            <details class="dt" style="margin-top:10px"><summary>Meine Worte, die Bandliste und die Community-Stimmen <span class="zahl">— 7 Notizen</span></summary><div class="dtin">
                 <div class="asp"><span style="color:var(--muted);font-weight:800;margin-right:7px">⛔</span><b>Ich sage dazu noch nichts.</b>
                   <span class="subtle">„kann ich erst nach Ende von Band 1 was zu sagen" (11.08.2026) — die Bewertung ist bewusst
                   <b>ausgesetzt</b>, statt aus einem halben Band eine Zahl zu machen.</span></div>
@@ -1239,7 +1603,8 @@
                 <div class="asp"><span style="color:var(--muted);font-weight:800;margin-right:7px">○</span><span class="subtle">…aber ausdrücklich <b>„nur im Vergleich schwächer"</b> — kein Abbruchgrund</span></div>
               </div>
               <div>
-                <p class="box-title">Wichtig: das ist ein Sprecher-Minus, kein Werk-Minus</p>
+                </div></details>
+              <p class="box-title">Wichtig: das ist ein Sprecher-Minus, kein Werk-Minus</p>
                 <div class="comm"><span class="subtle">→</span> Der Sprecher zählt bei mir als <b>zusätzliche</b> Dimension, nicht als Inhalt. Die Reihe selbst ist davon unberührt.</div>
                 <div class="comm"><span class="g">👍</span>dt. Rezensionen loben Nicolai durchaus („kann mit Durchstimmvarianz sehr überzeugen") — mein Urteil ist ein <b>direkter Vergleich</b>, kein Qualitätsmangel.</div>
                 <p class="box-title" style="margin-top:12px">Noch offen (frag mich!)</p>
@@ -1290,6 +1655,21 @@
             </div>
             <div>
               <p class="box-title">Mein Empfinden</p>
+            <div class="profil">
+              <div class="profil-skala"><span></span><span class="sk"><span>−2</span><span>0</span><span>＋2</span></span><span></span></div>
+              <div class="pz stark"><span class="pl">Unterschätztes Ermittler-Ensemble</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Trocken-ironischer Humor</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Cosy-Wohlfühlatmosphäre</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Cleverer Twist-Plot</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz"><span class="pl">Situationskomik</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Locked-Room-Mystery</span><span class="pbar"><i class="z"></i></span><span class="pw z">0</span></div>
+              <div class="pz"><span class="pl">Konstanter Vorwärtsdrang</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Bremsender Alltags-Ballast</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz stark"><span class="pl">Persona-Strang verdrängt Haupthandlung</span><span class="pbar"><i class="n" style="width:50%"></i></span><span class="pw n">−2</span></div>
+              <div class="bilanz"><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p2"></i><i class="p1"></i><i class="z0"></i><i class="m1"></i><i class="m1"></i><i class="m2"></i></div>
+              <p class="bilanz-lab">9 Aspekte · 5 positiv · 1 neutral · 3 negativ</p>
+            </div>
+            <details class="dt" style="margin-top:10px"><summary>Meine Worte, die Bandliste und die Community-Stimmen <span class="zahl">— 9 Notizen</span></summary><div class="dtin">
               <div class="asp"><span class="g">＋</span>Warmes Rentner-Ensemble — „witzig und charmant", ungewöhnliche Helden</div>
               <div class="asp"><span class="g">＋</span>Trocken-britischer Humor · herzlich-gemütlich · leicht &amp; entspannend</div>
               <div class="asp"><span class="g">＋</span>Cleverer Twist am Ende · faires Whodunit · mehrere verwobene Fäden</div>
@@ -1297,7 +1677,8 @@
               <div class="asp"><span class="b">−−</span><b>Persona-Stränge verdrängen die Haupthandlung</b> — Demenz-Strang (Bd. 4) übernimmt: „<b>dafür lese ich keinen Krimi!</b>"</div>
               <div class="asp"><span class="b">−</span>Zähe Passagen · Residenz-Alltag in Cooper's Chase bremst</div>
               <div class="asp"><span class="b">−</span>Kein Locked-Room (offene Struktur) · Sprecher solide, aber kein Verstärker</div>
-              <details class="dt"><summary>Was die Community sagt <span class="zahl">— 2 Stimmen &amp; offene Fragen</span></summary><div class="dtin"><p class="box-title" style="margin-top:12px">Community sagt</p>
+              <details class="dt"><summary>Was die Community sagt <span class="zahl">— 2 Stimmen &amp; offene Fragen</span></summary><div class="dtin"></div></details>
+              <p class="box-title" style="margin-top:12px">Community sagt</p>
               <div class="comm"><span class="g">👍</span>warmherzige Figuren · trockener Humor (Joyces Tagebuch) · kurze Kapitel · ernster Unterton als Stärke</div>
               <div class="comm"><span class="b">👎</span>„die Morde als zweite Geige" (Bd. 4) · zu viele Nebenfiguren/Subplots · Fair-Play umstritten (Durchbrüche off-page)</div>
             </div></details></div>
@@ -1343,12 +1724,30 @@
               </div>
               <div>
                 <p class="box-title">Mein Empfinden</p>
+            <div class="profil">
+              <div class="profil-skala"><span></span><span class="sk"><span>−2</span><span>0</span><span>＋2</span></span><span></span></div>
+              <div class="pz"><span class="pl">Stimmige Weltatmosphäre</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Wachsende Hauptfigur</span><span class="pbar"><i class="z"></i></span><span class="pw z">0</span></div>
+              <div class="pz"><span class="pl">System & Progression</span><span class="pbar"><i class="z"></i></span><span class="pw z">0</span></div>
+              <div class="pz"><span class="pl">Konstanter Vorwärtsdrang</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Über-crunchiges Zahlensystem</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Regel-Inkonsistenz</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Schwache Rahmenhandlung</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Blasse Nebenfiguren</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz stark"><span class="pl">Nebenquest-Wildwuchs</span><span class="pbar"><i class="n" style="width:50%"></i></span><span class="pw n">−2</span></div>
+              <div class="pz stark"><span class="pl">Setup ohne Payoff</span><span class="pbar"><i class="n" style="width:50%"></i></span><span class="pw n">−2</span></div>
+              <div class="pz stark"><span class="pl">Überzogener Auserwählter</span><span class="pbar"><i class="n" style="width:50%"></i></span><span class="pw n">−2</span></div>
+              <div class="bilanz"><i class="p1"></i><i class="z0"></i><i class="z0"></i><i class="m1"></i><i class="m1"></i><i class="m1"></i><i class="m1"></i><i class="m1"></i><i class="m2"></i><i class="m2"></i><i class="m2"></i></div>
+              <p class="bilanz-lab">11 Aspekte · 1 positiv · 2 neutral · 8 negativ</p>
+            </div>
+            <details class="dt" style="margin-top:10px"><summary>Meine Worte, die Bandliste und die Community-Stimmen <span class="zahl">— 11 Notizen</span></summary><div class="dtin">
                 <div class="asp"><span class="b">−</span>Sidequest-Wildwuchs: offene Fäden häufen sich, HC „bleibt zu selten bei der Sache"</div>
                 <div class="asp"><span class="b">−</span>Setup ohne Payoff: episches Item aufgebaut → ungenutzt verschickt („dumm")</div>
                 <div class="asp"><span class="b">−</span>Überzogener Auserwählter — „eine Spitze zu viel"</div>
                 <div class="asp"><span class="b">−</span>Über-crunchiges Zahlensystem · schwache Rahmenhandlung (0815-Realwelt)</div>
                 <div class="asp"><span class="g">＋</span>Spielwelt Barliona atmosphärisch · einzelne starke Momente</div>
-                <details class="dt"><summary>Was die Community sagt <span class="zahl">— 2 Stimmen &amp; offene Fragen</span></summary><div class="dtin"><p class="box-title" style="margin-top:12px">Community sagt</p>
+                <details class="dt"><summary>Was die Community sagt <span class="zahl">— 2 Stimmen &amp; offene Fragen</span></summary><div class="dtin"></div></details>
+              <p class="box-title" style="margin-top:12px">Community sagt</p>
                 <div class="comm"><span class="g">👍</span>Pionier-LitRPG · Crafting-/System-Tiefe · Progression</div>
                 <div class="comm"><span class="b">👎</span>sehr crunch-lastig · Held teils zu OP · verlaufende Nebenstränge</div>
               </div></details></div>
@@ -1390,13 +1789,33 @@
               </div>
               <div>
                 <p class="box-title">Mein Empfinden</p>
+            <div class="profil">
+              <div class="profil-skala"><span></span><span class="sk"><span>−2</span><span>0</span><span>＋2</span></span><span></span></div>
+              <div class="pz stark"><span class="pl">Stimmige Weltatmosphäre</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz"><span class="pl">Magiesystem-Tiefe</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Akademie-Leben & Gemeinschaft</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Bissig-lockere Erzählstimme</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Überlebensdruck als Motor</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Cleverer Twist-Plot</span><span class="pbar"><i class="z"></i></span><span class="pw z">0</span></div>
+              <div class="pz"><span class="pl">Zäher Start</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Konstanter Vorwärtsdrang</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Überladenes Weltdetail</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Eindimensionale Gegenspieler</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Romance-Überhang</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Dauer-Zynismus</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz stark"><span class="pl">Flache Machtprogression</span><span class="pbar"><i class="n" style="width:50%"></i></span><span class="pw n">−2</span></div>
+              <div class="bilanz"><i class="p2"></i><i class="p1"></i><i class="p1"></i><i class="p1"></i><i class="p1"></i><i class="z0"></i><i class="m1"></i><i class="m1"></i><i class="m1"></i><i class="m1"></i><i class="m1"></i><i class="m1"></i><i class="m2"></i></div>
+              <p class="bilanz-lab">13 Aspekte · 5 positiv · 1 neutral · 7 negativ</p>
+            </div>
+            <details class="dt" style="margin-top:10px"><summary>Meine Worte, die Bandliste und die Community-Stimmen <span class="zahl">— 13 Notizen</span></summary><div class="dtin">
                 <div class="asp"><span class="g">＋</span>Welt konsistent, düster, durchdachte Regeln</div>
                 <div class="asp"><span class="g">＋</span>Akademie-Gemeinschaft · Überlebens-Countdown</div>
                 <div class="asp"><span class="g">＋</span>El: lockere, freche Stimme · Sprecherin trägt</div>
                 <div class="asp"><span class="b">−</span>Flache Machtprogression: OP von Anfang, keine Lernkurve</div>
                 <div class="asp"><span class="b">−</span>Zäher Einstieg · überladenes Weltdetail (verschenkt)</div>
                 <div class="asp"><span class="b">−</span>Eindim. Gegner · Romantik am Ende zu viel · Dauer-Zynismus</div>
-                <details class="dt"><summary>Was die Community sagt <span class="zahl">— 2 Stimmen &amp; offene Fragen</span></summary><div class="dtin"><p class="box-title" style="margin-top:12px">Community sagt</p>
+                <details class="dt"><summary>Was die Community sagt <span class="zahl">— 2 Stimmen &amp; offene Fragen</span></summary><div class="dtin"></div></details>
+              <p class="box-title" style="margin-top:12px">Community sagt</p>
                 <div class="comm"><span class="g">👍</span>originelle Welt · Els Stimme · Bd. 2 (Lodestar)</div>
                 <div class="comm"><span class="b">👎</span>Bd. 1 Info-Dump/zäh · Bd. 3 Finale polarisiert · El zu OP</div>
               </div></details></div>
@@ -1441,13 +1860,33 @@
               </div>
               <div>
                 <p class="box-title">Mein Empfinden</p>
+            <div class="profil">
+              <div class="profil-skala"><span></span><span class="sk"><span>−2</span><span>0</span><span>＋2</span></span><span></span></div>
+              <div class="pz stark"><span class="pl">Ungleiches Duo</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Geheimnisvolle Macht</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz"><span class="pl">Trocken-ironischer Humor</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Pragmatischer Held mit klarem Kompass</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Stimmige Weltatmosphäre</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Verlorenes Erbe & Thronanspruch</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Konstanter Vorwärtsdrang</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Unbalanciertes Machtsystem</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Magiesystem-Tiefe</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Setup ohne Payoff</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Schwache Haupthandlung</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Dünnes Weltdetail</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz stark"><span class="pl">Flache Machtprogression</span><span class="pbar"><i class="n" style="width:50%"></i></span><span class="pw n">−2</span></div>
+              <div class="bilanz"><i class="p2"></i><i class="p2"></i><i class="p1"></i><i class="p1"></i><i class="p1"></i><i class="p1"></i><i class="p1"></i><i class="m1"></i><i class="m1"></i><i class="m1"></i><i class="m1"></i><i class="m1"></i><i class="m2"></i></div>
+              <p class="bilanz-lab">13 Aspekte · 7 positiv · 0 neutral · 6 negativ</p>
+            </div>
+            <details class="dt" style="margin-top:10px"><summary>Meine Worte, die Bandliste und die Community-Stimmen <span class="zahl">— 13 Notizen</span></summary><div class="dtin">
                 <div class="asp"><span class="g">＋</span>Ungleiches Duo Royce &amp; Hadrian („zwei echte Buddys")</div>
                 <div class="asp"><span class="g">＋</span>Geheimnis der untergegangenen Welt · Wortgefechte</div>
                 <div class="asp"><span class="g">＋</span>Abenteuer-/Heist-Bogen · Sprecher David Nathan trägt</div>
                 <div class="asp"><span class="b">−</span>Flache Machtprogression: zu schwach, kein „Limit-Break"</div>
                 <div class="asp"><span class="b">−</span>Unbalanciertes Machtsystem · Magie versprochen, irrelevant</div>
                 <div class="asp"><span class="b">−</span>Hauptplot flau (Nebengeschichten besser) · dünnes Weltdetail</div>
-                <details class="dt"><summary>Was die Community sagt <span class="zahl">— 2 Stimmen &amp; offene Fragen</span></summary><div class="dtin"><p class="box-title" style="margin-top:12px">Community sagt</p>
+                <details class="dt"><summary>Was die Community sagt <span class="zahl">— 2 Stimmen &amp; offene Fragen</span></summary><div class="dtin"></div></details>
+              <p class="box-title" style="margin-top:12px">Community sagt</p>
                 <div class="comm"><span class="g">👍</span>Duo/Banter · zügiges Comfort-Adventure · verzahnter Bogen</div>
                 <div class="comm"><span class="b">👎</span>tropig · dünnes Worldbuilding · Magie randständig</div>
               </div></details></div>
@@ -1489,6 +1928,29 @@
               </div>
               <div>
                 <p class="box-title">Mein Empfinden</p>
+            <div class="profil">
+              <div class="profil-skala"><span></span><span class="sk"><span>−2</span><span>0</span><span>＋2</span></span><span></span></div>
+              <div class="pz stark"><span class="pl">Wissbegieriger Selbermacher-Held</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz stark"><span class="pl">Limit-Break-Momente</span><span class="pbar"><i class="p" style="width:50%"></i></span><span class="pw p">＋2</span></div>
+              <div class="pz"><span class="pl">Nahbarer Everyman-Held</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Verborgene Magie im Alltag</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Ich-Erzähler</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Rätselhafte Herkunft</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Eskalations-Setpieces</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Trocken-ironischer Humor</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Johannes Klaußner</span><span class="pbar"><i class="p" style="width:25%"></i></span><span class="pw p">＋1</span></div>
+              <div class="pz"><span class="pl">Rückgestaute Machtkurve</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Bremsender Alltags-Ballast</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Zu passiver Held</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Gedämpfte umständliche Magie</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Unbalanciertes Machtsystem</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Zäher Start</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Intrigen-Overload ohne Progress</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="pz"><span class="pl">Weinerlicher Held</span><span class="pbar"><i class="n" style="width:25%"></i></span><span class="pw n">−1</span></div>
+              <div class="bilanz"><i class="p2"></i><i class="p2"></i><i class="p1"></i><i class="p1"></i><i class="p1"></i><i class="p1"></i><i class="p1"></i><i class="p1"></i><i class="p1"></i><i class="m1"></i><i class="m1"></i><i class="m1"></i><i class="m1"></i><i class="m1"></i><i class="m1"></i><i class="m1"></i><i class="m1"></i></div>
+              <p class="bilanz-lab">17 Aspekte · 9 positiv · 0 neutral · 8 negativ</p>
+            </div>
+            <details class="dt" style="margin-top:10px"><summary>Meine Worte, die Bandliste und die Community-Stimmen <span class="zahl">— 17 Notizen</span></summary><div class="dtin">
                 <div class="asp"><span class="g">＋</span>Wissbegieriger Selbermacher-Held (clever, begabt) — trug am stärksten</div>
                 <div class="asp"><span class="g">＋</span>Limit-Break-Momente „sehr gut" (nur zu selten)</div>
                 <div class="asp"><span class="g">＋</span>Verborgene Magie im heutigen England · Herkunfts-Geheimnis · Everyman zum Reinversetzen</div>
@@ -1497,7 +1959,8 @@
                 <div class="asp"><span class="b">−</span>Unbalanciert: geld-gated („krass oder ackern")</div>
                 <div class="asp"><span class="b">−</span>Zäher Aufstieg + Alltags-/Nebenjob-Ballast · passiv-klagender Held</div>
                 <div class="asp"><span class="b">−</span>Intrigen/Politik grenzwertig · zäher Auftakt (Bd. 1)</div>
-                <details class="dt"><summary>Was die Community sagt <span class="zahl">— 2 Stimmen &amp; offene Fragen</span></summary><div class="dtin"><p class="box-title" style="margin-top:12px">Community sagt</p>
+                <details class="dt"><summary>Was die Community sagt <span class="zahl">— 2 Stimmen &amp; offene Fragen</span></summary><div class="dtin"></div></details>
+              <p class="box-title" style="margin-top:12px">Community sagt</p>
                 <div class="comm"><span class="g">👍</span>kreatives Magiesystem · flüssiger Stil · britischer Humor · relatable Everyman</div>
                 <div class="comm"><span class="b">👎</span>Slow-burn/Infodump-Auftakt · Plot dünn („will stärker werden") · reaktiver Held („Jammerlappen")</div>
               </div></details></div>
