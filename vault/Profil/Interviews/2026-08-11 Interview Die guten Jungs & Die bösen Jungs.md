@@ -2,7 +2,7 @@
 datum: 2026-08-11
 werke: ["[[Die guten Jungs]]", "[[Die bösen Jungs]]", "[[Vuldranni (iNcarn8)]]"]
 kontext: "LitRPG"
-runden: 3
+runden: 4
 anlass: "Nutzer hat beide Reihen angefangen zu hören und will den Verbund + die empfohlene Hörreihenfolge abgebildet haben"
 tags: [interview]
 ---
