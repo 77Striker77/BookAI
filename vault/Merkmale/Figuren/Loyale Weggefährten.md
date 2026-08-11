@@ -1,7 +1,7 @@
 ---
 typ: figur
 status_global: ""
-status_kontexte: { Fantasy: liked, Humor-Phantastik: liked }
+status_kontexte: { Fantasy: liked, Humor-Phantastik: liked, LitRPG: liked }
 staerke: mittel
 seit: 2026-07-20
 uebergeordnet: ""
@@ -32,6 +32,7 @@ Figuren-Bindungs-Vorliebe des Nutzers, aber breiter als ein Duo oder eine Schul-
 | [[Fantasy]] | liked | [[Alex Verus]] **+1**: „Alex' Wahlfamilie" (Luna, Anne, Variam …) als einziger gewählter Figuren-Reiz; Anne-Subplot „hat mich sogar getragen" ([[2026-07-20 Interview Alex Verus]]) |
 | [[Humor-Phantastik]] | liked | [[Magic 2.0]] +1: Freundeskreis der ‚Zauberer' (Programmierer-Community) ([[2026-07-20 Interview Magic 2.0]]) |
 
+| [[LitRPG]] | liked | [[Die guten Jungs]] **+1** — wachsen an statt sofort zu tragen: „am Anfang war ich etwas skeptisch aber **nach und nach machen sich die NCs.** Also **ich bin zufrieden**". Bewusst +1, nicht +2: **nicht** das tragende Element wie [[Ungleiches Duo]] bei [[Dungeon Crawler Carl]] ([[2026-08-11 Interview Die guten Jungs & Die bösen Jungs]]) |
 ## Matching-Konsequenz
 
 Plus für Kandidaten mit einer tragenden Gefährten-/Wahlfamilien-Dynamik. Bestätigt das

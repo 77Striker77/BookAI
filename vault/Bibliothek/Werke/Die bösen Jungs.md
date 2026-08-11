@@ -25,7 +25,8 @@ bekanntheit_stufe: "Etabliert"
 hype: "Parallelreihe der etablierten Good-Guys-Reihe"
 kontext: "LitRPG"
 verdict: "liked"                     # SEHR VORLÄUFIG — Bd. 1 läuft gerade
-verdict_status: "sehr vorläufig (Stand 2026-08-11, Bd. 1 mitten drin)"
+verdict_status: "AUSGESETZT — Nutzer 2026-08-11: „kann ich erst nach Ende von Band 1 was zu sagen""
+wiedervorlage: "Volles Interview fahren, sobald Bd. 1 durch ist (spoiler_erlebt_bis: 1). Vorher nicht nach einer Meinung fragen."
 format_erlebt: "hoerbuch"
 sprecher: "Thomas Nicolai"
 performance: "solo"
@@ -130,11 +131,24 @@ beim verschränkten Hören, weil sich das Tempo-Gefühl beim Wechsel ändert.
 
 ## ⭐ Bewertung je Aspekt
 
+> ⛔ **BEWERTUNG AUSGESETZT — Nutzer-Entscheidung 2026-08-11, wörtlich:**
+> „**Böse Jungs kann ich erst nach Ende von Band 1 was zu sagen.**"
+>
+> **Nicht nach einer Meinung zu dieser Reihe fragen, solange Bd. 1 läuft.** Was unten steht,
+> ist ausdrücklich **nicht** vom Nutzer bestätigt: die *geerbten* Zeilen stammen aus dem
+> Verbund [[Vuldranni (iNcarn8)]], die reihen-eigenen sind Reihenanlage bzw. eine frühe
+> Ersteindruck-Aussage. **Einziger belastbarer reihen-eigener Befund: der Sprecher**
+> ([[Thomas Nicolai]] −1) — den hat der Nutzer direkt und begründet verglichen.
+>
+> ➡️ **Wiedervorlage:** Sobald `spoiler_erlebt_bis: 1` erreicht ist (Bd. 1 durch), das volle
+> Interview nach `book-taste-interview` fahren — Abdeckungs-Matrix von Anfang an mitführen,
+> Positiv/Negativ getrennt. Vorher **kein** Verdikt verfestigen.
+
 | Aspekt | Wertung | Warum | Beleg |
 | --- | --- | --- | --- |
 | *geerbt:* [[Absurder Humor]] | +2 | Ugland-Handschrift, gilt für beide Reihen | geerbt aus [[Vuldranni (iNcarn8)]] — „Humor/Ton zündet" |
 | *geerbt:* [[Tonwechsel Humor-Ernst]] | +2 | s. o. | geerbt aus [[Vuldranni (iNcarn8)]] |
-| [[Pragmatischer Held mit klarem Kompass]] | +2 | Clyde ist handlungsfähig, kein Jammerlappen | „Held ist stark" (galt beiden Reihen) |
+| [[Pragmatischer Held mit klarem Kompass]] | +2 ⚠️ **ungesichert** | Clyde ist handlungsfähig, kein Jammerlappen | „Held ist stark" — Ersteindruck aus Runde 1, **galt beiden Reihen pauschal**; für BJ nicht eigens bestätigt (s. Sperre oben) |
 | *geerbt:* [[Stimmige Weltatmosphäre]] | +2 | dieselbe Welt Vuldranni | geerbt aus [[Vuldranni (iNcarn8)]] |
 | [[Moralisch ambivalenter Antiheld]] | +1 | Dieb-POV statt Helden-POV — Reiz der Gegenseite | Reihenanlage; ⚠️ **vorläufig**, Bd. 1 läuft noch |
 | *geerbt:* [[Über-crunchiges Zahlensystem]] | −1 | Status-/Skill-Vorlesen | „nur ein mini negativer punkt" |

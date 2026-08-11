@@ -1,7 +1,7 @@
 ---
 typ: figur
 status_global: ""
-status_kontexte: { Fantasy: loved }
+status_kontexte: { Fantasy: loved, LitRPG: loved }
 staerke: mittel
 seit: 2026-07-20
 uebergeordnet: ""
@@ -27,6 +27,7 @@ Gegenpol: [[Überzogener Auserwählter]] (unverdient überhöht) und [[Zu passiv
 | --- | --- | --- |
 | [[Fantasy]] | loved | [[Haus Ashford]] +2 — „wissbegierig und begabt", „Selbermacher/Beharrlichkeit", „Cleveres Vorgehen" ([[2026-07-20 Interview Haus Ashford]]) |
 
+| [[LitRPG]] | loved (sein **Fehlen** stört) | ⭐ [[Die guten Jungs]] **−1** — erster Negativ-Beleg: das Merkmal fehlt. „manchmal ist er **zu wenig wissbegierig. er akzeptiert zu schnell etwas statt es wirklich zu verstehen oder zu erklären**" — vom Nutzer als „nur eine Kleinigkeit" relativiert ([[2026-08-11 Interview Die guten Jungs & Die bösen Jungs]]) |
 ## Evidenz gesamt
 
 - [[Haus Ashford]] +2: Stephen Oakwood als wissbegierig-begabter Selbermacher trug die Reihe am stärksten (trotz „okay"-Gesamturteil).

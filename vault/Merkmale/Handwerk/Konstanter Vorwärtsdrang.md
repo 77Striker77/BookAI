@@ -26,6 +26,7 @@ auch ruhige Szenen zählen, solange sie tragen. Gegenteil: Filler-Etagen, Nebenq
 | [[Krimi]] | loved | [[Die mörderischen Cunninghams]] **+2** — „Sehr straff", alles zahlt auf den Fall ein, kein Leerlauf ([[2026-07-16 Interview Die mörderischen Cunninghams]]) · **im selben Kontext verletzt:** [[Der Donnerstagsmordclub]] **−1** — „zähe Passagen", Nebenstränge bremsen; der Sog IST da, aber nur solange der Fall vorn bleibt ([[2026-08-11 Interview Der Donnerstagsmordclub]]) |
 | [[Humor-Phantastik]] | loved | [[Magic 2.0]] **+1** — blieb flott & kurzweilig (nur stellenweise zäh) ([[2026-07-20 Interview Magic 2.0]]) |
 
+| [[LitRPG]] (Fortsetzung) | loved | [[Die guten Jungs]] **+1**: „nein große negative Stellen gab es eig nicht. **Tempo war gut**" — nicht +2, weil vorgelesene Statusblöcke als „einzelne kleine Ausnahmen" unterbrechen ([[2026-08-11 Interview Die guten Jungs & Die bösen Jungs]]) |
 ## Kontextübergreifend bestätigt (roter Faden!)
 
 In BEIDEN Kontexten belegt: In LitRPG gelobt (DCC), in Fantasy vermisst (Prinz −1). →

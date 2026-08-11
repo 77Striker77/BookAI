@@ -26,6 +26,7 @@ auch Weltlogik, die nicht trägt („Kontinente bleiben Kontinente auch im Spiel
 | [[LitRPG]] | disliked | [[Survival Quest]] −1: „am Ende befolgt vor allem der HC die meisten Spielregeln überhaupt nicht"; „die Welt ist nicht wirklich konsistent" ([[2026-07-16 Interview Survival Quest]]) |
 | [[Fantasy]] | disliked | [[Alex Verus]] −1: am Ende „ohne Erklärung super mächtig … mächtiger als er ist hingestellt" — Machtsprung nicht sauber hergeleitet ([[2026-07-20 Interview Alex Verus]]) |
 
+| [[LitRPG]] | disliked — **aber neutralisierbar** | [[Die guten Jungs]] **0**: kein Inventar trotz Spielewelt, „ist auch ungewohnt … **fehlt ein kleines bisschen**" — ABER: „**zum Glück hat Montana diesen irrwitzigen Sack**, deswegen ist es eig echt egal **oder sogar was Witziges draus gemacht**". ⭐ Erster Fall im Vault, in dem Erzählwitz eine Systemlücke entschärft ([[2026-08-11 Interview Die guten Jungs & Die bösen Jungs]]) |
 ## Matching-Konsequenz
 
 Rezensionen mit „inconsistent rules/worldbuilding", „the MC ignores the system", „plot
