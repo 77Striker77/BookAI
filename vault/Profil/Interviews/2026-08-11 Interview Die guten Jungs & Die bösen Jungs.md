@@ -2,7 +2,7 @@
 datum: 2026-08-11
 werke: ["[[Die guten Jungs]]", "[[Die bösen Jungs]]", "[[Vuldranni (iNcarn8)]]"]
 kontext: "LitRPG"
-runden: 2
+runden: 3
 anlass: "Nutzer hat beide Reihen angefangen zu hören und will den Verbund + die empfohlene Hörreihenfolge abgebildet haben"
 tags: [interview]
 ---
@@ -104,7 +104,42 @@ präzise + geraten — die Lücke war korrekt ausgewiesen und ließ sich sauber 
   Erster Fall im Vault, in dem **derselbe Universums-Verbund zwei verschiedene Sprecher**
   hat und der Nutzer sie direkt gegeneinander stellt.
 
+## Abdeckungs-Matrix (Pflicht-Gate — **NICHT vollständig**, nachgetragen 2026-08-11)
+
+> ⚠️ Nachgetragen, nachdem der Stop-Hook das Fehlen gemeldet hat. Die Matrix wurde während
+> des Interviews **nicht mitgeführt** — genau der Fall, für den das Gate 2026-07-20
+> eingeführt wurde. Sie zeigt jetzt ehrlich, was abgefragt wurde und was nicht: **6 von 17
+> Feldern sind offen, und sie liegen alle auf der Negativseite bzw. beim Tempo.**
+
+| Dimension | + (was trug) | − (was bremste/störte) |
+|---|---|---|
+| Fakten-Block (2× dt. Hörbuch · liked vorl. · GJ 5/16 gehört, BJ 1/11 läuft) | ✅ | — |
+| Held/Hauptfigur (Montana, Clyde) | ✅ „Held ist stark" | ⬜ **offen — nie gefragt** |
+| Welt/Setting | ✅ „Welt, Geheimnisse und Monster"; Aufbau Herzogtum & Basis | ⬜ **offen — nie gefragt** |
+| Plot/Geschichte(-bogen) | ✅ Basisaufbau als Motor | ◐ nur die **Schwelle** benannt („Adel und Politik in okayem Maße, mehr würde nerven") — keine echte Kritik erfragt |
+| Tempo / Vorwärtsdrang | ⬜ **offen** | ⬜ **offen** — roter Faden Nr. 1 komplett unbelegt |
+| Ton/Humor | ✅ „Humor/Ton zündet", „Humor & Schnoddrigkeit" | ⬜ **offen — nie gefragt** |
+| Nebenfiguren / Beziehungen | ⬜ **offen** | ⬜ **offen** |
+| Sprecher (Hörbuch) | ✅ [[Robert Frank]] +2, im Vergleich herausragend | ✅ [[Thomas Nicolai]] −1: Stimmfarbe, Tempo & Betonung — „nur im Vergleich schwächer" |
+| No-Gos / Near-No-Gos | ✅ „zu viel Vorgelesenes von Status/Skills" (−1, „mini negativer Punkt") + Politik-Kipppunkt | — |
+
+**Konsequenz:** Das Verdikt **liked (vorläufig)** bleibt vorläufig — es ruht auf einer
+positiv-lastigen Erhebung. Vor einer Verdikt-Verfestigung (oder einem `loved`) muss die
+Negativseite nachgeholt werden; die entsprechenden Fragen stehen unten.
+
 ## Offene Fragen (an den Nutzer, nächste Runde)
+
+**Aus der Matrix (Negativseite + Tempo — Pflicht vor Verdikt-Verfestigung):**
+
+- **Held −:** Gab es an Montana (GJ) etwas, das dich genervt hat — Entscheidungen, Sprüche,
+  ein Zug, der dir zu viel war?
+- **Welt −:** Hat dich an der Welt/dem Setting etwas gestört oder gelangweilt?
+- **Ton −:** Ging dir der schnoddrige Humor irgendwo zu weit oder wurde er zu viel?
+- **Nebenfiguren +/−:** Trägt die Truppe um Montana für dich, oder ist sie eher Beiwerk?
+  Gibt es eine Figur, die dich nervt?
+- **Plot −:** Gab es einen Strang, bei dem du dachtest „komm zum Punkt"?
+
+**Bereits vorher offen:**
 
 - [[Konstanter Vorwärtsdrang]] — hält die Reihe das Tempo über 5 Bände, oder gibt es
   Durchhänger? (roter Faden Nr. 1, noch **unbelegt** für dieses Werk)
