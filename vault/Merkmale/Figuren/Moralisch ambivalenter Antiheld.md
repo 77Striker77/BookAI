@@ -1,7 +1,7 @@
 ---
 typ: figur
 status_global: ""
-status_kontexte: { Fantasy: loved }
+status_kontexte: { Fantasy: loved, LitRPG: liked }
 staerke: mittel
 seit: 2026-07-20
 uebergeordnet: ""
@@ -40,3 +40,4 @@ weiterer Bestätigung in anderem Kontext ggf. `status_global`.
 ## Träger dieses Merkmals
 
 - [[Alex Verus]] (+2, Antihelden-Aufstieg mit Preis)
+- [[Die bösen Jungs]] (+1, Clyde Hatchett — Dieb-POV; ⚠️ **vorläufig**, Nutzer ist erst in Bd. 1) ([[2026-08-11 Interview Die guten Jungs & Die bösen Jungs]])

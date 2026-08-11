@@ -37,3 +37,4 @@ Genres hinweg → bei Kandidaten die Protagonisten-Handlungsfähigkeit prüfen.
 - [[Dungeon Crawler Carl]] (+2, Carl)
 - [[Riyria]] (+1, Royce & Hadrian)
 - [[Magic 2.0]] (+1, Martin Banks)
+- [[Die guten Jungs]] (+2, Montana Coggeshall) · [[Die bösen Jungs]] (+2, Clyde Hatchett) — „Held ist stark“ ([[2026-08-11 Interview Die guten Jungs & Die bösen Jungs]]); **erster Fall, in dem zwei Helden EINES Universums beide diesen Typ tragen** — von entgegengesetzten Moralseiten.

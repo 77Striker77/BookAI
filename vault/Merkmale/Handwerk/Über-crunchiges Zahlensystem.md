@@ -23,12 +23,27 @@ ist *Dosierung & Story-Dienlichkeit*. [[Dungeon Crawler Carl]] hat Stats, hält 
 
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
-| [[LitRPG]] | disliked | [[Survival Quest]] −1: „viel zu stark ausgebaut … sie wirbeln mit % und Punkten und Boni nur so um sich" ([[2026-07-16 Interview Survival Quest]]) |
+| [[LitRPG]] | disliked | [[Survival Quest]] −1: „viel zu stark ausgebaut … sie wirbeln mit % und Punkten und Boni nur so um sich" ([[2026-07-16 Interview Survival Quest]]) · [[Die guten Jungs]] −1 (**mild**): „ab und zu ghibt es zu viel vorgelese von status skills und co. **aber wirklich nur ein mini negativer punkt**" ([[2026-08-11 Interview Die guten Jungs & Die bösen Jungs]]) |
 
-## Kombinationsregel-Kandidat
+## ⭐ Intensitäts-Skala (Kalibrierung 2026-08-11 — zweiter Datenpunkt)
+
+Beide Träger stehen bei −1, meinen aber **nicht dasselbe Ausmaß**. Das Merkmal hat eine
+Intensitäts-Achse, die beim Matching mitgelesen werden muss:
+
+| Ausprägung | Beispiel | Wirkung |
+| --- | --- | --- |
+| **Beiwerk** — Statusblöcke werden mitgelesen, bleiben aber Randerscheinung | [[Die guten Jungs]] („mini negativer punkt") | leichter Abzug, **kein** Ausschluss |
+| **Selbstzweck** — %/Punkte/Boni dominieren den Lesefluss | [[Survival Quest]] („wirbeln … nur so um sich") | echter Malus, in Kombination Ausschlussverdacht |
+
+**Hörbuch-Verschärfung:** Im Hörbuch kann man Statblöcke **nicht überspringen** — sie werden
+vorgelesen. Genau das nennt der Nutzer („zu viel **vorgelese**"). Bei Hörbuch-Kandidaten
+wiegt dieses Merkmal daher schwerer als bei gelesenen Werken.
+
+## Kombinationsregel (festgeschrieben, [[LitRPG]])
 
 „[[System & Progression]] gut, ABER nur wenn nicht über-crunchig / story-dienlich dosiert."
-→ bei zweitem Datenpunkt als Kombinationsregel in [[LitRPG]] festschreiben.
+→ steht als Kombinationsregel in [[LitRPG]]; mit [[Die guten Jungs]] jetzt **drei**
+Datenpunkte (DCC dosiert +, guten Jungs leicht drüber −1 mild, Survival Quest deutlich −1).
 
 ## Matching-Konsequenz
 
@@ -37,4 +52,5 @@ Rezensionen mit „stat-heavy", „bogged down in numbers", „spreadsheet LitRP
 
 ## Träger
 
-- [[Survival Quest]] (−1)
+- [[Survival Quest]] (−1, Selbstzweck-Ausprägung)
+- [[Die guten Jungs]] / [[Die bösen Jungs]] / [[Vuldranni (iNcarn8)]] (−1, Beiwerk-Ausprägung)

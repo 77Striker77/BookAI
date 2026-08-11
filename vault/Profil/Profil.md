@@ -116,7 +116,14 @@ auf das **Verhältnis Fall ↔ Nebenstränge** in Rezensionen achten.
 ## Hörbuch-Spezifika
 
 - **Geliebte Sprecher:** [[Stefan Kaminski]], [[Günter Merlau]] (beide „trägt massiv"),
-  [[David Nathan]], [[Leonie Landa]]
+  [[David Nathan]], [[Leonie Landa]], **[[Robert Frank]]** (+2, [[Die guten Jungs]])
+- **Abgefallen (relativ):** **[[Thomas Nicolai]]** (−1, [[Die bösen Jungs]]) — „Stimmfarbe
+  passt nicht", „Tempo & Betonung", aber ausdrücklich **„nur im Vergleich schwächer"**
+- ⭐ **Neu 2026-08-11 — Sprecher-Vergleich INNERHALB eines Universums:** [[Vuldranni (iNcarn8)]]
+  ist das erste Werk mit **zwei** Sprechern (je Reihe einer). Das liefert einen sauberen
+  A/B-Test bei identischem Stoff: derselbe Autor, dieselbe Welt, derselbe Ton — und trotzdem
+  +2 vs. −1. **Bestätigt die Sprecher-Dimension als eigenständigen Faktor**, unabhängig vom
+  Inhalt (siehe [[Konventionen]]: Sprecher ist Bonus, kein Matching-Kriterium).
 - **Neutrale Sprecher:** [[Johannes Klaußner]] (neutral-plus), **[[Johannes Steck]]** (0),
   [[Beate Himmelstoß]] (0), [[Thomas Balou Martin]]
 - **Performance:** Solo mit starken Figurenstimmen 2× belegt geliebt; **Duett/Zwei-Stimmen
@@ -137,6 +144,7 @@ auf das **Verhältnis Fall ↔ Nebenstränge** in Rezensionen achten.
 | [[Haus Ashford]] ([[Fantasy]]/Urban Fantasy, Benedict Jacka, An Inheritance of Magic, 3 Bände) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-20 |
 | [[Magic 2.0]] ([[Humor-Phantastik]], Scott Meyer, 6 Bände EN / 2 DE) | **loved** (leichte Kost) | **buch/gelesen** (dt.+engl.) | 2026-07-20 |
 | [[Der Donnerstagsmordclub]] ([[Krimi]], Richard Osman, 5 Bände) | **liked** | hoerbuch (dt.) | 2026-08-11 |
+| [[Vuldranni (iNcarn8)]] ([[LitRPG]], Eric Ugland, Verbund: [[Die guten Jungs]] 16 Bd. + [[Die bösen Jungs]] 11 Bd.) | **liked** *(vorläufig — läuft: GJ 5/16, BJ 1/11)* | hoerbuch (dt.) | 2026-08-11 |
 | [[Survival Quest]] ([[LitRPG]], Reihe, 7 Bände) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-16 |
 | [[Scholomance]] ([[Fantasy]], Trilogie) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-16 |
 | [[Riyria]] ([[Fantasy]], Revelations, 6 Bände) | **mixed** („okay") | hoerbuch (dt.) | 2026-07-16 |
@@ -150,6 +158,20 @@ auf das **Verhältnis Fall ↔ Nebenstränge** in Rezensionen achten.
 
 ## Muster & Beobachtungen
 
+- ⭐ **2026-08-11: Die Politik-Schwelle ist jetzt benannt (kontextübergreifend).** Bislang war
+  nur die Überschreitung belegt ([[Intrigen-Overload ohne Progress]]: „dann bin ich raus";
+  Prinz Bd. 2 −1, Ashford −1 „grenzwertig"). [[Die guten Jungs]] liefert den Zustand **knapp
+  darunter** — Wertung **0**: „adel und poletik ist noch in einem **okey maße**. **Mehr** würde
+  mich mehr nerveren, aber so ist okey." → **Regel: Politik als Würze = neutral, Politik als
+  Motor = Malus.** Für Empfehlungen wichtig: Adel/Hofpolitik ist **kein** Ausschlusskriterium;
+  entscheidend ist, ob sie die Hauptachse verdrängt. Gilt in [[Fantasy]] UND [[LitRPG]].
+- **2026-08-11: Erster echter Rückkopplungs-Beleg des Systems.** [[Die guten Jungs]] war die
+  Top-Empfehlung aus [[2026-07-17 Deutsche Bücher quer über alle Räume]] (86 %) und ist jetzt
+  das **erste tatsächlich begonnene** Empfehlungs-Werk. Prognose-Nachkontrolle (Kandidaten-Notiz):
+  Ton- und Helden-Achse ✅ getroffen, aber **vier Plus-Anker übersehen** ([[Basisaufbau &
+  Siedlungsentwicklung]], [[Weltgeheimnisse & Entdeckung]], [[Monster-Vielfalt & Bestiarium]],
+  [[Handfeste Kampf-Action]]). Lehre: Bei LitRPG-Kandidaten künftig aktiv nach **Aufbau-Strang**
+  und **eigenem Bestiarium** suchen, nicht nur nach DCC-Ton-Ähnlichkeit.
 - 2026-07-16: Nutzer ergänzte eigeninitiativ „Fokus/Story geht immer weiter" → Handwerk
   im Kontext [[LitRPG]] mit 0.15 ungewöhnlich hoch gewichtet (Begründung dort).
 - Alle 10 DCC-Aspekte +2 → DCC ist Maßstab-Werk in LitRPG.

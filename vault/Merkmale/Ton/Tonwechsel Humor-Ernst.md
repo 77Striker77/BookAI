@@ -23,6 +23,9 @@ der beiden Seiten allein. Erfordert, dass beide Register glaubwürdig sitzen.
 | --- | --- | --- |
 | [[LitRPG]] | loved | [[Dungeon Crawler Carl]] +2; Antwort „Die Mischung selbst" auf direkte Frage ([[2026-07-16 Erstinterview Dungeon Crawler Carl]]) |
 
+**Verstärkt 2026-08-11:** [[Vuldranni (iNcarn8)]] +2 — „Humor/Ton zündet“ (Schnoddrigkeit neben echter Härte) ([[2026-08-11 Interview Die guten Jungs & Die bösen Jungs]]). Zweiter Träger im Kontext [[LitRPG]] → der Tonwechsel ist damit kein DCC-Einzelfall, sondern ein belegtes Muster.
+
 ## Träger dieses Merkmals
 
 - [[Dungeon Crawler Carl]] (+2)
+- [[Die guten Jungs]] / [[Die bösen Jungs]] / [[Vuldranni (iNcarn8)]] (+2)

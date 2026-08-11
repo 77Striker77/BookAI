@@ -1,7 +1,7 @@
 ---
 name: "Eric Ugland"
 sprachen: [en, de]
-status: unbekannt          # „Die guten Jungs" ist empfohlener Kandidat, noch nicht erlebt
+status: liked              # 2026-08-11: beide Reihen erlebt (vorläufig) — erster Autor mit zwei parallel gehörten Reihen
 herkunft: "USA (Los Angeles; laut Bio früher Seattle/Manhattan)"
 geburtsjahr: ""            # nicht öffentlich belegt
 bekanntheit: "Etabliert (Indie-LitRPG)"
@@ -48,11 +48,16 @@ und Hartnäckigkeit stolpern", clever konstruierte Quests, kurze knackige Bände
 
 | Werk | Verdikt/Status |
 | --- | --- |
-| [[Die guten Jungs]] | empfohlen (Kandidat, Lauf 2026-07-17) |
+| [[Vuldranni (iNcarn8)]] (Verbund) | **liked** *(vorläufig)* — 🎧 dt. Hörbuch |
+| [[Die guten Jungs]] | **liked** *(vorläufig)* — Bd. 1–5 gehört ([[Robert Frank]] +2) |
+| [[Die bösen Jungs]] | **liked** *(sehr vorläufig)* — Bd. 1 läuft ([[Thomas Nicolai]] −1) |
+
+Aus Empfehlung geworden: [[Die guten Jungs]] war die Top-Empfehlung des Laufs [[2026-07-17 Deutsche Bücher quer über alle Räume]] (86 %) — **erste Empfehlung des Systems, die der Nutzer tatsächlich angefangen hat.** Die Prognose hat getragen: Ton, Held und Länge bestätigt; der prognostizierte Malus „weniger System-Satire“ spielte keine Rolle, dafür kam mit [[Basisaufbau & Siedlungsentwicklung]] ein **nicht prognostizierter** Plus-Anker dazu.
 
 ## Weitere Werke (Kandidatenquelle!)
 
-- **Die bösen Jungs** (11 Bd., dt., Sprecher Thomas Nicolai) — Villain-POV, gleiche Welt.
+- **The Grim Guys** — ⭐ **dritte Reihe im selben Universum** (2026-08-11 recherchiert): Julian & Greg werden beim Geisterjagen von einem Tornado erwischt, treffen „Mr. Paul“ und landen als **Brüder Grim** in **Mahrduhm** — Monsterjäger im Dienst ihres neuen Gottes. Ursprünglich kapitelweise auf der Serial-Plattform **Yonder** veröffentlicht. ⚠️ **Keine deutsche Ausgabe bekannt** → wegen der Deutsch-Präferenz ([[Profil]]) aktuell kein Kandidat, aber bei dt. Ankündigung sofort relevant.
+- **Roseland** — weitere Ugland-Reihe, ⚠️ Zugehörigkeit zu Vuldranni **nicht** belegt.
 
 ## Quellen
 
