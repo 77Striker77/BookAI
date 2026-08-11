@@ -4,6 +4,15 @@
      BLAU = Community-Wertung 0–5 (Qualität) · GOLD = Bekanntheit/Reichweite (wie viele)
      GRÜN = positiv (mein ＋ / 👍) · ROT = negativ (mein − / 👎 / No-Go) · Neutral = Struktur
      Rot ist NIE eine Wertung. Gold misst Reichweite, nicht Qualität. */
+
+  /* ===== MESS-MARKER fuer die Design-Werkstatt (design:artefakt-werkstatt) =====
+     Ohne diese Marker RAET mess.sh den Grund, gegen den es den Kontrast misst.
+     Sie muessen mitgezogen werden, wenn --bg / --panel geaendert werden. */
+  /* @artefakt */
+  /* @grund-hell: #f2f0ea */
+  /* @grund-dunkel: #121118 */
+  /* @serien-hell: #245fb0,#12813f,#c23a34,#9a6b12 */
+  /* @serien-dunkel: #5b9bee,#3fc069,#e5706a,#e3b64e */
   :root {
     color-scheme: light;
     --bg:#f2f0ea; --panel:#faf9f6; --card:#ffffff;
@@ -37,6 +46,9 @@
 
   * { box-sizing: border-box; }
   body { margin: 0; }
+  /* Fokusring global aus dem Token — sonst greift der UA-Default (#101010),
+     der im Dunkelmodus auf 1,1:1 faellt (Messung 11.08.2026). */
+  :where(a, button, [tabindex]):focus-visible { outline: 2px solid var(--rating); outline-offset: 2px; border-radius: 4px; }
   .page { background: var(--bg); color: var(--ink);
     font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; min-height: 100vh; }
   .wrap { max-width: 1060px; margin: 0 auto; padding: 0 18px 72px; }
@@ -179,7 +191,8 @@
   .mini:hover { border-color: var(--rating); }
   .mini .mt { font-weight: 700; font-size: .96rem; }
   .mini .mm { color: var(--muted); font-size: .78rem; margin: 1px 0 6px; }
-  .biglink { display:inline-block; margin-top:10px; font-size:.82rem; font-weight:600; color:var(--rating); text-decoration:none; }
+  /* min-height 24px: WCAG 2.2 AA Zielgroesse — vorher 20px (Messung 11.08.2026) */
+  .biglink { display:inline-flex; align-items:center; min-height:24px; margin-top:10px; font-size:.82rem; font-weight:600; color:var(--rating); text-decoration:none; }
   .biglink:hover { text-decoration: underline; }
 
   /* ---------- Bandliste (bandgenau) ---------- */
@@ -223,6 +236,25 @@
     background: var(--track); color: var(--ink2); white-space: nowrap; }
   .etwhy { font-size: .84rem; color: var(--ink2); margin: 8px 0 0; }
 
+  .spoilerfree { margin: 12px 0 0; font-size: .84rem; color: var(--ink2);
+    background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px; display: inline-block; }
+  .chip.jump { text-decoration: none; color: var(--ink); font-weight: 600; }
+  .chip.jump:hover { border-color: var(--rating); }
+  .conf { display: grid; grid-template-columns: 106px 1fr; gap: 12px; align-items: start;
+    font-size: .86rem; padding: 9px 0; border-top: 1px solid var(--line); }
+  .conf:first-of-type { border-top: 0; }
+  .cl { font-size: .68rem; font-weight: 800; border-radius: 999px; padding: 2px 8px; text-align: center; white-space: nowrap; }
+  .cl.hi { color: #fff; background: var(--rating); }
+  .cl.mid { color: var(--rating); background: var(--rating-soft); }
+  .cl.lo { color: var(--ink2); background: var(--track); }
+  @media (max-width: 560px){ .conf { grid-template-columns: 1fr; gap: 4px; } .cl { justify-self: start; } }
+  .rf-tab { font-size: .84rem; }
+  .rf-row { display: grid; grid-template-columns: 1.25fr .8fr .8fr .9fr 1.9fr; gap: 12px;
+    padding: 9px 16px; border-top: 1px solid var(--line); align-items: baseline; }
+  .rf-row.rf-head { border-top: 0; background: var(--panel); font-size: .7rem; text-transform: uppercase;
+    letter-spacing: .06em; color: var(--muted); font-weight: 700; }
+  @media (max-width: 760px){ .rf-row, .rf-row.rf-head { grid-template-columns: 1fr 1fr !important; } .rf-row.rf-head { display: none; } }
+
   .footer { margin-top: 34px; color: var(--muted); font-size: .78rem; line-height: 1.6; border-top: 1px solid var(--line); padding-top: 16px; }
 </style>
 
@@ -255,7 +287,18 @@
             <a href="#ashford" data-view="werke" data-scroll="ashford">Haus Ashford <small>Urban Fantasy · ◐ okay (Graubereich)</small></a>
           </div>
         </span>
-        <a href="#reihenfolge" data-view="reihenfolge">🎧 Hörreihenfolge</a>
+        <span class="mi">
+          <button data-view="reihenfolge" aria-haspopup="true">🔢 Reihenfolgen</button>
+          <div class="dd">
+            <a href="#reihenfolge" data-view="reihenfolge">Überblick <small>wo die Reihenfolge wirklich zählt</small></a>
+            <a href="#rf-vuldranni" data-view="reihenfolge" data-scroll="rf-vuldranni">🗺️ Vuldranni <small>27 Schritte · guten + böse Jungs</small></a>
+            <a href="#rf-beleg" data-view="reihenfolge" data-scroll="rf-beleg">🔬 Wie gut belegt? <small>Konfidenz je Aussage</small></a>
+            <a href="#rf-goetter" data-view="reihenfolge" data-scroll="rf-goetter">🏰 Die Streitenden Götter <small>Sturmfels → Prinz</small></a>
+            <a href="#rf-dcc" data-view="reihenfolge" data-scroll="rf-dcc">🎮 Dungeon Crawler Carl <small>1 → 9 · dt. Engpass</small></a>
+            <a href="#rf-rest" data-view="reihenfolge" data-scroll="rf-rest">Alle übrigen Reihen <small>8 Reihen im Überblick</small></a>
+            <a href="#rf-engpass" data-view="reihenfolge" data-scroll="rf-engpass">⚠️ Verfügbarkeit <small>wo Deutsch nicht hinterherkommt</small></a>
+          </div>
+        </span>
         <a href="#bekanntheit" data-view="bekanntheit">Bekanntheit</a>
         <a href="#releases" data-view="releases">Releases</a>
         <a href="#geschmack" data-view="geschmack">Geschmack</a>
@@ -270,7 +313,7 @@
       <header class="hero">
         <h1>Willkommen zurück 👋</h1>
         <p class="lead">Das Cockpit meines Buch- &amp; Hörbuch-Geschmacks: was ich liebe, wie bekannt es ist
-          und was als Nächstes erscheint. 11 Reihen analysiert — 6 geliebt, 1 „gut", 4 „okay" im Graubereich.</p>
+          und was als Nächstes erscheint. 13 Reihen analysiert — 6 geliebt, 3 „gut", 4 „okay" im Graubereich, verteilt auf 2 Universen.</p>
       </header>
       <div class="stats">
         <div class="stat"><div class="n tnum">13</div><div class="l">Reihen analysiert</div></div>
@@ -290,7 +333,7 @@
             <p style="margin:0 0 8px;font-size:.9rem"><b>Läuft gerade:</b> <span class="flag de">DE</span>
               <b>Die bösen Jungs Bd. 1</b> „Schurken &amp; Halunken" — <b>Die guten Jungs</b> sind bis Bd. 5 durch.
               Beide gehören ins selbe Universum <b>Vuldranni</b> und werden <b>verschränkt</b> gehört.</p>
-            <a class="biglink" href="#reihenfolge" data-view="reihenfolge" style="margin-top:0">🎧 Meine Hörreihenfolge ansehen →</a>
+            <a class="biglink" href="#rf-vuldranni" data-view="reihenfolge" data-scroll="rf-vuldranni" style="margin-top:0">🎧 Meine Hörreihenfolge ansehen →</a>
             <p style="margin:10px 0 0;font-size:.9rem"><b>Nächstes dt. Release:</b> <span class="flag de">DE</span>
               <b>Prinz Bd. 3 „Hoffnung"</b> <span class="subtle">(Termin offen)</span>, dann DCC Bd. 3 am 18.11.2026.</p>
             <a class="biglink" href="#releases" data-view="releases">Alle Releases ansehen →</a>
@@ -598,7 +641,7 @@
         <div class="cover" style="background:linear-gradient(150deg,#7d4a12,#3f2a0e 50%,#1e2430)"><div class="cm">🗺️⚔️</div><div><div class="ct">VULDRANNI (iNCARN8)</div><div class="ca">Eric Ugland · Universum</div></div></div>
         <div>
           <div class="wh"><span class="t">Vuldranni (iNcarn8)</span><span class="verdict lik">♡ gut <span class="subtle" style="font-weight:400">(vorläufig)</span></span><span class="tag">· LitRPG · Overall = Summe der Reihen</span></div>
-          <div class="wmeta"><b>27 Bände in 2 Reihen</b> · 2018–2025 · beide Reihen abgeschlossen · 🎧 dt. Hörbuch, <b>zwei verschiedene Sprecher</b> · Übers. LMBPN International</div>
+          <div class="wmeta"><b>27 Bände in 2 Reihen</b> · seit 2018 · ⚠️ <b>beide Reihen laufen weiter</b> (guten Jungs Bd. 17 und böse Jungs Bd. 12 für 2026 angekündigt) · 🎧 dt. Hörbuch, <b>zwei verschiedene Sprecher</b> · Übers. LMBPN International</div>
           <div class="chips">
             <span class="chip pos">＋ Welt · Geheimnisse · Monster</span>
             <span class="chip pos">＋ Humor &amp; Schnoddrigkeit</span>
@@ -608,21 +651,21 @@
           <div class="synth"><b>Ich bin mitten drin:</b> guten Jungs Bd. 1–5 gehört, bösen Jungs Bd. 1 läuft.
             Beide Reihen erzählen <b>dieselbe Welt von zwei Moralseiten</b> — Aufbauer vs. Dieb — und laufen am Ende zusammen.
             Deshalb gibt es eine <b>eigene Hörreihenfolge</b> über beide Reihen hinweg.
-            <a class="biglink" href="#reihenfolge" data-view="reihenfolge" style="margin-top:6px">🎧 Zur Hörreihenfolge →</a></div>
+            <a class="biglink" href="#rf-vuldranni" data-view="reihenfolge" data-scroll="rf-vuldranni" style="margin-top:6px">🎧 Zur Hörreihenfolge (27 Schritte) →</a></div>
         </div>
       </div>
       <div class="children">
         <article class="work child lik" id="gutenjungs">
           <div class="cover" style="background:linear-gradient(150deg,#2f5f45,#1d3b2c 55%,#14211a)"><div class="cm">🛡️🏰</div><div><div class="ct">DIE GUTEN JUNGS</div><div class="ca">Eric Ugland</div></div></div>
           <div>
-            <div class="wh"><span class="t">Die guten Jungs</span><span class="verdict lik">♡ gut <span class="subtle" style="font-weight:400">(vorläufig)</span></span><span class="tag">· 16 Bände · abgeschlossen · 🎧 gehört (dt.) · ▸ bei Bd. 5</span></div>
-            <div class="wmeta"><b>Montana Coggeshall</b> — ausgebrannter Ex-Soldat, stirbt fast, wacht als Tank in Vuldranni auf, erbt ein heruntergekommenes Herzogtum und baut es auf.
+            <div class="wh"><span class="t">Die guten Jungs</span><span class="verdict lik">♡ gut <span class="subtle" style="font-weight:400">(vorläufig)</span></span><span class="tag">· 16 Bände erschienen · <b>läuft weiter</b> · 🎧 gehört (dt.) · ▸ bei Bd. 5</span></div>
+            <div class="wmeta"><b>Montana Coggeshall</b> — ausgebrannter Ex-Soldat, wacht als Tank-Klasse in der Spielwelt Vuldranni auf und baut sich dort etwas Eigenes auf. <span class="subtle">(Klappentext-Ebene · mein Stand: Bd. 5 — zu späteren Bänden steht hier bewusst nichts.)</span>
               EN „The Good Guys" 2018–2025 · Hörbuch dt. <b>Robert Frank</b> (Audible Studios) · Übers. Peter Schürholz · engl. Sprecher Neil Hellegers</div>
             <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span><span class="ft"></span></div>
               <div class="fame-lab"><b>Etabliert</b> · Goodreads-Serie ⌀ 4,38/5 <span class="hype">📚 Ugland ~49 Bücher · Indie-Dauerbrenner</span></div></div>
 
             <p class="box-title" style="margin-top:14px">Alle 16 Bände — deutsch, englisches Original, dt. Hörbuch</p>
-            <p class="hint">▸ blau hinterlegt = von mir gehört · ⚠ = Titel nur aus Suchtreffer-Text abgeleitet (im Vault als offene Frage markiert, nicht stillschweigend geglättet)</p>
+            <p class="hint">▸ blau hinterlegt = von mir gehört · ⚠ = Titel nur aus Suchtreffer-Text abgeleitet (im Vault als offene Frage markiert, nicht stillschweigend geglättet)<br>🙈 <b>spoilerfrei:</b> zu ungehörten Bänden stehen hier nur Titel, Jahr und Hörbuch-Status — keine Inhalte.</p>
             <div class="blist">
               <div class="brow done"><span class="bn2">1</span><span><b>Noch einmal mit Gefühl</b> <span class="st done">gehört</span><span class="en2">One More Last Time · 2018</span></span><span class="meta">🎧 8 h 53</span></div>
               <div class="brow done"><span class="bn2">2</span><span><b>Heute Erbe, morgen Schachfigur</b> <span class="st done">gehört</span><span class="en2">Heir Today, Pawn Tomorrow · 2018</span></span><span class="meta">🎧 7 h 42</span></div>
@@ -672,8 +715,8 @@
         <article class="work child lik" id="boesenjungs">
           <div class="cover" style="background:linear-gradient(150deg,#4a2140,#2b1428 55%,#170d15)"><div class="cm">🗡️🌃</div><div><div class="ct">DIE BÖSEN JUNGS</div><div class="ca">Eric Ugland</div></div></div>
           <div>
-            <div class="wh"><span class="t">Die bösen Jungs</span><span class="verdict lik">♡ gut <span class="subtle" style="font-weight:400">(sehr vorläufig)</span></span><span class="tag">· 11 Bände · abgeschlossen · 🎧 läuft (dt.) · ▸ bei Bd. 1</span></div>
-            <div class="wmeta"><b>Clyde Hatchett</b> — der New Yorker Trickbetrüger Ben stirbt und wacht mit neuem Gesicht in der Reichshauptstadt <b>Glaton</b> auf: dieselbe Welt, die andere Seite der Moral.
+            <div class="wh"><span class="t">Die bösen Jungs</span><span class="verdict lik">♡ gut <span class="subtle" style="font-weight:400">(sehr vorläufig)</span></span><span class="tag">· 11 Bände erschienen · <b>läuft weiter</b> · 🎧 läuft (dt.) · ▸ bei Bd. 1</span></div>
+            <div class="wmeta"><b>Clyde Hatchett</b> — ein New Yorker Trickbetrüger startet in der Reichshauptstadt <b>Glaton</b> neu: dieselbe Welt, die andere Seite der Moral. <span class="subtle">(Klappentext-Ebene — hier steht nichts über den Verlauf.)</span>
               EN „The Bad Guys" 2019–2024 · Hörbuch dt. <b>Thomas Nicolai</b> (Audible Studios) · Übers. Simone Förster</div>
             <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span><span class="ft"></span></div>
               <div class="fame-lab"><b>Etabliert</b> <span class="hype">⚠ Serien-Wertung nicht belegt (Quellen geblockt)</span></div></div>
@@ -990,109 +1033,223 @@
     </div>
 
 
-    <!-- ============================================================ HÖRREIHENFOLGE -->
+    <!-- ============================================================ REIHENFOLGEN -->
     <div class="view" id="v-reihenfolge">
-      <header class="hero"><h1>🎧 Hörreihenfolge Vuldranni</h1>
-        <p class="lead"><b>Die guten Jungs</b> (16 Bände) und <b>Die bösen Jungs</b> (11 Bände) spielen in derselben Welt und laufen am Ende zusammen.
-          Diese Reihenfolge führt beide zusammen — <b>27 Bände, Schritt für Schritt</b>, nach der Erscheinungsreihenfolge des Originals.</p></header>
+      <header class="hero"><h1>🔢 Reihenfolgen</h1>
+        <p class="lead">In welcher Reihenfolge höre bzw. lese ich was — über <b>alle</b> Werke hinweg.
+          Bei den meisten Reihen ist das trivial (1 → 2 → 3). Interessant wird es, wo ein Universum
+          <b>mehrere Reihen</b> hat, wo ein <b>Prequel</b> lauert oder wo die <b>deutsche Ausgabe</b> nicht hinterherkommt.</p>
+        <p class="spoilerfree">🙈 <b>Spoilerfrei.</b> Zu allem, was ich noch nicht gehört/gelesen habe, stehen hier
+          nur Titel, Jahr, Länge, Verfügbarkeit und die Position in der Reihenfolge — <b>keine Handlung</b>.</p>
+      </header>
 
-      <section>
+      <div class="chips" style="margin:18px 0 0">
+        <a class="chip jump" href="#rf-wichtig" data-view="reihenfolge" data-scroll="rf-wichtig">Wo es wirklich zählt</a>
+        <a class="chip jump" href="#rf-vuldranni" data-view="reihenfolge" data-scroll="rf-vuldranni">🗺️ Vuldranni · 27 Schritte</a>
+        <a class="chip jump" href="#rf-beleg" data-view="reihenfolge" data-scroll="rf-beleg">🔬 Wie gut belegt?</a>
+        <a class="chip jump" href="#rf-goetter" data-view="reihenfolge" data-scroll="rf-goetter">🏰 Streitende Götter</a>
+        <a class="chip jump" href="#rf-dcc" data-view="reihenfolge" data-scroll="rf-dcc">🎮 Dungeon Crawler Carl</a>
+        <a class="chip jump" href="#rf-rest" data-view="reihenfolge" data-scroll="rf-rest">Alle übrigen Reihen</a>
+        <a class="chip jump" href="#rf-engpass" data-view="reihenfolge" data-scroll="rf-engpass">⚠️ Verfügbarkeit</a>
+      </div>
+
+      <section id="rf-wichtig">
+        <h2>Wo die Reihenfolge wirklich zählt — drei Fälle</h2>
+        <div class="grid2">
+          <div class="card2">
+            <h3>🗺️ Vuldranni — zwei Reihen, ein Crossover</h3>
+            <p style="margin:0;font-size:.9rem">Die guten Jungs und die bösen Jungs laufen <b>parallel</b> und treffen am Ende aufeinander.
+              Hier gibt es die <b>einzige harte Regel</b> meiner ganzen Bibliothek: <b>BJ 11 vor GJ 15</b>.</p>
+            <a class="biglink" href="#rf-vuldranni" data-view="reihenfolge" data-scroll="rf-vuldranni">Zur 27-Schritt-Reihenfolge →</a>
+          </div>
+          <div class="card2">
+            <h3>🏰 Die Streitenden Götter — Epos in Etappen</h3>
+            <p style="margin:0;font-size:.9rem">Zwei Reihen, aber <b>nacheinander</b> statt verschränkt: erst Sturmfels-Akademie (5, abgeschlossen),
+              dann Der Prinz von Staub und Schatten (2 von 5). Kein Wahlrecht — der Prinz setzt Sturmfels voraus.</p>
+            <a class="biglink" href="#rf-goetter" data-view="reihenfolge" data-scroll="rf-goetter">Details →</a>
+          </div>
+          <div class="card2">
+            <h3>🗡️ Riyria — die Prequel-Falle</h3>
+            <p style="margin:0;font-size:.9rem">„Riyria Revelations" (das, was ich kenne) ist die <b>Hauptreihe</b>. „Riyria Chronicles" ist ein
+              <b>Prequel</b> — chronologisch zuerst zu lesen wäre die falsche Idee, es nimmt Spannung. Erledigt, aber die Lehre bleibt:
+              <b>Prequels gehören nicht automatisch nach vorn.</b></p>
+          </div>
+          <div class="card2">
+            <h3>⚠️ …und der vierte Fall: Verfügbarkeit</h3>
+            <p style="margin:0;font-size:.9rem">Bei vier Werken existiert die richtige Reihenfolge — nur die <b>deutsche Ausgabe</b> kommt nicht hinterher.
+              Das ist praktisch der häufigste Grund, warum ich nicht weiterhören kann.</p>
+            <a class="biglink" href="#rf-engpass" data-view="reihenfolge" data-scroll="rf-engpass">Engpässe ansehen →</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="rf-vuldranni">
+        <h2>🗺️ Vuldranni (iNcarn8) — die kombinierte Hörreihenfolge, 27 Schritte</h2>
         <div class="grid2">
           <div class="card2">
             <h3>Die drei Regeln</h3>
             <div class="thread">
-              <div class="k">1</div><div><b>Die guten Jungs sind die Basis.</b> Sie legen Welt, Adel und Politik von Vuldranni. Wer sie zuerst hört, versteht die bösen Jungs deutlich besser.</div>
-              <div class="k">2</div><div><b>Umstieg nach Band 5.</b> „Schurken &amp; Halunken" erschien im Original direkt nach „Hochadel für Einsteiger" — ab da Band für Band verschränkt weiterhören.</div>
-              <div class="k">3</div><div><b>Am Ende zwingend:</b> <span style="white-space:nowrap">BJ 11 <span class="arr">→</span> GJ 15</span>. Der Crossover-Band zahlt beide Reihen ein.</div>
+              <div class="k">1</div><div><b>Die guten Jungs sind die Basis.</b> Sie legen Welt, Adel und Politik von Vuldranni. Wer sie zuerst hört, versteht die bösen Jungs besser.</div>
+              <div class="k">2</div><div><b>Umstieg nach Band 5.</b> „Schurken &amp; Halunken" erschien im Original direkt nach „Hochadel für Einsteiger" — ab da Band für Band verschränkt.</div>
+              <div class="k">3</div><div><b>Am Ende zwingend:</b> <span style="white-space:nowrap">BJ 11 <span class="arr">→</span> GJ 15</span>. Der Crossover-Band setzt beide Reihen voraus.</div>
             </div>
           </div>
           <div class="card2">
             <h3>Legende &amp; Stand</h3>
             <div class="seq" style="margin-top:0">
-              <span class="bk gj">GJ&nbsp;n</span> <span class="subtle" style="font-size:.82rem">= Die guten Jungs</span>
+              <span class="bk gj">GJ&nbsp;n</span> <span class="subtle" style="font-size:.82rem">= Die guten Jungs (Robert Frank)</span>
             </div>
             <div class="seq">
-              <span class="bk bj">BJ&nbsp;n</span> <span class="subtle" style="font-size:.82rem">= Die bösen Jungs (gestrichelt)</span>
+              <span class="bk bj">BJ&nbsp;n</span> <span class="subtle" style="font-size:.82rem">= Die bösen Jungs (Thomas Nicolai, gestrichelt)</span>
             </div>
             <div class="seq">
               <span class="bk gj ok">gehört</span> <span class="bk gj hier">hier bist du</span>
             </div>
-            <div class="seq"><span class="subtle" style="font-size:.82rem">Die kleine Zahl oben links ist der <b>Schritt 1–27</b> in der Gesamtreihenfolge.</span></div>
-            <p class="note" style="margin-top:10px"><b>Mein Stand:</b> guten Jungs Bd. 1–5 ✅ · böse Jungs Bd. 1 ▶️ läuft — das ist <b>Schritt 6 von 27</b>.
-              Der Umstieg ist also schon geschafft.</p>
+            <p class="note" style="margin-top:10px">Die kleine Zahl oben links ist der <b>Schritt 1–27</b>.
+              <b>Mein Stand:</b> guten Jungs Bd. 1–5 ✅ · böse Jungs Bd. 1 ▶️ — das ist <b>Schritt 6 von 27</b>.</p>
+          </div>
+        </div>
+        <div class="route">
+          <div class="et">
+            <div class="etn">Etappe 1<b>Der Einstieg</b><span class="subtle" style="font-weight:400">Schritt 1–3 · Original 2018</span><div style="margin-top:6px"><span class="st done">✅ gehört</span></div></div>
+            <div><div class="seq"><span class="bk gj ok"><span class="stp">1</span>GJ&nbsp;1</span> <span class="arr">→</span> <span class="bk gj ok"><span class="stp">2</span>GJ&nbsp;2</span> <span class="arr">→</span> <span class="bk gj ok"><span class="stp">3</span>GJ&nbsp;3</span></div><p class="etwhy">Die guten Jungs legen das Fundament: die Welt, das Spiel iNcarn8, die Regeln.</p></div>
+          </div>
+          <div class="et">
+            <div class="etn">Etappe 2<b>Zweiter Block</b><span class="subtle" style="font-weight:400">Schritt 4–5 · Original 2019</span><div style="margin-top:6px"><span class="st done">✅ gehört</span></div></div>
+            <div><div class="seq"><span class="bk gj ok"><span class="stp">4</span>GJ&nbsp;4</span> <span class="arr">→</span> <span class="bk gj ok"><span class="stp">5</span>GJ&nbsp;5</span></div><p class="etwhy">Weiter in der Basisreihe — bis hierher reicht dein Stand.</p></div>
+          </div>
+          <div class="et here">
+            <div class="etn">Etappe 3<b>Umstieg auf die zweite Reihe</b><span class="subtle" style="font-weight:400">Schritt 6 · Original 2019</span><div style="margin-top:6px"><span class="st now">▶️ du bist hier</span></div></div>
+            <div><div class="seq"><span class="bk bj hier"><span class="stp">6</span>BJ&nbsp;1</span></div><p class="etwhy"><b>Genau hier einsteigen:</b> „Schurken &amp; Halunken“ erschien im Original direkt nach „Hochadel für Einsteiger“. Ab jetzt laufen beide Reihen parallel.</p></div>
+          </div>
+          <div class="et">
+            <div class="etn">Etappe 4<b>Erster Wechsel-Block</b><span class="subtle" style="font-weight:400">Schritt 7–9 · Original 2019</span></div>
+            <div><div class="seq"><span class="bk gj"><span class="stp">7</span>GJ&nbsp;6</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">8</span>BJ&nbsp;2</span> <span class="arr">→</span> <span class="bk gj"><span class="stp">9</span>GJ&nbsp;7</span></div><p class="etwhy">Ab hier wird abwechselnd gehört — Band für Band im Reißverschluss.</p></div>
+          </div>
+          <div class="et">
+            <div class="etn">Etappe 5<b>Dichtester Wechsel-Block</b><span class="subtle" style="font-weight:400">Schritt 10–15 · Original 2020</span></div>
+            <div><div class="seq"><span class="bk bj"><span class="stp">10</span>BJ&nbsp;3</span> <span class="arr">→</span> <span class="bk gj"><span class="stp">11</span>GJ&nbsp;8</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">12</span>BJ&nbsp;4</span> <span class="arr">→</span> <span class="bk gj"><span class="stp">13</span>GJ&nbsp;9</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">14</span>BJ&nbsp;5</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">15</span>BJ&nbsp;6</span></div><p class="etwhy">Sechs Bände im Wechsel. ⚠️ Ab Schritt 14 kann das <b>deutsche Hörbuch</b> knapp werden (belegt eingelesen: guten Jungs bis Bd. 9, böse Jungs bis Bd. 8).</p></div>
+          </div>
+          <div class="et">
+            <div class="etn">Etappe 6<b>Mittelteil I</b><span class="subtle" style="font-weight:400">Schritt 16–19 · Original 2021</span></div>
+            <div><div class="seq"><span class="bk gj"><span class="stp">16</span>GJ&nbsp;10</span> <span class="arr">→</span> <span class="bk gj"><span class="stp">17</span>GJ&nbsp;11</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">18</span>BJ&nbsp;7</span> <span class="arr">→</span> <span class="bk gj"><span class="stp">19</span>GJ&nbsp;12</span></div><p class="etwhy"><span class="freetag">frei tauschbar</span> <span class="subtle">Mittelteil (Schritte 16–24): beide Handlungen laufen weitgehend parallel, die exakte Reihenfolge ist <b>nicht kritisch</b>. Fehlt ein dt. Hörbuch, einfach den nächsten verfügbaren Band nehmen.</span></p></div>
+          </div>
+          <div class="et">
+            <div class="etn">Etappe 7<b>Mittelteil II</b><span class="subtle" style="font-weight:400">Schritt 20–22 · Original 2022</span></div>
+            <div><div class="seq"><span class="bk gj"><span class="stp">20</span>GJ&nbsp;13</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">21</span>BJ&nbsp;8</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">22</span>BJ&nbsp;9</span></div><p class="etwhy"><span class="freetag">frei tauschbar</span> <span class="subtle">Mittelteil (Schritte 16–24): beide Handlungen laufen weitgehend parallel, die exakte Reihenfolge ist <b>nicht kritisch</b>. Fehlt ein dt. Hörbuch, einfach den nächsten verfügbaren Band nehmen.</span></p></div>
+          </div>
+          <div class="et">
+            <div class="etn">Etappe 8<b>Mittelteil III</b><span class="subtle" style="font-weight:400">Schritt 23–24 · Original 2023</span></div>
+            <div><div class="seq"><span class="bk gj"><span class="stp">23</span>GJ&nbsp;14</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">24</span>BJ&nbsp;10</span></div><p class="etwhy"><span class="freetag">frei tauschbar</span> <span class="subtle">Mittelteil (Schritte 16–24): beide Handlungen laufen weitgehend parallel, die exakte Reihenfolge ist <b>nicht kritisch</b>. Fehlt ein dt. Hörbuch, einfach den nächsten verfügbaren Band nehmen.</span></p></div>
+          </div>
+          <div class="et hard">
+            <div class="etn">Etappe 9<b>Crossover — Reihenfolge zwingend</b><span class="subtle" style="font-weight:400">Schritt 25–26 · Original 2024</span><div style="margin-top:6px"><span class="st cross">🔀 Crossover</span></div></div>
+            <div><div class="seq"><span class="bk bj"><span class="stp">25</span>BJ&nbsp;11</span> <span class="arr">→</span> <span class="bk gj"><span class="stp">26</span>GJ&nbsp;15</span></div><p class="etwhy"><b>Die eine harte Regel:</b> „2 Lügen, 2 Throne“ muss <b>vor</b> „Kampf um den Keramikthron“ kommen. Band 15 der guten Jungs <b>setzt beide Reihen voraus</b> und löst Aufgebautes aus beiden ein — andersherum nimmst du dir den zweiten Strang vorweg. <span class="subtle">(Warum genau, steht hier bewusst nicht — spoilerfrei.)</span></p></div>
+          </div>
+          <div class="et">
+            <div class="etn">Etappe 10<b>Abschluss (Stand heute)</b><span class="subtle" style="font-weight:400">Schritt 27 · Original 2025</span></div>
+            <div><div class="seq"><span class="bk gj"><span class="stp">27</span>GJ&nbsp;16</span></div><p class="etwhy">Der bislang letzte erschienene Band. ⚠️ <b>Die Reihen gehen weiter:</b> guten Jungs Bd. 17 und böse Jungs Bd. 12 sind für 2026 angekündigt.</p></div>
           </div>
         </div>
       </section>
 
-      <section>
-        <h2>Die 11 Etappen</h2>
-        <div class="route">
-        <div class="et">
-          <div class="etn">Etappe 1<b>Einstieg — Welt kennenlernen</b><span class="subtle" style="font-weight:400">Schritt 1–3 · Original 2018</span><div style="margin-top:6px"><span class="st done">✅ gehört</span></div></div>
-          <div><div class="seq"><span class="bk gj ok"><span class="stp">1</span>GJ&nbsp;1</span> <span class="arr">→</span> <span class="bk gj ok"><span class="stp">2</span>GJ&nbsp;2</span> <span class="arr">→</span> <span class="bk gj ok"><span class="stp">3</span>GJ&nbsp;3</span></div><p class="etwhy">Die guten Jungs legen das Fundament: Vuldranni, das Spiel iNcarn8, die Regeln.</p></div>
-        </div>
-        <div class="et">
-          <div class="etn">Etappe 2<b>Herzogtum &amp; Adel</b><span class="subtle" style="font-weight:400">Schritt 4–5 · Original 2019</span><div style="margin-top:6px"><span class="st done">✅ gehört</span></div></div>
-          <div><div class="seq"><span class="bk gj ok"><span class="stp">4</span>GJ&nbsp;4</span> <span class="arr">→</span> <span class="bk gj ok"><span class="stp">5</span>GJ&nbsp;5</span></div><p class="etwhy">Montana erbt und beginnt aufzubauen — der Adel kommt ins Spiel, den die andere Reihe später von unten zeigt.</p></div>
-        </div>
-        <div class="et here">
-          <div class="etn">Etappe 3<b>Umstieg: die andere Seite</b><span class="subtle" style="font-weight:400">Schritt 6 · Original 2019</span><div style="margin-top:6px"><span class="st now">▶️ du bist hier</span></div></div>
-          <div><div class="seq"><span class="bk bj hier"><span class="stp">6</span>BJ&nbsp;1</span></div><p class="etwhy"><b>Genau hier einsteigen:</b> „Schurken &amp; Halunken“ erschien im Original direkt nach „Hochadel für Einsteiger“. Ab jetzt laufen beide Stränge parallel — Clyde in Glaton, Montana im Herzogtum.</p></div>
-        </div>
-        <div class="et">
-          <div class="etn">Etappe 4<b>Beide Seiten im Wechsel</b><span class="subtle" style="font-weight:400">Schritt 7–9 · Original 2019</span></div>
-          <div><div class="seq"><span class="bk gj"><span class="stp">7</span>GJ&nbsp;6</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">8</span>BJ&nbsp;2</span> <span class="arr">→</span> <span class="bk gj"><span class="stp">9</span>GJ&nbsp;7</span></div><p class="etwhy">Ab hier wird echt verschränkt — Band für Band abwechselnd.</p></div>
-        </div>
-        <div class="et">
-          <div class="etn">Etappe 5<b>Der dichteste Wechselblock</b><span class="subtle" style="font-weight:400">Schritt 10–15 · Original 2020</span></div>
-          <div><div class="seq"><span class="bk bj"><span class="stp">10</span>BJ&nbsp;3</span> <span class="arr">→</span> <span class="bk gj"><span class="stp">11</span>GJ&nbsp;8</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">12</span>BJ&nbsp;4</span> <span class="arr">→</span> <span class="bk gj"><span class="stp">13</span>GJ&nbsp;9</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">14</span>BJ&nbsp;5</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">15</span>BJ&nbsp;6</span></div><p class="etwhy">Sechs Bände im Reißverschluss. ⚠️ Ab Schritt 14 kann das <b>deutsche Hörbuch</b> knapp werden (belegt eingelesen: guten Jungs bis Bd. 9, böse Jungs bis Bd. 8).</p></div>
-        </div>
-        <div class="et">
-          <div class="etn">Etappe 6<b>Montana zieht davon</b><span class="subtle" style="font-weight:400">Schritt 16–19 · Original 2021</span></div>
-          <div><div class="seq"><span class="bk gj"><span class="stp">16</span>GJ&nbsp;10</span> <span class="arr">→</span> <span class="bk gj"><span class="stp">17</span>GJ&nbsp;11</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">18</span>BJ&nbsp;7</span> <span class="arr">→</span> <span class="bk gj"><span class="stp">19</span>GJ&nbsp;12</span></div><p class="etwhy"><span class="freetag">frei tauschbar</span> Im Mittelteil (Schritte 16–24) laufen beide Handlungen weitgehend parallel — hier ist die exakte Reihenfolge <b>nicht kritisch</b>. Praktisch: wenn ein dt. Hörbuch noch fehlt, einfach den nächsten verfügbaren Band nehmen.</p></div>
-        </div>
-        <div class="et">
-          <div class="etn">Etappe 7<b>Vorbereitung</b><span class="subtle" style="font-weight:400">Schritt 20–22 · Original 2022</span></div>
-          <div><div class="seq"><span class="bk gj"><span class="stp">20</span>GJ&nbsp;13</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">21</span>BJ&nbsp;8</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">22</span>BJ&nbsp;9</span></div><p class="etwhy"><span class="freetag">frei tauschbar</span> <span class="subtle">gehört zum unkritischen Mittelteil (Schritte 16–24)</span></p></div>
-        </div>
-        <div class="et">
-          <div class="etn">Etappe 8<b>Letzte Aufstellung</b><span class="subtle" style="font-weight:400">Schritt 23–24 · Original 2023</span></div>
-          <div><div class="seq"><span class="bk gj"><span class="stp">23</span>GJ&nbsp;14</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">24</span>BJ&nbsp;10</span></div><p class="etwhy"><span class="freetag">frei tauschbar</span> <span class="subtle">gehört zum unkritischen Mittelteil (Schritte 16–24)</span></p></div>
-        </div>
-        <div class="et hard">
-          <div class="etn">Etappe 9<b>Crossover — Reihenfolge zwingend</b><span class="subtle" style="font-weight:400">Schritt 25–26 · Original 2024</span><div style="margin-top:6px"><span class="st cross">🔀 Crossover</span></div></div>
-          <div><div class="seq"><span class="bk bj"><span class="stp">25</span>BJ&nbsp;11</span> <span class="arr">→</span> <span class="bk gj"><span class="stp">26</span>GJ&nbsp;15</span></div><p class="etwhy"><b>Die eine harte Regel:</b> „2 Lügen, 2 Throne“ muss <b>vor</b> „Kampf um den Keramikthron“ kommen. In Band 15 tun Montana und Clyde sich zusammen — der Band zahlt die Vorarbeit <b>beider</b> Reihen ein. Andersherum spoilerst du dir den ganzen Clyde-Strang.</p></div>
-        </div>
-        <div class="et">
-          <div class="etn">Etappe 10<b>Finale</b><span class="subtle" style="font-weight:400">Schritt 27 · Original 2025</span></div>
-          <div><div class="seq"><span class="bk gj"><span class="stp">27</span>GJ&nbsp;16</span></div><p class="etwhy">Der Abschluss des Universums (soweit auf Deutsch erzählt).</p></div>
-        </div>
-        </div>
-      </section>
-
-      <section>
-        <h2>Wichtige Einschränkungen — ehrlich gesagt</h2>
+      <section id="rf-beleg">
+        <h2>🔬 Wie gut ist diese Reihenfolge eigentlich belegt?</h2>
         <div class="panel">
-          <div class="asp"><span class="b">!</span><b>Das deutsche Hörbuch kann diese Reihenfolge überholen.</b> Belegt eingelesen sind bislang <b>guten Jungs bis Bd. 9</b> und <b>böse Jungs bis Bd. 8</b> — die Bücher gibt es komplett, die Hörbücher noch nicht. Ab Etappe 8 also vorher prüfen, ob der nächste Band schon vorliegt. Bis dahin sind es noch ~12 Bände Puffer.</div>
-          <div class="asp"><span class="b">!</span><b>Im Mittelteil (Schritte 16–24) ist die exakte Reihenfolge nicht kritisch.</b> Die Handlungen laufen dort weitgehend parallel — man darf frei tauschen, etwa wenn ein dt. Hörbuch noch fehlt. <b>Hart ist nur eines: BJ 11 vor GJ 15.</b></div>
-          <div class="asp"><span class="b">!</span><b>Beide Reihen sind auch einzeln vollständig hörbar.</b> Diese Reihenfolge ist ein Optimum, kein Zwang — nur die Crossover-Regel (Etappe 10) sollte man wirklich einhalten.</div>
-          <p class="note"><b>Quellen dieser Reihenfolge:</b> Erscheinungschronologie der Originalausgaben (FantasticFiction, aufbereitet von <i>Most Recommended Books</i>), die Verlags-/Community-Aussage „beide Reihen sind unabhängig lesbar, aber weltbewegende Ereignisse werden aus zwei Perspektiven erzählt", die Leserempfehlung „erst die guten Jungs für Welt- und Politikwissen" und die Crossover-Anlage von „Bad to the Throne" (= GJ 15). Die Jahre sind <b>Original-eBook-Erscheinungen</b>; die dt. Hörbücher kamen später und in anderer Taktung. Vollständig im Vault hinterlegt.</p>
+          <p style="margin:0 0 12px;font-size:.9rem">Ehrlich aufgeschlüsselt statt pauschal — nicht alles daran ist gleich sicher:</p>
+          <div class="conf"><span class="cl hi">hoch</span><div><b>BJ 11 vor GJ 15</b> — die harte Regel.
+            Drei unabhängige Belege: die <b>Erscheinungsdaten</b> (21.04.2024 vs. 08.06.2024, also sechs Wochen Abstand),
+            der Verlagstext zu GJ 15 („zahlt jahrelange Vorarbeit <i>beider</i> Reihen ein") und eine Leser-Rezension,
+            die genau davor warnt, in der anderen Reihe hinterherzuhinken.</div></div>
+          <div class="conf"><span class="cl mid">mittel-hoch</span><div><b>Prinzip Erscheinungsreihenfolge</b> — Standard für Parallelreihen,
+            von mehreren Reihenfolge-Datenbanken so geführt. Aber: <b>kein Statement des Autors auffindbar</b>.</div></div>
+          <div class="conf"><span class="cl mid">mittel</span><div><b>Guten Jungs zuerst als Basis</b> — zwei Belege (Leser-Empfehlung + Verlagstext),
+            beides eine <i>Empfehlung</i>, keine Notwendigkeit. Beide Reihen sind offiziell auch einzeln hörbar.</div></div>
+          <div class="conf"><span class="cl mid">mittel</span><div><b>Umstieg genau nach GJ 5</b> — BJ 1 ist auf den <b>15.08.2019</b> datiert,
+            für GJ 5 ist nur das Jahr belegt. Die Klammer stimmt, der exakte Monat fehlt.</div></div>
+          <div class="conf"><span class="cl lo">niedrig-mittel</span><div><b>Der Mittelteil bandgenau</b> — beruht auf <b>einer</b> Quelle.
+            Meine Stichproben passen (BJ 2 am 17.10.2019, GJ 7 am 14.12.2019). Und laut derselben Quelle ist der Mittelteil
+            <b>ohnehin unkritisch</b> — dort darf getauscht werden.</div></div>
+          <p class="note" style="margin-top:14px"><b>Fazit:</b> Es gibt keine nachweisbar „optimale" Reihenfolge — es gibt
+            <b>eine gut belegte harte Regel</b> und darum herum eine <b>sinnvolle Konvention</b>. Diese Fassung ist
+            begründet, nicht bewiesen. Praktischer Vorteil: sie passt exakt zu dem Weg, den ich ohnehin schon eingeschlagen habe.</p>
+          <p class="note"><b>Die Alternative, die es auch gibt:</b> erst die guten Jungs komplett, dann die bösen Jungs.
+            Ebenfalls eine belegte Leser-Empfehlung — sie bricht aber die Crossover-Regel, weil GJ 15 dann vor BJ 11 käme.
+            Wer seriell hören will, müsste GJ 15–16 ans Ende schieben.</p>
+          <p class="note"><b>Nicht erreichbar in dieser Recherche:</b> die Website des Autors und das Fandom-Wiki
+            (beide vom Netzwerk blockiert). Ein offizielles Autoren-Statement zur Reihenfolge konnte ich daher nicht prüfen.</p>
         </div>
       </section>
 
-      <section>
-        <h2>Die zwei Reihen im Detail</h2>
-        <div class="grid2">
-          <a class="mini" href="#gutenjungs" data-view="werke" data-scroll="gutenjungs">
-            <div class="cover sm" style="background:linear-gradient(150deg,#2f5f45,#1d3b2c 55%,#14211a)"><div class="cm">🛡️</div><div class="ct">GJ</div></div>
-            <div><div class="mt">Die guten Jungs</div><div class="mm">alle 16 Bände einzeln · Montana Coggeshall</div>
-              <span class="subtle" style="font-size:.8rem">mit dt./engl. Titeln, Jahren und Hörbuch-Stand →</span></div>
-          </a>
-          <a class="mini" href="#boesenjungs" data-view="werke" data-scroll="boesenjungs">
-            <div class="cover sm" style="background:linear-gradient(150deg,#4a2140,#2b1428 55%,#170d15)"><div class="cm">🗡️</div><div class="ct">BJ</div></div>
-            <div><div class="mt">Die bösen Jungs</div><div class="mm">alle 11 Bände einzeln · Clyde Hatchett</div>
-              <span class="subtle" style="font-size:.8rem">mit dt./engl. Titeln, Jahren und Hörbuch-Stand →</span></div>
-          </a>
+      <section id="rf-goetter">
+        <h2>🏰 Die Streitenden Götter — nacheinander, nicht verschränkt</h2>
+        <div class="panel">
+          <div class="seq" style="margin-top:0">
+            <span class="bk gj ok"><span class="stp">1</span>Sturmfels&nbsp;1–5</span>
+            <span class="arr">→</span>
+            <span class="bk bj ok"><span class="stp">2</span>Prinz&nbsp;1–2</span>
+            <span class="arr">→</span>
+            <span class="bk bj"><span class="stp">3</span>Prinz&nbsp;3–5</span>
+          </div>
+          <p class="etwhy" style="margin-top:10px">Zwei Reihen im selben Epos, aber <b>ohne Verschränkung</b>:
+            <b>Sturmfels-Akademie</b> (5 Bände, abgeschlossen 2023–2025) kommt zuerst, danach
+            <b>Der Prinz von Staub und Schatten</b> (2 von 5 geplant, seit 2026). Der Prinz-Zyklus baut auf dem Sturmfels-Zyklus auf.</p>
+          <div class="asp"><span class="g">✓</span><b>Beides gehört</b> — 7 von ~10 geplanten Bänden.</div>
+          <div class="asp"><span style="color:var(--muted);font-weight:800;margin-right:7px">○</span>Wartet auf Prinz Bd. 3 „Hoffnung" — <b>Termin offen</b> (Titel über die Saltatio-Mortis-EPs gesichert).</div>
+          <div class="asp"><span style="color:var(--muted);font-weight:800;margin-right:7px">○</span>Nur auf Deutsch — kein Übersetzungs-Warten, dafür international eine Nische.</div>
+        </div>
+      </section>
+
+      <section id="rf-dcc">
+        <h2>🎮 Dungeon Crawler Carl — einfache Bandreihenfolge, komplizierte Verfügbarkeit</h2>
+        <div class="panel">
+          <div class="seq" style="margin-top:0">
+            <span class="bk gj ok"><span class="stp">1</span>Bd.&nbsp;1</span>
+            <span class="bk gj hier"><span class="stp">2</span>Bd.&nbsp;2</span>
+            <span class="bk gj"><span class="stp">3</span>Bd.&nbsp;3</span>
+            <span class="bk gj"><span class="stp">…</span>Bd.&nbsp;4–8</span>
+            <span class="arr">→</span>
+            <span class="bk bj"><span class="stp">9</span>Finale</span>
+          </div>
+          <p class="etwhy" style="margin-top:10px">Reihenfolge trivial (1 → 9). Der Knackpunkt ist die <b>Sprache</b>:
+            englisch sind 8 von 9 Bänden da, auf Deutsch bin ich bei Bd. 2.</p>
+          <div class="asp"><span class="g">✓</span>Dt. Bd. 3 „The Dungeon Anarchist's Cookbook" — <b>Print 18.11.2026</b>, Hörbuch noch ohne Termin.</div>
+          <div class="asp"><span class="g">✓</span>Dt. Bd. 4 — Print <b>24.02.2027</b>, Bd. 5 ~23.06.2027 (Fischer Tor).</div>
+          <div class="asp"><span style="color:var(--muted);font-weight:800;margin-right:7px">○</span>Bd. 9 (Finale, EN) — kein Termin.</div>
+          <p class="note">Genau diese Lücke zwischen den deutschen Bänden ist es, die Empfehlungen füllen sollen.</p>
+        </div>
+      </section>
+
+      <section id="rf-rest">
+        <h2>Alle übrigen Reihen — Bandreihenfolge, ohne Fallstricke</h2>
+        <div class="panel" style="padding:0;overflow:hidden">
+          <div class="rf-tab">
+            <div class="rf-row rf-head"><span>Reihe</span><span>Ablauf</span><span>Bände</span><span>Auf Deutsch</span><span>Hinweis</span></div>
+            <div class="rf-row"><span><b>Alex Verus</b></span><span>1 → 12</span><span>12 · fertig</span><span>🎧 vollständig</span><span>⚠️ <b>Haus Ashford ist NICHT dieselbe Welt</b> — gleicher Autor, eigenes Universum</span></div>
+            <div class="rf-row"><span><b>Haus Ashford</b></span><span>1 → 3 (läuft)</span><span>3 von ~10</span><span>🎧 vollständig</span><span>Bd. 4 ohne Titel/Termin</span></div>
+            <div class="rf-row"><span><b>Der Donnerstagsmordclub</b></span><span>1 → 5</span><span>5 · Bd. 6 für 2027</span><span>🎧 vollständig</span><span>„We Solve Murders" ist eine eigene Reihe — kein Muss</span></div>
+            <div class="rf-row"><span><b>Die mörderischen Cunninghams</b></span><span>1 → 4</span><span>4 EN · <b>2 DE</b></span><span>📖 nur Bd. 1–2</span><span>⚠️ dt. Fortsetzung nicht angekündigt</span></div>
+            <div class="rf-row"><span><b>Magic 2.0</b></span><span>1 → 6</span><span>6 EN · <b>2 DE</b></span><span>📖 nur Bd. 1–2</span><span>⚠️ dt. Übersetzung eingestellt — Rest nur englisch</span></div>
+            <div class="rf-row"><span><b>Survival Quest</b></span><span>1 → 7</span><span>7 · fertig</span><span>🎧 vollständig</span><span>Spin-off „The Bard from Barliona" optional</span></div>
+            <div class="rf-row"><span><b>Scholomance</b></span><span>1 → 3</span><span>3 · fertig</span><span>🎧 vollständig</span><span>—</span></div>
+            <div class="rf-row"><span><b>Riyria</b> (Revelations)</span><span>1 → 6</span><span>6 · fertig</span><span>🎧 vollständig</span><span>⚠️ Prequel „Riyria Chronicles" <b>nicht</b> vorher</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="rf-engpass">
+        <h2>⚠️ Verfügbarkeit schlägt Reihenfolge</h2>
+        <div class="panel">
+          <p style="margin:0 0 10px;font-size:.9rem">Das wiederkehrende Muster meiner Bibliothek: die richtige Reihenfolge existiert —
+            aber die <b>deutsche Ausgabe</b> kommt nicht hinterher. Und Deutsch ist bei mir kein Nice-to-have:
+            bei <b>Magic 2.0</b> hat die Englisch-Müdigkeit eine <i>geliebte</i> Reihe bei Band 4 gestoppt.</p>
+          <div class="rf-tab" style="border:1px solid var(--line);border-radius:12px;overflow:hidden">
+            <div class="rf-row rf-head" style="grid-template-columns:1.2fr 2fr"><span>Werk</span><span>Engpass</span></div>
+            <div class="rf-row" style="grid-template-columns:1.2fr 2fr"><span><b>Dungeon Crawler Carl</b></span><span>dt. bei Bd. 2 · EN bei Bd. 8 — dt. Bd. 3 erst 18.11.2026 (Print)</span></div>
+            <div class="rf-row" style="grid-template-columns:1.2fr 2fr"><span><b>Vuldranni</b> (guten/böse Jungs)</span><span>dt. <b>Hörbuch</b> hinter dem dt. Buch — belegt eingelesen: GJ bis Bd. 9, BJ bis Bd. 8</span></div>
+            <div class="rf-row" style="grid-template-columns:1.2fr 2fr"><span><b>Die mörderischen Cunninghams</b></span><span>dt. bei Bd. 2 · EN bei Bd. 4</span></div>
+            <div class="rf-row" style="grid-template-columns:1.2fr 2fr"><span><b>Magic 2.0</b></span><span>dt. nach Bd. 2 eingestellt — Bd. 3–6 nur englisch</span></div>
+          </div>
         </div>
       </section>
     </div>
@@ -1198,7 +1355,9 @@
           <div class="rel-row"><div class="rel-date">danach</div>
             <div class="rel-what">DCC Bd. 4 dt. Print <b>24.02.2027</b> (Bd. 5+ unterminiert) · Prinz Bd. 4 „Zorn" / Bd. 5 „Vollendung" (Termine offen) · Saltatio-Mortis-EPs zum Prinzen</div></div>
           <div class="rel-row"><div class="rel-date">laufend <small>⚠️ Termine unbelegt</small></div>
-            <div class="rel-what"><span class="flag de">DE</span> <b>Vuldranni — dt. Hörbuch-Produktion</b><div class="s">Bücher komplett erschienen (guten Jungs 16 · böse Jungs 11), <b>Hörbücher noch nicht</b>: belegt eingelesen sind guten Jungs bis Bd. 9 und böse Jungs bis Bd. 8. Für meine <a href="#reihenfolge" data-view="reihenfolge">Hörreihenfolge</a> heißt das: ab Etappe 8 vorher prüfen — bis dahin ~12 Bände Puffer.</div></div></div>
+            <div class="rel-what"><span class="flag de">DE</span> <b>Vuldranni — dt. Hörbuch-Produktion</b><div class="s">16 bzw. 11 Bände als Buch erschienen, <b>Hörbücher noch nicht</b>: belegt eingelesen sind guten Jungs bis Bd. 9 und böse Jungs bis Bd. 8. Für meine <a href="#rf-vuldranni" data-view="reihenfolge" data-scroll="rf-vuldranni">Hörreihenfolge</a> heißt das: ab Schritt 14 vorher prüfen — bis dahin ~8 Bände Puffer.</div></div>
+          <div class="rel-row"><div class="rel-date">2026 <small>⚠️ Termin offen</small></div>
+            <div class="rel-what"><span class="flag en">EN</span> <b>Die guten Jungs Bd. 17 · Die bösen Jungs Bd. 12</b><div class="s">Beide für 2026 angekündigt — <b>keine der Reihen ist abgeschlossen</b> (Korrektur 11.08.2026). Dt. Ausgaben entsprechend später.</div></div></div></div>
         </div>
         <p class="note">Aktuell am Hören: <b>Die bösen Jungs Bd. 1</b> „Schurken &amp; Halunken" (dt.) — parallel sind die <b>guten Jungs</b> bis Bd. 5 durch. Davor: <b>DCC Bd. 2</b> „Carl's Doomsday Scenario" (dt.). Zwischen den dt. DCC-Bänden ist die Lücke, die Empfehlungen füllen sollen.</p>
       </section>
@@ -1285,7 +1444,8 @@
       a.classList.toggle("active", a.getAttribute("data-view")===view && !a.getAttribute("data-scroll"));
     });
     menu.querySelectorAll(".mi").forEach(function(mi){
-      mi.classList.toggle("activeparent", view==="werke");
+      var mb = mi.querySelector("button");
+      mi.classList.toggle("activeparent", !!mb && mb.getAttribute("data-view")===view);
     });
     window.scrollTo(0,0);
     if(scrollId){

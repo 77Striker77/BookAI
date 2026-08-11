@@ -56,7 +56,11 @@ BAND_RE = re.compile(
 )
 # Wo ein Werk erwähnt wird, ohne Zahl: "spätere Bände", "kommende Bände"
 SPAETER_RE = re.compile(
-    r"\b(spätere[nr]?\s+bänd|kommende[nr]?\s+bänd|folgebänd|later\s+book|subsequent\s+book)",
+    r"\b(spätere[nr]?\s+bänd|kommende[nr]?\s+bänd|folgebänd|later\s+book|subsequent\s+book"
+    # "im letzten Band", "am Ende der Reihe" liegen bei jedem unvollständig erlebten
+    # Werk per Definition jenseits der Grenze
+    r"|im\s+letzten\s+band|letzten\s+band\s+der\s+reihe|am\s+ende\s+der\s+reihe"
+    r"|zum\s+schluss\s+der\s+reihe|im\s+reihenfinale)",
     re.IGNORECASE,
 )
 

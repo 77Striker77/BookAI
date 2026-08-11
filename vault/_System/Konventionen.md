@@ -86,10 +86,30 @@ Götter" = Sturmfels-Akademie + Prinz von Staub und Schatten):
   (eingerückt/als Kinder). Jede Reihe bleibt inhaltlich für sich voll bewertet.
 - Matching: Reihen-Aspekte + geerbte Overall-Aspekte zusammen.
 
-## 🔒 Spoiler-Grenze je Werk (Pflichtfelder)
+## 🔒 Spoilerfreiheit (Nutzerregel 2026-08-11)
 
-Jede Werk-Notiz trägt die bandgenaue Grenze, gegen die jede Ausgabe geprüft wird. Regeln:
-[[Spoiler-Politik]] · Wortlisten: [[Spoiler-Lexikon]].
+> „wichtig ist auch im artefakt sollen keine inhaltlichen **spoiler** sein zu den teilen die
+> ich noch nicht gelesen oder gehört habe!“
+
+Verbindliche Ausformulierung: [[Spoiler-Politik]] (Wortlisten: [[Spoiler-Lexikon]]).
+Gilt für **jede Ausgabe** — Artefakt, Chat-Antwort, Subagenten-Rückgabe. Der **Vault darf
+mehr enthalten** (Arbeitsmaterial), versteckt Spoiliges aber im eingeklappten
+`> [!warning]- 🔒 SPOILER`-Block. Maßgeblich ist der **Lesestand** des jeweiligen Werks.
+
+| jenseits des Lesestands | erlaubt? |
+| --- | --- |
+| Titel (DE/EN), Bandnummer, Jahr, Hördauer, Sprecher, Verlag, ISBN | ✅ |
+| Verfügbarkeit, Position in einer Lese-/Hörreihenfolge | ✅ |
+| Wertungen, Stimmenzahl, Bekanntheit | ✅ |
+| **Handlung, Wendungen, Figuren-Entwicklung, Orte, Ausgang eines Bandes** | ❌ |
+| Community-Kritik, die Inhalte verrät (etwa: wer in Band Y ausscheidet) | ❌ |
+| Community-Kritik ohne Inhalt („Bd. 7 hat Leerlauf“) | ✅ |
+
+**Grenzfall Reihenfolge-Begründung:** Dass ein Band zwei Stränge zusammenführt, ist
+**Reihenfolge-Information** und darf stehen — sonst wäre die Regel nicht begründbar. **Wie**
+das geschieht, bleibt draußen. Im Zweifel: die Reihenfolge-Wirkung nennen, nicht die Handlung.
+
+### Die Grenze maschinenlesbar (Pflichtfelder je Werk-Notiz)
 
 ```yaml
 spoiler_erlebt_bis: 5        # letzter VOLLSTÄNDIG erlebter Band (0 = keiner)
@@ -107,6 +127,9 @@ spoiler_unerlebte_reihen: [] # Reihen im selben Universum, die NIE erlebt wurden
 - Handlungsdetails jenseits der Grenze gehören in der Notiz in einen eingeklappten Callout:
   `> [!warning]- 🔒 SPOILER — ab Bd. 7 (mein Stand: Bd. 5)`.
 - Kontrolle: `python3 scripts/spoiler_check.py --grenzen`.
+- Der **laufende Band zählt als NICHT erlebt**; unbekanntes Werk = ungelesen (fail-closed).
+- Prüfen: `bash scripts/spoiler-gate.sh` (deterministisch) **und** Agent `spoiler-guard`
+  (semantisch). Beides ist Pflicht vor jedem Artefakt-Publish.
 
 ## Format (gelesen/gehört) — die Basis ist immer das Buch, der Sprecher ist Bonus
 

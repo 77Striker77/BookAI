@@ -30,6 +30,15 @@ opfert sich
 opfertod
 fällt im kampf
 tod (von|des|der)
+# --- Ausscheiden/Abwesenheit (Paraphrasen ohne Todeswort) ---
+scheidet aus
+scheidet in .{0,20}(bd|band)\.? ?\d
+ist ab (bd|band)\.? ?\d+ nicht mehr
+kommt (ab|in) (bd|band)\.? ?\d+ nicht mehr
+taucht (ab|in) (bd|band)\.? ?\d+ nicht mehr auf
+verlässt die (gruppe|truppe|reihe|crew)
+ist nicht mehr (dabei|teil der)
+verabschiedet sich aus der (reihe|handlung)
 # --- Verrat & Identität ---
 verrät
 verrat (von|des|der|an)
@@ -86,7 +95,7 @@ Ein Treffer = **Warnung** (kein Block, aber der `spoiler-guard` schaut drauf).
 finale
 das ende
 schluss der reihe
-letzter band
+im letzten band
 höhepunkt der handlung
 auflösung
 wendepunkt

@@ -9,11 +9,11 @@ jahr_start: 2019
 erscheinungsdatum_bd1: "2019"        # EN „Scamps & Scoundrels"; dt. Hörbuch 2023
 letztes_datum: "2024"                # Bd. 11 „2 Lies, 2 Thrones"
 baende_gesamt: 11
-baende_geplant: 11
-abgeschlossen: true
-angekuendigt: "keine Fortsetzung bekannt; Universum läuft EN mit „The Grim Guys" weiter"
+baende_geplant: 12          # ⚠️ KORREKTUR 2026-08-11: Bd. 12 für 2026 angekündigt
+abgeschlossen: false       # ⚠️ KORREKTUR: Reihe läuft weiter (Bd. 12)
+angekuendigt: "Bd. 12 für 2026 angekündigt (Risingshadow) — Reihe NICHT abgeschlossen. Universum zusätzlich: The Grim Guys (EN)"
 naechster_band_de: "Buch: alle 11 erschienen · HÖRBUCH: ⚠️ Produktion läuft (belegt bis Bd. 8), nächster Termin unbelegt"
-naechster_band_en: "keiner (Reihe abgeschlossen)"
+naechster_band_en: "Bd. 12 — 2026 angekündigt, Titel/Termin offen"
 sprachen_verfuegbar: [de, en]
 sprache_erlebt: "de"
 verlag_de: "LMBPN International"
@@ -71,8 +71,8 @@ tags: [werk, reihe, hoerbuch, liked, litrpg]
 Vuldranni mit neuem Gesicht und neuem Namen auf: **Clyde Hatchett**, gelandet in der
 Reichshauptstadt **Glaton**. Er will seine Diebeskarriere neu starten und das „Spiel" als
 Robin-Hood-Typ spielen — dieselbe Welt wie [[Die guten Jungs]], nur von der **anderen Seite
-der Moral**. 11 Bände (2019–2024, „Schurken & Halunken" bis „2 Lügen, 2 Throne"),
-**abgeschlossen**.
+der Moral**. 11 Bände erschienen (2019–2024, „Schurken & Halunken“ bis „2 Lügen, 2 Throne“).
+⚠️ **Korrektur 2026-08-11: NICHT abgeschlossen — Bd. 12 ist für 2026 angekündigt.**
 
 **Kontext:** [[LitRPG]] · **Autor:** [[Eric Ugland]] · **Sprecher:** [[Thomas Nicolai]] ·
 **Parallelreihe:** [[Die guten Jungs]]
@@ -116,10 +116,10 @@ beim verschränkten Hören, weil sich das Tempo-Gefühl beim Wechsel ändert.
 
 ## 🗓️ Nächste Releases & Planung
 
-- **Buch DE:** alle 11 Bände erschienen.
+- **Buch DE:** 11 Bände erschienen. ⚠️ **Bd. 12 für 2026 angekündigt.**
 - **Hörbuch DE:** ⚠️ **belegt bis Bd. 8** (2025). Für die verschränkte Hörreihenfolge ist das
   der **engere** Flaschenhals — die bösen Jungs werden vermutlich zuerst „ausgehen".
-- **EN:** Reihe abgeschlossen (Bd. 11, 2024).
+- **EN:** ⚠️ **Bd. 12 für 2026 angekündigt** — Reihe läuft weiter (letzter Band: Bd. 11, 2024).
 
 ## Lesestand (meine Formate)
 

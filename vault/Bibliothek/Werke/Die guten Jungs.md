@@ -9,11 +9,11 @@ jahr_start: 2018
 erscheinungsdatum_bd1: "2018"        # EN „One More Last Time"; dt. Hörbuch 2023
 letztes_datum: "2025"                # Bd. 16
 baende_gesamt: 16
-baende_geplant: 16
-abgeschlossen: true
-angekuendigt: "keine Fortsetzung der Reihe; Universum läuft EN mit „The Grim Guys" weiter"
+baende_geplant: 17          # ⚠️ KORREKTUR 2026-08-11: Bd. 17 für 2026 angekündigt
+abgeschlossen: false       # ⚠️ KORREKTUR: Reihe läuft weiter (Bd. 17)
+angekuendigt: "Bd. 17 für 2026 angekündigt (Risingshadow/Book Notification) — Reihe NICHT abgeschlossen. Universum zusätzlich: The Grim Guys (EN)"
 naechster_band_de: "Buch: alle 16 erschienen · HÖRBUCH: ⚠️ Produktion läuft (belegt bis Bd. 9), nächster Termin unbelegt"
-naechster_band_en: "keiner (Reihe abgeschlossen)"
+naechster_band_en: "Bd. 17 — 2026 angekündigt, Titel/Termin offen"
 sprachen_verfuegbar: [de, en]
 sprache_erlebt: "de"
 verlag_de: "LMBPN International"
@@ -75,8 +75,8 @@ tags: [werk, reihe, hoerbuch, liked, litrpg]
 (Overall → Reihe). **Montana Coggeshall** — ausgebrannter Ex-Soldat/Schläger — stirbt fast
 und wacht in der Spielwelt **Vuldranni** auf (Zugang über das Spiel *iNcarn8*). Als
 Tank-Klasse baut er sich ein neues Leben auf, erbt überraschend einen Titel und macht aus
-dem heruntergekommenen **Herzogtum Coggeshall** eine echte Siedlung. 16 Bände (2018–2025,
-„Noch einmal mit Gefühl" bis „Acht Beine für ein Halleluja"), **abgeschlossen**.
+dem heruntergekommenen **Herzogtum Coggeshall** eine echte Siedlung. 16 Bände erschienen (2018–2025, „Noch einmal mit Gefühl“ bis „Acht Beine für ein Halleluja“).
+⚠️ **Korrektur 2026-08-11: NICHT abgeschlossen — Bd. 17 ist für 2026 angekündigt.**
 
 **Kontext:** [[LitRPG]] · **Autor:** [[Eric Ugland]] · **Sprecher:** [[Robert Frank]] ·
 **Parallelreihe:** [[Die bösen Jungs]]
@@ -128,11 +128,12 @@ unter der Nutzer-Obergrenze (Reihen-Schnitt ≤ ~20 h, [[No-Gos]]) und **kürzer
 
 ## 🗓️ Nächste Releases & Planung
 
-- **Buch DE:** alle 16 Bände erschienen — kein Warten.
+- **Buch DE:** 16 Bände erschienen — kein Warten. ⚠️ **Bd. 17 für 2026 angekündigt** (EN zuerst,
+  dt. Ausgabe danach zu erwarten). Jüngster EN-Band: Bd. 16, **07.07.2025**.
 - **Hörbuch DE:** ⚠️ **belegt bis Bd. 9** (2025). Ob Bd. 10+ bereits eingelesen sind, ist in
   dieser Session nicht prüfbar. **Relevant für den Nutzer:** er ist bei Bd. 5, hat also
   mindestens 4 weitere Bände Puffer.
-- **EN:** Reihe abgeschlossen (Bd. 16, 2025).
+- **EN:** ⚠️ **Bd. 17 für 2026 angekündigt** — Reihe läuft weiter (letzter Band: Bd. 16, 07.07.2025).
 
 ## Lesestand (meine Formate)
 

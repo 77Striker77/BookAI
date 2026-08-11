@@ -71,6 +71,11 @@ vollständig erfüllt** — die Spoiler-Politik beschneidet Metadaten nicht um e
   „Bd. 7 wird für Leerlauf kritisiert", „starkes Finale" (ohne zu sagen, WAS im Finale passiert)
 - Lese-/Hörreihenfolge-Empfehlungen und Abhängigkeiten
 
+**Grenzfall Reihenfolge-Begründung** (Regel aus der Parallel-Session 2026-08-11): **Dass**
+ein Band zwei Stränge zusammenführt, ist Reihenfolge-Information und darf stehen — sonst
+wäre die Reihenfolge-Regel nicht begründbar. **Wie** das geschieht, bleibt draußen. Im
+Zweifel: die Reihenfolge-Wirkung nennen, nicht die Handlung.
+
 ## 3. Verbotszone — was jenseits der Grenze NIE raus darf
 
 - Ereignisse, Wendungen, Enthüllungen, Auflösungen (Wer ist der Täter, was ist das Geheimnis)
