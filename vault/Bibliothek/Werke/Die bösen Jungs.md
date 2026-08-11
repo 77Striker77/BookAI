@@ -111,7 +111,7 @@ beim verschränkten Hören, weil sich das Tempo-Gefühl beim Wechsel ändert.
 - **Buch DE:** 11 Bände erschienen. ⚠️ **Bd. 12 für 2026 angekündigt.**
 - **Hörbuch DE:** ⚠️ **belegt bis Bd. 8** (2025). Für die verschränkte Hörreihenfolge ist das
   der **engere** Flaschenhals — die bösen Jungs werden vermutlich zuerst „ausgehen".
-- **EN:** Reihe abgeschlossen (Bd. 11, 2024).
+- **EN:** ⚠️ **Bd. 12 für 2026 angekündigt** — Reihe läuft weiter (letzter Band: Bd. 11, 2024).
 
 ## Lesestand (meine Formate)
 

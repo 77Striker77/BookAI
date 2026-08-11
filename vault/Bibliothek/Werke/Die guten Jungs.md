@@ -125,7 +125,7 @@ unter der Nutzer-Obergrenze (Reihen-Schnitt ≤ ~20 h, [[No-Gos]]) und **kürzer
 - **Hörbuch DE:** ⚠️ **belegt bis Bd. 9** (2025). Ob Bd. 10+ bereits eingelesen sind, ist in
   dieser Session nicht prüfbar. **Relevant für den Nutzer:** er ist bei Bd. 5, hat also
   mindestens 4 weitere Bände Puffer.
-- **EN:** Reihe abgeschlossen (Bd. 16, 2025).
+- **EN:** ⚠️ **Bd. 17 für 2026 angekündigt** — Reihe läuft weiter (letzter Band: Bd. 16, 07.07.2025).
 
 ## Lesestand (meine Formate)
 
