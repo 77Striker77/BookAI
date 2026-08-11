@@ -5,6 +5,9 @@ autor: ""
 jahr_start:
 kontext: ""            # Geschmacksraum → bestimmt Gewichte fürs Matching
 status: ""             # erwaehnt | gesichtet | geprueft-verworfen | empfohlen | warteliste | gelesen
+# 🔒 Kandidaten sind PER DEFINITION ungelesen -> Freigabestufe `blurb`:
+#    Prämisse (Bd. 1), Ton, Tempo, Metadaten, Wertungen — aber KEINE Ereignisse,
+#    Wendungen oder Figurenschicksale, auch nicht aus Rezensionen. Siehe Spoiler-Politik.
 zuletzt_beruehrt:      # Datum der letzten Prüfung (Details: Prüf-Historie unten)
 laeufe: []             # ["[[2026-07-16 Ähnlich zu …]]"]
 wiedervorlage: ""      # "neu prüfen, falls ⟨Präferenz⟩ sich ändert" — sonst leer

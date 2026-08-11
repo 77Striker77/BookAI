@@ -21,21 +21,26 @@ Zwei Varianten desselben Humor-Spektrums (Kandidat für Merkmal-Hub, falls mehr 
 
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
-| [[Krimi]] | loved | [[Die mörderischen Cunninghams]] +2 — „Humor & Ton" gewählt; Rezensionen: „sarkastischer Humor" ([[2026-07-16 Interview Die mörderischen Cunninghams]]) |
+| [[Krimi]] | loved | [[Die mörderischen Cunninghams]] +2 — „Humor & Ton" gewählt; Rezensionen: „sarkastischer Humor" ([[2026-07-16 Interview Die mörderischen Cunninghams]]) · [[Der Donnerstagsmordclub]] +2 — „Trocken-britisch" gewählt, warm-britische Spielart ([[2026-08-11 Interview Der Donnerstagsmordclub]]) |
 | [[Fantasy]] | loved | [[Riyria]] +1 — „Wortgefechte & Humor" des Duos gewählt (Royce/Hadrian-Banter) ([[2026-07-16 Interview Riyria]]) · [[Alex Verus]] +1 — „trocken-sarkastischer Ich-Ton" + „Galgenhumor in Gefahr" gewählt (Urban Fantasy) ([[2026-07-20 Interview Alex Verus]]) · [[Haus Ashford]] +1: „trocken-sarkastisch, britisch, bodenständig" ([[2026-07-20 Interview Haus Ashford]]) |
 | [[Humor-Phantastik]] | loved | [[Magic 2.0]] +1: lässig-ironischer Erzählton ([[2026-07-20 Interview Magic 2.0]]) |
 
-> **Jetzt in 3 Werken über 2 Kontexte belegt (Krimi + Fantasy 2×) → robuster roter Faden:
-> trockener/sarkastischer Witz trägt genreübergreifend.**
+> **Jetzt in 6 Werken über 3 Kontexte belegt (Krimi 2×, Fantasy 3×, Humor-Phantastik) →
+> sehr robuster roter Faden: trockener/sarkastischer Witz trägt genreübergreifend.**
+> **In [[Krimi]] beide Werke auf +2** — hier die verlässlichste Plus-Achse überhaupt.
 
 ## Verwandt
 
 - [[Absurder Humor]] (LitRPG, DCC) — anderer Humor-Typ; zusammen deuten sie auf „Humor
   als Plus über Genres hinweg" (im Auge behalten für roten Faden).
+- [[Cosy-Wohlfühlatmosphäre]] (Krimi) — bei [[Der Donnerstagsmordclub]] tritt der trockene
+  Witz in **warm-britischer**, nicht bissiger Färbung auf; die Behaglichkeit ist die
+  eigenständige zweite Achse daneben.
 
 ## Träger
 
 - [[Die mörderischen Cunninghams]] (+2)
+- [[Der Donnerstagsmordclub]] (+2, warm-britisch)
 - [[Riyria]] (+1, Duo-Banter)
 - [[Alex Verus]] (+1, Ich-Ton + Galgenhumor)
 - [[Haus Ashford]] (+1, trocken-sarkastisch, britisch)

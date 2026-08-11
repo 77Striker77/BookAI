@@ -26,6 +26,26 @@ positiver wie negativer Aspekte (hartnäckig nachfragen, auch beim Lieblingswerk
 Schwächen). Nie Fakten erfragen, nie Gefühle annehmen. Format (gelesen/gehört) und
 Sprache immer erfragen, nie voraussetzen.
 
+## 🔒 Spoiler-Gate — gilt in ALLEN Phasen
+
+**In keiner Ausgabe (Artefakt, Chat-Antwort, Subagenten-Rückgabe) darf etwas stehen, das
+der Nutzer noch nicht gelesen/gehört hat.** Umgekehrt gilt: Was er erlebt hat, darf
+ausdrücklich **detaillierter** beschrieben werden — das schärft das Matching.
+
+- Regeln: `vault/_System/Spoiler-Politik.md` · Skill: **`spoiler-check`**
+- Grenzen bandgenau abrufen: `python3 scripts/spoiler_check.py --grenzen`
+- **Metadaten sind NIE ein Spoiler.** Das oberste Ziel (maximale Datendichte) bleibt
+  unangetastet — beschnitten wird ausschließlich **Handlung**.
+- **Fail-closed:** unklarer Bandbezug oder unbekanntes Werk = ungelesen.
+  Der gerade laufende Band gilt als NICHT erlebt.
+- **Nie stillschweigend glätten** — stattdessen sichtbar: „🔒 Details zu Bd. X+
+  zurückgehalten (dein Stand: Bd. Y)."
+- Vor Phase 4 (Publish): `bash scripts/spoiler-gate.sh` **und** Agent `spoiler-guard`.
+
+Erwähnt der Nutzer nebenbei seinen Fortschritt („bin bei Band 3", „Teil 2 durch"),
+sofort `spoiler_erlebt_bis`/`spoiler_aktuell` in der Werk-Notiz nachziehen (Skill
+`spoiler-check`, Abschnitt C) — sonst arbeitet das ganze System mit einer falschen Grenze.
+
 ## Die 4 Phasen
 
 Führe den Nutzer durch diesen Ablauf. Nicht jede Anfrage startet bei Phase 1 – erkenne,
@@ -99,6 +119,11 @@ Phase 4  ARTEFAKT          → Skill: book-reco-artifact
   nie erneut vorschlagen, Bekanntes nie doppelt recherchieren.
 - **Nur zwei Artefakte.** "Meine Bibliothek" (aktualisieren) und "Empfehlungen"
   (überschreiben, gleiche URL). Nie ein drittes anlegen.
+- **🔒 Spoilerfrei ausgeben.** Keine Handlung jenseits des bandgenauen Lesestands — in
+  keinem Artefakt, keiner Antwort, keiner Subagenten-Rückgabe. Empfohlene Kandidaten sind
+  per Definition ungelesen → nur Klappentext-Ebene. Erlebte Werke dagegen bewusst
+  detaillierter. Prüfen mit `bash scripts/spoiler-gate.sh` + Agent `spoiler-guard`
+  (Skill `spoiler-check`, Regeln in `vault/_System/Spoiler-Politik.md`).
 
 ## Ergebnis
 

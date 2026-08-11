@@ -38,6 +38,13 @@ quellen:
   - "https://www.audible.de/series/Der-Prinz-von-Staub-und-Schatten-Hoerbuecher/B0GMZ91231"
   - "https://www.buechertreff.de/buchreihe/208542-prinz-von-staub-und-schatten-torsten-weitze-reihenfolge/"
 analysiert: 2026-07-16
+# --- 🔒 Spoiler-Grenze (siehe _System/Spoiler-Politik.md) ---
+spoiler_erlebt_bis: 7    # letzter VOLLSTÄNDIG erlebter Band (0 = keiner)
+spoiler_aktuell: 0       # laufender Band — zählt als NICHT erlebt
+spoiler_gesamt: 7        # Verbund: Sturmfels 5 + Prinz 2 - alles Erschienene erlebt
+spoiler_stand: "2026-08-11"  # Stand bestätigt am
+spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
+spoiler_aliase: []           # weitere Schreibweisen des Werktitels
 tags: [werk, universum, hoerbuch, loved, fantasy]
 ---
 

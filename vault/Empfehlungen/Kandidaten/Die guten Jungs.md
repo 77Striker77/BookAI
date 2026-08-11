@@ -4,8 +4,8 @@ werk_typ: reihe
 autor: "Eric Ugland"
 jahr_start: 2023
 kontext: "LitRPG"
-status: empfohlen
-zuletzt_beruehrt: 2026-07-17
+status: gelesen          # 2026-08-11: Bd. 1-5 gehört -> Werk-Notiz [[Die guten Jungs]]
+zuletzt_beruehrt: 2026-08-11
 laeufe: ["[[2026-07-17 Deutsche Bücher quer über alle Räume]]"]
 wiedervorlage: ""
 # --- Fakten (nur belegt!) ---
@@ -49,7 +49,10 @@ tags: [kandidat]
 
 # Die guten Jungs
 
-**Status: empfohlen** · Kontext [[LitRPG]] · zuletzt 2026-07-17 · Wiedervorlage: —
+> ✅ **STUB — dieser Titel ist erlebt.** Die maßgebliche Notiz ist **[[Die guten Jungs]]** in `Bibliothek/Werke/` (Verbund: [[Vuldranni (iNcarn8)]]).
+> Diese Kandidaten-Notiz bleibt nur als Gedächtnis-Spur der Prognose stehen ([[Konventionen]]).
+
+**Status: gelesen** · Kontext [[LitRPG]] · zuletzt 2026-08-11 · Wiedervorlage: —
 
 **Reihen-Check:** 16 dt. Bände, Reihe abgeschlossen (2025) → Reihen-Pflicht **klar erfüllt**.
 
@@ -91,6 +94,21 @@ Leerlauf. Deutsch als Buch UND Hörbuch (Robert Frank).
 | --- | --- | --- | --- | --- | --- |
 | 2026-07-17 | [[2026-07-17 Deutsche Bücher quer über alle Räume]] | 1 | gesichtet | — | Ton-Zwilling zu DCC, dt. Hörbuch, kurze Bände |
 | 2026-07-17 | [[2026-07-17 Deutsche Bücher quer über alle Räume]] | 2 | empfohlen | 86 % | Ton + Held ✓✓, Länge ✓; leichter Malus: weniger System-Satire, episodisch |
+| 2026-08-11 | (Nutzer hat gestartet) | — | **gelesen** | — | Bd. 1–5 gehört → Werk-Notiz [[Die guten Jungs]] + Verbund [[Vuldranni (iNcarn8)]] angelegt |
+
+## 🎯 Prognose-Nachkontrolle (2026-08-11) — was hat getragen?
+
+| Prognose 2026-07-17 | Tatsächlich (Interview) | Treffer? |
+| --- | --- | --- |
+| [[Tonwechsel Humor-Ernst]] +2 | +2 („Humor/Ton zündet") | ✅ |
+| [[Absurder Humor]] +2 | +2 | ✅ |
+| [[Pragmatischer Held mit klarem Kompass]] +2 | +2 („Held ist stark") | ✅ |
+| [[Konstanter Vorwärtsdrang]] +2 | ⚠️ noch nicht erfragt | offen |
+| [[Kapitalismus-Satire]] 0 | nicht genannt | ✅ (kein Faktor) |
+| Episodik / dünner Gesamtbogen −1 | ⚠️ noch nicht erfragt (5/16 Bände) | offen |
+| *nicht prognostiziert* | **[[Basisaufbau & Siedlungsentwicklung]] +2**, [[Weltgeheimnisse & Entdeckung]] +2, [[Monster-Vielfalt & Bestiarium]] +2, [[Handfeste Kampf-Action]] +2 | ❗ **vier Plus-Anker übersehen** |
+
+**Lehre für künftige Läufe:** Die Prognose war auf der **Ton-/Helden-Achse** (DCC-Ähnlichkeit) richtig, hat aber den **Aufbau-/Welt-Reiz** komplett übersehen — bei LitRPG-Kandidaten also künftig aktiv prüfen, ob es einen **Basisaufbau-Strang** und ein **eigenes Bestiarium** gibt.
 
 ## Verdikt-Begründung (aktuellster Stand)
 

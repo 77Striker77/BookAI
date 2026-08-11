@@ -140,7 +140,9 @@
   .wh .tag { font-size: .74rem; color: var(--muted); }
   .verdict { font-size: .72rem; font-weight: 700; color: var(--pos); background: var(--pos-soft); border-radius: 999px; padding: 2px 9px; }
   .verdict.mix { color: var(--ink2); background: var(--track); }
+  .verdict.lik { color: var(--pos); background: var(--pos-soft); opacity: .85; }
   .work.mix { border-left: 3px solid var(--neg); border-radius: 8px 16px 16px 8px; }
+  .work.lik { border-left: 3px solid var(--pos); border-radius: 8px 16px 16px 8px; }
   .wmeta { color: var(--ink2); font-size: .83rem; margin: 5px 0 10px; }
 
   .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
@@ -180,6 +182,47 @@
   .biglink { display:inline-block; margin-top:10px; font-size:.82rem; font-weight:600; color:var(--rating); text-decoration:none; }
   .biglink:hover { text-decoration: underline; }
 
+  /* ---------- Bandliste (bandgenau) ---------- */
+  .blist { border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: var(--card); margin: 8px 0 0; }
+  .brow { display: grid; grid-template-columns: 24px 1fr 118px; gap: 10px; padding: 7px 12px; border-top: 1px solid var(--line); font-size: .84rem; align-items: baseline; }
+  .brow:first-child { border-top: 0; }
+  .brow .bn2 { color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; font-size: .78rem; }
+  .brow .en2 { display: block; color: var(--muted); font-size: .74rem; font-style: italic; }
+  .brow .meta { color: var(--ink2); font-size: .74rem; text-align: right; font-variant-numeric: tabular-nums; }
+  .brow.done { background: var(--rating-soft); }
+  .brow.done .bn2::before { content: "▸"; color: var(--rating); margin-right: 2px; }
+  .brow.now { background: var(--rating-soft); box-shadow: inset 3px 0 0 var(--rating); }
+  .brow.cross { box-shadow: inset 3px 0 0 var(--ink2); }
+  .st { font-size: .66rem; font-weight: 800; border-radius: 999px; padding: 1px 7px; margin-left: 6px; white-space: nowrap; }
+  .st.done { color: var(--rating); background: var(--card); border: 1px solid var(--line); }
+  .st.now { color: #fff; background: var(--rating); }
+  .st.cross { color: var(--ink); background: var(--track); }
+  .unsure { color: var(--muted); font-weight: 700; cursor: help; }
+  @media (max-width: 620px){ .et { grid-template-columns: 1fr; gap: 4px; } }
+  @media (max-width: 560px){ .brow { grid-template-columns: 24px 1fr; } .brow .meta { grid-column: 2; text-align: left; } }
+
+  /* ---------- Hörreihenfolge (Etappen) ---------- */
+  .route { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 4px 18px; }
+  .et { display: grid; grid-template-columns: 168px 1fr; gap: 16px; padding: 15px 0; border-top: 1px solid var(--line); }
+  .et:first-child { border-top: 0; }
+  .et.hard { box-shadow: inset 3px 0 0 var(--ink2); padding-left: 12px; margin-left: -12px; }
+  .et.here { background: var(--rating-soft); border-radius: 10px; padding-left: 12px; padding-right: 12px; margin: 0 -12px; }
+  .etn { font-size: .72rem; color: var(--muted); font-weight: 700; text-transform: uppercase; letter-spacing: .05em; }
+  .etn b { display: block; font-size: .98rem; color: var(--ink); text-transform: none; letter-spacing: 0; margin-top: 2px; }
+  .seq { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 7px 0 0; }
+  .bk { border: 1px solid var(--line); background: var(--card); border-radius: 8px; padding: 4px 9px; font-size: .8rem; font-weight: 650; white-space: nowrap; }
+  .bk.bj { border-style: dashed; }
+  .bk.ok { background: var(--rating-soft); border-color: transparent; }
+  .bk.hier { background: var(--rating); color: #fff; border-color: transparent; }
+  .arr { color: var(--muted); font-size: .78rem; }
+  .bk { position: relative; }
+  .stp { position: absolute; top: -7px; left: -5px; font-size: .58rem; font-weight: 800; color: var(--muted);
+    background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 0 4px; line-height: 1.4; }
+  .bk.hier .stp { color: var(--ink); }
+  .freetag { font-size: .66rem; font-weight: 800; border-radius: 999px; padding: 1px 8px; margin-right: 6px;
+    background: var(--track); color: var(--ink2); white-space: nowrap; }
+  .etwhy { font-size: .84rem; color: var(--ink2); margin: 8px 0 0; }
+
   .footer { margin-top: 34px; color: var(--muted); font-size: .78rem; line-height: 1.6; border-top: 1px solid var(--line); padding-top: 16px; }
 </style>
 
@@ -198,6 +241,7 @@
             <a href="#dcc" data-view="werke" data-scroll="dcc">Dungeon Crawler Carl <small>LitRPG · Phänomen</small></a>
             <a href="#survival" data-view="werke" data-scroll="survival">Survival Quest <small>LitRPG · ◐ okay (Graubereich)</small></a>
             <a href="#cunninghams" data-view="werke" data-scroll="cunninghams">Die mörderischen Cunninghams <small>Krimi · Bestseller</small></a>
+            <a href="#mordclub" data-view="werke" data-scroll="mordclub">Der Donnerstagsmordclub <small>Cosy Crime · ♡ gut</small></a>
             <a href="#alexverus" data-view="werke" data-scroll="alexverus">Alex Verus <small>Urban Fantasy · ♥ geliebt</small></a>
             <a href="#magic20" data-view="werke" data-scroll="magic20">Magic 2.0 <small>Humor-Phantastik · ♥ geliebt</small></a>
             <a href="#goetter" data-view="werke" data-scroll="goetter">Die Streitenden Götter <small>Fantasy · 2 Reihen</small></a>
@@ -205,9 +249,13 @@
             <a href="#prinz" data-view="werke" data-scroll="prinz">↳ Prinz von Staub und Schatten</a>
             <a href="#scholomance" data-view="werke" data-scroll="scholomance">Scholomance <small>Fantasy · ◐ okay (Graubereich)</small></a>
             <a href="#riyria" data-view="werke" data-scroll="riyria">Riyria <small>Fantasy · ◐ okay (Graubereich)</small></a>
+            <a href="#vuldranni" data-view="werke" data-scroll="vuldranni">Vuldranni (iNcarn8) <small>LitRPG · 2 Reihen · Eric Ugland</small></a>
+            <a href="#gutenjungs" data-view="werke" data-scroll="gutenjungs">↳ Die guten Jungs <small>16 Bände · ▸ bei Bd. 5</small></a>
+            <a href="#boesenjungs" data-view="werke" data-scroll="boesenjungs">↳ Die bösen Jungs <small>11 Bände · ▸ bei Bd. 1</small></a>
             <a href="#ashford" data-view="werke" data-scroll="ashford">Haus Ashford <small>Urban Fantasy · ◐ okay (Graubereich)</small></a>
           </div>
         </span>
+        <a href="#reihenfolge" data-view="reihenfolge">🎧 Hörreihenfolge</a>
         <a href="#bekanntheit" data-view="bekanntheit">Bekanntheit</a>
         <a href="#releases" data-view="releases">Releases</a>
         <a href="#geschmack" data-view="geschmack">Geschmack</a>
@@ -222,14 +270,16 @@
       <header class="hero">
         <h1>Willkommen zurück 👋</h1>
         <p class="lead">Das Cockpit meines Buch- &amp; Hörbuch-Geschmacks: was ich liebe, wie bekannt es ist
-          und was als Nächstes erscheint. 10 Reihen analysiert — 6 geliebt, 4 „okay" im Graubereich.</p>
+          und was als Nächstes erscheint. 11 Reihen analysiert — 6 geliebt, 1 „gut", 4 „okay" im Graubereich.</p>
       </header>
       <div class="stats">
-        <div class="stat"><div class="n tnum">10</div><div class="l">Reihen analysiert</div></div>
+        <div class="stat"><div class="n tnum">13</div><div class="l">Reihen analysiert</div></div>
         <div class="stat"><div class="n tnum">6</div><div class="l">davon geliebt</div></div>
+        <div class="stat"><div class="n tnum">3</div><div class="l">„gut"</div></div>
         <div class="stat"><div class="n tnum">4</div><div class="l">„okay" (Graubereich)</div></div>
         <div class="stat"><div class="n tnum">4</div><div class="l">Geschmacksräume</div></div>
-        <div class="stat"><div class="n">🎧 8 · 📖 2</div><div class="l">gehört / gelesen</div></div>
+        <div class="stat"><div class="n">🎧 11 · 📖 2</div><div class="l">gehört / gelesen</div></div>
+        <div class="stat"><div class="n tnum">2</div><div class="l">Universen (Verbünde)</div></div>
       </div>
 
       <section>
@@ -237,7 +287,11 @@
           <div class="card2">
             <h3>🎧 Jetzt &amp; als Nächstes</h3>
             <p style="margin:0 0 8px;font-size:.9rem"><b>Am Hören:</b> DCC Bd. 2 „Carl's Doomsday Scenario" (dt.)</p>
-            <p style="margin:0;font-size:.9rem"><b>Nächstes dt. Release:</b> <span class="flag de">DE</span>
+            <p style="margin:0 0 8px;font-size:.9rem"><b>Läuft gerade:</b> <span class="flag de">DE</span>
+              <b>Die bösen Jungs Bd. 1</b> „Schurken &amp; Halunken" — <b>Die guten Jungs</b> sind bis Bd. 5 durch.
+              Beide gehören ins selbe Universum <b>Vuldranni</b> und werden <b>verschränkt</b> gehört.</p>
+            <a class="biglink" href="#reihenfolge" data-view="reihenfolge" style="margin-top:0">🎧 Meine Hörreihenfolge ansehen →</a>
+            <p style="margin:10px 0 0;font-size:.9rem"><b>Nächstes dt. Release:</b> <span class="flag de">DE</span>
               <b>Prinz Bd. 3 „Hoffnung"</b> <span class="subtle">(Termin offen)</span>, dann DCC Bd. 3 am 18.11.2026.</p>
             <a class="biglink" href="#releases" data-view="releases">Alle Releases ansehen →</a>
           </div>
@@ -257,6 +311,11 @@
             <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Dungeon Crawler Carl</b><span class="subtle" style="font-size:.8rem">~1,7 Mio Wertungen</span></div>
             <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span></div>
               <div class="fame-lab"><b>Phänomen</b> · Kult im LitRPG <span class="hype">🔥 &gt;10 Mio verkauft</span></div></div>
+          </div>
+          <div class="fame-item" style="margin:0 0 14px">
+            <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Der Donnerstagsmordclub</b> <span class="subtle" style="font-size:.8rem">~1,91 Mio Wertungen · ♡ gut</span></div>
+            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span></div>
+              <div class="fame-lab"><b>Phänomen</b> · Cosy Crime <span class="hype">🔥 17+ Mio verkauft · 🎬 Netflix 2025</span></div></div>
           </div>
           <div class="fame-item" style="margin:0 0 14px">
             <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Die mörderischen Cunninghams</b><span class="subtle" style="font-size:.8rem">~340k Wertungen</span></div>
@@ -315,6 +374,21 @@
             <div><div class="mt">Die Streitenden Götter</div><div class="mm">Universum · Overall beider Reihen</div>
               <span class="subtle" style="font-size:.8rem">Sturmfels + Prinz zusammen</span></div>
           </a>
+          <a class="mini" href="#vuldranni" data-view="werke" data-scroll="vuldranni">
+            <div class="cover sm" style="background:linear-gradient(150deg,#7d4a12,#3f2a0e 50%,#1e2430)"><div class="cm">🗺️</div><div class="ct">VUL</div></div>
+            <div><div class="mt">Vuldranni (iNcarn8)</div><div class="mm">Universum · Overall beider Reihen</div>
+              <span class="subtle" style="font-size:.8rem">guten + bösen Jungs zusammen · 27 Bände</span></div>
+          </a>
+          <a class="mini" href="#gutenjungs" data-view="werke" data-scroll="gutenjungs">
+            <div class="cover sm" style="background:linear-gradient(150deg,#2f5f45,#1d3b2c 55%,#14211a)"><div class="cm">🛡️</div><div class="ct">GJ</div></div>
+            <div><div class="mt">Die guten Jungs</div><div class="mm">LitRPG · 5/16 · 🎧 gehört · ♡ gut</div>
+              <span class="subtle" style="font-size:.8rem"><span class="sw r"></span>⌀ 4,38/5 · <span class="sw f"></span>Etabliert</span></div>
+          </a>
+          <a class="mini" href="#boesenjungs" data-view="werke" data-scroll="boesenjungs">
+            <div class="cover sm" style="background:linear-gradient(150deg,#4a2140,#2b1428 55%,#170d15)"><div class="cm">🗡️</div><div class="ct">BJ</div></div>
+            <div><div class="mt">Die bösen Jungs</div><div class="mm">LitRPG · 1/11 · 🎧 läuft · ♡ gut</div>
+              <span class="subtle" style="font-size:.8rem"><span class="sw f"></span>Etabliert · ⚠ Wertung unbelegt</span></div>
+          </a>
           <a class="mini" href="#alexverus" data-view="werke" data-scroll="alexverus">
             <div class="cover sm" style="background:linear-gradient(150deg,#3a2a5c,#1c1830 55%,#0e1220)"><div class="cm">🔮</div><div class="ct">AV</div></div>
             <div><div class="mt">Alex Verus</div><div class="mm">Urban Fantasy · 12/12 · ♥ geliebt</div>
@@ -324,6 +398,11 @@
             <div class="cover sm" style="background:linear-gradient(150deg,#153a2a,#0e2419 55%,#0a1410)"><div class="cm">🧙</div><div class="ct">M2</div></div>
             <div><div class="mt">Magic 2.0</div><div class="mm">Humor-Phantastik · 📖 gelesen · ♥ geliebt</div>
               <span class="subtle" style="font-size:.8rem"><span class="sw r"></span>⌀ 3,9/5 · <span class="sw f"></span>Etabliert</span></div>
+          </a>
+          <a class="mini" href="#mordclub" data-view="werke" data-scroll="mordclub">
+            <div class="cover sm" style="background:linear-gradient(150deg,#2f5a4e,#1c3830 55%,#12211d)"><div class="cm">🫖</div><div class="ct">DMC</div></div>
+            <div><div class="mt">Der Donnerstagsmordclub</div><div class="mm">Cosy Crime · 5/5 · 🎧 gehört · ♡ gut</div>
+              <span class="subtle" style="font-size:.8rem"><span class="sw r"></span>⌀ 4,25/5 · <span class="sw f"></span>Phänomen 🎬</span></div>
           </a>
           <a class="mini" href="#survival" data-view="werke" data-scroll="survival">
             <div class="cover sm" style="background:linear-gradient(150deg,#4a4a52,#2c2c34 55%,#1c1c22)"><div class="cm">⛏️</div><div class="ct">SQ</div></div>
@@ -513,6 +592,133 @@
         </article>
       </div>
 
+
+      <!-- Vuldranni (iNcarn8) -->
+      <div class="ov" id="vuldranni">
+        <div class="cover" style="background:linear-gradient(150deg,#7d4a12,#3f2a0e 50%,#1e2430)"><div class="cm">🗺️⚔️</div><div><div class="ct">VULDRANNI (iNCARN8)</div><div class="ca">Eric Ugland · Universum</div></div></div>
+        <div>
+          <div class="wh"><span class="t">Vuldranni (iNcarn8)</span><span class="verdict lik">♡ gut <span class="subtle" style="font-weight:400">(vorläufig)</span></span><span class="tag">· LitRPG · Overall = Summe der Reihen</span></div>
+          <div class="wmeta"><b>27 Bände in 2 Reihen</b> · 2018–2025 · beide Reihen abgeschlossen · 🎧 dt. Hörbuch, <b>zwei verschiedene Sprecher</b> · Übers. LMBPN International</div>
+          <div class="chips">
+            <span class="chip pos">＋ Welt · Geheimnisse · Monster</span>
+            <span class="chip pos">＋ Humor &amp; Schnoddrigkeit</span>
+            <span class="chip pos">＋ Held ist stark (beide!)</span>
+            <span class="chip">− Status/Skills vorgelesen <span class="subtle">(„mini")</span></span>
+          </div>
+          <div class="synth"><b>Ich bin mitten drin:</b> guten Jungs Bd. 1–5 gehört, bösen Jungs Bd. 1 läuft.
+            Beide Reihen erzählen <b>dieselbe Welt von zwei Moralseiten</b> — Aufbauer vs. Dieb — und laufen am Ende zusammen.
+            Deshalb gibt es eine <b>eigene Hörreihenfolge</b> über beide Reihen hinweg.
+            <a class="biglink" href="#reihenfolge" data-view="reihenfolge" style="margin-top:6px">🎧 Zur Hörreihenfolge →</a></div>
+        </div>
+      </div>
+      <div class="children">
+        <article class="work child lik" id="gutenjungs">
+          <div class="cover" style="background:linear-gradient(150deg,#2f5f45,#1d3b2c 55%,#14211a)"><div class="cm">🛡️🏰</div><div><div class="ct">DIE GUTEN JUNGS</div><div class="ca">Eric Ugland</div></div></div>
+          <div>
+            <div class="wh"><span class="t">Die guten Jungs</span><span class="verdict lik">♡ gut <span class="subtle" style="font-weight:400">(vorläufig)</span></span><span class="tag">· 16 Bände · abgeschlossen · 🎧 gehört (dt.) · ▸ bei Bd. 5</span></div>
+            <div class="wmeta"><b>Montana Coggeshall</b> — ausgebrannter Ex-Soldat, stirbt fast, wacht als Tank in Vuldranni auf, erbt ein heruntergekommenes Herzogtum und baut es auf.
+              EN „The Good Guys" 2018–2025 · Hörbuch dt. <b>Robert Frank</b> (Audible Studios) · Übers. Peter Schürholz · engl. Sprecher Neil Hellegers</div>
+            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span><span class="ft"></span></div>
+              <div class="fame-lab"><b>Etabliert</b> · Goodreads-Serie ⌀ 4,38/5 <span class="hype">📚 Ugland ~49 Bücher · Indie-Dauerbrenner</span></div></div>
+
+            <p class="box-title" style="margin-top:14px">Alle 16 Bände — deutsch, englisches Original, dt. Hörbuch</p>
+            <p class="hint">▸ blau hinterlegt = von mir gehört · ⚠ = Titel nur aus Suchtreffer-Text abgeleitet (im Vault als offene Frage markiert, nicht stillschweigend geglättet)</p>
+            <div class="blist">
+              <div class="brow done"><span class="bn2">1</span><span><b>Noch einmal mit Gefühl</b> <span class="st done">gehört</span><span class="en2">One More Last Time · 2018</span></span><span class="meta">🎧 8 h 53</span></div>
+              <div class="brow done"><span class="bn2">2</span><span><b>Heute Erbe, morgen Schachfigur</b> <span class="st done">gehört</span><span class="en2">Heir Today, Pawn Tomorrow · 2018</span></span><span class="meta">🎧 7 h 42</span></div>
+              <div class="brow done"><span class="bn2">3</span><span><b>Dungeonschinder</b> <span class="st done">gehört</span><span class="en2">Dungeon Mauling · 2018</span></span><span class="meta">🎧 erschienen</span></div>
+              <div class="brow done"><span class="bn2">4</span><span><b>Und täglich droht die Nebenquest</b> <span class="st done">gehört</span><span class="en2">Four: The Loot · 2019</span></span><span class="meta">🎧 erschienen</span></div>
+              <div class="brow done"><span class="bn2">5</span><span><b>Hochadel für Einsteiger</b> <span class="st done">gehört</span><span class="en2">Dukes and Ladders · 2019</span></span><span class="meta">🎧 9 h 39 · 05/2024</span></div>
+              <div class="brow"><span class="bn2">6</span><span><b>Eine Belagerung kommt selten allein</b> <span class="unsure" title="Titel nur aus Suchtreffer-Text abgeleitet — im Vault als offene Frage markiert">⚠</span><span class="en2">Home, Siege Home · 2019</span></span><span class="meta"><span class="subtle">🎧 ⚠ offen</span></span></div>
+              <div class="brow"><span class="bn2">7</span><span><b>Ein Halali für den Herzog</b><span class="en2">The Bare Hunt · 2019</span></span><span class="meta"><span class="subtle">🎧 ⚠ offen</span></span></div>
+              <div class="brow"><span class="bn2">8</span><span><b>Wer stirbt, braucht festes Schuhwerk</b> <span class="unsure" title="Titel nur aus Suchtreffer-Text abgeleitet — im Vault als offene Frage markiert">⚠</span><span class="en2">Eastbound and Town · 2020</span></span><span class="meta"><span class="subtle">🎧 ⚠ offen</span></span></div>
+              <div class="brow"><span class="bn2">9</span><span><b>Vier Enthauptungen und ein Todesfall</b><span class="en2">Four Beheadings and a Funeral · 2020</span></span><span class="meta">🎧 erschienen 2025</span></div>
+              <div class="brow"><span class="bn2">10</span><span><b>Nacht der Unholde</b> <span class="unsure" title="Titel nur aus Suchtreffer-Text abgeleitet — im Vault als offene Frage markiert">⚠</span><span class="en2">Eat, Slay, Love · 2021</span></span><span class="meta"><span class="subtle">🎧 ⚠ offen</span></span></div>
+              <div class="brow"><span class="bn2">11</span><span><b>Ein Goblin kommt selten allein</b> <span class="unsure" title="Zuordnung widersprüchlich — im Vault als offene Frage markiert">⚠⚠</span><span class="en2">Killing Them Awfully · 2021</span></span><span class="meta"><span class="subtle">🎧 ⚠ offen</span></span></div>
+              <div class="brow"><span class="bn2">12</span><span><b>Wild Wild Quest</b> <span class="unsure" title="Titel nur aus Suchtreffer-Text abgeleitet — im Vault als offene Frage markiert">⚠</span><span class="en2">Wild Wild Quest · 2021</span></span><span class="meta"><span class="subtle">🎧 ⚠ offen</span></span></div>
+              <div class="brow"><span class="bn2">13</span><span><b>Gemetzel in the City</b><span class="en2">Flex in the City · 2022</span></span><span class="meta"><span class="subtle">🎧 ⚠ offen</span></span></div>
+              <div class="brow"><span class="bn2">14</span><span><b>Grob tranchierte Gegner</b><span class="en2">Of Slicing Men · 2023</span></span><span class="meta"><span class="subtle">🎧 ⚠ offen</span></span></div>
+              <div class="brow cross"><span class="bn2">15</span><span><b>Kampf um den Keramikthron</b> <span class="unsure" title="Titel nur aus Suchtreffer-Text abgeleitet — im Vault als offene Frage markiert">⚠</span> <span class="st cross">🔀 Crossover</span><span class="en2">Bad to the Throne · 2024</span></span><span class="meta"><span class="subtle">🎧 ⚠ offen</span></span></div>
+              <div class="brow"><span class="bn2">16</span><span><b>Acht Beine für ein Halleluja</b> <span class="unsure" title="Titel nur aus Suchtreffer-Text abgeleitet — im Vault als offene Frage markiert">⚠</span><span class="en2">One Man's Laughter · 2025</span></span><span class="meta"><span class="subtle">🎧 ⚠ offen</span></span></div>
+              </div>
+            <p class="note"><b>Bandlängen 7 h 42 – 9 h 39</b> — kurze Bände, weit unter meiner ~20-h-Grenze. ⚠️ Hördauern der übrigen Bände und die Wertungen je Band waren nicht erhebbar (Quellen egress-geblockt).</p>
+
+            <div class="cols" style="margin-top:14px">
+              <div>
+                <p class="box-title">Mein Empfinden</p>
+                <div class="asp"><span class="g">＋</span><b>Welt, Geheimnisse und Monster</b> — der stärkste Sog <span class="subtle">(wörtlich genannt)</span></div>
+                <div class="asp"><span class="g">＋</span>Aufbau: Herzogtum &amp; Basis <span class="subtle">— neuer Plus-Typ in meinem Profil</span></div>
+                <div class="asp"><span class="g">＋</span>Humor &amp; Schnoddrigkeit — der Ton zündet</div>
+                <div class="asp"><span class="g">＋</span>Action &amp; Kämpfe · handlungsfähiger Held („Held ist stark")</div>
+                <div class="asp"><span class="g">＋</span>🎙️ <b>Robert Frank</b> — „Sprecher von GJ besser als von BJ"</div>
+                <div class="asp"><span class="b">−</span>ab und zu zu viel vorgelesenes Status-/Skill-Zeug <span class="subtle">— „wirklich nur ein mini negativer Punkt"</span></div>
+                <div class="asp"><span style="color:var(--muted);font-weight:800;margin-right:7px">○</span>Adel &amp; Politik „in einem okay Maße" <span class="subtle">— mehr würde nerven (= meine Schwelle)</span></div>
+              </div>
+              <div>
+                <p class="box-title">Community sagt</p>
+                <div class="comm"><span class="g">👍</span>„zündet vom ersten Band an und wird kontinuierlich besser"</div>
+                <div class="comm"><span class="g">👍</span>rasante Action · charmanter Wortwitz · liebevoll aufgebaute Welt</div>
+                <div class="comm"><span class="b">👎</span>episodische Struktur, Gesamtplot über viele Bände dünner</div>
+                <p class="box-title" style="margin-top:12px">Noch offen (frag mich!)</p>
+                <div class="comm"><span class="subtle">?</span> Hält das Tempo über 16 Bände? (mein roter Faden Nr. 1)</div>
+                <div class="comm"><span class="subtle">?</span> Bd. 4 heißt „Und täglich droht die Nebenquest" — Problem oder Gag?</div>
+              </div>
+            </div>
+            <div class="synth"><b>Warum „gut" und noch nicht „geliebt":</b> acht ＋2-Zeilen gegen ein einziges, ausdrücklich „mini" genanntes Minus — auf dem Papier ein Geliebt-Profil.
+              Aber ich bin erst bei <b>5 von 16</b> Bänden, und genau die Langstrecke (Tempo, Nebenquests) ist das, woran Survival Quest gescheitert und Sturmfels fast gescheitert ist. Hochstufung jederzeit möglich.</div>
+          </div>
+        </article>
+
+        <article class="work child lik" id="boesenjungs">
+          <div class="cover" style="background:linear-gradient(150deg,#4a2140,#2b1428 55%,#170d15)"><div class="cm">🗡️🌃</div><div><div class="ct">DIE BÖSEN JUNGS</div><div class="ca">Eric Ugland</div></div></div>
+          <div>
+            <div class="wh"><span class="t">Die bösen Jungs</span><span class="verdict lik">♡ gut <span class="subtle" style="font-weight:400">(sehr vorläufig)</span></span><span class="tag">· 11 Bände · abgeschlossen · 🎧 läuft (dt.) · ▸ bei Bd. 1</span></div>
+            <div class="wmeta"><b>Clyde Hatchett</b> — der New Yorker Trickbetrüger Ben stirbt und wacht mit neuem Gesicht in der Reichshauptstadt <b>Glaton</b> auf: dieselbe Welt, die andere Seite der Moral.
+              EN „The Bad Guys" 2019–2024 · Hörbuch dt. <b>Thomas Nicolai</b> (Audible Studios) · Übers. Simone Förster</div>
+            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span><span class="ft"></span></div>
+              <div class="fame-lab"><b>Etabliert</b> <span class="hype">⚠ Serien-Wertung nicht belegt (Quellen geblockt)</span></div></div>
+
+            <p class="box-title" style="margin-top:14px">Alle 11 Bände — deutsch, englisches Original, dt. Hörbuch</p>
+            <p class="hint">▸ = mein Stand · ⚠ = Titel/Zuordnung unbestätigt (im Vault als offene Frage markiert)</p>
+            <div class="blist">
+              <div class="brow now"><span class="bn2">1</span><span><b>Schurken &amp; Halunken</b> <span class="st now">läuft gerade</span><span class="en2">Scamps &amp; Scoundrels · 2019</span></span><span class="meta">🎧 15 h 23 · 2023</span></div>
+              <div class="brow"><span class="bn2">2</span><span><b>Der Dieb im ersten Stock</b><span class="en2">Second Story Man · 2019</span></span><span class="meta">🎧 erschienen</span></div>
+              <div class="brow"><span class="bn2">3</span><span><b>Die Freischaufler</b><span class="en2">Skull and Thrones · 2020</span></span><span class="meta"><span class="subtle">🎧 ⚠ offen</span></span></div>
+              <div class="brow"><span class="bn2">4</span><span><b>Krieg der Aufschneider</b><span class="en2">War of the Posers · 2020</span></span><span class="meta"><span class="subtle">🎧 ⚠ offen</span></span></div>
+              <div class="brow"><span class="bn2">5</span><span><b>Seeungeheuer und andere Kalamitäten</b> <span class="unsure" title="Titel nur aus Suchtreffer-Text abgeleitet — im Vault als offene Frage markiert">⚠</span><span class="en2">Seas the Day · 2020</span></span><span class="meta"><span class="subtle">🎧 ⚠ offen</span></span></div>
+              <div class="brow"><span class="bn2">6</span><span><b>Unterm Arsch der Welt, und dann links</b> <span class="unsure" title="Titel nur aus Suchtreffer-Text abgeleitet — im Vault als offene Frage markiert">⚠</span><span class="en2">High Gloom · 2020</span></span><span class="meta"><span class="subtle">🎧 ⚠ offen</span></span></div>
+              <div class="brow"><span class="bn2">7</span><span><b>Zurück auf Eins</b><span class="en2">Back to One · 2021</span></span><span class="meta">🎧 erschienen 2025</span></div>
+              <div class="brow"><span class="bn2">8</span><span><b>Spaß in der Nacht</b><span class="en2">Trick of the Night · 2022</span></span><span class="meta">🎧 erschienen 2025</span></div>
+              <div class="brow"><span class="bn2">9</span><span><b>dt. Titel unbestätigt</b> <span class="unsure" title="Zuordnung widersprüchlich — im Vault als offene Frage markiert">⚠⚠</span><span class="en2">Darktown Funk · 2022</span></span><span class="meta"><span class="subtle">🎧 ⚠ offen</span></span></div>
+              <div class="brow"><span class="bn2">10</span><span><b>Auf einem Thron aus Lügen</b><span class="en2">On a Throne of Lies · 2023</span></span><span class="meta"><span class="subtle">🎧 ⚠ offen</span></span></div>
+              <div class="brow cross"><span class="bn2">11</span><span><b>2 Lügen, 2 Throne</b> <span class="st cross">🔀 Crossover</span><span class="en2">2 Lies, 2 Thrones · 2024</span></span><span class="meta"><span class="subtle">🎧 ⚠ offen</span></span></div>
+              </div>
+            <p class="note"><b>Achtung, anderes Kaliber:</b> Bd. 1 dauert <b>15 h 23</b> — fast doppelt so lang wie ein Band der guten Jungs (7–9 h). Beim verschränkten Hören ändert sich also spürbar das Tempo-Gefühl.</p>
+
+            <div class="cols" style="margin-top:14px">
+              <div>
+                <p class="box-title">Mein Empfinden <span class="subtle" style="text-transform:none">(Bd. 1 läuft noch)</span></p>
+                <div class="asp"><span class="g">＋</span>Humor/Ton &amp; Welt — geerbt aus dem Universum, trägt auch hier</div>
+                <div class="asp"><span class="g">＋</span>Clyde ist stark: handlungsfähiger Antiheld statt Jammerlappen</div>
+                <div class="asp"><span class="b">−</span>🎙️ <b>Thomas Nicolai</b>: „Stimmfarbe passt nicht" + „Tempo &amp; Betonung"</div>
+                <div class="asp"><span style="color:var(--muted);font-weight:800;margin-right:7px">○</span><span class="subtle">…aber ausdrücklich <b>„nur im Vergleich schwächer"</b> — kein Abbruchgrund</span></div>
+              </div>
+              <div>
+                <p class="box-title">Wichtig: das ist ein Sprecher-Minus, kein Werk-Minus</p>
+                <div class="comm"><span class="subtle">→</span> Der Sprecher zählt bei mir als <b>zusätzliche</b> Dimension, nicht als Inhalt. Die Reihe selbst ist davon unberührt.</div>
+                <div class="comm"><span class="g">👍</span>dt. Rezensionen loben Nicolai durchaus („kann mit Durchstimmvarianz sehr überzeugen") — mein Urteil ist ein <b>direkter Vergleich</b>, kein Qualitätsmangel.</div>
+                <p class="box-title" style="margin-top:12px">Noch offen (frag mich!)</p>
+                <div class="comm"><span class="subtle">?</span> Trägt Clyde genauso wie Montana?</div>
+                <div class="comm"><span class="subtle">?</span> Stadt/Diebeszug vs. Aufbau in Coggeshall — was gefällt besser?</div>
+                <div class="comm"><span class="subtle">?</span> Stören dich die 15-h-Bände?</div>
+              </div>
+            </div>
+            <div class="synth"><b>Erster Sprecher-A/B-Test meiner Bibliothek:</b> gleicher Autor, gleiche Welt, gleicher Ton — und trotzdem <b>Robert Frank ＋2 gegen Thomas Nicolai −1</b>.
+              Sauberer Beleg, dass die Sprecherstimme ein eigenständiger Faktor ist. Inhaltlich ist hier noch nichts entschieden: ich bin in <b>Bd. 1 von 11</b>.</div>
+          </div>
+        </article>
+      </div>
+
       <!-- Alex Verus (loved) -->
       <article class="work" id="alexverus">
         <div class="cover" style="background:linear-gradient(150deg,#3a2a5c,#1c1830 55%,#0e1220)"><div class="cm">🔮🌃</div><div><div class="ct">ALEX VERUS</div><div class="ca">Benedict Jacka</div></div></div>
@@ -592,6 +798,43 @@
             </div>
           </div>
           <div class="synth"><b>Erstes Werk im neuen Kontext „Humor-Phantastik"</b> (humor-getrieben, leichte Kost). Zwei Erkenntnisse: (1) <b>Deutsch-Präferenz drastisch geschärft</b> — der Abbruch bei Bd. 4 lag an <b>Englisch-Müdigkeit</b>, nicht an Qualität → Englisch ist ein starker Malus, nicht bloß „Fallback". (2) <b>Fast-Allmacht ist hier KEIN Malus</b> (Comedy-Rahmen) — Gegenprobe zu Scholomance, wo OP-von-Anfang −2 war: <b>Kontext schlägt global</b>. Absurder Humor verbindet mit <b>Dungeon Crawler Carl</b>.</div>
+        </div>
+      </article>
+
+      <article class="work lik" id="mordclub">
+        <div class="cover" style="background:linear-gradient(150deg,#2f5a4e,#1c3830 55%,#12211d)"><div class="cm">🫖🔍</div><div><div class="ct">DONNERSTAGS-<br>MORDCLUB</div><div class="ca">Richard Osman</div></div></div>
+        <div>
+          <div class="wh"><span class="t">Der Donnerstagsmordclub</span><span class="verdict lik">♡ gut</span><span class="tag">· Cosy Crime · 🎧 gehört (dt.)</span></div>
+          <div class="wmeta">EN „Thursday Murder Club" · <b>5 Bände (2020–2025), Bd. 6 für 2027</b> · DE List/Ullstein, Übers. Sabine Roth · Hörbuch Hamburg, <b>Johannes Steck + Beate Himmelstoß</b> (Zwei-Stimmen-Lesung) · <b>alle 5 gehört (dt.)</b> · je Band gekürzt (~10 h) UND ungekürzt (~11,5 h) — welche Fassung, ist offen · <span class="subtle">volle Metadaten (ISBN/Seiten/Hördauer je Band) im Vault</span></div>
+          <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span></div>
+            <div class="fame-lab"><b>Phänomen</b> · ~1,91 Mio. Wertungen <span class="hype">🔥 17+ Mio. Bücher · UK-Weihnachts-Nr.-1 2020 (schlug Obama) · 🎬 Netflix 2025 (Mirren/Brosnan/Kingsley/Imrie)</span></div></div>
+          <div class="cols" style="margin-top:12px">
+            <div>
+              <p class="box-title">Community-Wertung je Band · Goodreads /5</p>
+              <p class="hint">Balken = Ausschnitt 3,5–5,0 · Stand 11.08.2026. <b>Alle 5 Bände gehört.</b></p>
+              <div class="axis"><span class="a"><span>3,5</span><span>5,0</span></span></div>
+              <div class="band mine"><span class="bn">1</span><span class="bt">Der Donnerstagsmordclub</span><div class="rbar"><span style="width:23%"></span></div><span class="rv">3,85</span></div>
+              <div class="band mine"><span class="bn">2</span><span class="bt">Der Mann, der zweimal starb</span><div class="rbar"><span style="width:57%"></span></div><span class="rv">4,35</span></div>
+              <div class="band mine"><span class="bn">3</span><span class="bt">…und die verirrte Kugel</span><div class="rbar"><span style="width:57%"></span></div><span class="rv">4,35</span></div>
+              <div class="band top mine"><span class="bn">4</span><span class="bt">…Ein Teufel stirbt immer zuletzt</span><div class="rbar"><span style="width:64%"></span></div><span class="rv">4,46</span></div>
+              <div class="band mine"><span class="bn">5</span><span class="bt">…und der unlösbare Code</span><div class="rbar"><span style="width:51%"></span></div><span class="rv">4,26</span></div>
+              <p class="note"><b>⚠️ Mein Urteil läuft hier GEGEN die Kurve.</b> Bd. 4 ist der <b>bestbewertete</b> Band (4,46) — und ausgerechnet der, in dem mich der Demenz-Strang gestört hat („gefühlt das halbe Buch"). Die Mehrheit <b>feiert</b> genau das, was mich rausgeworfen hat. Schwaches Debüt (3,85), danach stabil 4,26–4,46.</p>
+            </div>
+            <div>
+              <p class="box-title">Mein Empfinden</p>
+              <div class="asp"><span class="g">＋</span>Warmes Rentner-Ensemble — „witzig und charmant", ungewöhnliche Helden</div>
+              <div class="asp"><span class="g">＋</span>Trocken-britischer Humor · herzlich-gemütlich · leicht &amp; entspannend</div>
+              <div class="asp"><span class="g">＋</span>Cleverer Twist am Ende · faires Whodunit · mehrere verwobene Fäden</div>
+              <div class="asp"><span class="g">＋</span>Situationskomik (Rentner beim Ermitteln)</div>
+              <div class="asp"><span class="b">−−</span><b>Persona-Stränge verdrängen die Haupthandlung</b> — Demenz-Strang (Bd. 4) übernimmt: „<b>dafür lese ich keinen Krimi!</b>"</div>
+              <div class="asp"><span class="b">−</span>Zähe Passagen · Residenz-Alltag in Cooper's Chase bremst</div>
+              <div class="asp"><span class="b">−</span>Kein Locked-Room (offene Struktur) · Sprecher solide, aber kein Verstärker</div>
+              <p class="box-title" style="margin-top:12px">Community sagt</p>
+              <div class="comm"><span class="g">👍</span>warmherzige Figuren · trockener Humor (Joyces Tagebuch) · kurze Kapitel · ernster Unterton als Stärke</div>
+              <div class="comm"><span class="b">👎</span>„die Morde als zweite Geige" (Bd. 4) · zu viele Nebenfiguren/Subplots · Fair-Play umstritten (Durchbrüche off-page)</div>
+            </div>
+          </div>
+          <div class="synth"><b>Erstes „gut" (zwischen geliebt und okay) — und mein schärfstes Kalibrier-Signal.</b> Formal passt <b>alles</b>: 5 Bände, komplett deutsch, ~11,5 h/Band, keine No-Go-Verstöße. Ton, Ensemble, Twist und Humor treffen <b>alle ＋2</b>. Trotzdem kein „geliebt" — <b>ein einziger Faktor</b> hält es zurück: die Verdrängung des Falls. <b>Die große Erkenntnis: Fokus ist NICHT Tempo.</b> Gemütlich darf es sein — die Haupthandlung muss nur vorne bleiben („die Fälle waren ganz spannend, <b>wenn sie nicht in den Hintergrund geraten</b>"). Gegenprobe zu <b>Die mörderischen Cunninghams</b> (loved, „sehr straff") im selben Genre. Und: <b>Locked-Room ist doch nur Bonus, keine Bedingung</b> — fehlt hier ganz, wurde aber nicht vermisst.</div>
         </div>
       </article>
 
@@ -746,6 +989,114 @@
       </section>
     </div>
 
+
+    <!-- ============================================================ HÖRREIHENFOLGE -->
+    <div class="view" id="v-reihenfolge">
+      <header class="hero"><h1>🎧 Hörreihenfolge Vuldranni</h1>
+        <p class="lead"><b>Die guten Jungs</b> (16 Bände) und <b>Die bösen Jungs</b> (11 Bände) spielen in derselben Welt und laufen am Ende zusammen.
+          Diese Reihenfolge führt beide zusammen — <b>27 Bände, Schritt für Schritt</b>, nach der Erscheinungsreihenfolge des Originals.</p></header>
+
+      <section>
+        <div class="grid2">
+          <div class="card2">
+            <h3>Die drei Regeln</h3>
+            <div class="thread">
+              <div class="k">1</div><div><b>Die guten Jungs sind die Basis.</b> Sie legen Welt, Adel und Politik von Vuldranni. Wer sie zuerst hört, versteht die bösen Jungs deutlich besser.</div>
+              <div class="k">2</div><div><b>Umstieg nach Band 5.</b> „Schurken &amp; Halunken" erschien im Original direkt nach „Hochadel für Einsteiger" — ab da Band für Band verschränkt weiterhören.</div>
+              <div class="k">3</div><div><b>Am Ende zwingend:</b> <span style="white-space:nowrap">BJ 11 <span class="arr">→</span> GJ 15</span>. Der Crossover-Band zahlt beide Reihen ein.</div>
+            </div>
+          </div>
+          <div class="card2">
+            <h3>Legende &amp; Stand</h3>
+            <div class="seq" style="margin-top:0">
+              <span class="bk gj">GJ&nbsp;n</span> <span class="subtle" style="font-size:.82rem">= Die guten Jungs</span>
+            </div>
+            <div class="seq">
+              <span class="bk bj">BJ&nbsp;n</span> <span class="subtle" style="font-size:.82rem">= Die bösen Jungs (gestrichelt)</span>
+            </div>
+            <div class="seq">
+              <span class="bk gj ok">gehört</span> <span class="bk gj hier">hier bist du</span>
+            </div>
+            <div class="seq"><span class="subtle" style="font-size:.82rem">Die kleine Zahl oben links ist der <b>Schritt 1–27</b> in der Gesamtreihenfolge.</span></div>
+            <p class="note" style="margin-top:10px"><b>Mein Stand:</b> guten Jungs Bd. 1–5 ✅ · böse Jungs Bd. 1 ▶️ läuft — das ist <b>Schritt 6 von 27</b>.
+              Der Umstieg ist also schon geschafft.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Die 11 Etappen</h2>
+        <div class="route">
+        <div class="et">
+          <div class="etn">Etappe 1<b>Einstieg — Welt kennenlernen</b><span class="subtle" style="font-weight:400">Schritt 1–3 · Original 2018</span><div style="margin-top:6px"><span class="st done">✅ gehört</span></div></div>
+          <div><div class="seq"><span class="bk gj ok"><span class="stp">1</span>GJ&nbsp;1</span> <span class="arr">→</span> <span class="bk gj ok"><span class="stp">2</span>GJ&nbsp;2</span> <span class="arr">→</span> <span class="bk gj ok"><span class="stp">3</span>GJ&nbsp;3</span></div><p class="etwhy">Die guten Jungs legen das Fundament: Vuldranni, das Spiel iNcarn8, die Regeln.</p></div>
+        </div>
+        <div class="et">
+          <div class="etn">Etappe 2<b>Herzogtum &amp; Adel</b><span class="subtle" style="font-weight:400">Schritt 4–5 · Original 2019</span><div style="margin-top:6px"><span class="st done">✅ gehört</span></div></div>
+          <div><div class="seq"><span class="bk gj ok"><span class="stp">4</span>GJ&nbsp;4</span> <span class="arr">→</span> <span class="bk gj ok"><span class="stp">5</span>GJ&nbsp;5</span></div><p class="etwhy">Montana erbt und beginnt aufzubauen — der Adel kommt ins Spiel, den die andere Reihe später von unten zeigt.</p></div>
+        </div>
+        <div class="et here">
+          <div class="etn">Etappe 3<b>Umstieg: die andere Seite</b><span class="subtle" style="font-weight:400">Schritt 6 · Original 2019</span><div style="margin-top:6px"><span class="st now">▶️ du bist hier</span></div></div>
+          <div><div class="seq"><span class="bk bj hier"><span class="stp">6</span>BJ&nbsp;1</span></div><p class="etwhy"><b>Genau hier einsteigen:</b> „Schurken &amp; Halunken“ erschien im Original direkt nach „Hochadel für Einsteiger“. Ab jetzt laufen beide Stränge parallel — Clyde in Glaton, Montana im Herzogtum.</p></div>
+        </div>
+        <div class="et">
+          <div class="etn">Etappe 4<b>Beide Seiten im Wechsel</b><span class="subtle" style="font-weight:400">Schritt 7–9 · Original 2019</span></div>
+          <div><div class="seq"><span class="bk gj"><span class="stp">7</span>GJ&nbsp;6</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">8</span>BJ&nbsp;2</span> <span class="arr">→</span> <span class="bk gj"><span class="stp">9</span>GJ&nbsp;7</span></div><p class="etwhy">Ab hier wird echt verschränkt — Band für Band abwechselnd.</p></div>
+        </div>
+        <div class="et">
+          <div class="etn">Etappe 5<b>Der dichteste Wechselblock</b><span class="subtle" style="font-weight:400">Schritt 10–15 · Original 2020</span></div>
+          <div><div class="seq"><span class="bk bj"><span class="stp">10</span>BJ&nbsp;3</span> <span class="arr">→</span> <span class="bk gj"><span class="stp">11</span>GJ&nbsp;8</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">12</span>BJ&nbsp;4</span> <span class="arr">→</span> <span class="bk gj"><span class="stp">13</span>GJ&nbsp;9</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">14</span>BJ&nbsp;5</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">15</span>BJ&nbsp;6</span></div><p class="etwhy">Sechs Bände im Reißverschluss. ⚠️ Ab Schritt 14 kann das <b>deutsche Hörbuch</b> knapp werden (belegt eingelesen: guten Jungs bis Bd. 9, böse Jungs bis Bd. 8).</p></div>
+        </div>
+        <div class="et">
+          <div class="etn">Etappe 6<b>Montana zieht davon</b><span class="subtle" style="font-weight:400">Schritt 16–19 · Original 2021</span></div>
+          <div><div class="seq"><span class="bk gj"><span class="stp">16</span>GJ&nbsp;10</span> <span class="arr">→</span> <span class="bk gj"><span class="stp">17</span>GJ&nbsp;11</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">18</span>BJ&nbsp;7</span> <span class="arr">→</span> <span class="bk gj"><span class="stp">19</span>GJ&nbsp;12</span></div><p class="etwhy"><span class="freetag">frei tauschbar</span> Im Mittelteil (Schritte 16–24) laufen beide Handlungen weitgehend parallel — hier ist die exakte Reihenfolge <b>nicht kritisch</b>. Praktisch: wenn ein dt. Hörbuch noch fehlt, einfach den nächsten verfügbaren Band nehmen.</p></div>
+        </div>
+        <div class="et">
+          <div class="etn">Etappe 7<b>Vorbereitung</b><span class="subtle" style="font-weight:400">Schritt 20–22 · Original 2022</span></div>
+          <div><div class="seq"><span class="bk gj"><span class="stp">20</span>GJ&nbsp;13</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">21</span>BJ&nbsp;8</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">22</span>BJ&nbsp;9</span></div><p class="etwhy"><span class="freetag">frei tauschbar</span> <span class="subtle">gehört zum unkritischen Mittelteil (Schritte 16–24)</span></p></div>
+        </div>
+        <div class="et">
+          <div class="etn">Etappe 8<b>Letzte Aufstellung</b><span class="subtle" style="font-weight:400">Schritt 23–24 · Original 2023</span></div>
+          <div><div class="seq"><span class="bk gj"><span class="stp">23</span>GJ&nbsp;14</span> <span class="arr">→</span> <span class="bk bj"><span class="stp">24</span>BJ&nbsp;10</span></div><p class="etwhy"><span class="freetag">frei tauschbar</span> <span class="subtle">gehört zum unkritischen Mittelteil (Schritte 16–24)</span></p></div>
+        </div>
+        <div class="et hard">
+          <div class="etn">Etappe 9<b>Crossover — Reihenfolge zwingend</b><span class="subtle" style="font-weight:400">Schritt 25–26 · Original 2024</span><div style="margin-top:6px"><span class="st cross">🔀 Crossover</span></div></div>
+          <div><div class="seq"><span class="bk bj"><span class="stp">25</span>BJ&nbsp;11</span> <span class="arr">→</span> <span class="bk gj"><span class="stp">26</span>GJ&nbsp;15</span></div><p class="etwhy"><b>Die eine harte Regel:</b> „2 Lügen, 2 Throne“ muss <b>vor</b> „Kampf um den Keramikthron“ kommen. In Band 15 tun Montana und Clyde sich zusammen — der Band zahlt die Vorarbeit <b>beider</b> Reihen ein. Andersherum spoilerst du dir den ganzen Clyde-Strang.</p></div>
+        </div>
+        <div class="et">
+          <div class="etn">Etappe 10<b>Finale</b><span class="subtle" style="font-weight:400">Schritt 27 · Original 2025</span></div>
+          <div><div class="seq"><span class="bk gj"><span class="stp">27</span>GJ&nbsp;16</span></div><p class="etwhy">Der Abschluss des Universums (soweit auf Deutsch erzählt).</p></div>
+        </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Wichtige Einschränkungen — ehrlich gesagt</h2>
+        <div class="panel">
+          <div class="asp"><span class="b">!</span><b>Das deutsche Hörbuch kann diese Reihenfolge überholen.</b> Belegt eingelesen sind bislang <b>guten Jungs bis Bd. 9</b> und <b>böse Jungs bis Bd. 8</b> — die Bücher gibt es komplett, die Hörbücher noch nicht. Ab Etappe 8 also vorher prüfen, ob der nächste Band schon vorliegt. Bis dahin sind es noch ~12 Bände Puffer.</div>
+          <div class="asp"><span class="b">!</span><b>Im Mittelteil (Schritte 16–24) ist die exakte Reihenfolge nicht kritisch.</b> Die Handlungen laufen dort weitgehend parallel — man darf frei tauschen, etwa wenn ein dt. Hörbuch noch fehlt. <b>Hart ist nur eines: BJ 11 vor GJ 15.</b></div>
+          <div class="asp"><span class="b">!</span><b>Beide Reihen sind auch einzeln vollständig hörbar.</b> Diese Reihenfolge ist ein Optimum, kein Zwang — nur die Crossover-Regel (Etappe 10) sollte man wirklich einhalten.</div>
+          <p class="note"><b>Quellen dieser Reihenfolge:</b> Erscheinungschronologie der Originalausgaben (FantasticFiction, aufbereitet von <i>Most Recommended Books</i>), die Verlags-/Community-Aussage „beide Reihen sind unabhängig lesbar, aber weltbewegende Ereignisse werden aus zwei Perspektiven erzählt", die Leserempfehlung „erst die guten Jungs für Welt- und Politikwissen" und die Crossover-Anlage von „Bad to the Throne" (= GJ 15). Die Jahre sind <b>Original-eBook-Erscheinungen</b>; die dt. Hörbücher kamen später und in anderer Taktung. Vollständig im Vault hinterlegt.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Die zwei Reihen im Detail</h2>
+        <div class="grid2">
+          <a class="mini" href="#gutenjungs" data-view="werke" data-scroll="gutenjungs">
+            <div class="cover sm" style="background:linear-gradient(150deg,#2f5f45,#1d3b2c 55%,#14211a)"><div class="cm">🛡️</div><div class="ct">GJ</div></div>
+            <div><div class="mt">Die guten Jungs</div><div class="mm">alle 16 Bände einzeln · Montana Coggeshall</div>
+              <span class="subtle" style="font-size:.8rem">mit dt./engl. Titeln, Jahren und Hörbuch-Stand →</span></div>
+          </a>
+          <a class="mini" href="#boesenjungs" data-view="werke" data-scroll="boesenjungs">
+            <div class="cover sm" style="background:linear-gradient(150deg,#4a2140,#2b1428 55%,#170d15)"><div class="cm">🗡️</div><div class="ct">BJ</div></div>
+            <div><div class="mt">Die bösen Jungs</div><div class="mm">alle 11 Bände einzeln · Clyde Hatchett</div>
+              <span class="subtle" style="font-size:.8rem">mit dt./engl. Titeln, Jahren und Hörbuch-Stand →</span></div>
+          </a>
+        </div>
+      </section>
+    </div>
+
     <!-- ============================================================ BEKANNTHEIT -->
     <div class="view" id="v-bekanntheit">
       <header class="hero"><h1>Bekanntheit &amp; Hype</h1><p class="lead">Wie viele Menschen haben ein Werk bewertet oder kommentiert — also wie <b>bekannt</b> es ist.
@@ -768,6 +1119,12 @@
             <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span></div>
               <div class="fame-lab"><b>Phänomen</b> <span class="hype">🔥 Kult · &gt;10 Mio verkauft · Audible-Bestseller · 7 Sprachen</span></div></div>
             <p class="note">Eines der größten LitRPG-Werke überhaupt; das Hörbuch verkauft sich besser als Print/eBook.</p>
+          </div>
+          <div style="margin:0 0 16px">
+            <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Der Donnerstagsmordclub</b> <span class="subtle" style="font-size:.82rem">~1,91 Mio Goodreads-Wertungen (Bd. 1–5) · ♡ gut</span></div>
+            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span></div>
+              <div class="fame-lab"><b>Phänomen</b> <span class="hype">🔥 17+ Mio verkauft · UK-Weihnachts-Nr.-1 2020 · 🎬 Netflix 2025 · 🏆 Autor Richard Osman OBE 2026</span></div></div>
+            <p class="note"><b>Das reichweitenstärkste Werk meiner Bibliothek nach DCC.</b> Schnellstverkaufendes Krimi-Debüt seit Beginn der Nielsen-Aufzeichnungen; erst der 2. Erwachsenenroman dieses Jahrhunderts mit 1 Mio UK-Hardcovern (nach Dan Brown). In DE Platz 7 der SPIEGEL-Jahresbestsellerliste 2021. <b>Und trotzdem nur „gut" für mich</b> — hier war die Reichweite sogar ein <b>Gegen</b>indikator: Bd. 4, der bestbewertete Band, ist genau der, der mich rausgeworfen hat.</p>
           </div>
           <div style="margin:0 0 16px">
             <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Die mörderischen Cunninghams</b><span class="subtle" style="font-size:.82rem">~340k Goodreads-Wertungen (Bd. 1–2)</span></div>
@@ -806,6 +1163,12 @@
             <p class="note">Breit bewertet und solide (Community ~4,19) — für MICH aber nur „okay". Zeigt: hohe Reichweite UND gute Wertung heißen nicht, dass es zu meinem Geschmack passt.</p>
           </div>
           <div style="margin:0 0 16px">
+            <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Vuldranni — Die guten Jungs / Die bösen Jungs</b><span class="subtle" style="font-size:.82rem">guten Jungs ⌀ 4,38/5 · ♡ gut</span></div>
+            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span><span class="ft"></span></div>
+              <div class="fame-lab"><b>Etabliert</b> <span class="hype">📚 Eric Ugland ~49 Bücher · 27 Bände allein in diesem Universum · dt. Hörbücher bei Audible Studios</span></div></div>
+            <p class="note">Indie-LitRPG mit hoher Veröffentlichungsfrequenz — kein Mainstream-Phänomen wie DCC, aber ein Dauerbrenner der Szene, der es komplett auf Deutsch geschafft hat (Buch <i>und</i> Hörbuch). <b>⚠️ Ehrlich gesagt:</b> exakte Stimmenzahlen und der Serienwert der bösen Jungs waren nicht erhebbar — Goodreads, Audible.de und Amazon waren aus dieser Session nicht erreichbar.</p>
+          </div>
+          <div style="margin:0 0 16px">
             <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Sturmfels-Akademie</b><span class="subtle" style="font-size:.82rem">~1.680 Goodreads-Wertungen</span></div>
             <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft"></span><span class="ft"></span><span class="ft"></span></div>
               <div class="fame-lab"><b>Szene-bekannt</b></div></div>
@@ -834,8 +1197,10 @@
             <div class="rel-what"><span class="flag en">EN</span> <b>Dungeon Crawler Carl — Bd. 9</b> „The Beautiful Place" (Finale)<div class="s">Prolog Juni 2026 · für mich nachrangig (ich warte auf Deutsch)</div></div></div>
           <div class="rel-row"><div class="rel-date">danach</div>
             <div class="rel-what">DCC Bd. 4 dt. Print <b>24.02.2027</b> (Bd. 5+ unterminiert) · Prinz Bd. 4 „Zorn" / Bd. 5 „Vollendung" (Termine offen) · Saltatio-Mortis-EPs zum Prinzen</div></div>
+          <div class="rel-row"><div class="rel-date">laufend <small>⚠️ Termine unbelegt</small></div>
+            <div class="rel-what"><span class="flag de">DE</span> <b>Vuldranni — dt. Hörbuch-Produktion</b><div class="s">Bücher komplett erschienen (guten Jungs 16 · böse Jungs 11), <b>Hörbücher noch nicht</b>: belegt eingelesen sind guten Jungs bis Bd. 9 und böse Jungs bis Bd. 8. Für meine <a href="#reihenfolge" data-view="reihenfolge">Hörreihenfolge</a> heißt das: ab Etappe 8 vorher prüfen — bis dahin ~12 Bände Puffer.</div></div></div>
         </div>
-        <p class="note">Aktuell am Hören: <b>DCC Bd. 2</b> „Carl's Doomsday Scenario" (dt.). Zwischen den dt. DCC-Bänden ist die Lücke, die Empfehlungen füllen sollen.</p>
+        <p class="note">Aktuell am Hören: <b>Die bösen Jungs Bd. 1</b> „Schurken &amp; Halunken" (dt.) — parallel sind die <b>guten Jungs</b> bis Bd. 5 durch. Davor: <b>DCC Bd. 2</b> „Carl's Doomsday Scenario" (dt.). Zwischen den dt. DCC-Bänden ist die Lücke, die Empfehlungen füllen sollen.</p>
       </section>
     </div>
 
@@ -845,7 +1210,7 @@
       <section>
         <div class="panel">
           <div class="thread">
-            <div class="k">1</div><div><b>Fokus &amp; Vorwärtsdrang</b> (stärkster Faden, 3× belegt) — kein Abschweifen, spürbarer Progress, kein zäher Start. <span class="subtle">Milderung: ein starkes Finale macht einen zähen Start verzeihlich.</span></div>
+            <div class="k">1</div><div><b>Fokus &amp; Vorwärtsdrang</b> (stärkster Faden, 4 Genres) — kein Abschweifen, spürbarer Progress, kein zäher Start. <span class="subtle">Milderung: ein starkes Finale macht einen zähen Start verzeihlich.</span><br><b style="color:var(--pos)">⭐ Neu geschärft (Donnerstagsmordclub): Fokus ist NICHT Tempo.</b> <span class="subtle">Gemütlich darf es sein — die <b>Haupthandlung muss vorne bleiben</b>. Nicht auf „fast-paced" filtern, sondern auf den Fokus-Anteil: „die Fälle waren ganz spannend, wenn sie nicht in den Hintergrund geraten."</span></div>
             <div class="k">2</div><div><b>Handlungsfähiger Held</b> — entschlossen wie Carl (＋), nicht zu lange passiv wie Niri in Bd. 1 (−).</div>
             <div class="k">3</div><div><b>Sprecher-Performance</b> — Kaminski &amp; Merlau „trägt massiv" → Quasi-Vetorecht bei Hörbüchern.</div>
             <div class="k">4</div><div><b>Figuren-Bindung</b> — ungleiches Duo / Gemeinschaft tragen das Erlebnis.</div>
@@ -855,7 +1220,13 @@
             <span class="chip pos">＋ pragmatischer Held</span>
             <span class="chip pos">＋ starkes Finale</span>
             <span class="chip pos">＋ starker Sprecher (Hörbuch)</span>
-            <span class="chip pos">＋ Locked-Room / cleverer Twist (Krimi)</span>
+            <span class="chip pos">＋ cleverer Twist (Krimi)</span>
+            <span class="chip pos">＋ Locked-Room <span class="subtle">(Bonus, keine Bedingung)</span></span>
+            <span class="chip pos">＋ warmes Ermittler-Ensemble · Cosy-Ton</span>
+            <span class="chip pos">＋ Basisaufbau &amp; Siedlungsentwicklung <span class="subtle">(neu)</span></span>
+            <span class="chip pos">＋ Weltgeheimnisse &amp; Entdeckung <span class="subtle">(neu)</span></span>
+            <span class="chip pos">＋ Monster-Vielfalt &amp; Bestiarium <span class="subtle">(neu)</span></span>
+            <span class="chip pos">＋ handfeste Kampf-Action <span class="subtle">(neu)</span></span>
             <span class="chip">🇩🇪 Deutsch bevorzugt · 🇬🇧 Englisch als Fallback</span>
             <span class="chip">Format pro Werk (hört &amp; liest)</span>
             <span class="chip">⏱ Reihenschnitt ≤ ~20 h</span>
@@ -869,13 +1240,20 @@
             <span class="chip no">✕ OP-von-Anfang ohne Machtprogression</span>
             <span class="chip no">✕ überladenes Weltdetail (verschenkt)</span>
             <span class="chip no">✕ Romance-Überhang · Dauer-Zynismus</span>
+            <span class="chip no">✕ Persona-Strang verdrängt die Haupthandlung</span>
           </div>
-          <div class="note">Drei Geschmacksräume mit je eigenen Gewichten: <b>LitRPG</b> (Ton/Figuren/Handwerk hoch),
-            <b>Fantasy</b> (Themen/Figuren hoch, Handwerk 0,18) und <b>Krimi</b> (Handwerk/Twist/Locked-Room hoch).
+          <div class="note">Vier Geschmacksräume mit je eigenen Gewichten: <b>LitRPG</b> (Ton/Figuren/Handwerk hoch),
+            <b>Fantasy</b> (Themen/Figuren hoch, Handwerk 0,18), <b>Humor-Phantastik</b> und <b>Krimi</b> (Handwerk 0,22 · Figuren 0,12 — nach dem Donnerstagsmordclub von 0,05 angehoben).
             <br><b>Graubereich (4 „okay"-Werke):</b> <b>Survival Quest</b> (LitRPG), <b>Scholomance</b>, <b>Riyria</b> &amp; <b>Haus Ashford</b> (Fantasy/UF) liefern die Anti-Muster.
+            <br><b>⚠️ Community-Scores sind im Krimi kein Kompass — in KEINE Richtung:</b> bei <b>Cunninghams</b> liegt mein Urteil über dem Schnitt (~3,8 → geliebt), beim <b>Donnerstagsmordclub</b> darunter (bestbewerteter Band = der, der mich störte).
             Geschärfter roter Faden: <b>Machtsteigerungs-Kurve MIT Peak erwünscht</b> — beide Pole der flachen Kurve sind Malus (OP-von-Anfang wie El, ODER gedeckelt-ohne-Limit-Break wie Royce/Hadrian).
             Dazu <b>Magie-/Power-Fantasy-Lean</b> („zu wenig Fantasy") + Wunsch nach ausbalanciertem Machtsystem.
-            Gegenprobe: geliebtes Duo &amp; Mystery (Riyria) reichen OHNE Magie/Machtkurve nicht.</div>
+            Gegenprobe: geliebtes Duo &amp; Mystery (Riyria) reichen OHNE Magie/Machtkurve nicht.
+            <br><br><b style="color:var(--pos)">⭐ Neu geschärft (Vuldranni): die Politik-Schwelle ist jetzt benannt.</b>
+            Bisher kannte mein Profil nur die Überschreitung („Intrigen-Overload → dann bin ich raus"). Bei den guten Jungs steht Adel/Politik erstmals auf <b>0</b>:
+            <i>„noch in einem okay Maße — mehr würde mich mehr nerven, aber so ist okey."</i>
+            <b>Regel: Politik als Würze = neutral, Politik als Motor = Malus.</b> Adel/Hofpolitik ist damit <b>kein</b> Ausschlusskriterium mehr — entscheidend ist, ob sie die Hauptachse verdrängt.
+            <br><b>Zweite Schärfung:</b> „über-crunchiges Zahlensystem" hat jetzt zwei Stufen — <b>Beiwerk</b> (guten Jungs, „mini negativer Punkt") vs. <b>Selbstzweck</b> (Survival Quest). Und: <b>im Hörbuch wiegt es schwerer</b>, weil Statblöcke vorgelesen werden und nicht überspringbar sind.</div>
         </div>
       </section>
     </div>
@@ -885,6 +1263,8 @@
       <span style="color:var(--fame)">■</span> Gold = Bekanntheit/Reichweite (wie viele) ·
       <span style="color:var(--pos)">■</span> Grün ＋/👍 &amp; <span style="color:var(--neg)">■</span> Rot −/👎 = mein Empfinden (−2…+2).
       Cover selbst gestaltet · alle Zahlen aus echten Nutzerdaten (Goodreads/Amazon/Audible) · Details im Vault.
+      <br><b>Stand 2026-08-11.</b> Dieses Dashboard ist eine reine Projektion des Vaults — es enthält nichts, was dort nicht steht.
+      Mit <span class="unsure">⚠</span> markierte Angaben sind im Vault ausdrücklich als offene Fragen hinterlegt (Recherche-Quellen waren in dieser Session nicht erreichbar) statt stillschweigend geglättet zu werden.
     </p>
 
   </div>
@@ -892,7 +1272,7 @@
 
 <script>
 (function(){
-  var views = ["uebersicht","werke","bekanntheit","releases","geschmack"];
+  var views = ["uebersicht","werke","reihenfolge","bekanntheit","releases","geschmack"];
   var menu = document.getElementById("menu");
   function show(view, scrollId){
     if(views.indexOf(view)<0) view = "uebersicht";

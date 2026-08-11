@@ -23,7 +23,7 @@ auch ruhige Szenen zählen, solange sie tragen. Gegenteil: Filler-Etagen, Nebenq
 | --- | --- | --- |
 | [[LitRPG]] | loved | [[Dungeon Crawler Carl]] +2 („Fokus. Story geht immer weiter") — ABER **im selben Kontext verletzt**: [[Survival Quest]] **−1** („der HC bleibt einfach zu selten bei der Sache", Sidequest-Wildwuchs) ([[2026-07-16 Erstinterview Dungeon Crawler Carl]] · [[2026-07-16 Interview Survival Quest]]) |
 | [[Fantasy]] | loved | 2× verletzt: [[Sturmfels-Akademie]] **−2** (Band 1: „zu wenig Progress, man weiß nicht wohin die Reise geht") · [[Der Prinz von Staub und Schatten]] **−1** („Fokus geht vom Ziel weg … könnte mehr Progress machen") ([[2026-07-16 Interview Streitende Götter]]) · [[Riyria]] **+1** — „Abenteuer-/Heist-Struktur + roter Faden über die Bände" (zügig, großer Bogen) ([[2026-07-16 Interview Riyria]]) |
-| [[Krimi]] | loved | [[Die mörderischen Cunninghams]] **+2** — „Sehr straff", alles zahlt auf den Fall ein, kein Leerlauf ([[2026-07-16 Interview Die mörderischen Cunninghams]]) |
+| [[Krimi]] | loved | [[Die mörderischen Cunninghams]] **+2** — „Sehr straff", alles zahlt auf den Fall ein, kein Leerlauf ([[2026-07-16 Interview Die mörderischen Cunninghams]]) · **im selben Kontext verletzt:** [[Der Donnerstagsmordclub]] **−1** — „zähe Passagen", Nebenstränge bremsen; der Sog IST da, aber nur solange der Fall vorn bleibt ([[2026-08-11 Interview Der Donnerstagsmordclub]]) |
 | [[Humor-Phantastik]] | loved | [[Magic 2.0]] **+1** — blieb flott & kurzweilig (nur stellenweise zäh) ([[2026-07-20 Interview Magic 2.0]]) |
 
 ## Kontextübergreifend bestätigt (roter Faden!)
@@ -42,8 +42,19 @@ Mittelteil zieht").
 - [[Sturmfels-Akademie]] (−2, Band 1)
 - [[Der Prinz von Staub und Schatten]] (−1)
 - [[Magic 2.0]] (+1, flott & kurzweilig)
+- [[Der Donnerstagsmordclub]] (−1, Krimi — Gegenprobe zu Cunninghams im selben Kontext)
 
-**In 3 Kontexten belegt (LitRPG +2 UND −1, Krimi +2, Fantasy 2× verletzt) → mit Abstand
-der stärkste rote Faden des Profils. Besonders stark: im selben Kontext (LitRPG) hebt
-Erfüllung ([[Dungeon Crawler Carl]] loved) und Verletzung ([[Survival Quest]] mixed) das
-Urteil in gegensätzliche Richtungen. Bei JEDEM Kandidaten prüfen.**
+**In 4 Kontexten belegt (LitRPG +2 UND −1, Krimi +2 UND −1, Fantasy 2× verletzt,
+Humor-Phantastik +1) → mit Abstand der stärkste rote Faden des Profils. Besonders stark:
+in ZWEI Kontexten (LitRPG und jetzt auch Krimi) hebt Erfüllung ([[Dungeon Crawler Carl]] /
+[[Die mörderischen Cunninghams]] = loved) und Verletzung ([[Survival Quest]] /
+[[Der Donnerstagsmordclub]] = mixed bzw. liked) das Urteil in gegensätzliche Richtungen —
+bei gleichem Genre und ähnlichen Zutaten. Bei JEDEM Kandidaten prüfen.**
+
+**Schärfung (2026-08-11): Vorwärtsdrang ist BEDINGT, nicht absolut.** Der Nutzer verlangt
+kein Dauertempo — er verlangt, dass die **Haupthandlung im Vordergrund bleibt**. Ein
+gemütlicher Cosy-Ton ([[Cosy-Wohlfühlatmosphäre]] +2) stört ihn nicht; was stört, ist die
+**Verdrängung** des Falls durch Nebenstränge ([[Persona-Strang verdrängt Haupthandlung]]).
+Wörtlich: „die fälle an sich waren ganz spannend **wenn sie nicht in den hintergrund
+geraten**." → Beim Matching nicht auf „hohes Tempo" filtern, sondern auf **Fokus-Anteil der
+Haupthandlung**.

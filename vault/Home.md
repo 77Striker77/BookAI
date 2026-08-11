@@ -32,8 +32,59 @@ tags: [moc, home]
   auch grob Aussortiertes, mit Status + Grund. Nie zweimal prüfen, nie Verworfenes
   erneut vorschlagen.
 
+## 🔒 Spoilerfreiheit
+
+- [[Spoiler-Politik]] — was in einer Ausgabe stehen darf (Neutralzone vs. Verbotszone)
+- [[Spoiler-Lexikon]] — die Wortlisten des Linters (hier tunen, nicht im Code)
+- Grenzen sehen: `python3 scripts/spoiler_check.py --grenzen`
+- Vor jedem Publish: `bash scripts/spoiler-gate.sh` + Agent `spoiler-guard`
+
 ## Zuletzt
 
+- 2026-08-11 — 🔒 **Spoiler-Schutz eingebaut** (Nutzer-Regel): keine Ausgabe verrät mehr
+  etwas jenseits des bandgenauen Lesestands; erlebte Werke dürfen dafür **detaillierter**
+  beschrieben werden. Neu: [[Spoiler-Politik]] + [[Spoiler-Lexikon]], `spoiler_*`-Felder in
+  allen 15 Werk-Notizen, deterministischer Linter, Agent `spoiler-guard`, Skill
+  `spoiler-check` und vier Hooks (SessionStart/PreToolUse/Stop/SubagentStop).
+  Metadaten bleiben unangetastet — beschnitten wird ausschließlich Handlung.
+
+- 2026-08-11 — Werke 12+13 als **Verbund**: **[[Vuldranni (iNcarn8)]]** ([[Eric Ugland]]) mit
+  [[Die guten Jungs]] (16 Bd.) + [[Die bösen Jungs]] (11 Bd.) — beide **liked (vorläufig)**,
+  🎧 dt. Hörbuch. **Zweiter Werk-Verbund** nach [[Die Streitenden Götter]] — und der erste, in dem
+  der Nutzer **mitten drin** ist (GJ 5/16 gehört, BJ 1/11 läuft). Kern des Auftrags: die
+  **kombinierte Hörreihenfolge** über beide Reihen — recherchiert und vom Nutzer bestätigt:
+  *GJ als Basis · Umstieg auf BJ 1 nach GJ 5 (Erscheinungschronologie) · harte Regel am Ende:
+  **BJ 11 „2 Lügen, 2 Throne" VOR GJ 15 „Kampf um den Keramikthron"** (Crossover)*. 4 neue Merkmale:
+  ⭐ [[Basisaufbau & Siedlungsentwicklung]] (+2, neuer Plus-Anker-Typ), [[Weltgeheimnisse &
+  Entdeckung]], [[Monster-Vielfalt & Bestiarium]], [[Handfeste Kampf-Action]].
+  **Zwei Kalibrierungen:** (1) ⭐ **die Politik-Schwelle ist erstmals benannt statt überschritten**
+  — [[Intrigen-Overload ohne Progress]] steht hier auf **0** („noch in einem okey maße, mehr würde
+  mich mehr nerven") → Politik als Würze = neutral, als Motor = Malus; (2)
+  [[Über-crunchiges Zahlensystem]] bekommt eine **Intensitäts-Skala** (Beiwerk vs. Selbstzweck) +
+  **Hörbuch-Verschärfung** (Statblöcke sind beim Hören nicht überspringbar).
+  [[Stimmige Weltatmosphäre]] im Kontext [[LitRPG]] **liked → loved** (erster +2-Träger).
+  **Erster Fall mit zwei Sprechern in EINEM Universum:** [[Robert Frank]] **+2** vs.
+  [[Thomas Nicolai]] **−1** (direkter Vergleich des Nutzers). ⭐ **Erste Empfehlung des Systems,
+  die tatsächlich gehört wird** — [[Die guten Jungs]] kam aus dem Lauf
+  [[2026-07-17 Deutsche Bücher quer über alle Räume]] (86 %); Prognose-Nachkontrolle in der
+  Kandidaten-Notiz: Ton/Held ✅, aber **vier Plus-Anker übersehen**.
+  ⚠️ **Recherche-Einschränkung:** Audible.de, BücherTreff, Goodreads, Amazon und DNB waren
+  Egress-geblockt (nur Websuche) → mehrere Bandtitel/Hördauern sind als **offene Fragen** markiert.
+  Quelle: [[2026-08-11 Interview Die guten Jungs & Die bösen Jungs]].
+- 2026-08-11 — Werk 11: **[[Der Donnerstagsmordclub]]** (Richard Osman, Cosy Crime, 5 Bände),
+  **liked** — **2. Werk im Kontext [[Krimi]]** und **erstes `liked`** überhaupt (zwischen loved
+  und mixed). Gehört dt., **[[Johannes Steck]]** + **[[Beate Himmelstoß]]** (Zwei-Stimmen-Lesung,
+  Sprecher **0** — „solide, unauffällig"). **Die zentrale Erkenntnis schärft den stärksten roten
+  Faden: Fokus ≠ Tempo.** Gemütlich ist okay ([[Cosy-Wohlfühlatmosphäre]] +2, alle vier
+  Ton-Optionen), **Verdrängung** ist es nicht — neues Merkmal [[Persona-Strang verdrängt
+  Haupthandlung]] (−2, „dafür lese ich keinen krimi!"; Demenz-Strang, **bandgenau als Bd. 4
+  identifiziert**). Trotz Volltreffern bei Ton (+2), [[Unterschätztes Ermittler-Ensemble]] (+2),
+  [[Cleverer Twist-Plot]] (+2) und perfekter formaler Passung nur `liked` — **erstes Werk, das
+  an einem einzigen Faktor scheitert**. [[Locked-Room-Mystery]] von Bedingung zu **Bonus**
+  relativiert. Krimi-Gewichte nachgezogen (figuren 0.05→0.12). Neuer Autor [[Richard Osman]]
+  (**Phänomen** — 17+ Mio. Bücher, reichweitenstärkster Autor im Vault; Netflix 2025).
+  **Community-Score-Warnung verschärft:** Bd. 4 ist der *bestbewertete* Band (4,46) — die
+  Mehrheit feiert genau den Störfaktor. Quelle: [[2026-08-11 Interview Der Donnerstagsmordclub]].
 - 2026-07-20 — Werk 10: **[[Magic 2.0]]** (Scott Meyer, Comedy-SciFi), **loved** (als leichte
   Kost) — **neuer Kontext [[Humor-Phantastik]]**, 2. gelesenes Werk (Buch, kein Sprecher). Trägt
   über [[Absurder Humor]] (+2, jetzt 2 Kontexte), [[Nerd-/Popkultur-Humor]] (+2) & [[Originelle

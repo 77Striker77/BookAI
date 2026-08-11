@@ -1,0 +1,5 @@
+# erwartung: warnung
+# herkunft: vault
+# vault: echt
+# was: Im Vault sind Details erlaubt, aber nur im 🔒-Block
+Die guten Jungs Bd. 10: ⟨Figur F⟩ verrät die Gruppe.

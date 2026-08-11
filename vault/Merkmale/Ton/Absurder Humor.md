@@ -24,7 +24,10 @@ nicht von Kalauern.
 | [[LitRPG]] | loved | [[Dungeon Crawler Carl]] +2; „Humor & Absurdität" als Kern gewählt ([[2026-07-16 Erstinterview Dungeon Crawler Carl]]) |
 | [[Humor-Phantastik]] | loved | [[Magic 2.0]] +2: schräg-absurder Nerd-Humor als Kern (verwandt mit DCC) ([[2026-07-20 Interview Magic 2.0]]) |
 
+**Verstärkt 2026-08-11:** [[Vuldranni (iNcarn8)]] +2 — „Humor/Ton zündet“ und „Humor & Schnoddrigkeit“ ([[2026-08-11 Interview Die guten Jungs & Die bösen Jungs]]). Damit **zweites** LitRPG-Werk mit +2 → im Kontext [[LitRPG]] einer der am besten belegten Plus-Anker.
+
 ## Träger dieses Merkmals
 
 - [[Dungeon Crawler Carl]] (+2)
 - [[Magic 2.0]] (+2)
+- [[Die guten Jungs]] / [[Die bösen Jungs]] / [[Vuldranni (iNcarn8)]] (+2, Ugland-Schnoddrigkeit)
