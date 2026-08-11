@@ -169,9 +169,18 @@ bash <artefakt-werkstatt>/scripts/mess.sh artifacts/bibliothek.html   # Browser
 
 | Ebene | Inhalt | Muster |
 | --- | --- | --- |
-| 1 | Ansichten | Topnav, **max. 5 Punkte, keine Dropdowns** |
+| 1 | Ansichten **und** alle Werke | **Schiene links** (`.rail`) — zeigt ALLE Ziele gleichzeitig |
 | 2 | Abschnitte einer Ansicht | Reiter (`.tabsec`), genau einer sichtbar |
 | 3 | Detail je Werk | `<details class="dt">` — nativ, tastaturfest, druckt aufgeklappt |
+
+> 🧭 **Warum Schiene statt Topnav (Nutzer 2026-08-11: „deine Navigation ist immer noch
+> scheiße"):** Es liefen **fünf** Mechanismen nebeneinander — Topnav, Reiter, `<details>`,
+> Fußnav und Sekundärnav. Recherche (NN/g zu Tab-Grenzen; Linear/Stripe/Grafana): sobald die
+> Ziele nicht mehr in ~5 Reiter passen, ist die **Seitenleiste** das skalierende Muster, weil
+> sie alle Ziele auf einmal zeigt. Hier wiegt das doppelt — das iframe wächst auf Inhaltshöhe,
+> `sticky` wird nie aktiv, also muss die Navigation **im Fluss** stehen statt zu kleben.
+> Fußnav und untere Sekundärnav sind damit **ersatzlos entfallen**. Schmal (≤900 px) wird die
+> Schiene zu einer Chip-Reihe; die Werkliste blendet dort aus, dort führt der Index.
 
 **Werke = Index + Detailseiten.** `#werke` ist eine Zeile je Werk (Titel · Verdikt · Raum ·
 Bände · ⌀ · Bekanntheit · Format); jedes Werk hat eine eigene Ansicht `#w-<slug>`. Neue Werke
@@ -206,6 +215,23 @@ einer `sticky` Nav ohne `max-height` (schnitt Einträge dauerhaft ab) · feste
 > `.view.on` es gibt (muss genau 1 sein). Die Render-PNGs zeigten die leere Seite sofort —
 > genau deshalb steht in dieser Datei „**die PNGs ansehen, nicht nur die Checkzeilen lesen**".
 
+> 🩹 **Belegter Ausfall 2026-08-11 (b) — eine Klassenkollision malte weiße Kästen.**
+> Die Schritte der neuen Hörspur hießen `.st` — genauso wie die Status-Pillen der Bandlisten
+> (`.st.done { background: var(--card) }`). Jeder Schritt bekam dadurch einen weißen Kasten
+> untergeschoben, obwohl die eigene Regel gar keinen Hintergrund setzt. Im Browser gemessen:
+> `.st` hatte `background: rgb(255,255,255)`. **Regel:** neue Komponenten bekommen einen
+> eigenen Namensraum (hier `.hs`), und vor jeder neuen Klasse einmal `grep 'class="<name>'`
+> und `grep '\.<name>'` über die Datei.
+
+> 🩹 **Belegter Ausfall 2026-08-11 (c) — totes Skript zeigte auf entferntes Markup.**
+> Beim Ersetzen der Topnav durch die Schiene blieb `document.querySelector(".nav").offsetHeight`
+> stehen. Der TypeError flog **vor** `route()` — dadurch landete **jeder** Hash auf der
+> Startseite, weil nur noch das im Markup gesetzte `.view.on` übrig blieb. `#werke`, `#upnext`,
+> `#geschmack`, jede Werkseite: alle zeigten Home. **Regel:** Wer Markup entfernt, sucht
+> vorher, wer im Skript darauf zeigt. **Prüfung:** nach jedem Umbau jeden Hash einmal laden und
+> die aktive Ansicht vergleichen — ein Fehler im Skript sieht sonst aus wie ein Routing, das
+> „halt immer Home nimmt".
+
 > ⚠️ **`mess.sh` prüft Text erst ab 3:1 — nicht ab 4,5:1.** Der Bereich dazwischen läuft
 > **grün** durch. Nach jeder Farbänderung zusätzlich `kontrast.mjs` gegen die echten Gründe
 > laufen lassen, **je Theme einzeln**. Genau dort lagen im hellen Theme sechs Verstöße
@@ -219,6 +245,32 @@ einer `sticky` Nav ohne `max-height` (schnitt Einträge dauerhaft ab) · feste
 `@grund-hell`, `@grund-dunkel`, `@serien-hell`, `@serien-dunkel`. **Werden `--bg`/`--panel`
 oder die Serienfarben geändert, müssen die Marker mitgezogen werden** — sonst misst
 `mess.sh` gegen den falschen Grund und meldet trotzdem grün.
+
+### 🎛️ Gestalterische Richtung: „Hörspur" (festgelegt 2026-08-11)
+
+> Nutzer: „zu ungrafisch und generell grafisch nicht sehr ansprechend … die Startseite müsste
+> mehr hermachen und ich brauch keinen 0815-Text wie ich weiß was ich will bla bla."
+
+Die Vorgängerfassung war exakt die **Voreinstellungs-Gestaltung**, die `frontend-handwerk`
+als Symptomliste beschreibt: Creme-Grund (`#f2f0ea`), ein Layoutmuster (Karte auf Fläche) für
+alles, eine Breite für Übersicht und Fließtext, und die eigentlichen Daten klein und defensiv.
+
+**Haltung:** Das Artefakt spricht die Sprache dessen, was der Nutzer wirklich tut — **hören**.
+Konsolen-Grund in kühlem Graphit (blaustichige Neutrale, damit sie neben dem Wertungs-Blau als
+*gewählt* lesen), dicktengleiche Ziffern überall, und die Daten groß statt klein:
+
+- **Grund hell `#e8ebf0` · dunkel `#0f1216`** — bewusst **kein** Creme mehr. Alle Textfarben je
+  Theme mit `kontrast.mjs` gemessen, alle ≥ 4,5:1 (Marker im `<style>` mitziehen!).
+- **Drei Schriftrollen:** `--f-display` (Fraunces 600, **als Daten-URI eingebettet**, 18 KB —
+  der Artefakt-CSP blockt Font-CDNs, ein Link fiele still auf die Systemschrift zurück),
+  `--f-text` (System-Sans), `--f-data` (Mono, `tabular-nums`) für **jede** Zahl.
+- **Zwei Signaturmomente auf der Startseite**, beide aus Vault-Daten erzeugt:
+  **(1) die Hörspur** — 27 Schritte, zwei Spuren, Position und harte Regel als Grafik statt als
+  Tabelle; **(2) die Regalwand** — ein Buchrücken je Reihe, Leinenfarbe = Urteil, **Füllhöhe =
+  mein Stand**. Weiße Prägung auf dunklem Leinen (gemessen 9,3–10,3:1), nicht dunkle Schrift auf
+  variabler Füllung.
+- **Keine Floskel-Überschrift.** Die Startseite beginnt mit einer **Tatsache** („Schritt 6 von
+  27"), nicht mit einem Ich-weiß-was-ich-will-Satz.
 
 ### Was das Farbsystem angeht
 

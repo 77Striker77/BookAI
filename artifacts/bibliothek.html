@@ -9,46 +9,73 @@
      Ohne diese Marker RAET mess.sh den Grund, gegen den es den Kontrast misst.
      Sie muessen mitgezogen werden, wenn --bg / --panel geaendert werden. */
   /* @artefakt */
-  /* @grund-hell: #f2f0ea */
-  /* @grund-dunkel: #121118 */
-  /* @serien-hell: #245fb0,#12813f,#c23a34,#9a6b12 */
+  /* @grund-hell: #e8ebf0 */
+  /* @grund-dunkel: #0f1216 */
+  /* @serien-hell: #1f5aa8,#12783c,#bb352f,#8c6110 */
   /* @serien-dunkel: #5b9bee,#3fc069,#e5706a,#e3b64e */
+
+  /* Display-Schrift als Daten-URI — der Artefakt-CSP blockt Font-CDNs, ein
+     externer Link fiele still auf die Systemschrift zurueck. 18 KB woff2. */
+  @font-face {
+    font-family: "Fraunces";
+    src: url("data:font/woff2;base64,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") format("woff2");
+    font-weight: 600; font-style: normal; font-display: swap;
+  }
+
   :root {
     color-scheme: light;
-    --bg:#f2f0ea; --panel:#faf9f6; --card:#ffffff;
-    --ink:#1b1915; --ink2:#565349; --muted:#6e6a61; --line:#e6e2d9; --track:#e9e5dc;
-    --rating:#245fb0; --rating-soft:#dbe6f6; --rating-ink:#245fb0;
-    --pos:#12813f; --pos-soft:#dcefe1; --pos-ink:#0f7038;
-    --neg:#c23a34; --neg-soft:#f3ddda; --neg-ink:#b32f29;
-    --fame:#9a6b12; --fame-soft:#f0e4c8; --fame-ink:#835a08;
-    --de:#245fb0; --en:#7a4bc4; --navbg:rgba(250,249,246,.9);
+    /* Kuehle Konsole statt Creme-Papier: Neutrale mit Blaustich, damit sie
+       neben dem Wertungs-Blau als *gewaehlt* lesen, nicht als Voreinstellung. */
+    --bg:#e8ebf0; --panel:#f6f8fb; --card:#ffffff;
+    --ink:#12161c; --ink2:#48505c; --muted:#5e6673; --line:#d3d9e2; --track:#dbe0e8;
+    --rating:#1f5aa8; --rating-soft:#d7e3f5; --rating-ink:#1f5aa8;
+    --pos:#12783c; --pos-soft:#d8ecdf; --pos-ink:#0e6b35;
+    --neg:#bb352f; --neg-soft:#f4dbd9; --neg-ink:#ac2f29;
+    --fame:#8c6110; --fame-soft:#efe3c6; --fame-ink:#7a540c;
+    --de:#1f5aa8; --en:#6f42bd; --navbg:rgba(246,248,251,.92);
+    --schatten:0 1px 2px rgba(16,22,32,.06), 0 8px 24px -12px rgba(16,22,32,.22);
   }
   @media (prefers-color-scheme: dark){ :root:where(:not([data-theme="light"])){
     color-scheme: dark;
-    --bg:#121118; --panel:#1b1a21; --card:#222029;
-    --ink:#f0eee9; --ink2:#bdb9b0; --muted:#8f8b83; --line:#302e39; --track:#2a2833;
-    --rating:#5b9bee; --rating-soft:#20304a; --rating-ink:#5b9bee;
-    --pos:#3fc069; --pos-soft:#183a26; --pos-ink:#3fc069;
-    --neg:#e5706a; --neg-soft:#3d2320; --neg-ink:#e5706a;
-    --fame:#e3b64e; --fame-soft:#3a2f16; --fame-ink:#e3b64e;
-    --de:#5b9bee; --en:#b596ec; --navbg:rgba(27,26,33,.9);
+    --bg:#0f1216; --panel:#171b21; --card:#1d222a;
+    --ink:#eef1f6; --ink2:#b6bfcc; --muted:#8e98a6; --line:#2b323c; --track:#242b34;
+    --rating:#5b9bee; --rating-soft:#1b2a3f; --rating-ink:#5b9bee;
+    --pos:#3fc069; --pos-soft:#15311f; --pos-ink:#3fc069;
+    --neg:#e5706a; --neg-soft:#37201e; --neg-ink:#e5706a;
+    --fame:#e3b64e; --fame-soft:#332913; --fame-ink:#e3b64e;
+    --de:#5b9bee; --en:#b596ec; --navbg:rgba(23,27,33,.92);
+    --schatten:0 1px 2px rgba(0,0,0,.5), 0 10px 30px -14px rgba(0,0,0,.8);
   }}
   :root[data-theme="dark"]{
     color-scheme: dark;
-    --bg:#121118; --panel:#1b1a21; --card:#222029;
-    --ink:#f0eee9; --ink2:#bdb9b0; --muted:#8f8b83; --line:#302e39; --track:#2a2833;
-    --rating:#5b9bee; --rating-soft:#20304a; --rating-ink:#5b9bee;
-    --pos:#3fc069; --pos-soft:#183a26; --pos-ink:#3fc069;
-    --neg:#e5706a; --neg-soft:#3d2320; --neg-ink:#e5706a;
-    --fame:#e3b64e; --fame-soft:#3a2f16; --fame-ink:#e3b64e;
-    --de:#5b9bee; --en:#b596ec; --navbg:rgba(27,26,33,.9);
+    --bg:#0f1216; --panel:#171b21; --card:#1d222a;
+    --ink:#eef1f6; --ink2:#b6bfcc; --muted:#8e98a6; --line:#2b323c; --track:#242b34;
+    --rating:#5b9bee; --rating-soft:#1b2a3f; --rating-ink:#5b9bee;
+    --pos:#3fc069; --pos-soft:#15311f; --pos-ink:#3fc069;
+    --neg:#e5706a; --neg-soft:#37201e; --neg-ink:#e5706a;
+    --fame:#e3b64e; --fame-soft:#332913; --fame-ink:#e3b64e;
+    --de:#5b9bee; --en:#b596ec; --navbg:rgba(23,27,33,.92);
+    --schatten:0 1px 2px rgba(0,0,0,.5), 0 10px 30px -14px rgba(0,0,0,.8);
+  }
+
+  /* Drei Schriftrollen: Stimme (Display), Text (System-Sans), Daten (Mono).
+     Zahlen laufen IMMER dicktengleich — sie stehen hier staendig untereinander. */
+  :root {
+    --f-display: "Fraunces", Georgia, "Times New Roman", serif;
+    --f-text: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --f-data: ui-monospace, "DejaVu Sans Mono", "SFMono-Regular", Menlo, monospace;
   }
 
   * { box-sizing: border-box; }
   body { margin: 0; }
   /* Fokusring global aus dem Token — sonst greift der UA-Default (#101010),
      der im Dunkelmodus auf 1,1:1 faellt (Messung 11.08.2026). */
-  :where(a, button, summary, input, select, [tabindex]):focus-visible { outline: 2px solid var(--rating); outline-offset: 2px; border-radius: 4px; }
+  /* Scrollbare Behälter (.spur-scroll, .regal, .ixtab …) bekommen vom Browser
+     einen Tabstopp. Ohne sie in dieser Liste greift der UA-Default #101010 —
+     im dunklen Theme gemessene 1,10:1. */
+  :where(a, button, summary, input, select, [tabindex],
+    .spur-scroll, .regal, .blist, .ixtab, .rel, .route):focus-visible {
+    outline: 2px solid var(--rating); outline-offset: 2px; border-radius: 4px; }
   /* Sprungmarke: unsichtbar, bis sie den Fokus bekommt (a11y-Referenz der
      Design-Werkstatt: Skip-Link, sobald Nav-Elemente vor <main> liegen). */
   .skip { position: absolute; left: 8px; top: -60px; z-index: 60; background: var(--panel);
@@ -56,7 +83,9 @@
     padding: 9px 14px; font-weight: 700; text-decoration: none; transition: top .12s ease; }
   .skip:focus { top: 8px; }
   .page { background: var(--bg); color: var(--ink);
-    font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; min-height: 100vh; }
+    font: 15px/1.55 var(--f-text); min-height: 100vh; }
+  .tnum, .zahl, .band .rv, .brow .meta, .brow .bn2, .ixb, .ixw {
+    font-family: var(--f-data); font-variant-numeric: tabular-nums; letter-spacing: -.01em; }
   .wrap { max-width: 1060px; margin: 0 auto; padding: 0 18px 72px; }
   .tnum { font-variant-numeric: tabular-nums; }
   .subtle { color: var(--muted); }
@@ -74,13 +103,153 @@
   .menu > a.active { background: var(--rating-soft); color: var(--ink); }
   .menu a:focus-visible { outline: 2px solid var(--rating); outline-offset: 2px; }
 
+
+
+  /* ---------- Hörspur: 27 Schritte, zwei Spuren, eine Reihenfolge ----------
+     Die Reihenfolge war eine Tabelle. Als Spur sieht man in einem Blick, was
+     die Tabelle erst nach dem Lesen hergibt: die guten Jungs starten allein,
+     ab Schritt 6 wird verschränkt, und wo man selbst steht. Ein Element je
+     Schritt — die erste Fassung verteilte drei Elemente auf vier Grid-Zeilen
+     und lief deshalb aus dem Bild. */
+  .spur-box { background: var(--panel); border: 1px solid var(--line); border-radius: 16px;
+    padding: 18px 18px 14px; box-shadow: var(--schatten); }
+  .spur-kopf { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin: 0 0 4px; }
+  .spur-scroll { overflow-x: auto; padding: 6px 0 2px; }
+  .spur { display: flex; gap: 3px; min-width: 700px; }
+  /* Schmal: der 27er-Streifen wird NICHT weggescrollt, sondern umgebrochen —
+     drei Bloecke zu neun Schritten. Innerhalb jeder Zeile bleiben die beiden
+     Spuren uebereinander, es geht also keine Information verloren. Ein
+     700px-Streifen hinter einer Seitwaerts-Rolle ist auf 320px unbedienbar. */
+  @media (max-width: 720px){
+    .spur { min-width: 0; flex-wrap: wrap; row-gap: 14px; }
+    .hs { flex: 0 0 calc((100% - 24px) / 9); min-width: 0; }
+    .spur-scroll { overflow-x: visible; }
+  }
+  .hs { flex: 1 1 0; min-width: 22px; display: grid;
+    grid-template-rows: 30px 14px 30px 16px; align-items: center; }
+  .hs .zelle { height: 30px; border-radius: 5px; background: var(--track);
+    border: 1px solid var(--line); display: flex; align-items: center; justify-content: center;
+    font-family: var(--f-data); font-size: .7rem; color: var(--muted); position: relative; }
+  .hs.sg .zelle { grid-row: 1; } .hs.sb .zelle { grid-row: 3; }
+  .hs.sg .sjahr, .hs.sb .sjahr { grid-row: 4; }
+  /* Verbindungslinie in der Mittelspur — zeigt, dass es EINE Folge ist */
+  .hs::before { content: ""; grid-row: 2; height: 2px; background: var(--line); }
+  .hs.done .zelle { background: var(--rating); border-color: transparent; color: #fff; font-weight: 700; }
+  .hs.now .zelle { background: var(--rating); border-color: transparent; color: #fff; font-weight: 800;
+    box-shadow: 0 0 0 3px var(--rating-soft); }
+  .hs.now .zelle::after { content: "▶"; position: absolute; top: -14px; left: 50%;
+    transform: translateX(-50%); font-size: .6rem; color: var(--rating-ink); }
+  .hs.hard .zelle, .hs.cross .zelle { border: 2px solid var(--ink2); color: var(--ink); font-weight: 700; }
+  .sjahr { text-align: center; font-family: var(--f-data); font-size: .6rem; color: var(--muted); }
+  .spur-legende { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 10px 0 0;
+    font-size: .78rem; color: var(--ink2); align-items: center; }
+  .spur-legende i { display: inline-block; width: 14px; height: 11px; border-radius: 3px;
+    vertical-align: -1px; margin-right: 5px; border: 1px solid var(--line); background: var(--track); }
+  .spur-legende i.v { background: var(--rating); border-color: transparent; }
+  .spur-legende i.k { border: 2px solid var(--ink2); background: none; }
+  .spurname { font-family: var(--f-data); font-size: .7rem; color: var(--muted);
+    text-transform: uppercase; letter-spacing: .08em; margin: 6px 0 0; }
+
+  /* ---------- Regalwand: Buchrücken, Füllhöhe = mein Stand ----------
+     Dunkles Leinen je Urteil, weiße Prägung darauf (gemessen 9,3–10,3:1) —
+     nicht farbige Füllung mit dunkler Schrift, die je nach Füllstand
+     unlesbar wurde. */
+  .regal { display: flex; align-items: flex-end; gap: 5px; padding: 16px 0 0; overflow-x: auto; }
+  .ruecken { flex: 1 1 38px; min-width: 38px; max-width: 66px; text-decoration: none;
+    display: flex; flex-direction: column; }
+  .rk { --leinen:#39414d; position: relative; height: 186px; border-radius: 3px 5px 5px 3px;
+    overflow: hidden; background: var(--leinen); display: flex; align-items: flex-end;
+    box-shadow: inset -7px 0 12px -9px rgba(0,0,0,.85), inset 1px 0 0 rgba(255,255,255,.13); }
+  .rk.lov { --leinen:#17512f; } .rk.lik { --leinen:#1b4477; }
+  .rk.mix { --leinen:#7a2a25; } .rk.aus { --leinen:#39414d; }
+  /* Gelesener Anteil = heller Block von unten, mit scharfer Kante obendrauf.
+     .24 war zu zurueckhaltend — der Unterschied zwischen 1/8 und 12/12 muss
+     ohne Vergleichen erkennbar sein. */
+  .rk > b { display: block; width: 100%; background: rgba(255,255,255,.42); }
+  .rk > b::before { content: ""; display: block; height: 3px; background: rgba(255,255,255,.92); }
+  .rk .lauf { position: absolute; left: 0; right: 0; height: 3px; background: var(--fame); }
+  .rk .titel { position: absolute; inset: 0; writing-mode: vertical-rl; transform: rotate(180deg);
+    display: flex; align-items: flex-start; justify-content: center; padding: 9px 0;
+    font-size: .63rem; font-weight: 700; line-height: 1.15; color: #fff; letter-spacing: .01em;
+    text-shadow: 0 1px 2px rgba(0,0,0,.55); overflow: hidden; }
+  .ruecken:hover .rk, .ruecken:focus-visible .rk { outline: 2px solid var(--rating); outline-offset: 2px; }
+  .rstand { font-family: var(--f-data); font-size: .63rem; color: var(--muted);
+    text-align: center; padding-top: 6px; }
+  .regal-legende { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: .78rem;
+    color: var(--ink2); margin-top: 12px; align-items: center; }
+  .regal-legende i { display: inline-block; width: 11px; height: 11px; border-radius: 2px; margin-right: 5px; }
+  .regal-legende i.lov { background:#17512f; } .regal-legende i.lik { background:#1b4477; }
+  .regal-legende i.mix { background:#7a2a25; } .regal-legende i.aus { background:#39414d; }
+  .regal-legende i.lauf { background: var(--fame); height: 4px; }
+
+  /* ---------- Kennzahlen in Display-Schrift ---------- */
+  .kpi { display: grid; grid-template-columns: repeat(auto-fit, minmax(128px, 1fr)); gap: 1px;
+    background: var(--line); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+  .kpi > div { background: var(--panel); padding: 15px 16px; }
+  .kpi .n { font-family: var(--f-display); font-weight: 600; font-size: 2rem; line-height: 1;
+    letter-spacing: -.02em; font-variant-numeric: tabular-nums; margin: 0; }
+  .kpi .n small { font-size: .86rem; color: var(--muted); font-family: var(--f-data); margin-left: 3px; }
+  .kpi .l { font-size: .74rem; color: var(--muted); margin: 6px 0 0; }
+  .kpi .bal { display: flex; gap: 2px; margin-top: 9px; }
+  .kpi .bal i { height: 6px; border-radius: 2px; flex: 1; }
+  .kpi .bal i.lov { background: var(--pos); } .kpi .bal i.lik { background: var(--rating); }
+  .kpi .bal i.mix { background: var(--neg); } .kpi .bal i.aus { background: var(--muted); }
+
+  .jetzt-karte { display: grid; grid-template-columns: 64px minmax(0,1fr); gap: 16px;
+    background: var(--card); border: 1px solid var(--line); border-left: 3px solid var(--rating);
+    border-radius: 8px 16px 16px 8px; padding: 16px 18px; box-shadow: var(--schatten); }
+  @media (max-width: 560px){ .jetzt-karte { grid-template-columns: 1fr; } }
+  .jetzt-titel { font-family: var(--f-display); font-weight: 600; font-size: 1.32rem;
+    letter-spacing: -.01em; margin: 2px 0 3px; }
+
+  /* ---------- Schiene: die EINZIGE Navigation ----------
+     Kein sticky (im Artefakt-Host wirkungslos), keine Dropdowns, keine
+     Fussnav-Kopie. Alle Ziele auf einmal sichtbar, aktives hervorgehoben. */
+  .shell { max-width: 1240px; margin: 0 auto; padding: 0 20px 80px;
+    display: grid; grid-template-columns: 236px minmax(0,1fr); gap: 34px; align-items: start; }
+  /* Ohne min-width:0 behalten Grid-Kinder ihre Inhaltsbreite — die 700px
+     breite Hörspur schob dann die GANZE Seite auf 758px (gemessen bei 320px). */
+  .shell > main, .shell > .rail { min-width: 0; }
+  @media (max-width: 900px){ .shell { grid-template-columns: 1fr; gap: 18px; } }
+
+  .rail { padding: 22px 0 0; }
+  .rail .marke { display: flex; align-items: baseline; gap: 7px; margin: 0 0 20px; }
+  .rail .marke b { font-family: var(--f-display); font-weight: 600; font-size: 1.12rem; letter-spacing: -.01em; }
+  .rail .marke span { color: var(--muted); font-size: .72rem; font-family: var(--f-data); }
+  .rgrp { margin: 0 0 16px; }
+  .rgrp > p { font-size: .64rem; text-transform: uppercase; letter-spacing: .13em;
+    color: var(--muted); font-weight: 700; margin: 0 0 6px; padding-left: 11px; }
+  .rail a { display: flex; align-items: center; gap: 9px; text-decoration: none;
+    color: var(--ink2); font-size: .875rem; font-weight: 550; padding: 7px 11px;
+    border-radius: 8px; min-height: 38px; border-left: 2px solid transparent; }
+  .rail a:hover { background: var(--panel); color: var(--ink); }
+  .rail a.active { background: var(--rating-soft); color: var(--ink); font-weight: 700;
+    border-left-color: var(--rating); }
+  .rail a .rz { margin-left: auto; font-family: var(--f-data); font-size: .72rem; color: var(--muted); }
+  .rail a.active .rz { color: var(--rating-ink); }
+  .rail a .rp { width: 7px; height: 7px; border-radius: 2px; flex: 0 0 auto; background: var(--track); }
+  .rail a .rp.lov { background: var(--pos); } .rail a .rp.lik { background: var(--rating); }
+  .rail a .rp.mix { background: var(--neg); } .rail a .rp.aus { background: var(--muted); }
+  .rail .rsub a { padding-left: 22px; font-size: .82rem; }
+  @media (max-width: 900px){
+    .rail { position: relative; padding: 14px 0 0; border-bottom: 1px solid var(--line); }
+    .rail .rgrp { margin-bottom: 10px; }
+    .rgrp.werke-liste { display: none; }   /* mobil fuehrt der Index, nicht die Liste */
+    .rail .rgrp > div { display: flex; flex-wrap: wrap; gap: 5px; }
+    .rail .rgrp > div a { border-left: 0; border: 1px solid var(--line); border-radius: 999px; }
+    .rail a.active { border-left: 0; }
+  }
+
   /* ---------- views ---------- */
   .view { display: none; }
   .view.on { display: block; animation: fade .18s ease; }
   @keyframes fade { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
   @media (prefers-reduced-motion: reduce){ .view.on { animation: none; } }
 
-  h1 { font-size: 1.75rem; margin: 0 0 6px; letter-spacing: -.015em; }
+  .gz { color: var(--rating-ink); font-variant-numeric: tabular-nums; }
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  h1 { font-family: var(--f-display); font-weight: 600; font-size: 2rem;
+    margin: 0 0 6px; letter-spacing: -.01em; text-wrap: balance; }
   .lead { color: var(--ink2); margin: 0; max-width: 64ch; }
   .hero { padding: 30px 0 4px; }
   section { margin: 30px 0 0; scroll-margin-top: calc(var(--nav-h, 62px) + 10px); }
@@ -257,7 +426,7 @@
   @media (max-width: 760px){ .rf-row, .rf-row.rf-head { grid-template-columns: 1fr 1fr !important; } .rf-row.rf-head { display: none; } }
 
   /* ---------- Sekundärnavigation (klebt unter der Topnav) ---------- */
-  .subnav { position: sticky; top: var(--nav-h, 53px); z-index: 30; display: flex; flex-wrap: wrap;
+  .subnav { display: flex; flex-wrap: wrap;
     align-items: center; gap: 6px; padding: 9px 0; margin: 0 0 4px; background: var(--navbg);
     backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
   .subnav .spacer { flex: 1 1 auto; }
@@ -293,6 +462,12 @@
   .ixv.mix { color: var(--ink2); background: var(--track); }
   .ixv.aus, .verdict.aus { color: var(--ink2); background: var(--track); font-weight: 700; }
   .ixk, .ixm { color: var(--ink2); font-size: .8rem; }
+  .ixw .wbar { display: block; height: 5px; border-radius: 3px; background: var(--track); overflow: hidden; }
+  .ixw .wbar i { display: block; height: 100%; background: var(--rating); border-radius: 3px; }
+  .ixw b { display: block; font-family: var(--f-data); font-size: .76rem; font-weight: 600;
+    color: var(--ink2); padding-top: 3px; text-align: right; }
+  .ix .ixw { text-align: right; }
+
   .ixb, .ixw { text-align: right; color: var(--ink2); }
   .fbar { display: inline-grid; grid-template-columns: repeat(5,1fr); gap: 2px; width: 52px; vertical-align: middle; }
   .fbar i { height: 6px; border-radius: 2px; background: var(--track); }
@@ -351,8 +526,9 @@
   .landing { padding: 44px 0 8px; }
   .eyebrow { font-size: .7rem; text-transform: uppercase; letter-spacing: .12em; color: var(--muted);
     font-weight: 700; margin: 0 0 14px; }
-  h1.gross { font-size: clamp(1.9rem, 4.4vw, 3rem); line-height: 1.08; letter-spacing: -.025em;
-    margin: 0 0 16px; text-wrap: balance; }
+  h1.gross { font-family: var(--f-display); font-weight: 600;
+    font-size: clamp(2.1rem, 5vw, 3.4rem); line-height: 1.04; letter-spacing: -.02em;
+    margin: 0 0 14px; text-wrap: balance; }
   .lead.gross { font-size: 1.02rem; max-width: 62ch; }
   .zahlen { display: flex; flex-wrap: wrap; gap: 10px 26px; margin: 22px 0 0; font-size: .84rem; color: var(--ink2); }
   .zahlen b { font-size: 1.5rem; font-weight: 750; color: var(--ink); margin-right: 6px; }
@@ -391,102 +567,157 @@
 
   <!-- ===================== NAV ===================== -->
   <a class="skip" href="#inhalt">Direkt zum Inhalt</a>
-  <nav class="nav" aria-label="Hauptmenü">
-    <div class="nav-in">
-      <span class="brand">📚 Meine Bibliothek <small>· Dashboard</small></span>
-      <div class="menu" id="menu">
+  <div class="shell">
+
+  <!-- ===================== SCHIENE (einzige Navigation) ===================== -->
+  <nav class="rail" aria-label="Alle Bereiche">
+    <p class="marke"><b>Meine Bibliothek</b> <span>15 Werke</span></p>
+
+    <div class="rgrp">
+      <p>Ansichten</p>
+      <div id="menu">
         <a href="#home" data-view="home">Home</a>
-        <a href="#werke" data-view="werke">Library</a>
-        <a href="#upnext" data-view="upnext">Up Next</a>
-        <a href="#geschmack" data-view="geschmack">Taste</a>
+        <a href="#werke" data-view="werke">Library<span class="rz">15</span></a>
+        <a href="#upnext" data-view="upnext">Up Next<span class="rz">27</span></a>
+        <a href="#geschmack" data-view="geschmack">Taste<span class="rz">73</span></a>
+      </div>
+    </div>
+
+    <div class="rgrp werke-liste">
+      <p>Werke</p>
+      <div>
+        <a href="#w-dcc" data-view="w-dcc"><span class="rp lov"></span>Dungeon Crawler Carl<span class="rz">8/9</span></a>
+        <a href="#w-cunninghams" data-view="w-cunninghams"><span class="rp lov"></span>Die mörderischen Cunninghams<span class="rz">2/4 dt.</span></a>
+        <a href="#w-goetter" data-view="w-goetter"><span class="rp lov"></span>Die Streitenden Götter<span class="rz">7/10</span></a>
+        <a href="#w-sturmfels" data-view="w-sturmfels" class="kind"><span class="rp lov"></span>Sturmfels-Akademie<span class="rz">5/5</span></a>
+        <a href="#w-prinz" data-view="w-prinz" class="kind"><span class="rp lov"></span>Der Prinz von Staub und Schatten<span class="rz">2/5</span></a>
+        <a href="#w-alexverus" data-view="w-alexverus"><span class="rp lov"></span>Alex Verus<span class="rz">12/12</span></a>
+        <a href="#w-magic20" data-view="w-magic20"><span class="rp lov"></span>Magic 2.0<span class="rz">2/6 dt.</span></a>
+        <a href="#w-vuldranni" data-view="w-vuldranni"><span class="rp lik"></span>Vuldranni (iNcarn8)<span class="rz">27 in 2</span></a>
+        <a href="#w-gutenjungs" data-view="w-gutenjungs" class="kind"><span class="rp lik"></span>Die guten Jungs<span class="rz">5/16</span></a>
+        <a href="#w-boesenjungs" data-view="w-boesenjungs" class="kind"><span class="rp aus"></span>Die bösen Jungs<span class="rz">1/11</span></a>
+        <a href="#w-mordclub" data-view="w-mordclub"><span class="rp lik"></span>Der Donnerstagsmordclub<span class="rz">5/5</span></a>
+        <a href="#w-survival" data-view="w-survival"><span class="rp mix"></span>Survival Quest<span class="rz">7/7</span></a>
+        <a href="#w-scholomance" data-view="w-scholomance"><span class="rp mix"></span>Scholomance<span class="rz">3/3</span></a>
+        <a href="#w-riyria" data-view="w-riyria"><span class="rp mix"></span>Riyria<span class="rz">6/6</span></a>
+        <a href="#w-ashford" data-view="w-ashford"><span class="rp mix"></span>Haus Ashford<span class="rz">3/~10</span></a>
       </div>
     </div>
   </nav>
 
-  <main class="wrap" id="inhalt">
+  <main id="inhalt">
 
     <!-- ============================================================ ÜBERSICHT (Startseite) -->
     <div class="view on" id="v-home">
       <header class="landing">
-        <p class="eyebrow">Buch- &amp; Hörbuch-Cockpit · Stand 11.08.2026</p>
-        <h1 class="gross">Ich weiß ziemlich genau,<br>was mir gefällt.</h1>
-        <p class="lead gross">Fünfzehn Werke, bandgenau erfasst: was ich gehört habe, was ich davon hielt,
-          und in welcher Reihenfolge der Rest kommt. Kein Ratespiel — <b>jede Zahl hat eine Quelle,
-          jede Lücke ist als Lücke markiert.</b></p>
-        <div class="zahlen">
-          <span><b class="tnum">15</b> Werke</span>
-          <span><b class="tnum">7</b> geliebt</span>
-          <span><b class="tnum">1</b> Bewertung offen</span>
-          <span><b class="tnum">4</b> Geschmacksräume</span>
-          <span><b class="tnum">73</b> Merkmale</span>
-    </div>
+        <p class="eyebrow">Stand 11.08.2026 · alles aus dem Vault erzeugt</p>
+        <h1 class="gross">Schritt <span class="gz">6</span> von <span class="gz">27</span></h1>
+        <p class="lead gross">Ich höre gerade <b>Die bösen Jungs, Band 1</b> — Schritt 6 der
+          Vuldranni-Hörreihenfolge. Die guten Jungs liegen bis Band 5 hinter mir.</p>
       </header>
 
       <section>
-        <h2>Gerade läuft</h2>
-        <div class="jetzt">
-          <div class="jetzt-haupt">
-            <p class="jetzt-lab">🎧 Im Ohr</p>
-            <p class="jetzt-titel">Die bösen Jungs — Band 1</p>
-            <p class="jetzt-sub">„Schurken &amp; Halunken" · Thomas Nicolai · 15 h 23</p>
-            <div class="fortschritt"><span style="width:22%"></span></div>
-            <p class="jetzt-sub"><b>Schritt 6 von 27</b> der Vuldranni-Hörreihenfolge —
-              die guten Jungs sind bis Band 5 durch.</p>
-            <a class="knopf" href="#rf-vuldranni" data-view="upnext" data-tab="rf-vuldranni">Reihenfolge ansehen →</a>
+        <div class="spur-box">
+          <div class="spur-kopf">
+            <h2 style="margin:0">Die Hörspur durch Vuldranni</h2>
+            <span class="subtle" style="font-size:.82rem">27 Bände · 2 Reihen · eine Reihenfolge</span>
           </div>
-          <div class="jetzt-neben">
-            <p class="jetzt-lab">Parallel</p>
-            <p class="jetzt-titel klein">Dungeon Crawler Carl — Band 2</p>
-            <p class="jetzt-sub">Deutsch · Stefan Kaminski · dt. Band 3 erst am <b>18.11.2026</b></p>
-            <p class="jetzt-lab" style="margin-top:14px">Mein roter Faden</p>
-            <p class="jetzt-sub"><b>Fokus &amp; Vorwärtsdrang</b> · handlungsfähiger Held ·
-              starker Sprecher · Deutsch bevorzugt · Reihe ≥ 3 Bände</p>
+          <p class="spurname">▲ Die guten Jungs &nbsp;·&nbsp; ▼ Die bösen Jungs</p>
+          <div class="spur-scroll">
+            <div class="spur">
+              <span class="hs sg done" title="Schritt 1 — Die guten Jungs Band 1 (2018) · gehört"><span class="sr">Schritt 1 — Die guten Jungs Band 1 (2018) · gehört</span><span class="zelle">1</span><span class="sjahr">2018</span></span>
+              <span class="hs sg done" title="Schritt 2 — Die guten Jungs Band 2 (2018) · gehört"><span class="sr">Schritt 2 — Die guten Jungs Band 2 (2018) · gehört</span><span class="zelle">2</span><span class="sjahr"></span></span>
+              <span class="hs sg done" title="Schritt 3 — Die guten Jungs Band 3 (2018) · gehört"><span class="sr">Schritt 3 — Die guten Jungs Band 3 (2018) · gehört</span><span class="zelle">3</span><span class="sjahr"></span></span>
+              <span class="hs sg done" title="Schritt 4 — Die guten Jungs Band 4 (2019) · gehört"><span class="sr">Schritt 4 — Die guten Jungs Band 4 (2019) · gehört</span><span class="zelle">4</span><span class="sjahr">2019</span></span>
+              <span class="hs sg done" title="Schritt 5 — Die guten Jungs Band 5 (2019) · gehört"><span class="sr">Schritt 5 — Die guten Jungs Band 5 (2019) · gehört</span><span class="zelle">5</span><span class="sjahr"></span></span>
+              <span class="hs sb now" title="Schritt 6 — Die bösen Jungs Band 1 (2019) · läuft gerade"><span class="sr">Schritt 6 — Die bösen Jungs Band 1 (2019) · läuft gerade</span><span class="zelle">1</span><span class="sjahr"></span></span>
+              <span class="hs sg open" title="Schritt 7 — Die guten Jungs Band 6 (2019)"><span class="sr">Schritt 7 — Die guten Jungs Band 6 (2019)</span><span class="zelle">6</span><span class="sjahr"></span></span>
+              <span class="hs sb open" title="Schritt 8 — Die bösen Jungs Band 2 (2019)"><span class="sr">Schritt 8 — Die bösen Jungs Band 2 (2019)</span><span class="zelle">2</span><span class="sjahr"></span></span>
+              <span class="hs sg open" title="Schritt 9 — Die guten Jungs Band 7 (2019)"><span class="sr">Schritt 9 — Die guten Jungs Band 7 (2019)</span><span class="zelle">7</span><span class="sjahr"></span></span>
+              <span class="hs sb open" title="Schritt 10 — Die bösen Jungs Band 3 (2020)"><span class="sr">Schritt 10 — Die bösen Jungs Band 3 (2020)</span><span class="zelle">3</span><span class="sjahr">2020</span></span>
+              <span class="hs sg open" title="Schritt 11 — Die guten Jungs Band 8 (2020)"><span class="sr">Schritt 11 — Die guten Jungs Band 8 (2020)</span><span class="zelle">8</span><span class="sjahr"></span></span>
+              <span class="hs sb open" title="Schritt 12 — Die bösen Jungs Band 4 (2020)"><span class="sr">Schritt 12 — Die bösen Jungs Band 4 (2020)</span><span class="zelle">4</span><span class="sjahr"></span></span>
+              <span class="hs sg open" title="Schritt 13 — Die guten Jungs Band 9 (2020)"><span class="sr">Schritt 13 — Die guten Jungs Band 9 (2020)</span><span class="zelle">9</span><span class="sjahr"></span></span>
+              <span class="hs sb open" title="Schritt 14 — Die bösen Jungs Band 5 (2020)"><span class="sr">Schritt 14 — Die bösen Jungs Band 5 (2020)</span><span class="zelle">5</span><span class="sjahr"></span></span>
+              <span class="hs sb open" title="Schritt 15 — Die bösen Jungs Band 6 (2020)"><span class="sr">Schritt 15 — Die bösen Jungs Band 6 (2020)</span><span class="zelle">6</span><span class="sjahr"></span></span>
+              <span class="hs sg open" title="Schritt 16 — Die guten Jungs Band 10 (2021)"><span class="sr">Schritt 16 — Die guten Jungs Band 10 (2021)</span><span class="zelle">10</span><span class="sjahr">2021</span></span>
+              <span class="hs sg open" title="Schritt 17 — Die guten Jungs Band 11 (2021)"><span class="sr">Schritt 17 — Die guten Jungs Band 11 (2021)</span><span class="zelle">11</span><span class="sjahr"></span></span>
+              <span class="hs sb open" title="Schritt 18 — Die bösen Jungs Band 7 (2021)"><span class="sr">Schritt 18 — Die bösen Jungs Band 7 (2021)</span><span class="zelle">7</span><span class="sjahr"></span></span>
+              <span class="hs sg open" title="Schritt 19 — Die guten Jungs Band 12 (2021)"><span class="sr">Schritt 19 — Die guten Jungs Band 12 (2021)</span><span class="zelle">12</span><span class="sjahr"></span></span>
+              <span class="hs sg open" title="Schritt 20 — Die guten Jungs Band 13 (2022)"><span class="sr">Schritt 20 — Die guten Jungs Band 13 (2022)</span><span class="zelle">13</span><span class="sjahr">2022</span></span>
+              <span class="hs sb open" title="Schritt 21 — Die bösen Jungs Band 8 (2022)"><span class="sr">Schritt 21 — Die bösen Jungs Band 8 (2022)</span><span class="zelle">8</span><span class="sjahr"></span></span>
+              <span class="hs sb open" title="Schritt 22 — Die bösen Jungs Band 9 (2022)"><span class="sr">Schritt 22 — Die bösen Jungs Band 9 (2022)</span><span class="zelle">9</span><span class="sjahr"></span></span>
+              <span class="hs sg open" title="Schritt 23 — Die guten Jungs Band 14 (2023)"><span class="sr">Schritt 23 — Die guten Jungs Band 14 (2023)</span><span class="zelle">14</span><span class="sjahr">2023</span></span>
+              <span class="hs sb open" title="Schritt 24 — Die bösen Jungs Band 10 (2023)"><span class="sr">Schritt 24 — Die bösen Jungs Band 10 (2023)</span><span class="zelle">10</span><span class="sjahr"></span></span>
+              <span class="hs sb hard" title="Schritt 25 — Die bösen Jungs Band 11 (2024) · vor guten Jungs 15"><span class="sr">Schritt 25 — Die bösen Jungs Band 11 (2024) · vor guten Jungs 15</span><span class="zelle">11</span><span class="sjahr">2024</span></span>
+              <span class="hs sg cross" title="Schritt 26 — Die guten Jungs Band 15 (2024) · Crossover"><span class="sr">Schritt 26 — Die guten Jungs Band 15 (2024) · Crossover</span><span class="zelle">15</span><span class="sjahr"></span></span>
+              <span class="hs sg open" title="Schritt 27 — Die guten Jungs Band 16 (2025)"><span class="sr">Schritt 27 — Die guten Jungs Band 16 (2025)</span><span class="zelle">16</span><span class="sjahr">2025</span></span>
+            </div>
           </div>
+          <div class="spur-legende">
+            <span><i class="v"></i>gehört</span>
+            <span><i class="v"></i>läuft gerade (Schritt 6)</span>
+            <span><i></i>offen</span>
+            <span><i class="k"></i>harte Regel: bösen Jungs 11 <b>vor</b> guten Jungs 15</span>
+          </div>
+          <a class="biglink" href="#rf-vuldranni" data-view="upnext" data-tab="rf-vuldranni">Alle 27 Schritte mit Titeln und Belegen →</a>
         </div>
       </section>
 
       <section>
-        <h2>Wohin?</h2>
-        <div class="tueren">
-          <a class="tuer" href="#werke" data-view="werke">
-            <span class="tz">01</span>
-            <b>Library</b>
-            <span class="ts">Alle 15 Werke in einer Tabelle — Verdikt, Bände, Wertung, Bekanntheit.
-              Eine Zeile anklicken öffnet das Werk mit Bandliste und meinem Empfinden.</span>
-            <span class="tm">15 Werke · 2 Universen →</span>
-          </a>
-          <a class="tuer" href="#upnext" data-view="upnext">
-            <span class="tz">02</span>
-            <b>Up Next</b>
-            <span class="ts">Was als Nächstes dran ist: Hörreihenfolgen über ganze Universen,
-              kommende Releases und die Stellen, an denen die deutsche Ausgabe klemmt.</span>
-            <span class="tm">7 Ansichten · 1 harte Regel →</span>
-          </a>
-          <a class="tuer" href="#geschmack" data-view="geschmack">
-            <span class="tz">03</span>
-            <b>Taste</b>
-            <span class="ts">Wogegen neue Bücher gematcht werden: roter Faden, vier Geschmacksräume
-              mit eigenen Gewichten, No-Gos und die Anti-Muster aus dem Graubereich.</span>
-            <span class="tm">4 Räume · 25 Kriterien →</span>
-          </a>
+        <h2>Meine Regalwand</h2>
+        <p class="hint">Ein Rücken je Reihe. <b>Die Füllhöhe ist mein Stand</b>, die Farbe mein Urteil.
+          Rücken anklicken öffnet das Werk.</p>
+        <div class="regal">
+          <a class="ruecken" href="#w-dcc" data-view="w-dcc" title="Dungeon Crawler Carl — 1 von 8 erlebt, 1 läuft"><span class="rk lov"><b style="height:12%"></b><span class="lauf" style="bottom:25%"></span><span class="titel">Dungeon Crawler Carl</span></span><span class="rstand">1/8</span></a>
+          <a class="ruecken" href="#w-cunninghams" data-view="w-cunninghams" title="Die mörderischen Cunninghams — 2 von 4 erlebt"><span class="rk lov"><b style="height:50%"></b><span class="titel">Die mörderischen Cunninghams</span></span><span class="rstand">2/4</span></a>
+          <a class="ruecken" href="#w-sturmfels" data-view="w-sturmfels" title="Sturmfels-Akademie — 5 von 5 erlebt"><span class="rk lov"><b style="height:100%"></b><span class="titel">Sturmfels-Akademie</span></span><span class="rstand">5/5</span></a>
+          <a class="ruecken" href="#w-prinz" data-view="w-prinz" title="Der Prinz von Staub und Schatten — 2 von 5 erlebt"><span class="rk lov"><b style="height:40%"></b><span class="titel">Der Prinz von Staub und Schatten</span></span><span class="rstand">2/5</span></a>
+          <a class="ruecken" href="#w-alexverus" data-view="w-alexverus" title="Alex Verus — 12 von 12 erlebt"><span class="rk lov"><b style="height:100%"></b><span class="titel">Alex Verus</span></span><span class="rstand">12/12</span></a>
+          <a class="ruecken" href="#w-magic20" data-view="w-magic20" title="Magic 2.0 — 4 von 6 erlebt"><span class="rk lov"><b style="height:67%"></b><span class="titel">Magic 2.0</span></span><span class="rstand">4/6</span></a>
+          <a class="ruecken" href="#w-gutenjungs" data-view="w-gutenjungs" title="Die guten Jungs — 5 von 16 erlebt"><span class="rk lik"><b style="height:31%"></b><span class="titel">Die guten Jungs</span></span><span class="rstand">5/16</span></a>
+          <a class="ruecken" href="#w-boesenjungs" data-view="w-boesenjungs" title="Die bösen Jungs — 0 von 11 erlebt, 1 läuft"><span class="rk aus"><b style="height:0%"></b><span class="lauf" style="bottom:9%"></span><span class="titel">Die bösen Jungs</span></span><span class="rstand">0/11</span></a>
+          <a class="ruecken" href="#w-mordclub" data-view="w-mordclub" title="Der Donnerstagsmordclub — 5 von 5 erlebt"><span class="rk lik"><b style="height:100%"></b><span class="titel">Der Donnerstagsmordclub</span></span><span class="rstand">5/5</span></a>
+          <a class="ruecken" href="#w-survival" data-view="w-survival" title="Survival Quest — 7 von 7 erlebt"><span class="rk mix"><b style="height:100%"></b><span class="titel">Survival Quest</span></span><span class="rstand">7/7</span></a>
+          <a class="ruecken" href="#w-scholomance" data-view="w-scholomance" title="Scholomance — 3 von 3 erlebt"><span class="rk mix"><b style="height:100%"></b><span class="titel">Scholomance</span></span><span class="rstand">3/3</span></a>
+          <a class="ruecken" href="#w-riyria" data-view="w-riyria" title="Riyria — 6 von 6 erlebt"><span class="rk mix"><b style="height:100%"></b><span class="titel">Riyria</span></span><span class="rstand">6/6</span></a>
+          <a class="ruecken" href="#w-ashford" data-view="w-ashford" title="Haus Ashford — 3 von 3 erlebt"><span class="rk mix"><b style="height:100%"></b><span class="titel">Haus Ashford</span></span><span class="rstand">3/3</span></a>
+        </div>
+        <div class="regal-legende">
+          <span><i class="lov"></i>geliebt</span>
+          <span><i class="lik"></i>gut</span>
+          <span><i class="mix"></i>okay</span>
+          <span><i class="aus"></i>Wertung ausgesetzt</span>
+          <span><i class="lauf"></i>Band läuft gerade</span>
         </div>
       </section>
 
       <section>
-        <div class="panel">
-          <p style="margin:0;font-size:.88rem"><b>🙈 Spoilerfrei.</b> Zu allem, was ich noch nicht gehört habe,
-            stehen hier nur Titel, Jahr, Länge, Sprecher, Wertung und Verfügbarkeit — <b>keine Handlung</b>.
-            Die Grenze steht bandgenau im Vault und wird bei jeder Änderung maschinell geprüft.</p>
+        <h2>Die Sammlung in Zahlen</h2>
+        <div class="kpi">
+          <div><p class="n">15</p><p class="l">Werke, bandgenau erfasst</p>
+            <div class="bal"><i class="lov"></i><i class="lov"></i><i class="lov"></i><i class="lov"></i><i class="lov"></i><i class="lov"></i><i class="lov"></i><i class="lik"></i><i class="lik"></i><i class="lik"></i><i class="mix"></i><i class="mix"></i><i class="mix"></i><i class="mix"></i><i class="aus"></i></div></div>
+          <div><p class="n">7</p><p class="l">davon geliebt · 3 gut · 4 okay · 1 offen</p></div>
+          <div><p class="n">73</p><p class="l">Merkmale, aus denen mein Geschmack besteht</p></div>
+          <div><p class="n">4</p><p class="l">Geschmacksräume mit eigenen Gewichten</p></div>
+          <div><p class="n">4,38<small>/5</small></p><p class="l">Community-Schnitt der guten Jungs</p></div>
         </div>
       </section>
 
-      <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Go to</span>
-        <a href="#home" data-view="home">Home</a>
-        <a href="#werke" data-view="werke">Library</a>
-        <a href="#upnext" data-view="upnext">Up Next</a>
-        <a href="#geschmack" data-view="geschmack">Taste</a>
-      </nav>
+      <section>
+        <h2>Was als Nächstes ansteht</h2>
+        <div class="jetzt-karte">
+          <div class="cover sm" style="background:linear-gradient(150deg,#2b3550,#161d2e 55%,#0d1220)"><div class="cm">🎲</div></div>
+          <div>
+            <p class="jetzt-lab">Nächster fester Termin</p>
+            <p class="jetzt-titel">Dungeon Crawler Carl — deutscher Band 3</p>
+            <p class="jetzt-sub"><b>18.11.2026</b> · Stefan Kaminski · bis dahin läuft Band 2 auf Englisch weiter.</p>
+            <a class="biglink" href="#rf-releases" data-view="upnext" data-tab="rf-releases">Alle Termine und Lücken →</a>
+          </div>
+        </div>
+        <p class="note">🙈 <b>Spoilerfrei.</b> Zu allem, was ich noch nicht gehört habe, stehen hier nur
+          Titel, Jahr, Länge, Sprecher, Wertung und Verfügbarkeit — <b>keine Handlung</b>.</p>
+      </section>
     </div>
 
     <!-- ============================================================ WERKE -->
@@ -525,7 +756,7 @@
           <span class="ixv ">♥ geliebt</span>
           <span class="ixk">LitRPG</span>
           <span class="ixb tnum">8/9</span>
-          <span class="ixw tnum">4,5</span>
+          <span class="ixw"><span class="wbar"><i style="width:90%"></i></span><b>4,5</b></span>
           <span class="ixf"><span class="fbar"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span><span class="ixfw">Phänomen</span></span>
           <span class="ixm">🎧 dt.</span>
         </a>
@@ -534,7 +765,7 @@
           <span class="ixv ">♥ geliebt</span>
           <span class="ixk">Krimi</span>
           <span class="ixb tnum">2/4 dt.</span>
-          <span class="ixw tnum">3,8</span>
+          <span class="ixw"><span class="wbar"><i style="width:76%"></i></span><b>3,8</b></span>
           <span class="ixf"><span class="fbar"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i></span><span class="ixfw">Bestseller</span></span>
           <span class="ixm">📖 dt.</span>
         </a>
@@ -543,7 +774,7 @@
           <span class="ixv ">♥ geliebt</span>
           <span class="ixk">Fantasy</span>
           <span class="ixb tnum">7/10</span>
-          <span class="ixw tnum">4,4</span>
+          <span class="ixw"><span class="wbar"><i style="width:88%"></i></span><b>4,4</b></span>
           <span class="ixf"><span class="fbar"><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i></span><span class="ixfw">Szene-bekannt</span></span>
           <span class="ixm">🎧 dt.</span>
         </a>
@@ -552,7 +783,7 @@
           <span class="ixv ">♥ geliebt</span>
           <span class="ixk">Fantasy</span>
           <span class="ixb tnum">5/5</span>
-          <span class="ixw tnum">4,4</span>
+          <span class="ixw"><span class="wbar"><i style="width:88%"></i></span><b>4,4</b></span>
           <span class="ixf"><span class="fbar"><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i></span><span class="ixfw">Szene-bekannt</span></span>
           <span class="ixm">🎧 dt.</span>
         </a>
@@ -561,7 +792,7 @@
           <span class="ixv ">♥ geliebt</span>
           <span class="ixk">Fantasy</span>
           <span class="ixb tnum">2/5</span>
-          <span class="ixw tnum">4,9</span>
+          <span class="ixw"><span class="wbar"><i style="width:98%"></i></span><b>4,9</b></span>
           <span class="ixf"><span class="fbar"><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></span><span class="ixfw">Geheimtipp</span></span>
           <span class="ixm">🎧 dt.</span>
         </a>
@@ -570,7 +801,7 @@
           <span class="ixv ">♥ geliebt</span>
           <span class="ixk">Urban Fantasy</span>
           <span class="ixb tnum">12/12</span>
-          <span class="ixw tnum">4,2</span>
+          <span class="ixw"><span class="wbar"><i style="width:84%"></i></span><b>4,2</b></span>
           <span class="ixf"><span class="fbar"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></span><span class="ixfw">Etabliert</span></span>
           <span class="ixm">🎧 dt.</span>
         </a>
@@ -579,7 +810,7 @@
           <span class="ixv ">♥ geliebt</span>
           <span class="ixk">Humor-Phantastik</span>
           <span class="ixb tnum">2/6 dt.</span>
-          <span class="ixw tnum">3,9</span>
+          <span class="ixw"><span class="wbar"><i style="width:78%"></i></span><b>3,9</b></span>
           <span class="ixf"><span class="fbar"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></span><span class="ixfw">Etabliert</span></span>
           <span class="ixm">📖 dt.</span>
         </a>
@@ -588,7 +819,7 @@
           <span class="ixv lik">♡ gut</span>
           <span class="ixk">LitRPG</span>
           <span class="ixb tnum">27 in 2</span>
-          <span class="ixw tnum">4,38</span>
+          <span class="ixw"><span class="wbar"><i style="width:88%"></i></span><b>4,38</b></span>
           <span class="ixf"><span class="fbar"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></span><span class="ixfw">Etabliert</span></span>
           <span class="ixm">🎧 dt.</span>
         </a>
@@ -597,7 +828,7 @@
           <span class="ixv lik">♡ gut</span>
           <span class="ixk">LitRPG</span>
           <span class="ixb tnum">5/16</span>
-          <span class="ixw tnum">4,38</span>
+          <span class="ixw"><span class="wbar"><i style="width:88%"></i></span><b>4,38</b></span>
           <span class="ixf"><span class="fbar"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></span><span class="ixfw">Etabliert</span></span>
           <span class="ixm">🎧 dt.</span>
         </a>
@@ -606,7 +837,7 @@
           <span class="ixv aus">⛔ offen</span>
           <span class="ixk">LitRPG</span>
           <span class="ixb tnum">1/11</span>
-          <span class="ixw tnum">⚠</span>
+          <span class="ixw"><span class="wbar"><i style="width:0"></i></span><b>⚠</b></span>
           <span class="ixf"><span class="fbar"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></span><span class="ixfw">Etabliert</span></span>
           <span class="ixm">🎧 dt.</span>
         </a>
@@ -615,7 +846,7 @@
           <span class="ixv lik">♡ gut</span>
           <span class="ixk">Cosy Crime</span>
           <span class="ixb tnum">5/5</span>
-          <span class="ixw tnum">4,25</span>
+          <span class="ixw"><span class="wbar"><i style="width:85%"></i></span><b>4,25</b></span>
           <span class="ixf"><span class="fbar"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span><span class="ixfw">Phänomen</span></span>
           <span class="ixm">🎧 dt.</span>
         </a>
@@ -624,7 +855,7 @@
           <span class="ixv mix">◐ okay</span>
           <span class="ixk">LitRPG</span>
           <span class="ixb tnum">7/7</span>
-          <span class="ixw tnum">4,2</span>
+          <span class="ixw"><span class="wbar"><i style="width:84%"></i></span><b>4,2</b></span>
           <span class="ixf"><span class="fbar"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></span><span class="ixfw">Etabliert</span></span>
           <span class="ixm">🎧 dt.</span>
         </a>
@@ -633,7 +864,7 @@
           <span class="ixv mix">◐ okay</span>
           <span class="ixk">Fantasy</span>
           <span class="ixb tnum">3/3</span>
-          <span class="ixw tnum">4,0</span>
+          <span class="ixw"><span class="wbar"><i style="width:80%"></i></span><b>4,0</b></span>
           <span class="ixf"><span class="fbar"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i></span><span class="ixfw">Bestseller</span></span>
           <span class="ixm">🎧 dt.</span>
         </a>
@@ -642,7 +873,7 @@
           <span class="ixv mix">◐ okay</span>
           <span class="ixk">Fantasy</span>
           <span class="ixb tnum">6/6</span>
-          <span class="ixw tnum">4,4</span>
+          <span class="ixw"><span class="wbar"><i style="width:88%"></i></span><b>4,4</b></span>
           <span class="ixf"><span class="fbar"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i></span><span class="ixfw">Bestseller</span></span>
           <span class="ixm">🎧 dt.</span>
         </a>
@@ -651,7 +882,7 @@
           <span class="ixv mix">◐ okay</span>
           <span class="ixk">Urban Fantasy</span>
           <span class="ixb tnum">3/~10</span>
-          <span class="ixw tnum">4,1</span>
+          <span class="ixw"><span class="wbar"><i style="width:82%"></i></span><b>4,1</b></span>
           <span class="ixf"><span class="fbar"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></span><span class="ixfw">Etabliert</span></span>
           <span class="ixm">🎧 dt.</span>
         </a>
@@ -747,13 +978,6 @@
         </div>
       </details>
     
-      <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Go to</span>
-        <a href="#home" data-view="home">Home</a>
-        <a href="#werke" data-view="werke">Library</a>
-        <a href="#upnext" data-view="upnext">Up Next</a>
-        <a href="#geschmack" data-view="geschmack">Taste</a>
-      </nav>
     </div>
 
 
@@ -796,13 +1020,6 @@
       </article>
       
     
-      <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Go to</span>
-        <a href="#home" data-view="home">Home</a>
-        <a href="#werke" data-view="werke">Library</a>
-        <a href="#upnext" data-view="upnext">Up Next</a>
-        <a href="#geschmack" data-view="geschmack">Taste</a>
-      </nav>
     </div>
 
     <div class="view" id="v-w-cunninghams">
@@ -843,15 +1060,7 @@
       </article>
       
     
-      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-dcc" data-view="w-dcc">‹ Dungeon Crawler Carl</a><a class="bk2" href="#w-goetter" data-view="w-goetter">Die Streitenden Götter ›</a></div>
     
-      <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Go to</span>
-        <a href="#home" data-view="home">Home</a>
-        <a href="#werke" data-view="werke">Library</a>
-        <a href="#upnext" data-view="upnext">Up Next</a>
-        <a href="#geschmack" data-view="geschmack">Taste</a>
-      </nav>
     </div>
 
     <div class="view" id="v-w-goetter">
@@ -871,15 +1080,7 @@
       </div>
       <div class="unikinder"><p class="box-title">Die Reihen dieses Universums — einzeln</p><a class="bk2 gross" href="#w-sturmfels" data-view="w-sturmfels">Sturmfels-Akademie ›</a><a class="bk2 gross" href="#w-prinz" data-view="w-prinz">Der Prinz von Staub und Schatten ›</a></div>
     
-      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-cunninghams" data-view="w-cunninghams">‹ Die mörderischen Cunninghams</a><a class="bk2" href="#w-sturmfels" data-view="w-sturmfels">Sturmfels-Akademie ›</a></div>
     
-      <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Go to</span>
-        <a href="#home" data-view="home">Home</a>
-        <a href="#werke" data-view="werke">Library</a>
-        <a href="#upnext" data-view="upnext">Up Next</a>
-        <a href="#geschmack" data-view="geschmack">Taste</a>
-      </nav>
     </div>
 
     <div class="view" id="v-w-sturmfels">
@@ -918,15 +1119,7 @@
         </article>
       
     
-      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><a class="bk2" href="#w-goetter" data-view="w-goetter">↰ Die Streitenden Götter</a><span class="spacer"></span><a class="bk2" href="#w-goetter" data-view="w-goetter">‹ Die Streitenden Götter</a><a class="bk2" href="#w-prinz" data-view="w-prinz">Der Prinz von Staub und Schatten ›</a></div>
     
-      <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Go to</span>
-        <a href="#home" data-view="home">Home</a>
-        <a href="#werke" data-view="werke">Library</a>
-        <a href="#upnext" data-view="upnext">Up Next</a>
-        <a href="#geschmack" data-view="geschmack">Taste</a>
-      </nav>
     </div>
 
     <div class="view" id="v-w-prinz">
@@ -964,15 +1157,7 @@
         </article>
       
     
-      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><a class="bk2" href="#w-goetter" data-view="w-goetter">↰ Die Streitenden Götter</a><span class="spacer"></span><a class="bk2" href="#w-sturmfels" data-view="w-sturmfels">‹ Sturmfels-Akademie</a><a class="bk2" href="#w-alexverus" data-view="w-alexverus">Alex Verus ›</a></div>
     
-      <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Go to</span>
-        <a href="#home" data-view="home">Home</a>
-        <a href="#werke" data-view="werke">Library</a>
-        <a href="#upnext" data-view="upnext">Up Next</a>
-        <a href="#geschmack" data-view="geschmack">Taste</a>
-      </nav>
     </div>
 
     <div class="view" id="v-w-alexverus">
@@ -1022,15 +1207,7 @@
       </article>
       
     
-      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-prinz" data-view="w-prinz">‹ Der Prinz von Staub und Schatten</a><a class="bk2" href="#w-magic20" data-view="w-magic20">Magic 2.0 ›</a></div>
     
-      <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Go to</span>
-        <a href="#home" data-view="home">Home</a>
-        <a href="#werke" data-view="werke">Library</a>
-        <a href="#upnext" data-view="upnext">Up Next</a>
-        <a href="#geschmack" data-view="geschmack">Taste</a>
-      </nav>
     </div>
 
     <div class="view" id="v-w-magic20">
@@ -1073,15 +1250,7 @@
       </article>
       
     
-      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-alexverus" data-view="w-alexverus">‹ Alex Verus</a><a class="bk2" href="#w-vuldranni" data-view="w-vuldranni">Vuldranni (iNcarn8) ›</a></div>
     
-      <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Go to</span>
-        <a href="#home" data-view="home">Home</a>
-        <a href="#werke" data-view="werke">Library</a>
-        <a href="#upnext" data-view="upnext">Up Next</a>
-        <a href="#geschmack" data-view="geschmack">Taste</a>
-      </nav>
     </div>
 
     <div class="view" id="v-w-vuldranni">
@@ -1110,15 +1279,7 @@
       </div>
       <div class="unikinder"><p class="box-title">Die Reihen dieses Universums — einzeln</p><a class="bk2 gross" href="#w-gutenjungs" data-view="w-gutenjungs">Die guten Jungs ›</a><a class="bk2 gross" href="#w-boesenjungs" data-view="w-boesenjungs">Die bösen Jungs ›</a></div>
     
-      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-magic20" data-view="w-magic20">‹ Magic 2.0</a><a class="bk2" href="#w-gutenjungs" data-view="w-gutenjungs">Die guten Jungs ›</a></div>
     
-      <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Go to</span>
-        <a href="#home" data-view="home">Home</a>
-        <a href="#werke" data-view="werke">Library</a>
-        <a href="#upnext" data-view="upnext">Up Next</a>
-        <a href="#geschmack" data-view="geschmack">Taste</a>
-      </nav>
     </div>
 
     <div class="view" id="v-w-gutenjungs">
@@ -1188,15 +1349,7 @@
         </article>
       
     
-      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><a class="bk2" href="#w-vuldranni" data-view="w-vuldranni">↰ Vuldranni (iNcarn8)</a><span class="spacer"></span><a class="bk2" href="#w-vuldranni" data-view="w-vuldranni">‹ Vuldranni (iNcarn8)</a><a class="bk2" href="#w-boesenjungs" data-view="w-boesenjungs">Die bösen Jungs ›</a></div>
     
-      <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Go to</span>
-        <a href="#home" data-view="home">Home</a>
-        <a href="#werke" data-view="werke">Library</a>
-        <a href="#upnext" data-view="upnext">Up Next</a>
-        <a href="#geschmack" data-view="geschmack">Taste</a>
-      </nav>
     </div>
 
     <div class="view" id="v-w-boesenjungs">
@@ -1256,15 +1409,7 @@
         </article>
       
     
-      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><a class="bk2" href="#w-vuldranni" data-view="w-vuldranni">↰ Vuldranni (iNcarn8)</a><span class="spacer"></span><a class="bk2" href="#w-gutenjungs" data-view="w-gutenjungs">‹ Die guten Jungs</a><a class="bk2" href="#w-mordclub" data-view="w-mordclub">Der Donnerstagsmordclub ›</a></div>
     
-      <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Go to</span>
-        <a href="#home" data-view="home">Home</a>
-        <a href="#werke" data-view="werke">Library</a>
-        <a href="#upnext" data-view="upnext">Up Next</a>
-        <a href="#geschmack" data-view="geschmack">Taste</a>
-      </nav>
     </div>
 
     <div class="view" id="v-w-mordclub">
@@ -1307,15 +1452,7 @@
       </article>
       
     
-      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-boesenjungs" data-view="w-boesenjungs">‹ Die bösen Jungs</a><a class="bk2" href="#w-survival" data-view="w-survival">Survival Quest ›</a></div>
     
-      <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Go to</span>
-        <a href="#home" data-view="home">Home</a>
-        <a href="#werke" data-view="werke">Library</a>
-        <a href="#upnext" data-view="upnext">Up Next</a>
-        <a href="#geschmack" data-view="geschmack">Taste</a>
-      </nav>
     </div>
 
     <div class="view" id="v-w-survival">
@@ -1358,15 +1495,7 @@
         </article>
       
     
-      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-mordclub" data-view="w-mordclub">‹ Der Donnerstagsmordclub</a><a class="bk2" href="#w-scholomance" data-view="w-scholomance">Scholomance ›</a></div>
     
-      <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Go to</span>
-        <a href="#home" data-view="home">Home</a>
-        <a href="#werke" data-view="werke">Library</a>
-        <a href="#upnext" data-view="upnext">Up Next</a>
-        <a href="#geschmack" data-view="geschmack">Taste</a>
-      </nav>
     </div>
 
     <div class="view" id="v-w-scholomance">
@@ -1406,15 +1535,7 @@
         </article>
       
     
-      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-survival" data-view="w-survival">‹ Survival Quest</a><a class="bk2" href="#w-riyria" data-view="w-riyria">Riyria ›</a></div>
     
-      <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Go to</span>
-        <a href="#home" data-view="home">Home</a>
-        <a href="#werke" data-view="werke">Library</a>
-        <a href="#upnext" data-view="upnext">Up Next</a>
-        <a href="#geschmack" data-view="geschmack">Taste</a>
-      </nav>
     </div>
 
     <div class="view" id="v-w-riyria">
@@ -1457,15 +1578,7 @@
         </article>
       
     
-      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-scholomance" data-view="w-scholomance">‹ Scholomance</a><a class="bk2" href="#w-ashford" data-view="w-ashford">Haus Ashford ›</a></div>
     
-      <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Go to</span>
-        <a href="#home" data-view="home">Home</a>
-        <a href="#werke" data-view="werke">Library</a>
-        <a href="#upnext" data-view="upnext">Up Next</a>
-        <a href="#geschmack" data-view="geschmack">Taste</a>
-      </nav>
     </div>
 
     <div class="view" id="v-w-ashford">
@@ -1507,15 +1620,7 @@
         </article>
       
     
-      <div class="subnav unten"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-riyria" data-view="w-riyria">‹ Riyria</a></div>
     
-      <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Go to</span>
-        <a href="#home" data-view="home">Home</a>
-        <a href="#werke" data-view="werke">Library</a>
-        <a href="#upnext" data-view="upnext">Up Next</a>
-        <a href="#geschmack" data-view="geschmack">Taste</a>
-      </nav>
     </div>
 
     <!-- ============================================================ REIHENFOLGEN -->
@@ -1799,13 +1904,6 @@
         </div>
       </section>
     
-      <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Go to</span>
-        <a href="#home" data-view="home">Home</a>
-        <a href="#werke" data-view="werke">Library</a>
-        <a href="#upnext" data-view="upnext">Up Next</a>
-        <a href="#geschmack" data-view="geschmack">Taste</a>
-      </nav>
     </div>
 
     <!-- ============================================================ BEKANNTHEIT -->
@@ -1888,13 +1986,6 @@
         </div>
       </section>
     
-      <nav class="fussnav" aria-label="Hauptbereiche">
-        <span class="fnl">Go to</span>
-        <a href="#home" data-view="home">Home</a>
-        <a href="#werke" data-view="werke">Library</a>
-        <a href="#upnext" data-view="upnext">Up Next</a>
-        <a href="#geschmack" data-view="geschmack">Taste</a>
-      </nav>
     </div>
 
     <p class="footer">
@@ -1907,6 +1998,7 @@
     </p>
 
   </main>
+  </div>
 </div>
 
 <script>
@@ -1927,15 +2019,15 @@
     return el ? el.id.replace(/^v-/, "") : "";
   })();
 
-  // Navhöhe als Custom Property: Ankersprünge und die klebende Sekundärnav
-  // rechnen damit. Fest verdrahtete 62px waren auf Schmal um 99px daneben.
-  var nav = document.querySelector(".nav");
-  function navHoehe(){
-    document.documentElement.style.setProperty("--nav-h", nav.offsetHeight + "px");
-  }
-  navHoehe();
-  if (window.ResizeObserver) new ResizeObserver(navHoehe).observe(nav);
-  else window.addEventListener("resize", navHoehe);
+  // Die klebende Topnav ist entfallen (die Schiene steht ohnehin immer da),
+  // also gibt es auch keine Navhöhe mehr zu messen. --nav-h bleibt als
+  // Rückfallwert für die scroll-margin-top-Regeln stehen.
+  // ⚠️ Belegter Ausfall 2026-08-11: Hier stand noch nav.offsetHeight auf ein
+  // Element, das es nicht mehr gab. Der TypeError flog VOR route() — dadurch
+  // landete JEDER Hash auf der Startseite, weil nur noch das im Markup
+  // gesetzte .view.on übrig blieb. Beim Entfernen von Markup immer prüfen,
+  // wer im Skript noch darauf zeigt.
+  document.documentElement.style.setProperty("--nav-h", "0px");
 
   // ACHTUNG, gemessen 2026-08-11: Im Artefakt-Host waechst das iframe auf
   // Inhaltshoehe. Folge: (a) `position: sticky` wird nie aktiv, (b) der
@@ -1965,7 +2057,7 @@
       a.classList.toggle("active", a.getAttribute("data-view")===gruppe);
     });
     // Menuepunkt "Up Next" landet immer auf "Jetzt" — ein Bereich soll
-    // vorhersagbar oeffnen, nicht dort, wo man beim letzten Mal aufgehoert hat.
+    // vorhersagbar oeffnen, nicht dort, wo man beim letzten Mal aufgehört hat.
     if(offenerReiter){ reiter(offenerReiter); offenerReiter = null; }
     else if(view === "upnext" && !scrollId){ reiter("rf-now"); }
     nachOben();
@@ -1996,8 +2088,8 @@
     var view = a.getAttribute("data-view");
     var scrollId = a.getAttribute("data-scroll");
     var href = a.getAttribute("href");
-    // Reiterwunsch HIER merken, nicht im zweiten Zuhoerer: der lief spaeter
-    // als dieser, dadurch oeffnete ein Reiter-Link immer den Standardreiter.
+    // Reiterwunsch HIER merken, nicht im zweiten Zuhörer: der lief spaeter
+    // als dieser, dadurch öffnete ein Reiter-Link immer den Standardreiter.
     var tabWunsch = a.getAttribute("data-tab");
     if(tabWunsch) offenerReiter = tabWunsch;
     if(href && href.charAt(0)==="#"){
@@ -2067,7 +2159,7 @@
     if(!b) return;
     var ziel = b.getAttribute("data-tab");
     if(b.tagName === "BUTTON"){ e.preventDefault(); reiter(ziel); nachOben(); }
-    // Links werden oben im Ansichts-Zuhoerer behandelt (Reihenfolge!).
+    // Links werden oben im Ansichts-Zuhörer behandelt (Reihenfolge!).
   });
 
   window.addEventListener("hashchange", route);
