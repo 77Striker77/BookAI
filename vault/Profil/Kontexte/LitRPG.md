@@ -89,7 +89,7 @@ bloßem Zahlen-Grinding. Maßstab-Buch: [[Dungeon Crawler Carl]].
 | [[Survival Quest]] | mixed (Anti-Referenz −) |
 | [[Vuldranni (iNcarn8)]] (Verbund) | liked *(vorläufig)* |
 | └ [[Die guten Jungs]] | liked *(vorläufig, 5/16 gehört)* |
-| └ [[Die bösen Jungs]] | liked *(sehr vorläufig, Bd. 1 läuft)* |
+| └ [[Die bösen Jungs]] | ⛔ *Bewertung ausgesetzt — „kann ich erst nach Ende von Band 1 was zu sagen" (2026-08-11)* |
 
 ## Gewichts-Begründung & Änderungshistorie
 

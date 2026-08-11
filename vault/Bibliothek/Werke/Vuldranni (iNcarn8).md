@@ -70,7 +70,7 @@ Handschrift, Humor/Ton, Systemlogik) UND das Gesamtbild über beide Reihen ein.
 > Hörreihenfolge in Kombination mit der anderen Reihe, die ebenfalls auch alleine perfekt
 > abgebildet sein muss."
 
-**Kontext:** [[LitRPG]] · **Autor:** [[Eric Ugland]] · **Stand:** GJ 5/16 gehört · BJ 1/11 läuft
+**Kontext:** [[LitRPG]] · **Autor:** [[Eric Ugland]] · **Stand:** GJ 5/16 gehört · BJ 1/11 läuft — ⛔ **BJ-Bewertung ausgesetzt** bis Bd. 1 durch ist (Nutzer 2026-08-11)
 
 > ⭐ **Nachgezogen 2026-08-11 (Interview-Runde 4, Negativseite nachgeholt).** Die Bewertung
 > von [[Die guten Jungs]] war bis dahin ein reines +2-Profil — ein **Erhebungsartefakt**,

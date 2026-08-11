@@ -191,6 +191,22 @@ selbst als „Kleinigkeit"/„einzelne Ausnahme" relativiert). Der verbleibende 
 „vorläufig" ist allein die **Reihen-Dauerleistung**: 5 von 16 Bänden, [[Nebenquest-Wildwuchs]]
 über 16 Bände noch unbelegt.
 
+## ⛔ Abgrenzung: [[Die bösen Jungs]] wird NICHT bewertet (Nutzer-Entscheidung R4)
+
+**Wörtlich:** „**Böse Jungs kann ich erst nach Ende von Band 1 was zu sagen.**"
+
+Runde 4 hat ausschließlich [[Die guten Jungs]] behandelt. Für [[Die bösen Jungs]] gilt:
+**nicht nach einer Meinung fragen, solange Bd. 1 läuft** — der Nutzer hält seine eigene
+Aussage bewusst zurück, weil die Grundlage fehlt. Das ist die richtige Haltung und deckt
+sich mit der Spoiler-Regel (laufender Band = nicht erlebt).
+
+Belastbar für BJ ist bisher **nur der Sprecher-Vergleich** ([[Thomas Nicolai]] −1) — den hat
+er direkt und begründet gezogen. Die Held-Zeile („Held ist stark") stammt aus Runde 1 und
+galt **beiden Reihen pauschal**; sie ist in der Werk-Notiz als ⚠️ *ungesichert* markiert.
+
+➡️ **Wiedervorlage:** volles Interview, sobald Bd. 1 durch ist — diesmal mit
+Abdeckungs-Matrix **von der ersten Gefühls-Frage an**.
+
 ## Offene Fragen (an den Nutzer, nächste Runde)
 
 **Aus der Matrix (Negativseite + Tempo — Pflicht vor Verdikt-Verfestigung):**
