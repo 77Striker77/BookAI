@@ -49,6 +49,12 @@
   /* Fokusring global aus dem Token — sonst greift der UA-Default (#101010),
      der im Dunkelmodus auf 1,1:1 faellt (Messung 11.08.2026). */
   :where(a, button, summary, input, select, [tabindex]):focus-visible { outline: 2px solid var(--rating); outline-offset: 2px; border-radius: 4px; }
+  /* Sprungmarke: unsichtbar, bis sie den Fokus bekommt (a11y-Referenz der
+     Design-Werkstatt: Skip-Link, sobald Nav-Elemente vor <main> liegen). */
+  .skip { position: absolute; left: 8px; top: -60px; z-index: 60; background: var(--panel);
+    color: var(--ink); border: 1px solid var(--line); border-radius: 9px;
+    padding: 9px 14px; font-weight: 700; text-decoration: none; transition: top .12s ease; }
+  .skip:focus { top: 8px; }
   .page { background: var(--bg); color: var(--ink);
     font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; min-height: 100vh; }
   .wrap { max-width: 1060px; margin: 0 auto; padding: 0 18px 72px; }
@@ -384,7 +390,8 @@
 <div class="page">
 
   <!-- ===================== NAV ===================== -->
-  <nav class="nav">
+  <a class="skip" href="#inhalt">Direkt zum Inhalt</a>
+  <nav class="nav" aria-label="Hauptmenü">
     <div class="nav-in">
       <span class="brand">📚 Meine Bibliothek <small>· Dashboard</small></span>
       <div class="menu" id="menu">
@@ -396,7 +403,7 @@
     </div>
   </nav>
 
-  <div class="wrap">
+  <main class="wrap" id="inhalt">
 
     <!-- ============================================================ ÜBERSICHT (Startseite) -->
     <div class="view on" id="v-home">
@@ -1899,7 +1906,7 @@
       Mit <span class="unsure">⚠</span> markierte Angaben sind im Vault ausdrücklich als offene Fragen hinterlegt (Recherche-Quellen waren in dieser Session nicht erreichbar) statt stillschweigend geglättet zu werden.
     </p>
 
-  </div>
+  </main>
 </div>
 
 <script>
