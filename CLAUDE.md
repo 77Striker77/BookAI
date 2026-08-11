@@ -95,6 +95,56 @@ möglich werden.** Daraus folgt kompromisslos:
   (sonst überschreibt ein späterer Publish die gute Live-Version mit einem alten Stand).
 - Farbsystem verbindlich: 🔵 Wertung 0–5 · 🟡 Bekanntheit · 🟢 positiv · 🔴 negativ.
 
+## 🎨 Gestaltung — die Design-Werkstatt (Plugin `design@design-ai`)
+
+Alles Optische an den beiden Artefakten läuft über die Werkstatt aus dem Repo
+**[Design_AI](https://github.com/77Striker77/Design_AI)**. Sie ist in
+`.claude/settings.json` **projektgebunden** aktiviert (`extraKnownMarketplaces` +
+`enabledPlugins`) — bewusst nicht auf Benutzer-Ebene, weil die BookAI-Sessions in
+**ephemeren Containern** laufen und eine Benutzer-Installation dort nicht überlebt.
+
+| Aufgabe | Weg |
+| --- | --- |
+| Richtung, Farbsystem, Skalen, Theming, a11y | `design:frontend-handwerk` |
+| HTML-Artefakt bauen, prüfen, veröffentlichen | `design:artefakt-werkstatt` |
+| Visueller Baustein (Hintergrund, Animation, Glow) | `design:artefakt-bausteine` — **zuerst dort nachsehen** |
+| Bestehendes Artefakt begutachten lassen | Agent `design:design-gutachter` |
+
+**Reihenfolge: Richtung → Ausführung → Messen.** Keine Farbe ohne Messung mit
+`kontrast.mjs` gegen den echten Grund, je Theme einzeln. Am Ende sagen, was **nicht**
+geprüft wurde.
+
+### Pflicht nach jeder Änderung an `artifacts/*.html`
+
+```bash
+export BROWSER_BIN="$CLAUDE_PROJECT_DIR/scripts/chrome-fuer-messung.sh"
+bash <artefakt-werkstatt>/scripts/scan.sh artifacts/bibliothek.html   # statisch
+bash <artefakt-werkstatt>/scripts/mess.sh artifacts/bibliothek.html   # Browser
+```
+
+`<artefakt-werkstatt>` = `${CLAUDE_PLUGIN_ROOT}/.claude/skills/artefakt-werkstatt`.
+**Die erzeugten PNGs ansehen, nicht nur die Checkzeilen lesen.**
+
+> ⚠️ **Container-Falle (gelöst am 2026-08-11):** Die Session läuft als **root**, Chromium
+> startet dort ohne `--no-sandbox` nicht — und zwar **still**. `mess.sh` meldete dann
+> „Seite lädt möglicherweise gar nicht", „Breitenmatrix UNGEPRUEFT" und „kein Debug-Port".
+> Das waren **keine** Artefakt-Fehler, sondern die Umgebung. Deshalb gibt es
+> `scripts/chrome-fuer-messung.sh` — immer über `BROWSER_BIN` einhängen, nie Chromium
+> direkt. Kommen diese drei Meldungen wieder, ist der Wrapper nicht gesetzt.
+
+### Mess-Marker in den Artefakten
+
+`artifacts/bibliothek.html` trägt im `<style>` die Werkstatt-Marker `@artefakt`,
+`@grund-hell`, `@grund-dunkel`, `@serien-hell`, `@serien-dunkel`. **Werden `--bg`/`--panel`
+oder die Serienfarben geändert, müssen die Marker mitgezogen werden** — sonst misst
+`mess.sh` gegen den falschen Grund und meldet trotzdem grün.
+
+### Was das Farbsystem angeht
+
+Das verbindliche Farbsystem der Artefakte (🔵 Wertung · 🟡 Bekanntheit · 🟢 positiv ·
+🔴 negativ) steht **über** ästhetischen Vorschlägen der Werkstatt: Bedeutung schlägt Optik.
+Die Werkstatt liefert die **Messung** dazu, nicht die Bedeutung.
+
 ## Nutzer-Kurzprofil (Details im Vault, hier nur Orientierung)
 
 - Roter Faden Nr. 1: **Fokus & Vorwärtsdrang** (kein zäher Start / Abschweifen / Intrigen-

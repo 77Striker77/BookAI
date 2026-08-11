@@ -4,6 +4,15 @@
      BLAU = Community-Wertung 0–5 (Qualität) · GOLD = Bekanntheit/Reichweite (wie viele)
      GRÜN = positiv (mein ＋ / 👍) · ROT = negativ (mein − / 👎 / No-Go) · Neutral = Struktur
      Rot ist NIE eine Wertung. Gold misst Reichweite, nicht Qualität. */
+
+  /* ===== MESS-MARKER fuer die Design-Werkstatt (design:artefakt-werkstatt) =====
+     Ohne diese Marker RAET mess.sh den Grund, gegen den es den Kontrast misst.
+     Sie muessen mitgezogen werden, wenn --bg / --panel geaendert werden. */
+  /* @artefakt */
+  /* @grund-hell: #f2f0ea */
+  /* @grund-dunkel: #121118 */
+  /* @serien-hell: #245fb0,#12813f,#c23a34,#9a6b12 */
+  /* @serien-dunkel: #5b9bee,#3fc069,#e5706a,#e3b64e */
   :root {
     color-scheme: light;
     --bg:#f2f0ea; --panel:#faf9f6; --card:#ffffff;
@@ -37,6 +46,9 @@
 
   * { box-sizing: border-box; }
   body { margin: 0; }
+  /* Fokusring global aus dem Token — sonst greift der UA-Default (#101010),
+     der im Dunkelmodus auf 1,1:1 faellt (Messung 11.08.2026). */
+  :where(a, button, [tabindex]):focus-visible { outline: 2px solid var(--rating); outline-offset: 2px; border-radius: 4px; }
   .page { background: var(--bg); color: var(--ink);
     font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; min-height: 100vh; }
   .wrap { max-width: 1060px; margin: 0 auto; padding: 0 18px 72px; }
@@ -179,7 +191,8 @@
   .mini:hover { border-color: var(--rating); }
   .mini .mt { font-weight: 700; font-size: .96rem; }
   .mini .mm { color: var(--muted); font-size: .78rem; margin: 1px 0 6px; }
-  .biglink { display:inline-block; margin-top:10px; font-size:.82rem; font-weight:600; color:var(--rating); text-decoration:none; }
+  /* min-height 24px: WCAG 2.2 AA Zielgroesse — vorher 20px (Messung 11.08.2026) */
+  .biglink { display:inline-flex; align-items:center; min-height:24px; margin-top:10px; font-size:.82rem; font-weight:600; color:var(--rating); text-decoration:none; }
   .biglink:hover { text-decoration: underline; }
 
   /* ---------- Bandliste (bandgenau) ---------- */
@@ -300,7 +313,7 @@
       <header class="hero">
         <h1>Willkommen zurück 👋</h1>
         <p class="lead">Das Cockpit meines Buch- &amp; Hörbuch-Geschmacks: was ich liebe, wie bekannt es ist
-          und was als Nächstes erscheint. 11 Reihen analysiert — 6 geliebt, 1 „gut", 4 „okay" im Graubereich.</p>
+          und was als Nächstes erscheint. 13 Reihen analysiert — 6 geliebt, 3 „gut", 4 „okay" im Graubereich, verteilt auf 2 Universen.</p>
       </header>
       <div class="stats">
         <div class="stat"><div class="n tnum">13</div><div class="l">Reihen analysiert</div></div>

@@ -1,4 +1,10 @@
 {
+  "extraKnownMarketplaces": {
+    "design-ai": {
+      "source": { "source": "github", "repo": "77Striker77/Design_AI" }
+    }
+  },
+  "enabledPlugins": { "design@design-ai": true },
   "hooks": {
     "SessionStart": [
       {
