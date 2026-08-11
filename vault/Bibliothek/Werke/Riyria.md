@@ -58,6 +58,14 @@ quellen:
   - "https://www.audible.de/pd/Der-Aufstieg-Nyphrons-Hoerbuch/B00UC1ICTS"
   - "https://en.wikipedia.org/wiki/The_Riyria_Revelations"
 analysiert: 2026-07-16
+# --- 🔒 Spoiler-Grenze (siehe _System/Spoiler-Politik.md) ---
+spoiler_erlebt_bis: 6    # letzter VOLLSTÄNDIG erlebter Band (0 = keiner)
+spoiler_aktuell: 0       # laufender Band — zählt als NICHT erlebt
+spoiler_gesamt: 6        # Revelations Bd. 1-6 gehört; Chronicles-Prequels NICHT erlebt
+spoiler_stand: "2026-08-11"  # Stand bestätigt am
+spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
+spoiler_unerlebte_reihen: ["Riyria Chronicles", "The Riyria Chronicles", "Legends of the First Empire", "The Rise and Fall"]  # Reihen im selben Universum, NIE erlebt -> immer nur Klappentext-Ebene
+spoiler_aliase: []           # weitere Schreibweisen des Werktitels
 tags: [werk, reihe, hoerbuch, mixed, fantasy]
 ---
 

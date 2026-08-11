@@ -1,0 +1,6 @@
+# erwartung: verstoss
+# herkunft: artefakt
+# vault: fixture
+# was: Der spoilerfrei-Marker hebelt Sperrbegriffe NICHT aus
+<!-- spoilerfrei -->
+Klappentext der Testreihe: Der Orden der Zweiten Sonne ruft.

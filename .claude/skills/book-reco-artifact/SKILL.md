@@ -143,6 +143,35 @@ Inhalt:
    Bekanntheit). Alles muss so bereits im Vault stehen (nur Projektion!).
 4. **Verworfen** (einklappbar): stärkste verworfene Kandidaten + Grund.
 
+## 🔒 Spoiler-Gate vor JEDEM Publish (Pflicht, blockierend)
+
+Ein Artefakt ist die sichtbarste Ausgabe des Systems — hier ist ein Spoiler
+unwiederbringlich. Ablauf, in dieser Reihenfolge:
+
+```bash
+bash scripts/vault-first.sh      # 1. Vault committet? (OBERSTE REGEL)
+bash scripts/spoiler-gate.sh     # 2. deterministisch: Grenzen, Sperrbegriffe, Bandbezüge
+```
+3. **Agent `spoiler-guard`** auf die erzeugte HTML-Datei ansetzen (semantische Hälfte —
+   Paraphrasen und Andeutungen sieht keine Wortliste).
+4. Erst bei `sauber` publizieren. Ein `VERSTOSS` blockt den Publish ohnehin
+   (PreToolUse-Hook) — versuche nie, daran vorbeizuarbeiten, sondern bereinige.
+
+**Was das für den Inhalt heißt:**
+
+- **Empfehlungen sind IMMER Klappentext-Ebene.** Kandidaten sind per Definition ungelesen:
+  Prämisse, Ton, Tempo, Setting, Metadaten, Wertungen — aber keine Ereignisse, keine
+  Wendungen, keine Figurenschicksale.
+- **Bibliothek: je nach Lesestand.** Bei komplett erlebten Werken bewusst **detailreicher**
+  (Politik §6); bei laufenden Reihen nur bis `spoiler_erlebt_bis`.
+- **Metadaten nie beschneiden.** Die maximale Datendichte je Werk ist das oberste Ziel und
+  wird von der Spoiler-Politik nicht angetastet — nur Handlung wird zurückgehalten.
+- **Zurückhalten sichtbar machen** statt glätten: eine Karte darf ruhig zeigen
+  „🔒 Details ab Bd. 3 zurückgehalten (dein Stand: Bd. 2 läuft)".
+- **Klappentext-/Prämissenblöcke markieren**, damit der Linter sie als Neutralzone erkennt:
+  `<p data-spoilerfrei="Klappentext Bd. 1">…</p>`. Audit über
+  `python3 scripts/spoiler_check.py --ausnahmen artifacts/*.html`.
+
 ## Regeln
 
 - Jeder %-Wert stammt aus der Lauf-Notiz im Vault — Balkenlänge = Score, nichts erfinden.

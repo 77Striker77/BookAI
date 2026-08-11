@@ -32,7 +32,21 @@ tags: [moc, home]
   auch grob Aussortiertes, mit Status + Grund. Nie zweimal prüfen, nie Verworfenes
   erneut vorschlagen.
 
+## 🔒 Spoilerfreiheit
+
+- [[Spoiler-Politik]] — was in einer Ausgabe stehen darf (Neutralzone vs. Verbotszone)
+- [[Spoiler-Lexikon]] — die Wortlisten des Linters (hier tunen, nicht im Code)
+- Grenzen sehen: `python3 scripts/spoiler_check.py --grenzen`
+- Vor jedem Publish: `bash scripts/spoiler-gate.sh` + Agent `spoiler-guard`
+
 ## Zuletzt
+
+- 2026-08-11 — 🔒 **Spoiler-Schutz eingebaut** (Nutzer-Regel): keine Ausgabe verrät mehr
+  etwas jenseits des bandgenauen Lesestands; erlebte Werke dürfen dafür **detaillierter**
+  beschrieben werden. Neu: [[Spoiler-Politik]] + [[Spoiler-Lexikon]], `spoiler_*`-Felder in
+  allen 15 Werk-Notizen, deterministischer Linter, Agent `spoiler-guard`, Skill
+  `spoiler-check` und vier Hooks (SessionStart/PreToolUse/Stop/SubagentStop).
+  Metadaten bleiben unangetastet — beschnitten wird ausschließlich Handlung.
 
 - 2026-08-11 (Nachgang) — **Reihenfolgen als eigenes Thema:** neue MOC [[Reihenfolgen]] (alle Werke, 5 Reihenfolge-Typen, Verfügbarkeits-Engpässe). Dazu zwei **Korrekturen** aus der Verifikationsrunde: (1) ⚠️ **Weder [[Die guten Jungs]] noch [[Die bösen Jungs]] ist abgeschlossen** — Bd. 17 bzw. Bd. 12 sind für 2026 angekündigt (erster Stand war falsch); (2) die Crossover-Regel **BJ 11 vor GJ 15** ist jetzt **hart belegt** über die Erscheinungsdaten (21.04.2024 vs. 08.06.2024) plus Verlagstext plus Leser-Rezension. Verifikationsstand mit Konfidenz je Aussage steht in [[Vuldranni (iNcarn8)]]. Neue Nutzerregel in [[Konventionen]]: **Artefakte müssen spoilerfrei sein** — jenseits des Lesestands nur Metadaten, keine Handlung.
 - 2026-08-11 — Werke 12+13 als **Verbund**: **[[Vuldranni (iNcarn8)]]** ([[Eric Ugland]]) mit

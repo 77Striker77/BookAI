@@ -1,0 +1,5 @@
+# erwartung: warnung
+# herkunft: artefakt
+# vault: echt
+# was: Handlungsverrat ohne erkennbares Werk -> fail-closed als Warnung
+Kleiner Hinweis vorab: Der Mörder ist der Gärtner, das ändert alles.

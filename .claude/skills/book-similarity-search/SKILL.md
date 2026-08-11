@@ -116,6 +116,26 @@ so tauchen Kandidaten in den Backlinks der Merkmal-Notizen auf.
 Sei in Stufe 2 **streng**: lieber einen plausibel klingenden Titel verwerfen, als den
 Nutzer mit einem enttäuschenden Vorschlag zu verlieren.
 
+## 🔒 Spoilerfrei recherchieren und schreiben
+
+Kandidaten sind **per Definition ungelesen** → Freigabestufe `blurb`. Für Kandidaten-Notizen
+UND für alles, was davon in eine Ausgabe wandert, gilt:
+
+- **Erlaubt (volle Tiefe erwünscht):** Prämisse/Ausgangslage von Bd. 1, Genre, Ton, Tempo,
+  Komplexität, Setting-Typ, Erzählperspektive, Reihenlänge, Universum & Reihenfolge, alle
+  Metadaten, Wertungen mit Anzahl, Bekanntheit, Handwerksurteile ohne Inhalt („Mittelteil
+  zieht", „Bd. 4 gilt als schwächster").
+- **Verboten:** Ereignisse, Wendungen, Enthüllungen, Figurenschicksale, Endzustände — auch
+  wenn Rezensionen sie ungefragt ausplaudern. **Rezensionszitate vor der Übernahme prüfen.**
+- **Referenzwerke des Nutzers**: dort gilt SEINE Grenze. Ein Vergleich wie „ähnlich wie die
+  Wendung in ⟨Referenz⟩ Bd. 6" spoilert seine eigene laufende Reihe — nie tun.
+- **Prognose-Zeilen** dürfen Merkmale nennen („[[Verrat]] erwartbar: +1"), aber nie das
+  konkrete Ereignis dazu.
+
+Vor der Rückgabe: `python3 scripts/spoiler_check.py --stdin --herkunft empfehlung` über den
+Text laufen lassen; im Zweifel Agent `spoiler-guard`. Regeln:
+`vault/_System/Spoiler-Politik.md`.
+
 ## Mindestmenge absichern
 Ziel sind **≥3 bestätigte** Vorschläge (oder die vom Nutzer geforderte Anzahl).
 - Bleiben nach Stufe 2 weniger als 3 übrig → **zurück zu Stufe 1**, Pool erweitern
@@ -143,7 +163,9 @@ aufrufen: es überschreibt das feste Artefakt „Empfehlungen" mit diesem neuest
 Für breite oder parallele Recherche kann der **book-scout** Agent mehrfach gestartet
 werden (je ein Suchwinkel: nach Subjects / nach Themen / nach Autoren-Umfeld / Award-Listen).
 **Gib ihm die Liste bereits bekannter Titel mit** (aus `Empfehlungen/Kandidaten/` +
-Bibliothek), damit er sie überspringt. Er liefert je einen strukturierten
+Bibliothek), damit er sie überspringt. **Sag ihm außerdem, dass seine Rückgabe
+spoilerfrei sein muss** (Klappentext-Ebene) — seine Rückgabe wird vom SubagentStop-Hook
+geprüft und kann sonst zurückgewiesen werden. Er liefert je einen strukturierten
 Kandidaten-Batch zurück. Danach dedupliziert du, schreibst die Kandidaten-Notizen
 (Gedächtnis-Pflicht!) und führst Stufe 2 zentral durch. Nutze das bei
 "gründlich"/"viele Optionen"; für schnelle Anfragen reicht die Inline-Suche.

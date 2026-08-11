@@ -1,0 +1,6 @@
+# erwartung: sauber
+# herkunft: vault
+# vault: echt
+# was: Im Vault ist Spoiliges erlaubt, wenn es im eingeklappten 🔒-Block steht
+> [!warning]- 🔒 SPOILER — ab Bd. 6 (mein Stand: Bd. 5)
+> Die guten Jungs Bd. 10: ⟨Figur F⟩ verrät die Gruppe.

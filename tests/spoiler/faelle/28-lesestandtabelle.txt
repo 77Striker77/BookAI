@@ -1,0 +1,5 @@
+# erwartung: sauber
+# herkunft: vault
+# vault: echt
+# was: Die eigene Lesestand-Tabelle darf Bandnummern jenseits der Grenze nennen
+| 6–16 | offen | nächster Schritt laut Hörreihenfolge: erst Die bösen Jungs 1–2 |

@@ -1,0 +1,5 @@
+# erwartung: verstoss
+# herkunft: artefakt
+# vault: fixture
+# was: Neutraler Sperrbegriff aus einem späteren Band genügt für einen Verstoß
+Ein starkes Motiv der Testreihe ist die Nebelkrone.
