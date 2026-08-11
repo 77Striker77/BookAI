@@ -46,6 +46,14 @@ quellen:
   - "https://www.fantasticfiction.com/u/eric-ugland/bad-guys/"
   - "https://the-good-guys-and-bad-guys.fandom.com/wiki/The_Good_Guys_and_Bad_Guys_Wiki"
 analysiert: 2026-08-11
+# --- 🔒 Spoiler-Grenze (siehe _System/Spoiler-Politik.md) ---
+spoiler_erlebt_bis: 5    # letzter VOLLSTÄNDIG erlebter Band (0 = keiner)
+spoiler_aktuell: 6       # laufender Band — zählt als NICHT erlebt
+spoiler_gesamt: 27        # Zaehlung = kombinierte Hoerreihenfolge des Verbunds: Pos. 1-5 (GJ 1-5) gehört, Pos. 6 (BJ 1) laeuft
+spoiler_stand: "2026-08-11"  # Stand bestätigt am
+spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
+spoiler_unerlebte_reihen: ["The Grim Guys"]  # Reihen im selben Universum, NIE erlebt -> immer nur Klappentext-Ebene
+spoiler_aliase: []           # weitere Schreibweisen des Werktitels
 tags: [werk, universum, hoerbuch, liked, litrpg]
 ---
 

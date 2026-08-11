@@ -86,6 +86,28 @@ Götter" = Sturmfels-Akademie + Prinz von Staub und Schatten):
   (eingerückt/als Kinder). Jede Reihe bleibt inhaltlich für sich voll bewertet.
 - Matching: Reihen-Aspekte + geerbte Overall-Aspekte zusammen.
 
+## 🔒 Spoiler-Grenze je Werk (Pflichtfelder)
+
+Jede Werk-Notiz trägt die bandgenaue Grenze, gegen die jede Ausgabe geprüft wird. Regeln:
+[[Spoiler-Politik]] · Wortlisten: [[Spoiler-Lexikon]].
+
+```yaml
+spoiler_erlebt_bis: 5        # letzter VOLLSTÄNDIG erlebter Band (0 = keiner)
+spoiler_aktuell: 6           # laufender Band — zählt als NICHT erlebt
+spoiler_gesamt: 16           # erschienene Bände
+spoiler_stand: "JJJJ-MM-TT"
+spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
+spoiler_aliase: []           # weitere Schreibweisen des Werktitels
+spoiler_unerlebte_reihen: [] # Reihen im selben Universum, die NIE erlebt wurden
+```
+
+- **Frontmatter und die Lesestand-Tabelle im Body müssen übereinstimmen** — beide pflegen.
+- Erscheint ein neuer Band, wächst `spoiler_gesamt`; ein `voll`-Werk rutscht dadurch
+  automatisch auf `bis_band_N` zurück. Das ist gewollt.
+- Handlungsdetails jenseits der Grenze gehören in der Notiz in einen eingeklappten Callout:
+  `> [!warning]- 🔒 SPOILER — ab Bd. 7 (mein Stand: Bd. 5)`.
+- Kontrolle: `python3 scripts/spoiler_check.py --grenzen`.
+
 ## Format (gelesen/gehört) — die Basis ist immer das Buch, der Sprecher ist Bonus
 
 Regel (Nutzeraussage 2026-07-20): **Das Werk/Buch ist immer die Basis.** Ob der Nutzer

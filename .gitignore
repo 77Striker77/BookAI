@@ -1,0 +1,6 @@
+# Laufzeit-Zustand des Spoiler-Gates (Prüfstempel je Artefakt) — kein Gedächtnis,
+# wird bei jedem Lauf neu geschrieben.
+.claude/state/
+
+__pycache__/
+*.pyc

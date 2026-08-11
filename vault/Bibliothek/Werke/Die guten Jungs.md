@@ -58,6 +58,14 @@ quellen:
   - "https://www.amazon.de/Hochadel-f%C3%BCr-Einsteiger-guten-Jungs/dp/B0CVBBJYJT"
   - "https://www.goodreads.com/series/250153-the-good-guys"
 analysiert: 2026-08-11
+# --- 🔒 Spoiler-Grenze (siehe _System/Spoiler-Politik.md) ---
+spoiler_erlebt_bis: 5    # letzter VOLLSTÄNDIG erlebter Band (0 = keiner)
+spoiler_aktuell: 0       # laufender Band — zählt als NICHT erlebt
+spoiler_gesamt: 16        # Bd. 1-5 gehört; ab Bd. 6 offen
+spoiler_stand: "2026-08-11"  # Stand bestätigt am
+spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
+spoiler_unerlebte_reihen: ["The Grim Guys"]  # Reihen im selben Universum, NIE erlebt -> immer nur Klappentext-Ebene
+spoiler_aliase: []           # weitere Schreibweisen des Werktitels
 tags: [werk, reihe, hoerbuch, liked, litrpg]
 ---
 

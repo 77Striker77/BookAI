@@ -60,6 +60,33 @@ möglich werden.** Daraus folgt kompromisslos:
 - **Messlatte = die detailliertesten bestehenden Werk-Notizen.** Eine neue Notiz ist erst
   fertig, wenn sie mindestens deren Detailgrad erreicht.
 
+## 🔒 SPOILER-REGEL (Nutzer-Regel 2026-08-11, gilt für JEDE Ausgabe)
+
+**In Artefakten und Ausgaben darf nie etwas stehen, das der Nutzer noch nicht gelesen oder
+gehört hat. Was er erlebt hat, darf gerne detaillierter drinstehen.**
+
+- Regeln: `vault/_System/Spoiler-Politik.md` · Wortlisten: `vault/_System/Spoiler-Lexikon.md`
+  · Skill: **`spoiler-check`** · Agent: **`spoiler-guard`**
+- Grenze = bandgenauer Lesestand im Frontmatter jeder Werk-Notiz
+  (`spoiler_erlebt_bis`, `spoiler_aktuell`, `spoiler_gesamt`, `spoiler_sperrbegriffe`).
+  Abrufen: `python3 scripts/spoiler_check.py --grenzen`.
+- **Der laufende Band zählt als NICHT erlebt. Unbekanntes Werk = ungelesen (fail-closed).**
+  Empfehlungskandidaten sind per Definition ungelesen → nur Klappentext-Ebene.
+- **Kein Widerspruch zum obersten Ziel:** Metadaten (Titel, Daten, ISBN, Seiten, Hördauer,
+  Sprecher, Wertungen, Bekanntheit, Ton/Tempo) sind NIE ein Spoiler — die maximale
+  Datendichte bleibt vollständig erhalten. Zurückgehalten wird **nur Handlung**.
+- **Nie stillschweigend glätten** — stattdessen sichtbar: „🔒 Details zu Bd. X+
+  zurückgehalten (dein Stand: Bd. Y)."
+- Erwähnt der Nutzer seinen Fortschritt („bin bei Band 3", „Teil 2 durch", „abgebrochen"),
+  **sofort** die Grenze in der Werk-Notiz nachziehen — sonst arbeitet alles falsch weiter.
+- Prüfen: `bash scripts/spoiler-gate.sh` (deterministisch) **und** Agent `spoiler-guard`
+  (semantisch). Beides ist Pflicht vor jedem Artefakt-Publish. Selbsttest der Regeln:
+  `bash scripts/spoiler-selftest.sh`.
+- Automatische Sicherungen (Hooks, `.claude/settings.json`): SessionStart kippt die Grenzen
+  in den Kontext; PreToolUse blockt Artefakt-Publish/Schreiben mit Verstoß; Stop prüft die
+  Chat-Antwort und die Artefakte; SubagentStop prüft Subagenten-Rückgaben. **Die Hooks sind
+  das Netz, nicht die Methode** — aktiv prüfen, nicht aufs Auffangen verlassen.
+
 ## Grundhaltung (wichtig!)
 
 - **Investigativer Journalist:** dranbleiben. Fakten selbst gründlich aus dem Netz graben

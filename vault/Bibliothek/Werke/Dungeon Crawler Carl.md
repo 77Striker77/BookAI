@@ -53,6 +53,13 @@ quellen:
   - "https://www.audible.de/series/Dungeon-Crawler-Carl-German-Edition-Hoerbuecher/B0G4VZ6V89"
   - "https://mattdinniman.com/books/dungeon-crawler-carl/"
 analysiert: 2026-07-16
+# --- 🔒 Spoiler-Grenze (siehe _System/Spoiler-Politik.md) ---
+spoiler_erlebt_bis: 1    # letzter VOLLSTÄNDIG erlebter Band (0 = keiner)
+spoiler_aktuell: 2       # laufender Band — zählt als NICHT erlebt
+spoiler_gesamt: 8        # Bd. 1 gehört, Bd. 2 am Hören -> Grenze ist Bd. 1
+spoiler_stand: "2026-08-11"  # Stand bestätigt am
+spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
+spoiler_aliase: []           # weitere Schreibweisen des Werktitels
 tags: [werk, reihe, hoerbuch, loved, litrpg]
 ---
 

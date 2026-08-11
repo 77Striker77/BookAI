@@ -21,6 +21,42 @@ objektiv (Metadaten) und subjektiv (warum der Nutzer sie mochte). Das Ergebnis i
 > Empfinden des Nutzers (positive UND negative Aspekte). Bleib dran, bis das Bild rund
 > ist; offene Fäden notieren und weiterverfolgen.
 
+## 🔒 Spoiler-Pflichten dieses Skills
+
+Die Deep-Analyse ist die Stelle, an der Spoiler in den Vault kommen — hier sichtest du
+naturgemäß Rezensionen zu Bänden, die der Nutzer noch nicht kennt. Deshalb gilt:
+
+1. **Lesestand bandgenau erfragen und festschreiben.** Format und Sprache fragst du
+   ohnehin — frage im selben Atemzug: *„Wo stehst du bei ⟨Werk⟩ — welchen Band zuletzt
+   ganz durch, und läuft gerade einer?"* Ergebnis ins Frontmatter (der laufende Band
+   zählt **nicht** als erlebt):
+   ```yaml
+   spoiler_erlebt_bis: 5
+   spoiler_aktuell: 6
+   spoiler_gesamt: 16
+   spoiler_stand: "JJJJ-MM-TT"
+   spoiler_unerlebte_reihen: []   # Reihen im selben Universum, die er NIE angefasst hat
+   ```
+   Die Lesestand-Tabelle im Body muss dazu passen (beide pflegen, nie nur eine).
+2. **Fragen dürfen nicht spoilern.** Nie nach etwas fragen, das jenseits seiner Grenze
+   liegt („Wie fandest du die Wendung in Bd. 7?" verrät, dass es eine gibt).
+3. **Spoiliges in den 🔒-Block.** Findest du bei der Recherche Handlungsdetails zu späteren
+   Bänden, kommen sie NICHT in den Fließtext, sondern in einen eingeklappten Callout:
+   ```markdown
+   > [!warning]- 🔒 SPOILER — ab Bd. 7 (mein Stand: Bd. 5)
+   > ⟨Inhalt⟩
+   ```
+   Handwerksurteile ohne Inhalt („Bd. 7 wird für Leerlauf kritisiert") sind Neutralzone
+   und gehören weiterhin offen in die Notiz — sie sind für das Matching wertvoll.
+4. **`spoiler_sperrbegriffe` befüllen**, wenn dir neutrale Begriffe (Figuren, Orte,
+   Fraktionen) begegnen, die erst jenseits der Grenze auftauchen — **nur der Begriff, nie
+   das Ereignis**: `["Nebelkrone"]`, nicht `["Nebelkrone zerstört X in Bd. 6"]`.
+5. **Bei komplett erlebten Werken bewusst TIEFER.** Dort ist Detail ausdrücklich erwünscht
+   (Politik §6): konkrete Szenen, Figurenkonstellationen, warum ein Moment traf.
+6. Zum Schluss: `python3 scripts/spoiler_check.py --herkunft vault <notiz>.md`.
+
+Regeln vollständig: `vault/_System/Spoiler-Politik.md` · Skill `spoiler-check`.
+
 ## Ablauf pro Titel
 
 ### 1. Identität eindeutig klären

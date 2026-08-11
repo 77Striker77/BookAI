@@ -44,6 +44,13 @@ quellen:
   - "https://www.ullstein.de/serien/die-moerderischen-cunninghams"
   - "https://www.goodreads.com/book/show/60879779-everyone-in-my-family-has-killed-someone"
 analysiert: 2026-07-16
+# --- 🔒 Spoiler-Grenze (siehe _System/Spoiler-Politik.md) ---
+spoiler_erlebt_bis: 2    # letzter VOLLSTÄNDIG erlebter Band (0 = keiner)
+spoiler_aktuell: 0       # laufender Band — zählt als NICHT erlebt
+spoiler_gesamt: 4        # Bd. 1-2 dt. gelesen; Bd. 3-4 nur EN erschienen, ungelesen
+spoiler_stand: "2026-08-11"  # Stand bestätigt am
+spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
+spoiler_aliase: []           # weitere Schreibweisen des Werktitels
 tags: [werk, reihe, buch, loved, krimi]
 ---
 

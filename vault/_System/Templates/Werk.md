@@ -13,6 +13,14 @@ abgeschlossen:              # true | false
 angekuendigt: ""            # neue Bände / Spin-offs / Erweiterungen (z. B. Musik-EPs, Verfilmung)
 sprachen_verfuegbar: []     # [de, en, es, …] — Buch UND/ODER Hörbuch
 sprache_erlebt: ""
+# --- 🔒 Spoiler-Grenze (siehe _System/Spoiler-Politik.md) — PFLICHT ---
+spoiler_erlebt_bis:          # letzter VOLLSTÄNDIG erlebter Band (0 = keiner)
+spoiler_aktuell:             # laufender Band — zählt als NICHT erlebt (0 = keiner)
+spoiler_gesamt:              # erschienene Bände
+spoiler_stand: ""            # wann der Stand bestätigt wurde (JJJJ-MM-TT)
+spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
+spoiler_aliase: []           # weitere Schreibweisen des Werktitels
+spoiler_unerlebte_reihen: [] # Reihen im selben Universum, die NIE erlebt wurden
 isbn_bd1: ""
 kontext: ""            # Geschmacksraum → Profil/Kontexte/
 verdict: ""            # loved | liked | mixed | disliked — gilt für das WERK als Ganzes
@@ -105,10 +113,18 @@ separat. Keine erfundenen Werte — fehlt eine Wertung, „—" eintragen.
 
 ## Lesestand (nur meine Formate/Fortschritt)
 
+> 🔒 **Muss zum Frontmatter passen** (`spoiler_erlebt_bis` / `spoiler_aktuell`). Diese
+> Tabelle ist die Spoiler-Grenze in Prosa — der laufende Band zählt als NICHT erlebt.
+
 | Bd. | Status |
 | --- | --- |
 | 1 | gehört (dt.) |
 | 2 | am Hören / ⏳ wartet auf dt. Fassung |
+
+> [!warning]- 🔒 SPOILER — ab Bd. ⟨N⟩ (mein Stand: Bd. ⟨M⟩)
+> ⟨Nur hier hinein, was jenseits meiner Grenze liegt. Handwerksurteile ohne Inhalt
+> („Bd. 7 wird für Leerlauf kritisiert") gehören NICHT hierher, sondern offen in die
+> Notiz — sie sind Neutralzone und fürs Matching wertvoll. Block löschen, wenn leer.⟩
 
 ## ⭐ Bewertung je Aspekt (Werk gesamt)
 

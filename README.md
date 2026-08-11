@@ -54,13 +54,15 @@ Titel, sucht & verifiziert und baut am Ende ein Artefakt. Weitere Beispiele:
 ```
 .claude/
 ├── agents/
-│   └── book-scout.md              Read-only Rechercheur (Kandidaten-Fan-out)
+│   ├── book-scout.md              Read-only Rechercheur (Kandidaten-Fan-out)
+│   └── spoiler-guard.md           🔒 Torwächter: prüft jede Ausgabe semantisch auf Spoiler
 └── skills/
     ├── book-recommender/          Orchestrator (Einstiegspunkt, steuert die 4 Phasen)
     ├── book-taste-interview/      Phase 1 — Geschmacks-Interview
     ├── book-deep-analysis/        Phase 2 — Metadaten + Buch-DNA  (+ references/)
     ├── book-similarity-search/    Phase 3 — Suche grob → tief + Scoring
-    └── book-reco-artifact/        Phase 4 — die 2 festen Artefakte  (+ HTML-Vorlagen)
+    ├── book-reco-artifact/        Phase 4 — die 2 festen Artefakte  (+ HTML-Vorlagen)
+    └── spoiler-check/             🔒 Spoilerfreiheit prüfen & Lesestände pflegen
 
 vault/                             Datenquelle: Obsidian-Vault, atomar & verlinkt
 ├── Home.md                        Dashboard/MOC (Einstieg)
@@ -84,6 +86,16 @@ vault/                             Datenquelle: Obsidian-Vault, atomar & verlink
 │                                     Aspekt (belegt) + append-only Prüf-Historie +
 │                                     Wiedervorlage-Trigger
 └── _System/                       Konventionen.md + Templates/ (9 Notiztypen)
+                                   + 🔒 Spoiler-Politik.md (Regeln) & Spoiler-Lexikon.md
+                                     (Wortlisten — hier wird getunt, nicht im Code)
+
+scripts/                           Hooks & Werkzeuge
+├── spoiler_check.py               🔒 deterministischer Spoiler-Linter (Kern)
+├── spoiler-gate.sh                🔒 Gate von Hand (vor jedem Publish)
+├── spoiler-selftest.sh            🔒 Regeln gegen tests/spoiler/faelle/ prüfen
+└── spoiler-hook-*.sh              🔒 automatische Sicherungen (Pre/Stop/SessionStart)
+
+tests/spoiler/faelle/              Positiv- UND Negativfälle des Spoiler-Linters
 
 artifacts/                         die 2 festen HTML-Artefakte (stabile Pfade & URLs)
 ├── bibliothek.html                📚 Meine Bibliothek (Basis)

@@ -58,6 +58,13 @@ quellen:
   - "https://www.jenryland.com/review-of-the-last-devil-to-die/"
   - "https://ireadthereforeiblog.com/2023/11/23/the-last-devil-to-die-by-richard-osman/"
 analysiert: 2026-08-11
+# --- 🔒 Spoiler-Grenze (siehe _System/Spoiler-Politik.md) ---
+spoiler_erlebt_bis: 5    # letzter VOLLSTÄNDIG erlebter Band (0 = keiner)
+spoiler_aktuell: 0       # laufender Band — zählt als NICHT erlebt
+spoiler_gesamt: 5        # Bd. 1-5 gehört; Bd. 6 erscheint 2027
+spoiler_stand: "2026-08-11"  # Stand bestätigt am
+spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
+spoiler_aliase: []           # weitere Schreibweisen des Werktitels
 tags: [werk, reihe, hoerbuch, liked, krimi, cosy-crime]
 ---
 
