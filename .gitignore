@@ -4,3 +4,7 @@
 
 __pycache__/
 *.pyc
+
+# Mess-Ausgaben der Design-Werkstatt (PNGs/Zwischenstände) — reproduzierbar,
+# gehören nicht ins Repo.
+artifacts/.claude/tmp/

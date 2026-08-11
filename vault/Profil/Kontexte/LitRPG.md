@@ -49,7 +49,7 @@ bloßem Zahlen-Grinding. Maßstab-Buch: [[Dungeon Crawler Carl]].
 | [[Monster-Vielfalt & Bestiarium]] | loved | [[Die guten Jungs]] +2, neu 2026-08-11 |
 | [[Basisaufbau & Siedlungsentwicklung]] | loved | [[Die guten Jungs]] +2, neu 2026-08-11 — Herzogtum Coggeshall aufbauen |
 | [[Handfeste Kampf-Action]] | loved | [[Die guten Jungs]] +2, neu 2026-08-11 |
-| [[Moralisch ambivalenter Antiheld]] | liked | [[Die bösen Jungs]] +1 (Clyde, vorläufig) |
+| [[Moralisch ambivalenter Antiheld]] | liked ⚠️ **schwach belegt** | [[Die bösen Jungs]] +1 (Clyde) — aus dem **laufenden** Bd. 1. Das Werk-Verdikt ist `offen`; dieser Einzelaspekt hält, weil der Nutzer ihn direkt genannt hat („Held ist stark"). **Nicht** als Beleg für ein bösen-Jungs-Gesamturteil verwenden |
 
 ## Top-DISLIKED-Merkmale in diesem Kontext (Anti-Muster)
 
@@ -87,7 +87,7 @@ bloßem Zahlen-Grinding. Maßstab-Buch: [[Dungeon Crawler Carl]].
 | --- | --- |
 | [[Dungeon Crawler Carl]] | loved (Maßstab +) |
 | [[Survival Quest]] | mixed (Anti-Referenz −) |
-| [[Vuldranni (iNcarn8)]] (Verbund) | liked *(vorläufig)* |
+| [[Vuldranni (iNcarn8)]] (Verbund) | liked *(vorläufig — trägt sich allein aus [[Die guten Jungs]])* |
 | └ [[Die guten Jungs]] | liked *(vorläufig, 5/16 gehört)* |
 | └ [[Die bösen Jungs]] | ⛔ *Bewertung ausgesetzt — „kann ich erst nach Ende von Band 1 was zu sagen" (2026-08-11)* |
 

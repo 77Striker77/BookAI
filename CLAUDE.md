@@ -191,7 +191,20 @@ Ansichten aus dem DOM, es gibt keine Liste zum Nachpflegen.
 `href` im Menü (der Klick-Handler steigt aus → Menüpunkt tut nichts) · Hover-Dropdowns in
 einer `sticky` Nav ohne `max-height` (schnitt Einträge dauerhaft ab) · feste
 `scroll-margin-top`-Werte (→ `var(--nav-h)` benutzen) · Fließtext ohne `max-width`
-(lief auf 111–137 Zeichen statt 65–75).
+(lief auf 111–137 Zeichen statt 65–75) · **einen Ansichtsnamen im Router hart hineinschreiben**
+(s. u.).
+
+> 🩹 **Belegter Totalausfall 2026-08-11 — leere Seite durch einen Router-Fallback.**
+> Der Router hatte `"uebersicht"` als Rückfallwert (`show()`, `route()`), die Startansicht
+> hieß nach der Englisch-Umstellung aber `v-home`. Folge: bei **leerem Hash** — also beim
+> ganz normalen ersten Aufruf — fand `show()` keine passende Ansicht, blendete **alle** aus
+> und die Seite war **komplett leer**. Weder `scan.sh` noch `mess.sh` schlugen an: „VIEWS
+> gefunden=19 leer=0" prüft die Ansichten einzeln, nicht ob überhaupt eine sichtbar ist.
+> **Regel:** Der Rückfall wird aus dem DOM abgeleitet (`document.querySelector(".view.on")`,
+> sonst die erste Ansicht) — **nie** ein Name im Code. **Prüfung:** nach jeder Änderung an
+> Router oder Ansichts-IDs die Datei mit **leerem Hash** laden und zählen, wie viele
+> `.view.on` es gibt (muss genau 1 sein). Die Render-PNGs zeigten die leere Seite sofort —
+> genau deshalb steht in dieser Datei „**die PNGs ansehen, nicht nur die Checkzeilen lesen**".
 
 > ⚠️ **`mess.sh` prüft Text erst ab 3:1 — nicht ab 4,5:1.** Der Bereich dazwischen läuft
 > **grün** durch. Nach jeder Farbänderung zusätzlich `kontrast.mjs` gegen die echten Gründe

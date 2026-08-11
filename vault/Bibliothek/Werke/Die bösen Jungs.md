@@ -24,7 +24,7 @@ rating_stimmen_gesamt: "⚠️ nicht belegt"
 bekanntheit_stufe: "Etabliert"
 hype: "Parallelreihe der etablierten Good-Guys-Reihe"
 kontext: "LitRPG"
-verdict: "liked"                     # SEHR VORLÄUFIG — Bd. 1 läuft gerade
+verdict: "offen"                     # AUSGESETZT 2026-08-11 — vorher fälschlich "liked" (vom System gesetzt, nicht vom Nutzer)
 verdict_status: "AUSGESETZT — Nutzer 2026-08-11: „kann ich erst nach Ende von Band 1 was zu sagen""
 wiedervorlage: "Volles Interview fahren, sobald Bd. 1 durch ist (spoiler_erlebt_bis: 1). Vorher nicht nach einer Meinung fragen."
 format_erlebt: "hoerbuch"

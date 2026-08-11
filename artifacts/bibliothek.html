@@ -146,6 +146,7 @@
   .verdict.lik { color: var(--pos-ink); background: var(--pos-soft); }
   .work.mix { border-left: 3px solid var(--neg); border-radius: 8px 16px 16px 8px; }
   .work.lik { border-left: 3px solid var(--pos); border-radius: 8px 16px 16px 8px; }
+  .work.aus { border-left: 3px dashed var(--ink2); border-radius: 8px 16px 16px 8px; }
   .wmeta { color: var(--ink2); font-size: .83rem; margin: 5px 0 10px; }
 
   .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
@@ -284,6 +285,7 @@
   .ixv { font-size: .74rem; font-weight: 700; color: var(--pos-ink); background: var(--pos-soft);
     border-radius: 999px; padding: 2px 8px; text-align: center; }
   .ixv.mix { color: var(--ink2); background: var(--track); }
+  .ixv.aus, .verdict.aus { color: var(--ink2); background: var(--track); font-weight: 700; }
   .ixk, .ixm { color: var(--ink2); font-size: .8rem; }
   .ixb, .ixw { text-align: right; color: var(--ink2); }
   .fbar { display: inline-grid; grid-template-columns: repeat(5,1fr); gap: 2px; width: 52px; vertical-align: middle; }
@@ -406,7 +408,8 @@
           jede Lücke ist als Lücke markiert.</b></p>
         <div class="zahlen">
           <span><b class="tnum">15</b> Werke</span>
-          <span><b class="tnum">6</b> geliebt</span>
+          <span><b class="tnum">7</b> geliebt</span>
+          <span><b class="tnum">1</b> Bewertung offen</span>
           <span><b class="tnum">4</b> Geschmacksräume</span>
           <span><b class="tnum">73</b> Merkmale</span>
     </div>
@@ -490,8 +493,9 @@
         <span class="fl">Verdikt</span>
         <button class="fc on" data-f="verdikt" data-v="alle">Alle 15</button>
         <button class="fc" data-f="verdikt" data-v="loved">♥ geliebt 7</button>
-        <button class="fc" data-f="verdikt" data-v="liked">♡ gut 4</button>
+        <button class="fc" data-f="verdikt" data-v="liked">♡ gut 3</button>
         <button class="fc" data-f="verdikt" data-v="mixed">◐ okay 4</button>
+        <button class="fc" data-f="verdikt" data-v="offen">⛔ offen 1</button>
         <span class="fl">Raum</span>
         <button class="fc" data-f="kontext" data-v="LitRPG">LitRPG</button>
         <button class="fc" data-f="kontext" data-v="Fantasy">Fantasy</button>
@@ -590,9 +594,9 @@
           <span class="ixf"><span class="fbar"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></span><span class="ixfw">Etabliert</span></span>
           <span class="ixm">🎧 dt.</span>
         </a>
-        <a class="ix lik kind" href="#w-boesenjungs" data-view="w-boesenjungs" data-verdikt="liked" data-kontext="LitRPG" data-format="hoerbuch">
+        <a class="ix lik kind" href="#w-boesenjungs" data-view="w-boesenjungs" data-verdikt="offen" data-kontext="LitRPG" data-format="hoerbuch">
           <span class="ixt"><span class="unihint">↳ </span>Die bösen Jungs</span>
-          <span class="ixv lik">♡ gut</span>
+          <span class="ixv aus">⛔ offen</span>
           <span class="ixk">LitRPG</span>
           <span class="ixb tnum">1/11</span>
           <span class="ixw tnum">⚠</span>
@@ -1084,11 +1088,15 @@
             <span class="chip pos">＋ Welt · Geheimnisse · Monster</span>
             <span class="chip pos">＋ Humor &amp; Schnoddrigkeit</span>
             <span class="chip pos">＋ Held ist stark (beide!)</span>
+            <span class="chip">⛔ bösen Jungs: Wertung ausgesetzt</span>
             <span class="chip">− Status/Skills vorgelesen <span class="subtle">(„mini")</span></span>
           </div>
           <details class="dt"><summary>Warum das Urteil so lautet</summary><div class="dtin"><div class="synth"><b>Ich bin mitten drin:</b> guten Jungs Bd. 1–5 gehört, bösen Jungs Bd. 1 läuft.
             Beide Reihen erzählen <b>dieselbe Welt von zwei Moralseiten</b> — Aufbauer vs. Dieb — und laufen am Ende zusammen.
             Deshalb gibt es eine <b>eigene Hörreihenfolge</b> über beide Reihen hinweg.
+            <br><br><b>Woher das „gut" kommt:</b> allein aus den <b>guten Jungs</b>. Für die <b>bösen Jungs</b> ist die
+            Bewertung <b>ausgesetzt</b> — „kann ich erst nach Ende von Band 1 was zu sagen". Vorher stand dort ein
+            „gut", das ich nie gesagt habe.
             </div></div></details>
           <a class="biglink" href="#rf-vuldranni" data-view="upnext" data-tab="rf-vuldranni">🎧 Zur Hörreihenfolge (27 Schritte) →</a>
         </div>
@@ -1144,11 +1152,16 @@
                 <p class="box-title">Mein Empfinden</p>
                 <div class="asp"><span class="g">＋</span><b>Welt, Geheimnisse und Monster</b> — der stärkste Sog <span class="subtle">(wörtlich genannt)</span></div>
                 <div class="asp"><span class="g">＋</span>Aufbau: Herzogtum &amp; Basis <span class="subtle">— neuer Plus-Typ in meinem Profil</span></div>
-                <div class="asp"><span class="g">＋</span>Humor &amp; Schnoddrigkeit — der Ton zündet</div>
+                <div class="asp"><span class="g">＋</span>Humor &amp; Schnoddrigkeit — der Ton zündet <span class="subtle">(Tonwechsel etwas zurückhaltender als bei DCC: 7–8 statt 9)</span></div>
                 <div class="asp"><span class="g">＋</span>Action &amp; Kämpfe · handlungsfähiger Held („Held ist stark")</div>
                 <div class="asp"><span class="g">＋</span>🎙️ <b>Robert Frank</b> — „Sprecher von GJ besser als von BJ"</div>
-                <div class="asp"><span class="b">−</span>ab und zu zu viel vorgelesenes Status-/Skill-Zeug <span class="subtle">— „wirklich nur ein mini negativer Punkt"</span></div>
+                <div class="asp"><span class="g">＋</span>Tempo war gut <span class="subtle">— mein roter Faden Nr. 1, hier erstmals belegt</span></div>
+                <div class="asp"><span class="g">＋</span>Die Truppe wächst an <span class="subtle">— „nach und nach machen sich die NCs, ich bin zufrieden"</span></div>
+                <div class="asp"><span class="b">−</span>ab und zu zu viel vorgelesenes Status-/Skill-Zeug <span class="subtle">— „wirklich nur ein mini negativer Punkt"; unterbricht den Vorwärtsdrang</span></div>
+                <div class="asp"><span class="b">−</span>Montana ist zu wenig wissbegierig <span class="subtle">— er nimmt Geheimnisse hin, statt ihnen nachzugehen. Reibt genau am stärksten Plus.</span></div>
+                <div class="asp"><span class="b">−</span>Magie bleibt klein, „zu mittelalterlich" <span class="subtle">— zweiter Beleg nach Riyria, aber <b>kein</b> Ausschlusskriterium</span></div>
                 <div class="asp"><span style="color:var(--muted);font-weight:800;margin-right:7px">○</span>Adel &amp; Politik „in einem okay Maße" <span class="subtle">— mehr würde nerven (= meine Schwelle)</span></div>
+                <div class="asp"><span style="color:var(--muted);font-weight:800;margin-right:7px">○</span>Kein Inventar trotz Spielwelt — <span class="subtle">aber der Autor macht einen Gag daraus, also kein Malus</span></div>
               </div>
               <div>
                 <details class="dt"><summary>Was die Community sagt <span class="zahl">— 5 Stimmen &amp; offene Fragen</span></summary><div class="dtin"><p class="box-title">Community sagt</p>
@@ -1160,7 +1173,9 @@
                 <div class="comm"><span class="subtle">?</span> Bd. 4 heißt „Und täglich droht die Nebenquest" — Problem oder Gag?</div>
               </div></details></div>
             </div>
-            <details class="dt"><summary>Warum das Urteil so lautet</summary><div class="dtin"><div class="synth"><b>Warum „gut" und noch nicht „geliebt":</b> acht ＋2-Zeilen gegen ein einziges, ausdrücklich „mini" genanntes Minus — auf dem Papier ein Geliebt-Profil.
+            <details class="dt"><summary>Warum das Urteil so lautet</summary><div class="dtin"><div class="synth"><b>Warum „gut" und noch nicht „geliebt":</b> Die erste Erhebung ergab acht ＋2-Zeilen gegen
+              ein einziges Minus — das war ein <b>Erhebungsartefakt</b>: ich hatte nur nach Positivem gefragt. In Runde 4
+              wurde die Negativseite nachgeholt, und es kamen drei echte Abzüge dazu.
               Aber ich bin erst bei <b>5 von 16</b> Bänden, und genau die Langstrecke (Tempo, Nebenquests) ist das, woran Survival Quest gescheitert und Sturmfels fast gescheitert ist. Hochstufung jederzeit möglich.</div></div></details>
           </div>
         </article>
@@ -1179,10 +1194,10 @@
 
     <div class="view" id="v-w-boesenjungs">
       <div class="subnav"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><a class="bk2" href="#w-vuldranni" data-view="w-vuldranni">↰ Vuldranni (iNcarn8)</a><span class="spacer"></span><a class="bk2" href="#w-gutenjungs" data-view="w-gutenjungs">‹ Die guten Jungs</a><a class="bk2" href="#w-mordclub" data-view="w-mordclub">Der Donnerstagsmordclub ›</a></div>
-      <article class="work lik" id="boesenjungs">
+      <article class="work aus" id="boesenjungs">
           <div class="cover" style="background:linear-gradient(150deg,#4a2140,#2b1428 55%,#170d15)"><div class="cm">🗡️🌃</div><div><div class="ct">DIE BÖSEN JUNGS</div><div class="ca">Eric Ugland</div></div></div>
           <div>
-            <div class="wh"><span class="t">Die bösen Jungs</span><span class="verdict lik">♡ gut <span class="subtle" style="font-weight:400">(sehr vorläufig)</span></span><span class="tag">· 11 Bände erschienen · <b>läuft weiter</b> · 🎧 läuft (dt.) · ▸ bei Bd. 1</span></div>
+            <div class="wh"><span class="t">Die bösen Jungs</span><span class="verdict aus">⛔ Bewertung ausgesetzt</span><span class="tag">· 11 Bände erschienen · <b>läuft weiter</b> · 🎧 läuft (dt.) · ▸ bei Bd. 1</span></div>
             <div class="wmeta"><b>Clyde Hatchett</b> — ein New Yorker Trickbetrüger startet in der Reichshauptstadt <b>Glaton</b> neu: dieselbe Welt, die andere Seite der Moral. <span class="subtle">(Klappentext-Ebene — hier steht nichts über den Verlauf.)</span>
               EN „The Bad Guys" 2019–2024 · Hörbuch dt. <b>Thomas Nicolai</b> (Audible Studios) · Übers. Simone Förster</div>
             <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span><span class="ft"></span></div>
@@ -1208,7 +1223,10 @@
             <div class="cols" style="margin-top:14px">
               <div>
                 <p class="box-title">Mein Empfinden <span class="subtle" style="text-transform:none">(Bd. 1 läuft noch)</span></p>
-                <div class="asp"><span class="g">＋</span>Humor/Ton &amp; Welt — geerbt aus dem Universum, trägt auch hier</div>
+                <div class="asp"><span style="color:var(--muted);font-weight:800;margin-right:7px">⛔</span><b>Ich sage dazu noch nichts.</b>
+                  <span class="subtle">„kann ich erst nach Ende von Band 1 was zu sagen" (11.08.2026) — die Bewertung ist bewusst
+                  <b>ausgesetzt</b>, statt aus einem halben Band eine Zahl zu machen.</span></div>
+                <div class="asp"><span class="g">＋</span>Was schon trägt: Humor und Welt — geerbt aus dem Universum</div>
                 <div class="asp"><span class="g">＋</span>Clyde ist stark: handlungsfähiger Antiheld statt Jammerlappen</div>
                 <div class="asp"><span class="b">−</span>🎙️ <b>Thomas Nicolai</b>: „Stimmfarbe passt nicht" + „Tempo &amp; Betonung"</div>
                 <div class="asp"><span style="color:var(--muted);font-weight:800;margin-right:7px">○</span><span class="subtle">…aber ausdrücklich <b>„nur im Vergleich schwächer"</b> — kein Abbruchgrund</span></div>
@@ -1223,7 +1241,9 @@
                 <div class="comm"><span class="subtle">?</span> Stören dich die 15-h-Bände?</div>
               </div>
             </div>
-            <details class="dt"><summary>Warum das Urteil so lautet</summary><div class="dtin"><div class="synth"><b>Erster Sprecher-A/B-Test meiner Bibliothek:</b> gleicher Autor, gleiche Welt, gleicher Ton — und trotzdem <b>Robert Frank ＋2 gegen Thomas Nicolai −1</b>.
+            <details class="dt"><summary>Warum das Urteil so lautet</summary><div class="dtin"><div class="synth"><b>Warum hier keine Wertung steht:</b> Ein halber Band ist keine Grundlage —
+              das Verdikt bleibt offen, bis Band 1 durch ist. Was schon belastbar ist, ist der Sprecher-Vergleich:
+              <b>Erster Sprecher-A/B-Test meiner Bibliothek:</b> gleicher Autor, gleiche Welt, gleicher Ton — und trotzdem <b>Robert Frank ＋2 gegen Thomas Nicolai −1</b>.
               Sauberer Beleg, dass die Sprecherstimme ein eigenständiger Faktor ist. Inhaltlich ist hier noch nichts entschieden: ich bin in <b>Bd. 1 von 11</b>.</div></div></details>
           </div>
         </article>
@@ -1893,6 +1913,12 @@
       return el.id.replace(/^v-/, "");
     });
   }
+  // Startansicht = die im Markup mit .on markierte Ansicht, sonst die erste.
+  // So kann ein Umbenennen der Landingpage den Router nicht mehr aushebeln.
+  var START = (function(){
+    var el = document.querySelector(".view.on") || document.querySelector(".view");
+    return el ? el.id.replace(/^v-/, "") : "";
+  })();
 
   // Navhöhe als Custom Property: Ankersprünge und die klebende Sekundärnav
   // rechnen damit. Fest verdrahtete 62px waren auf Schmal um 99px daneben.
@@ -1917,7 +1943,11 @@
 
   function show(view, scrollId){
     var views = alleViews();
-    if(views.indexOf(view) < 0) view = "uebersicht";
+    // Ruecksturz auf die Startansicht. NIE einen festen Namen raten: ein
+    // Umbenennen der Ansicht hat schon einmal die ganze Seite geleert
+    // (Fallback hiess "uebersicht", die Ansicht laengst "home") — deshalb
+    // die erste Ansicht aus dem DOM als letzte Rettung.
+    if(views.indexOf(view) < 0) view = (views.indexOf(START) >= 0) ? START : views[0];
     views.forEach(function(v){
       var el = document.getElementById("v-"+v);
       if(el) el.classList.toggle("on", v===view);
@@ -1939,7 +1969,7 @@
   }
 
   function route(){
-    var h = (location.hash||"#uebersicht").replace("#","");
+    var h = (location.hash||("#"+START)).replace("#","");
     if(alleViews().indexOf(h) >= 0){ show(h); return; }
     var el = h ? document.getElementById(h) : null;
     if(el){
@@ -1950,7 +1980,7 @@
         show(viewEl.id.slice(2), h); return;
       }
     }
-    show("uebersicht");
+    show(START);
   }
 
   document.addEventListener("click", function(e){

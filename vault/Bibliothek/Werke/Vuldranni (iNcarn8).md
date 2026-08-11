@@ -117,7 +117,7 @@ Vuldranni (iNcarn8) (Overall)
 | Untergeordnete Reihe | Bände | Held / Ort | dt. Sprecher | Verdikt |
 | --- | --- | --- | --- | --- |
 | [[Die guten Jungs]] | 16 erschienen (2018–2025), **Bd. 17 für 2026** | Montana Coggeshall (Tank) | [[Robert Frank]] | liked (vorläufig, 5/16) |
-| [[Die bösen Jungs]] | 11 erschienen (2019–2024), **Bd. 12 für 2026** | Clyde Hatchett (Dieb, Glaton) | [[Thomas Nicolai]] | liked (vorläufig, 1/11) |
+| [[Die bösen Jungs]] | 11 erschienen (2019–2024), **Bd. 12 für 2026** | Clyde Hatchett (Dieb, Glaton) | [[Thomas Nicolai]] | ⛔ **offen** — Bewertung ausgesetzt (Bd. 1 läuft) |
 
 ## 🎧 EMPFOHLENE HÖRREIHENFOLGE (Verbund) — vom Nutzer bestätigt 2026-08-11
 
@@ -278,8 +278,14 @@ Plus-Anker (Herzogtum aufbauen statt nur durchziehen) — das gab es im Vault so
 (2) **die Politik-Schwelle ist erstmals benannt statt nur überschritten** — „noch in einem
 okey maße, mehr würde mich mehr nerven". Der einzige echte Minus-Punkt ist ein **mini**
 Minus (Status-Vorlesen), der zweite ist **kein Werk-, sondern ein Sprecher-Minus** und
-trifft nur die bösen Jungs. **Verdikt bewusst `liked` (vorläufig)** — der Nutzer ist bei
+trifft nur die bösen Jungs. **Verbund-Verdikt bewusst `liked` (vorläufig)** — der Nutzer ist bei
 5 von 27 Bänden; Upgrade auf `loved` ist offen und wahrscheinlich.
+
+> ⛔ **Wichtig (R4, 2026-08-11):** Das Verbund-Verdikt trägt sich **allein aus
+> [[Die guten Jungs]]**. [[Die bösen Jungs]] steht auf `verdict: offen` — der Nutzer:
+> *„kann ich erst nach Ende von Band 1 was zu sagen"*. Vorher wurde dort ein `liked`
+> geführt, das **niemand gesagt hat** (System-Annahme). Keine Empfehlung und keine
+> Merkmal-Evidenz darf sich auf ein bösen-Jungs-Verdikt stützen, bis Bd. 1 durch ist.
 
 ## DNA (geteilt, als Links)
 

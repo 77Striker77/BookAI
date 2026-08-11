@@ -265,7 +265,12 @@ verlangt — nach diesen Regeln:
 - Dateiname = natürlicher Titel/Name; Kollision → `Titel (Autor).md`.
 - Frontmatter = maschinenlesbar. Body = Bedeutung (Prosa, Begründung, Zitate, Links).
 - Templates aus `_System/Templates/` kopieren, nicht verändern.
-- `verdict`: loved | liked | mixed | disliked (Zusammenfassung der Aspekt-Bewertungen).
+- `verdict`: loved | liked | mixed | disliked | **offen** (Zusammenfassung der Aspekt-Bewertungen).
+  `offen` = **Bewertung bewusst ausgesetzt**, weil die Grundlage nicht reicht (Nutzer sagt selbst,
+  er könne noch nichts sagen). Nicht dasselbe wie „noch nicht erfasst": `offen` ist eine
+  bewusste Entscheidung und braucht `verdict_status:` (Begründung + Zitat + Datum) sowie
+  `wiedervorlage:` (wann nachgefragt wird). **Nie** aus Bequemlichkeit statt eines echten
+  Verdikts setzen — und **nie** eine vorläufige Zahl erfinden, wo der Nutzer schweigt.
 - **Keine erfundenen Werte**; `quellen:` pflegen; Unsicheres unter "Offene Fragen".
 - Nach Änderungen: [[Home]] "Zuletzt", betroffene Kontext-/Merkmal-Notizen, [[Profil]].
 
