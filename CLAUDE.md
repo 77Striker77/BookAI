@@ -159,6 +159,47 @@ bash <artefakt-werkstatt>/scripts/mess.sh artifacts/bibliothek.html   # Browser
 > `scripts/chrome-fuer-messung.sh` — immer über `BROWSER_BIN` einhängen, nie Chromium
 > direkt. Kommen diese drei Meldungen wieder, ist der Wrapper nicht gesetzt.
 
+### 🧱 Informations-Architektur der Artefakte (Nutzerregel 2026-08-11)
+
+> „das ist immer noch zu viel Input pro angezeigte Seite … baue es übersichtlicher
+> **ohne weniger Info zu zeigen**"
+
+**Nie Information streichen, um Platz zu schaffen — staffeln.** Genau **ein Muster je Ebene**
+(gemischte Muster zwingen den Nutzer, drei Bedienmodelle zu lernen):
+
+| Ebene | Inhalt | Muster |
+| --- | --- | --- |
+| 1 | Ansichten | Topnav, **max. 5 Punkte, keine Dropdowns** |
+| 2 | Abschnitte einer Ansicht | Reiter (`.tabsec`), genau einer sichtbar |
+| 3 | Detail je Werk | `<details class="dt">` — nativ, tastaturfest, druckt aufgeklappt |
+
+**Werke = Index + Detailseiten.** `#werke` ist eine Zeile je Werk (Titel · Verdikt · Raum ·
+Bände · ⌀ · Bekanntheit · Format); jedes Werk hat eine eigene Ansicht `#w-<slug>`. Neue Werke
+brauchen **eine Indexzeile + eine `<div class="view" id="v-w-…">`** — der Router liest die
+Ansichten aus dem DOM, es gibt keine Liste zum Nachpflegen.
+
+**Richtwert: keine Ansicht über ~2,5 Bildschirme** (900 px). Nach dem Umbau messen:
+
+```bash
+# Höhe der aktiven Ansicht je Hash, 1180 px und 420 px
+```
+
+**Was NIE eingeklappt wird:** der aktuelle Lesestand, die harte Reihenfolge-Regel, alle
+⚠️-Warnungen und die Konfidenz-/Quellenangaben. Eine versteckte Warnung ist keine Warnung.
+
+**Nicht wieder einbauen** (waren belegte Fehler, s. Gutachten 2026-08-11): `<button>` ohne
+`href` im Menü (der Klick-Handler steigt aus → Menüpunkt tut nichts) · Hover-Dropdowns in
+einer `sticky` Nav ohne `max-height` (schnitt Einträge dauerhaft ab) · feste
+`scroll-margin-top`-Werte (→ `var(--nav-h)` benutzen) · Fließtext ohne `max-width`
+(lief auf 111–137 Zeichen statt 65–75).
+
+> ⚠️ **`mess.sh` prüft Text erst ab 3:1 — nicht ab 4,5:1.** Der Bereich dazwischen läuft
+> **grün** durch. Nach jeder Farbänderung zusätzlich `kontrast.mjs` gegen die echten Gründe
+> laufen lassen, **je Theme einzeln**. Genau dort lagen im hellen Theme sechs Verstöße
+> (u. a. `--muted` 3,18:1), die die Werkstatt nicht gemeldet hat. Für Text auf Soft-Flächen
+> gibt es deshalb die dunkleren Varianten `--pos-ink` / `--neg-ink` / `--fame-ink` /
+> `--rating-ink`; `--pos`/`--neg`/`--fame` bleiben **Flächenfarben**.
+
 ### Mess-Marker in den Artefakten
 
 `artifacts/bibliothek.html` trägt im `<style>` die Werkstatt-Marker `@artefakt`,
