@@ -140,7 +140,9 @@
   .wh .tag { font-size: .74rem; color: var(--muted); }
   .verdict { font-size: .72rem; font-weight: 700; color: var(--pos); background: var(--pos-soft); border-radius: 999px; padding: 2px 9px; }
   .verdict.mix { color: var(--ink2); background: var(--track); }
+  .verdict.lik { color: var(--pos); background: var(--pos-soft); opacity: .85; }
   .work.mix { border-left: 3px solid var(--neg); border-radius: 8px 16px 16px 8px; }
+  .work.lik { border-left: 3px solid var(--pos); border-radius: 8px 16px 16px 8px; }
   .wmeta { color: var(--ink2); font-size: .83rem; margin: 5px 0 10px; }
 
   .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
@@ -198,6 +200,7 @@
             <a href="#dcc" data-view="werke" data-scroll="dcc">Dungeon Crawler Carl <small>LitRPG · Phänomen</small></a>
             <a href="#survival" data-view="werke" data-scroll="survival">Survival Quest <small>LitRPG · ◐ okay (Graubereich)</small></a>
             <a href="#cunninghams" data-view="werke" data-scroll="cunninghams">Die mörderischen Cunninghams <small>Krimi · Bestseller</small></a>
+            <a href="#mordclub" data-view="werke" data-scroll="mordclub">Der Donnerstagsmordclub <small>Cosy Crime · ♡ gut</small></a>
             <a href="#alexverus" data-view="werke" data-scroll="alexverus">Alex Verus <small>Urban Fantasy · ♥ geliebt</small></a>
             <a href="#magic20" data-view="werke" data-scroll="magic20">Magic 2.0 <small>Humor-Phantastik · ♥ geliebt</small></a>
             <a href="#goetter" data-view="werke" data-scroll="goetter">Die Streitenden Götter <small>Fantasy · 2 Reihen</small></a>
@@ -222,14 +225,15 @@
       <header class="hero">
         <h1>Willkommen zurück 👋</h1>
         <p class="lead">Das Cockpit meines Buch- &amp; Hörbuch-Geschmacks: was ich liebe, wie bekannt es ist
-          und was als Nächstes erscheint. 10 Reihen analysiert — 6 geliebt, 4 „okay" im Graubereich.</p>
+          und was als Nächstes erscheint. 11 Reihen analysiert — 6 geliebt, 1 „gut", 4 „okay" im Graubereich.</p>
       </header>
       <div class="stats">
-        <div class="stat"><div class="n tnum">10</div><div class="l">Reihen analysiert</div></div>
+        <div class="stat"><div class="n tnum">11</div><div class="l">Reihen analysiert</div></div>
         <div class="stat"><div class="n tnum">6</div><div class="l">davon geliebt</div></div>
+        <div class="stat"><div class="n tnum">1</div><div class="l">„gut"</div></div>
         <div class="stat"><div class="n tnum">4</div><div class="l">„okay" (Graubereich)</div></div>
         <div class="stat"><div class="n tnum">4</div><div class="l">Geschmacksräume</div></div>
-        <div class="stat"><div class="n">🎧 8 · 📖 2</div><div class="l">gehört / gelesen</div></div>
+        <div class="stat"><div class="n">🎧 9 · 📖 2</div><div class="l">gehört / gelesen</div></div>
       </div>
 
       <section>
@@ -257,6 +261,11 @@
             <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Dungeon Crawler Carl</b><span class="subtle" style="font-size:.8rem">~1,7 Mio Wertungen</span></div>
             <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span></div>
               <div class="fame-lab"><b>Phänomen</b> · Kult im LitRPG <span class="hype">🔥 &gt;10 Mio verkauft</span></div></div>
+          </div>
+          <div class="fame-item" style="margin:0 0 14px">
+            <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Der Donnerstagsmordclub</b> <span class="subtle" style="font-size:.8rem">~1,91 Mio Wertungen · ♡ gut</span></div>
+            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span></div>
+              <div class="fame-lab"><b>Phänomen</b> · Cosy Crime <span class="hype">🔥 17+ Mio verkauft · 🎬 Netflix 2025</span></div></div>
           </div>
           <div class="fame-item" style="margin:0 0 14px">
             <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Die mörderischen Cunninghams</b><span class="subtle" style="font-size:.8rem">~340k Wertungen</span></div>
@@ -324,6 +333,11 @@
             <div class="cover sm" style="background:linear-gradient(150deg,#153a2a,#0e2419 55%,#0a1410)"><div class="cm">🧙</div><div class="ct">M2</div></div>
             <div><div class="mt">Magic 2.0</div><div class="mm">Humor-Phantastik · 📖 gelesen · ♥ geliebt</div>
               <span class="subtle" style="font-size:.8rem"><span class="sw r"></span>⌀ 3,9/5 · <span class="sw f"></span>Etabliert</span></div>
+          </a>
+          <a class="mini" href="#mordclub" data-view="werke" data-scroll="mordclub">
+            <div class="cover sm" style="background:linear-gradient(150deg,#2f5a4e,#1c3830 55%,#12211d)"><div class="cm">🫖</div><div class="ct">DMC</div></div>
+            <div><div class="mt">Der Donnerstagsmordclub</div><div class="mm">Cosy Crime · 5/5 · 🎧 gehört · ♡ gut</div>
+              <span class="subtle" style="font-size:.8rem"><span class="sw r"></span>⌀ 4,25/5 · <span class="sw f"></span>Phänomen 🎬</span></div>
           </a>
           <a class="mini" href="#survival" data-view="werke" data-scroll="survival">
             <div class="cover sm" style="background:linear-gradient(150deg,#4a4a52,#2c2c34 55%,#1c1c22)"><div class="cm">⛏️</div><div class="ct">SQ</div></div>
@@ -595,6 +609,43 @@
         </div>
       </article>
 
+      <article class="work lik" id="mordclub">
+        <div class="cover" style="background:linear-gradient(150deg,#2f5a4e,#1c3830 55%,#12211d)"><div class="cm">🫖🔍</div><div><div class="ct">DONNERSTAGS-<br>MORDCLUB</div><div class="ca">Richard Osman</div></div></div>
+        <div>
+          <div class="wh"><span class="t">Der Donnerstagsmordclub</span><span class="verdict lik">♡ gut</span><span class="tag">· Cosy Crime · 🎧 gehört (dt.)</span></div>
+          <div class="wmeta">EN „Thursday Murder Club" · <b>5 Bände (2020–2025), Bd. 6 für 2027</b> · DE List/Ullstein, Übers. Sabine Roth · Hörbuch Hamburg, <b>Johannes Steck + Beate Himmelstoß</b> (Zwei-Stimmen-Lesung) · <b>alle 5 gehört (dt.)</b> · je Band gekürzt (~10 h) UND ungekürzt (~11,5 h) — welche Fassung, ist offen · <span class="subtle">volle Metadaten (ISBN/Seiten/Hördauer je Band) im Vault</span></div>
+          <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span></div>
+            <div class="fame-lab"><b>Phänomen</b> · ~1,91 Mio. Wertungen <span class="hype">🔥 17+ Mio. Bücher · UK-Weihnachts-Nr.-1 2020 (schlug Obama) · 🎬 Netflix 2025 (Mirren/Brosnan/Kingsley/Imrie)</span></div></div>
+          <div class="cols" style="margin-top:12px">
+            <div>
+              <p class="box-title">Community-Wertung je Band · Goodreads /5</p>
+              <p class="hint">Balken = Ausschnitt 3,5–5,0 · Stand 11.08.2026. <b>Alle 5 Bände gehört.</b></p>
+              <div class="axis"><span class="a"><span>3,5</span><span>5,0</span></span></div>
+              <div class="band mine"><span class="bn">1</span><span class="bt">Der Donnerstagsmordclub</span><div class="rbar"><span style="width:23%"></span></div><span class="rv">3,85</span></div>
+              <div class="band mine"><span class="bn">2</span><span class="bt">Der Mann, der zweimal starb</span><div class="rbar"><span style="width:57%"></span></div><span class="rv">4,35</span></div>
+              <div class="band mine"><span class="bn">3</span><span class="bt">…und die verirrte Kugel</span><div class="rbar"><span style="width:57%"></span></div><span class="rv">4,35</span></div>
+              <div class="band top mine"><span class="bn">4</span><span class="bt">…Ein Teufel stirbt immer zuletzt</span><div class="rbar"><span style="width:64%"></span></div><span class="rv">4,46</span></div>
+              <div class="band mine"><span class="bn">5</span><span class="bt">…und der unlösbare Code</span><div class="rbar"><span style="width:51%"></span></div><span class="rv">4,26</span></div>
+              <p class="note"><b>⚠️ Mein Urteil läuft hier GEGEN die Kurve.</b> Bd. 4 ist der <b>bestbewertete</b> Band (4,46) — und ausgerechnet der, in dem mich der Demenz-Strang gestört hat („gefühlt das halbe Buch"). Die Mehrheit <b>feiert</b> genau das, was mich rausgeworfen hat. Schwaches Debüt (3,85), danach stabil 4,26–4,46.</p>
+            </div>
+            <div>
+              <p class="box-title">Mein Empfinden</p>
+              <div class="asp"><span class="g">＋</span>Warmes Rentner-Ensemble — „witzig und charmant", ungewöhnliche Helden</div>
+              <div class="asp"><span class="g">＋</span>Trocken-britischer Humor · herzlich-gemütlich · leicht &amp; entspannend</div>
+              <div class="asp"><span class="g">＋</span>Cleverer Twist am Ende · faires Whodunit · mehrere verwobene Fäden</div>
+              <div class="asp"><span class="g">＋</span>Situationskomik (Rentner beim Ermitteln)</div>
+              <div class="asp"><span class="b">−−</span><b>Persona-Stränge verdrängen die Haupthandlung</b> — Demenz-Strang (Bd. 4) übernimmt: „<b>dafür lese ich keinen Krimi!</b>"</div>
+              <div class="asp"><span class="b">−</span>Zähe Passagen · Residenz-Alltag in Cooper's Chase bremst</div>
+              <div class="asp"><span class="b">−</span>Kein Locked-Room (offene Struktur) · Sprecher solide, aber kein Verstärker</div>
+              <p class="box-title" style="margin-top:12px">Community sagt</p>
+              <div class="comm"><span class="g">👍</span>warmherzige Figuren · trockener Humor (Joyces Tagebuch) · kurze Kapitel · ernster Unterton als Stärke</div>
+              <div class="comm"><span class="b">👎</span>„die Morde als zweite Geige" (Bd. 4) · zu viele Nebenfiguren/Subplots · Fair-Play umstritten (Durchbrüche off-page)</div>
+            </div>
+          </div>
+          <div class="synth"><b>Erstes „gut" (zwischen geliebt und okay) — und mein schärfstes Kalibrier-Signal.</b> Formal passt <b>alles</b>: 5 Bände, komplett deutsch, ~11,5 h/Band, keine No-Go-Verstöße. Ton, Ensemble, Twist und Humor treffen <b>alle ＋2</b>. Trotzdem kein „geliebt" — <b>ein einziger Faktor</b> hält es zurück: die Verdrängung des Falls. <b>Die große Erkenntnis: Fokus ist NICHT Tempo.</b> Gemütlich darf es sein — die Haupthandlung muss nur vorne bleiben („die Fälle waren ganz spannend, <b>wenn sie nicht in den Hintergrund geraten</b>"). Gegenprobe zu <b>Die mörderischen Cunninghams</b> (loved, „sehr straff") im selben Genre. Und: <b>Locked-Room ist doch nur Bonus, keine Bedingung</b> — fehlt hier ganz, wurde aber nicht vermisst.</div>
+        </div>
+      </article>
+
       <!-- ===== GRAUBEREICH: „okay" / Anti-Referenzen ===== -->
       <section style="margin-top:34px">
         <h2>◐ Graubereich — „okay" &amp; Anti-Referenzen</h2>
@@ -770,6 +821,12 @@
             <p class="note">Eines der größten LitRPG-Werke überhaupt; das Hörbuch verkauft sich besser als Print/eBook.</p>
           </div>
           <div style="margin:0 0 16px">
+            <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Der Donnerstagsmordclub</b> <span class="subtle" style="font-size:.82rem">~1,91 Mio Goodreads-Wertungen (Bd. 1–5) · ♡ gut</span></div>
+            <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span></div>
+              <div class="fame-lab"><b>Phänomen</b> <span class="hype">🔥 17+ Mio verkauft · UK-Weihnachts-Nr.-1 2020 · 🎬 Netflix 2025 · 🏆 Autor Richard Osman OBE 2026</span></div></div>
+            <p class="note"><b>Das reichweitenstärkste Werk meiner Bibliothek nach DCC.</b> Schnellstverkaufendes Krimi-Debüt seit Beginn der Nielsen-Aufzeichnungen; erst der 2. Erwachsenenroman dieses Jahrhunderts mit 1 Mio UK-Hardcovern (nach Dan Brown). In DE Platz 7 der SPIEGEL-Jahresbestsellerliste 2021. <b>Und trotzdem nur „gut" für mich</b> — hier war die Reichweite sogar ein <b>Gegen</b>indikator: Bd. 4, der bestbewertete Band, ist genau der, der mich rausgeworfen hat.</p>
+          </div>
+          <div style="margin:0 0 16px">
             <div style="display:flex;justify-content:space-between;align-items:baseline"><b>Die mörderischen Cunninghams</b><span class="subtle" style="font-size:.82rem">~340k Goodreads-Wertungen (Bd. 1–2)</span></div>
             <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span></div>
               <div class="fame-lab"><b>Bestseller</b> <span class="hype">📺 TV-Verfilmung von Bd. 1 · USA-Today-Bestseller</span></div></div>
@@ -845,7 +902,7 @@
       <section>
         <div class="panel">
           <div class="thread">
-            <div class="k">1</div><div><b>Fokus &amp; Vorwärtsdrang</b> (stärkster Faden, 3× belegt) — kein Abschweifen, spürbarer Progress, kein zäher Start. <span class="subtle">Milderung: ein starkes Finale macht einen zähen Start verzeihlich.</span></div>
+            <div class="k">1</div><div><b>Fokus &amp; Vorwärtsdrang</b> (stärkster Faden, 4 Genres) — kein Abschweifen, spürbarer Progress, kein zäher Start. <span class="subtle">Milderung: ein starkes Finale macht einen zähen Start verzeihlich.</span><br><b style="color:var(--pos)">⭐ Neu geschärft (Donnerstagsmordclub): Fokus ist NICHT Tempo.</b> <span class="subtle">Gemütlich darf es sein — die <b>Haupthandlung muss vorne bleiben</b>. Nicht auf „fast-paced" filtern, sondern auf den Fokus-Anteil: „die Fälle waren ganz spannend, wenn sie nicht in den Hintergrund geraten."</span></div>
             <div class="k">2</div><div><b>Handlungsfähiger Held</b> — entschlossen wie Carl (＋), nicht zu lange passiv wie Niri in Bd. 1 (−).</div>
             <div class="k">3</div><div><b>Sprecher-Performance</b> — Kaminski &amp; Merlau „trägt massiv" → Quasi-Vetorecht bei Hörbüchern.</div>
             <div class="k">4</div><div><b>Figuren-Bindung</b> — ungleiches Duo / Gemeinschaft tragen das Erlebnis.</div>
@@ -855,7 +912,9 @@
             <span class="chip pos">＋ pragmatischer Held</span>
             <span class="chip pos">＋ starkes Finale</span>
             <span class="chip pos">＋ starker Sprecher (Hörbuch)</span>
-            <span class="chip pos">＋ Locked-Room / cleverer Twist (Krimi)</span>
+            <span class="chip pos">＋ cleverer Twist (Krimi)</span>
+            <span class="chip pos">＋ Locked-Room <span class="subtle">(Bonus, keine Bedingung)</span></span>
+            <span class="chip pos">＋ warmes Ermittler-Ensemble · Cosy-Ton</span>
             <span class="chip">🇩🇪 Deutsch bevorzugt · 🇬🇧 Englisch als Fallback</span>
             <span class="chip">Format pro Werk (hört &amp; liest)</span>
             <span class="chip">⏱ Reihenschnitt ≤ ~20 h</span>
@@ -869,10 +928,12 @@
             <span class="chip no">✕ OP-von-Anfang ohne Machtprogression</span>
             <span class="chip no">✕ überladenes Weltdetail (verschenkt)</span>
             <span class="chip no">✕ Romance-Überhang · Dauer-Zynismus</span>
+            <span class="chip no">✕ Persona-Strang verdrängt die Haupthandlung</span>
           </div>
-          <div class="note">Drei Geschmacksräume mit je eigenen Gewichten: <b>LitRPG</b> (Ton/Figuren/Handwerk hoch),
-            <b>Fantasy</b> (Themen/Figuren hoch, Handwerk 0,18) und <b>Krimi</b> (Handwerk/Twist/Locked-Room hoch).
+          <div class="note">Vier Geschmacksräume mit je eigenen Gewichten: <b>LitRPG</b> (Ton/Figuren/Handwerk hoch),
+            <b>Fantasy</b> (Themen/Figuren hoch, Handwerk 0,18), <b>Humor-Phantastik</b> und <b>Krimi</b> (Handwerk 0,22 · Figuren 0,12 — nach dem Donnerstagsmordclub von 0,05 angehoben).
             <br><b>Graubereich (4 „okay"-Werke):</b> <b>Survival Quest</b> (LitRPG), <b>Scholomance</b>, <b>Riyria</b> &amp; <b>Haus Ashford</b> (Fantasy/UF) liefern die Anti-Muster.
+            <br><b>⚠️ Community-Scores sind im Krimi kein Kompass — in KEINE Richtung:</b> bei <b>Cunninghams</b> liegt mein Urteil über dem Schnitt (~3,8 → geliebt), beim <b>Donnerstagsmordclub</b> darunter (bestbewerteter Band = der, der mich störte).
             Geschärfter roter Faden: <b>Machtsteigerungs-Kurve MIT Peak erwünscht</b> — beide Pole der flachen Kurve sind Malus (OP-von-Anfang wie El, ODER gedeckelt-ohne-Limit-Break wie Royce/Hadrian).
             Dazu <b>Magie-/Power-Fantasy-Lean</b> („zu wenig Fantasy") + Wunsch nach ausbalanciertem Machtsystem.
             Gegenprobe: geliebtes Duo &amp; Mystery (Riyria) reichen OHNE Magie/Machtkurve nicht.</div>
