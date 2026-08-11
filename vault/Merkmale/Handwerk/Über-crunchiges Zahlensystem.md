@@ -23,7 +23,7 @@ ist *Dosierung & Story-Dienlichkeit*. [[Dungeon Crawler Carl]] hat Stats, hält 
 
 | Kontext | Status | Evidenz |
 | --- | --- | --- |
-| [[LitRPG]] | disliked | [[Survival Quest]] −1: „viel zu stark ausgebaut … sie wirbeln mit % und Punkten und Boni nur so um sich" ([[2026-07-16 Interview Survival Quest]]) · [[Die guten Jungs]] −1 (**mild**): „ab und zu ghibt es zu viel vorgelese von status skills und co. **aber wirklich nur ein mini negativer punkt**" ([[2026-08-11 Interview Die guten Jungs & Die bösen Jungs]]) |
+| [[LitRPG]] | disliked | [[Survival Quest]] −1: „viel zu stark ausgebaut … sie wirbeln mit % und Punkten und Boni nur so um sich" ([[2026-07-16 Interview Survival Quest]]) · [[Die guten Jungs]] −1 (**mild**): „ab und zu ghibt es zu viel vorgelese von status skills und co. **aber wirklich nur ein mini negativer punkt**". ⭐ **R4 liefert den Mechanismus:** die Blöcke unterbrechen den [[Konstanter Vorwärtsdrang]] — „die ein oder andere Kleinigkeit wo **viel Statustexte vorgelesen** werden … einzelne kleine Ausnahmen". Beim **Hören** ist Überspringen unmöglich, deshalb wiegt es hier schwerer als beim Lesen ([[2026-08-11 Interview Die guten Jungs & Die bösen Jungs]]) |
 
 ## ⭐ Intensitäts-Skala (Kalibrierung 2026-08-11 — zweiter Datenpunkt)
 

@@ -68,6 +68,64 @@ beantwortet.
 **Lehre für den Vault:** Wenn eine Quelle blockiert ist, lieber grob + ehrlich markiert als
 präzise + geraten — die Lücke war korrekt ausgewiesen und ließ sich sauber schließen.
 
+## Runde 4 — die Negativseite nachgeholt (Matrix-Lücken, eine Frage nach der anderen)
+
+**Anlass:** Der Stop-Hook meldete die fehlende Abdeckungs-Matrix; die Rekonstruktion zeigte
+6 offene Felder, alle auf der Negativseite. Nutzer: „du musst mich explizit fragen für eine
+explizite Antwort und eins nach dem anderen." → strikt einzeln gefragt, Positiv/Negativ
+getrennt (Skill-Regel „Frageform: EINZELN, GETRENNT, GEZIELT").
+
+| # | Frage (nur diese eine) | Antwort (wörtlich) |
+| --- | --- | --- |
+| 1 | Held −: Gab es an Montana etwas, das dich gestört hat? | „**manchmal ist er zu wenig wissbegirig. er akzeptiert zu schnell etwas statt es wirklich zu verstehen oder zu erklären.** Aber das ist nur eine Kleinigkeit. Größtenteils gibt es da nichts auszusetzen" |
+| 2 | Welt −: Hat dich an Welt/Setting etwas gestört? | „**manchmal zu mittelalterlich. Magie wird wieder kleingehalten. bei weitem nicht so schlimm wie in Riyria aber dennoch etwas.** die Tatsache dass es **kein Inventar** gibt obwohl es eine Spielewelt ist ist auch ungewohnt. zum Glück hat Montana diesen irrwitzigen Sack, deswegen ist es eig echt egal oder sogar was Witziges draus gemacht, aber iwie **fehlt ein Inventarsystem ein kleines bisschen**. **in Summe finde ich die Welt aber sehr gut**" |
+| 3 | Nachhaken: Ist magiearm ein Ausschlusskriterium? | „**nein es ist weiterhin nur ein Fokus aber nicht der Hauptfaktor** oder iwas super gewichtigeres. und so negative war mein Feedback gerade ja auch nicht." |
+| 4 | Plot −: Ein Strang, bei dem du dachtest „komm zum Punkt"? | „**nein große negative Stellen gab es eig nicht. Tempo war gut**, nur die ein oder andere Kleinigkeit wo **viel Statustexte vorgelesen** werden oder **Politik zu arg im Mittelpunkt** ist, aber das sind wirklich **einzelne kleine Ausnahmen**" |
+| 5 | Ton −: Wurde dir der Humor irgendwo zu viel? | „der **Humor ist etwas zurückhaltender aber auch sehr gut. also auch der Wechsel.** wo DCC eine **9** rum war ist das hier eine **7 bis 8**" |
+| 6 | Nebenfiguren +/−: Tragen sie, oder Beiwerk? Nervt eine? | „**am Anfang war ich etwas skeptisch aber nach und nach machen sich die NCs.** Also **ich bin zufrieden**" |
+
+### ⭐ Die drei wertvollsten Funde dieser Runde
+
+1. **Bedingung statt Einzelkritik (Held ↔ Welt).** Der Held-Malus hängt am stärksten Plus:
+   Der Nutzer liebt [[Weltgeheimnisse & Entdeckung]] (+2) — und stört sich daran, dass der
+   Held ihnen zu wenig nachgeht. Das ist **keine** allgemeine Heldenschwäche, sondern eine
+   **Kombinationsregel**: rätselhafte Welt + unneugieriger Held = Reibung. Als Regel in
+   [[LitRPG]] hinterlegt. Merkmal: **Fehlen** von [[Wissbegieriger Selbermacher-Held]]
+   (bisher nur in [[Fantasy]] belegt, jetzt erstmals in [[LitRPG]] — als Negativ-Beleg).
+2. **Zweiter Beleg für [[Magiesystem-Tiefe]], mit fast identischem Wortlaut.** Jetzt: „zu
+   mittelalterlich … Magie wird **wieder** kleingehalten". Bei [[Riyria]] steht seit dem
+   16.07. sein Satz „zu viel mittelalter und zu wenig fantasy". Damit ist das Muster über
+   **zwei Werke und zwei Kontexte** belegt — aber Runde-4-Nachhaken hat es **entschärft**:
+   ausdrücklich **kein Ausschlusskriterium**, nur ein schwacher Faktor. (Wichtig: der Nutzer
+   korrigierte hier aktiv meine zu schwere Gewichtung — festhalten, nicht überinterpretieren.)
+3. **Die Mechanik-Grenze ist jetzt scharf.** Fehlendes Inventar stört „ein kleines bisschen",
+   vorgelesene Statusblöcke stören ebenfalls. Das ist **kein Widerspruch**, sondern eine
+   Grenze: **Spielmechanik als Weltlogik ja — als vorgelesene Zahlenkolonne nein.** Die
+   Statustexte sind zugleich der **Mechanismus**, über den [[Über-crunchiges Zahlensystem]]
+   tatsächlich wehtut: sie bremsen den [[Konstanter Vorwärtsdrang]] (beim Hören nicht
+   überspringbar).
+
+### Weitere Ableitungen aus Runde 4
+
+- **[[Konstanter Vorwärtsdrang]] endlich belegt (+1):** „Tempo war gut" — roter Faden Nr. 1
+  war für dieses Werk bisher komplett unbelegt und stand als offene Frage. Nicht +2, weil
+  die Statustext-Unterbrechungen als „einzelne kleine Ausnahmen" benannt sind.
+- **[[Tonwechsel Humor-Ernst]] von +2 auf +1 korrigiert.** Die Vorsession hatte pauschal +2
+  gesetzt. Der Nutzer liefert selbst eine Skala: **DCC ≈ 9, Guten Jungs 7–8** — der Wechsel
+  funktioniert („also auch der Wechsel"), aber unter dem Referenzwerk. [[Absurder Humor]]
+  bleibt +2 („auch sehr gut"). Damit bleibt [[Dungeon Crawler Carl]] der Maßstab.
+- **[[Intrigen-Overload ohne Progress]] bleibt 0 — jetzt aber *erfragt* bestätigt.** In
+  Runde 2 kam die Politik-Aussage nebenbei; hier auf direkte Negativ-Frage erneut genannt
+  („Politik zu arg im Mittelpunkt", aber „einzelne kleine Ausnahmen"). Schwelle bestätigt.
+- **[[Loyale Weggefährten]] +1 (neu in [[LitRPG]]):** „am Anfang skeptisch … nach und nach
+  machen sich die NCs … ich bin zufrieden". Bewusst **+1, nicht +2**: die Figurendynamik
+  trägt hier mit, ist aber **nicht** das tragende Element wie [[Ungleiches Duo]] (+2) bei
+  [[Dungeon Crawler Carl]]. Das Werk läuft für ihn primär über Welt, Aufbau und Humor.
+- **[[Regel-Inkonsistenz]] = 0 (fehlendes Inventar).** Bewusst kein Minus: „zum Glück hat
+  Montana diesen irrwitzigen Sack … eigentlich echt egal oder sogar was Witziges draus
+  gemacht". Der Autor fängt die Lücke mit Humor auf — festhalten als Beispiel dafür, dass
+  eine Systemlücke durch Erzählwitz neutralisiert werden kann.
+
 ## Was daraus folgt (Ableitungen)
 
 ### Neue Merkmale (4)
@@ -104,28 +162,34 @@ präzise + geraten — die Lücke war korrekt ausgewiesen und ließ sich sauber 
   Erster Fall im Vault, in dem **derselbe Universums-Verbund zwei verschiedene Sprecher**
   hat und der Nutzer sie direkt gegeneinander stellt.
 
-## Abdeckungs-Matrix (Pflicht-Gate — **NICHT vollständig**, nachgetragen 2026-08-11)
+## Abdeckungs-Matrix (Pflicht-Gate — ✅ **VOLLSTÄNDIG**, geschlossen in Runde 4)
 
-> ⚠️ Nachgetragen, nachdem der Stop-Hook das Fehlen gemeldet hat. Die Matrix wurde während
-> des Interviews **nicht mitgeführt** — genau der Fall, für den das Gate 2026-07-20
-> eingeführt wurde. Sie zeigt jetzt ehrlich, was abgefragt wurde und was nicht: **6 von 17
-> Feldern sind offen, und sie liegen alle auf der Negativseite bzw. beim Tempo.**
+> Verlauf: In den Runden 1–3 wurde die Matrix **nicht mitgeführt** — genau der Fall, für den
+> das Gate am 2026-07-20 eingeführt wurde. Der Stop-Hook hat das Fehlen gemeldet; die
+> Rekonstruktion zeigte **6 offene Felder, alle auf der Negativseite bzw. beim Tempo**.
+> Runde 4 hat sie einzeln geschlossen. Genau wie 2026-07-20 vorhergesagt: **die
+> nachgeholten Negativ-Fragen brachten die wertvollsten Antworten dieses Interviews.**
 
 | Dimension | + (was trug) | − (was bremste/störte) |
 |---|---|---|
 | Fakten-Block (2× dt. Hörbuch · liked vorl. · GJ 5/16 gehört, BJ 1/11 läuft) | ✅ | — |
-| Held/Hauptfigur (Montana, Clyde) | ✅ „Held ist stark" | ⬜ **offen — nie gefragt** |
-| Welt/Setting | ✅ „Welt, Geheimnisse und Monster"; Aufbau Herzogtum & Basis | ⬜ **offen — nie gefragt** |
-| Plot/Geschichte(-bogen) | ✅ Basisaufbau als Motor | ◐ nur die **Schwelle** benannt („Adel und Politik in okayem Maße, mehr würde nerven") — keine echte Kritik erfragt |
-| Tempo / Vorwärtsdrang | ⬜ **offen** | ⬜ **offen** — roter Faden Nr. 1 komplett unbelegt |
-| Ton/Humor | ✅ „Humor/Ton zündet", „Humor & Schnoddrigkeit" | ⬜ **offen — nie gefragt** |
-| Nebenfiguren / Beziehungen | ⬜ **offen** | ⬜ **offen** |
+| Held/Hauptfigur (Montana) | ✅ „Held ist stark" | ✅ **R4:** „zu wenig wissbegierig … akzeptiert zu schnell statt zu verstehen" — **nur eine Kleinigkeit** (−1) |
+| Welt/Setting | ✅ „Welt, Geheimnisse und Monster"; Aufbau Herzogtum & Basis; „in Summe sehr gut" | ✅ **R4:** „manchmal zu mittelalterlich, Magie wieder kleingehalten" (−1) + fehlendes Inventar (0, durch Humor entschärft) |
+| Plot/Geschichte(-bogen) | ✅ Basisaufbau als Motor | ✅ **R4:** „keine großen negativen Stellen", nur Politik vereinzelt zu zentral → Schwelle bestätigt (0) |
+| Tempo / Vorwärtsdrang | ✅ **R4:** „Tempo war gut" (+1) | ✅ **R4:** Statustexte bremsen, „einzelne kleine Ausnahmen" (−1) |
+| Ton/Humor | ✅ „Humor/Ton zündet", „Humor & Schnoddrigkeit"; Wechsel funktioniert | — **R4 begründet:** kein Kritikpunkt, nur *relativ* zurückhaltender als DCC (Skala 7–8 vs. 9) → keine Negativzeile, sondern Herabstufung +2 → +1 |
+| Nebenfiguren / Beziehungen | ✅ **R4:** „nach und nach machen sich die NCs … ich bin zufrieden" (+1) | ✅ **R4:** „am Anfang war ich etwas skeptisch" — löst sich auf, kein Dauer-Malus |
 | Sprecher (Hörbuch) | ✅ [[Robert Frank]] +2, im Vergleich herausragend | ✅ [[Thomas Nicolai]] −1: Stimmfarbe, Tempo & Betonung — „nur im Vergleich schwächer" |
-| No-Gos / Near-No-Gos | ✅ „zu viel Vorgelesenes von Status/Skills" (−1, „mini negativer Punkt") + Politik-Kipppunkt | — |
+| No-Gos / Near-No-Gos | ✅ „zu viel Vorgelesenes von Status/Skills" (−1) + Politik-Kipppunkt + magiearm **ausdrücklich KEIN** Ausschluss | — |
 
-**Konsequenz:** Das Verdikt **liked (vorläufig)** bleibt vorläufig — es ruht auf einer
-positiv-lastigen Erhebung. Vor einer Verdikt-Verfestigung (oder einem `loved`) muss die
-Negativseite nachgeholt werden; die entsprechenden Fragen stehen unten.
+**Gate-Ergebnis:** vollständig — Übergabe an `book-deep-analysis` ist jetzt zulässig.
+
+**Konsequenz fürs Verdikt:** Bleibt **`liked` (vorläufig)** — aber jetzt aus dem *richtigen*
+Grund. Vorher ruhte es auf einer positiv-lastigen Erhebung; nach Runde 4 steht dem
+Acht-mal-+2-Profil eine ehrlich erhobene Negativseite gegenüber (4× −1, alle vom Nutzer
+selbst als „Kleinigkeit"/„einzelne Ausnahme" relativiert). Der verbleibende Grund für
+„vorläufig" ist allein die **Reihen-Dauerleistung**: 5 von 16 Bänden, [[Nebenquest-Wildwuchs]]
+über 16 Bände noch unbelegt.
 
 ## Offene Fragen (an den Nutzer, nächste Runde)
 

@@ -72,6 +72,25 @@ Handschrift, Humor/Ton, Systemlogik) UND das Gesamtbild über beide Reihen ein.
 
 **Kontext:** [[LitRPG]] · **Autor:** [[Eric Ugland]] · **Stand:** GJ 5/16 gehört · BJ 1/11 läuft
 
+> ⭐ **Nachgezogen 2026-08-11 (Interview-Runde 4, Negativseite nachgeholt).** Die Bewertung
+> von [[Die guten Jungs]] war bis dahin ein reines +2-Profil — ein **Erhebungsartefakt**,
+> weil die Negativ-Fragen nie gestellt worden waren. Was die Summe für das Universum ändert:
+>
+> | Neu für den Verbund | Wert | Kern |
+> | --- | --- | --- |
+> | [[Konstanter Vorwärtsdrang]] | +1 | roter Faden Nr. 1 erstmals belegt: „Tempo war gut" |
+> | [[Loyale Weggefährten]] | +1 | „nach und nach machen sich die NCs … ich bin zufrieden" |
+> | [[Tonwechsel Humor-Ernst]] | +2 → **+1** | Nutzer-Skala: DCC ≈ 9, hier 7–8 |
+> | [[Wissbegieriger Selbermacher-Held]] | −1 | Held geht den Weltgeheimnissen zu wenig nach |
+> | [[Magiesystem-Tiefe]] | −1 | „zu mittelalterlich, Magie wieder kleingehalten" — **kein** Ausschluss |
+> | [[Regel-Inkonsistenz]] | 0 | kein Inventar, aber durch Erzählwitz neutralisiert |
+>
+> **Für das Universum heißt das:** Der Verbund trägt sich für den Nutzer über **Welt,
+> Aufbau und Humor**, nicht über die Figurenbindung — anders als [[Dungeon Crawler Carl]],
+> wo [[Ungleiches Duo]] (+2) das Werk trägt. Das Verdikt bleibt `liked (vorläufig)`, jetzt
+> aber allein wegen der unbelegten Reihen-Dauerleistung (5 von 27 Verbund-Positionen).
+> Details: [[2026-08-11 Interview Die guten Jungs & Die bösen Jungs]].
+
 ## 📇 Metadaten (Verbund)
 
 - **Erschienen (EN):** 2018 (Good Guys 1) – 2025 (Good Guys 16) · **27 Bände** in zwei Reihen

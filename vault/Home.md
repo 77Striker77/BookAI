@@ -41,6 +41,18 @@ tags: [moc, home]
 
 ## Zuletzt
 
+- 2026-08-11 (R4) — 🎤 **Negativseite bei [[Die guten Jungs]] nachgeholt**, nachdem der
+  Stop-Hook die fehlende Abdeckungs-Matrix gemeldet hatte. Sechs Felder einzeln geschlossen.
+  Das bisherige Acht-mal-+2-Profil war ein **Erhebungsartefakt**. Drei Funde: ⭐ eine
+  **Kombinationsregel** ([[Weltgeheimnisse & Entdeckung]] verlangt einen
+  [[Wissbegieriger Selbermacher-Held]] — sonst Reibung am stärksten Plus), ⭐ die
+  **Mechanik-Grenze** (Spielmechanik als Weltlogik ja, als vorgelesene Zahlenkolonne nein),
+  ⭐ **Erzählwitz neutralisiert einen Systemfehler** ([[Regel-Inkonsistenz]] = 0 trotz
+  fehlendem Inventar). Dazu: [[Konstanter Vorwärtsdrang]] +1 endlich belegt („Tempo war
+  gut"), [[Tonwechsel Humor-Ernst]] +2 → +1 (Nutzer-Skala: DCC 9, hier 7–8),
+  [[Magiesystem-Tiefe]] −1 als **zweiter** Beleg nach [[Riyria]] — ausdrücklich **kein**
+  Ausschlusskriterium.
+
 - 2026-08-11 — 🔒 **Spoiler-Schutz eingebaut** (Nutzer-Regel): keine Ausgabe verrät mehr
   etwas jenseits des bandgenauen Lesestands; erlebte Werke dürfen dafür **detaillierter**
   beschrieben werden. Neu: [[Spoiler-Politik]] + [[Spoiler-Lexikon]], `spoiler_*`-Felder in

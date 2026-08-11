@@ -33,14 +33,14 @@ genres: [LitRPG, GameLit, Action-Komödie]
 themen: [Basisaufbau & Siedlungsentwicklung, Weltgeheimnisse & Entdeckung]
 ton: [Absurder Humor, Tonwechsel Humor-Ernst]
 erzaehlstil: []
-tempo: "⚠️ offen — noch nicht erfragt"
+tempo: "gut / konstant — Nutzer R4: „Tempo war gut"; nur Statustext-Unterbrechungen bremsen"
 komplexitaet: ""
-figuren: [Pragmatischer Held mit klarem Kompass]
-setting: [Stimmige Weltatmosphäre, Monster-Vielfalt & Bestiarium]
-handwerk: [Handfeste Kampf-Action, Über-crunchiges Zahlensystem, Intrigen-Overload ohne Progress]
+figuren: [Pragmatischer Held mit klarem Kompass, Loyale Weggefährten, Wissbegieriger Selbermacher-Held]
+setting: [Stimmige Weltatmosphäre, Monster-Vielfalt & Bestiarium, Magiesystem-Tiefe]
+handwerk: [Konstanter Vorwärtsdrang, Regel-Inkonsistenz, Handfeste Kampf-Action, Über-crunchiges Zahlensystem, Intrigen-Overload ohne Progress]
 bewertung:
   - { aspekt: "Absurder Humor", wert: 2 }
-  - { aspekt: "Tonwechsel Humor-Ernst", wert: 2 }
+  - { aspekt: "Tonwechsel Humor-Ernst", wert: 1 }   # R4-Korrektur: Nutzer-Skala DCC 9 vs. hier 7-8
   - { aspekt: "Pragmatischer Held mit klarem Kompass", wert: 2 }
   - { aspekt: "Stimmige Weltatmosphäre", wert: 2 }
   - { aspekt: "Weltgeheimnisse & Entdeckung", wert: 2 }
@@ -50,6 +50,11 @@ bewertung:
   - { aspekt: "Robert Frank", wert: 2 }
   - { aspekt: "Intrigen-Overload ohne Progress", wert: 0 }
   - { aspekt: "Über-crunchiges Zahlensystem", wert: -1 }
+  - { aspekt: "Konstanter Vorwärtsdrang", wert: 1 }
+  - { aspekt: "Loyale Weggefährten", wert: 1 }
+  - { aspekt: "Wissbegieriger Selbermacher-Held", wert: -1 }
+  - { aspekt: "Magiesystem-Tiefe", wert: -1 }
+  - { aspekt: "Regel-Inkonsistenz", wert: 0 }
 cover: ""
 quellen:
   - "https://www.audible.de/series/Die-guten-Jungs-Hoerbuecher/B0C4TR9YYX"
@@ -147,7 +152,9 @@ unter der Nutzer-Obergrenze (Reihen-Schnitt ≤ ~20 h, [[No-Gos]]) und **kürzer
 | Aspekt | Wertung | Warum | Beleg |
 | --- | --- | --- | --- |
 | [[Absurder Humor]] | +2 | schnoddrig-flapsiger Ton trägt die Reihe | „Humor/Ton zündet" · „Humor & Schnoddrigkeit" |
-| [[Tonwechsel Humor-Ernst]] | +2 | Gags neben echter Härte — DCC-Muster | „Humor/Ton zündet" |
+| [[Tonwechsel Humor-Ernst]] | **+1** | Wechsel funktioniert, aber zurückhaltender als das Referenzwerk — Nutzer-Skala **DCC ≈ 9, hier 7–8** (R4-Korrektur der pauschalen +2) | „der Humor ist etwas zurückhaltender aber auch sehr gut. **also auch der Wechsel.** wo DCC eine 9 rum war ist das hier eine 7 bis 8" |
+| [[Konstanter Vorwärtsdrang]] | **+1** | roter Faden Nr. 1 — erstmals für dieses Werk belegt (R4); nicht +2 wegen der Statustext-Unterbrechungen | „nein große negative Stellen gab es eig nicht. **Tempo war gut**" |
+| [[Loyale Weggefährten]] | **+1** | die Truppe wächst an und trägt mit — aber **nicht** tragend wie [[Ungleiches Duo]] bei DCC | „am Anfang war ich etwas skeptisch aber **nach und nach machen sich die NCs.** Also **ich bin zufrieden**" |
 | [[Pragmatischer Held mit klarem Kompass]] | +2 | Montana handelt, statt zu jammern | „Held ist stark" |
 | [[Stimmige Weltatmosphäre]] | +2 | Vuldranni trägt als Welt | „**Welt**, gehemienisse und monster" |
 | [[Weltgeheimnisse & Entdeckung]] | +2 | das Rätselhafte an der Welt zieht | „Welt, **gehemienisse** und monster" |
@@ -156,14 +163,28 @@ unter der Nutzer-Obergrenze (Reihen-Schnitt ≤ ~20 h, [[No-Gos]]) und **kürzer
 | [[Handfeste Kampf-Action]] | +2 | Kämpfe/Dungeon-Gemetzel, Tank-Gefühl | „Action & Kämpfe" gewählt |
 | 🎙️ [[Robert Frank]] | +2 | die stärkere der beiden Verbund-Stimmen | „Sprecher von GJ besser als von BJ" |
 | [[Intrigen-Overload ohne Progress]] | **0** | Adel/Politik ist da, aber **dosiert** — Schwelle knapp nicht überschritten | „adel und poletik ist noch in einem okey maße. **Mehr würde mich mehr nerveren** aber so ist okey" |
-| [[Über-crunchiges Zahlensystem]] | **−1** | Status-/Skill-Blöcke werden mitgelesen und bremsen | „ab und zu … zu viel vorgelese von status skills und co. **aber wirklich nur ein mini negativer punkt**" |
+| [[Über-crunchiges Zahlensystem]] | **−1** | Status-/Skill-Blöcke werden mitgelesen und bremsen — **R4 präzisiert den Mechanismus:** sie unterbrechen den [[Konstanter Vorwärtsdrang]], und beim Hören ist Überspringen unmöglich | „ab und zu … zu viel vorgelese von status skills und co. **aber wirklich nur ein mini negativer punkt**" + R4 „die ein oder andere Kleinigkeit wo **viel Statustexte vorgelesen** werden … einzelne kleine Ausnahmen" |
+| [[Wissbegieriger Selbermacher-Held]] | **−1** | ⭐ das Merkmal **fehlt** hier: Montana geht den Weltgeheimnissen zu wenig nach. Reibt direkt am +2 auf [[Weltgeheimnisse & Entdeckung]] → siehe Kombinationsregel in [[LitRPG]]. Vom Nutzer als „Kleinigkeit" relativiert | „manchmal ist er **zu wenig wissbegierig. er akzeptiert zu schnell etwas statt es wirklich zu verstehen oder zu erklären.** Aber das ist nur eine Kleinigkeit" |
+| [[Magiesystem-Tiefe]] | **−1** | „zu mittelalterlich", Magie bleibt klein — **zweiter Beleg** nach [[Riyria]] mit fast identischem Wortlaut. ⚠️ Nachhaken ergab: **kein Ausschlusskriterium**, nur schwacher Faktor | „manchmal zu mittelalterlich. **Magie wird wieder kleingehalten.** bei weitem nicht so schlimm wie in Riyria aber dennoch etwas" · Nachhaken: „**es ist weiterhin nur ein Fokus aber nicht der Hauptfaktor**" |
+| [[Regel-Inkonsistenz]] | **0** | kein Inventar trotz Spielewelt — aber der Autor fängt die Lücke mit Erzählwitz auf (Montanas Sack). Beispiel dafür, dass **Humor eine Systemlücke neutralisieren kann** | „kein Inventar … ist auch ungewohnt. **zum Glück hat Montana diesen irrwitzigen Sack**, deswegen ist es eig echt egal oder sogar was Witziges draus gemacht, aber iwie fehlt … ein kleines bisschen" |
 
-**Verdikt-Herleitung:** Acht +2-Zeilen, **ein einziges (ausdrücklich „mini") Minus** — das
-ist auf dem Papier ein Loved-Profil. Trotzdem bewusst **`liked` (vorläufig)**: der Nutzer
+**Verdikt-Herleitung (Stand nach Interview-Runde 4, 2026-08-11):** Sieben +2-Zeilen, drei
++1 und **vier −1** — alle Minuspunkte vom Nutzer ausdrücklich als „nur eine Kleinigkeit",
+„einzelne kleine Ausnahmen" bzw. „nicht der Hauptfaktor" relativiert. Bis Runde 3 stand hier
+ein Acht-mal-+2-Profil mit einem einzigen Minus; das war ein **Erhebungsartefakt** — die
+Negativseite war schlicht nie gefragt worden (fehlende Abdeckungs-Matrix, s.
+[[2026-08-11 Interview Die guten Jungs & Die bösen Jungs]]). Nach der nachgeholten Runde 4
+steht ein ehrliches, nicht mehr positiv-lastiges Bild.
+
+Bleibt bewusst **`liked` (vorläufig)** — jetzt aber nur noch aus **einem** Grund: der Nutzer
 ist bei **5 von 16 Bänden**, die Reihen-Dauerleistung ([[Konstanter Vorwärtsdrang]] über
 16 Bände, [[Nebenquest-Wildwuchs]]) ist **noch nicht belegt** — und genau daran sind
 [[Survival Quest]] und [[Sturmfels-Akademie]] gescheitert bzw. fast gescheitert. Upgrade
 auf `loved` sobald der Nutzer weiter ist.
+
+> ⚠️ **Lehre für künftige Analysen:** Ein Werk mit ausschließlich +2-Zeilen ist ein
+> Warnsignal, kein Gütesiegel — es bedeutet meist, dass die Negativ-Fragen fehlen. Die
+> Abdeckungs-Matrix ist genau dafür da.
 
 ## Abweichungen einzelner Bände (vom Nutzer selbst genannt)
 

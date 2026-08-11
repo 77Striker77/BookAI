@@ -1,7 +1,7 @@
 ---
 typ: setting
 status_global: ""
-status_kontexte: { Fantasy: liked }   # Tiefe wird GESCHÄTZT — ihr Fehlen wird bemängelt
+status_kontexte: { Fantasy: liked, LitRPG: liked }   # Tiefe wird GESCHÄTZT — ihr Fehlen wird bemängelt
 staerke: mittel
 seit: 2026-07-16
 uebergeordnet: ""
@@ -27,6 +27,7 @@ Feintuning-Malus („nur zu stark eingeschränkt"), kein Verriss.
 | --- | --- | --- |
 | [[Fantasy]] | liked (Wunder erwünscht) | [[Die Streitenden Götter]] **−1**: „bei den Standard-Elementen etwas lasch" · [[Sturmfels-Akademie]]-Detail: „zu starke Regeln … Grenzen übersteigen = schneller Tod, dämpft das Magiegefühl … Welt top, System an sich auch, nur zu stark eingeschränkt" ([[2026-07-16 Interview Streitende Götter]]) · [[Scholomance]] **+1**: „durchdachte Regeln/Logik", konsistent ([[2026-07-16 Interview Scholomance]]) · [[Riyria]] **−1**: „magie … lasch"/abwesend, „zu wenig fantasy" — Wunder vermisst ([[2026-07-16 Interview Riyria]]) · [[Alex Verus]] **+2**: durchdacht UND ausbalanciert — „Leute die gut darin waren, waren auch mächtig, aber nicht-gute waren nicht schwach wie eine Maus" ([[2026-07-20 Interview Alex Verus]]); s. auch [[Wuchtig-spektakuläre Magie]] |
 
+| [[LitRPG]] | liked (Wunder erwünscht) | [[Die guten Jungs]] **−1**: „manchmal zu mittelalterlich. **Magie wird wieder kleingehalten.** bei weitem nicht so schlimm wie in [[Riyria]] aber dennoch etwas" — **zweiter Beleg** mit fast identischem Wortlaut zu Riyria („zu viel mittelalter und zu wenig fantasy"). ⚠️ Nachhaken 2026-08-11: **KEIN Ausschlusskriterium** — „es ist weiterhin nur ein Fokus aber nicht der Hauptfaktor oder iwas super gewichtigeres" ([[2026-08-11 Interview Die guten Jungs & Die bösen Jungs]]) |
 ## Matching-Konsequenz
 
 Plus für Kandidaten mit gelobtem, staunenswertem Magiesystem. Malus (kein Ausschluss),
