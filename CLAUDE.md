@@ -259,7 +259,13 @@ alles, eine Breite für Übersicht und Fließtext, und die eigentlichen Daten kl
 Konsolen-Grund in kühlem Graphit (blaustichige Neutrale, damit sie neben dem Wertungs-Blau als
 *gewählt* lesen), dicktengleiche Ziffern überall, und die Daten groß statt klein:
 
-- **Grund hell `#e8ebf0` · dunkel `#0f1216`** — bewusst **kein** Creme mehr. Alle Textfarben je
+- **⛔ KEIN BRAUN. Nutzerregel 2026-08-11:** *„der Background-Braunton gefällt mir gar nicht.
+  nichts Braunes bitte."* Das betrifft **die ganze warme Familie**, nicht nur `--bg`: Tafeln,
+  **Kopfleiste (`--navbg` — die wurde beim ersten Versuch übersehen und färbte die obere
+  Leiste weiter creme)**, Papierkorn, alle Schattenfarben und das Holz der Regalbretter.
+  Die Regale sind **gestrichenes Dunkelgrün** (`--regal`), keine Holzmaserung. **Ausgenommen
+  sind die Buchcover selbst** — das sind Einbände, kein Hintergrund.
+- **Grund hell `#eaeeec` · dunkel `#101614`** — ruhiges Grüngrau, bewusst **kein** Creme. Alle Textfarben je
   Theme mit `kontrast.mjs` gemessen, alle ≥ 4,5:1 (Marker im `<style>` mitziehen!).
 - **Drei Schriftrollen:** `--f-display` (Fraunces 600, **als Daten-URI eingebettet**, 18 KB —
   der Artefakt-CSP blockt Font-CDNs, ein Link fiele still auf die Systemschrift zurück),
