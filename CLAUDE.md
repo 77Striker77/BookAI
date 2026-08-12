@@ -246,37 +246,50 @@ einer `sticky` Nav ohne `max-height` (schnitt Einträge dauerhaft ab) · feste
 oder die Serienfarben geändert, müssen die Marker mitgezogen werden** — sonst misst
 `mess.sh` gegen den falschen Grund und meldet trotzdem grün.
 
-### 🎛️ Gestalterische Richtung: „Hörspur" (festgelegt 2026-08-11)
+### 🎛️ Gestalterische Richtung: „Neon-Nachtregal" (Stand 2026-08-11)
 
-> Nutzer: „zu ungrafisch und generell grafisch nicht sehr ansprechend … die Startseite müsste
-> mehr hermachen und ich brauch keinen 0815-Text wie ich weiß was ich will bla bla."
+Die Richtung wurde in dieser Reihenfolge vom Nutzer gesetzt — jeder Schritt hat den
+vorigen korrigiert, die Historie steht hier, damit niemand rueckwaerts laeuft:
 
-Die Vorgängerfassung war exakt die **Voreinstellungs-Gestaltung**, die `frontend-handwerk`
-als Symptomliste beschreibt: Creme-Grund (`#f2f0ea`), ein Layoutmuster (Karte auf Fläche) für
-alles, eine Breite für Übersicht und Fließtext, und die eigentlichen Daten klein und defensiv.
+1. „zu ungrafisch … Startseite muss mehr hermachen, kein 0815-Text" → Daten als Grafik.
+2. „cozy Buchladen-Vibes … in Untermenues alle Infos preisgeben, auf den ersten Blick
+   nicht mit Text erschlagen" → Regal, Cover, Aufklappen.
+3. **„der Background-Braunton gefaellt mir gar nicht. nichts Braunes bitte."**
+4. **„gruen ist auch nicht der perfekte Hintergrund, evtl. was schwarz mit Neon oder so
+   und evtl. animiert? wie beim Designer?"**
 
-**Haltung:** Das Artefakt spricht die Sprache dessen, was der Nutzer wirklich tut — **hören**.
-Konsolen-Grund in kühlem Graphit (blaustichige Neutrale, damit sie neben dem Wertungs-Blau als
-*gewählt* lesen), dicktengleiche Ziffern überall, und die Daten groß statt klein:
+**Aktuell gilt: nachtschwarz mit Neon, EINE Bildwelt.** Die Seite ist dunkel, egal was das
+System sagt; die drei Theme-Bloecke tragen dieselben Werte (der Umschalter bleibt
+deklariert, weil `scan.sh` das prueft — er aendert nur nichts mehr).
 
-- **⛔ KEIN BRAUN. Nutzerregel 2026-08-11:** *„der Background-Braunton gefällt mir gar nicht.
-  nichts Braunes bitte."* Das betrifft **die ganze warme Familie**, nicht nur `--bg`: Tafeln,
-  **Kopfleiste (`--navbg` — die wurde beim ersten Versuch übersehen und färbte die obere
-  Leiste weiter creme)**, Papierkorn, alle Schattenfarben und das Holz der Regalbretter.
-  Die Regale sind **gestrichenes Dunkelgrün** (`--regal`), keine Holzmaserung. **Ausgenommen
-  sind die Buchcover selbst** — das sind Einbände, kein Hintergrund.
-- **Grund hell `#eaeeec` · dunkel `#101614`** — ruhiges Grüngrau, bewusst **kein** Creme. Alle Textfarben je
-  Theme mit `kontrast.mjs` gemessen, alle ≥ 4,5:1 (Marker im `<style>` mitziehen!).
-- **Drei Schriftrollen:** `--f-display` (Fraunces 600, **als Daten-URI eingebettet**, 18 KB —
-  der Artefakt-CSP blockt Font-CDNs, ein Link fiele still auf die Systemschrift zurück),
-  `--f-text` (System-Sans), `--f-data` (Mono, `tabular-nums`) für **jede** Zahl.
-- **Zwei Signaturmomente auf der Startseite**, beide aus Vault-Daten erzeugt:
-  **(1) die Hörspur** — 27 Schritte, zwei Spuren, Position und harte Regel als Grafik statt als
-  Tabelle; **(2) die Regalwand** — ein Buchrücken je Reihe, Leinenfarbe = Urteil, **Füllhöhe =
-  mein Stand**. Weiße Prägung auf dunklem Leinen (gemessen 9,3–10,3:1), nicht dunkle Schrift auf
-  variabler Füllung.
-- **Keine Floskel-Überschrift.** Die Startseite beginnt mit einer **Tatsache** („Schritt 6 von
-  27"), nicht mit einem Ich-weiß-was-ich-will-Satz.
+- **Grund `#06080c` · Tafel `#0d1119` · Karte `#121722`.** ⛔ **Kein Braun, kein Creme,
+  kein Gruen als Grund.**
+- **Neon-Akzente, Bedeutung bleibt verbindlich:** 🔵 Wertung `#4dd2ff` · 🟡 Bekanntheit
+  `#ffc94d` · 🟢 positiv `#3ff08a` · 🔴 negativ `#ff6b85`. Alle gegen alle drei Gruende
+  gemessen, 5,6:1 bis 13,4:1.
+- **Bewegter Hintergrund:** 26 Lichtbahnen, geerntet aus
+  `design:artefakt-bausteine/background-beams`. Kern des Bausteins: **die Bewegung sitzt im
+  Verlauf, nicht im Pfad** — vier `<animate>` je Bahn auf `x1/y1/x2/y2` mit
+  `gradientUnits="userSpaceOnUse"` (mit Bounding-Box leuchtet jede Bahn die meiste Zeit
+  ausserhalb des Bildes). Ruhewert ist eine zufaellige Phase, damit bei
+  `prefers-reduced-motion` ein **Standbild** bleibt statt eines leeren Rechtecks.
+  Gemessen: 104 `<animate>` normal, 0 bei reduzierter Bewegung.
+- **Lampenring** um die laufenden Buecher aus `border-beam-panel` (Kegelverlauf, zwei
+  Masken, unscharfer Zwilling als Schein).
+- **Das Regal** ist ein Moebel: Korpus, Seitenwangen, Rueckwand, drei Faecher mit
+  Deckenverschattung; die Brettkante ist eine **Neonroehre**. Buchhoehe = Bandzahl,
+  Etiketten haengen unter dem Brett (helle Praegung auf dunkler Rueckwand).
+- **Cover:** 1–4 Embleme je Einband, Groesse nach Anzahl (1 → 2,9em … 4 → 1,5em).
+  Reihen desselben Universums fuehren **dasselbe erste Emblem** (Vuldranni 🗺️,
+  Streitende Goetter ⚡) — Zusammengehoerigkeit ohne Titel lesen zu muessen.
+- **Keine Floskel-Ueberschrift.** Die Startseite beginnt mit dem, was gerade laeuft.
+
+> 🩹 **Belegter Fehler 2026-08-11 (d) — eine Sammelregel riss zwei Ebenen aus der Verankerung.**
+> `.page > * { position: relative }` galt auch fuer die neue Bahnen-Ebene (`fixed`) und die
+> Sprungmarke (`absolute`). Beide wurden dadurch normale Bloecke im Fluss: **600 px Leerraum
+> ueber der Kopfleiste und eine dauerhaft sichtbare Sprungmarke.** Die Regel regelt jetzt nur
+> noch den Stapel (`:not(.beams):not(.skip)`). **Regel:** Sammelregeln auf `> *` nie
+> `position` setzen lassen, wenn im Container etwas fixed oder absolut liegt.
 
 ### Was das Farbsystem angeht
 

@@ -9,10 +9,10 @@
      Ohne diese Marker RAET mess.sh den Grund, gegen den es den Kontrast misst.
      Sie muessen mitgezogen werden, wenn --bg / --panel geaendert werden. */
   /* @artefakt */
-  /* @grund-hell: #eaeeec */
-  /* @grund-dunkel: #101614 */
-  /* @serien-hell: #1d5694,#2b6b34,#a83b2a,#8a5e10 */
-  /* @serien-dunkel: #7ab0f0,#63c47c,#f0837a,#e6b95c */
+  /* @grund-hell: #06080c */
+  /* @grund-dunkel: #06080c */
+  /* @serien-hell: #4dd2ff,#3ff08a,#ff6b85,#ffc94d */
+  /* @serien-dunkel: #4dd2ff,#3ff08a,#ff6b85,#ffc94d */
 
   /* Display-Schrift als Daten-URI — der Artefakt-CSP blockt Font-CDNs, ein
      externer Link fiele still auf die Systemschrift zurück. 18 KB woff2.
@@ -25,43 +25,50 @@
 
   :root {
     color-scheme: light;
-    /* Tagsüber im Laden: heller, ruhiger Grund ohne Braunstich; die Regale
-       sind gestrichen statt aus Nussholz (Nutzerregel 2026-08-11: kein Braun). */
-    --bg:#eaeeec; --panel:#f6f8f7; --card:#ffffff;
-    --ink:#141a18; --ink2:#465049; --muted:#5c6660; --line:#d4dbd7; --track:#dee4e1;
-    --regal:#2f4f43; --regal-tief:#1f382f; --lampe:#f2c264; --lampe-weich:#eef2ea;
-    --rating:#1d5694; --rating-soft:#dbe6f4; --rating-ink:#1d5694;
-    --pos:#2b6b34; --pos-soft:#dcecd9; --pos-ink:#255c2d;
-    --neg:#a83b2a; --neg-soft:#f4dcd5; --neg-ink:#9a3526;
-    --fame:#8a5e10; --fame-soft:#f2e4c5; --fame-ink:#79510c;
-    --de:#1d5694; --en:#6d3fa8; --navbg:rgba(246,248,247,.93);
-    --schatten:0 1px 2px rgba(20,32,28,.08), 0 10px 26px -14px rgba(20,32,28,.30);
-    --schatten-buch:0 1px 1px rgba(14,24,20,.28), 0 8px 14px -8px rgba(14,24,20,.52);
+    /* EINE Bildwelt: nachtschwarz mit Neon, unabhängig von der
+       Systemeinstellung. Die drei Theme-Blöcke tragen deshalb dieselben
+       Werte — der Umschalter bleibt deklariert, ändert aber nichts mehr. */
+    --bg:#06080c; --panel:#0d1119; --card:#121722;
+    --ink:#e8edf5; --ink2:#a9b5c7; --muted:#8391a5; --line:#1f2735; --track:#161d29;
+    --regal:#1b2534; --regal-tief:#080b11; --neon:#4dd2ff; --neon2:#a86bff;
+    --lampe:#ffc94d; --lampe-weich:#221a08;
+    --rating:#4dd2ff; --rating-soft:#0e2a38; --rating-ink:#4dd2ff;
+    --pos:#3ff08a; --pos-soft:#0c2a1b; --pos-ink:#3ff08a;
+    --neg:#ff6b85; --neg-soft:#2e1119; --neg-ink:#ff6b85;
+    --fame:#ffc94d; --fame-soft:#2a2008; --fame-ink:#ffc94d;
+    --de:#4dd2ff; --en:#c79bff; --navbg:rgba(9,12,18,.86);
+    --schatten:0 1px 2px rgba(0,0,0,.7), 0 14px 34px -18px rgba(0,0,0,.95);
+    --schatten-buch:0 1px 1px rgba(0,0,0,.75), 0 12px 22px -8px rgba(0,0,0,.95);
   }
   @media (prefers-color-scheme: dark){ :root:where(:not([data-theme="light"])){
     color-scheme: dark;
-    /* Abends im Laden: Licht an, Regale dunkelgrün, kein Braun. */
-    --bg:#101614; --panel:#18201d; --card:#1e2723;
-    --ink:#e9efeb; --ink2:#b3bfb8; --muted:#8b9791; --line:#2c3733; --track:#26302c;
-    --regal:#5c8f78; --regal-tief:#1c2b25; --lampe:#f5cf7d; --lampe-weich:#2a3830;
-    --rating:#7ab0f0; --rating-soft:#1c2c42; --rating-ink:#7ab0f0;
-    --pos:#63c47c; --pos-soft:#1a3320; --pos-ink:#63c47c;
-    --neg:#f0837a; --neg-soft:#3c211c; --neg-ink:#f0837a;
-    --fame:#e6b95c; --fame-soft:#382a12; --fame-ink:#e6b95c;
-    --de:#7ab0f0; --en:#c2a0ec; --navbg:rgba(24,32,29,.93);
+    --bg:#06080c; --panel:#0d1119; --card:#121722;
+    --ink:#e8edf5; --ink2:#a9b5c7; --muted:#8391a5; --line:#1f2735; --track:#161d29;
+    --regal:#1b2534; --regal-tief:#080b11; --neon:#4dd2ff; --neon2:#a86bff;
+    --lampe:#ffc94d; --lampe-weich:#221a08;
+    --rating:#4dd2ff; --rating-soft:#0e2a38; --rating-ink:#4dd2ff;
+    --pos:#3ff08a; --pos-soft:#0c2a1b; --pos-ink:#3ff08a;
+    --neg:#ff6b85; --neg-soft:#2e1119; --neg-ink:#ff6b85;
+    --fame:#ffc94d; --fame-soft:#2a2008; --fame-ink:#ffc94d;
+    --de:#4dd2ff; --en:#c79bff; --navbg:rgba(9,12,18,.86);
+    --schatten:0 1px 2px rgba(0,0,0,.7), 0 14px 34px -18px rgba(0,0,0,.95);
+    --schatten-buch:0 1px 1px rgba(0,0,0,.75), 0 12px 22px -8px rgba(0,0,0,.95);
     --schatten:0 1px 2px rgba(0,0,0,.55), 0 12px 30px -16px rgba(0,0,0,.85);
     --schatten-buch:0 1px 1px rgba(0,0,0,.6), 0 10px 18px -8px rgba(0,0,0,.9);
   }}
   :root[data-theme="dark"]{
     color-scheme: dark;
-    --bg:#101614; --panel:#18201d; --card:#1e2723;
-    --ink:#e9efeb; --ink2:#b3bfb8; --muted:#8b9791; --line:#2c3733; --track:#26302c;
-    --regal:#5c8f78; --regal-tief:#1c2b25; --lampe:#f5cf7d; --lampe-weich:#2a3830;
-    --rating:#7ab0f0; --rating-soft:#1c2c42; --rating-ink:#7ab0f0;
-    --pos:#63c47c; --pos-soft:#1a3320; --pos-ink:#63c47c;
-    --neg:#f0837a; --neg-soft:#3c211c; --neg-ink:#f0837a;
-    --fame:#e6b95c; --fame-soft:#382a12; --fame-ink:#e6b95c;
-    --de:#7ab0f0; --en:#c2a0ec; --navbg:rgba(24,32,29,.93);
+    --bg:#06080c; --panel:#0d1119; --card:#121722;
+    --ink:#e8edf5; --ink2:#a9b5c7; --muted:#8391a5; --line:#1f2735; --track:#161d29;
+    --regal:#1b2534; --regal-tief:#080b11; --neon:#4dd2ff; --neon2:#a86bff;
+    --lampe:#ffc94d; --lampe-weich:#221a08;
+    --rating:#4dd2ff; --rating-soft:#0e2a38; --rating-ink:#4dd2ff;
+    --pos:#3ff08a; --pos-soft:#0c2a1b; --pos-ink:#3ff08a;
+    --neg:#ff6b85; --neg-soft:#2e1119; --neg-ink:#ff6b85;
+    --fame:#ffc94d; --fame-soft:#2a2008; --fame-ink:#ffc94d;
+    --de:#4dd2ff; --en:#c79bff; --navbg:rgba(9,12,18,.86);
+    --schatten:0 1px 2px rgba(0,0,0,.7), 0 14px 34px -18px rgba(0,0,0,.95);
+    --schatten-buch:0 1px 1px rgba(0,0,0,.75), 0 12px 22px -8px rgba(0,0,0,.95);
     --schatten:0 1px 2px rgba(0,0,0,.55), 0 12px 30px -16px rgba(0,0,0,.85);
     --schatten-buch:0 1px 1px rgba(0,0,0,.6), 0 10px 18px -8px rgba(0,0,0,.9);
   }
@@ -85,17 +92,24 @@
   .skip:focus { top: 8px; }
   .page { background: var(--bg); color: var(--ink);
     font: 15.5px/1.6 var(--f-text); min-height: 100vh; position: relative; }
-  /* Papierkorn und Lampenlicht von oben — zwei Verläufe, keine Bilddatei
-     (der Artefakt-CSP lässt keine externen Bilder zu, und Data-URIs für
-     Rauschen wären Kilobytes für nichts). */
+  /* Zwei Hintergrundschichten. Unten die bewegten Lichtbahnen (SVG, aus
+     design:artefakt-bausteine/background-beams geerntet), darüber ein
+     feines Raster und ein Neon-Schein von oben. */
+  .beams { position: fixed; inset: 0; z-index: 0; pointer-events: none;
+    overflow: hidden; opacity: .55; }
+  .beams svg { width: 100%; height: 100%; display: block; }
   .page::before {
     content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 0;
     background:
-      radial-gradient(120% 70% at 50% -10%, color-mix(in srgb, var(--lampe) 16%, transparent), transparent 62%),
-      repeating-linear-gradient(0deg, rgba(40,70,60,.032) 0 1px, transparent 1px 3px),
-      repeating-linear-gradient(90deg, rgba(40,70,60,.026) 0 1px, transparent 1px 4px);
+      radial-gradient(90% 55% at 50% -8%, color-mix(in srgb, var(--neon) 13%, transparent), transparent 66%),
+      radial-gradient(70% 45% at 88% 8%, color-mix(in srgb, var(--neon2) 10%, transparent), transparent 62%),
+      repeating-linear-gradient(0deg, rgba(120,180,255,.030) 0 1px, transparent 1px 4px),
+      repeating-linear-gradient(90deg, rgba(120,180,255,.022) 0 1px, transparent 1px 5px);
   }
-  .page > * { position: relative; z-index: 1; }
+  /* Nur den Stapel regeln, NICHT die Positionierung: `position: relative`
+     hier traf sonst auch .beams (fixed) und .skip (absolute) und riss beide
+     aus ihrer Verankerung — gemessen als 600px Leerraum ueber der Nav. */
+  .page > *:not(.beams):not(.skip) { position: relative; z-index: 1; }
   .tnum, .zahl, .band .rv, .brow .meta, .brow .bn2, .ixb, .ixw {
     font-family: var(--f-data); font-variant-numeric: tabular-nums; letter-spacing: -.01em; }
   .wrap { max-width: 1060px; margin: 0 auto; padding: 0 18px 72px; }
@@ -268,14 +282,14 @@
     padding: 12px var(--wange) 0;
     border-radius: 10px 10px 6px 6px;
     background:
-      /* Rückwand: von oben leicht beschienen, nach unten dunkler */
+      /* Rückwand: oben vom Neon angeleuchtet, nach unten ins Schwarze */
       linear-gradient(180deg,
-        color-mix(in srgb, var(--regal-tief) 78%, var(--lampe) 10%) 0%,
-        var(--regal-tief) 42%,
-        color-mix(in srgb, var(--regal-tief) 88%, #000) 100%);
+        color-mix(in srgb, var(--regal) 55%, var(--neon) 8%) 0%,
+        var(--regal-tief) 46%,
+        #04060a 100%);
     box-shadow:
-      inset 0 2px 0 color-mix(in srgb, var(--regal) 60%, #fff),
-      inset 0 -3px 8px rgba(0,0,0,.45),
+      inset 0 1px 0 color-mix(in srgb, var(--neon) 40%, transparent),
+      inset 0 -3px 10px rgba(0,0,0,.7),
       var(--schatten);
   }
   /* Seitenwangen — vorn hell angeschnitten, damit Dicke entsteht */
@@ -308,15 +322,17 @@
   /* Das Brett: Vorderkante hell, Korpus, Unterkante dunkel + Schlagschatten */
   /* Das Brett: schmale Auflagefuge, helle Vorderkante, Korpus, dunkle
      Unterkante — und ein Schlagschatten ins Fach darunter. */
-  .brett-holz { height: 18px; border-radius: 1px 1px 3px 3px; margin: 0 2px 0;
+  /* Das Brett: die Vorderkante ist eine Neonröhre unter dem Regalboden —
+     dieselbe Tiefe wie vorher, nur leuchtet die Kante jetzt. */
+  .brett-holz { height: 16px; border-radius: 1px 1px 3px 3px; margin: 0 2px 0;
     position: relative; z-index: 2;
     background: linear-gradient(180deg,
-      rgba(0,0,0,.45) 0 2px,
-      color-mix(in srgb, var(--regal) 88%, #fff) 2px 5px,
-      color-mix(in srgb, var(--regal) 96%, #fff) 5px 11px,
-      var(--regal) 11px 14px,
-      var(--regal-tief) 14px 100%);
-    box-shadow: 0 9px 16px -6px rgba(0,0,0,.65); }
+      rgba(0,0,0,.55) 0 2px,
+      var(--regal) 2px 9px,
+      color-mix(in srgb, var(--neon) 55%, var(--regal)) 9px 11px,
+      var(--regal-tief) 11px 100%);
+    box-shadow: 0 0 12px -1px color-mix(in srgb, var(--neon) 45%, transparent),
+                0 10px 18px -7px rgba(0,0,0,.9); }
   .fach { padding-bottom: 4px; }
 
   /* Bücher stehen dichter beieinander und sind unterschiedlich hoch —
@@ -714,6 +730,7 @@
 </style>
 
 <div class="page" lang="de">
+  <div class="beams" aria-hidden="true"></div>
 
   <!-- ===================== NAV ===================== -->
   <a class="skip" href="#inhalt">Direkt zum Inhalt</a>
@@ -2628,6 +2645,61 @@
       else { location.hash = newHash; }
     }
   });
+
+
+  // ---- Lichtbahnen im Hintergrund -------------------------------------
+  // Geerntet aus design:artefakt-bausteine/background-beams. Kern: die
+  // Bewegung sitzt im VERLAUF, nicht im Pfad — 26 Bahnen, je vier
+  // <animate> auf x1/y1/x2/y2, `gradientUnits="userSpaceOnUse"` statt
+  // Bounding-Box (sonst leuchtet jede Bahn die meiste Zeit ausserhalb des
+  // Bildes). Ruhewert ist eine zufaellige Phase, damit ohne Animation ein
+  // Standbild dasteht statt eines leeren Rechtecks.
+  (function bahnen(){
+    var huelle = document.querySelector(".beams");
+    if(!huelle) return;
+    var NS = "http://www.w3.org/2000/svg";
+    var ruhig = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+    function el(name, attrs){
+      var k = document.createElementNS(NS, name);
+      for(var a in attrs) k.setAttribute(a, attrs[a]);
+      return k;
+    }
+    var svg = el("svg", { viewBox: "0 0 696 316", fill: "none", preserveAspectRatio: "xMidYMid slice" });
+    var defs = el("defs", {});
+    var farben = ["#4dd2ff", "#4dd2ff", "#a86bff", "#3ff08a"];
+    var fahrt = { x1: [-420, 1120], y1: [-380, 760], x2: [-160, 1380], y2: [-187, 953] };
+    for(var i = 0; i < 26; i++){
+      var dauer = 12 + Math.random() * 12;
+      var versatz = -Math.random() * dauer;
+      var phase = Math.random();
+      var lg = el("linearGradient", { id: "bahn-" + i, gradientUnits: "userSpaceOnUse" });
+      for(var attr in fahrt){
+        var von = fahrt[attr][0], bis = fahrt[attr][1];
+        lg.setAttribute(attr, Math.round(von + (bis - von) * phase));
+        if(ruhig) continue;
+        lg.appendChild(el("animate", {
+          attributeName: attr, values: von + ";" + bis,
+          dur: dauer.toFixed(2) + "s", begin: versatz.toFixed(2) + "s",
+          repeatCount: "indefinite", calcMode: "spline",
+          keyTimes: "0;1", keySplines: "0.42 0 0.58 1"
+        }));
+      }
+      lg.appendChild(el("stop", { "stop-color": farben[0], "stop-opacity": "0" }));
+      lg.appendChild(el("stop", { "stop-color": farben[1] }));
+      lg.appendChild(el("stop", { offset: "32.5%", "stop-color": farben[2] }));
+      lg.appendChild(el("stop", { offset: "100%", "stop-color": farben[3], "stop-opacity": "0" }));
+      defs.appendChild(lg);
+      var x = function(n){ return n + i * 7; }, y = function(n){ return n - i * 8; };
+      svg.appendChild(el("path", {
+        d: "M" + x(-380) + " " + y(-189)
+         + "C" + x(-380) + " " + y(-189) + " " + x(-312) + " " + y(216) + " " + x(152) + " " + y(343)
+         + "C" + x(616) + " " + y(470) + " " + x(684) + " " + y(875) + " " + x(684) + " " + y(875),
+        stroke: "url(#bahn-" + i + ")", "stroke-opacity": "0.5", "stroke-width": "1.4", fill: "none"
+      }));
+    }
+    svg.insertBefore(defs, svg.firstChild);
+    huelle.appendChild(svg);
+  })();
 
   // ---- Filter im Werke-Index -------------------------------------------
   var filter = document.getElementById("werke-filter");
