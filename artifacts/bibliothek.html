@@ -429,6 +429,18 @@
     .ez .ezb, .ez .ezv, .ez .ezh { grid-column: 1 / -1; }
   }
 
+
+  /* ---------- Erscheinungsdatum ----------
+     Nutzerregel 2026-08-11: BUCH schlaegt HOERBUCH, DEUTSCH schlaegt
+     INTERNATIONAL. Gibt es keine deutsche Buchausgabe, steht das
+     internationale Datum sichtbar als solches da (🌍) statt geglaettet. */
+  .etikett .bj { display: block; text-align: center; font-family: var(--f-data);
+    font-size: .66rem; color: var(--rating-ink); padding-top: 3px; letter-spacing: -.01em; }
+  .rel-kopf { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px;
+    font-family: var(--f-data); font-size: .8rem; color: var(--ink2); margin: 4px 0 8px; }
+  .rel-kopf b { color: var(--ink); font-weight: 700; }
+  .rel-kopf .rq { color: var(--muted); font-family: var(--f-text); font-size: .78rem; }
+
   /* ---------- views ---------- */
   .view { display: none; }
   .view.on { display: block; animation: fade .18s ease; }
@@ -788,7 +800,8 @@
               <span>
                 <span class="rolle">🎧 läuft</span>
                 <span class="wt">Die bösen Jungs — Band 1</span>
-                <span class="ws">„Schurken &amp; Halunken" · Thomas Nicolai · 15 h 23 · deutsch</span>
+                <span class="ws">📖 <b>Buch 2019</b> (engl. Original) · 🎧 deutsches Hörbuch 2023,
+                  Thomas Nicolai, 15 h 23</span>
                 <span class="fortschritt"><span style="width:22%"></span></span>
                 <span class="fortschritt-lab">Band 1 von 11 · Schritt 6 von 27 der Vuldranni-Reihenfolge</span>
               </span>
@@ -798,7 +811,8 @@
               <span>
                 <span class="rolle">🎧 parallel</span>
                 <span class="wt">Dungeon Crawler Carl — Band 2</span>
-                <span class="ws">Stefan Kaminski · deutscher Band 3 am <b>18.11.2026</b></span>
+                <span class="ws">📖 <b>Buch 2021</b> (engl. Original) · 🎧 deutscher Band 3
+                  am <b>18.11.2026</b>, Stefan Kaminski</span>
                 <span class="fortschritt"><span style="width:25%"></span></span>
                 <span class="fortschritt-lab">Band 2 von 8 erschienen</span>
               </span>
@@ -822,11 +836,11 @@
             </div>
             <div class="brett-holz"></div>
             <div class="etiketten">
-              <a class="etikett" href="#w-dcc" data-view="w-dcc" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="jetzt"></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="bt">Dungeon Crawler Carl</span><span class="bm">1/8</span></a>
-              <a class="etikett" href="#w-cunninghams" data-view="w-cunninghams" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i></i><i></i></span><span class="bt">Die mör­de­ri­schen Cunninghams</span><span class="bm">2/4</span></a>
-              <a class="etikett" href="#w-goetter" data-view="w-goetter" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i></i><i></i><i></i></span><span class="bt">Die Streitenden Götter</span><span class="bm">7/10</span></a>
-              <a class="etikett" href="#w-sturmfels" data-view="w-sturmfels" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i></span><span class="bt">Sturm­fels-Aka­de­mie</span><span class="bm">5/5</span></a>
-              <a class="etikett" href="#w-prinz" data-view="w-prinz" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i></i><i></i><i></i></span><span class="bt">Der Prinz von Staub und Schatten</span><span class="bm">2/5</span></a>
+              <a class="etikett" href="#w-dcc" data-view="w-dcc" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="jetzt"></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="bt">Dungeon Crawler Carl</span><span class="bm">1/8</span><span class="bj">🌍 2020–2026</span></a>
+              <a class="etikett" href="#w-cunninghams" data-view="w-cunninghams" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i></i><i></i></span><span class="bt">Die mör­de­ri­schen Cunninghams</span><span class="bm">2/4</span><span class="bj">🇩🇪 2022–2025</span></a>
+              <a class="etikett" href="#w-goetter" data-view="w-goetter" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i></i><i></i><i></i></span><span class="bt">Die Streitenden Götter</span><span class="bm">7/10</span><span class="bj">🇩🇪 2023–2026</span></a>
+              <a class="etikett" href="#w-sturmfels" data-view="w-sturmfels" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i></span><span class="bt">Sturm­fels-Aka­de­mie</span><span class="bm">5/5</span><span class="bj">🇩🇪 2023–2025</span></a>
+              <a class="etikett" href="#w-prinz" data-view="w-prinz" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i></i><i></i><i></i></span><span class="bt">Der Prinz von Staub und Schatten</span><span class="bm">2/5</span><span class="bj">🇩🇪 2026</span></a>
             </div>
           </div>
           <div class="fach">
@@ -839,11 +853,11 @@
             </div>
             <div class="brett-holz"></div>
             <div class="etiketten">
-              <a class="etikett" href="#w-alexverus" data-view="w-alexverus" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i></span><span class="bt">Alex Verus</span><span class="bm">12/12</span></a>
-              <a class="etikett" href="#w-magic20" data-view="w-magic20" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i></i><i></i></span><span class="bt">Magic 2.0</span><span class="bm">4/6</span></a>
-              <a class="etikett" href="#w-vuldranni" data-view="w-vuldranni" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i class="jetzt"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="bt">Vul­dranni (iNcarn8)</span><span class="bm">5/27</span></a>
-              <a class="etikett" href="#w-gutenjungs" data-view="w-gutenjungs" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="bt">Die guten Jungs</span><span class="bm">5/16</span></a>
-              <a class="etikett" href="#w-boesenjungs" data-view="w-boesenjungs" tabindex="-1" aria-hidden="true"><span class="bs"><i class="jetzt"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="bt">Die bösen Jungs</span><span class="bm">0/11</span></a>
+              <a class="etikett" href="#w-alexverus" data-view="w-alexverus" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i></span><span class="bt">Alex Verus</span><span class="bm">12/12</span><span class="bj">🇩🇪 2018–2022</span></a>
+              <a class="etikett" href="#w-magic20" data-view="w-magic20" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i></i><i></i></span><span class="bt">Magic 2.0</span><span class="bm">4/6</span><span class="bj">🇩🇪 2013–2019</span></a>
+              <a class="etikett" href="#w-vuldranni" data-view="w-vuldranni" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i class="jetzt"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="bt">Vul­dranni (iNcarn8)</span><span class="bm">5/27</span><span class="bj">🌍 2018–2025</span></a>
+              <a class="etikett" href="#w-gutenjungs" data-view="w-gutenjungs" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="bt">Die guten Jungs</span><span class="bm">5/16</span><span class="bj">🌍 2018–2025</span></a>
+              <a class="etikett" href="#w-boesenjungs" data-view="w-boesenjungs" tabindex="-1" aria-hidden="true"><span class="bs"><i class="jetzt"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="bt">Die bösen Jungs</span><span class="bm">0/11</span><span class="bj">🌍 2019–2024</span></a>
             </div>
           </div>
           <div class="fach">
@@ -856,11 +870,11 @@
             </div>
             <div class="brett-holz"></div>
             <div class="etiketten">
-              <a class="etikett" href="#w-mordclub" data-view="w-mordclub" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i></span><span class="bt">Der Donners­tags­mord­club</span><span class="bm">5/5</span></a>
-              <a class="etikett" href="#w-survival" data-view="w-survival" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i></span><span class="bt">Survival Quest</span><span class="bm">7/7</span></a>
-              <a class="etikett" href="#w-scholomance" data-view="w-scholomance" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i></span><span class="bt">Scho­lo­mance</span><span class="bm">3/3</span></a>
-              <a class="etikett" href="#w-riyria" data-view="w-riyria" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i></span><span class="bt">Riyria</span><span class="bm">6/6</span></a>
-              <a class="etikett" href="#w-ashford" data-view="w-ashford" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i></span><span class="bt">Haus Ashford</span><span class="bm">3/3</span></a>
+              <a class="etikett" href="#w-mordclub" data-view="w-mordclub" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i></span><span class="bt">Der Donners­tags­mord­club</span><span class="bm">5/5</span><span class="bj">🇩🇪 2020–2025</span></a>
+              <a class="etikett" href="#w-survival" data-view="w-survival" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i></span><span class="bt">Survival Quest</span><span class="bm">7/7</span><span class="bj">🇩🇪 2012–2021</span></a>
+              <a class="etikett" href="#w-scholomance" data-view="w-scholomance" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i></span><span class="bt">Scho­lo­mance</span><span class="bm">3/3</span><span class="bj">🇩🇪 2020–2022</span></a>
+              <a class="etikett" href="#w-riyria" data-view="w-riyria" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i><i class="voll"></i></span><span class="bt">Riyria</span><span class="bm">6/6</span><span class="bj">🇩🇪 2008–2016</span></a>
+              <a class="etikett" href="#w-ashford" data-view="w-ashford" tabindex="-1" aria-hidden="true"><span class="bs"><i class="voll"></i><i class="voll"></i><i class="voll"></i></span><span class="bt">Haus Ashford</span><span class="bm">3/3</span><span class="bj">🇩🇪 2023–2025</span></a>
             </div>
           </div>
         </div>
@@ -1189,7 +1203,8 @@
         <div class="cover" style="background:linear-gradient(150deg,#3a2d6b,#1a1330 55%,#0e1a2e)"><div class="cm n3"><i>🎮</i><i>⚔️</i><i>🐈</i></div><div><div class="ct">DUNGEON CRAWLER CARL</div><div class="ca">Matt Dinniman</div></div></div>
         <div>
           <div class="wh"><span class="t">Dungeon Crawler Carl</span><span class="verdict">♥ geliebt</span><span class="tag">· LitRPG · Reihe</span></div>
-          <div class="wmeta">8 von 9 Bänden · EN komplett (Jeff Hays) · DE im Aufbau (Stefan Kaminski, seit Feb 2026) · Sprachen EN·DE·ES·FR·IT·SV·PT</div>
+          <div class="rel-kopf">📖 <b>Buch erschienen:</b> 🌍 <b>02.10.2020</b><span>Reihe 2020–2026</span><span class="rq">englisches Original · deutsche Buchausgabe erst ab 2026</span></div>
+            <div class="wmeta">8 von 9 Bänden · EN komplett (Jeff Hays) · DE im Aufbau (Stefan Kaminski, seit Feb 2026) · Sprachen EN·DE·ES·FR·IT·SV·PT</div>
           <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span></div>
             <div class="fame-lab"><b>Phänomen</b> · ~1,7 Mio Wertungen (engl. Audible 4,9·34k+) <span class="hype">🔥 Kult · &gt;10 Mio verkauft</span></div></div>
           <div class="cols" style="margin-top:12px">
@@ -1255,7 +1270,8 @@
         <div class="cover" style="background:linear-gradient(150deg,#3f4a3a,#2a2118 55%,#1a1412)"><div class="cm n2"><i>🔎</i><i>🩸</i></div><div><div class="ct">DIE MÖRDERISCHEN CUNNINGHAMS</div><div class="ca">Benjamin Stevenson</div></div></div>
         <div>
           <div class="wh"><span class="t">Die mörderischen Cunninghams</span><span class="verdict">♥ geliebt · top</span><span class="tag">· Krimi · 📖 gelesen (dt.)</span></div>
-          <div class="wmeta">EN 4 Bände / DE 2 · Benjamin Stevenson · Ullstein (Übers. Robert Brack) · meta-Whodunit (vgl. Knives Out) · <b>gelesen, kein Hörbuch</b></div>
+          <div class="rel-kopf">📖 <b>Buch erschienen:</b> 🇩🇪 <b>Okt 2023</b><span>Reihe 2022–2025</span><span class="rq">engl. Original 2022 · deutsch ab Okt 2023 (Ullstein)</span></div>
+            <div class="wmeta">EN 4 Bände / DE 2 · Benjamin Stevenson · Ullstein (Übers. Robert Brack) · meta-Whodunit (vgl. Knives Out) · <b>gelesen, kein Hörbuch</b></div>
           <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span></div>
             <div class="fame-lab"><b>Bestseller</b> · ~340k Wertungen <span class="hype">📺 TV-Verfilmung · USA-Today-Bestseller</span></div></div>
           <div class="cols" style="margin-top:12px">
@@ -1317,7 +1333,8 @@
         <div class="cover" style="background:linear-gradient(150deg,#7a3b1e,#3d2415 50%,#20242e)"><div class="cm n2"><i>⚡</i><i>🏰</i></div><div><div class="ct">DIE STREITENDEN GÖTTER</div><div class="ca">Torsten Weitze · Universum</div></div></div>
         <div>
           <div class="wh"><span class="t">Die Streitenden Götter</span><span class="verdict">♥ geliebt</span><span class="tag">· Fantasy · Overall = Summe der Reihen</span></div>
-          <div class="wmeta">7 erschienen / ~10 geplant · nur Deutsch (kein Übersetzungs-Warten) · Günter Merlau · Community ⌀ 4,4–4,7/5</div>
+          <div class="rel-kopf">📖 <b>Buch erschienen:</b> 🇩🇪 <b>Juli 2023</b><span>Reihe 2023–2026</span><span class="rq">deutsches Original</span></div>
+            <div class="wmeta">7 erschienen / ~10 geplant · nur Deutsch (kein Übersetzungs-Warten) · Günter Merlau · Community ⌀ 4,4–4,7/5</div>
           <div class="chips">
             <span class="chip pos">＋ Welt stimmig &amp; atmosphärisch</span>
             <span class="chip">− Magiesystem (generisch + zu restriktiv)</span>
@@ -1346,6 +1363,7 @@
           <div class="cover" style="background:linear-gradient(150deg,#4a5a86,#2c3a5c 55%,#20283c)"><div class="cm n3"><i>⚡</i><i>🎓</i><i>🗼</i></div><div><div class="ct">STURMFELS-AKADEMIE</div><div class="ca">Torsten Weitze</div></div></div>
           <div>
             <div class="wh"><span class="t">Sturmfels-Akademie</span><span class="verdict">♥ geliebt</span><span class="tag">· 5/5 abgeschlossen</span></div>
+            <div class="rel-kopf">📖 <b>Buch erschienen:</b> 🇩🇪 <b>Juli 2023</b><span>Reihe 2023–2025</span><span class="rq">deutsches Original</span></div>
             <div class="wmeta">2023–2025 · nur DE</div>
             <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft"></span><span class="ft"></span><span class="ft"></span></div>
               <div class="fame-lab"><b>Szene-bekannt</b> · ~1.680 Wertungen · in DE etabliert, international Nische</div></div>
@@ -1410,6 +1428,7 @@
           <div class="cover" style="background:linear-gradient(150deg,#b07b2e,#7a5019 50%,#3d2f1c)"><div class="cm n3"><i>⚡</i><i>👑</i><i>🏜️</i></div><div><div class="ct">DER PRINZ VON STAUB UND SCHATTEN</div><div class="ca">Torsten Weitze</div></div></div>
           <div>
             <div class="wh"><span class="t">Der Prinz von Staub und Schatten</span><span class="verdict">♥ geliebt</span><span class="tag">· 2/5 · laufend · 🎧 gehört (dt.)</span></div>
+            <div class="rel-kopf">📖 <b>Buch erschienen:</b> 🇩🇪 <b>20.01.2026</b><span>Reihe 2026</span><span class="rq">deutsches Original · Buch vor Hörbuch (23.01.)</span></div>
             <div class="wmeta">seit 2026 · nur DE · Hörbuch Günter Merlau (solo) · <b>beide Bände gehört ✓</b> (Interview 2026-07-20)</div>
             <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft"></span><span class="ft"></span><span class="ft"></span><span class="ft"></span></div>
               <div class="fame-lab"><b>Geheimtipp</b> · ~1.633 Audible-Bew. (Bd. 1) <span class="hype">🚀 Hype: brandneu + Saltatio Mortis</span></div></div>
@@ -1474,7 +1493,8 @@
         <div class="cover" style="background:linear-gradient(150deg,#3a2a5c,#1c1830 55%,#0e1220)"><div class="cm n2"><i>🔮</i><i>🌃</i></div><div><div class="ct">ALEX VERUS</div><div class="ca">Benedict Jacka</div></div></div>
         <div>
           <div class="wh"><span class="t">Alex Verus</span><span class="verdict">♥ geliebt</span><span class="tag">· Urban Fantasy · 🎧 gehört (dt.)</span></div>
-          <div class="wmeta">12 Bände · <b>abgeschlossen</b> · Diviner-Magier in London (Camden) · Hörbuch dt. (Johannes Klaußner, ungekürzt, alle 12) · Übers. Michelle Gyo · Blanvalet / Random House Audio · EN Orbit/Ace (Gildart Jackson) · <span class="subtle">„An Inheritance of Magic" = eigenes Universum</span></div>
+          <div class="rel-kopf">📖 <b>Buch erschienen:</b> 🇩🇪 <b>16.07.2018</b><span>Reihe 2018–2022</span><span class="rq">engl. Original 2012 · deutsch ab 2018 (Blanvalet)</span></div>
+            <div class="wmeta">12 Bände · <b>abgeschlossen</b> · Diviner-Magier in London (Camden) · Hörbuch dt. (Johannes Klaußner, ungekürzt, alle 12) · Übers. Michelle Gyo · Blanvalet / Random House Audio · EN Orbit/Ace (Gildart Jackson) · <span class="subtle">„An Inheritance of Magic" = eigenes Universum</span></div>
           <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span><span class="ft"></span></div>
             <div class="fame-lab"><b>Etabliert</b> · ~32k Wertungen (Bd. 1) <span class="hype">📖 führendes „Dresden-Files-Readalike" (Blurb Jim Butcher)</span></div></div>
           <div class="cols" style="margin-top:12px">
@@ -1556,7 +1576,8 @@
         <div class="cover" style="background:linear-gradient(150deg,#153a2a,#0e2419 55%,#0a1410)"><div class="cm n2"><i>🧙</i><i>💻</i></div><div><div class="ct">MAGIC 2.0</div><div class="ca">Scott Meyer</div></div></div>
         <div>
           <div class="wh"><span class="t">Magic 2.0</span><span class="verdict">♥ geliebt</span><span class="tag">· Humor-Phantastik · 📖 gelesen (dt.+engl.)</span></div>
-          <div class="wmeta">EN „Off to Be the Wizard" · <b>6 Bände, abgeschlossen</b> (47North) · <b>DE nur Bd. 1–2</b> (Luzifer-Verlag / Ronin-Hörbuch, Marco Sven Reinbold) · gelesen: DE Bd. 1–2, <b>EN Bd. 3–4</b> · EN-Hörbuch Luke Daniels (gefeiert, nicht gehört) · <span class="subtle">volle Metadaten im Vault</span></div>
+          <div class="rel-kopf">📖 <b>Buch erschienen:</b> 🇩🇪 <b>15.07.2016</b><span>Reihe 2013–2019</span><span class="rq">engl. Original 2013 · deutsch nur Bd. 1–2 (Luzifer)</span></div>
+            <div class="wmeta">EN „Off to Be the Wizard" · <b>6 Bände, abgeschlossen</b> (47North) · <b>DE nur Bd. 1–2</b> (Luzifer-Verlag / Ronin-Hörbuch, Marco Sven Reinbold) · gelesen: DE Bd. 1–2, <b>EN Bd. 3–4</b> · EN-Hörbuch Luke Daniels (gefeiert, nicht gehört) · <span class="subtle">volle Metadaten im Vault</span></div>
           <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span><span class="ft"></span></div>
             <div class="fame-lab"><b>Etabliert</b> · Geek-Fiction-Kult (Nische) · Bd. 1 ~43k <span class="hype">💻 Self-Pub→47North · EN-Hörbuch Luke Daniels gefeiert</span></div></div>
           <div class="cols" style="margin-top:12px">
@@ -1628,7 +1649,8 @@
         <div class="cover" style="background:linear-gradient(150deg,#7d4a12,#3f2a0e 50%,#1e2430)"><div class="cm n2"><i>🗺️</i><i>⚔️</i></div><div><div class="ct">VULDRANNI (iNCARN8)</div><div class="ca">Eric Ugland · Universum</div></div></div>
         <div>
           <div class="wh"><span class="t">Vuldranni (iNcarn8)</span><span class="verdict lik">♡ gut <span class="subtle" style="font-weight:400">(vorläufig)</span></span><span class="tag">· LitRPG · Overall = Summe der Reihen</span></div>
-          <div class="wmeta"><b>27 Bände in 2 Reihen</b> · seit 2018 · ⚠️ <b>beide Reihen laufen weiter</b> (guten Jungs Bd. 17 und böse Jungs Bd. 12 für 2026 angekündigt) · 🎧 dt. Hörbuch, <b>zwei verschiedene Sprecher</b> · Übers. LMBPN International</div>
+          <div class="rel-kopf">📖 <b>Buch erschienen:</b> 🌍 <b>2018</b><span>Reihe 2018–2025</span><span class="rq">englisches Original · deutsch als Hörbuch ab 2023</span></div>
+            <div class="wmeta"><b>27 Bände in 2 Reihen</b> · seit 2018 · ⚠️ <b>beide Reihen laufen weiter</b> (guten Jungs Bd. 17 und böse Jungs Bd. 12 für 2026 angekündigt) · 🎧 dt. Hörbuch, <b>zwei verschiedene Sprecher</b> · Übers. LMBPN International</div>
           <div class="chips">
             <span class="chip pos">＋ Welt · Geheimnisse · Monster</span>
             <span class="chip pos">＋ Humor &amp; Schnoddrigkeit</span>
@@ -1666,6 +1688,7 @@
           <div class="cover" style="background:linear-gradient(150deg,#2f5f45,#1d3b2c 55%,#14211a)"><div class="cm n3"><i>🗺️</i><i>🛡️</i><i>🏰</i></div><div><div class="ct">DIE GUTEN JUNGS</div><div class="ca">Eric Ugland</div></div></div>
           <div>
             <div class="wh"><span class="t">Die guten Jungs</span><span class="verdict lik">♡ gut <span class="subtle" style="font-weight:400">(vorläufig)</span></span><span class="tag">· 16 Bände erschienen · <b>läuft weiter</b> · 🎧 gehört (dt.) · ▸ bei Bd. 5</span></div>
+            <div class="rel-kopf">📖 <b>Buch erschienen:</b> 🌍 <b>2018</b><span>Reihe 2018–2025</span><span class="rq">englisches Original · deutsch als Hörbuch ab 2023</span></div>
             <div class="wmeta"><b>Montana Coggeshall</b> — ausgebrannter Ex-Soldat, wacht als Tank-Klasse in der Spielwelt Vuldranni auf und baut sich dort etwas Eigenes auf. <span class="subtle">(Klappentext-Ebene · mein Stand: Bd. 5 — zu späteren Bänden steht hier bewusst nichts.)</span>
               EN „The Good Guys" 2018–2025 · Hörbuch dt. <b>Robert Frank</b> (Audible Studios) · Übers. Peter Schürholz · engl. Sprecher Neil Hellegers</div>
             <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span><span class="ft"></span></div>
@@ -1768,6 +1791,7 @@
           <div class="cover" style="background:linear-gradient(150deg,#4a2140,#2b1428 55%,#170d15)"><div class="cm n3"><i>🗺️</i><i>🗡️</i><i>🌙</i></div><div><div class="ct">DIE BÖSEN JUNGS</div><div class="ca">Eric Ugland</div></div></div>
           <div>
             <div class="wh"><span class="t">Die bösen Jungs</span><span class="verdict aus">⛔ Bewertung ausgesetzt</span><span class="tag">· 11 Bände erschienen · <b>läuft weiter</b> · 🎧 läuft (dt.) · ▸ bei Bd. 1</span></div>
+            <div class="rel-kopf">📖 <b>Buch erschienen:</b> 🌍 <b>2019</b><span>Reihe 2019–2024</span><span class="rq">englisches Original · deutsch als Hörbuch ab 2023</span></div>
             <div class="wmeta"><b>Clyde Hatchett</b> — ein New Yorker Trickbetrüger startet in der Reichshauptstadt <b>Glaton</b> neu: dieselbe Welt, die andere Seite der Moral. <span class="subtle">(Klappentext-Ebene — hier steht nichts über den Verlauf.)</span>
               EN „The Bad Guys" 2019–2024 · Hörbuch dt. <b>Thomas Nicolai</b> (Audible Studios) · Übers. Simone Förster</div>
             <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span><span class="ft"></span></div>
@@ -1851,7 +1875,8 @@
         <div class="cover" style="background:linear-gradient(150deg,#2f5a4e,#1c3830 55%,#12211d)"><div class="cm n2"><i>🫖</i><i>🔍</i></div><div><div class="ct">DONNERSTAGS-<br>MORDCLUB</div><div class="ca">Richard Osman</div></div></div>
         <div>
           <div class="wh"><span class="t">Der Donnerstagsmordclub</span><span class="verdict lik">♡ gut</span><span class="tag">· Cosy Crime · 🎧 gehört (dt.)</span></div>
-          <div class="wmeta">EN „Thursday Murder Club" · <b>5 Bände (2020–2025), Bd. 6 für 2027</b> · DE List/Ullstein, Übers. Sabine Roth · Hörbuch Hamburg, <b>Johannes Steck + Beate Himmelstoß</b> (Zwei-Stimmen-Lesung) · <b>alle 5 gehört (dt.)</b> · je Band gekürzt (~10 h) UND ungekürzt (~11,5 h) — welche Fassung, ist offen · <span class="subtle">volle Metadaten (ISBN/Seiten/Hördauer je Band) im Vault</span></div>
+          <div class="rel-kopf">📖 <b>Buch erschienen:</b> 🇩🇪 <b>03.05.2021</b><span>Reihe 2020–2025</span><span class="rq">engl. Original 03.09.2020 · deutsch Buch und Hörbuch zeitgleich</span></div>
+            <div class="wmeta">EN „Thursday Murder Club" · <b>5 Bände (2020–2025), Bd. 6 für 2027</b> · DE List/Ullstein, Übers. Sabine Roth · Hörbuch Hamburg, <b>Johannes Steck + Beate Himmelstoß</b> (Zwei-Stimmen-Lesung) · <b>alle 5 gehört (dt.)</b> · je Band gekürzt (~10 h) UND ungekürzt (~11,5 h) — welche Fassung, ist offen · <span class="subtle">volle Metadaten (ISBN/Seiten/Hördauer je Band) im Vault</span></div>
           <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span></div>
             <div class="fame-lab"><b>Phänomen</b> · ~1,91 Mio. Wertungen <span class="hype">🔥 17+ Mio. Bücher · UK-Weihnachts-Nr.-1 2020 (schlug Obama) · 🎬 Netflix 2025 (Mirren/Brosnan/Kingsley/Imrie)</span></div></div>
           <div class="cols" style="margin-top:12px">
@@ -1919,6 +1944,7 @@
           <div class="cover" style="background:linear-gradient(150deg,#4a4a52,#2c2c34 55%,#1c1c22)"><div class="cm n2"><i>⛏️</i><i>🔒</i></div><div><div class="ct">SURVIVAL QUEST</div><div class="ca">Vasily Mahanenko</div></div></div>
           <div>
             <div class="wh"><span class="t">Survival Quest</span><span class="verdict mix">◐ okay</span><span class="tag">· LitRPG · 🎧 gehört (dt.)</span></div>
+            <div class="rel-kopf">📖 <b>Buch erschienen:</b> 🇩🇪 <b>21.12.2018</b><span>Reihe 2012–2021</span><span class="rq">russisches Original 2012 · englisch 2015 · deutsch ab 2018</span></div>
             <div class="wmeta">7 Bände · <b>abgeschlossen</b> · Hörbuch dt. (Thomas Balou Martin, ungekürzt, Dez 2018–Mai 2022, ~109 h) · Übers. Andreas Kasprzak · Bastei Lübbe/Lübbe Audio · EN „The Way of the Shaman" (Magic Dome, EN-Sprecher Jonathan Yen) · RU ab 2012 · <span class="subtle">volle Metadaten (ISBN/ASIN je Ausgabe) im Vault</span></div>
             <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span><span class="ft"></span></div>
               <div class="fame-lab"><b>Etabliert</b> · ~44k Wertungen · Pionier-/Referenztitel des LitRPG</div></div>
@@ -1989,6 +2015,7 @@
           <div class="cover" style="background:linear-gradient(150deg,#1f3b2e,#14231c 55%,#0e1512)"><div class="cm n2"><i>🏫</i><i>💀</i></div><div><div class="ct">SCHOLOMANCE</div><div class="ca">Naomi Novik</div></div></div>
           <div>
             <div class="wh"><span class="t">Scholomance</span><span class="verdict mix">◐ okay</span><span class="tag">· Fantasy (Dark Academia) · 🎧 gehört (dt.)</span></div>
+            <div class="rel-kopf">📖 <b>Buch erschienen:</b> 🇩🇪 <b>22.03.2021</b><span>Reihe 2020–2022</span><span class="rq">engl. Original 29.09.2020 · deutsch ab März 2021 (cbj)</span></div>
             <div class="wmeta">Trilogie · <b>abgeschlossen</b> · Hörbuch dt. (Leonie Landa, ungekürzt, ~43,5 h) · Übers. Doris Attwood · cbj/Audible · EN Del Rey (Anisha Dadia) · <span class="subtle">volle Metadaten im Vault</span></div>
             <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span></div>
               <div class="fame-lab"><b>Bestseller</b> · NYT-Bestsellertrilogie <span class="hype">🏆 Lodestar Award 2022 (Bd. 2) · Dragon Award 2023 (Bd. 3)</span></div></div>
@@ -2058,6 +2085,7 @@
           <div class="cover" style="background:linear-gradient(150deg,#5a4632,#33261a 55%,#1c140d)"><div class="cm n2"><i>🗡️</i><i>🎭</i></div><div><div class="ct">RIYRIA</div><div class="ca">Michael J. Sullivan</div></div></div>
           <div>
             <div class="wh"><span class="t">Riyria</span><span class="verdict mix">◐ okay</span><span class="tag">· Fantasy (Revelations) · 🎧 gehört (dt.)</span></div>
+            <div class="rel-kopf">📖 <b>Buch erschienen:</b> 🇩🇪 <b>2014</b><span>Reihe 2008–2016</span><span class="rq">engl. Original Okt 2008 · deutsch ab 2014 (Klett-Cotta)</span></div>
             <div class="wmeta">6 Bände · <b>abgeschlossen</b> · Hörbuch dt. (David Nathan, ungekürzt, ~76 h) · Übers. Ströle / Holfelder-von der Tann · Klett-Cotta / der Hörverlag · EN Ridan→Orbit (Tim Gerard Reynolds) · <span class="subtle">volle Metadaten im Vault</span></div>
             <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span></div>
               <div class="fame-lab"><b>Bestseller</b> · ~190k Wertungen <span class="hype">🎧 EN-Kult-Narrator Tim Gerard Reynolds</span></div></div>
@@ -2130,6 +2158,7 @@
           <div class="cover" style="background:linear-gradient(150deg,#2e3a4a,#1c2530 55%,#14181f)"><div class="cm n2"><i>🏛️</i><i>⚗️</i></div><div><div class="ct">HAUS ASHFORD</div><div class="ca">Benedict Jacka</div></div></div>
           <div>
             <div class="wh"><span class="t">Haus Ashford</span><span class="verdict mix">◐ okay</span><span class="tag">· Urban Fantasy · 🎧 gehört (dt.)</span></div>
+            <div class="rel-kopf">📖 <b>Buch erschienen:</b> 🇩🇪 <b>19.03.2025</b><span>Reihe 2023–2025</span><span class="rq">engl. Original 05.10.2023 · deutsch ab März 2025 (Blanvalet)</span></div>
             <div class="wmeta">EN „An Inheritance of Magic" · 3 Bände · <b>laufend</b> (~10 geplant) · Hörbuch dt. (Johannes Klaußner, ungekürzt, Bd. 1 12 h 29) · Übers. Michelle Gyo · Blanvalet / Random House Audio · EN Orbit/Ace (Will Watt) · <span class="subtle">volle Metadaten im Vault</span></div>
             <div class="fame"><div class="fame-tiers"><span class="ft on"></span><span class="ft on"></span><span class="ft on"></span><span class="ft"></span><span class="ft"></span></div>
               <div class="fame-lab"><b>Etabliert</b> · über den Autor <span class="hype">📖 SPIEGEL-Bestsellerautor (Alex Verus) · Reihe selbst noch aufstrebend</span></div></div>

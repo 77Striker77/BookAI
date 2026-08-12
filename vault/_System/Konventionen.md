@@ -271,6 +271,16 @@ verlangt — nach diesen Regeln:
   bewusste Entscheidung und braucht `verdict_status:` (Begründung + Zitat + Datum) sowie
   `wiedervorlage:` (wann nachgefragt wird). **Nie** aus Bequemlichkeit statt eines echten
   Verdikts setzen — und **nie** eine vorläufige Zahl erfinden, wo der Nutzer schweigt.
+- ⭐ **Rangfolge der Erscheinungsdaten (Nutzerregel 2026-08-11).** Wenn ein Datum *das* Datum
+  eines Werks sein soll — Kopfzeile, Regal-Etikett, Uebersicht — gilt:
+  1. **BUCH schlaegt HOERBUCH.** Das Hoerbuchdatum ist ein Detail und gehoert in die Bandliste,
+     nie in die Kopfzeile. Zitat: *„Hoerbuch-Release ist zwar interessant, aber nur ein Detail,
+     der Buchrelease ist wichtiger."*
+  2. **DEUTSCH schlaegt INTERNATIONAL** — aber nur, wenn es die deutsche **Buch**ausgabe
+     wirklich gibt.
+  3. Gibt es keine deutsche Buchausgabe, steht das internationale Datum da, **sichtbar als
+     solches markiert** (🌍) statt stillschweigend geglaettet. Passt zur Regel „nie glaetten".
+  Quelle bleibt `erscheinungsdatum_bd1` / `letztes_datum` der Werk-Notiz.
 - **Keine erfundenen Werte**; `quellen:` pflegen; Unsicheres unter "Offene Fragen".
 - Nach Änderungen: [[Home]] "Zuletzt", betroffene Kontext-/Merkmal-Notizen, [[Profil]].
 
