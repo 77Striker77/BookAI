@@ -404,6 +404,31 @@
   .cover .cm { flex: 1 1 auto; align-items: center; }
   .cover > span:last-child, .cover > div:last-child { flex: 0 0 auto; }
 
+
+  /* ---------- Sammelseite der einfachen Reihenfolgen ---------- */
+  .etab { border: 1px solid var(--line); border-radius: 14px; overflow: hidden;
+    background: var(--card); margin-top: 14px; }
+  .ez { display: grid; grid-template-columns: minmax(0,1.5fr) 76px 1.1fr 1.4fr minmax(0,2.2fr);
+    gap: 12px; align-items: baseline; padding: 11px 16px; border-top: 1px solid var(--line);
+    text-decoration: none; color: inherit; font-size: .86rem; }
+  .ez:first-child { border-top: 0; }
+  a.ez:hover { background: var(--panel); }
+  a.ez:hover .ezt { color: var(--rating-ink); }
+  .ez.kopf { background: var(--panel); font-size: .68rem; text-transform: uppercase;
+    letter-spacing: .06em; color: var(--muted); font-weight: 700; }
+  .ez .ezt { font-weight: 650; }
+  .ez .ezf { font-family: var(--f-data); color: var(--rating-ink); }
+  .ez .ezb, .ez .ezv { color: var(--ink2); font-size: .82rem; }
+  .ez .ezh { color: var(--ink2); font-size: .82rem; }
+  .ez.engpass { box-shadow: inset 3px 0 0 var(--neg); }
+  .ez.ok { box-shadow: inset 3px 0 0 var(--pos); }
+  @media (max-width: 900px){
+    .ez { grid-template-columns: 1fr auto; gap: 3px 10px; padding: 13px 14px; }
+    .ez.kopf { display: none; }
+    .ez .ezf { grid-column: 2; text-align: right; }
+    .ez .ezb, .ez .ezv, .ez .ezh { grid-column: 1 / -1; }
+  }
+
   /* ---------- views ---------- */
   .view { display: none; }
   .view.on { display: block; animation: fade .18s ease; }
@@ -2298,13 +2323,17 @@
       <header class="hero"><h1>Order</h1>
         <p class="lead">Wie die Reihen zusammenhängen und in welcher Reihenfolge sie gehören.
           Das ist die <b>Landkarte</b>, keine Fortschrittsanzeige — sie ändert sich nur, wenn ein
-          neuer Band erscheint. Wo ich gerade stehe, steht unter
+          neuer Band erscheint. <b>Drei Werke sind komplex genug für eine eigene Seite</b>
+          (Vuldranni, Streitende Götter, Riyria); die übrigen acht laufen schlicht 1 → N und stehen
+          zusammen auf einer Seite. Wo ich gerade stehe, steht unter
           <a href="#upnext" data-view="upnext">Up Next</a>.</p></header>
 
       <div class="subnav" style="margin:14px 0 0">
         <button class="fc on" data-tab="rf-vuldranni" aria-pressed="true">🗺️ Vuldranni · 27 Schritte</button>
+        <button class="fc" data-tab="rf-goetter" aria-pressed="false">⚡ Streitende Götter</button>
+        <button class="fc" data-tab="rf-riyria" aria-pressed="false">🗡️ Riyria · Elan</button>
+        <button class="fc" data-tab="rf-einfach" aria-pressed="false">📚 Die einfachen 8</button>
         <button class="fc" data-tab="rf-wichtig" aria-pressed="false">Wo es zählt</button>
-        <button class="fc" data-tab="rf-series" aria-pressed="false">Andere Reihen</button>
         <button class="fc" data-tab="rf-beleg" aria-pressed="false">🔬 Wie gut belegt?</button>
       </div>
       <section class="tabsec" id="rf-vuldranni">
@@ -2406,58 +2435,160 @@
           </div>
         </div>
       </section>
-      <section class="tabsec" id="rf-series">
-        <h2>🏰 Die Streitenden Götter — nacheinander, nicht verschränkt</h2>
-        <div class="panel">
-          <div class="seq" style="margin-top:0">
-            <span class="bk gj ok"><span class="stp">1</span>Sturmfels&nbsp;1–5</span>
-            <span class="arr">→</span>
-            <span class="bk bj ok"><span class="stp">2</span>Prinz&nbsp;1–2</span>
-            <span class="arr">→</span>
-            <span class="bk bj"><span class="stp">3</span>Prinz&nbsp;3–5</span>
-          </div>
-          <p class="etwhy" style="margin-top:10px">Zwei Reihen im selben Epos, aber <b>ohne Verschränkung</b>:
-            <b>Sturmfels-Akademie</b> (5 Bände, abgeschlossen 2023–2025) kommt zuerst, danach
-            <b>Der Prinz von Staub und Schatten</b> (2 von 5 geplant, seit 2026). Der Prinz-Zyklus baut auf dem Sturmfels-Zyklus auf.</p>
-          <div class="asp"><span class="g">✓</span><b>Beides gehört</b> — 7 von ~10 geplanten Bänden.</div>
-          <div class="asp"><span style="color:var(--muted);font-weight:800;margin-right:7px">○</span>Wartet auf Prinz Bd. 3 „Hoffnung" — <b>Termin offen</b> (Titel über die Saltatio-Mortis-EPs gesichert).</div>
-          <div class="asp"><span style="color:var(--muted);font-weight:800;margin-right:7px">○</span>Nur auf Deutsch — kein Übersetzungs-Warten, dafür international eine Nische.</div>
-        </div>
-      
+      <section class="tabsec" id="rf-goetter">
+        <h2>⚡ Die Streitenden Götter — zwei Zyklen, streng nacheinander</h2>
+        <p class="lead">Ein Verbund wie Vuldranni, aber mit dem umgekehrten Prinzip: hier wird
+          <b>nicht verschränkt</b>. Der Prinz-Zyklus setzt den Sturmfels-Zyklus voraus, also läuft
+          man die Etappen der Reihe nach ab. Kein Wahlrecht, aber auch keine Wechselei.</p>
 
-        <h2>🎮 Dungeon Crawler Carl — einfache Bandreihenfolge, komplizierte Verfügbarkeit</h2>
-        <div class="panel">
-          <div class="seq" style="margin-top:0">
-            <span class="bk gj ok"><span class="stp">1</span>Bd.&nbsp;1</span>
-            <span class="bk gj hier"><span class="stp">2</span>Bd.&nbsp;2</span>
-            <span class="bk gj"><span class="stp">3</span>Bd.&nbsp;3</span>
-            <span class="bk gj"><span class="stp">…</span>Bd.&nbsp;4–8</span>
-            <span class="arr">→</span>
-            <span class="bk bj"><span class="stp">9</span>Finale</span>
-          </div>
-          <p class="etwhy" style="margin-top:10px">Reihenfolge trivial (1 → 9). Der Knackpunkt ist die <b>Sprache</b>:
-            englisch sind 8 von 9 Bänden da, auf Deutsch bin ich bei Bd. 2.</p>
-          <div class="asp"><span class="g">✓</span>Dt. Bd. 3 „The Dungeon Anarchist's Cookbook" — <b>Print 18.11.2026</b>, Hörbuch noch ohne Termin.</div>
-          <div class="asp"><span class="g">✓</span>Dt. Bd. 4 — Print <b>24.02.2027</b>, Bd. 5 ~23.06.2027 (Fischer Tor).</div>
-          <div class="asp"><span style="color:var(--muted);font-weight:800;margin-right:7px">○</span>Bd. 9 (Finale, EN) — kein Termin.</div>
-          <p class="note">Genau diese Lücke zwischen den deutschen Bänden ist es, die Empfehlungen füllen sollen.</p>
+        <div class="grid2" style="margin:14px 0 0">
+          <div class="card2"><h3>Die eine Regel</h3>
+            <p style="margin:0;font-size:.9rem"><b>Sturmfels-Akademie komplett zuerst</b> (5 Bände,
+              abgeschlossen), danach <b>Der Prinz von Staub und Schatten</b>. Der Prinz-Zyklus baut auf
+              dem Sturmfels-Zyklus auf — andersherum verliert man die Grundlage.</p></div>
+          <div class="card2"><h3>Legende &amp; Stand</h3>
+            <div class="seq" style="margin:0 0 8px">
+              <span class="bk ok">SA n</span><span class="subtle" style="font-size:.82rem">= Sturmfels-Akademie</span>
+              <span class="bk bj">PS n</span><span class="subtle" style="font-size:.82rem">= Prinz von Staub und Schatten</span></div>
+            <p class="subtle" style="margin:0;font-size:.84rem">Mein Stand: Sturmfels <b>5/5 ✅</b> ·
+              Prinz <b>2/5</b> — beides deutsch gehört, Sprecher <b>Günter Merlau</b>.
+              Deutsches Original, daher <b>keine</b> Übersetzungs­lücke.</p></div>
         </div>
-      
 
-        <h2>Alle übrigen Reihen — Bandreihenfolge, ohne Fallstricke</h2>
-        <div class="panel" style="padding:0;overflow:hidden">
-          <div class="rf-tab">
-            <div class="rf-row rf-head"><span>Reihe</span><span>Ablauf</span><span>Bände</span><span>Auf Deutsch</span><span>Hinweis</span></div>
-            <div class="rf-row"><span><b>Alex Verus</b></span><span>1 → 12</span><span>12 · fertig</span><span>🎧 vollständig</span><span>⚠️ <b>Haus Ashford ist NICHT dieselbe Welt</b> — gleicher Autor, eigenes Universum</span></div>
-            <div class="rf-row"><span><b>Haus Ashford</b></span><span>1 → 3 (läuft)</span><span>3 von ~10</span><span>🎧 vollständig</span><span>Bd. 4 ohne Titel/Termin</span></div>
-            <div class="rf-row"><span><b>Der Donnerstagsmordclub</b></span><span>1 → 5</span><span>5 · Bd. 6 für 2027</span><span>🎧 vollständig</span><span>„We Solve Murders" ist eine eigene Reihe — kein Muss</span></div>
-            <div class="rf-row"><span><b>Die mörderischen Cunninghams</b></span><span>1 → 4</span><span>4 EN · <b>2 DE</b></span><span>📖 nur Bd. 1–2</span><span>⚠️ dt. Fortsetzung nicht angekündigt</span></div>
-            <div class="rf-row"><span><b>Magic 2.0</b></span><span>1 → 6</span><span>6 EN · <b>2 DE</b></span><span>📖 nur Bd. 1–2</span><span>⚠️ dt. Übersetzung eingestellt — Rest nur englisch</span></div>
-            <div class="rf-row"><span><b>Survival Quest</b></span><span>1 → 7</span><span>7 · fertig</span><span>🎧 vollständig</span><span>Spin-off „The Bard from Barliona" optional</span></div>
-            <div class="rf-row"><span><b>Scholomance</b></span><span>1 → 3</span><span>3 · fertig</span><span>🎧 vollständig</span><span>—</span></div>
-            <div class="rf-row"><span><b>Riyria</b> (Revelations)</span><span>1 → 6</span><span>6 · fertig</span><span>🎧 vollständig</span><span>⚠️ Prequel „Riyria Chronicles" <b>nicht</b> vorher</span></div>
+        <div class="route" style="margin-top:14px">
+          <div class="et">
+            <div class="etn">Etappe 1<b>Der Sturmfels-Zyklus</b>Schritt 1–5 · 2023–2025
+              <span class="freetag">✅ gehört</span></div>
+            <div>
+              <div class="seq">
+                <span class="bk ok"><span class="stp">1</span>SA 1</span><span class="arr">→</span>
+                <span class="bk ok"><span class="stp">2</span>SA 2</span><span class="arr">→</span>
+                <span class="bk ok"><span class="stp">3</span>SA 3</span><span class="arr">→</span>
+                <span class="bk ok"><span class="stp">4</span>SA 4</span><span class="arr">→</span>
+                <span class="bk ok"><span class="stp">5</span>SA 5</span>
+              </div>
+              <p class="etwhy">Fünf Bände, abgeschlossen. Hördauern 16 h 58 bis 19 h 03, zusammen
+                rund <b>90 h 50</b> — mit ⌀ 18 h 10 je Band deutlich über meiner ~20-h-Faustregel
+                für Reihen, aber hier ausdrücklich kein Problem gewesen.</p>
+            </div>
+          </div>
+          <div class="et hard">
+            <div class="etn">Etappe 2<b>Der Prinz-Zyklus</b>Schritt 6–10 · seit 2025
+              <span class="freetag">▶️ bei Bd. 2</span></div>
+            <div>
+              <div class="seq">
+                <span class="bk hier"><span class="stp">6</span>PS 1</span><span class="arr">→</span>
+                <span class="bk hier"><span class="stp">7</span>PS 2</span><span class="arr">→</span>
+                <span class="bk bj"><span class="stp">8</span>PS 3</span><span class="arr">→</span>
+                <span class="bk bj"><span class="stp">9</span>PS 4</span><span class="arr">→</span>
+                <span class="bk bj"><span class="stp">10</span>PS 5</span>
+              </div>
+              <p class="etwhy"><b>Setzt Sturmfels voraus.</b> Zwei von fünf geplanten Bänden sind
+                erschienen und gehört; Band 3 („Hoffnung") ist angekündigt, <b>Termin offen ⚠️</b>.
+                Das ist die einzige Stelle dieses Verbunds, an der ich warten muss.</p>
+            </div>
           </div>
         </div>
+        <p class="note">Quelle: <b>Reihenfolgen-MOC</b> und die beiden Werk-Notizen im Vault.
+          Konfidenz <b>hoch</b> — deutsches Original, ein Verlag, ein Sprecher, keine
+          Übersetzungsreihenfolge, die abweichen könnte.</p>
+        <a class="biglink" href="#w-goetter" data-view="w-goetter">🏰 Zum Universum mit allen Bandwertungen →</a>
+      </section>
+      <section class="tabsec" id="rf-riyria">
+        <h2>🗡️ Elan — vier Reihen über 3000 Jahre, und eine Prequel-Falle</h2>
+        <p class="lead">Der komplizierteste Fall der Bibliothek, obwohl das <b>gelesene</b> Werk selbst
+          schlicht 1 → 6 läuft. Die Falle liegt daneben: Michael J. Sullivan hat in derselben Welt
+          <b>vier</b> Reihen geschrieben, und die chronologische Reihenfolge ist <b>nicht</b> die
+          empfohlene.</p>
+
+        <div class="grid2" style="margin:14px 0 0">
+          <div class="card2"><h3>⚠️ Die Falle</h3>
+            <p style="margin:0;font-size:.9rem">Chronologisch beginnt Elan mit „Legends of the First
+              Empire". Wer dort anfängt, nimmt Riyria seinen <b>Mythos-Aha-Effekt</b> — die Revelations
+              leben davon, dass man die Frühzeit nur als Sage kennt. <b>„The Rise and Fall" spoilert
+              zusätzlich „Legends".</b></p></div>
+          <div class="card2"><h3>Die Empfehlung des Autors</h3>
+            <p style="margin:0;font-size:.9rem"><b>Publikationsreihenfolge.</b> Also: Revelations zuerst,
+              dann Chronicles, dann Legends, dann Rise and Fall. Genau so habe ich es (unabsichtlich)
+              gemacht — <b>Revelations 1–6 gehört ✅</b>, der Rest ist offen.</p></div>
+        </div>
+
+        <div class="route" style="margin-top:14px">
+          <div class="et here">
+            <div class="etn">Schritt 1<b>Riyria Revelations</b>6 Bände · 2014–2016 dt.
+              <span class="freetag">✅ komplett gehört</span></div>
+            <div>
+              <div class="seq">
+                <span class="bk ok"><span class="stp">1</span>R 1</span><span class="arr">→</span>
+                <span class="bk ok"><span class="stp">2</span>R 2</span><span class="arr">→</span>
+                <span class="bk ok"><span class="stp">3</span>R 3</span><span class="arr">→</span>
+                <span class="bk ok"><span class="stp">4</span>R 4</span><span class="arr">→</span>
+                <span class="bk ok"><span class="stp">5</span>R 5</span><span class="arr">→</span>
+                <span class="bk ok"><span class="stp">6</span>R 6</span>
+              </div>
+              <p class="etwhy"><b>Der richtige Einstieg</b> — „Der Thron von Melengar". Deutsch
+                vollständig, Klett-Cotta / der Hörverlag, durchgängig <b>David Nathan</b>.
+                Auf Englisch gibt es dieselben sechs Bände als <b>drei Sammelbände</b> (Orbit);
+                das EN-Hörbuch existiert nur in dieser Dreier-Fassung.</p>
+            </div>
+          </div>
+          <div class="et">
+            <div class="etn">Schritt 2<b>Riyria Chronicles</b>5 von 8 geplant · Prequel
+              <span class="freetag">offen</span></div>
+            <div>
+              <div class="seq"><span class="bk bj">C 1</span><span class="arr">→</span><span class="bk bj">C 5</span>
+                <span class="freetag">🇩🇪 dt. verfügbar</span></div>
+              <p class="etwhy">Unmittelbares Prequel, deutsch erhältlich — Sprecher dort ist
+                <b>Robert Frank</b> (derselbe wie bei den guten Jungs). <b>Nach</b> den Revelations,
+                nicht davor. 🔒 Zum Inhalt steht hier nichts: nie gehört.</p>
+            </div>
+          </div>
+          <div class="et">
+            <div class="etn">Schritt 3<b>Legends of the First Empire</b>6 Bände · Frühzeit
+              <span class="freetag">offen</span></div>
+            <div>
+              <div class="seq"><span class="bk bj">L 1</span><span class="arr">→</span><span class="bk bj">L 6</span>
+                <span class="freetag">🇩🇪 5 von 6 übersetzt</span></div>
+              <p class="etwhy">Spielt rund 3000 Jahre früher — die Sagen, auf die sich Riyria bezieht.
+                Deshalb <b>nach</b> Riyria. 🔒 Klappentext-Ebene.</p>
+            </div>
+          </div>
+          <div class="et">
+            <div class="etn">Schritt 4<b>The Rise and Fall</b>3 Bände · ~1000 J. vor Riyria
+              <span class="freetag">⚠️ nur Englisch</span></div>
+            <div>
+              <div class="seq"><span class="bk bj">RF 1</span><span class="arr">→</span><span class="bk bj">RF 3</span>
+                <span class="freetag">⚠️ keine dt. Ausgabe</span></div>
+              <p class="etwhy"><b>Zuletzt</b> — diese Reihe <b>spoilert „Legends"</b>. Für mich ohnehin
+                zweitrangig: es gibt keine deutsche Ausgabe, und Deutsch ist meine klare Präferenz.</p>
+            </div>
+          </div>
+        </div>
+        <p class="note">Quelle: Werk-Notiz „Riyria“ im Vault (Universum &amp; Reihenfolge) plus das
+          Reihenfolgen-MOC. Konfidenz <b>hoch</b> für die Empfehlung (Autoren-Statement),
+          <b>mittel</b> für den deutschen Übersetzungsstand der Nebenreihen.</p>
+        <a class="biglink" href="#w-riyria" data-view="w-riyria">🗡️ Zum Werk mit allen Bandwertungen →</a>
+      </section>
+      <section class="tabsec" id="rf-einfach">
+        <h2>📚 Die einfachen Fälle — acht Reihen, alle 1 → N</h2>
+        <p class="lead">Hier gibt es nichts zu entscheiden: Band 1, dann Band 2, und so weiter.
+          Kein Verbund, keine Prequels, keine Crossover. <b>Wo es trotzdem klemmt, klemmt es an der
+          deutschen Ausgabe</b> — das ist eine Verfügbarkeits-, keine Reihenfolge-Frage.</p>
+        <div class="etab">
+          <div class="ez kopf"><span class="ezt">Reihe</span><span class="ezf">Ablauf</span>
+            <span class="ezb">Bände</span><span class="ezv">Deutsche Ausgabe</span><span class="ezh">Was zu beachten ist</span></div>
+          <a class="ez engpass" href="#w-dcc" data-view="w-dcc"><span class="ezt">Dungeon Crawler Carl</span><span class="ezf tnum">1 → 9</span><span class="ezb">8 von 9 erschienen</span><span class="ezv">🎧 dt. bis Bd. 2 · dt. Bd. 3 am 18.11.2026</span><span class="ezh">Reihenfolge trivial, <b>die Übersetzung ist der Engpass</b> — englisch steht Bd. 8, deutsch Bd. 2.</span></a>
+          <a class="ez ok" href="#w-alexverus" data-view="w-alexverus"><span class="ezt">Alex Verus</span><span class="ezf tnum">1 → 12</span><span class="ezb">12, abgeschlossen</span><span class="ezv">🎧 vollständig deutsch</span><span class="ezh">Sauber linear, komplett gehört. ⚠️ <b>Haus Ashford ist NICHT dieselbe Welt</b> — gleicher Autor, eigenes Universum.</span></a>
+          <a class="ez ok" href="#w-ashford" data-view="w-ashford"><span class="ezt">Haus Ashford</span><span class="ezf tnum">1 → 3</span><span class="ezb">3 von ~10 geplant</span><span class="ezv">🎧 vollständig deutsch</span><span class="ezh">Eigenes Universum von Benedict Jacka, läuft weiter. Keine Verbindung zu Alex Verus.</span></a>
+          <a class="ez ok" href="#w-mordclub" data-view="w-mordclub"><span class="ezt">Der Donnerstagsmordclub</span><span class="ezf tnum">1 → 5</span><span class="ezb">5, Bd. 6 für 2027</span><span class="ezv">🎧 vollständig deutsch</span><span class="ezh">„We Solve Murders“ ist eine <b>eigene</b> Reihe desselben Autors — kein Muss, keine Reihenfolge-Pflicht.</span></a>
+          <a class="ez engpass" href="#w-cunninghams" data-view="w-cunninghams"><span class="ezt">Die mörderischen Cunninghams</span><span class="ezf tnum">1 → 4</span><span class="ezb">4 englisch / <b>2 deutsch</b></span><span class="ezv">📖 deutsch nur Bd. 1–2</span><span class="ezh">Reihenfolge trivial, aber die deutsche Fortsetzung ist <b>offen ⚠️</b> — Bd. 3 nicht angekündigt.</span></a>
+          <a class="ez engpass" href="#w-magic20" data-view="w-magic20"><span class="ezt">Magic 2.0</span><span class="ezf tnum">1 → 6</span><span class="ezb">6 englisch / <b>2 deutsch</b></span><span class="ezv">📖 deutsch nach Bd. 2 eingestellt</span><span class="ezh">Der härteste Verfügbarkeits-Fall: eine <b>geliebte</b> Reihe, die auf Deutsch schlicht aufhört.</span></a>
+          <a class="ez ok" href="#w-survival" data-view="w-survival"><span class="ezt">Survival Quest</span><span class="ezf tnum">1 → 7</span><span class="ezb">7, abgeschlossen</span><span class="ezv">🎧 vollständig deutsch</span><span class="ezh">Spin-off „The Bard from Barliona“ ist optional und nicht Teil der Reihenfolge.</span></a>
+          <a class="ez ok" href="#w-scholomance" data-view="w-scholomance"><span class="ezt">Scholomance</span><span class="ezf tnum">1 → 3</span><span class="ezb">3, abgeschlossen</span><span class="ezv">🎧 vollständig deutsch</span><span class="ezh">Trilogie, linear, nichts zu beachten.</span></a>
+        </div>
+        <p class="note">Drei dieser acht sind <b>rot markiert</b>: dort existiert die richtige
+          Reihenfolge, aber die deutsche Ausgabe kommt nicht hinterher.</p>
+        <a class="biglink" href="#rf-engpass" data-view="upnext" data-tab="rf-engpass">⚠️ Was das für meinen nächsten Band heißt →</a>
       </section>
       <section class="tabsec" id="rf-beleg">
         <h2>🔬 Wie gut ist diese Reihenfolge eigentlich belegt?</h2>

@@ -69,6 +69,23 @@ Wiederkehrendes Muster in dieser Bibliothek: die *richtige* Reihenfolge existier
 Das ist für den Nutzer besonders relevant, weil **Deutsch stark bevorzugt** ist ([[Profil]]):
 Englisch-Müdigkeit hat bei [[Magic 2.0]] eine *geliebte* Reihe gestoppt.
 
+## Projektion ins Artefakt (Stand 2026-08-11)
+
+Nutzerwunsch: *„ich will so eine Order genauso ausführlich wie Vuldranni zu jeder Buchreihe.
+Bei den einfachen reicht eine Zusammenfassungsseite wo alle einfachen vorkommen, zu den
+komplexeren jeweils eigene Seiten."* Die Einteilung folgt der Typen-Tabelle oben:
+
+| Artefakt-Seite | Werke | warum eigene Seite |
+| --- | --- | --- |
+| 🗺️ Vuldranni · 27 Schritte | [[Die guten Jungs]] + [[Die bösen Jungs]] | Verbund, verschränkt, **harte Regel** |
+| ⚡ Streitende Götter | [[Sturmfels-Akademie]] + [[Der Prinz von Staub und Schatten]] | Verbund, streng nacheinander |
+| 🗡️ Riyria · Elan | [[Riyria]] + 3 unerlebte Reihen | Chronologie-Falle, 4 Reihen über ~3000 Jahre |
+| 📚 Die einfachen 8 | DCC · Alex Verus · Haus Ashford · Donnerstagsmordclub · Cunninghams · Magic 2.0 · Survival Quest · Scholomance | schlicht 1 → N; Engpässe sind Verfügbarkeit, nicht Reihenfolge |
+
+**Regel für neue Werke:** eigene Seite nur bei Verbund- oder Chronologie-Reihenfolge.
+Bandreihenfolge → Zeile auf der Sammelseite. Ein Verfügbarkeits-Engpass allein macht ein Werk
+**nicht** komplex — er gehört nach „Up Next → Verfügbarkeit".
+
 ## Offene Punkte
 
 - Aktueller dt. **Hörbuch**-Stand von [[Die guten Jungs]] / [[Die bösen Jungs]] (belegt: Bd. 9 / Bd. 8).
