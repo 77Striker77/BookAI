@@ -9,8 +9,8 @@
      Ohne diese Marker RAET mess.sh den Grund, gegen den es den Kontrast misst.
      Sie muessen mitgezogen werden, wenn --bg / --panel geaendert werden. */
   /* @artefakt */
-  /* @grund-hell: #f4ece0 */
-  /* @grund-dunkel: #16110d */
+  /* @grund-hell: #eaeeec */
+  /* @grund-dunkel: #101614 */
   /* @serien-hell: #1d5694,#2b6b34,#a83b2a,#8a5e10 */
   /* @serien-dunkel: #7ab0f0,#63c47c,#f0837a,#e6b95c */
 
@@ -25,42 +25,43 @@
 
   :root {
     color-scheme: light;
-    /* Tagsüber im Laden: Papier, Leinen, Nussholz. */
-    --bg:#f4ece0; --panel:#fbf6ee; --card:#fffdf9;
-    --ink:#241a12; --ink2:#54463a; --muted:#6b5c4d; --line:#e0d3c0; --track:#e9dfd0;
-    --holz:#8a6a45; --holz-tief:#5d452b; --lampe:#f0b350; --lampe-weich:#f7e3bd;
+    /* Tagsüber im Laden: heller, ruhiger Grund ohne Braunstich; die Regale
+       sind gestrichen statt aus Nussholz (Nutzerregel 2026-08-11: kein Braun). */
+    --bg:#eaeeec; --panel:#f6f8f7; --card:#ffffff;
+    --ink:#141a18; --ink2:#465049; --muted:#5c6660; --line:#d4dbd7; --track:#dee4e1;
+    --regal:#2f4f43; --regal-tief:#1f382f; --lampe:#f2c264; --lampe-weich:#eef2ea;
     --rating:#1d5694; --rating-soft:#dbe6f4; --rating-ink:#1d5694;
     --pos:#2b6b34; --pos-soft:#dcecd9; --pos-ink:#255c2d;
     --neg:#a83b2a; --neg-soft:#f4dcd5; --neg-ink:#9a3526;
     --fame:#8a5e10; --fame-soft:#f2e4c5; --fame-ink:#79510c;
-    --de:#1d5694; --en:#6d3fa8; --navbg:rgba(251,246,238,.93);
-    --schatten:0 1px 2px rgba(60,40,20,.09), 0 10px 26px -14px rgba(60,40,20,.32);
-    --schatten-buch:0 1px 1px rgba(40,25,10,.30), 0 8px 14px -8px rgba(40,25,10,.55);
+    --de:#1d5694; --en:#6d3fa8; --navbg:rgba(246,248,247,.93);
+    --schatten:0 1px 2px rgba(20,32,28,.08), 0 10px 26px -14px rgba(20,32,28,.30);
+    --schatten-buch:0 1px 1px rgba(14,24,20,.28), 0 8px 14px -8px rgba(14,24,20,.52);
   }
   @media (prefers-color-scheme: dark){ :root:where(:not([data-theme="light"])){
     color-scheme: dark;
-    /* Abends im Laden: Lampe an, Holz dunkel, Papier warm. */
-    --bg:#16110d; --panel:#1f1811; --card:#271f16;
-    --ink:#f3e8d9; --ink2:#cbb9a4; --muted:#a08e79; --line:#3a2e22; --track:#31271c;
-    --holz:#9d7a4f; --holz-tief:#3a2c1c; --lampe:#f5c169; --lampe-weich:#3d2f18;
+    /* Abends im Laden: Licht an, Regale dunkelgrün, kein Braun. */
+    --bg:#101614; --panel:#18201d; --card:#1e2723;
+    --ink:#e9efeb; --ink2:#b3bfb8; --muted:#8b9791; --line:#2c3733; --track:#26302c;
+    --regal:#5c8f78; --regal-tief:#1c2b25; --lampe:#f5cf7d; --lampe-weich:#2a3830;
     --rating:#7ab0f0; --rating-soft:#1c2c42; --rating-ink:#7ab0f0;
     --pos:#63c47c; --pos-soft:#1a3320; --pos-ink:#63c47c;
     --neg:#f0837a; --neg-soft:#3c211c; --neg-ink:#f0837a;
     --fame:#e6b95c; --fame-soft:#382a12; --fame-ink:#e6b95c;
-    --de:#7ab0f0; --en:#c2a0ec; --navbg:rgba(31,24,17,.93);
+    --de:#7ab0f0; --en:#c2a0ec; --navbg:rgba(24,32,29,.93);
     --schatten:0 1px 2px rgba(0,0,0,.55), 0 12px 30px -16px rgba(0,0,0,.85);
     --schatten-buch:0 1px 1px rgba(0,0,0,.6), 0 10px 18px -8px rgba(0,0,0,.9);
   }}
   :root[data-theme="dark"]{
     color-scheme: dark;
-    --bg:#16110d; --panel:#1f1811; --card:#271f16;
-    --ink:#f3e8d9; --ink2:#cbb9a4; --muted:#a08e79; --line:#3a2e22; --track:#31271c;
-    --holz:#9d7a4f; --holz-tief:#3a2c1c; --lampe:#f5c169; --lampe-weich:#3d2f18;
+    --bg:#101614; --panel:#18201d; --card:#1e2723;
+    --ink:#e9efeb; --ink2:#b3bfb8; --muted:#8b9791; --line:#2c3733; --track:#26302c;
+    --regal:#5c8f78; --regal-tief:#1c2b25; --lampe:#f5cf7d; --lampe-weich:#2a3830;
     --rating:#7ab0f0; --rating-soft:#1c2c42; --rating-ink:#7ab0f0;
     --pos:#63c47c; --pos-soft:#1a3320; --pos-ink:#63c47c;
     --neg:#f0837a; --neg-soft:#3c211c; --neg-ink:#f0837a;
     --fame:#e6b95c; --fame-soft:#382a12; --fame-ink:#e6b95c;
-    --de:#7ab0f0; --en:#c2a0ec; --navbg:rgba(31,24,17,.93);
+    --de:#7ab0f0; --en:#c2a0ec; --navbg:rgba(24,32,29,.93);
     --schatten:0 1px 2px rgba(0,0,0,.55), 0 12px 30px -16px rgba(0,0,0,.85);
     --schatten-buch:0 1px 1px rgba(0,0,0,.6), 0 10px 18px -8px rgba(0,0,0,.9);
   }
@@ -91,8 +92,8 @@
     content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 0;
     background:
       radial-gradient(120% 70% at 50% -10%, color-mix(in srgb, var(--lampe) 16%, transparent), transparent 62%),
-      repeating-linear-gradient(0deg, rgba(120,90,50,.035) 0 1px, transparent 1px 3px),
-      repeating-linear-gradient(90deg, rgba(120,90,50,.03) 0 1px, transparent 1px 4px);
+      repeating-linear-gradient(0deg, rgba(40,70,60,.032) 0 1px, transparent 1px 3px),
+      repeating-linear-gradient(90deg, rgba(40,70,60,.026) 0 1px, transparent 1px 4px);
   }
   .page > * { position: relative; z-index: 1; }
   .tnum, .zahl, .band .rv, .brow .meta, .brow .bn2, .ixb, .ixw {
@@ -135,8 +136,8 @@
       color-mix(in srgb, var(--lampe) 30%, #fff) 66deg,
       transparent 70deg,
       transparent 200deg,
-      color-mix(in srgb, var(--holz) 40%, transparent) 244deg,
-      color-mix(in srgb, var(--holz) 75%, transparent) 258deg,
+      color-mix(in srgb, var(--regal) 45%, transparent) 244deg,
+      color-mix(in srgb, var(--regal) 80%, transparent) 258deg,
       transparent 264deg,
       transparent 360deg);
     animation: lampendreh 14s linear infinite;
@@ -174,7 +175,7 @@
     line-height: 1.2; margin: 0 0 2px; }
   .lauft .ws { font-size: .84rem; color: var(--ink2); margin: 0 0 10px; }
   .fortschritt { height: 7px; border-radius: 999px; background: var(--track); overflow: hidden;
-    box-shadow: inset 0 1px 2px rgba(60,40,20,.18); }
+    box-shadow: inset 0 1px 2px rgba(20,32,28,.16); }
   .fortschritt > span { display: block; height: 100%; border-radius: 999px;
     background: linear-gradient(90deg, var(--rating), color-mix(in srgb, var(--rating) 70%, var(--lampe))); }
   .fortschritt-lab { font-family: var(--f-data); font-size: .72rem; color: var(--muted); padding-top: 5px; }
@@ -183,12 +184,14 @@
   .regalbrett { margin: 0 0 26px; }
   .bretter { display: flex; flex-wrap: wrap; gap: 14px 16px; align-items: flex-end;
     padding: 6px 14px 0; }
+  /* Gestrichenes Regalbrett: heller Lichtkante oben, Korpus, Schattenkante —
+     dieselbe Tiefe wie vorher, nur ohne Holzton. */
   .brett-holz { height: 12px; border-radius: 2px 2px 5px 5px; margin: 0 4px 26px;
     background: linear-gradient(180deg,
-      color-mix(in srgb, var(--holz) 82%, #fff) 0 2px,
-      var(--holz) 2px 7px,
-      var(--holz-tief) 7px 100%);
-    box-shadow: 0 5px 12px -4px rgba(60,40,20,.5); }
+      color-mix(in srgb, var(--regal) 72%, #fff) 0 2px,
+      var(--regal) 2px 7px,
+      var(--regal-tief) 7px 100%);
+    box-shadow: 0 5px 12px -4px rgba(20,32,28,.45); }
   .buch { position: relative; text-decoration: none; color: inherit; width: 92px;
     display: flex; flex-direction: column; align-items: center; }
   .buch .cover { width: 92px; height: 134px; padding: 8px 7px 8px 11px;
@@ -202,7 +205,7 @@
   .buch .cover .cm { font-size: 17px; }
   .buch:hover .cover, .buch:focus-visible .cover {
     transform: translateY(-9px) rotate(-1.5deg);
-    box-shadow: 0 4px 4px rgba(40,25,10,.3), 0 20px 26px -12px rgba(40,25,10,.7); }
+    box-shadow: 0 4px 4px rgba(14,24,20,.28), 0 20px 26px -12px rgba(14,24,20,.66); }
   @media (prefers-reduced-motion: reduce){ .buch:hover .cover, .buch:focus-visible .cover { transform: none; } }
   .buch .bt { display: block; font-size: .74rem; font-weight: 650; line-height: 1.25;
     text-align: center; padding: 7px 0 2px; color: var(--ink); }
@@ -210,7 +213,7 @@
   .buch .bm { font-family: var(--f-data); font-size: .68rem; color: var(--muted); }
   .buch .bv { position: absolute; top: -6px; right: 0; width: 21px; height: 21px; z-index: 2;
     border-radius: 50%; display: grid; place-items: center; font-size: .68rem; font-weight: 800;
-    border: 1.5px solid var(--card); box-shadow: 0 1px 3px rgba(40,25,10,.4); }
+    border: 1.5px solid var(--card); box-shadow: 0 1px 3px rgba(14,24,20,.38); }
   .bv.lov { background: var(--pos); color: #fff; } .bv.lik { background: var(--rating); color: #fff; }
   .bv.mix { background: var(--track); color: var(--ink2); } .bv.aus { background: var(--muted); color: #fff; }
   /* Lesestand als Streifen unten am Buchschnitt — Grafik statt Zahl im Fließtext */
@@ -240,7 +243,7 @@
   .pz .pl { text-align: right; color: var(--ink2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .pz.stark .pl { color: var(--ink); font-weight: 650; }
   .pbar { position: relative; height: 13px; background: var(--track); border-radius: 3px;
-    box-shadow: inset 0 1px 2px rgba(60,40,20,.15); }
+    box-shadow: inset 0 1px 2px rgba(20,32,28,.14); }
   .pbar::before { content: ""; position: absolute; left: 50%; top: -2px; bottom: -2px;
     width: 1px; background: var(--line); }
   .pbar i { position: absolute; top: 2px; bottom: 2px; border-radius: 2px; }
