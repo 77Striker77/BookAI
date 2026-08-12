@@ -189,10 +189,11 @@
   /* Lange Titel liefen auf 92px Ruecken aus dem Cover heraus ("DIE
      MOERDERISCH…"). Kleiner setzen, trennen lassen, notfalls nach drei
      Zeilen sauber abschneiden statt mitten im Wort. */
-  .buch .cover .ct { font-size: .55rem; line-height: 1.14; hyphens: auto;
-    overflow-wrap: anywhere; display: -webkit-box; -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical; overflow: hidden; }
-  .buch .cover .cm { font-size: 17px; }
+  /* Im Regal traegt der Deckel nur das Motiv — der Titel steht vollstaendig
+     auf dem Etikett unter dem Brett. */
+  .buch .cover .ct { display: none; }
+  .buch .cover { padding: 6px; }
+  .buch .cover .cm { padding: 0; max-height: 100%; }
   .buch:hover .cover, .buch:focus-visible .cover {
     transform: translateY(-9px) rotate(-1.5deg);
     box-shadow: 0 4px 4px rgba(14,24,20,.28), 0 20px 26px -12px rgba(14,24,20,.66); }
@@ -362,6 +363,31 @@
     font-size: .68rem; color: #cfdcd6; padding-top: 2px; }
   @media (max-width: 620px){ .etikett, .etikett .bs { width: 74px; flex-basis: 74px; } }
 
+
+  /* ---------- Embleme auf dem Einband ----------
+     Ein Buchdeckel trägt sein Motiv groß. Die Größe richtet sich nach der
+     Anzahl: ein einzelnes Emblem darf das Feld füllen, vier teilen es sich.
+     Reihen desselben Universums führen dasselbe erste Zeichen — daran
+     erkennt man die Zusammengehörigkeit, ohne den Titel zu lesen. */
+  .cover .cm { display: flex; flex-wrap: wrap; align-content: center; justify-content: center;
+    gap: 2px 4px; line-height: 1; filter: drop-shadow(0 2px 3px rgba(0,0,0,.55));
+    padding: 4px 0 0; }
+  .cover .cm i { font-style: normal; display: block; }
+  .cover .cm.n1 i { font-size: 2.9em; }
+  .cover .cm.n2 i { font-size: 2.1em; }
+  .cover .cm.n3 i { font-size: 1.7em; }
+  .cover .cm.n3 i:first-child { font-size: 2.2em; flex-basis: 100%; text-align: center; }
+  .cover .cm.n4 i { font-size: 1.5em; flex-basis: calc(50% - 4px); text-align: center; }
+  /* Grundgröße je Cover-Größe — die em-Werte oben skalieren daran mit. */
+  /* Auf den grossen Covern schob das Emblem den Titel aus dem Deckel.
+     Das Motiv bekommt den freien Raum, der Titel behaelt seinen. */
+  .cover .cm { min-height: 0; overflow: hidden; max-height: 62%; }
+  .cover.sm .cm { font-size: 9px; }
+  /* Das Motiv nimmt die obere Hälfte, der Titel bleibt unten stehen. */
+  .cover { justify-content: flex-start; }
+  .cover .cm { flex: 1 1 auto; align-items: center; }
+  .cover > span:last-child, .cover > div:last-child { flex: 0 0 auto; }
+
   /* ---------- views ---------- */
   .view { display: none; }
   .view.on { display: block; animation: fade .18s ease; }
@@ -419,7 +445,11 @@
   .cover.sm { width: 60px; height: 88px; padding: 7px 6px 7px 10px; }
   .cover::before { content:""; position:absolute; left:0; top:0; bottom:0; width:6px; background: linear-gradient(90deg, rgba(0,0,0,.35), rgba(0,0,0,0)); }
   .cover::after { content:""; position:absolute; inset:0; background: radial-gradient(120% 60% at 20% 0%, rgba(255,255,255,.14), transparent 60%); }
-  .cover .cm { font-size: 21px; line-height: 1; filter: drop-shadow(0 1px 2px rgba(0,0,0,.5)); }
+  /* Grundgroesse der Embleme. Steht hier, weil diese Regel im Stylesheet
+     spaeter kommt als der Emblem-Block weiter oben und ihn sonst schlaegt. */
+  .cover .cm { font-size: 13px; line-height: 1; }
+  .buch .cover .cm { font-size: 16px; }
+  .cover.sm .cm { font-size: 8.5px; }
   .cover.sm .cm { font-size: 15px; }
   .cover .ct { font-family: var(--f-display); font-size: .72rem; font-weight: 800; line-height: 1.16; text-shadow: 0 1px 2px rgba(0,0,0,.45); position: relative; }
   .cover.sm .ct { font-size: .5rem; }
@@ -711,7 +741,7 @@
           <span class="lampe-ring" aria-hidden="true"></span>
           <div class="imohr">
             <a class="lauft" href="#w-boesenjungs" data-view="w-boesenjungs">
-              <span class="cover" style="background:linear-gradient(150deg,#4a2140,#2b1428 55%,#170d15)"><span class="cm">🗡️🌃</span><span><span class="ct">DIE BÖSEN JUNGS</span><span class="ca">Eric Ugland</span></span></span>
+              <span class="cover" style="background:linear-gradient(150deg,#4a2140,#2b1428 55%,#170d15)"><span class="cm n3"><i>🗺️</i><i>🗡️</i><i>🌙</i></span><span><span class="ct">DIE BÖSEN JUNGS</span><span class="ca">Eric Ugland</span></span></span>
               <span>
                 <span class="rolle">🎧 läuft</span>
                 <span class="wt">Die bösen Jungs — Band 1</span>
@@ -721,7 +751,7 @@
               </span>
             </a>
             <a class="lauft" href="#w-dcc" data-view="w-dcc">
-              <span class="cover" style="background:linear-gradient(150deg,#3a2d6b,#1a1330 55%,#0e1a2e)"><span class="cm">🎮⚔️</span><span><span class="ct">DUNGEON CRAWLER CARL</span><span class="ca">Matt Dinniman</span></span></span>
+              <span class="cover" style="background:linear-gradient(150deg,#3a2d6b,#1a1330 55%,#0e1a2e)"><span class="cm n3"><i>🎮</i><i>⚔️</i><i>🐈</i></span><span><span class="ct">DUNGEON CRAWLER CARL</span><span class="ca">Matt Dinniman</span></span></span>
               <span>
                 <span class="rolle">🎧 parallel</span>
                 <span class="wt">Dungeon Crawler Carl — Band 2</span>
@@ -741,11 +771,11 @@
         <div class="buecherregal">
           <div class="fach">
             <div class="bretter">
-              <a class="buch" style="--bh:142px" href="#w-dcc" data-view="w-dcc" title="Dungeon Crawler Carl — geliebt, 1 von 8 erlebt, 1 läuft"><span class="bv lov" aria-hidden="true">♥</span><span class="cover" style="background:linear-gradient(150deg,#3a2d6b,#1a1330 55%,#0e1a2e)"><span class="cm">🎮⚔️</span><span><span class="ct">DUNGEON CRAWLER CARL</span></span></a>
-              <a class="buch" style="--bh:130px" href="#w-cunninghams" data-view="w-cunninghams" title="Die mörderischen Cunninghams — geliebt, 2 von 4 erlebt"><span class="bv lov" aria-hidden="true">♥</span><span class="cover" style="background:linear-gradient(150deg,#3f4a3a,#2a2118 55%,#1a1412)"><span class="cm">🔎🩸</span><span><span class="ct">DIE MÖRDERISCHEN CUNNINGHAMS</span></span></a>
-              <a class="buch" style="--bh:148px" href="#w-goetter" data-view="w-goetter" title="Die Streitenden Götter — geliebt, 7 von 10 erlebt"><span class="bv lov" aria-hidden="true">♥</span><span class="cover" style="background:linear-gradient(150deg,#7a3b1e,#3d2415 50%,#20242e)"><span class="cm">🏰⚡</span><span><span class="ct">DIE STREITENDEN GÖTTER</span></span></a>
-              <a class="buch" style="--bh:133px" href="#w-sturmfels" data-view="w-sturmfels" title="Sturmfels-Akademie — geliebt, 5 von 5 erlebt"><span class="bv lov" aria-hidden="true">♥</span><span class="cover" style="background:linear-gradient(150deg,#4a5a86,#2c3a5c 55%,#20283c)"><span class="cm">🎓🗼</span><span><span class="ct">STURMFELS-AKADEMIE</span></span></a>
-              <a class="buch schief" style="--bh:133px" href="#w-prinz" data-view="w-prinz" title="Der Prinz von Staub und Schatten — geliebt, 2 von 5 erlebt"><span class="bv lov" aria-hidden="true">♥</span><span class="cover" style="background:linear-gradient(150deg,#b07b2e,#7a5019 50%,#3d2f1c)"><span class="cm">👑🏜️</span><span><span class="ct">DER PRINZ VON STAUB UND SCHATTEN</span></span></a>
+              <a class="buch" style="--bh:142px" href="#w-dcc" data-view="w-dcc" title="Dungeon Crawler Carl — geliebt, 1 von 8 erlebt, 1 läuft"><span class="bv lov" aria-hidden="true">♥</span><span class="cover" style="background:linear-gradient(150deg,#3a2d6b,#1a1330 55%,#0e1a2e)"><span class="cm n3"><i>🎮</i><i>⚔️</i><i>🐈</i></span><span><span class="ct">DUNGEON CRAWLER CARL</span></span></a>
+              <a class="buch" style="--bh:130px" href="#w-cunninghams" data-view="w-cunninghams" title="Die mörderischen Cunninghams — geliebt, 2 von 4 erlebt"><span class="bv lov" aria-hidden="true">♥</span><span class="cover" style="background:linear-gradient(150deg,#3f4a3a,#2a2118 55%,#1a1412)"><span class="cm n2"><i>🔎</i><i>🩸</i></span><span><span class="ct">DIE MÖRDERISCHEN CUNNINGHAMS</span></span></a>
+              <a class="buch" style="--bh:148px" href="#w-goetter" data-view="w-goetter" title="Die Streitenden Götter — geliebt, 7 von 10 erlebt"><span class="bv lov" aria-hidden="true">♥</span><span class="cover" style="background:linear-gradient(150deg,#7a3b1e,#3d2415 50%,#20242e)"><span class="cm n2"><i>⚡</i><i>🏰</i></span><span><span class="ct">DIE STREITENDEN GÖTTER</span></span></a>
+              <a class="buch" style="--bh:133px" href="#w-sturmfels" data-view="w-sturmfels" title="Sturmfels-Akademie — geliebt, 5 von 5 erlebt"><span class="bv lov" aria-hidden="true">♥</span><span class="cover" style="background:linear-gradient(150deg,#4a5a86,#2c3a5c 55%,#20283c)"><span class="cm n3"><i>⚡</i><i>🎓</i><i>🗼</i></span><span><span class="ct">STURMFELS-AKADEMIE</span></span></a>
+              <a class="buch schief" style="--bh:133px" href="#w-prinz" data-view="w-prinz" title="Der Prinz von Staub und Schatten — geliebt, 2 von 5 erlebt"><span class="bv lov" aria-hidden="true">♥</span><span class="cover" style="background:linear-gradient(150deg,#b07b2e,#7a5019 50%,#3d2f1c)"><span class="cm n3"><i>⚡</i><i>👑</i><i>🏜️</i></span><span><span class="ct">DER PRINZ VON STAUB UND SCHATTEN</span></span></a>
             </div>
             <div class="brett-holz"></div>
             <div class="etiketten">
@@ -758,11 +788,11 @@
           </div>
           <div class="fach">
             <div class="bretter">
-              <a class="buch" style="--bh:154px" href="#w-alexverus" data-view="w-alexverus" title="Alex Verus — geliebt, 12 von 12 erlebt"><span class="bv lov" aria-hidden="true">♥</span><span class="cover" style="background:linear-gradient(150deg,#3a2a5c,#1c1830 55%,#0e1220)"><span class="cm">🔮🌃</span><span><span class="ct">ALEX VERUS</span></span></a>
-              <a class="buch" style="--bh:136px" href="#w-magic20" data-view="w-magic20" title="Magic 2.0 — geliebt, 4 von 6 erlebt"><span class="bv lov" aria-hidden="true">♥</span><span class="cover" style="background:linear-gradient(150deg,#153a2a,#0e2419 55%,#0a1410)"><span class="cm">🧙💻</span><span><span class="ct">MAGIC 2.0</span></span></a>
-              <a class="buch" style="--bh:166px" href="#w-vuldranni" data-view="w-vuldranni" title="Vuldranni (iNcarn8) — gut, 5 von 27 erlebt, 1 läuft"><span class="bv lik" aria-hidden="true">♡</span><span class="cover" style="background:linear-gradient(150deg,#7d4a12,#3f2a0e 50%,#1e2430)"><span class="cm">🗺️⚔️</span><span><span class="ct">VULDRANNI (INCARN8)</span></span></a>
-              <a class="buch" style="--bh:166px" href="#w-gutenjungs" data-view="w-gutenjungs" title="Die guten Jungs — gut, 5 von 16 erlebt"><span class="bv lik" aria-hidden="true">♡</span><span class="cover" style="background:linear-gradient(150deg,#2f5f45,#1d3b2c 55%,#14211a)"><span class="cm">🛡️🏰</span><span><span class="ct">DIE GUTEN JUNGS</span></span></a>
-              <a class="buch" style="--bh:151px" href="#w-boesenjungs" data-view="w-boesenjungs" title="Die bösen Jungs — offen, 0 von 11 erlebt, 1 läuft"><span class="bv aus" aria-hidden="true">⛔</span><span class="cover" style="background:linear-gradient(150deg,#4a2140,#2b1428 55%,#170d15)"><span class="cm">🗡️🌃</span><span><span class="ct">DIE BÖSEN JUNGS</span></span></a>
+              <a class="buch" style="--bh:154px" href="#w-alexverus" data-view="w-alexverus" title="Alex Verus — geliebt, 12 von 12 erlebt"><span class="bv lov" aria-hidden="true">♥</span><span class="cover" style="background:linear-gradient(150deg,#3a2a5c,#1c1830 55%,#0e1220)"><span class="cm n2"><i>🔮</i><i>🌃</i></span><span><span class="ct">ALEX VERUS</span></span></a>
+              <a class="buch" style="--bh:136px" href="#w-magic20" data-view="w-magic20" title="Magic 2.0 — geliebt, 4 von 6 erlebt"><span class="bv lov" aria-hidden="true">♥</span><span class="cover" style="background:linear-gradient(150deg,#153a2a,#0e2419 55%,#0a1410)"><span class="cm n2"><i>🧙</i><i>💻</i></span><span><span class="ct">MAGIC 2.0</span></span></a>
+              <a class="buch" style="--bh:166px" href="#w-vuldranni" data-view="w-vuldranni" title="Vuldranni (iNcarn8) — gut, 5 von 27 erlebt, 1 läuft"><span class="bv lik" aria-hidden="true">♡</span><span class="cover" style="background:linear-gradient(150deg,#7d4a12,#3f2a0e 50%,#1e2430)"><span class="cm n2"><i>🗺️</i><i>⚔️</i></span><span><span class="ct">VULDRANNI (INCARN8)</span></span></a>
+              <a class="buch" style="--bh:166px" href="#w-gutenjungs" data-view="w-gutenjungs" title="Die guten Jungs — gut, 5 von 16 erlebt"><span class="bv lik" aria-hidden="true">♡</span><span class="cover" style="background:linear-gradient(150deg,#2f5f45,#1d3b2c 55%,#14211a)"><span class="cm n3"><i>🗺️</i><i>🛡️</i><i>🏰</i></span><span><span class="ct">DIE GUTEN JUNGS</span></span></a>
+              <a class="buch" style="--bh:151px" href="#w-boesenjungs" data-view="w-boesenjungs" title="Die bösen Jungs — offen, 0 von 11 erlebt, 1 läuft"><span class="bv aus" aria-hidden="true">⛔</span><span class="cover" style="background:linear-gradient(150deg,#4a2140,#2b1428 55%,#170d15)"><span class="cm n3"><i>🗺️</i><i>🗡️</i><i>🌙</i></span><span><span class="ct">DIE BÖSEN JUNGS</span></span></a>
             </div>
             <div class="brett-holz"></div>
             <div class="etiketten">
@@ -775,11 +805,11 @@
           </div>
           <div class="fach">
             <div class="bretter">
-              <a class="buch" style="--bh:133px" href="#w-mordclub" data-view="w-mordclub" title="Der Donnerstagsmordclub — gut, 5 von 5 erlebt"><span class="bv lik" aria-hidden="true">♡</span><span class="cover" style="background:linear-gradient(150deg,#2f5a4e,#1c3830 55%,#12211d)"><span class="cm">🫖🔍</span><span><span class="ct">DER DONNERSTAGSMORDCLUB</span></span></a>
-              <a class="buch" style="--bh:139px" href="#w-survival" data-view="w-survival" title="Survival Quest — okay, 7 von 7 erlebt"><span class="bv mix" aria-hidden="true">◐</span><span class="cover" style="background:linear-gradient(150deg,#4a4a52,#2c2c34 55%,#1c1c22)"><span class="cm">⛏️🎮</span><span><span class="ct">SURVIVAL QUEST</span></span></a>
-              <a class="buch" style="--bh:127px" href="#w-scholomance" data-view="w-scholomance" title="Scholomance — okay, 3 von 3 erlebt"><span class="bv mix" aria-hidden="true">◐</span><span class="cover" style="background:linear-gradient(150deg,#1f3b2e,#14231c 55%,#0e1512)"><span class="cm">🏫💀</span><span><span class="ct">SCHOLOMANCE</span></span></a>
-              <a class="buch" style="--bh:136px" href="#w-riyria" data-view="w-riyria" title="Riyria — okay, 6 von 6 erlebt"><span class="bv mix" aria-hidden="true">◐</span><span class="cover" style="background:linear-gradient(150deg,#5a4632,#33261a 55%,#1c140d)"><span class="cm">🗡️🎭</span><span><span class="ct">RIYRIA</span></span></a>
-              <a class="buch schief" style="--bh:127px" href="#w-ashford" data-view="w-ashford" title="Haus Ashford — okay, 3 von 3 erlebt"><span class="bv mix" aria-hidden="true">◐</span><span class="cover" style="background:linear-gradient(150deg,#2e3a4a,#1c2530 55%,#14181f)"><span class="cm">🏛️⚗️</span><span><span class="ct">HAUS ASHFORD</span></span></a>
+              <a class="buch" style="--bh:133px" href="#w-mordclub" data-view="w-mordclub" title="Der Donnerstagsmordclub — gut, 5 von 5 erlebt"><span class="bv lik" aria-hidden="true">♡</span><span class="cover" style="background:linear-gradient(150deg,#2f5a4e,#1c3830 55%,#12211d)"><span class="cm n2"><i>🫖</i><i>🔍</i></span><span><span class="ct">DER DONNERSTAGSMORDCLUB</span></span></a>
+              <a class="buch" style="--bh:139px" href="#w-survival" data-view="w-survival" title="Survival Quest — okay, 7 von 7 erlebt"><span class="bv mix" aria-hidden="true">◐</span><span class="cover" style="background:linear-gradient(150deg,#4a4a52,#2c2c34 55%,#1c1c22)"><span class="cm n2"><i>⛏️</i><i>🔒</i></span><span><span class="ct">SURVIVAL QUEST</span></span></a>
+              <a class="buch" style="--bh:127px" href="#w-scholomance" data-view="w-scholomance" title="Scholomance — okay, 3 von 3 erlebt"><span class="bv mix" aria-hidden="true">◐</span><span class="cover" style="background:linear-gradient(150deg,#1f3b2e,#14231c 55%,#0e1512)"><span class="cm n2"><i>🏫</i><i>💀</i></span><span><span class="ct">SCHOLOMANCE</span></span></a>
+              <a class="buch" style="--bh:136px" href="#w-riyria" data-view="w-riyria" title="Riyria — okay, 6 von 6 erlebt"><span class="bv mix" aria-hidden="true">◐</span><span class="cover" style="background:linear-gradient(150deg,#5a4632,#33261a 55%,#1c140d)"><span class="cm n2"><i>🗡️</i><i>🎭</i></span><span><span class="ct">RIYRIA</span></span></a>
+              <a class="buch schief" style="--bh:127px" href="#w-ashford" data-view="w-ashford" title="Haus Ashford — okay, 3 von 3 erlebt"><span class="bv mix" aria-hidden="true">◐</span><span class="cover" style="background:linear-gradient(150deg,#2e3a4a,#1c2530 55%,#14181f)"><span class="cm n2"><i>🏛️</i><i>⚗️</i></span><span><span class="ct">HAUS ASHFORD</span></span></a>
             </div>
             <div class="brett-holz"></div>
             <div class="etiketten">
@@ -1111,7 +1141,7 @@
     <div class="view" id="v-w-dcc">
       <div class="subnav"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-cunninghams" data-view="w-cunninghams">Die mörderischen Cunninghams ›</a></div>
       <article class="work" id="dcc">
-        <div class="cover" style="background:linear-gradient(150deg,#3a2d6b,#1a1330 55%,#0e1a2e)"><div class="cm">🎮⚔️</div><div><div class="ct">DUNGEON CRAWLER CARL</div><div class="ca">Matt Dinniman</div></div></div>
+        <div class="cover" style="background:linear-gradient(150deg,#3a2d6b,#1a1330 55%,#0e1a2e)"><div class="cm n3"><i>🎮</i><i>⚔️</i><i>🐈</i></div><div><div class="ct">DUNGEON CRAWLER CARL</div><div class="ca">Matt Dinniman</div></div></div>
         <div>
           <div class="wh"><span class="t">Dungeon Crawler Carl</span><span class="verdict">♥ geliebt</span><span class="tag">· LitRPG · Reihe</span></div>
           <div class="wmeta">8 von 9 Bänden · EN komplett (Jeff Hays) · DE im Aufbau (Stefan Kaminski, seit Feb 2026) · Sprachen EN·DE·ES·FR·IT·SV·PT</div>
@@ -1176,7 +1206,7 @@
     <div class="view" id="v-w-cunninghams">
       <div class="subnav"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-dcc" data-view="w-dcc">‹ Dungeon Crawler Carl</a><a class="bk2" href="#w-goetter" data-view="w-goetter">Die Streitenden Götter ›</a></div>
       <article class="work" id="cunninghams">
-        <div class="cover" style="background:linear-gradient(150deg,#3f4a3a,#2a2118 55%,#1a1412)"><div class="cm">🔎🩸</div><div><div class="ct">DIE MÖRDERISCHEN CUNNINGHAMS</div><div class="ca">Benjamin Stevenson</div></div></div>
+        <div class="cover" style="background:linear-gradient(150deg,#3f4a3a,#2a2118 55%,#1a1412)"><div class="cm n2"><i>🔎</i><i>🩸</i></div><div><div class="ct">DIE MÖRDERISCHEN CUNNINGHAMS</div><div class="ca">Benjamin Stevenson</div></div></div>
         <div>
           <div class="wh"><span class="t">Die mörderischen Cunninghams</span><span class="verdict">♥ geliebt · top</span><span class="tag">· Krimi · 📖 gelesen (dt.)</span></div>
           <div class="wmeta">EN 4 Bände / DE 2 · Benjamin Stevenson · Ullstein (Übers. Robert Brack) · meta-Whodunit (vgl. Knives Out) · <b>gelesen, kein Hörbuch</b></div>
@@ -1237,7 +1267,7 @@
     <div class="view" id="v-w-goetter">
       <div class="subnav"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-cunninghams" data-view="w-cunninghams">‹ Die mörderischen Cunninghams</a><a class="bk2" href="#w-sturmfels" data-view="w-sturmfels">Sturmfels-Akademie ›</a></div>
       <div class="ov" id="goetter">
-        <div class="cover" style="background:linear-gradient(150deg,#7a3b1e,#3d2415 50%,#20242e)"><div class="cm">🏰⚡</div><div><div class="ct">DIE STREITENDEN GÖTTER</div><div class="ca">Torsten Weitze · Universum</div></div></div>
+        <div class="cover" style="background:linear-gradient(150deg,#7a3b1e,#3d2415 50%,#20242e)"><div class="cm n2"><i>⚡</i><i>🏰</i></div><div><div class="ct">DIE STREITENDEN GÖTTER</div><div class="ca">Torsten Weitze · Universum</div></div></div>
         <div>
           <div class="wh"><span class="t">Die Streitenden Götter</span><span class="verdict">♥ geliebt</span><span class="tag">· Fantasy · Overall = Summe der Reihen</span></div>
           <div class="wmeta">7 erschienen / ~10 geplant · nur Deutsch (kein Übersetzungs-Warten) · Günter Merlau · Community ⌀ 4,4–4,7/5</div>
@@ -1265,7 +1295,7 @@
     <div class="view" id="v-w-sturmfels">
       <div class="subnav"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><a class="bk2" href="#w-goetter" data-view="w-goetter">↰ Die Streitenden Götter</a><span class="spacer"></span><a class="bk2" href="#w-goetter" data-view="w-goetter">‹ Die Streitenden Götter</a><a class="bk2" href="#w-prinz" data-view="w-prinz">Der Prinz von Staub und Schatten ›</a></div>
       <article class="work" id="sturmfels">
-          <div class="cover" style="background:linear-gradient(150deg,#4a5a86,#2c3a5c 55%,#20283c)"><div class="cm">🎓🗼</div><div><div class="ct">STURMFELS-AKADEMIE</div><div class="ca">Torsten Weitze</div></div></div>
+          <div class="cover" style="background:linear-gradient(150deg,#4a5a86,#2c3a5c 55%,#20283c)"><div class="cm n3"><i>⚡</i><i>🎓</i><i>🗼</i></div><div><div class="ct">STURMFELS-AKADEMIE</div><div class="ca">Torsten Weitze</div></div></div>
           <div>
             <div class="wh"><span class="t">Sturmfels-Akademie</span><span class="verdict">♥ geliebt</span><span class="tag">· 5/5 abgeschlossen</span></div>
             <div class="wmeta">2023–2025 · nur DE</div>
@@ -1328,7 +1358,7 @@
     <div class="view" id="v-w-prinz">
       <div class="subnav"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><a class="bk2" href="#w-goetter" data-view="w-goetter">↰ Die Streitenden Götter</a><span class="spacer"></span><a class="bk2" href="#w-sturmfels" data-view="w-sturmfels">‹ Sturmfels-Akademie</a><a class="bk2" href="#w-alexverus" data-view="w-alexverus">Alex Verus ›</a></div>
       <article class="work" id="prinz">
-          <div class="cover" style="background:linear-gradient(150deg,#b07b2e,#7a5019 50%,#3d2f1c)"><div class="cm">👑🏜️</div><div><div class="ct">DER PRINZ VON STAUB UND SCHATTEN</div><div class="ca">Torsten Weitze</div></div></div>
+          <div class="cover" style="background:linear-gradient(150deg,#b07b2e,#7a5019 50%,#3d2f1c)"><div class="cm n3"><i>⚡</i><i>👑</i><i>🏜️</i></div><div><div class="ct">DER PRINZ VON STAUB UND SCHATTEN</div><div class="ca">Torsten Weitze</div></div></div>
           <div>
             <div class="wh"><span class="t">Der Prinz von Staub und Schatten</span><span class="verdict">♥ geliebt</span><span class="tag">· 2/5 · laufend · 🎧 gehört (dt.)</span></div>
             <div class="wmeta">seit 2026 · nur DE · Hörbuch Günter Merlau (solo) · <b>beide Bände gehört ✓</b> (Interview 2026-07-20)</div>
@@ -1391,7 +1421,7 @@
     <div class="view" id="v-w-alexverus">
       <div class="subnav"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-prinz" data-view="w-prinz">‹ Der Prinz von Staub und Schatten</a><a class="bk2" href="#w-magic20" data-view="w-magic20">Magic 2.0 ›</a></div>
       <article class="work" id="alexverus">
-        <div class="cover" style="background:linear-gradient(150deg,#3a2a5c,#1c1830 55%,#0e1220)"><div class="cm">🔮🌃</div><div><div class="ct">ALEX VERUS</div><div class="ca">Benedict Jacka</div></div></div>
+        <div class="cover" style="background:linear-gradient(150deg,#3a2a5c,#1c1830 55%,#0e1220)"><div class="cm n2"><i>🔮</i><i>🌃</i></div><div><div class="ct">ALEX VERUS</div><div class="ca">Benedict Jacka</div></div></div>
         <div>
           <div class="wh"><span class="t">Alex Verus</span><span class="verdict">♥ geliebt</span><span class="tag">· Urban Fantasy · 🎧 gehört (dt.)</span></div>
           <div class="wmeta">12 Bände · <b>abgeschlossen</b> · Diviner-Magier in London (Camden) · Hörbuch dt. (Johannes Klaußner, ungekürzt, alle 12) · Übers. Michelle Gyo · Blanvalet / Random House Audio · EN Orbit/Ace (Gildart Jackson) · <span class="subtle">„An Inheritance of Magic" = eigenes Universum</span></div>
@@ -1472,7 +1502,7 @@
     <div class="view" id="v-w-magic20">
       <div class="subnav"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-alexverus" data-view="w-alexverus">‹ Alex Verus</a><a class="bk2" href="#w-vuldranni" data-view="w-vuldranni">Vuldranni (iNcarn8) ›</a></div>
       <article class="work" id="magic20">
-        <div class="cover" style="background:linear-gradient(150deg,#153a2a,#0e2419 55%,#0a1410)"><div class="cm">🧙💻</div><div><div class="ct">MAGIC 2.0</div><div class="ca">Scott Meyer</div></div></div>
+        <div class="cover" style="background:linear-gradient(150deg,#153a2a,#0e2419 55%,#0a1410)"><div class="cm n2"><i>🧙</i><i>💻</i></div><div><div class="ct">MAGIC 2.0</div><div class="ca">Scott Meyer</div></div></div>
         <div>
           <div class="wh"><span class="t">Magic 2.0</span><span class="verdict">♥ geliebt</span><span class="tag">· Humor-Phantastik · 📖 gelesen (dt.+engl.)</span></div>
           <div class="wmeta">EN „Off to Be the Wizard" · <b>6 Bände, abgeschlossen</b> (47North) · <b>DE nur Bd. 1–2</b> (Luzifer-Verlag / Ronin-Hörbuch, Marco Sven Reinbold) · gelesen: DE Bd. 1–2, <b>EN Bd. 3–4</b> · EN-Hörbuch Luke Daniels (gefeiert, nicht gehört) · <span class="subtle">volle Metadaten im Vault</span></div>
@@ -1543,7 +1573,7 @@
     <div class="view" id="v-w-vuldranni">
       <div class="subnav"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-magic20" data-view="w-magic20">‹ Magic 2.0</a><a class="bk2" href="#w-gutenjungs" data-view="w-gutenjungs">Die guten Jungs ›</a></div>
       <div class="ov" id="vuldranni">
-        <div class="cover" style="background:linear-gradient(150deg,#7d4a12,#3f2a0e 50%,#1e2430)"><div class="cm">🗺️⚔️</div><div><div class="ct">VULDRANNI (iNCARN8)</div><div class="ca">Eric Ugland · Universum</div></div></div>
+        <div class="cover" style="background:linear-gradient(150deg,#7d4a12,#3f2a0e 50%,#1e2430)"><div class="cm n2"><i>🗺️</i><i>⚔️</i></div><div><div class="ct">VULDRANNI (iNCARN8)</div><div class="ca">Eric Ugland · Universum</div></div></div>
         <div>
           <div class="wh"><span class="t">Vuldranni (iNcarn8)</span><span class="verdict lik">♡ gut <span class="subtle" style="font-weight:400">(vorläufig)</span></span><span class="tag">· LitRPG · Overall = Summe der Reihen</span></div>
           <div class="wmeta"><b>27 Bände in 2 Reihen</b> · seit 2018 · ⚠️ <b>beide Reihen laufen weiter</b> (guten Jungs Bd. 17 und böse Jungs Bd. 12 für 2026 angekündigt) · 🎧 dt. Hörbuch, <b>zwei verschiedene Sprecher</b> · Übers. LMBPN International</div>
@@ -1580,7 +1610,7 @@
     <div class="view" id="v-w-gutenjungs">
       <div class="subnav"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><a class="bk2" href="#w-vuldranni" data-view="w-vuldranni">↰ Vuldranni (iNcarn8)</a><span class="spacer"></span><a class="bk2" href="#w-vuldranni" data-view="w-vuldranni">‹ Vuldranni (iNcarn8)</a><a class="bk2" href="#w-boesenjungs" data-view="w-boesenjungs">Die bösen Jungs ›</a></div>
       <article class="work lik" id="gutenjungs">
-          <div class="cover" style="background:linear-gradient(150deg,#2f5f45,#1d3b2c 55%,#14211a)"><div class="cm">🛡️🏰</div><div><div class="ct">DIE GUTEN JUNGS</div><div class="ca">Eric Ugland</div></div></div>
+          <div class="cover" style="background:linear-gradient(150deg,#2f5f45,#1d3b2c 55%,#14211a)"><div class="cm n3"><i>🗺️</i><i>🛡️</i><i>🏰</i></div><div><div class="ct">DIE GUTEN JUNGS</div><div class="ca">Eric Ugland</div></div></div>
           <div>
             <div class="wh"><span class="t">Die guten Jungs</span><span class="verdict lik">♡ gut <span class="subtle" style="font-weight:400">(vorläufig)</span></span><span class="tag">· 16 Bände erschienen · <b>läuft weiter</b> · 🎧 gehört (dt.) · ▸ bei Bd. 5</span></div>
             <div class="wmeta"><b>Montana Coggeshall</b> — ausgebrannter Ex-Soldat, wacht als Tank-Klasse in der Spielwelt Vuldranni auf und baut sich dort etwas Eigenes auf. <span class="subtle">(Klappentext-Ebene · mein Stand: Bd. 5 — zu späteren Bänden steht hier bewusst nichts.)</span>
@@ -1681,7 +1711,7 @@
     <div class="view" id="v-w-boesenjungs">
       <div class="subnav"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><a class="bk2" href="#w-vuldranni" data-view="w-vuldranni">↰ Vuldranni (iNcarn8)</a><span class="spacer"></span><a class="bk2" href="#w-gutenjungs" data-view="w-gutenjungs">‹ Die guten Jungs</a><a class="bk2" href="#w-mordclub" data-view="w-mordclub">Der Donnerstagsmordclub ›</a></div>
       <article class="work aus" id="boesenjungs">
-          <div class="cover" style="background:linear-gradient(150deg,#4a2140,#2b1428 55%,#170d15)"><div class="cm">🗡️🌃</div><div><div class="ct">DIE BÖSEN JUNGS</div><div class="ca">Eric Ugland</div></div></div>
+          <div class="cover" style="background:linear-gradient(150deg,#4a2140,#2b1428 55%,#170d15)"><div class="cm n3"><i>🗺️</i><i>🗡️</i><i>🌙</i></div><div><div class="ct">DIE BÖSEN JUNGS</div><div class="ca">Eric Ugland</div></div></div>
           <div>
             <div class="wh"><span class="t">Die bösen Jungs</span><span class="verdict aus">⛔ Bewertung ausgesetzt</span><span class="tag">· 11 Bände erschienen · <b>läuft weiter</b> · 🎧 läuft (dt.) · ▸ bei Bd. 1</span></div>
             <div class="wmeta"><b>Clyde Hatchett</b> — ein New Yorker Trickbetrüger startet in der Reichshauptstadt <b>Glaton</b> neu: dieselbe Welt, die andere Seite der Moral. <span class="subtle">(Klappentext-Ebene — hier steht nichts über den Verlauf.)</span>
@@ -1763,7 +1793,7 @@
     <div class="view" id="v-w-mordclub">
       <div class="subnav"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-boesenjungs" data-view="w-boesenjungs">‹ Die bösen Jungs</a><a class="bk2" href="#w-survival" data-view="w-survival">Survival Quest ›</a></div>
       <article class="work lik" id="mordclub">
-        <div class="cover" style="background:linear-gradient(150deg,#2f5a4e,#1c3830 55%,#12211d)"><div class="cm">🫖🔍</div><div><div class="ct">DONNERSTAGS-<br>MORDCLUB</div><div class="ca">Richard Osman</div></div></div>
+        <div class="cover" style="background:linear-gradient(150deg,#2f5a4e,#1c3830 55%,#12211d)"><div class="cm n2"><i>🫖</i><i>🔍</i></div><div><div class="ct">DONNERSTAGS-<br>MORDCLUB</div><div class="ca">Richard Osman</div></div></div>
         <div>
           <div class="wh"><span class="t">Der Donnerstagsmordclub</span><span class="verdict lik">♡ gut</span><span class="tag">· Cosy Crime · 🎧 gehört (dt.)</span></div>
           <div class="wmeta">EN „Thursday Murder Club" · <b>5 Bände (2020–2025), Bd. 6 für 2027</b> · DE List/Ullstein, Übers. Sabine Roth · Hörbuch Hamburg, <b>Johannes Steck + Beate Himmelstoß</b> (Zwei-Stimmen-Lesung) · <b>alle 5 gehört (dt.)</b> · je Band gekürzt (~10 h) UND ungekürzt (~11,5 h) — welche Fassung, ist offen · <span class="subtle">volle Metadaten (ISBN/Seiten/Hördauer je Band) im Vault</span></div>
@@ -1830,7 +1860,7 @@
     <div class="view" id="v-w-survival">
       <div class="subnav"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-mordclub" data-view="w-mordclub">‹ Der Donnerstagsmordclub</a><a class="bk2" href="#w-scholomance" data-view="w-scholomance">Scholomance ›</a></div>
       <article class="work mix" id="survival">
-          <div class="cover" style="background:linear-gradient(150deg,#4a4a52,#2c2c34 55%,#1c1c22)"><div class="cm">⛏️🎮</div><div><div class="ct">SURVIVAL QUEST</div><div class="ca">Vasily Mahanenko</div></div></div>
+          <div class="cover" style="background:linear-gradient(150deg,#4a4a52,#2c2c34 55%,#1c1c22)"><div class="cm n2"><i>⛏️</i><i>🔒</i></div><div><div class="ct">SURVIVAL QUEST</div><div class="ca">Vasily Mahanenko</div></div></div>
           <div>
             <div class="wh"><span class="t">Survival Quest</span><span class="verdict mix">◐ okay</span><span class="tag">· LitRPG · 🎧 gehört (dt.)</span></div>
             <div class="wmeta">7 Bände · <b>abgeschlossen</b> · Hörbuch dt. (Thomas Balou Martin, ungekürzt, Dez 2018–Mai 2022, ~109 h) · Übers. Andreas Kasprzak · Bastei Lübbe/Lübbe Audio · EN „The Way of the Shaman" (Magic Dome, EN-Sprecher Jonathan Yen) · RU ab 2012 · <span class="subtle">volle Metadaten (ISBN/ASIN je Ausgabe) im Vault</span></div>
@@ -1899,7 +1929,7 @@
     <div class="view" id="v-w-scholomance">
       <div class="subnav"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-survival" data-view="w-survival">‹ Survival Quest</a><a class="bk2" href="#w-riyria" data-view="w-riyria">Riyria ›</a></div>
       <article class="work mix" id="scholomance">
-          <div class="cover" style="background:linear-gradient(150deg,#1f3b2e,#14231c 55%,#0e1512)"><div class="cm">🏫💀</div><div><div class="ct">SCHOLOMANCE</div><div class="ca">Naomi Novik</div></div></div>
+          <div class="cover" style="background:linear-gradient(150deg,#1f3b2e,#14231c 55%,#0e1512)"><div class="cm n2"><i>🏫</i><i>💀</i></div><div><div class="ct">SCHOLOMANCE</div><div class="ca">Naomi Novik</div></div></div>
           <div>
             <div class="wh"><span class="t">Scholomance</span><span class="verdict mix">◐ okay</span><span class="tag">· Fantasy (Dark Academia) · 🎧 gehört (dt.)</span></div>
             <div class="wmeta">Trilogie · <b>abgeschlossen</b> · Hörbuch dt. (Leonie Landa, ungekürzt, ~43,5 h) · Übers. Doris Attwood · cbj/Audible · EN Del Rey (Anisha Dadia) · <span class="subtle">volle Metadaten im Vault</span></div>
@@ -1967,7 +1997,7 @@
     <div class="view" id="v-w-riyria">
       <div class="subnav"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-scholomance" data-view="w-scholomance">‹ Scholomance</a><a class="bk2" href="#w-ashford" data-view="w-ashford">Haus Ashford ›</a></div>
       <article class="work mix" id="riyria">
-          <div class="cover" style="background:linear-gradient(150deg,#5a4632,#33261a 55%,#1c140d)"><div class="cm">🗡️🎭</div><div><div class="ct">RIYRIA</div><div class="ca">Michael J. Sullivan</div></div></div>
+          <div class="cover" style="background:linear-gradient(150deg,#5a4632,#33261a 55%,#1c140d)"><div class="cm n2"><i>🗡️</i><i>🎭</i></div><div><div class="ct">RIYRIA</div><div class="ca">Michael J. Sullivan</div></div></div>
           <div>
             <div class="wh"><span class="t">Riyria</span><span class="verdict mix">◐ okay</span><span class="tag">· Fantasy (Revelations) · 🎧 gehört (dt.)</span></div>
             <div class="wmeta">6 Bände · <b>abgeschlossen</b> · Hörbuch dt. (David Nathan, ungekürzt, ~76 h) · Übers. Ströle / Holfelder-von der Tann · Klett-Cotta / der Hörverlag · EN Ridan→Orbit (Tim Gerard Reynolds) · <span class="subtle">volle Metadaten im Vault</span></div>
@@ -2038,7 +2068,7 @@
     <div class="view" id="v-w-ashford">
       <div class="subnav"><a class="bk2" href="#werke" data-view="werke">‹ Alle Werke</a><span class="spacer"></span><a class="bk2" href="#w-riyria" data-view="w-riyria">‹ Riyria</a></div>
       <article class="work mix" id="ashford">
-          <div class="cover" style="background:linear-gradient(150deg,#2e3a4a,#1c2530 55%,#14181f)"><div class="cm">🏛️⚗️</div><div><div class="ct">HAUS ASHFORD</div><div class="ca">Benedict Jacka</div></div></div>
+          <div class="cover" style="background:linear-gradient(150deg,#2e3a4a,#1c2530 55%,#14181f)"><div class="cm n2"><i>🏛️</i><i>⚗️</i></div><div><div class="ct">HAUS ASHFORD</div><div class="ca">Benedict Jacka</div></div></div>
           <div>
             <div class="wh"><span class="t">Haus Ashford</span><span class="verdict mix">◐ okay</span><span class="tag">· Urban Fantasy · 🎧 gehört (dt.)</span></div>
             <div class="wmeta">EN „An Inheritance of Magic" · 3 Bände · <b>laufend</b> (~10 geplant) · Hörbuch dt. (Johannes Klaußner, ungekürzt, Bd. 1 12 h 29) · Übers. Michelle Gyo · Blanvalet / Random House Audio · EN Orbit/Ace (Will Watt) · <span class="subtle">volle Metadaten im Vault</span></div>
