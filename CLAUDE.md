@@ -167,6 +167,15 @@ bash <artefakt-werkstatt>/scripts/mess.sh artifacts/bibliothek.html   # Browser
 **Nie Information streichen, um Platz zu schaffen — staffeln.** Genau **ein Muster je Ebene**
 (gemischte Muster zwingen den Nutzer, drei Bedienmodelle zu lernen):
 
+> 🧭 **Up Next und Order sind getrennt (Nutzerregel 2026-08-11):** *„Up Next ist gut wenn es
+> um ‚wie geht es weiter' geht, aber die Hörreihenfolge … ändert sich ja nicht."* Getrennt wird
+> nach **Haltbarkeit**, nicht nach Thema:
+> **Up Next** = beweglich (Wo ich stehe · Termine · Verfügbarkeit) — ändert sich mit jedem
+> gehörten Band. **Order** = statisch (27 Schritte · harte Regeln · andere Reihen · Belege) —
+> ändert sich nur, wenn ein neuer Band erscheint. Beide verweisen **wechselseitig** an genau den
+> Stellen aufeinander, wo die andere Frage auftaucht. Neue Reiter gehören danach einsortiert:
+> *Muss ich das nach jedem Band anfassen?* → Up Next, sonst Order.
+
 | Ebene | Inhalt | Muster |
 | --- | --- | --- |
 | 1 | Ansichten **und** alle Werke | **Schiene links** (`.rail`) — zeigt ALLE Ziele gleichzeitig |
