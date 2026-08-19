@@ -228,3 +228,16 @@ Abdeckungs-Matrix **von der ersten Gefühls-Frage an**.
 - [[Nebenquest-Wildwuchs]] — GJ Bd. 4 heißt „Und täglich droht die Nebenquest": war das für
   dich Problem oder Gag? (bei [[Survival Quest]] −2 und [[Sturmfels-Akademie]] −1 ein wunder Punkt)
 - Verdikt: aktuell **liked (vorläufig)** für beide. Sagst du bei GJ schon „geliebt"?
+
+---
+
+## Nachtrag 2026-08-19 (nicht Teil der Runde vom 2026-08-11)
+
+Der Nutzer meldet: **„gj bis einschließlich Band 5 abgeschlossen und bj Band 1
+abgeschlossen"**. Damit ist die hier festgehaltene Sperre („nicht nach einer Meinung fragen,
+solange Bd. 1 läuft") **erledigt** — sie galt nur bis zum Ende von Bd. 1.
+
+- Spoiler-Grenzen nachgezogen: [[Die bösen Jungs]] `bis_band_1`,
+  [[Vuldranni (iNcarn8)]] Verbund-Schritt 6/27. [[Die guten Jungs]] unverändert `bis_band_5`.
+- **Interview zu [[Die bösen Jungs]] ist fällig** — Runde 1 am 2026-08-19 gestellt, Antwort
+  steht aus. Ergebnis kommt in eine **eigene** datierte Interview-Notiz, nicht hierher.

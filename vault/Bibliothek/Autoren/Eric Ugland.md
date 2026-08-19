@@ -50,7 +50,7 @@ und Hartnäckigkeit stolpern", clever konstruierte Quests, kurze knackige Bände
 | --- | --- |
 | [[Vuldranni (iNcarn8)]] (Verbund) | **liked** *(vorläufig)* — 🎧 dt. Hörbuch |
 | [[Die guten Jungs]] | **liked** *(vorläufig)* — Bd. 1–5 gehört ([[Robert Frank]] +2) |
-| [[Die bösen Jungs]] | **liked** *(sehr vorläufig)* — Bd. 1 läuft ([[Thomas Nicolai]] −1) |
+| [[Die bösen Jungs]] | **offen** — Bd. 1 abgeschlossen 2026-08-19, Interview fällig ([[Thomas Nicolai]] −1) |
 
 Aus Empfehlung geworden: [[Die guten Jungs]] war die Top-Empfehlung des Laufs [[2026-07-17 Deutsche Bücher quer über alle Räume]] (86 %) — **erste Empfehlung des Systems, die der Nutzer tatsächlich angefangen hat.** Die Prognose hat getragen: Ton, Held und Länge bestätigt; der prognostizierte Malus „weniger System-Satire“ spielte keine Rolle, dafür kam mit [[Basisaufbau & Siedlungsentwicklung]] ein **nicht prognostizierter** Plus-Anker dazu.
 

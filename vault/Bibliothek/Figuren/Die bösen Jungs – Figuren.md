@@ -3,9 +3,9 @@ tags: [figuren, litrpg, vuldranni]
 werk: "[[Die bösen Jungs]]"
 universum: "[[Vuldranni (iNcarn8)]]"
 autor: "[[Eric Ugland]]"
-stand: 2026-08-19
-abgedeckt_bis_band: 1          # Bd. 1 LÄUFT gerade -> formal noch nicht erlebt
-spoiler_stufe: "blurb"         # fail-closed: laufender Band zählt als NICHT erlebt
+stand: 2026-08-19  # Grenze nachgezogen: Bd. 1 durch
+abgedeckt_bis_band: 1          # Bd. 1 ABGESCHLOSSEN (Nutzer 2026-08-19)
+spoiler_stufe: "bis_band_1"    # Bd. 1 erlebt -> Details zu Bd. 1 erlaubt, ab Bd. 2 nicht
 quelle_primaer: "Fandom „The Good Guys and Bad Guys Wiki“ (Clyde-Seiten + Cast of Characters)"
 ---
 
@@ -14,31 +14,31 @@ quelle_primaer: "Fandom „The Good Guys and Bad Guys Wiki“ (Clyde-Seiten + Ca
 Werk: [[Die bösen Jungs]] · Universum: [[Vuldranni (iNcarn8)]] · Schwesterreihe:
 [[Die guten Jungs]] → [[Die guten Jungs – Figuren]]
 
-> 🔒 **Sonderlage:** Bd. 1 **läuft gerade** — nach [[Spoiler-Politik]] §1 gilt er als
-> **nicht erlebt**. Der Nutzer hat die Liste am 2026-08-19 ausdrücklich **für Bd. 1
-> mitbestellt**; deshalb steht sie hier, aber im eingeklappten Block und **ohne
-> Band-Fortschritt**: keine Angabe, wann wer auftaucht, was mit wem passiert oder wie sich
-> Verhältnisse entwickeln. Ab Bd. 2 wurde **nichts** recherchiert.
+> ✅ **Grenze nachgezogen am 2026-08-19: Bd. 1 ist abgeschlossen.** Damit gilt Freigabestufe
+> `bis_band_1` — Details zu Bd. 1 dürfen offen stehen (kein eingeklappter Block mehr,
+> [[Spoiler-Politik]] §6: Erlebtes ausdrücklich *detaillierter*). **Ab Bd. 2 wurde nichts
+> recherchiert** und darf hier auch nichts landen.
 
 > ⚠️ **Quellenlage 2026-08-19:** alle Hosts für Direktabruf gesperrt (Org-Egress-Proxy,
 > 403 — u. a. Fandom, Goodreads, Amazon). Einziger Kanal: **Websuche**. Das Wiki hat für
 > die bösen Jungs **keine Bandseiten** wie bei der Schwesterreihe — die Ausbeute ist
 > entsprechend dünn. **⚠️** = abgeleitet, nicht am Text belegt.
 
-> [!warning]- 🔒 SPOILER — Personal Bd. 1 (mein Stand: Bd. 1 läuft)
-> | Figur | Wer / was |
-> | --- | --- |
-> | **Clyde Hatchett** (Schreibweise im Wiki auch „Hattchet") | Hauptfigur. Auf der Erde **Ben**, Katzeneinbrecher in New York. Der Einbruch geht schief, **weil** er die **Frau und die Kinder** des reichen Hausherrn rettet, den er gerade bestiehlt. In Vuldranni **Elf**, Hybrid aus **Schurke und Magier**. Charakterisierung im Wiki: „Altruist von Natur, Krimineller aus Entscheidung" — ein Robin-Hood-Schurke mit Talent, sich aus üblen Lagen herauszuwinden. |
-> | **Die gerettete Familie** (Erde) | Frau + Kinder des Bestohlenen. ⚠️ **Namen in keiner erreichbaren Quelle dokumentiert** — offene Lücke. |
-> | **Edda** | Nimmt Clyde nach der Ankunft an die Hand: erklärt ihm Vuldranni und speziell die Reichshauptstadt **Glaton**, und stellt ihn einem **Hehler** vor. |
-> | **Der Hehler** | Von Edda vermittelt; laut Wiki eine wiederkehrende Figur der Reihe. ⚠️ **Name nicht belegt.** |
-> | **Nadya Glaton** | **Cousine der Kaiserfamilie**, im Wiki geführt als „Freundin von Clyde". ⚠️ Wann sie auftritt: nicht belegt. |
-> | **Mr. Paul** | Derselbe göttliche Erzähler wie bei [[Die guten Jungs]] (s. [[Die guten Jungs – Figuren]]). Laut Wiki muss er neutral bleiben, weil er zugleich zur **Verwaltung des „Spiels"** gehört und Schutzgott ist — Clyde ist derjenige, der das so herleitet. |
->
-> **Orte/Gruppen dazu:** **Glaton** — Hauptstadt des Kaiserreichs, benannt nach **Elissa
-> Glaton**, der ersten Kaiserin und Großheldin, die das Reich gründete. Clyde kommt früh an
-> eine Stelle in der Gilde **„Biscuit Union"**. Sein erster Job in der Stadt: **Pit Worker**,
-> also Gruben von Monsterresten, Schlamm und Dreck freiräumen.
+## Personal Bd. 1
+
+| Figur | Wer / was |
+| --- | --- |
+| **Clyde Hatchett** (Schreibweise im Wiki auch „Hattchet") | Hauptfigur. Auf der Erde **Ben**, Katzeneinbrecher in New York. Der Einbruch geht schief, **weil** er die **Frau und die Kinder** des reichen Hausherrn rettet, den er gerade bestiehlt. In Vuldranni **Elf**, Hybrid aus **Schurke und Magier**. Charakterisierung im Wiki: „Altruist von Natur, Krimineller aus Entscheidung" — ein Robin-Hood-Schurke mit Talent, sich aus üblen Lagen herauszuwinden. |
+| **Die gerettete Familie** (Erde) | Frau + Kinder des Bestohlenen. ⚠️ **Namen in keiner erreichbaren Quelle dokumentiert** — offene Lücke. |
+| **Edda** | Nimmt Clyde nach der Ankunft an die Hand: erklärt ihm Vuldranni und speziell die Reichshauptstadt **Glaton**, und stellt ihn einem **Hehler** vor. |
+| **Der Hehler** | Von Edda vermittelt; laut Wiki eine wiederkehrende Figur der Reihe. ⚠️ **Name nicht belegt.** |
+| **Nadya Glaton** | **Cousine der Kaiserfamilie**, im Wiki geführt als „Freundin von Clyde". ⚠️ Wann sie auftritt: nicht belegt. |
+| **Mr. Paul** | Derselbe göttliche Erzähler wie bei [[Die guten Jungs]] (s. [[Die guten Jungs – Figuren]]). Laut Wiki muss er neutral bleiben, weil er zugleich zur **Verwaltung des „Spiels"** gehört und Schutzgott ist — Clyde ist derjenige, der das so herleitet. |
+
+**Orte/Gruppen dazu:** **Glaton** — Hauptstadt des Kaiserreichs, benannt nach **Elissa
+Glaton**, der ersten Kaiserin und Großheldin, die das Reich gründete. Clyde kommt früh an
+eine Stelle in der Gilde **„Biscuit Union"**. Sein erster Job in der Stadt: **Pit Worker**,
+also Gruben von Monsterresten, Schlamm und Dreck freiräumen.
 
 ## Offene Fragen
 
@@ -47,5 +47,5 @@ Werk: [[Die bösen Jungs]] · Universum: [[Vuldranni (iNcarn8)]] · Schwesterrei
 - ⚠️ Es gibt **keine Wiki-Bandseite** für die bösen Jungs; das Personal von Bd. 1 ist damit
   sicher **unvollständig**. Beim nächsten Gespräch gegen die Erinnerung des Nutzers prüfen
   und ergänzen.
-- **Offen an den Nutzer (2026-08-19):** Wie weit ist er in Bd. 1? Danach lässt sich das
-  Verzeichnis sauber auf seinen Stand ziehen statt fail-closed zu bleiben.
+- ✅ **Erledigt 2026-08-19:** Stand geklärt — Bd. 1 abgeschlossen, Grenze steht auf
+  `bis_band_1`.

@@ -4,7 +4,7 @@ werk_typ: "reihe"
 autor: "Eric Ugland"
 jahr_start:
 kontext: "LitRPG"
-status: gelesen          # 2026-08-11: Bd. 1 läuft -> Werk-Notiz [[Die bösen Jungs]]
+status: gelesen          # 2026-08-19: Bd. 1 abgeschlossen -> Werk-Notiz [[Die bösen Jungs]]
 zuletzt_beruehrt: 2026-08-11
 laeufe: []
 wiedervorlage: ""        # eingelöst: Nutzer hat selbst gestartet
@@ -41,6 +41,7 @@ Rahmen besteht. dt. Hörbuch-Sprecher: **Thomas Nicolai**.
 | --- | --- | --- | --- | --- | --- |
 | 2026-07-20 | (aus [[Die guten Jungs]] / [[Eric Ugland]]) | 0 | erwaehnt | — | Parallelreihe im [[Vuldranni (iNcarn8)]]-Universum |
 | 2026-08-11 | (Nutzer hat gestartet) | — | **gelesen** | — | Bd. 1 läuft; Werk-Notiz [[Die bösen Jungs]] angelegt, Sprecher [[Thomas Nicolai]] −1 |
+| 2026-08-19 | (Nutzer-Meldung) | — | **gelesen** | — | **Bd. 1 abgeschlossen.** Spoiler-Grenze auf `bis_band_1`; Interview zur Reihe fällig, Verdikt weiter `offen` |
 
 ## Notizen
 

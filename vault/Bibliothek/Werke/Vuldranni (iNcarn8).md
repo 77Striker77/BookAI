@@ -18,7 +18,7 @@ rating_stimmen_gesamt: "⚠️ Gesamtzahl über beide Reihen nicht belegt"
 bekanntheit_stufe: "Etabliert"
 hype: "Indie-LitRPG-Dauerbrenner; in DE über Audible Studios breit ausgerollt"
 kontext: "LitRPG"
-verdict: "liked"                     # VORLÄUFIG — Nutzer mitten drin (GJ 5/16, BJ 1/11)
+verdict: "liked"                     # VORLÄUFIG — Nutzer mitten drin (GJ 5/16 gehört, BJ 1/11 gehört)
 verdict_status: "vorläufig (Stand 2026-08-11)"
 format_erlebt: "hoerbuch"
 sprecher: "Robert Frank (guten Jungs) · Thomas Nicolai (bösen Jungs)"
@@ -47,10 +47,10 @@ quellen:
   - "https://the-good-guys-and-bad-guys.fandom.com/wiki/The_Good_Guys_and_Bad_Guys_Wiki"
 analysiert: 2026-08-11
 # --- 🔒 Spoiler-Grenze (siehe _System/Spoiler-Politik.md) ---
-spoiler_erlebt_bis: 5    # letzter VOLLSTÄNDIG erlebter Band (0 = keiner)
-spoiler_aktuell: 6       # laufender Band — zählt als NICHT erlebt
-spoiler_gesamt: 27        # Zaehlung = kombinierte Hoerreihenfolge des Verbunds: Pos. 1-5 (GJ 1-5) gehört, Pos. 6 (BJ 1) laeuft
-spoiler_stand: "2026-08-11"  # Stand bestätigt am
+spoiler_erlebt_bis: 6    # Verbund-Schritt 6 (= BJ 1) am 2026-08-19 abgeschlossen
+spoiler_aktuell: 0       # kein laufender Band; als Nächstes Schritt 7 (GJ 6)
+spoiler_gesamt: 27        # Zaehlung = kombinierte Hoerreihenfolge des Verbunds: Pos. 1-6 (GJ 1-5 + BJ 1) gehört, ab Pos. 7 offen
+spoiler_stand: "2026-08-19"  # Stand bestätigt am
 spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
 spoiler_unerlebte_reihen: ["The Grim Guys"]  # Reihen im selben Universum, NIE erlebt -> immer nur Klappentext-Ebene
 spoiler_aliase: []           # weitere Schreibweisen des Werktitels
@@ -70,7 +70,7 @@ Handschrift, Humor/Ton, Systemlogik) UND das Gesamtbild über beide Reihen ein.
 > Hörreihenfolge in Kombination mit der anderen Reihe, die ebenfalls auch alleine perfekt
 > abgebildet sein muss."
 
-**Kontext:** [[LitRPG]] · **Autor:** [[Eric Ugland]] · **Stand:** GJ 5/16 gehört · BJ 1/11 läuft — ⛔ **BJ-Bewertung ausgesetzt** bis Bd. 1 durch ist (Nutzer 2026-08-11)
+**Kontext:** [[LitRPG]] · **Autor:** [[Eric Ugland]] · **Stand:** GJ 5/16 gehört · BJ 1/11 gehört (2026-08-19) — Verbund-Schritt **6 von 27** erledigt, als Nächstes Schritt 7 (GJ 6). BJ-Interview **fällig**, Verdikt weiter `offen`
 
 > ⭐ **Nachgezogen 2026-08-11 (Interview-Runde 4, Negativseite nachgeholt).** Die Bewertung
 > von [[Die guten Jungs]] war bis dahin ein reines +2-Profil — ein **Erhebungsartefakt**,
@@ -117,7 +117,7 @@ Vuldranni (iNcarn8) (Overall)
 | Untergeordnete Reihe | Bände | Held / Ort | dt. Sprecher | Verdikt |
 | --- | --- | --- | --- | --- |
 | [[Die guten Jungs]] | 16 erschienen (2018–2025), **Bd. 17 für 2026** | Montana Coggeshall (Tank) | [[Robert Frank]] | liked (vorläufig, 5/16) |
-| [[Die bösen Jungs]] | 11 erschienen (2019–2024), **Bd. 12 für 2026** | Clyde Hatchett (Dieb, Glaton) | [[Thomas Nicolai]] | ⛔ **offen** — Bewertung ausgesetzt (Bd. 1 läuft) |
+| [[Die bösen Jungs]] | 11 erschienen (2019–2024), **Bd. 12 für 2026** | Clyde Hatchett (Dieb, Glaton) | [[Thomas Nicolai]] | **offen** — Bd. 1 durch (2026-08-19), Interview fällig |
 
 ## 🎧 EMPFOHLENE HÖRREIHENFOLGE (Verbund) — vom Nutzer bestätigt 2026-08-11
 
@@ -131,7 +131,7 @@ Vuldranni (iNcarn8) (Overall)
    Scoundrels", 2019) erscheint **erscheinungschronologisch nach** GJ 5 („Hochadel für
    Einsteiger", EN „Dukes and Ladders", 2019). Ab hier **verschränkt weiterhören**, damit
    die aus zwei Perspektiven erzählten Weltereignisse in der richtigen Reihenfolge landen.
-   *(Genau dieser Punkt ist der Stand des Nutzers: GJ 5 fertig → BJ 1 läuft.)*
+   *(Stand des Nutzers 2026-08-19: GJ 5 fertig → BJ 1 fertig; als Nächstes Schritt 7 = GJ 6.)*
 3. **Harte Regel am Ende (Crossover):** **BJ 11 „2 Lügen, 2 Throne" VOR GJ 15 „Kampf um den
    Keramikthron"** (EN „2 Lies, 2 Thrones" vor „Bad to the Throne"). In GJ 15 kollidieren
    Montanas und Clydes Weg — der Band zahlt die Vorarbeit **beider** Reihen ein. Umgekehrte
@@ -154,8 +154,8 @@ Vuldranni (iNcarn8) (Overall)
 | 3 | guten | 3 | Dungeon Mauling | Dungeonschinder | 2018 | ✅ gehört |
 | 4 | guten | 4 | Four: The Loot | Und täglich droht die Nebenquest | 2019 | ✅ gehört |
 | 5 | guten | 5 | Dukes and Ladders | Hochadel für Einsteiger | 2019 | ✅ gehört |
-| **6** | **bösen** | **1** | **Scamps & Scoundrels** | **Schurken & Halunken** | 2019 | ▶️ **läuft** |
-| 7 | guten | 6 | Home, Siege Home | Eine Belagerung kommt selten allein ⚠️ | 2019 | offen |
+| **6** | **bösen** | **1** | **Scamps & Scoundrels** | **Schurken & Halunken** | 2019 | ✅ **gehört (2026-08-19)** |
+| **7** | **guten** | **6** | Home, Siege Home | Eine Belagerung kommt selten allein ⚠️ | 2019 | ▶️ **als Nächstes** |
 | 8 | bösen | 2 | Second Story Man | Der Dieb im ersten Stock | 2019 | offen |
 | 9 | guten | 7 | The Bare Hunt | Ein Halali für den Herzog | 2019 | offen |
 | 10 | bösen | 3 | Skull and Thrones | Die Freischaufler | 2020 | offen |
@@ -224,8 +224,8 @@ Verbindlich für alle Projektionen (siehe auch [[Konventionen]]):
 | --- | --- | --- | --- | --- |
 | 1 Einstieg — Welt kennenlernen | 1–3 | GJ 1 → 2 → 3 | 2018 | ✅ gehört |
 | 2 Herzogtum & Adel | 4–5 | GJ 4 → 5 | 2019 | ✅ gehört |
-| 3 **Umstieg: die andere Seite** | 6 | **BJ 1** | 2019 | ▶️ **hier** |
-| 4 Beide Seiten im Wechsel | 7–9 | GJ 6 → BJ 2 → GJ 7 | 2019 | offen |
+| 3 **Umstieg: die andere Seite** | 6 | **BJ 1** | 2019 | ✅ gehört |
+| **4 Beide Seiten im Wechsel** | 7–9 | GJ 6 → BJ 2 → GJ 7 | 2019 | ▶️ **hier** |
 | 5 Der dichteste Wechselblock | 10–15 | BJ 3 → GJ 8 → BJ 4 → GJ 9 → BJ 5 → BJ 6 | 2020 | offen |
 | 6 Montana zieht davon | 16–19 | GJ 10 → GJ 11 → BJ 7 → GJ 12 | 2021 | offen |
 | 7 Vorbereitung | 20–22 | GJ 13 → BJ 8 → BJ 9 | 2022 | offen |
@@ -268,7 +268,7 @@ Erscheinungen** — die dt. Hörbücher kamen später und in anderer Taktung.
 
 | Aspekt | Wertung |
 | --- | --- |
-| [[Moralisch ambivalenter Antiheld]] (Clyde, Dieb-POV) | +1 *(vorläufig, Bd. 1 läuft)* |
+| [[Moralisch ambivalenter Antiheld]] (Clyde, Dieb-POV) | +1 *(vorläufig — Bd. 1 durch, Interview fällig)* |
 | 🎙️ [[Thomas Nicolai]] | **−1** („Stimmfarbe passt nicht", „Tempo & Betonung" — aber „nur im Vergleich schwächer") |
 
 **Gesamtbild (mein Schluss, Stand 2026-08-11):** Der Verbund trägt über **Ton + Held +
@@ -285,7 +285,9 @@ trifft nur die bösen Jungs. **Verbund-Verdikt bewusst `liked` (vorläufig)** �
 > [[Die guten Jungs]]**. [[Die bösen Jungs]] steht auf `verdict: offen` — der Nutzer:
 > *„kann ich erst nach Ende von Band 1 was zu sagen"*. Vorher wurde dort ein `liked`
 > geführt, das **niemand gesagt hat** (System-Annahme). Keine Empfehlung und keine
-> Merkmal-Evidenz darf sich auf ein bösen-Jungs-Verdikt stützen, bis Bd. 1 durch ist.
+> Merkmal-Evidenz darf sich auf ein bösen-Jungs-Verdikt stützen, solange das Interview
+> nicht gefahren ist. **Update 2026-08-19: Bd. 1 ist durch — Interview ist fällig, das
+> Verdikt bleibt bis zu den Antworten `offen`.**
 
 ## DNA (geteilt, als Links)
 

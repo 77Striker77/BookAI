@@ -25,8 +25,8 @@ bekanntheit_stufe: "Etabliert"
 hype: "Parallelreihe der etablierten Good-Guys-Reihe"
 kontext: "LitRPG"
 verdict: "offen"                     # AUSGESETZT 2026-08-11 — vorher fälschlich "liked" (vom System gesetzt, nicht vom Nutzer)
-verdict_status: "AUSGESETZT — Nutzer 2026-08-11: „kann ich erst nach Ende von Band 1 was zu sagen""
-wiedervorlage: "Volles Interview fahren, sobald Bd. 1 durch ist (spoiler_erlebt_bis: 1). Vorher nicht nach einer Meinung fragen."
+verdict_status: "AUSGESETZT — Bedingung ERFÜLLT am 2026-08-19 (Bd. 1 durch). Interview fällig, Verdikt erst danach — NIE vom System setzen."
+wiedervorlage: "FÄLLIG seit 2026-08-19: volles Interview nach book-taste-interview (Bd. 1 ist durch). Runde 1 am 2026-08-19 gestellt, Antwort steht aus."
 format_erlebt: "hoerbuch"
 sprecher: "Thomas Nicolai"
 performance: "solo"
@@ -55,10 +55,10 @@ quellen:
   - "https://www.amazon.de/Schurken-Halunken-Fantasy-LitRPG-GameLit-Roman-b%C3%B6sen-ebook/dp/B095X52FLR"
 analysiert: 2026-08-11
 # --- 🔒 Spoiler-Grenze (siehe _System/Spoiler-Politik.md) ---
-spoiler_erlebt_bis: 0    # letzter VOLLSTÄNDIG erlebter Band (0 = keiner)
-spoiler_aktuell: 1       # laufender Band — zählt als NICHT erlebt
-spoiler_gesamt: 11        # Bd. 1 laeuft (2026-08-11) -> noch NICHTS abgeschlossen
-spoiler_stand: "2026-08-11"  # Stand bestätigt am
+spoiler_erlebt_bis: 1    # letzter VOLLSTÄNDIG erlebter Band — Bd. 1 durch (Nutzer 2026-08-19)
+spoiler_aktuell: 0       # kein laufender Band (Bd. 2 noch nicht begonnen)
+spoiler_gesamt: 11        # Freigabestufe jetzt bis_band_1
+spoiler_stand: "2026-08-19"  # Stand bestätigt am
 spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
 spoiler_unerlebte_reihen: ["The Grim Guys"]  # Reihen im selben Universum, NIE erlebt -> immer nur Klappentext-Ebene
 spoiler_aliase: []           # weitere Schreibweisen des Werktitels
@@ -89,7 +89,7 @@ sind aus einer echten Seitenüberschrift/URL belegt, **⚠️** markiert nur abg
 
 | # | 🇩🇪 Titel | 🇬🇧 Original (Jahr) | 🎧 dt. Hörbuch | Lesestand |
 | --- | --- | --- | --- | --- |
-| 1 | Schurken & Halunken | Scamps & Scoundrels (2019) | **15 h 23** · 2023 · ASIN B0C3CYC868 / B0C3CXJFHT | ▶️ **läuft gerade** |
+| 1 | Schurken & Halunken | Scamps & Scoundrels (2019) | **15 h 23** · 2023 · ASIN B0C3CYC868 / B0C3CXJFHT | ✅ **gehört (2026-08-19)** |
 | 2 | Der Dieb im ersten Stock | Second Story Man (2019) | ✓ erschienen · ASIN B0C4YHJQT2 · Dauer ⚠️ | offen |
 | 3 | Die Freischaufler | Skull and Thrones (2020) | ⚠️ offen | offen |
 | 4 | Krieg der Aufschneider | War of the Posers (2020) | ⚠️ offen | offen |
@@ -126,23 +126,25 @@ beim verschränkten Hören, weil sich das Tempo-Gefühl beim Wechsel ändert.
 
 | Bd. | Status | Notiz |
 | --- | --- | --- |
-| 1 | ▶️ läuft (dt., [[Thomas Nicolai]]) | „bj bin ich grade bei 1" (2026-08-11) |
-| 2–11 | offen | laut Hörreihenfolge als Nächstes Bd. 2, dann zurück zu [[Die guten Jungs]] 6 |
+| 1 | ✅ gehört (dt., [[Thomas Nicolai]]) | „bj band 1 abgeschlossen" (2026-08-19) |
+| 2 | ⏭️ als Nächstes | laut Hörreihenfolge Bd. 2, danach zurück zu [[Die guten Jungs]] 6 |
+| 3–11 | offen | — |
 
 ## ⭐ Bewertung je Aspekt
 
-> ⛔ **BEWERTUNG AUSGESETZT — Nutzer-Entscheidung 2026-08-11, wörtlich:**
-> „**Böse Jungs kann ich erst nach Ende von Band 1 was zu sagen.**"
->
-> **Nicht nach einer Meinung zu dieser Reihe fragen, solange Bd. 1 läuft.** Was unten steht,
+> ✅ **SPERRE AUFGEHOBEN am 2026-08-19** — die Bedingung des Nutzers ist erfüllt:
+> „Böse Jungs kann ich erst nach Ende von Band 1 was zu sagen." → **Bd. 1 ist durch.**
+> **Interview ist damit FÄLLIG** (Runde 1 gestellt am 2026-08-19, Antwort steht aus).
+> Bis die Antworten da sind, bleibt das Verdikt `offen` — **nie vom System setzen.**
+> Was unten steht,
 > ist ausdrücklich **nicht** vom Nutzer bestätigt: die *geerbten* Zeilen stammen aus dem
 > Verbund [[Vuldranni (iNcarn8)]], die reihen-eigenen sind Reihenanlage bzw. eine frühe
 > Ersteindruck-Aussage. **Einziger belastbarer reihen-eigener Befund: der Sprecher**
 > ([[Thomas Nicolai]] −1) — den hat der Nutzer direkt und begründet verglichen.
 >
-> ➡️ **Wiedervorlage:** Sobald `spoiler_erlebt_bis: 1` erreicht ist (Bd. 1 durch), das volle
-> Interview nach `book-taste-interview` fahren — Abdeckungs-Matrix von Anfang an mitführen,
-> Positiv/Negativ getrennt. Vorher **kein** Verdikt verfestigen.
+> ➡️ **Status:** `spoiler_erlebt_bis: 1` ist erreicht. Interview nach `book-taste-interview`
+> läuft — Abdeckungs-Matrix mitführen, Positiv/Negativ getrennt. **Kein** Verdikt
+> verfestigen, bevor die Antworten im Vault stehen.
 
 | Aspekt | Wertung | Warum | Beleg |
 | --- | --- | --- | --- |
@@ -150,7 +152,7 @@ beim verschränkten Hören, weil sich das Tempo-Gefühl beim Wechsel ändert.
 | *geerbt:* [[Tonwechsel Humor-Ernst]] | +2 | s. o. | geerbt aus [[Vuldranni (iNcarn8)]] |
 | [[Pragmatischer Held mit klarem Kompass]] | +2 ⚠️ **ungesichert** | Clyde ist handlungsfähig, kein Jammerlappen | „Held ist stark" — Ersteindruck aus Runde 1, **galt beiden Reihen pauschal**; für BJ nicht eigens bestätigt (s. Sperre oben) |
 | *geerbt:* [[Stimmige Weltatmosphäre]] | +2 | dieselbe Welt Vuldranni | geerbt aus [[Vuldranni (iNcarn8)]] |
-| [[Moralisch ambivalenter Antiheld]] | +1 | Dieb-POV statt Helden-POV — Reiz der Gegenseite | Reihenanlage; ⚠️ **vorläufig**, Bd. 1 läuft noch |
+| [[Moralisch ambivalenter Antiheld]] | +1 | Dieb-POV statt Helden-POV — Reiz der Gegenseite | Reihenanlage; ⚠️ **vorläufig** — Bd. 1 ist durch (2026-08-19), Interview steht aus |
 | *geerbt:* [[Über-crunchiges Zahlensystem]] | −1 | Status-/Skill-Vorlesen | „nur ein mini negativer punkt" |
 | 🎙️ [[Thomas Nicolai]] | **−1** | Stimmfarbe passt nicht zur Figur, Tempo/Betonung schwächer | „Stimmfarbe passt nicht" + „Tempo & Betonung"; ausdrücklich **„nur im Vergleich schwächer"** |
 
@@ -204,7 +206,7 @@ nirgends dokumentiert); in Glaton führt ihn **Edda** ein.
 - ⚠️ **Namen der am Anfang von Bd. 1 geretteten Personen** (Frau + Kinder auf der Erde)
   nicht dokumentiert; ebenso unbelegt, ob es am Anfang eine **gerettete Spieler-Gruppe**
   gibt. **Rückfrage an den Nutzer läuft (2026-08-19):** welche Szene genau gemeint ist.
-- **An den Nutzer (sobald Bd. 1 durch):** Trägt Clyde als Antiheld genauso wie Montana?
+- **An den Nutzer (gestellt am 2026-08-19, Antwort offen):** Trägt Clyde als Antiheld genauso wie Montana?
   Fühlt sich das Stadt-/Diebes-Setting besser oder schlechter an als der Aufbau in Coggeshall?
   Und: stört dich die deutlich längere Bandlänge (15 h vs. 9 h)?
 
