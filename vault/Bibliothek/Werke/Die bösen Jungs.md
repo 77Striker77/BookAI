@@ -189,40 +189,13 @@ voller Loot, Magie und Intrigen; der Sprecher [[Thomas Nicolai]] wird in dt. Rez
 durchaus gelobt („kann mit Durchstimmvarianz sehr überzeugen"), was den Nutzer-Malus als
 **Geschmacksurteil im direkten Vergleich** einordnet, nicht als Qualitätsmangel.
 
-## 👥 Figuren Bd. 1 — Recherchestand 2026-08-19
+## 👥 Figuren
 
-**Anlass:** Nutzerfrage „wie heißen die Personen bzw. die Spieler, die Clyde am Anfang von
-Bd. 1 trifft und rettet?" — der Vault hatte dazu **nichts** außer Clyde selbst.
-
-**Quellenlage:** Fandom-Wiki, Goodreads, Amazon, Audible.de sind in dieser Session
-egress-geblockt (WebFetch) — belegt ist nur, was als Suchtreffer-Snippet aus dem
-Fandom-Wiki „The Good Guys and Bad Guys" kam. Kein Volltextzugriff aufs Buch.
-
-> [!warning]- 🔒 SPOILER — Bd. 1 (mein Stand: Bd. 1 läuft, also formal noch nichts erlebt)
-> **Erde / Rahmenhandlung (Prämisse, steht so auch im Klappentext-Umfeld):**
-> - **Ben** — Clydes Erdname, Kleinkrimineller/Katzeneinbrecher in New York.
-> - Der Einbruch geht schief, weil Ben **die Frau und die Kinder** des reichen
->   Hausbesitzers rettet, den er gerade bestiehlt. ⚠️ **Namen dieser Frau und der Kinder
->   sind in keiner erreichbaren Quelle dokumentiert** — offen.
->
-> **Vuldranni / Glaton, frühe Bekanntschaften laut Wiki:**
-> - **Edda** — führt Clyde nach der Ankunft durch Glaton, bringt ihm die Welt bei und
->   stellt ihn einem **Hehler** vor (laut Wiki wiederkehrende Figur). Edda ist Helferin,
->   nicht Gerettete.
-> - **Mr Paul** — göttlicher „Erzähler", der neue Spieler in Vuldranni begrüßt; laut Wiki
->   später Patron von Montana und Gegenspieler Clydes. ⚠️ Auftrittszeitpunkt in Bd. 1
->   unbelegt.
-> - **Nadya Glaton** — Cousine der Kaiserfamilie, „Freundin von Clyde". ⚠️ Wann sie in
->   Bd. 1 auftaucht: unbelegt.
-> - Clyde arbeitet früh als **Pit Worker** (Gruben ausmisten).
->
-> **⚠️ Nicht belegbar:** eine **Gruppe Spieler/Terraner**, die Clyde am Anfang von Bd. 1
-> trifft und rettet. Dafür fand sich in keiner erreichbaren Quelle ein Beleg — weder Namen
-> noch die Szene. (Zur Abgrenzung: die Terraner-Reisegruppe mit **Lee** gehört laut Wiki zu
-> [[Die guten Jungs]] Bd. 1, nicht hierher.)
-
-**Quellen (Snippets):** the-good-guys-and-bad-guys.fandom.com — Seiten „Clyde Hattchet",
-„Clyde Hatchett", „Cast of Characters", „Mr Paul".
+➡️ **Eigene Notiz: [[Die bösen Jungs – Figuren]]** (Personal Bd. 1, im eingeklappten
+🔒-Block, weil Bd. 1 gerade läuft). Angelegt 2026-08-19 auf Nutzerfrage nach den Namen der
+Personen, die Clyde am Anfang von Bd. 1 trifft und rettet — der Vault hatte dazu nichts.
+Kurz: Erdname **Ben**, gerettet werden **Frau und Kinder** des Bestohlenen (⚠️ Namen
+nirgends dokumentiert); in Glaton führt ihn **Edda** ein.
 
 ## Offene Fragen
 

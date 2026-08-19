@@ -219,6 +219,12 @@ Kritik: **episodische Struktur / dünnere Gesamtplot-Progression über viele Bä
 der Punkt, den ich beim Nutzer noch nicht belegen konnte (siehe Offene Fragen). ⚠️ Wertungen
 **je Band** waren in dieser Session nicht erhebbar.
 
+## 👥 Figuren
+
+➡️ **Eigene Notiz: [[Die guten Jungs – Figuren]]** — Personal **Bd. 1–5** (mein Lesestand):
+Hirð, Coggeshall-Gefolge, Adel, Götter, Gegenspieler, je mit Kurzbeschreibung und Band der
+Ersteinführung. Ab Bd. 6 bewusst **nicht** recherchiert. Angelegt 2026-08-19.
+
 ## Offene Fragen
 
 - ⚠️ Wertungen **je Band** (Goodreads/Audible.de) + Stimmenzahlen — Proxy-blockiert.

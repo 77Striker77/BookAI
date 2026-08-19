@@ -31,6 +31,12 @@ vault/
 │   ├── Werke/                 erlebte WERKE (= Reihe/Universum/Standalone) — mit
 │   │                            ASPEKT-BEWERTUNGEN + Lesestand (siehe unten)
 │   ├── Autoren/  Sprecher/    je Entität eine Notiz
+│   ├── Figuren/              ⭐ je WERK ein Figurenverzeichnis „<Werk> – Figuren.md“
+│   │                           (Personal + Kurzbeschreibung + Band der Ersteinführung).
+│   │                           Deckt IMMER nur bis zum Lesestand ab — Figuren jenseits
+│   │                           der Grenze werden gar nicht erst recherchiert (ihr Name
+│   │                           allein ist ein Spoiler, s. Spoiler-Politik §4).
+│   │                           Verlinkt aus der Werk-Notiz (Abschnitt „👥 Figuren“).
 ├── Merkmale/                  DNA-Atome: je Merkmal EINE Notiz, Status JE KONTEXT
 │   ├── Genres/  Themen/  Ton/  Erzählstil/  Figuren/  Setting/
 │   └── Handwerk/              ⭐ Ausführungsqualitäten: [[Aufgeblähter Mittelteil]],
