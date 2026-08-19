@@ -1897,7 +1897,7 @@
       <div class="subnav wtabs" aria-label="Bereiche dieses Werks">
         <span class="fl">Ansicht</span>
         <button class="fc on" data-tab="w-boesenjungs-werk" aria-pressed="true">&#128213; Das Werk</button>
-        <button class="fc" data-tab="w-boesenjungs-figuren" aria-pressed="false">&#128101; Figuren <span class="zahl">5</span></button>
+        <button class="fc" data-tab="w-boesenjungs-figuren" aria-pressed="false">&#128101; Figuren <span class="zahl">6</span></button>
       </div>
       <section class="tabsec on" id="w-boesenjungs-werk">
       <article class="work aus" id="boesenjungs">
@@ -1974,7 +1974,7 @@
       </section>
 
       <section class="tabsec" id="w-boesenjungs-figuren">
-        <h2>Figuren <span class="zahl" style="font-size:.9rem;font-weight:600">&mdash; 5 aus Bd. 1</span></h2>
+        <h2>Figuren <span class="zahl" style="font-size:.9rem;font-weight:600">&mdash; 6 aus Bd. 1</span></h2>
         <p class="hint">&#128584; <b>spoilerfrei:</b> nur Personal aus <b>Bd. 1</b> &mdash; meinem Stand. Ab Bd. 2 wurde nichts recherchiert.<br><span class="unsure">&#9888;</span> = nicht belegt. Anders als bei der Schwesterreihe hat das Fan-Wiki hier <b>keine Seiten je Band</b>; die Liste ist darum sicher unvollst&auml;ndig.</p>
         <p class="box-title" style="margin-top:16px">Personal Bd. 1</p>
         <div class="fgtab">
@@ -1983,12 +1983,8 @@
           <div class="fgr"><span class="fgn">Die gerettete Familie<span class="rolle">Erde</span></span><span class="fgd">Frau und Kinder des Bestohlenen. <span class="unsure">&#9888;</span> <b>Namen in keiner erreichbaren Quelle dokumentiert</b> &mdash; offene L&uuml;cke.</span><span class="fgb leer">offen</span></div>
           <div class="fgr"><span class="fgn">Edda<span class="rolle">Wegweiserin in Glaton</span></span><span class="fgd">Nimmt Clyde nach der Ankunft an die Hand: erkl&auml;rt ihm Vuldranni und speziell die Reichshauptstadt <b>Glaton</b> &mdash; und stellt ihn einem Hehler vor.</span><span class="fgb">Wiki</span></div>
           <div class="fgr"><span class="fgn">Der Hehler<span class="rolle">Kontakt</span></span><span class="fgd">Von Edda vermittelt, laut Wiki eine wiederkehrende Figur der Reihe. <span class="unsure">&#9888;</span> <b>Name nicht belegt.</b></span><span class="fgb leer">offen</span></div>
+          <div class="fgr"><span class="fgn">Nadya Glaton<span class="rolle">Adel</span></span><span class="fgd">Cousine der Kaiserfamilie, im Wiki als Freundin von Clyde gef&uuml;hrt. <span class="unsure">&#9888;</span> wann sie auftritt: nicht belegt.</span><span class="fgb">Wiki</span></div>
           <div class="fgr"><span class="fgn">Mr. Paul<span class="rolle">Schutzgott</span></span><span class="fgd">Derselbe g&ouml;ttliche Erz&auml;hler wie bei den guten Jungs. Muss neutral bleiben, weil er zugleich zur Verwaltung des &#8222;Spiels&#8220; geh&ouml;rt und Schutzgott ist &mdash; Clyde ist der, der das so herleitet.</span><span class="fgb">Wiki</span></div>
-        </div>
-        <p class="box-title" style="margin-top:16px">Genannt &mdash; aber der Band ist nicht belegt</p>
-        <p class="hint">Fail-closed: diese Figur f&uuml;hrt das Wiki, <b>ohne</b> zu sagen, in welchem Band sie vorkommt. Sie steht deshalb nicht oben im Personal von Bd. 1, sondern hier &mdash; mit genau dieser Einschr&auml;nkung.</p>
-        <div class="fgtab">
-          <div class="fgr"><span class="fgn">Nadya Glaton<span class="rolle">Adel</span></span><span class="fgd">Cousine der Kaiserfamilie, im Wiki als Freundin von Clyde gef&uuml;hrt. <span class="unsure">&#9888;</span> in welchem Band sie auftritt: nicht belegt.</span><span class="fgb leer">?</span></div>
         </div>
         <p class="box-title" style="margin-top:16px">Orte &amp; Gruppen</p>
         <div class="fgtab">
@@ -3132,4 +3128,36 @@
   window.addEventListener("hashchange", route);
   route();
 })();
+</script>
+<script>
+addEventListener("error",function(e){
+  var d=document.createElement("div"); d.id="jsfehler";
+  d.textContent="JSFEHLER "+e.message+" @"+e.lineno+":"+e.colno;
+  document.body.appendChild(d);
+});
+addEventListener("load",function(){
+  var de=document.documentElement;
+  var m=document.createElement("div"); m.id="messwert";
+  m.textContent="MESS clientW="+de.clientWidth+" scrollW="+de.scrollWidth;
+  document.body.appendChild(m);
+
+  // Im Pruefstand steckt dieselbe Sonde in einem iframe fester Breite. Nur dort
+  // entsteht ein echter schmaler Viewport — ein Browserfenster laesst sich unter
+  // Windows nicht unter ~492 CSS-px druecken. postMessage statt contentDocument:
+  // zwei file://-Dokumente sind fuereinander fremde Herkunft.
+  if (window.parent !== window) {
+    var w = new URLSearchParams(location.search).get("w") || de.clientWidth;
+    parent.postMessage({typ:"mess", w:String(w), b:de.clientWidth, s:de.scrollWidth}, "*");
+  }
+
+  var alle=document.querySelectorAll(".view");
+  var ziel=alle.length?alle:[document.querySelector("main")||document.body];
+  var leer=0, namen=[];
+  ziel.forEach(function(v){
+    if(v.textContent.replace(/\s/g,"").length<40){leer++;namen.push(v.id||v.tagName);}
+  });
+  var v=document.createElement("div"); v.id="viewpruef";
+  v.textContent="VIEWS gefunden="+ziel.length+" leer="+leer+" ("+namen.join(",")+")";
+  document.body.appendChild(v);
+});
 </script>

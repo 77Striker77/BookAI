@@ -1,0 +1,22 @@
+<body style="margin:0;background:#555">
+<div id="matrixwert">MATRIX</div>
+<script>
+var teile = {};
+addEventListener("message", function (e) {
+  var d = e.data;
+  if (!d || d.typ !== "mess") return;
+  teile[d.w] = d;
+  var breiten = Object.keys(teile).sort(function (a, b) { return a - b; });
+  document.getElementById("matrixwert").textContent = "MATRIX " + breiten.map(function (k) {
+    var t = teile[k];
+    return k + "=" + (t.s > t.b + 1 ? "UEBER" + t.s : "ok");
+  }).join(" ");
+});
+</script>
+<iframe src="file:////home/user/BookAI/.claude/tmp/artefakt-mess/sonde.html?w=320" width="320" height="900" style="border:0;display:block"></iframe>
+<iframe src="file:////home/user/BookAI/.claude/tmp/artefakt-mess/sonde.html?w=375" width="375" height="900" style="border:0;display:block"></iframe>
+<iframe src="file:////home/user/BookAI/.claude/tmp/artefakt-mess/sonde.html?w=414" width="414" height="900" style="border:0;display:block"></iframe>
+<iframe src="file:////home/user/BookAI/.claude/tmp/artefakt-mess/sonde.html?w=768" width="768" height="900" style="border:0;display:block"></iframe>
+<iframe src="file:////home/user/BookAI/.claude/tmp/artefakt-mess/sonde.html?w=1024" width="1024" height="900" style="border:0;display:block"></iframe>
+<iframe src="file:////home/user/BookAI/.claude/tmp/artefakt-mess/sonde.html?w=1440" width="1440" height="900" style="border:0;display:block"></iframe>
+</body>

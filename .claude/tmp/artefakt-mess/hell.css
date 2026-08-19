@@ -1,0 +1,17 @@
+:root{
+    color-scheme: light;
+    /* EINE Bildwelt: nachtschwarz mit Neon, unabhängig von der
+       Systemeinstellung. Die drei Theme-Blöcke tragen deshalb dieselben
+       Werte — der Umschalter bleibt deklariert, ändert aber nichts mehr. */
+    --bg:#06080c; --panel:#0d1119; --card:#121722;
+    --ink:#e8edf5; --ink2:#a9b5c7; --muted:#8391a5; --line:#1f2735; --track:#161d29;
+    --regal:#1b2534; --regal-tief:#080b11; --neon:#4dd2ff; --neon2:#a86bff;
+    --lampe:#ffc94d; --lampe-weich:#221a08;
+    --rating:#4dd2ff; --rating-soft:#0e2a38; --rating-ink:#4dd2ff;
+    --pos:#3ff08a; --pos-soft:#0c2a1b; --pos-ink:#3ff08a;
+    --neg:#ff6b85; --neg-soft:#2e1119; --neg-ink:#ff6b85;
+    --fame:#ffc94d; --fame-soft:#2a2008; --fame-ink:#ffc94d;
+    --de:#4dd2ff; --en:#c79bff; --navbg:rgba(9,12,18,.86);
+    --schatten:0 1px 2px rgba(0,0,0,.7), 0 14px 34px -18px rgba(0,0,0,.95);
+    --schatten-buch:0 1px 1px rgba(0,0,0,.75), 0 12px 22px -8px rgba(0,0,0,.95);
+  }

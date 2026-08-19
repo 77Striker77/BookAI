@@ -32,7 +32,7 @@ Werk: [[Die bösen Jungs]] · Universum: [[Vuldranni (iNcarn8)]] · Schwesterrei
 | **Die gerettete Familie** (Erde) | Frau + Kinder des Bestohlenen. ⚠️ **Namen in keiner erreichbaren Quelle dokumentiert** — offene Lücke. |
 | **Edda** | Nimmt Clyde nach der Ankunft an die Hand: erklärt ihm Vuldranni und speziell die Reichshauptstadt **Glaton**, und stellt ihn einem **Hehler** vor. |
 | **Der Hehler** | Von Edda vermittelt; laut Wiki eine wiederkehrende Figur der Reihe. ⚠️ **Name nicht belegt.** |
-| **Nadya Glaton** | **Cousine der Kaiserfamilie**, im Wiki geführt als „Freundin von Clyde". ⚠️ Wann sie auftritt: nicht belegt. |
+| **Nadya Glaton** | **Cousine der Kaiserfamilie**, im Wiki geführt als „Freundin von Clyde". ⚠️ **In welchem Band sie auftritt, ist NICHT belegt** — fail-closed steht sie deshalb nicht als gesichertes Bd.-1-Personal, sondern als „genannt, Band offen". |
 | **Mr. Paul** | Derselbe göttliche Erzähler wie bei [[Die guten Jungs]] (s. [[Die guten Jungs – Figuren]]). Laut Wiki muss er neutral bleiben, weil er zugleich zur **Verwaltung des „Spiels"** gehört und Schutzgott ist — Clyde ist derjenige, der das so herleitet. |
 
 **Orte/Gruppen dazu:** **Glaton** — Hauptstadt des Kaiserreichs, benannt nach **Elissa
