@@ -41,6 +41,14 @@ tags: [moc, home]
 
 ## Zuletzt
 
+- 2026-08-22 — 🐉 **[[Dark Lord Davi]] (Django Wexler) auf die [[Warteliste]]** — und damit die
+  **erste vom Nutzer erteilte No-Go-Ausnahme**: Die Reihen-Pflicht ≥3 Bände ist keine Mauer,
+  sondern ein Filter, den er bei starkem Ton-Match selbst öffnet (*„ne nimm es mit auf es sind
+  nur 2 bücher"*). Arbeitsregel in [[No-Gos]] nachgezogen: Kandidaten, die **nur** an der
+  Reihenlänge scheitern, werden künftig **mit Hinweis vorgelegt statt still verworfen**.
+  Neue Autoren-Notiz [[Django Wexler]]. Offene Nachfrage fürs spätere Interview: stören ihn
+  die Dauer-Sex-Kommentare, und empfindet er den Stationen-Aufbau als Längen?
+
 - 2026-08-11 (R4) — 🎤 **Negativseite bei [[Die guten Jungs]] nachgeholt**, nachdem der
   Stop-Hook die fehlende Abdeckungs-Matrix gemeldet hatte. Sechs Felder einzeln geschlossen.
   Das bisherige Acht-mal-+2-Profil war ein **Erhebungsartefakt**. Drei Funde: ⭐ eine

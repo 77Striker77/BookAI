@@ -1,5 +1,5 @@
 ---
-aktualisiert: 2026-07-17
+aktualisiert: 2026-08-22
 tags: [warteliste]
 ---
 
@@ -16,6 +16,7 @@ Notiz wandert nach `Bibliothek/Werke/`, Zeile hier abhaken.
 | [[Susan Ryeland ermittelt (Magpie Murders)]] | Buch/Hörbuch | [[2026-07-17 Deutsche Bücher quer über alle Räume]] | 84 % | empfohlen |
 | [[Hawthorne ermittelt]] | Buch/Hörbuch (V. Hanisch) | [[2026-07-17 Deutsche Bücher quer über alle Räume]] | 83 % | empfohlen |
 | [[Die Gilde der schwarzen Magier]] | Buch/Hörbuch (M. Rester-Gellhaus) | [[2026-07-17 Deutsche Bücher quer über alle Räume]] | 80 % | empfohlen |
+| [[Dark Lord Davi]] ([[Django Wexler]]) | Buch/Hörbuch (Annette Strasser) | Chat-Ad-hoc 2026-08-22 | 70 % | empfohlen ⚠️ **No-Go-Ausnahme: nur 2 Bände, vom Nutzer erlassen** |
 
 <!-- Riyria zurückgezogen (bereits erlebt, „okay") — s. Werk-Notiz [[Riyria]] -->
 

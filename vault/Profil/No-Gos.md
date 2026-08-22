@@ -1,5 +1,5 @@
 ---
-aktualisiert: 2026-07-16
+aktualisiert: 2026-08-22
 no_gos:
   - "Standalone / zu kurze Reihen: min. 3 Bände (erschienen oder fest angekündigt; Universum zählt zusammen)"
   - "Romance/übertriebene Romantik als Handlungstreiber (Liebes-Subplot ist okay)"
@@ -16,6 +16,21 @@ Jeder Eintrag braucht Herkunft (wann/wo gesagt) — nichts hier ist erschlossen.
 | --- | --- | --- |
 | **Reihen-Pflicht:** Standalones raus; min. 3 Bände (erschienen oder fest angekündigt). **Wichtig:** Bücher im selben Universum zählen zusammen → bei der Prüfung Universum recherchieren, nicht nur die Reihen-Angabe! | beide Formate | [[2026-07-16 Erstinterview Dungeon Crawler Carl]] (wörtlich) |
 | **Romance-Fokus** — Romance/übertriebene Romantik als dominierender Handlungstreiber. **Liebesgeschichte als Subplot ist okay** — nur nicht der Grund des Buches. | beide Formate | [[2026-07-16 Profil-Schärfung (Sprache, Länge, Romance)]] (wörtlich, präzisiert) |
+
+## ⭐ Erste erteilte Ausnahme (Nutzer, 2026-08-22) — Reihen-Pflicht ist **erlassbar**
+
+> *„ne nimm es mit auf es sind nur 2 bücher und evtl gefällt es mir ja deine postiven punkte
+> treffen schon fut und die negativen eher weniger?"* — zu [[Dark Lord Davi]] (Django Wexler,
+> abgeschlossene Duologie, 2 Bände).
+
+**Was das ändert:** Die Reihen-Pflicht bleibt der Standard-Filter, ist aber **keine Mauer**.
+Bei starkem Ton-/Figuren-Match darf ein 2-Bände-Werk **vorgelegt statt verschwiegen** werden —
+mit sichtbarem Hinweis „verletzt die Reihen-Pflicht", damit der Nutzer selbst entscheidet.
+
+**Arbeitsregel ab jetzt:** Ein Kandidat, der **ausschließlich** an der Reihenlänge scheitert
+(≥2 Bände, alles andere passt), wird nicht mehr still verworfen, sondern als
+**„Kurzkandidat mit Hinweis"** genannt. Standalones (1 Band) bleiben draußen, solange der
+Nutzer nichts anderes sagt. Alle anderen No-Gos bleiben unverändert hart.
 
 ## Weicher Ausschluss-Richtwert: Länge
 

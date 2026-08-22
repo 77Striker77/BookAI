@@ -4,10 +4,11 @@ werk_typ: reihe
 autor: "Django Wexler"
 jahr_start: 2024
 kontext: "Humor-Phantastik"
-status: geprueft-verworfen
+status: empfohlen          # 2026-08-22 vom Nutzer AUSDRÜCKLICH auf die Warteliste gehoben (No-Go-Ausnahme)
+no_go_ausnahme: "Reihen-Pflicht ≥3 Bände — vom Nutzer erlassen, wörtlich: „ne nimm es mit auf es sind nur 2 bücher und evtl gefällt es mir ja" (2026-08-22)"
 zuletzt_beruehrt: 2026-08-22
 laeufe: ["Ad-hoc-Anfrage Chat 2026-08-22"]
-wiedervorlage: "nur, falls Verlag/Autor einen echten Band 3 im selben Universum bestätigt (dann Reihen-Pflicht erfüllt)"
+wiedervorlage: "nach dem Hören/Lesen interviewen — besonders: stören die Dauer-Sex-Kommentare? zieht sich der Mittelteil?"
 baende_gesamt: 2
 abgeschlossen: true
 format_verfuegbar: [buch, hoerbuch]
@@ -29,7 +30,7 @@ genres: ["Comedy-Fantasy", "Portal Fantasy", "Time Loop", "Grimdark-Humor"]
 ton: ["Absurder Humor", "Nerd-/Popkultur-Humor", "Dauer-Zynismus"]
 figuren: ["Moralisch ambivalenter Antiheld", "Pragmatischer Held mit klarem Kompass"]
 handwerk: ["Episodischer Mittelteil"]
-overall: 58
+overall: 70          # nach Nutzer-Korrektur: Ton-/Figuren-Anker treffen, Negativpunkte vom Nutzer als weniger relevant eingeschätzt
 scores: { ton: 80, figuren: 75, themen: 60, tempo: 45, handwerk: 45, formal: 0 }
 quellen:
   - "https://www.penguin.de/buecher/reihen/dark-lord-davi/5006130"
@@ -45,8 +46,17 @@ tags: [kandidat]
 
 # Dark Lord Davi (Django Wexler)
 
-**Status: geprueft-verworfen** (formal am No-Go gescheitert) · Kontext [[Humor-Phantastik]] ·
+**Status: empfohlen / auf der [[Warteliste]]** · Kontext [[Humor-Phantastik]] ·
 geprüft 2026-08-22 auf Zuruf im Chat („wie würde mir das gefallen?").
+
+> ⭐ **Nutzer-Entscheidung 2026-08-22 — No-Go bewusst erlassen.** Erst als
+> `geprueft-verworfen` eingestuft (2 Bände < Reihen-Pflicht). Der Nutzer hat das
+> **überstimmt**, wörtlich: *„ne nimm es mit auf es sind nur 2 bücher und evtl gefällt es
+> mir ja deine postiven punkte treffen schon fut und die negativen eher weniger?"*
+> → Titel steht auf der Warteliste. **Profil-Signal:** die Reihen-Pflicht ist bei ihm keine
+> Mauer, sondern ein Filter, den er bei starkem Ton-Match selbst öffnet (s. [[No-Gos]]).
+> Zweites Signal: er schätzt die genannten Negativpunkte für sich als **weniger schwer**
+> ein — noch unbestätigt, nach dem Hören/Lesen im Interview nachfassen.
 
 - Bd. 1 *How to Become the Dark Lord and Die Trying* (EN 21.05.2024 / DE 2025, 496 S.)
 - Bd. 2 *Everybody Wants to Rule the World Except Me* (EN 27.05.2025 / DE 2026, 416 S.,
@@ -92,8 +102,23 @@ risingshadow.net auf — **kein Verlagsbeleg**. → 2 Bände < Pflicht ≥3 → 
   vom Egress-Proxy blockiert; engl. Original 14:01 h als Näherung.
 - Goodreads-Schnitt Band 2 nicht ermittelt.
 
+## Widersprüchliche Quellenlage zum Tempo (wichtig für die Nachkontrolle)
+
+Die Kritik „zieht sich" ist **nicht einhellig** — die Quellen widersprechen sich offen:
+
+| Quelle | Aussage zum Tempo |
+| --- | --- |
+| Englische Rezensionen (Realms of My Mind, The Library Ladies) | Mittelteil **episodisch/formelhaft**, Loop-Reiz verblasst, sobald Davi seltener stirbt |
+| dt. Leserstimmen (LovelyBooks) | „erst gut, dann zäh"; hätte in einen kurzen Band gepasst |
+| dt. Blogs (Fantasykosmos, Drachenbücherhort, phantastiknews) | **rasant**, „schaltet ständig einen Gang hoch" (Time-Loop, Quests, Verschwörungen) |
+
+→ Beim Nachfassen gezielt trennen: **Tempo** (offenbar hoch) vs. **Struktur**
+(Stationen-Muster). Sein Faden ist nicht „schnell", sondern „Haupthandlung bleibt vorne"
+(s. [[Profil]] Faden 1) — genau das ist hier die offene Frage.
+
 ## Prüf-Historie (append-only)
 
 | Datum | Lauf | Stufe | Status danach | Score | Kern-Grund |
 | --- | --- | --- | --- | --- | --- |
 | 2026-08-22 | Chat-Ad-hoc | 2 | geprueft-verworfen | 58 % | No-Go Reihenlänge (2 Bd., Duologie) + episodischer Mittelteil + Ton-Dauerbeschallung |
+| 2026-08-22 | Chat-Ad-hoc | — | **empfohlen (Warteliste)** | 70 % | **Nutzer erlässt das No-Go** und wertet die Negativpunkte für sich ab |
