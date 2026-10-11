@@ -50,7 +50,7 @@ des Verbunds). Reihen-Pflicht auf Verbund-Ebene: 27 erschienene Bände = klar er
 | 1–5 | GJ 1–5 | ✅ gehört (dt.) |
 | 6 | BJ 1 | ✅ gehört (dt., 2026-08-19) |
 | 7–12 | GJ 6 · BJ 2 · GJ 7 · BJ 3 · GJ 8 · BJ 4 | ✅ gehört (dt., Stand 2026-10-11) |
-| 13 | GJ 9 | ⏭️ **nicht gehört** — übersprungen oder noch offen? (s. Offene Fragen an Lucas) |
+| 13 | GJ 9 | ⏭️ **bewusst zurückgestellt** — „ich wollte erstmal bei bj nachholen“ (2026-10-11), kommt später |
 | 14 | BJ 5 | ✅ gehört |
 | 15 | BJ 6 | ▶️ läuft |
 | 16–27 | übrige Schritte der Liste | offen |
@@ -191,5 +191,5 @@ Stimme ständig.
   und das Status-Vorlesen für dich genauso bei den bösen Jungs, also fürs ganze Universum?
 - ~~Was hörst du als Nächstes~~ ✓ überholt 2026-10-11: GJ 8 fertig, BJ 6 läuft ([[2026-10-11 Fragenrunde nach dem Umbau]]). Ursprünglich: — GJ 6 (Schritt 7, so hier und in der Liste) oder BJ 2 (so in
   [[Die bösen Jungs – Lucas]] und [[Die guten Jungs – Lucas]] notiert)?
-- **GJ 9 (Schritt 13):** Du hast GJ 8 fertig und bist bei BJ 6 — GJ 9 liegt laut Liste davor. Bewusst übersprungen, später nachgeholt, oder in anderer Reihenfolge gehört? (Spoiler-Grenze bleibt bis zur Antwort bei Schritt 12, fail-closed.)
+- ~~**GJ 9 (Schritt 13)**~~ ✓ beantwortet 2026-10-11: bewusst zurückgestellt — „ich wollte erstmal bei bj nachholen“ ([[2026-10-11 Fragenrunde nach dem Umbau]]); kommt später. Grenze bleibt bei Schritt 12. Ursprünglich: Bewusst übersprungen, später nachgeholt, oder in anderer Reihenfolge gehört? (Spoiler-Grenze bleibt bis zur Antwort bei Schritt 12, fail-closed.)
 - **BJ-Interview fällig:** Du hast jetzt 5 Bände der bösen Jungs gehört — das Verdikt ist weiter `offen`.

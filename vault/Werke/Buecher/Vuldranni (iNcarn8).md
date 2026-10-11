@@ -226,3 +226,9 @@ Die gewählte Fassung ist damit **gut begründet, aber nicht „bewiesen"**.
   (Figuren), [[Monster-Vielfalt & Bestiarium]] (Setting), [[Über-crunchiges Zahlensystem]] (Handwerk) und
   [[Intrigen-Overload ohne Progress]] („auf 0“) standen ohne Community-Beleg in der Verbund-DNA. Der einzige
   Ton-Beleg („charmanter Wortwitz“) sagt „absurd/grotesk“ nicht aus → erst mit Rezension wieder aufnehmen.
+- **Offen (Recherche, Wunsch Lucas 2026-10-11): Zeitstrahl der Welt.** Die 27-Schritt-Liste ordnet
+  nach **Erscheinungsdatum der EN-Originale**, nicht nach der Chronologie in der Welt — ob beides
+  übereinstimmt, ist nie geprüft. Gewünscht: ein echter Zeitstrahl von Vuldranni und darauf je Reihe
+  jeder Band als Punkt. Dabei die Aussagen „eigenständig hörbar“, „laufen parallel“ und „Mittelteil
+  16–24 nicht kritisch“ (Leserangabe, Quelle nicht benannt) gegeneinander klären. Lucas: „aber nicht
+  jetzt“. Spoiler beachten: Punkte jenseits des Lesestands nur mit Metadaten (Band, Jahr).
