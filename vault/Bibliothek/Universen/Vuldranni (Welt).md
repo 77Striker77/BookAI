@@ -1,11 +1,13 @@
 ---
-name: "Vuldranni (iNcarn8)"
+name: "Vuldranni (Welt)"
 typ: universum
 autor: "Eric Ugland"
 tags: [universum]
 ---
 
 # 🌍 Vuldranni (iNcarn8)
+
+> Die **Welt**. Der Werk-Verbund mit Reihenfolge, Bänden und Wertungen ist [[Vuldranni (iNcarn8)]].
 
 LitRPG-/GameLit-Welt von [[Eric Ugland]] (Spiel/Portal-Fantasy „iNcarn8"). Referenziert über
 den Kandidaten [[Die guten Jungs]].

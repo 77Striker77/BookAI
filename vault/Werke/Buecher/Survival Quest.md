@@ -24,7 +24,7 @@ rating_stimmen_gesamt: "~41–44k (Goodreads-Snapshot 2026-07; je Band 11.226/6.
 bekanntheit_stufe: "Etabliert"
 hype: "Genre-Säule/Pionier des LitRPG (russischer Ursprung, breit übersetzt) — kein aktueller Hype"
 rating_goodreads: 4.15
-genres: [LitRPG]
+genres: ["LitRPG (Genre)"]
 themen: [System & Progression, Underdog-Aufstieg]
 ton: []
 erzaehlstil: [Ich-Erzähler]
@@ -57,7 +57,7 @@ Schamanen-Klasse zugeteilt bekommt. **Die Gefängnis-/Minen-Prämisse prägt im 
 nur Band 1** — ab Bd. 2 verlässt Mahan die Mine, ab Bd. 3 wird er Clan-Anführer; die Reihe
 kippt in eskalierenden Clan-Krieg und Fraktions-Politik. **7 Bände, abgeschlossen.**
 
-**Genre:** [[LitRPG]] · **Autor:** [[Vasily Mahanenko]] · **Sprecher (dt.):** [[Thomas Balou Martin]]
+**Genre:** [[LitRPG (Genre)|LitRPG]] · **Autor:** [[Vasily Mahanenko]] · **Sprecher (dt.):** [[Thomas Balou Martin]]
 
 ## 🗺️ Universum & Reihenfolge
 
@@ -165,7 +165,7 @@ Das **englische Hörbuch (Jonathan Yen, Tantor)** ist eine eigene Fassung; die d
 
 - **Kurz (Rezensionskonsens/Fandom):** Pionier-LitRPG mit tiefem Crafting-/Wirtschafts-
   und Klassensystem, Progression vom Sträfling zum Weltgestalter, Ich-Perspektive.
-- **Genres:** [[LitRPG]]
+- **Genres:** [[LitRPG (Genre)|LitRPG]]
 - **Themen:** [[System & Progression]], [[Underdog-Aufstieg]] (Sträfling → Clan-Anführer)
 - **Erzählstil:** [[Ich-Erzähler]] (Mahan) · Rahmen: reale Welt, in der Mahan zum Spiel verurteilt wird (Prämisse, s. oben)
 - **Figuren:** [[Überzogener Auserwählter]] (Community: „Shaman is the worst cheater of 'em all")

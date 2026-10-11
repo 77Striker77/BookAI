@@ -29,7 +29,7 @@ Gewichte + Aspekt-Bewertungen der Referenzwerke geprüft.
 
 | # | Titel | Kontext | Match | Kurzbegründung |
 | --- | --- | --- | --- | --- |
-| 1 | [[Die guten Jungs]] | LitRPG | 86 % | DCC-Ton-Zwilling (Humor↔Härte), pragm. Held, dt. Hörbuch, kurze Bände (~9 h) |
+| 1 | [[Die guten Jungs (Kandidat)|Die guten Jungs]] | LitRPG | 86 % | DCC-Ton-Zwilling (Humor↔Härte), pragm. Held, dt. Hörbuch, kurze Bände (~9 h) |
 | 2 | [[Susan Ryeland ermittelt (Magpie Murders)]] | Krimi | 84 % | Roman-im-Roman, doppeltes Fair-Play, Christie-Hommage |
 | 3 | [[Hawthorne ermittelt]] | Krimi | 83 % | Autor = Watson-Figur: Meta-Fair-Play in Reinform, trockener Humor, Ich-Erzähler |
 | 4 | [[Das Geheimnis von Askir]] | Fantasy | 81 % | verlorenes Erbe + geheimnisv. Macht + geregeltes Magiesystem, dt. Original ([[Richard Schwartz]]) |
@@ -64,7 +64,7 @@ Gewichte + Aspekt-Bewertungen der Referenzwerke geprüft.
 | [[Rabenschatten (Das Lied des Blutes)]] | 71 % | strukturell wie Sturmfels, aber Hörbuch ~28,7 h → **als BUCH stark** |
 | [[Die Wiege (Cradle)]] | 76 % | Top-Progression/Länge, aber wenig Humor + nur 3 dt. Bände |
 | [[Die Chronik der Weitseher (Farseer)]] | 62 % | Themen top, aber Slow-Burn + phasenweise passiver Held ([[Zu lange schwacher Held]]) |
-| [[Der Donnerstagsmordclub]] | 73 % | solide Cosy-Alternative, aber weniger Locked-Room/Meta als Cunninghams |
+| [[Der Donnerstagsmordclub (Kandidat)|Der Donnerstagsmordclub]] | 73 % | solide Cosy-Alternative, aber weniger Locked-Room/Meta als Cunninghams |
 
 ## Nur gesichtet (Stufe 1 — noch keine eigene Kandidaten-Notiz)
 

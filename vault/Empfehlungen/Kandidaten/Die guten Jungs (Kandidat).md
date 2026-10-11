@@ -29,7 +29,7 @@ community_quellen: ["https://www.goodreads.com/series/250153-the-good-guys"]
 rating_goodreads: 4.38
 rating_openlibrary:
 # --- DNA soweit bekannt ---
-genres: ["LitRPG", "GameLit", "Action-Komödie"]
+genres: ["LitRPG (Genre)", "GameLit", "Action-Komödie"]
 themen: ["System & Progression", "Aufbegehren gegen das System"]
 ton: ["Tonwechsel Humor-Ernst", "Absurder Humor"]
 erzaehlstil: []

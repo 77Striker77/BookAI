@@ -25,7 +25,7 @@ bekanntheit_stufe: "Etabliert"
 hype: "Indie-LitRPG-Dauerbrenner; Ugland ~49 Bücher, hohe Frequenz"
 sprecher: "Robert Frank"
 performance: "solo"
-genres: [LitRPG, GameLit, Action-Komödie]
+genres: ["LitRPG (Genre)", GameLit, Action-Komödie]
 themen: [Basisaufbau & Siedlungsentwicklung]
 ton: []
 erzaehlstil: []
@@ -58,7 +58,7 @@ Tank-Klasse baut er sich ein neues Leben auf, erbt überraschend einen Titel und
 dem heruntergekommenen **Herzogtum Coggeshall** eine echte Siedlung. 16 Bände erschienen (2018–2025, „Noch einmal mit Gefühl“ bis „Acht Beine für ein Halleluja“).
 ⚠️ **Korrektur 2026-08-11: NICHT abgeschlossen — Bd. 17 ist für 2026 angekündigt.**
 
-**Genre:** [[LitRPG]] · **Autor:** [[Eric Ugland]] · **Sprecher (dt.):** [[Robert Frank]] ·
+**Genre:** [[LitRPG (Genre)|LitRPG]] · **Autor:** [[Eric Ugland]] · **Sprecher (dt.):** [[Robert Frank]] ·
 **Parallelreihe:** [[Die bösen Jungs]]
 
 ## 📚 Die Bände einzeln

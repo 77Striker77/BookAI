@@ -15,7 +15,7 @@ sprachen_verfuegbar: [de]
 sprecher: "Gerrit Schmidt-Foss"
 isbn_bd1: "9783596713721"
 rating_goodreads: 4.34
-genres: ["LitRPG", "Progression Fantasy", "Isekai"]
+genres: ["LitRPG (Genre)", "Progression Fantasy", "Isekai"]
 ton: ["Tonwechsel Humor-Ernst"]
 figuren: ["Pragmatischer Held mit klarem Kompass"]
 handwerk: ["Zäher Start"]

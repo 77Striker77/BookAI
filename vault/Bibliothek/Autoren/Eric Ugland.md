@@ -5,7 +5,7 @@ status: liked              # 2026-08-11: beide Reihen erlebt (vorläufig) — er
 herkunft: "USA (Los Angeles; laut Bio früher Seattle/Manhattan)"
 geburtsjahr: ""            # nicht öffentlich belegt
 bekanntheit: "Etabliert (Indie-LitRPG)"
-universen: ["[[Vuldranni (iNcarn8)]]"]
+universen: ["[[Vuldranni (Welt)]]"]
 tags: [autor]
 ---
 
@@ -33,7 +33,7 @@ und Hartnäckigkeit stolpern", clever konstruierte Quests, kurze knackige Bände
 
 ## 🗺️ Universen & Reihen dieses Autors
 
-- **[[Vuldranni (iNcarn8)]]** — Spielwelt, betreten über das Spiel iNcarn8:
+- **[[Vuldranni (Welt)|Vuldranni (iNcarn8)]]** — Spielwelt, betreten über das Spiel iNcarn8:
   | Reihe | Bände | Rolle | dt. |
   | --- | --- | --- | --- |
   | [[Die guten Jungs]] (The Good Guys) | 16 | Hauptreihe (Held Montana Coggeshall) | ja (Robert Frank) |

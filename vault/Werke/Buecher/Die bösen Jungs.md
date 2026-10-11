@@ -25,7 +25,7 @@ bekanntheit_stufe: "Etabliert"
 hype: "Parallelreihe der etablierten Good-Guys-Reihe"
 sprecher: "Thomas Nicolai"
 performance: "solo"
-genres: [LitRPG, GameLit, Action-Komödie]
+genres: ["LitRPG (Genre)", GameLit, Action-Komödie]
 themen: []
 ton: []
 erzaehlstil: []
@@ -58,7 +58,7 @@ Robin-Hood-Typ spielen — dieselbe Welt wie [[Die guten Jungs]], nur von der **
 der Moral**. 11 Bände erschienen (2019–2024, „Schurken & Halunken“ bis „2 Lügen, 2 Throne“).
 ⚠️ **Korrektur 2026-08-11: NICHT abgeschlossen — Bd. 12 ist für 2026 angekündigt.**
 
-**Genre:** [[LitRPG]] · **Autor:** [[Eric Ugland]] · **Sprecher (dt.):** [[Thomas Nicolai]] ·
+**Genre:** [[LitRPG (Genre)|LitRPG]] · **Autor:** [[Eric Ugland]] · **Sprecher (dt.):** [[Thomas Nicolai]] ·
 **Parallelreihe:** [[Die guten Jungs]]
 
 ## 📚 Die Bände einzeln

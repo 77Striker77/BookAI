@@ -20,7 +20,7 @@ bekanntheit_stufe: "Etabliert"
 hype: "Indie-LitRPG-Dauerbrenner; in DE über Audible Studios breit ausgerollt"
 sprecher: "Robert Frank (guten Jungs) · Thomas Nicolai (bösen Jungs)"
 performance: "solo (je Reihe eigener Sprecher)"
-genres: [LitRPG, GameLit, Action-Komödie]
+genres: ["LitRPG (Genre)", GameLit, Action-Komödie]
 themen: []                           # reihen-spezifische Themen in den Reihen-Notizen
 ton: []
 erzaehlstil: []
@@ -52,7 +52,7 @@ sie fängt das Geteilte (Spielwelt Vuldranni, Zugang über das Spiel **iNcarn8**
 Handschrift, Humor/Ton, Systemlogik) UND das Gesamtbild über beide Reihen ein.
 **27 erschienene Bände.** ⚠️ **Korrektur 2026-08-11:** entgegen dem ersten Stand ist **keine** der beiden Reihen abgeschlossen — **Guten Jungs Bd. 17** und **Böse Jungs Bd. 12** sind für **2026** angekündigt.
 
-**Genre:** [[LitRPG]] · **Autor:** [[Eric Ugland]] · **Sprecher (dt.):** [[Robert Frank]] (guten Jungs) · [[Thomas Nicolai]] (bösen Jungs)
+**Genre:** [[LitRPG (Genre)|LitRPG]] · **Autor:** [[Eric Ugland]] · **Sprecher (dt.):** [[Robert Frank]] (guten Jungs) · [[Thomas Nicolai]] (bösen Jungs)
 
 ## 📇 Metadaten (Verbund)
 
@@ -190,7 +190,7 @@ Die gewählte Fassung ist damit **gut begründet, aber nicht „bewiesen"**.
 
 > Nur belegte Merkmale (Quelle in Klammern). Persönliche Wertungen: [[Vuldranni (iNcarn8) – Lucas]].
 
-- **Genre:** [[LitRPG]] / GameLit / Action-Komödie · Zugang über das Spiel **iNcarn8**
+- **Genre:** [[LitRPG (Genre)|LitRPG]] / GameLit / Action-Komödie · Zugang über das Spiel **iNcarn8**
 - **Setting:** Vuldranni — [[Stimmige Weltatmosphäre]] (Beleg nur für GJ: Community „liebevoll
   aufgebaute Welt“, s. [[Die guten Jungs]]; für BJ offen, s. [[Die bösen Jungs]]), Adels-/Fraktionspolitik (Einzelstimme: „gutes Hintergrundwissen über die Welt Vuldranni und ihre politischen Entwicklungen“, s. Hörreihenfolge)
 - **Ton:** humorvoll (Community zu [[Die guten Jungs]]: „charmanter Wortwitz“; Genre Action-Komödie)

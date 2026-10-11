@@ -14,7 +14,7 @@ format_verfuegbar: [buch, hoerbuch]
 sprachen_verfuegbar: [de]
 sprecher: "Jim Lacher"
 rating_goodreads: 4.23
-genres: ["LitRPG", "System-Apokalypse", "Progression Fantasy"]
+genres: ["LitRPG (Genre)", "System-Apokalypse", "Progression Fantasy"]
 themen: ["System & Progression"]
 figuren: ["Pragmatischer Held mit klarem Kompass"]
 handwerk: ["Nebenquest-Wildwuchs"]

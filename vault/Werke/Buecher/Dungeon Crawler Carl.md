@@ -22,7 +22,7 @@ rating_stimmen_gesamt: "~1,7 Mio (Goodreads, Summe Bd. 1–8) + engl. Audible ~4
 bekanntheit_stufe: "Phänomen"
 hype: "Kult-Phänomen: >10 Mio verkauft, Audible-Bestseller (Hörbuch schlägt Print/eBook), 7 Sprachen"
 rating_goodreads: 4.45  # Bd. 1 Hauptseite, ~442k
-genres: [LitRPG, Science-Fantasy]
+genres: ["LitRPG (Genre)", Science-Fantasy]
 themen: [Kapitalismus-Satire, System & Progression]
 ton: [Absurder Humor, Tonwechsel Humor-Ernst]
 erzaehlstil: []
@@ -53,7 +53,7 @@ müssen als Crawler durch einen 18-stöckigen Dungeon, der zugleich galaktische
 Reality-TV-Show ist. Carl (Ex-Soldat in Boxershorts) und die sprechende Perserkatze
 Prinzessin Donut kämpfen sich durch. 8 Bände erschienen, Finale angekündigt.
 
-**Genre:** [[LitRPG]], Science-Fantasy (Wikipedia) · **Autor:** [[Matt Dinniman]] · **Sprecher (dt.):** [[Stefan Kaminski]]
+**Genre:** [[LitRPG (Genre)|LitRPG]], Science-Fantasy (Wikipedia) · **Autor:** [[Matt Dinniman]] · **Sprecher (dt.):** [[Stefan Kaminski]]
 
 ## 📚 Die Bände einzeln
 
@@ -123,7 +123,7 @@ Bd. 6–8 dt.: keine Termine/ISBNs (nicht belegbar). EN-Bd. 4 Ace-Print-ISBN 978
 
 - **Kurz (Wikipedia/Rezensionskonsens):** LitRPG mit Interface-Elementen, Pendeln zwischen
   absurdem Humor und echter Härte, Konzern-/Reality-TV-Satire, schnelles Etagen-Pacing.
-- **Genres:** [[LitRPG]], Science-Fantasy (Wikipedia)
+- **Genres:** [[LitRPG (Genre)|LitRPG]], Science-Fantasy (Wikipedia)
 - **Themen:** [[Kapitalismus-Satire]] (Community: „Scharfe Reality-TV-/Ausbeutungs-Satire“; Rezensionskonsens: „Konzern-/Reality-TV-Satire“), [[System & Progression]] (Wikipedia: „They are rewarded with new gear, experience points, and improved attributes“; Community: „LitRPG-typische Stat-Blöcke“)
 - **Ton:** [[Absurder Humor]] (Rezensionskonsens: „Pendeln zwischen absurdem Humor und echter Härte“), [[Tonwechsel Humor-Ernst]] (Community: „Mischung aus Laut-Komik und überraschender emotionaler Tiefe/Trauma“)
 - **Erzählstil:** System-Einblendungen (Wikipedia/Rezensionskonsens: „LitRPG mit Interface-Elementen“)
