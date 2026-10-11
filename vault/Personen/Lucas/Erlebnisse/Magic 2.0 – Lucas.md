@@ -3,7 +3,7 @@ werk: "[[Magic 2.0]]"
 person: "Lucas"
 bereich: "buch"
 besitz: "hat"          # Regelangabe Lucas 2026-10-11: „in der Regel gekauft (z. B. Audible)“ — nicht je Werk bestätigt
-status: "abgebrochen"  # bestätigt von Lucas 2026-10-11: auch auf Deutsch nicht weiter — „für mich durch“ (Fragenrunde F5)
+status: "abgebrochen"  # bestätigt 2026-10-11: auch auf Deutsch nicht weiter — Grund „zu lange her“ (Faden gerissen), kein Qualitätsurteil (F5/F6)
 sprache_erlebt: "de+en"    # Bd. 1–2 dt., Bd. 3–4 englisch gelesen
 kontext: "Humor-Phantastik"
 verdict: "loved"           # geliebt — als leichte, unterhaltsame Kost
@@ -124,3 +124,6 @@ Kontext schlägt global. Absurder Humor verbindet als roter Faden mit [[Dungeon 
 - ~~Besitz~~ ✓ beantwortet 2026-10-11: in der Regel gekauft ([[2026-10-11 Fragenrunde nach dem Umbau]]).
 - ~~Würdest du Bd. 5–6 auf Deutsch weiterlesen~~ ✓ beantwortet 2026-10-11: nein, „für mich durch“ ([[2026-10-11 Fragenrunde nach dem Umbau]]). Ursprünglich: Würdest du Bd. 5–6 auf Deutsch weiterlesen, oder ist die Reihe für dich durch? (`status: abgebrochen`
   stützt sich auf „Abbruch bei Bd. 4“ — du selbst sagtest „bis 4, 5 nicht mehr“ / „kein bock mehr auf englisch zu lesen“)
+- ✓ **Warum durch?** (2026-10-11, [[2026-10-11 Fragenrunde nach dem Umbau]]): „zu lange her“ — der Faden ist gerissen. Bestätigt damit:
+  kein Qualitätsurteil. Ursprünglicher Stopp bei Bd. 4 = Englisch-Müdigkeit; dass er nicht wieder
+  einsteigt, liegt an der Pause, nicht an der Reihe.

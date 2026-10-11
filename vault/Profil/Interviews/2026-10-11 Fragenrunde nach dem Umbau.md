@@ -32,6 +32,9 @@ aber nicht jetzt“ (Rechtschreibung geglättet, Wortlaut erhalten).
 **F5 (Magic 2.0):** Du hast nach Bd. 4 aufgehört („kein Bock mehr auf Englisch“). Würdest du Bd. 5–6 auf Deutsch weiterlesen, wenn es sie gäbe?
 **A:** „Nein, für mich durch“.
 
+**F6 (Magic 2.0, Nachfrage):** Warum ist die Reihe für dich durch, auch auf Deutsch? (Nach 4 Bänden reicht's / Interesse nachgelassen / Zu lange her / Nur die Sprache)
+**A:** „Zu lange her“.
+
 ## Abgeleitete Erkenntnisse
 
 | Erkenntnis | eingeflossen in |
@@ -42,6 +45,7 @@ aber nicht jetzt“ (Rechtschreibung geglättet, Wortlaut erhalten).
 | GJ 9 bewusst zurückgestellt | [[Vuldranni (iNcarn8) – Lucas]] Lesestand Schritt 13 |
 | Widerspruch „parallel“ vs. „unabhängig“ berechtigt; Liste = Erscheinungsreihenfolge, keine Welt-Chronologie | [[Vuldranni (iNcarn8)]] Offene Fragen: Zeitstrahl |
 | Magic 2.0 endgültig beendet, nicht nur sprachbedingt pausiert | [[Magic 2.0 – Lucas]] `status: abgebrochen` bestätigt |
+| Kein Wiedereinstieg nach langer Pause (Faden gerissen) — **1 Beleg**, noch kein Muster | [[Magic 2.0 – Lucas]]; „kein Qualitätsurteil“ bleibt bestätigt |
 
 ## Offen geblieben
 
