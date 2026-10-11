@@ -1,5 +1,6 @@
 ---
 typ: figur
+bereiche: [alle]
 status_global: ""
 status_kontexte: { Humor-Phantastik: disliked }
 staerke: niedrig

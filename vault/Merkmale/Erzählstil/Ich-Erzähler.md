@@ -1,5 +1,6 @@
 ---
 typ: erzaehlstil
+bereiche: [alle]
 status_global: ""
 status_kontexte: { LitRPG: neutral, Fantasy: liked }
 staerke: niedrig

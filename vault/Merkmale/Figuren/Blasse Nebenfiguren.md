@@ -1,5 +1,6 @@
 ---
 typ: figur
+bereiche: [alle]
 status_global: ""
 status_kontexte: { LitRPG: disliked, Humor-Phantastik: disliked }
 staerke: mittel

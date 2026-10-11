@@ -1,5 +1,6 @@
 ---
 typ: handwerk
+bereiche: [alle]
 status_global: disliked
 status_kontexte: { Fantasy: disliked, LitRPG: disliked }
 staerke: hoch

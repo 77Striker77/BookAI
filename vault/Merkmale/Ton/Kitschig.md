@@ -1,5 +1,6 @@
 ---
 typ: ton
+bereiche: [alle]
 status_global: ""
 status_kontexte: {}
 staerke: niedrig

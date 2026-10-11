@@ -1,5 +1,6 @@
 ---
 typ: handwerk
+bereiche: [alle]
 status_global: loved   # kontextübergreifend belegt (LitRPG + Fantasy + Krimi)
 status_kontexte: { LitRPG: loved, Fantasy: loved, Krimi: loved, Humor-Phantastik: loved }
 staerke: hoch

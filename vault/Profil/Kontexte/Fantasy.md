@@ -1,5 +1,6 @@
 ---
 name: "Fantasy"
+bereich: "buch"         # ein Kontext gehört zu GENAU einem Bereich
 aktualisiert: 2026-07-20
 uebergeordnet: ""
 buecher: 5              # Streitende Götter (Verbund, loved) + Alex Verus (loved, UF) + Scholomance (mixed) + Riyria (mixed) + Haus Ashford (mixed, UF)

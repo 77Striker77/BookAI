@@ -1,5 +1,6 @@
 ---
 typ: ton
+bereiche: [alle]
 status_global: ""
 status_kontexte: { LitRPG: loved }
 staerke: hoch

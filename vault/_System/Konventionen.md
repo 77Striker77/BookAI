@@ -177,6 +177,26 @@ Bereichseigene Merkmale (z. B. Spielerzahl, Mechanik) fließen **nie** in das Ma
 eines anderen Bereichs ein; übertragen wird nur über bereichsübergreifende Merkmale
 (Ton, Themen, Figuren, Handwerk).
 
+### Bereiche nicht vermischen — Geschmack wird je Bereich belegt (Nutzerregel 2026-10-11)
+
+> „du musst aufpassen, die Medien auch nicht zu stark zu vermischen. Nur weil ich z. B.
+> Magie-Bücher gerne höre, spiele ich dadurch nicht automatisch gerne Magie-Spiele.“
+
+- **Merkmal-Notiz = gemeinsames Vokabular, nicht gemeinsamer Geschmack.** `bereiche:` sagt
+  nur, wo ein Merkmal **vorkommen kann** (`[alle]` oder z. B. `[buch]`) — nie, ob es gefällt.
+- **Jeder Kontext gehört zu genau einem Bereich** (`bereich:` in der Kontext-Notiz).
+  `status_kontexte` und `status_global` gelten damit nur im Bereich, in dem sie belegt
+  wurden — heute nur Bücher. Bekommt ein zweiter Bereich Wertungen, wird `status_global`
+  zur Map je Bereich (`{buch: liked, videospiel: …}`), nicht überschrieben.
+- **Keine automatische Übertragung.** Eine Wertung aus Büchern ist bei Spielen weder Bonus
+  noch Malus. Der Geschmack in einem neuen Bereich wird dort eigens erfragt und belegt.
+- **Erlaubt ist nur die Frage:** Ein Buch-Muster darf im Interview eines anderen Bereichs als
+  **Frage** auftauchen („Magst du Magie auch in Spielen?“). Als Prognose bei einem Kandidaten
+  höchstens mit Konfidenz `niedrig` und sichtbar als „aus Büchern vermutet“ — eine
+  Empfehlung darf nie darauf ruhen.
+- Offen für Phase 5: Die Merkmal-Status sind heute Lucas’ Geschmack; mit einer zweiten
+  Person werden sie je Person geführt (s. „Personen und Gruppen“).
+
 ## Besitz und Status — zwei Achsen (v2)
 
 In der Erlebnis-Notiz, unabhängig voneinander:

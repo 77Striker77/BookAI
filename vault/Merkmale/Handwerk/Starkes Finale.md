@@ -1,5 +1,6 @@
 ---
 typ: handwerk
+bereiche: [alle]
 status_global: loved
 status_kontexte: { Fantasy: loved, LitRPG: loved }
 staerke: hoch

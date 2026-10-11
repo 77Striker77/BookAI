@@ -1,5 +1,6 @@
 ---
 typ: "thema"
+bereiche: [alle]
 status_global: ""
 status_kontexte: { LitRPG: loved }
 staerke: "mittel"          # 1 starker Datenpunkt (+2), noch kein zweites Werk

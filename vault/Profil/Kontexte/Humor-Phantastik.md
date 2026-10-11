@@ -1,5 +1,6 @@
 ---
 name: "Humor-Phantastik"
+bereich: "buch"         # ein Kontext gehört zu GENAU einem Bereich
 aktualisiert: 2026-07-20
 uebergeordnet: ""
 buecher: 1              # Magic 2.0 (loved)

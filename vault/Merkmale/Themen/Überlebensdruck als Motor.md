@@ -1,5 +1,6 @@
 ---
 typ: thema
+bereiche: [alle]
 status_global: ""
 status_kontexte: { Fantasy: liked }
 staerke: mittel

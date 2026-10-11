@@ -1,5 +1,6 @@
 ---
 typ: handwerk
+bereiche: [alle]
 status_global: disliked   # kontextübergreifend (Ausprägung des roten Fadens Fokus)
 status_kontexte: { Fantasy: disliked, Krimi: disliked }
 staerke: hoch

@@ -1,5 +1,6 @@
 ---
 name: ""               # z. B. Fantasy
+bereich: "buch"         # ein Kontext gehört zu GENAU einem Bereich
 aktualisiert:
 uebergeordnet: ""      # falls Sub-Kontext (Split-Regel 2): erbt Nicht-Überschriebenes
 buecher: 0             # Zähler analysierter Titel in diesem Kontext

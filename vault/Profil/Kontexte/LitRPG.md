@@ -1,5 +1,6 @@
 ---
 name: "LitRPG"
+bereich: "buch"         # ein Kontext gehört zu GENAU einem Bereich
 aktualisiert: 2026-08-11
 uebergeordnet: ""
 buecher: 4

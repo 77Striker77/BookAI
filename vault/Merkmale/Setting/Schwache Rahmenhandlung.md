@@ -1,5 +1,6 @@
 ---
 typ: setting
+bereiche: [alle]
 status_global: ""
 status_kontexte: { LitRPG: disliked }
 staerke: mittel

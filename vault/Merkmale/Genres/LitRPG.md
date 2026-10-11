@@ -1,5 +1,6 @@
 ---
 typ: genre
+bereiche: [buch]
 status_global: ""
 status_kontexte: { LitRPG: loved }
 staerke: hoch

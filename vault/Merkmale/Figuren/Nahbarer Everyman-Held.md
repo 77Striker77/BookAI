@@ -1,5 +1,6 @@
 ---
 typ: figur
+bereiche: [alle]
 status_global: ""
 status_kontexte: { Fantasy: liked, Humor-Phantastik: liked }
 staerke: niedrig

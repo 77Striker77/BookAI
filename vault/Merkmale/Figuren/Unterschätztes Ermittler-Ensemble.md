@@ -1,5 +1,6 @@
 ---
 typ: figur
+bereiche: [alle]
 status_global: ""
 status_kontexte: { Krimi: loved }
 staerke: mittel
