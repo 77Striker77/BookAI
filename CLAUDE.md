@@ -37,7 +37,7 @@ Diese Regel steht über allem anderen:
 1. **Lies zuerst `vault/_System/Konventionen.md`** — die Spielregeln des Datenmodells.
 2. **Der Vault ist die Wahrheit & das Gedächtnis** (`vault/`, Obsidian-Style Markdown):
    `Profil/` (Geschmack, Gewichte, No-Gos, Interviews · Kontexte je Genre),
-   `Bibliothek/Werke|Autoren|Sprecher/`, `Merkmale/` (DNA-Atome), `Empfehlungen/`
+   `Werke/Buecher/` (Fakten), `Personen/Lucas/Erlebnisse/` (Erleben), `Bibliothek/Autoren|Sprecher/`, `Merkmale/` (DNA-Atome), `Empfehlungen/`
    (Läufe + Kandidaten-Gedächtnis). Nie raten — immer hier nachsehen.
 3. **Sobald es um Bücher/Hörbücher geht → Skill `book-recommender`** (Orchestrator). Er
    steuert die 4 Phasen: Interview → Deep-Analyse → Ähnlichkeitssuche (grob→tief) → Artefakt.
@@ -67,7 +67,7 @@ gehört hat. Was er erlebt hat, darf gerne detaillierter drinstehen.**
 
 - Regeln: `vault/_System/Spoiler-Politik.md` · Wortlisten: `vault/_System/Spoiler-Lexikon.md`
   · Skill: **`spoiler-check`** · Agent: **`spoiler-guard`**
-- Grenze = bandgenauer Lesestand im Frontmatter jeder Werk-Notiz
+- Grenze = bandgenauer Lesestand im Frontmatter jeder Erlebnis-Notiz
   (`spoiler_erlebt_bis`, `spoiler_aktuell`, `spoiler_gesamt`, `spoiler_sperrbegriffe`).
   Abrufen: `python3 scripts/spoiler_check.py --grenzen`.
 - **Der laufende Band zählt als NICHT erlebt. Unbekanntes Werk = ungelesen (fail-closed).**
@@ -78,7 +78,7 @@ gehört hat. Was er erlebt hat, darf gerne detaillierter drinstehen.**
 - **Nie stillschweigend glätten** — stattdessen sichtbar: „🔒 Details zu Bd. X+
   zurückgehalten (dein Stand: Bd. Y)."
 - Erwähnt der Nutzer seinen Fortschritt („bin bei Band 3", „Teil 2 durch", „abgebrochen"),
-  **sofort** die Grenze in der Werk-Notiz nachziehen — sonst arbeitet alles falsch weiter.
+  **sofort** die Grenze in der Erlebnis-Notiz nachziehen — sonst arbeitet alles falsch weiter.
 - Prüfen: `bash scripts/spoiler-gate.sh` (deterministisch) **und** Agent `spoiler-guard`
   (semantisch). Beides ist Pflicht vor jedem Artefakt-Publish. Selbsttest der Regeln:
   `bash scripts/spoiler-selftest.sh`.
@@ -107,10 +107,15 @@ gehört hat. Was er erlebt hat, darf gerne detaillierter drinstehen.**
 - **Kontext schlägt global:** je Geschmacksraum eigene Gewichte/Merkmal-Status.
 - **Immer ≥3 verifizierte Vorschläge** (außer anders gewünscht); Zwei-Stufen-Suche Pflicht.
 
-## Die zwei festen Artefakte (nie ein drittes anlegen)
+## Die Artefakte (Cockpits)
 
-**Beides sind reine Projektionen des Vaults (s. OBERSTE REGEL) — Inhalte immer aus
+**Alle sind reine Projektionen des Vaults (s. OBERSTE REGEL) — Inhalte immer aus
 `vault/` erzeugen, nie umgekehrt; vor Publish committen.**
+
+> **Ab Konventionen v2 (Nutzerentscheidung 2026-10-11):** je Person ein Start-Cockpit,
+> je Bereich und Person eine Bibliothek, je Person/Gruppe ein Empfehlungs-Cockpit
+> (Details: `vault/_System/Konventionen.md`, Abschnitt „Cockpits“). Neue Cockpits erst,
+> wenn es für sie Daten gibt. Heute existieren die beiden folgenden (Bücher · Lucas):
 
 - **`artifacts/bibliothek.html`** „Meine Bibliothek" (📚) — Dashboard-Cockpit, wird bei
   jeder Analyse **aus dem Vault neu erzeugt**. **Zweck: maximale Datendichte je Werk sichtbar

@@ -21,7 +21,7 @@ tags: [kandidat]
 
 # Die bösen Jungs
 
-> ✅ **STUB — dieser Titel ist erlebt.** Die maßgebliche Notiz ist **[[Die bösen Jungs]]** in `Bibliothek/Werke/` (Verbund: [[Vuldranni (iNcarn8)]]).
+> ✅ **STUB — dieser Titel ist erlebt.** Die maßgebliche Notiz ist **[[Die bösen Jungs]]** in `Werke/Buecher/` (Erleben: `Personen/Lucas/Erlebnisse/`) (Verbund: [[Vuldranni (iNcarn8)]]).
 > Der Wiedervorlage-Trigger („prüfen, falls [[Die guten Jungs]] positiv geprüft wird“) hat sich **von selbst eingelöst** — der Nutzer ist über die Schwesterreihe hier gelandet. Beleg dafür, dass `verwandte_reihen` als Empfehlungspfad funktioniert.
 
 **Status: gelesen** · Kontext [[LitRPG]] · zuletzt 2026-08-11

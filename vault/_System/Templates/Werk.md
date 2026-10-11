@@ -1,5 +1,6 @@
 ---
 titel: ""
+bereich: "buch"
 werk_typ: ""           # reihe | universum | standalone-universum
 universum: ""          # falls Reihe Teil eines Werk-Verbunds: Name der Universum-Notiz
 verwandte_reihen: []   # andere Reihen in DERSELBEN Welt (Namen der Werk-Notizen)
@@ -12,19 +13,8 @@ baende_geplant:             # geplant/angekündigt gesamt (falls > erschienen)
 abgeschlossen:              # true | false
 angekuendigt: ""            # neue Bände / Spin-offs / Erweiterungen (z. B. Musik-EPs, Verfilmung)
 sprachen_verfuegbar: []     # [de, en, es, …] — Buch UND/ODER Hörbuch
-sprache_erlebt: ""
-# --- 🔒 Spoiler-Grenze (siehe _System/Spoiler-Politik.md) — PFLICHT ---
-spoiler_erlebt_bis:          # letzter VOLLSTÄNDIG erlebter Band (0 = keiner)
-spoiler_aktuell:             # laufender Band — zählt als NICHT erlebt (0 = keiner)
-spoiler_gesamt:              # erschienene Bände
-spoiler_stand: ""            # wann der Stand bestätigt wurde (JJJJ-MM-TT)
-spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
 spoiler_aliase: []           # weitere Schreibweisen des Werktitels
-spoiler_unerlebte_reihen: [] # Reihen im selben Universum, die NIE erlebt wurden
 isbn_bd1: ""
-kontext: ""            # Geschmacksraum → Profil/Kontexte/
-verdict: ""            # loved | liked | mixed | disliked — gilt für das WERK als Ganzes
-format_erlebt: ""      # buch | hoerbuch | beides
 sprecher: ""           # + [[Link]] im Body
 performance: ""        # solo | voll-cast | duett
 ungekuerzt:
@@ -47,15 +37,16 @@ komplexitaet: ""
 figuren: []
 setting: []
 handwerk: []
-# --- Aspekt-Bewertungen fürs GESAMTE Werk (Spiegel der Tabelle; wert: -2..+2) ---
-bewertung: []
 cover: ""
 quellen: []
 analysiert:
-tags: [werk]           # + reihe/hoerbuch/loved/…
+erlebnisse: ["[[⟨Werktitel⟩ – ⟨Person⟩]]"]
+tags: [werk, buch,            # reihe | universum | standalone-universum]
 ---
 
 # ⟨Werktitel⟩
+
+> 👤 **Erleben je Person:** [[⟨Werktitel⟩ – ⟨Person⟩]] — Lesestand, Bewertung, Verdikt.
 
 ⟨Kurzbeschreibung 2–3 Sätze + Reihen-Status (x Bände, abgeschlossen/laufend) →
 Reihen-Pflicht-Check gleich hier.⟩
@@ -101,9 +92,6 @@ separat. Keine erfundenen Werte — fehlt eine Wertung, „—" eintragen.
 ### 👎 Was die Community kritisiert (aus echten Rezensionen)
 - ⟨konkreter Kritikpunkt⟩
 
-### Auffällige Band-Unterschiede (falls die Wertungen je Band schwanken)
-- ⟨z. B. „Bd. 1 schwächer bewertet als der Rest — deckt sich mit meinem zähen Start"⟩
-
 ## 🗓️ Nächste Releases & Planung
 
 - **Nächster Band Deutsch:** ⟨Titel + Datum/Status, oder „alle erschienen"⟩
@@ -111,56 +99,10 @@ separat. Keine erfundenen Werte — fehlt eine Wertung, „—" eintragen.
 - **Bände gesamt:** ⟨n erschienen / m geplant⟩ · **Status:** ⟨laufend/abgeschlossen⟩
 - **Angekündigt/Erweiterungen:** ⟨Spin-offs, Musik-EPs, Verfilmung … oder „nichts bekannt"⟩
 
-## Lesestand (nur meine Formate/Fortschritt)
-
-> 🔒 **Muss zum Frontmatter passen** (`spoiler_erlebt_bis` / `spoiler_aktuell`). Diese
-> Tabelle ist die Spoiler-Grenze in Prosa — der laufende Band zählt als NICHT erlebt.
-
-| Bd. | Status |
-| --- | --- |
-| 1 | gehört (dt.) |
-| 2 | am Hören / ⏳ wartet auf dt. Fassung |
-
-> [!warning]- 🔒 SPOILER — ab Bd. ⟨N⟩ (mein Stand: Bd. ⟨M⟩)
-> ⟨Nur hier hinein, was jenseits meiner Grenze liegt. Handwerksurteile ohne Inhalt
-> („Bd. 7 wird für Leerlauf kritisiert") gehören NICHT hierher, sondern offen in die
-> Notiz — sie sind Neutralzone und fürs Matching wertvoll. Block löschen, wenn leer.⟩
-
-## ⭐ Bewertung je Aspekt (Werk gesamt)
-
-| Aspekt | Wertung | Warum | Beleg |
-| --- | --- | --- | --- |
-| [[⟨Merkmal⟩]] | +2 | ⟨…⟩ | „⟨Zitat⟩" |
-| [[⟨Merkmal⟩]] | −1 | ⟨…⟩ | „⟨Zitat⟩" |
-
-**Verdikt-Herleitung:** ⟨1 Satz⟩
-
-## Abweichungen einzelner Bände
-
-*Nur wenn vom Nutzer selbst genannt ("Bd. 4 war zäh").*
-
-| Bd. | Abweichung | Beleg |
-| --- | --- | --- |
-
 ## DNA (als Links)
 
 - **Genres:** … · **Themen:** … · **Ton:** … · **Erzählstil:** …
 - **Figuren:** … · **Handwerk:** … · **Setting:** … · **Tempo/Komplexität:** …
-
-## DNA-Begründung
-
-⟨Woraus abgeleitet; objektiv vs. was der NUTZER daran mochte. Interview verlinken.⟩
-
-## Hörbuch-Erlebnis (falls gehört)
-
-⟨Sprecher-Performance über die Reihe; Wechsel des Sprechers zwischen Bänden vermerken!⟩
-
-## 🧮 Reihen-Gesamtbild (LETZTER Schritt — erst nach allen Bänden)
-
-⟨Kurzes Fazit, das die Einzelbände zusammenzieht: durchschnittliche Community-Wertung,
-roter Faden von Lob/Kritik über alle Bände, und wie sich das zu MEINEM Empfinden verhält
-(deckt es sich, oder ist meine Kritik/mein Lob eine persönliche Eigenheit?). Bei einem
-Universum: dieses Fazit fließt seinerseits in die Overall-Notiz ein.⟩
 
 ## Offene Fragen
 

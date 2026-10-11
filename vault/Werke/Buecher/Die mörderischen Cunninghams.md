@@ -1,5 +1,6 @@
 ---
 titel: "Die mörderischen Cunninghams"
+bereich: "buch"
 werk_typ: "reihe"
 universum: ""
 autor: "Benjamin Stevenson"
@@ -13,10 +14,6 @@ angekuendigt: "EN Bd. 3 'Everyone This Christmas Has a Secret' (2024), Bd. 4 'Ev
 naechster_band_de: "Bd. 3 dt. — noch nicht angekündigt (EN existiert)"
 naechster_band_en: "Bd. 4 'Everyone in This Bank Is a Thief' (neu)"
 sprachen_verfuegbar: [en, de]      # DE Ullstein (Bd. 1–2), Übers. Robert Brack
-sprache_erlebt: "de"
-kontext: "Krimi"
-verdict: "loved"
-format_erlebt: "buch"              # GELESEN (nicht gehört) — kein Sprecher!
 sprecher: ""                       # n/a (gelesen); dt. Hörbuch existiert (Simon Jäger), aber NICHT so erlebt
 performance: ""
 rating_schnitt: "~3,8/5"           # Goodreads (EN); niedriger als meine Fantasy/LitRPG — aber ich liebe es
@@ -32,29 +29,20 @@ komplexitaet: "hoch — verschachtelte, faire Konstruktion"
 figuren: []
 setting: []
 handwerk: [Cleverer Twist-Plot, Konstanter Vorwärtsdrang]
-bewertung:
-  - { aspekt: "Locked-Room-Mystery", wert: 2 }
-  - { aspekt: "Meta-Fair-Play-Krimi", wert: 2 }
-  - { aspekt: "Cleverer Twist-Plot", wert: 2 }
-  - { aspekt: "Trocken-ironischer Humor", wert: 2 }
-  - { aspekt: "Konstanter Vorwärtsdrang", wert: 2 }
 cover: ""
 quellen:
   - "https://www.goodreads.com/series/357394-ernest-cunningham"
   - "https://www.ullstein.de/serien/die-moerderischen-cunninghams"
   - "https://www.goodreads.com/book/show/60879779-everyone-in-my-family-has-killed-someone"
 analysiert: 2026-07-16
-# --- 🔒 Spoiler-Grenze (siehe _System/Spoiler-Politik.md) ---
-spoiler_erlebt_bis: 2    # letzter VOLLSTÄNDIG erlebter Band (0 = keiner)
-spoiler_aktuell: 0       # laufender Band — zählt als NICHT erlebt
-spoiler_gesamt: 4        # Bd. 1-2 dt. gelesen; Bd. 3-4 nur EN erschienen, ungelesen
-spoiler_stand: "2026-08-11"  # Stand bestätigt am
-spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
 spoiler_aliase: []           # weitere Schreibweisen des Werktitels
-tags: [werk, reihe, buch, loved, krimi]
+erlebnisse: ["[[Die mörderischen Cunninghams – Lucas]]"]
+tags: [werk, buch, reihe]
 ---
 
 # Die mörderischen Cunninghams
+
+> 👤 **Erleben je Person:** [[Die mörderischen Cunninghams – Lucas]] — Lesestand, Bewertung, Verdikt.
 
 Meta-verspielter „Golden-Age"-Whodunit von [[Benjamin Stevenson]]. Ich-Erzähler **Ernest
 Cunningham** schreibt Krimi-Ratgeber und wird in Mordfälle der eigenen Familie verwickelt;
@@ -86,10 +74,6 @@ Locked-Room-Meta weicht hier vom Massengeschmack ab).
 ### 👎 Was die Community kritisiert
 - Manchen ist die Meta-Ebene/Gimmick zu konstruiert; Ø-Wertung „nur" ~3,8 (Geschmackssache).
 
-### Band-Unterschiede (vom Nutzer selbst genannt)
-**Bd. 2 („Jeder im Zug ist verdächtig") ist für mich besser als Bd. 1** — wegen des
-geschlossenen Kreises (Zug = Locked Room). Community bestätigt leicht: Bd. 2 3,82 > Bd. 1 3,75.
-
 ## 🔊 Bekanntheit / Reichweite: Bestseller
 ~340k Goodreads-Wertungen (Bd. 1–2) + USA-Today-Bestseller + **TV-Verfilmung** → international
 bekannt und gehypt.
@@ -99,29 +83,6 @@ bekannt und gehypt.
   ein Warten auf die Übersetzung werden.
 - **Nächster Band EN:** Bd. 4 „Everyone in This Bank Is a Thief".
 - **Erweiterung:** TV-Verfilmung von Bd. 1 in Arbeit.
-
-## ⭐ Bewertung je Aspekt
-
-| Aspekt | Wertung | Warum | Beleg |
-| --- | --- | --- | --- |
-| [[Locked-Room-Mystery]] | +2 | Geschlossener Kreis = Top-Trigger (Zug-Bd. 2 > Bd. 1) | „Ich liebe Locked-Room-Mystery und Co." |
-| [[Meta-Fair-Play-Krimi]] | +2 | Selbstbewusster Erzähler, faires Miträtseln | „Meta / Fair-Play-Spiel" gewählt |
-| [[Cleverer Twist-Plot]] | +2 | Raffiniert verschachtelt, überraschend & fair | „Cleverer Twist-Plot" gewählt |
-| [[Trocken-ironischer Humor]] | +2 | Sarkastisch, lakonisch | „Humor & Ton" gewählt |
-| [[Konstanter Vorwärtsdrang]] | +2 | „Sehr straff", kein Leerlauf | wörtlich |
-
-**Verdikt-Herleitung:** 5 Aspekte auf +2, keine Negativzeile → **loved, top** (Nutzer:
-auf Augenhöhe mit DCC/Göttern). Bemerkenswert: **erstes Werk, dessen Community-⌀ (~3,8)
-klar unter meinem Urteil liegt** — mein Faible für clevere Locked-Room-Meta ist stärker
-als der Durchschnitt.
-
-## 🧮 Reihen-Gesamtbild (letzter Schritt)
-
-Objektiv „nur" solide bewertet (~3,8/5), aber sehr bekannt (Bestseller, TV) — und für
-MICH ein Volltreffer, weil es meinen roten Faden (straffer Fokus) mit Locked-Room-Rätsel,
-Meta-Fair-Play und trockenem Humor verbindet. **Wichtig fürs Matching:** Bei Krimi nicht
-nur auf hohe Community-Scores schielen — mein Locked-Room-/Meta-Faible schlägt den
-Durchschnitt. Und: dies ist mein erstes GELESENES Werk (Format zählt individuell).
 
 ## Offene Fragen
 

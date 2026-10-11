@@ -30,7 +30,9 @@ Obsidian öffnet.
 
 ## 1. Die Grenze: der Lesestand, bandgenau
 
-Jede Werk-Notiz trägt im Frontmatter die maschinenlesbare Grenze:
+Jede Erlebnis-Notiz (`Personen/<Person>/Erlebnisse/`) trägt im Frontmatter die
+maschinenlesbare Grenze — sie gilt je Person. Nur `spoiler_aliase` steht in der
+Fakten-Notiz (`Werke/<Bereich>/`), weil die Schreibweisen zum Werk gehören:
 
 ```yaml
 spoiler_erlebt_bis: 5      # letzter VOLLSTÄNDIG gelesener/gehörter Band (0 = keiner)

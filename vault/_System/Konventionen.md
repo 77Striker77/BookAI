@@ -2,7 +2,11 @@
 tags: [system]
 ---
 
-# Konventionen des Vaults
+# Konventionen des Vaults (v2, 2026-10-11)
+
+> **v2:** Fakten und Erleben getrennt, Feld `bereich:`, Personen und Gruppen, Besitz und
+> Status als zwei Achsen, Cockpits je Bereich und Person. Grundlage: Umbauplan Phase 3
+> (BookAI → TasteCompass_AI). Was v1 regelte, gilt weiter, wo hier nichts anderes steht.
 
 Dieser Vault ist die **einzige Wahrheit** des Empfehlungssystems — ein normaler
 Obsidian-Vault: atomare Notizen, YAML-Frontmatter, `[[Wikilinks]]`, Tags.
@@ -27,9 +31,14 @@ vault/
 │   ├── Gewichte.md            GLOBALE Default-Gewichte (Kontexte überschreiben sie)
 │   ├── No-Gos.md              harte Ausschlüsse (global; Kontext-No-Gos in Kontext-Notiz)
 │   └── Interviews/            je Interviewrunde eine datierte Notiz (Provenienz!)
+├── Werke/
+│   └── Buecher/               ⭐ FAKTEN je Werk (= Reihe/Universum/Standalone): Bände,
+│                                Metadaten, Wertungen, Universum, DNA — einmal je Werk
+├── Personen/
+│   └── Lucas/
+│       └── Erlebnisse/        ⭐ ERLEBEN je Werk und Person: Lesestand, Verdikt,
+│                                Aspekt-Bewertungen, Spoiler-Grenze — „<Werk> – Lucas.md“
 ├── Bibliothek/
-│   ├── Werke/                 erlebte WERKE (= Reihe/Universum/Standalone) — mit
-│   │                            ASPEKT-BEWERTUNGEN + Lesestand (siehe unten)
 │   ├── Autoren/  Sprecher/    je Entität eine Notiz
 │   ├── Figuren/              ⭐ je WERK ein Figurenverzeichnis „<Werk> – Figuren.md“
 │   │                           (Personal + Kurzbeschreibung + Band der Ersteinführung).
@@ -56,9 +65,10 @@ vault/
 Der Nutzer bewertet **Reihen/Universen als Ganzes** — sein Empfinden bezieht sich fast
 immer auf das komplette Werk (Nutzeraussage 16.07.2026). Deshalb:
 
-- Eine Notiz in `Bibliothek/Werke/` = ein Werk (Reihe, Universum oder Standalone-
-  Universum). Aspekt-Bewertungen, DNA und Verdikt gelten fürs Werk gesamt.
-- **Lesestand als Tabelle in der Werk-Notiz** (welche Bände gehört/gelesen, was offen,
+- Eine Notiz in `Werke/Buecher/` = ein Werk (Reihe, Universum oder Standalone-
+  Universum); dazu je Person eine Erlebnis-Notiz. Aspekt-Bewertungen, DNA und Verdikt
+  gelten fürs Werk gesamt.
+- **Lesestand als Tabelle in der Erlebnis-Notiz** (welche Bände gehört/gelesen, was offen,
   worauf gewartet wird) — kein separater Reihen-Ordner mehr.
 - **NIE bandweise interviewen oder bewerten lassen.** Abweichungen einzelner Bände
   („Bd. 4 war zäh") nur erfassen, wenn der Nutzer sie VON SICH AUS nennt → Tabelle
@@ -115,7 +125,7 @@ mehr enthalten** (Arbeitsmaterial), versteckt Spoiliges aber im eingeklappten
 **Reihenfolge-Information** und darf stehen — sonst wäre die Regel nicht begründbar. **Wie**
 das geschieht, bleibt draußen. Im Zweifel: die Reihenfolge-Wirkung nennen, nicht die Handlung.
 
-### Die Grenze maschinenlesbar (Pflichtfelder je Werk-Notiz)
+### Die Grenze maschinenlesbar (Pflichtfelder je Erlebnis-Notiz; `spoiler_aliase` in der Fakten-Notiz)
 
 ```yaml
 spoiler_erlebt_bis: 5        # letzter VOLLSTÄNDIG erlebter Band (0 = keiner)
@@ -136,6 +146,72 @@ spoiler_unerlebte_reihen: [] # Reihen im selben Universum, die NIE erlebt wurden
 - Der **laufende Band zählt als NICHT erlebt**; unbekanntes Werk = ungelesen (fail-closed).
 - Prüfen: `bash scripts/spoiler-gate.sh` (deterministisch) **und** Agent `spoiler-guard`
   (semantisch). Beides ist Pflicht vor jedem Artefakt-Publish.
+
+## ⭐ Fakten und Erleben (v2) — was es einmal gibt und was je Person
+
+„Fakten grabe ich, Gefühle erfrage ich“ ist ab v2 die Datenstruktur. Jedes erlebte Werk hat
+**zwei** Notizen:
+
+| | Fakten-Notiz | Erlebnis-Notiz |
+| --- | --- | --- |
+| Ort | `Werke/<Bereich>/<Werk>.md` | `Personen/<Person>/Erlebnisse/<Werk> – <Person>.md` |
+| gibt es | einmal je Werk | einmal je Werk **und** Person |
+| Frontmatter | Titel, Bände, Daten, ISBN, Hördauer, Sprecher, Wertungen, Bekanntheit, DNA, `spoiler_aliase`, `erlebnisse:` | `werk:`, `person:`, `kontext:`, `verdict:`, `format_erlebt:`, `sprache_erlebt:`, `bewertung:`, Spoiler-Grenze |
+| Body | Universum, Bände, Metadaten, Community-Lob/-Kritik, Releases, DNA, Offene Fragen | Lesestand, Bewertung je Aspekt, Abweichungen, Hörbuch-Erlebnis, DNA-Begründung, Reihen-Gesamtbild |
+| Vorlage | `Templates/Werk.md` | `Templates/Erlebnis.md` |
+
+- **Links:** `[[Werk]]` zeigt immer auf die Fakten-Notiz. Die Erlebnis-Notiz verlinkt per
+  `werk:` zurück, die Fakten-Notiz führt ihre Erlebnisse in `erlebnisse:`.
+- **Gemischte Abschnitte** (Fakt und Empfinden in einem Absatz) gehören ins Erleben. Die
+  Migration 2026-10-11 hat abschnittsweise getrennt (`scripts/umbau/werke_trennen.py`);
+  gemischte Abschnitte werden bei Bedarf nachgeschärft, spätestens wenn eine zweite
+  Person dasselbe Werk erlebt.
+- Spoiler-Grenzen sind **je Person**: `scripts/spoiler_check.py` liest
+  `Personen/<Person>/Erlebnisse/` (Person über `KURATOR_PERSON`, Standard `Lucas`).
+
+## Bereich (v2)
+
+Jede Werk- und Erlebnis-Notiz trägt `bereich:` — `buch` | `brettspiel` | `videospiel`
+(weitere erst, wenn das erste Werk da ist). Je Bereich ein Unterordner in `Werke/`.
+Bereichseigene Merkmale (z. B. Spielerzahl, Mechanik) fließen **nie** in das Matching
+eines anderen Bereichs ein; übertragen wird nur über bereichsübergreifende Merkmale
+(Ton, Themen, Figuren, Handwerk).
+
+## Besitz und Status — zwei Achsen (v2)
+
+In der Erlebnis-Notiz, unabhängig voneinander:
+
+- `besitz:` `hat` | `wunsch` | `geliehen` | `verkauft` | leer (unbekannt)
+- `status:` `geplant` | `laeuft` | `durch` | `abgebrochen` | leer (unbekannt)
+
+Ein geliehenes Buch kann `durch` sein, ein Wunschtitel ist nicht im Besitz. **Nie
+erfinden:** Für die 15 migrierten Werke sind beide Felder noch nicht erfragt.
+
+## Personen und Gruppen — Geschmack bleibt getrennt (v2, Nutzerregel 2026-10-11)
+
+> „du musst darauf auch aufpassen, dass wenn eine andere Person einen ganz anderen Geschmack
+> hat, sie nicht plötzlich Dinge von mir empfohlen bekommt, nur weil sie vermeintlich nahe
+> zu erreichen sind“
+
+- Für Person X zählen **nur** X’ Erlebnisse, Profil, Kontexte und No-Gos. Erlebnisse anderer
+  Personen sind **keine Evidenz, keine Kandidatenquelle und kein Bonus** beim Matching —
+  auch nicht, wenn das Werk schon im Vault oder im Regal steht. Verfügbarkeit ist keine Passung.
+- Das **Kandidaten-Gedächtnis gilt je Person**: Was eine Person verworfen hat, ist für eine
+  andere nicht verworfen.
+- **Gruppen** (z. B. „Wir zwei“) sind eigene Einträge unter `Personen/` mit eigenen
+  Erlebnissen; für sie gelten die No-Gos **aller** Mitglieder zusammen.
+- Ist unklar, für wen eine Empfehlung gedacht ist → fragen.
+
+## Cockpits (v2, Nutzerentscheidung 2026-10-11)
+
+Artefakte sind weiter reine Projektionen des Vaults. Aufteilung:
+
+- je **Person** (und Gruppe) ein **Start-Cockpit**, das auf ihre Bereichs-Cockpits verlinkt
+- je **Bereich und Person** eine **Bibliothek** (heute: Bücher · Lucas = `artifacts/bibliothek.html`)
+- je **Person** (und Gruppe) ein **Empfehlungs-Cockpit**: „für mich“ → bei der Person,
+  „für uns“ → bei der Gruppe (heute: Lucas = `artifacts/empfehlungen.html`)
+
+Neue Cockpits entstehen erst, wenn es für sie Daten gibt — nicht auf Vorrat.
 
 ## Format (gelesen/gehört) — die Basis ist immer das Buch, der Sprecher ist Bonus
 
@@ -215,8 +291,9 @@ gesichtet, tief geprüft, empfohlen. Ohne Ausnahme. Zusätzlich gilt:
 
 ```
 erwaehnt → gesichtet → geprueft-verworfen | empfohlen → warteliste → gelesen
-                                                          (→ Notiz wandert nach
-                                                           Bibliothek/Werke/, Stub bleibt)
+                                                          (→ Fakten nach Werke/<Bereich>/,
+                                                           Erleben nach Personen/<P>/Erlebnisse/,
+                                                           Stub bleibt)
 ```
 
 - **Prüf-Historie ist append-only:** jede Prüfung wird als neue Zeile angehängt
@@ -295,6 +372,6 @@ verlangt — nach diesen Regeln:
 | Konsument | liest | schreibt |
 |---|---|---|
 | book-taste-interview | Profil/, Kontexte/, Merkmale/ | Interviews/, Kandidaten (erwaehnt) |
-| book-deep-analysis | Interviews, Bibliothek/, Merkmale/ | Bücher (Aspekt-Bewertungen!), Merkmale/**, Entitäten, Kontexte/, Profil/ |
-| book-similarity-search | Kontexte/, Merkmale/, Bücher/, **Kandidaten/** | Läufe/, **Kandidaten/** (Prognose + Historie) |
-| book-reco-artifact | Kontexte/, Bücher/, neuester Lauf + Kandidaten | artifacts/*.html |
+| book-deep-analysis | Interviews, Werke/, Erlebnisse/, Bibliothek/, Merkmale/ | Werke/Buecher/ (Fakten), Erlebnisse/ (Aspekt-Bewertungen!), Merkmale/**, Entitäten, Kontexte/, Profil/ |
+| book-similarity-search | Kontexte/, Merkmale/, Werke/, Erlebnisse/, **Kandidaten/** | Läufe/, **Kandidaten/** (Prognose + Historie) |
+| book-reco-artifact | Kontexte/, Werke/, Erlebnisse/, neuester Lauf + Kandidaten | artifacts/*.html |

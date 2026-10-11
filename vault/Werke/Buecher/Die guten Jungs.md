@@ -1,5 +1,6 @@
 ---
 titel: "Die guten Jungs"
+bereich: "buch"
 titel_en: "The Good Guys"
 werk_typ: "reihe"
 universum: "Vuldranni (iNcarn8)"
@@ -15,7 +16,6 @@ angekuendigt: "Bd. 17 für 2026 angekündigt (Risingshadow/Book Notification) �
 naechster_band_de: "Buch: alle 16 erschienen · HÖRBUCH: ⚠️ Produktion läuft (belegt bis Bd. 9), nächster Termin unbelegt"
 naechster_band_en: "Bd. 17 — 2026 angekündigt, Titel/Termin offen"
 sprachen_verfuegbar: [de, en]
-sprache_erlebt: "de"
 verlag_de: "LMBPN International"
 verlag_hoerbuch_de: "Audible Studios"
 uebersetzer: "Peter Schürholz (Bd. 1 zusätzlich Jens Schulze)"
@@ -23,10 +23,6 @@ rating_schnitt: "4,38/5"
 rating_stimmen_gesamt: "⚠️ Gesamtzahl nicht belegt (Goodreads-Serienwert)"
 bekanntheit_stufe: "Etabliert"
 hype: "Indie-LitRPG-Dauerbrenner; Ugland ~49 Bücher, hohe Frequenz"
-kontext: "LitRPG"
-verdict: "liked"                     # VORLÄUFIG — 5 von 16 Bänden gehört
-verdict_status: "vorläufig (Stand 2026-08-11, Bd. 5 fertig)"
-format_erlebt: "hoerbuch"
 sprecher: "Robert Frank"
 performance: "solo"
 genres: [LitRPG, GameLit, Action-Komödie]
@@ -38,23 +34,6 @@ komplexitaet: ""
 figuren: [Pragmatischer Held mit klarem Kompass, Loyale Weggefährten, Wissbegieriger Selbermacher-Held]
 setting: [Stimmige Weltatmosphäre, Monster-Vielfalt & Bestiarium, Magiesystem-Tiefe]
 handwerk: [Konstanter Vorwärtsdrang, Regel-Inkonsistenz, Handfeste Kampf-Action, Über-crunchiges Zahlensystem, Intrigen-Overload ohne Progress]
-bewertung:
-  - { aspekt: "Absurder Humor", wert: 2 }
-  - { aspekt: "Tonwechsel Humor-Ernst", wert: 1 }   # R4-Korrektur: Nutzer-Skala DCC 9 vs. hier 7-8
-  - { aspekt: "Pragmatischer Held mit klarem Kompass", wert: 2 }
-  - { aspekt: "Stimmige Weltatmosphäre", wert: 2 }
-  - { aspekt: "Weltgeheimnisse & Entdeckung", wert: 2 }
-  - { aspekt: "Monster-Vielfalt & Bestiarium", wert: 2 }
-  - { aspekt: "Basisaufbau & Siedlungsentwicklung", wert: 2 }
-  - { aspekt: "Handfeste Kampf-Action", wert: 2 }
-  - { aspekt: "Robert Frank", wert: 2 }
-  - { aspekt: "Intrigen-Overload ohne Progress", wert: 0 }
-  - { aspekt: "Über-crunchiges Zahlensystem", wert: -1 }
-  - { aspekt: "Konstanter Vorwärtsdrang", wert: 1 }
-  - { aspekt: "Loyale Weggefährten", wert: 1 }
-  - { aspekt: "Wissbegieriger Selbermacher-Held", wert: -1 }
-  - { aspekt: "Magiesystem-Tiefe", wert: -1 }
-  - { aspekt: "Regel-Inkonsistenz", wert: 0 }
 cover: ""
 quellen:
   - "https://www.audible.de/series/Die-guten-Jungs-Hoerbuecher/B0C4TR9YYX"
@@ -63,18 +42,14 @@ quellen:
   - "https://www.amazon.de/Hochadel-f%C3%BCr-Einsteiger-guten-Jungs/dp/B0CVBBJYJT"
   - "https://www.goodreads.com/series/250153-the-good-guys"
 analysiert: 2026-08-11
-# --- 🔒 Spoiler-Grenze (siehe _System/Spoiler-Politik.md) ---
-spoiler_erlebt_bis: 5    # letzter VOLLSTÄNDIG erlebter Band (0 = keiner)
-spoiler_aktuell: 0       # laufender Band — zählt als NICHT erlebt
-spoiler_gesamt: 16        # Bd. 1-5 gehört; ab Bd. 6 offen
-spoiler_stand: "2026-08-11"  # Stand bestätigt am
-spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
-spoiler_unerlebte_reihen: ["The Grim Guys"]  # Reihen im selben Universum, NIE erlebt -> immer nur Klappentext-Ebene
 spoiler_aliase: []           # weitere Schreibweisen des Werktitels
-tags: [werk, reihe, hoerbuch, liked, litrpg]
+erlebnisse: ["[[Die guten Jungs – Lucas]]"]
+tags: [werk, buch, reihe]
 ---
 
 # Die guten Jungs (The Good Guys)
+
+> 👤 **Erleben je Person:** [[Die guten Jungs – Lucas]] — Lesestand, Bewertung, Verdikt.
 
 **Eigenständige Reihe**, untergeordnet der Overall-Ebene [[Vuldranni (iNcarn8)]]
 (Overall → Reihe). **Montana Coggeshall** — ausgebrannter Ex-Soldat/Schläger — stirbt fast
@@ -140,57 +115,6 @@ unter der Nutzer-Obergrenze (Reihen-Schnitt ≤ ~20 h, [[No-Gos]]) und **kürzer
   mindestens 4 weitere Bände Puffer.
 - **EN:** ⚠️ **Bd. 17 für 2026 angekündigt** — Reihe läuft weiter (letzter Band: Bd. 16, 07.07.2025).
 
-## Lesestand (meine Formate)
-
-| Bd. | Status | Notiz |
-| --- | --- | --- |
-| 1–5 | ✅ gehört (dt., [[Robert Frank]]) | „GJ hab ich teil 5 fertig" (2026-08-11) |
-| 6–16 | offen | nächster Schritt laut Hörreihenfolge: erst [[Die bösen Jungs]] 1–2, dann GJ 6 |
-
-## ⭐ Bewertung je Aspekt
-
-| Aspekt | Wertung | Warum | Beleg |
-| --- | --- | --- | --- |
-| [[Absurder Humor]] | +2 | schnoddrig-flapsiger Ton trägt die Reihe | „Humor/Ton zündet" · „Humor & Schnoddrigkeit" |
-| [[Tonwechsel Humor-Ernst]] | **+1** | Wechsel funktioniert, aber zurückhaltender als das Referenzwerk — Nutzer-Skala **DCC ≈ 9, hier 7–8** (R4-Korrektur der pauschalen +2) | „der Humor ist etwas zurückhaltender aber auch sehr gut. **also auch der Wechsel.** wo DCC eine 9 rum war ist das hier eine 7 bis 8" |
-| [[Konstanter Vorwärtsdrang]] | **+1** | roter Faden Nr. 1 — erstmals für dieses Werk belegt (R4); nicht +2 wegen der Statustext-Unterbrechungen | „nein große negative Stellen gab es eig nicht. **Tempo war gut**" |
-| [[Loyale Weggefährten]] | **+1** | die Truppe wächst an und trägt mit — aber **nicht** tragend wie [[Ungleiches Duo]] bei DCC | „am Anfang war ich etwas skeptisch aber **nach und nach machen sich die NCs.** Also **ich bin zufrieden**" |
-| [[Pragmatischer Held mit klarem Kompass]] | +2 | Montana handelt, statt zu jammern | „Held ist stark" |
-| [[Stimmige Weltatmosphäre]] | +2 | Vuldranni trägt als Welt | „**Welt**, gehemienisse und monster" |
-| [[Weltgeheimnisse & Entdeckung]] | +2 | das Rätselhafte an der Welt zieht | „Welt, **gehemienisse** und monster" |
-| [[Monster-Vielfalt & Bestiarium]] | +2 | die Kreaturen sind ein eigener Reiz | „Welt, gehemienisse und **monster**" |
-| [[Basisaufbau & Siedlungsentwicklung]] | +2 | Coggeshall aufbauen, Leute, Verantwortung | „Aufbau: Herzogtum & Basis" gewählt |
-| [[Handfeste Kampf-Action]] | +2 | Kämpfe/Dungeon-Gemetzel, Tank-Gefühl | „Action & Kämpfe" gewählt |
-| 🎙️ [[Robert Frank]] | +2 | die stärkere der beiden Verbund-Stimmen | „Sprecher von GJ besser als von BJ" |
-| [[Intrigen-Overload ohne Progress]] | **0** | Adel/Politik ist da, aber **dosiert** — Schwelle knapp nicht überschritten | „adel und poletik ist noch in einem okey maße. **Mehr würde mich mehr nerveren** aber so ist okey" |
-| [[Über-crunchiges Zahlensystem]] | **−1** | Status-/Skill-Blöcke werden mitgelesen und bremsen — **R4 präzisiert den Mechanismus:** sie unterbrechen den [[Konstanter Vorwärtsdrang]], und beim Hören ist Überspringen unmöglich | „ab und zu … zu viel vorgelese von status skills und co. **aber wirklich nur ein mini negativer punkt**" + R4 „die ein oder andere Kleinigkeit wo **viel Statustexte vorgelesen** werden … einzelne kleine Ausnahmen" |
-| [[Wissbegieriger Selbermacher-Held]] | **−1** | ⭐ das Merkmal **fehlt** hier: Montana geht den Weltgeheimnissen zu wenig nach. Reibt direkt am +2 auf [[Weltgeheimnisse & Entdeckung]] → siehe Kombinationsregel in [[LitRPG]]. Vom Nutzer als „Kleinigkeit" relativiert | „manchmal ist er **zu wenig wissbegierig. er akzeptiert zu schnell etwas statt es wirklich zu verstehen oder zu erklären.** Aber das ist nur eine Kleinigkeit" |
-| [[Magiesystem-Tiefe]] | **−1** | „zu mittelalterlich", Magie bleibt klein — **zweiter Beleg** nach [[Riyria]] mit fast identischem Wortlaut. ⚠️ Nachhaken ergab: **kein Ausschlusskriterium**, nur schwacher Faktor | „manchmal zu mittelalterlich. **Magie wird wieder kleingehalten.** bei weitem nicht so schlimm wie in Riyria aber dennoch etwas" · Nachhaken: „**es ist weiterhin nur ein Fokus aber nicht der Hauptfaktor**" |
-| [[Regel-Inkonsistenz]] | **0** | kein Inventar trotz Spielewelt — aber der Autor fängt die Lücke mit Erzählwitz auf (Montanas Sack). Beispiel dafür, dass **Humor eine Systemlücke neutralisieren kann** | „kein Inventar … ist auch ungewohnt. **zum Glück hat Montana diesen irrwitzigen Sack**, deswegen ist es eig echt egal oder sogar was Witziges draus gemacht, aber iwie fehlt … ein kleines bisschen" |
-
-**Verdikt-Herleitung (Stand nach Interview-Runde 4, 2026-08-11):** Sieben +2-Zeilen, drei
-+1 und **vier −1** — alle Minuspunkte vom Nutzer ausdrücklich als „nur eine Kleinigkeit",
-„einzelne kleine Ausnahmen" bzw. „nicht der Hauptfaktor" relativiert. Bis Runde 3 stand hier
-ein Acht-mal-+2-Profil mit einem einzigen Minus; das war ein **Erhebungsartefakt** — die
-Negativseite war schlicht nie gefragt worden (fehlende Abdeckungs-Matrix, s.
-[[2026-08-11 Interview Die guten Jungs & Die bösen Jungs]]). Nach der nachgeholten Runde 4
-steht ein ehrliches, nicht mehr positiv-lastiges Bild.
-
-Bleibt bewusst **`liked` (vorläufig)** — jetzt aber nur noch aus **einem** Grund: der Nutzer
-ist bei **5 von 16 Bänden**, die Reihen-Dauerleistung ([[Konstanter Vorwärtsdrang]] über
-16 Bände, [[Nebenquest-Wildwuchs]]) ist **noch nicht belegt** — und genau daran sind
-[[Survival Quest]] und [[Sturmfels-Akademie]] gescheitert bzw. fast gescheitert. Upgrade
-auf `loved` sobald der Nutzer weiter ist.
-
-> ⚠️ **Lehre für künftige Analysen:** Ein Werk mit ausschließlich +2-Zeilen ist ein
-> Warnsignal, kein Gütesiegel — es bedeutet meist, dass die Negativ-Fragen fehlen. Die
-> Abdeckungs-Matrix ist genau dafür da.
-
-## Abweichungen einzelner Bände (vom Nutzer selbst genannt)
-
-*(keine — der Nutzer hat bisher keine Band-Abweichung von sich aus genannt; Bewertungseinheit
-bleibt das Werk, siehe [[Konventionen]])*
-
 ## DNA (das Eigene)
 
 - **Themen:** [[Basisaufbau & Siedlungsentwicklung]] (Herzogtum Coggeshall),
@@ -209,15 +133,6 @@ in der Hauptstadt Glaton. Beide Reihen sind **eigenständig hörbar**, überschn
 bei Weltereignissen („manch weltbewegendes Ereignis aus zwei Perspektiven"). Der Zusammenlauf
 ist **GJ 15 „Kampf um den Keramikthron"** (EN „Bad to the Throne") — davor muss
 **BJ 11 „2 Lügen, 2 Throne"** gehört sein. Volle Reihenfolge: [[Vuldranni (iNcarn8)]].
-
-## 🧮 Reihen-Gesamtbild (letzter Schritt)
-
-Goodreads-Serienwert **4,38/5** — solide bis stark für Indie-LitRPG. Community-Tenor:
-„eine der seltenen LitRPG-Reihen, die vom ersten Band an zündet und dann kontinuierlich
-besser wird … rasante Action, charmanter Wortwitz, liebevoll aufgebaute Welt". Bekannte
-Kritik: **episodische Struktur / dünnere Gesamtplot-Progression über viele Bände** — genau
-der Punkt, den ich beim Nutzer noch nicht belegen konnte (siehe Offene Fragen). ⚠️ Wertungen
-**je Band** waren in dieser Session nicht erhebbar.
 
 ## 👥 Figuren
 

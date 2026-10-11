@@ -72,9 +72,10 @@ vault/                             Datenquelle: Obsidian-Vault, atomar & verlink
 │   │                                Gewichte & Präferenzen — Kontext schlägt global
 │   ├── Gewichte.md (Fallback) · No-Gos.md
 │   └── Interviews/                je Interviewrunde eine Notiz (Provenienz!)
+├── Werke/Buecher/                 ⭐ je WERK (Reihe/Universum = Bewertungseinheit): Fakten
+├── Personen/Lucas/Erlebnisse/     ⭐ je Werk und Person: Aspekt-Bewertungen (−2..+2 +
+│                                    Beleg), Lesestand, Verdikt, Spoiler-Grenze
 ├── Bibliothek/
-│   ├── Werke/                     ⭐ je WERK (Reihe/Universum = Bewertungseinheit):
-│   │                                Aspekt-Bewertungen (−2..+2 + Beleg) + Lesestand
 │   ├── Autoren/  Sprecher/        je Entität eine Notiz (Kandidatenquellen!)
 ├── Merkmale/                      DNA-Atome: je Merkmal EINE Notiz, Status JE KONTEXT
 │   ├── Genres|Themen|Ton|Erzählstil|Figuren|Setting/

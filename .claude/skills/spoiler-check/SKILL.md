@@ -65,7 +65,7 @@ Metadaten dabei **nie** anfassen. Wer beim Bereinigen Zahlen verliert, hat es fa
 
 Sagt der Nutzer etwas wie „bin jetzt bei Band 3", „Teil 2 durch", „hab X abgebrochen":
 
-1. Betroffene Werk-Notiz öffnen (`vault/Bibliothek/Werke/⟨Werk⟩.md`).
+1. Betroffene Erlebnis-Notiz öffnen (`vault/Personen/Lucas/Erlebnisse/⟨Werk⟩ – Lucas.md`).
 2. Frontmatter setzen — **der laufende Band zählt NICHT als erlebt**:
    ```yaml
    spoiler_erlebt_bis: 2        # letzter VOLLSTÄNDIG erlebter Band
@@ -87,7 +87,7 @@ automatisch zurück auf `bis_band_N`. Das ist gewollt.
 
 Wenn `book-deep-analysis` oder `book-scout` ohnehin spätere Bände sichten und dabei Namen
 aufschnappen, die erst dort auftauchen: als **neutrale Begriffe** in
-`spoiler_sperrbegriffe` der Werk-Notiz eintragen.
+`spoiler_sperrbegriffe` der Erlebnis-Notiz eintragen.
 
 > ⚠️ Die Liste selbst darf kein Spoiler sein: `["Nebelkrone"]` ja — `["Nebelkrone tötet
 > ⟨Figur⟩ in Bd. 6"]` nein.

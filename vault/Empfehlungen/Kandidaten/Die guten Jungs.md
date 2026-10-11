@@ -49,7 +49,7 @@ tags: [kandidat]
 
 # Die guten Jungs
 
-> ✅ **STUB — dieser Titel ist erlebt.** Die maßgebliche Notiz ist **[[Die guten Jungs]]** in `Bibliothek/Werke/` (Verbund: [[Vuldranni (iNcarn8)]]).
+> ✅ **STUB — dieser Titel ist erlebt.** Die maßgebliche Notiz ist **[[Die guten Jungs]]** in `Werke/Buecher/` (Erleben: `Personen/Lucas/Erlebnisse/`) (Verbund: [[Vuldranni (iNcarn8)]]).
 > Diese Kandidaten-Notiz bleibt nur als Gedächtnis-Spur der Prognose stehen ([[Konventionen]]).
 
 **Status: gelesen** · Kontext [[LitRPG]] · zuletzt 2026-08-11 · Wiedervorlage: —

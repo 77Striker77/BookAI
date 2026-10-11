@@ -16,7 +16,8 @@ tags: [moc, home]
 
 ## Bibliothek (erlebte Werke)
 
-- `Bibliothek/Werke/` — voll analysierte WERKE (Reihe/Universum als Bewertungseinheit)
+- `Werke/Buecher/` — voll analysierte WERKE (Reihe/Universum als Bewertungseinheit), Fakten
+- `Personen/Lucas/Erlebnisse/` — mein Erleben je Werk: Lesestand, Verdikt, Aspekt-Bewertungen
 - `Bibliothek/Autoren/` · `Bibliothek/Sprecher/`
 
 ## Merkmale (die DNA-Atome)

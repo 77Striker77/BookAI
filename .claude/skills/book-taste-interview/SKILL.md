@@ -40,7 +40,7 @@ Zusammen mit Format und Sprache (die du ohnehin fragst):
 > „Wo stehst du bei ⟨Werk⟩ gerade — welchen Band hast du zuletzt **ganz** durch, und
 > läuft aktuell einer?"
 
-Ergebnis sofort in die Werk-Notiz (`spoiler_erlebt_bis`, `spoiler_aktuell`,
+Ergebnis sofort in die Erlebnis-Notiz (`spoiler_erlebt_bis`, `spoiler_aktuell`,
 `spoiler_gesamt`, `spoiler_stand`) — der **laufende Band zählt nicht als erlebt**. Frag auch
 nach Reihen im selben Universum, die er nie angefasst hat (`spoiler_unerlebte_reihen`).
 

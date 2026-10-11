@@ -6,7 +6,8 @@ spoiler_check.py — deterministischer Spoiler-Linter für BookAI.
 Regeln & Grenzen kommen AUSSCHLIESSLICH aus dem Vault (OBERSTE REGEL):
   vault/_System/Spoiler-Politik.md    die Regeln (menschenlesbar)
   vault/_System/Spoiler-Lexikon.md    die Wortlisten (maschinenlesbar, hier getunt)
-  vault/Bibliothek/Werke/*.md         die Lesestand-Grenze je Werk (Frontmatter)
+  vault/Werke/<Bereich>/*.md          Titel, Aliase, Universum je Werk (Fakten)
+  vault/Personen/<Person>/Erlebnisse/  die Lesestand-Grenze je Werk und Person (Frontmatter)
 
 Aufruf:
     python3 scripts/spoiler_check.py artifacts/bibliothek.html
@@ -157,11 +158,28 @@ def _int(wert, default=0) -> int:
         return default
 
 
-def lade_werke(root: Path) -> list:
+PERSON = os.environ.get("KURATOR_PERSON", "Lucas")
+
+
+def _fakten_notizen(root: Path) -> dict:
+    """Stem → Pfad aller Werk-Fakten-Notizen (vault/Werke/<Bereich>/*.md)."""
+    return {p.stem: p for p in sorted((root / "vault" / "Werke").glob("*/*.md"))}
+
+
+def lade_werke(root: Path, person: str = PERSON) -> list:
+    """
+    Seit Phase 3 (2026-10-11) steht die Grenze in der Erlebnis-Notiz der Person,
+    Titel/Aliase/Universum in der Fakten-Notiz. Beide Frontmatter werden zusammengelegt,
+    das Erleben gewinnt. Werke ohne Erlebnis-Notiz der Person bleiben ungelistet = `blurb`.
+    """
     werke = []
-    for p in sorted((root / "vault" / "Bibliothek" / "Werke").glob("*.md")):
-        fm = _frontmatter(p.read_text(encoding="utf-8"))
-        titel = fm.get("titel") or p.stem
+    fakten = _fakten_notizen(root)
+    for p in sorted((root / "vault" / "Personen" / person / "Erlebnisse").glob("*.md")):
+        erl = _frontmatter(p.read_text(encoding="utf-8"))
+        stem = re.sub(r"^\[\[|\]\]$", "", erl.get("werk", "")) or p.stem
+        fp = fakten.get(stem)
+        fm = {**(_frontmatter(fp.read_text(encoding="utf-8")) if fp else {}), **erl}
+        titel = fm.get("titel") or stem
         werke.append(Werk(
             titel=titel,
             datei=str(p.relative_to(root)),
@@ -218,13 +236,14 @@ def sammle_titel(root: Path) -> list:
     Lexikon-Prüfung maskiert.
     """
     titel = set()
-    for unter in ("Bibliothek/Werke", "Bibliothek/Autoren", "Bibliothek/Sprecher",
+    titel.update(_fakten_notizen(root))
+    for unter in ("Bibliothek/Autoren", "Bibliothek/Sprecher",
                   "Bibliothek/Universen", "Empfehlungen/Kandidaten"):
         d = root / "vault" / unter
         if d.is_dir():
             titel.update(p.stem for p in d.glob("*.md"))
     # Bandtitel aus den Tabellen der Werk-Notizen: Zeilen, deren erste Zelle eine Bandnummer ist
-    for p in (root / "vault" / "Bibliothek" / "Werke").glob("*.md"):
+    for p in _fakten_notizen(root).values():
         for zeile in p.read_text(encoding="utf-8").splitlines():
             if not zeile.lstrip().startswith("|"):
                 continue
@@ -525,7 +544,7 @@ def herkunft_raten(pfad: str) -> str:
 # --------------------------------------------------------------------------------------
 def bericht(funde: list, geprueft: list, lex_quelle: str, werke: list) -> str:
     z = []
-    z.append("🔒 SPOILER-CHECK — Grenzen aus vault/Bibliothek/Werke/*.md, Lexikon aus " + lex_quelle)
+    z.append(f"🔒 SPOILER-CHECK — Grenzen aus vault/Personen/{PERSON}/Erlebnisse/, Lexikon aus " + lex_quelle)
     z.append("   geprüft: " + (", ".join(geprueft) if geprueft else "(nichts)"))
     verstoesse = [f for f in funde if f.schwere == VERSTOSS]
     warnungen = [f for f in funde if f.schwere == WARNUNG]

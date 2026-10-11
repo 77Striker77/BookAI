@@ -150,12 +150,15 @@ Auch geliebte Bücher haben negative Zeilen — genau die machen das Matching sc
 ### 4. Persistieren (Vault, atomar — das ist der Graph-Aufbau)
 Templates aus `vault/_System/Templates/`, Konventionen aus `vault/_System/Konventionen.md`.
 
-1. **Werk-Notiz:** `vault/Bibliothek/Werke/<Werktitel>.md` (Template `Werk.md`).
+1. **Werk-Notiz = zwei Notizen** (seit 2026-10-11, s. Konventionen „Fakten und Erleben“):
+   Fakten `vault/Werke/Buecher/<Werktitel>.md` (Template `Werk.md`) + Erleben
+   `vault/Personen/<Person>/Erlebnisse/<Werktitel> – <Person>.md` (Template `Erlebnis.md`).
    ⭐ **Bewertungseinheit ist das WERK** (Reihe/Universum als Ganzes) — NIE bandweise
    interviewen/bewerten; Band-Abweichungen nur, wenn der Nutzer sie selbst nennt.
-   Frontmatter = Metadaten + DNA + `kontext:` + `bewertung:` maschinenlesbar; Body =
-   **Bewertungstabelle je Aspekt** (mit Belegen), **Lesestand-Tabelle** (welche Bände
-   gehört/gelesen/wartend), DNA als `[[Links]]`, Begründungen.
+   Fakten-Frontmatter = Metadaten + DNA; Erlebnis-Frontmatter = `kontext:` + `verdict:` +
+   `bewertung:` + Spoiler-Grenze. Erlebnis-Body = **Bewertungstabelle je Aspekt** (mit
+   Belegen), **Lesestand-Tabelle** (welche Bände gehört/gelesen/wartend), Begründungen;
+   Fakten-Body = Bände, Metadaten, Universum, DNA als `[[Links]]`.
    War das Werk vorher Kandidat → Kandidaten-Notiz auf `status: gelesen` (Historie-Zeile
    anhängen!) und durch Verweis-Stub ersetzen ("→ [[Werk]] in Bibliothek").
 2. **Merkmal-Notizen:** für JEDES bewertete/DNA-Merkmal (inkl. Handwerk!) prüfen, ob
@@ -169,7 +172,7 @@ Templates aus `vault/_System/Templates/`, Konventionen aus `vault/_System/Konven
    `Kontexte.md` pflegen.
 4. **Entitäts-Notizen:** Autor (`Bibliothek/Autoren/`) und Sprecher (`Sprecher/`)
    anlegen/fortschreiben — inkl. Abschnitt "Weitere Werke/Einlesungen" als spätere
-   Kandidatenquelle. (Reihen-Infos/Lesestand leben IN der Werk-Notiz.)
+   Kandidatenquelle. (Reihen-Infos leben IN der Fakten-Notiz, der Lesestand in der Erlebnis-Notiz.)
    **⭐ Autoren-Dossier (investigativ — Pflicht, mit Quellen):** Herkunft (Land/Region,
    ggf. Geburtsjahr), Werdegang/Hintergrund (z. B. deutscher Originalautor = kein
    Übersetzungs-Warten; Selfpub→Verlag), **Bekanntheit/Reichweite mit Belegen**

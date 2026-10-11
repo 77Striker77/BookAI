@@ -36,7 +36,7 @@ else
   fi
   echo
   echo "▸ Vault (Details erlaubt, aber nur im 🔒-Block)"
-  vaultdateien=(vault/Bibliothek/Werke/*.md vault/Empfehlungen/Kandidaten/*.md
+  vaultdateien=(vault/Werke/*/*.md vault/Personen/*/Erlebnisse/*.md vault/Empfehlungen/Kandidaten/*.md
                 vault/Empfehlungen/Läufe/*.md vault/Profil/Interviews/*.md)
   if [ "${#vaultdateien[@]}" -gt 0 ]; then
     $PY scripts/spoiler_check.py --quiet --herkunft vault "${vaultdateien[@]}"; merke $?

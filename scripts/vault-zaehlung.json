@@ -1,6 +1,6 @@
 {
-  "notizen": 175,
-  "wikilinks": 2970,
+  "notizen": 191,
+  "wikilinks": 3035,
   "tote_links": 43,
   "ordner": {
     ".": 1,
@@ -9,7 +9,6 @@
     "Bibliothek/Figuren": 2,
     "Bibliothek/Sprecher": 14,
     "Bibliothek/Universen": 5,
-    "Bibliothek/Werke": 15,
     "Empfehlungen": 1,
     "Empfehlungen/Kandidaten": 16,
     "Empfehlungen/Läufe": 1,
@@ -20,11 +19,13 @@
     "Merkmale/Setting": 11,
     "Merkmale/Themen": 13,
     "Merkmale/Ton": 9,
+    "Personen/Lucas": 15,
     "Profil": 3,
     "Profil/Interviews": 13,
     "Profil/Kontexte": 5,
+    "Werke/Buecher": 15,
     "_System": 3,
-    "_System/Templates": 8
+    "_System/Templates": 9
   },
   "stand": "2026-10-11"
 }

@@ -29,7 +29,7 @@ tags: [kandidat, stub]
 # Der Donnerstagsmordclub
 
 > ➡️ **STUB — die vollständige Notiz lebt jetzt unter [[Der Donnerstagsmordclub]]
-> in `Bibliothek/Werke/`.** Der Nutzer hat die Reihe selbst komplett gehört
+> in `Werke/Buecher/` (Erleben: `Personen/Lucas/Erlebnisse/`).** Der Nutzer hat die Reihe selbst komplett gehört
 > (dt. Hörbuch, alle 5 Bände, 2026-08-11). Diese Notiz bleibt nur als Gedächtnis-Spur
 > des Kandidaten-Wegs stehen (Gedächtnis-Regel, [[Konventionen]]).
 
@@ -69,4 +69,4 @@ Meta) filtern, sondern auf das **Verhältnis Fall ↔ Nebenstränge** (siehe Kom
 ## Notizen & Rohdaten
 
 - Alle Details, Metadaten bandgenau, Aspekt-Bewertungen und Quellen: → [[Der Donnerstagsmordclub]]
-  in `Bibliothek/Werke/`.
+  in `Werke/Buecher/` (Erleben: `Personen/Lucas/Erlebnisse/`).

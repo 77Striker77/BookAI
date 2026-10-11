@@ -7,7 +7,7 @@ tags: [warteliste]
 
 Bestätigte Empfehlungen, die noch nicht gelesen/gehört wurden. Quelle: Läufe unter
 `Empfehlungen/Läufe/`. Nach dem Lesen/Hören: Titel interviewen & analysieren →
-Notiz wandert nach `Bibliothek/Werke/`, Zeile hier abhaken.
+Fakten nach `Werke/Buecher/`, Erleben nach `Personen/Lucas/Erlebnisse/`, Zeile hier abhaken.
 
 | Titel | Format | aus Lauf | Match | Status |
 | --- | --- | --- | --- | --- |
