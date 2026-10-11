@@ -17,16 +17,15 @@ cd "$repo_root" 2>/dev/null || exit 0
 
 payload="$(cat 2>/dev/null || true)"
 . "$repo_root/scripts/python-finden.sh"; [ -n "$PY" ] || exit 0
-have_jq=0; command -v jq >/dev/null 2>&1 && have_jq=1
 
 ereignis="stop"
 antwort=""
-if [ "$have_jq" -eq 1 ] && [ -n "$payload" ]; then
-  ereignis="$(jq -r '.hook_event_name // "Stop"' <<<"$payload" 2>/dev/null)"
+if [ -n "$payload" ]; then
+  # JSON über Python statt jq (2026-10-11: unter Windows fehlt jq, die Antwort blieb ungeprüft)
+  feld() { printf '%s' "$payload" | $PY scripts/hook_json.py feld "$@" 2>/dev/null; }
+  ereignis="$(feld hook_event_name --standard Stop)"
   # Feldname je nach Ereignis/Version unterschiedlich -> defensiv mehrere probieren
-  antwort="$(jq -r '
-      .last_assistant_message // .last_message // .response //
-      .agent_output // .result // .output // ""' <<<"$payload" 2>/dev/null)"
+  antwort="$(feld last_assistant_message last_message response agent_output result output)"
 fi
 
 meldungen=""
@@ -84,9 +83,7 @@ if [ "$blocken" -eq 1 ]; then
   exit 2
 fi
 
-if [ "$have_jq" -eq 1 ]; then
-  kurz="$(printf '%s' "$meldungen" | tr '\n' ' ' | cut -c1-600)"
-  jq -n --arg m "🔒 Spoiler-Check: Warnung(en) offen — bitte vom 'spoiler-guard' beurteilen lassen. $kurz" \
-    '{systemMessage: $m}'
-fi
+kurz="$(printf '%s' "$meldungen" | tr '\n' ' ' | cut -c1-600)"
+printf '%s' "🔒 Spoiler-Check: Warnung(en) offen — bitte vom 'spoiler-guard' beurteilen lassen. $kurz" \
+  | $PY scripts/hook_json.py ausgabe system
 exit 0

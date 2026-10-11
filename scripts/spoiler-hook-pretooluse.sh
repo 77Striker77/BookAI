@@ -20,24 +20,25 @@ cd "$repo_root" 2>/dev/null || exit 0
 
 payload="$(cat 2>/dev/null || true)"
 [ -z "$payload" ] && exit 0
-command -v jq >/dev/null 2>&1 || exit 0
 . "$repo_root/scripts/python-finden.sh"; [ -n "$PY" ] || exit 0
 
-tool="$(jq -r '.tool_name // ""' <<<"$payload" 2>/dev/null)"
-pfad="$(jq -r '.tool_input.file_path // .tool_input.path // ""' <<<"$payload" 2>/dev/null)"
+# JSON über Python statt jq (2026-10-11: unter Windows fehlt jq, der Hook schwieg dann)
+feld() { printf '%s' "$payload" | $PY scripts/hook_json.py feld "$@" 2>/dev/null; }
+tool="$(feld tool_name)"
+pfad="$(feld tool_input.file_path tool_input.path)"
 
 # Zu prüfenden Text einsammeln: bei Write der neue Inhalt, bei Edit die Ersetzung,
 # bei Artifact die Datei auf der Platte.
 inhalt=""
 case "$tool" in
   Write)
-    inhalt="$(jq -r '.tool_input.content // ""' <<<"$payload" 2>/dev/null)" ;;
+    inhalt="$(feld tool_input.content)" ;;
   Edit)
-    inhalt="$(jq -r '.tool_input.new_string // ""' <<<"$payload" 2>/dev/null)" ;;
+    inhalt="$(feld tool_input.new_string)" ;;
   MultiEdit)
-    inhalt="$(jq -r '[.tool_input.edits[]?.new_string] | join("\n")' <<<"$payload" 2>/dev/null)" ;;
+    inhalt="$(feld 'tool_input.edits[].new_string')" ;;
   Artifact)
-    aktion="$(jq -r '.tool_input.action // "publish"' <<<"$payload" 2>/dev/null)"
+    aktion="$(feld tool_input.action --standard publish)"
     [ "$aktion" = "list" ] && exit 0
     [ -f "$pfad" ] || exit 0
     inhalt="$(cat "$pfad" 2>/dev/null || true)" ;;
@@ -66,24 +67,12 @@ case "$herkunft" in artefakt|empfehlung) hart=1 ;; esac
 
 if [ "$code" -eq 2 ] && [ "$hart" -eq 1 ]; then
   grund="$(printf '🔒 SPOILER-GATE: blockiert.\n\n%s\n\nRegeln: vault/_System/Spoiler-Politik.md (§2 Neutralzone, §3 Verbotszone, §7 Zurückhalten statt Glätten).\nHandlung raus, Metadaten bleiben drin. Danach `spoiler-guard` laufen lassen und erneut versuchen.' "$bericht")"
-  jq -n --arg r "$grund" '{
-    hookSpecificOutput: {
-      hookEventName: "PreToolUse",
-      permissionDecision: "deny",
-      permissionDecisionReason: $r
-    }
-  }'
+  printf '%s' "$grund" | $PY scripts/hook_json.py ausgabe deny
   exit 0
 fi
 
 if [ "$code" -ne 0 ]; then
   hinweis="$(printf '🔒 Spoiler-Check (%s, nicht blockierend):\n%s' "$herkunft" "$bericht")"
-  jq -n --arg c "$hinweis" '{
-    hookSpecificOutput: {
-      hookEventName: "PreToolUse",
-      permissionDecision: "defer",
-      additionalContext: $c
-    }
-  }'
+  printf '%s' "$hinweis" | $PY scripts/hook_json.py ausgabe hinweis
 fi
 exit 0

@@ -12,7 +12,6 @@ cd "$repo_root" 2>/dev/null || exit 0
 cat >/dev/null 2>&1 || true
 
 . "$repo_root/scripts/python-finden.sh"; [ -n "$PY" ] || exit 0
-command -v jq >/dev/null 2>&1 || exit 0
 
 grenzen="$($PY scripts/spoiler_check.py --grenzen 2>/dev/null)"
 [ -z "$grenzen" ] && exit 0
@@ -34,10 +33,6 @@ Semantisch prüfen lassen: Agent 'spoiler-guard' (Pflicht vor jedem Artefakt-Pub
 EOF
 )"
 
-jq -n --arg c "$kontext" '{
-  hookSpecificOutput: {
-    hookEventName: "SessionStart",
-    additionalContext: $c
-  }
-}'
+# JSON über Python statt jq (2026-10-11: unter Windows fehlt jq, der Hook schwieg dann)
+printf '%s' "$kontext" | $PY scripts/hook_json.py ausgabe sessionstart
 exit 0
