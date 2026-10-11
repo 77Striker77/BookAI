@@ -3,7 +3,7 @@ werk: "[[Die Streitenden Götter]]"
 person: "Lucas"
 bereich: "buch"
 besitz: "hat"          # Regelangabe Lucas 2026-10-11: „in der Regel gekauft (z. B. Audible)“ — nicht je Werk bestätigt
-status: ""             # offen: Spoiler-Felder 7/7, aber Sturmfels-Durchlauf „noch bestätigen" (s. Offene Fragen)
+status: "durch"        # alle erschienenen 7 Bände gehört (Sturmfels 5/5 bestätigt 2026-10-11, Prinz 2/2 bestätigt 2026-07-20); Prinz Bd. 3 noch nicht erschienen
 sprache_erlebt: "de"
 kontext: "Fantasy"
 verdict: "loved"        # beide Reihen „geliebt" (Interview 2026-07-16)
@@ -34,7 +34,7 @@ Mein Erleben von [[Die Streitenden Götter]]. Fakten, Bände und Metadaten stehe
 
 | Reihe | Bd. | Status |
 | --- | --- | --- |
-| [[Sturmfels-Akademie – Lucas]] | 1–5 | gehört (dt.) — vollständigen Durchlauf noch bestätigen (s. Offene Fragen) |
+| [[Sturmfels-Akademie – Lucas]] | 1–5 | gehört (dt.) — vollständig, bestätigt 2026-10-11 ([[2026-10-11 Fragenrunde nach dem Umbau]]) |
 | [[Der Prinz von Staub und Schatten – Lucas]] | 1–2 | gehört (dt.) — bestätigt ✓ (Interview 2026-07-20) |
 | [[Der Prinz von Staub und Schatten – Lucas]] | 3–5 | ⏳ nicht erschienen |
 
@@ -108,7 +108,7 @@ Community-Gesamtbild): Schwächen bei **Auftakt-Tempo bzw. Fokus** — **exakt m
 ## Offene Fragen an Lucas
 
 - ~~Besitz~~ ✓ beantwortet 2026-10-11: in der Regel gekauft ([[2026-10-11 Fragenrunde nach dem Umbau]]).
-- Sturmfels: Alle 5 Bände wirklich komplett gehört? Die Spoiler-Felder führen 7/7 als erlebt,
+- ~~Sturmfels: Alle 5 Bände wirklich komplett gehört?~~ ✓ ja (2026-10-11, [[2026-10-11 Fragenrunde nach dem Umbau]]). Die Spoiler-Felder führen 7/7 als erlebt,
   die Sturmfels-Notizen sagen „noch bestätigen" (s. [[Sturmfels-Akademie – Lucas]]). Davon
   hängt `status:` ab.
 - Sprecher: Zählt [[Günter Merlau]] als geteilter Universums-Aspekt oder als Prinz-eigener? In

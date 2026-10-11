@@ -3,7 +3,7 @@ werk: "[[Sturmfels-Akademie]]"
 person: "Lucas"
 bereich: "buch"
 besitz: "hat"          # Regelangabe Lucas 2026-10-11: „in der Regel gekauft (z. B. Audible)“ — nicht je Werk bestätigt
-status: ""             # offen: Spoiler-Felder 5/5, Lesestand aber „vollständigen Durchlauf noch bestätigen" (s. Offene Fragen)
+status: "durch"        # alle 5 Bände komplett gehört — bestätigt von Lucas 2026-10-11 (Fragenrunde F2)
 sprache_erlebt: "de"
 kontext: "Fantasy"
 verdict: "loved"
@@ -22,7 +22,7 @@ bewertung:
 spoiler_erlebt_bis: 5    # letzter VOLLSTÄNDIG erlebter Band (0 = keiner)
 spoiler_aktuell: 0       # laufender Band — zählt als NICHT erlebt
 spoiler_gesamt: 5        # Bd. 1-5 gehört, abgeschlossen
-spoiler_stand: "2026-08-11"  # Stand bestätigt am
+spoiler_stand: "2026-10-11"  # Stand bestätigt am (vollständiger Durchlauf bestätigt, F2)
 spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
 tags: [erlebnis, hoerbuch, loved]
 ---
@@ -37,8 +37,9 @@ Mein Erleben von [[Sturmfels-Akademie]]. Fakten, Bände und Metadaten stehen dor
 
 | Bd. | Status |
 | --- | --- |
-| 1–5 | gehört (dt.) — vollständigen Durchlauf noch bestätigen |
+| 1–5 | gehört (dt.) — vollständig, bestätigt 2026-10-11 ([[2026-10-11 Fragenrunde nach dem Umbau]]) |
 
+> ✓ **Aufgelöst 2026-10-11** (Lucas: „Ja, alle 5 komplett“, [[2026-10-11 Fragenrunde nach dem Umbau]]). Vorher:
 > ⚠️ **Widerspruch, nicht geglättet:** Die Spoiler-Felder führen Bd. 1–5 als erlebt
 > („Bd. 1-5 gehört, abgeschlossen", Stand 2026-08-11 — beim Einführen der Spoiler-Felder aus
 > den damaligen Lesestand-Angaben abgeleitet, die sich unterschieden: Bandtabelle der Werk-Notiz
@@ -119,7 +120,7 @@ hier also **Community-belegt, kein Einzelurteil.**
 ## Offene Fragen an Lucas
 
 - ~~Besitz~~ ✓ beantwortet 2026-10-11: in der Regel gekauft ([[2026-10-11 Fragenrunde nach dem Umbau]]).
-- Alle 5 Bände gehört? (Reihe abgeschlossen — 5 Bände bestätigt; vollständigen Hör-Durchlauf
+- ~~Alle 5 Bände gehört?~~ ✓ beantwortet 2026-10-11: ja, alle 5 komplett ([[2026-10-11 Fragenrunde nach dem Umbau]]). (Reihe abgeschlossen — 5 Bände bestätigt; vollständigen Hör-Durchlauf
   noch vom Nutzer bestätigen lassen.) — Widerspruch zu `spoiler_erlebt_bis: 5` („Bd. 1-5
   gehört, abgeschlossen"); die Spoiler-Felder bleiben bis zur Antwort unverändert, `status:` leer.
 - Sprecher: Trug [[Günter Merlau]] speziell Sturmfels? Beim Prinzen separat bestätigt (+2),
