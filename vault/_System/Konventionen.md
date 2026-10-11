@@ -339,6 +339,12 @@ erwaehnt → gesichtet → geprueft-verworfen | empfohlen → warteliste → gel
                                                            Stub bleibt)
 ```
 
+- **Stub-Name (seit 2026-10-11):** Wird ein Kandidat zum Werk, wird die Kandidaten-Notiz in
+  `<Titel> (Kandidat).md` umbenannt — sonst gibt es zwei Notizen gleichen Namens und
+  `[[Titel]]` ist mehrdeutig. `[[Titel]]` meint danach immer die Fakten-Notiz; historische
+  Empfehlungseinträge (Läufe, Warteliste) zeigen per Alias auf den Kandidaten.
+  Allgemein: **Kein Notizname doppelt im Vault** (Welt-Notizen z. B. `<Name> (Welt)`,
+  Genre-Merkmal und Kontext gleichen Namens → Merkmal `<Name> (Genre)`).
 - **Prüf-Historie ist append-only:** jede Prüfung wird als neue Zeile angehängt
   (Datum, Lauf, Status, Score, Grund) — nie alte Einträge überschreiben. So sieht man,
   DASS und WARUM ein Titel schon 2× verworfen wurde.
