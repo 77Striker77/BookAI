@@ -2,6 +2,8 @@
 werk: "[[Der Donnerstagsmordclub]]"
 person: "Lucas"
 bereich: "buch"
+besitz: ""             # unbekannt — nicht erfragt (s. Offene Fragen an Lucas)
+status: "durch"        # Bd. 1–5 von 5 erschienenen gehört (Lesestand, bestätigt 2026-08-11); Bd. 6 erscheint 2027
 sprache_erlebt: "de"
 kontext: "Krimi"
 verdict: "liked"
@@ -16,24 +18,27 @@ bewertung:
   - { aspekt: "Bremsender Alltags-Ballast", wert: -1 }
   - { aspekt: "Situationskomik", wert: 1 }
   - { aspekt: "Locked-Room-Mystery", wert: 0 }
+  - { aspekt: "Johannes Steck", wert: 0 }   # Sprecher — Spiegel der Tabellenzeile („Solide, unauffällig“)
 # --- 🔒 Spoiler-Grenze (siehe _System/Spoiler-Politik.md) ---
 spoiler_erlebt_bis: 5    # letzter VOLLSTÄNDIG erlebter Band (0 = keiner)
 spoiler_aktuell: 0       # laufender Band — zählt als NICHT erlebt
 spoiler_gesamt: 5        # Bd. 1-5 gehört; Bd. 6 erscheint 2027
 spoiler_stand: "2026-08-11"  # Stand bestätigt am
 spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
-tags: [werk, reihe, hoerbuch, liked, krimi, cosy-crime]
+tags: [erlebnis, hoerbuch, liked]
 ---
 
 # Der Donnerstagsmordclub – Lucas
 
 Mein Erleben von [[Der Donnerstagsmordclub]]. Fakten, Bände und Metadaten stehen dort — hier nur, was Lucas erlebt und empfunden hat.
 
-### Auffällige Band-Unterschiede (Community)
-- **Bd. 1 ist der mit Abstand schwächste Band (3,85)** — alle Folgebände liegen bei 4,26–4,46.
-  Typisches Debüt-Muster: Figuren müssen erst etabliert werden.
-- **Bd. 4 ist der bestbewertete (4,46)** — ausgerechnet der Band mit dem dominantesten
-  Demenz-Strang. **Wichtiges Paradox, s. Kalibrierung unten.**
+**Kontext:** [[Krimi]] · **Quellen:** [[2026-08-11 Interview Der Donnerstagsmordclub]]
+
+> **Bewertungseinheit ist das WERK.** Der Nutzer bewertet die Reihe als Ganzes. Die eine
+> Band-Abweichung (Bd. 4) hat er **von sich aus** genannt → unten in „Abweichungen einzelner
+> Bände" erfasst.
+
+> **Format: GEHÖRT (Hörbuch, Deutsch)** — alle 5 Bände. Sprecher-Aspekt gilt.
 
 ## Lesestand
 
@@ -41,6 +46,13 @@ Mein Erleben von [[Der Donnerstagsmordclub]]. Fakten, Bände und Metadaten stehe
 | --- | --- |
 | 1–5 | **alle gehört (dt. Hörbuch)** — Reihe auf aktuellem Stand |
 | 6 | ⏳ erscheint 2027 |
+
+→ 5 Bände (2020–2025), Bd. 6 für 2027 angekündigt → **Reihen-Pflicht ≥3 Bände klar erfüllt.**
+Reihenschnitt ungekürzt ≈ 11,5 h/Band, gekürzt ≈ 10 h/Band (s. [[Der Donnerstagsmordclub]]) →
+in beiden Fällen **deutlich unter der ~20-h-Komfortgrenze** des Nutzers ([[Profil]]). Welche
+Fassung er gehört hat, ist offen (s. Offene Fragen an Lucas). Bd. 6: Bei Bd. 5 erschien die
+dt. Ausgabe zeitgleich mit UK → kein Übersetzungs-Warten mehr zu erwarten (relevant, weil der
+Nutzer laut [[Profil]] auf dt. Fassungen wartet statt englisch auszuweichen).
 
 ## ⭐ Bewertung je Aspekt (Werk gesamt)
 
@@ -51,7 +63,7 @@ Mein Erleben von [[Der Donnerstagsmordclub]]. Fakten, Bände und Metadaten stehe
 | [[Cosy-Wohlfühlatmosphäre]] | **+2** | Gemütlich, leicht, entspannend — man ist gern dort | „Herzlich-gemütlich" + „Leicht & entspannend" gewählt |
 | [[Cleverer Twist-Plot]] | **+2** | Twist am Ende + faires Rätsel + verwobene Fäden — der Fall trug für ihn selbst | „Cleverer Twist am Ende, Faires Whodunit-Rätsel, Mehrere Handlungsfäden" gewählt; Option „Fall eher Nebensache" **abgelehnt** |
 | [[Situationskomik]] | **+1** | Rentner beim Ermitteln = Schmunzler | „Situationskomik" gewählt |
-| [[Locked-Room-Mystery]] | **0** | Nicht vorhanden (offene Struktur) — fehlt als Trigger, ist aber kein Ausschluss | Recherche: kein geschlossener Verdächtigenkreis |
+| [[Locked-Room-Mystery]] | **0** | Nicht vorhanden (offene Struktur) — fehlt als Trigger, ist aber kein Ausschluss | Recherche: kein geschlossener Verdächtigenkreis (s. [[Der Donnerstagsmordclub]], DNA „Struktur") |
 | [[Bremsender Alltags-Ballast]] | **−1** | Residenz-/Rentneralltag in Cooper's Chase zieht stellenweise | „Teils zäher Alltag" gewählt |
 | [[Konstanter Vorwärtsdrang]] | **−1** | Zähe Passagen; Sog vorhanden, aber **bedingt** | „Zähe Passagen" gewählt; „die fälle an sich waren ganz spannend **wenn sie nicht in den hintergrund geraten**" |
 | [[Persona-Strang verdrängt Haupthandlung]] | **−2** | Der Demenz-Strang übernimmt die Story, der Fall wird zweitrangig — **stärkster Malus** | „**dafür lese ich keinen krimi!**"; „plötzlich wird die hauptgeschichte zweitrangig. das ist schlecht" |
@@ -70,32 +82,36 @@ Genre oder am Ton (die treffen voll), sondern **allein an der Fokus-Frage**.
 | **4** — „…oder Ein Teufel stirbt immer zuletzt" | Der Demenz-Strang um Elizabeths Ehemann **Stephen** nahm „gefühlt das halbe Buch" ein → hier kippte die Reihe für ihn ins Minus | „Beispiel der Demenz was in **einem band** gefühlt das halbe buch eingenommen hat. dafür lese ich keinen krimi!" |
 
 **✅ Band-Zuordnung durch Recherche bestätigt** (der Nutzer nannte keine Bandnummer, nur „ein
-Band"). Der Demenz-Strang verläuft über die Reihe so:
-
-| Bd. | Demenz-Anteil |
-| --- | --- |
-| 1 | sehr gering — Stephen präsent, Erkrankung nur angedeutet; dominantes Nebenthema ist hier die Bebauungs-Nebenhandlung um Cooper's Chase |
-| 2 | gering–mittel — Zustand verschlechtert sich merklich, bleibt Nebenmotiv |
-| 3 | mittel — Alzheimer schreitet fort, „herzzerreißend", aber noch sekundär; Stephen noch aktiv |
-| **4** | **DOMINANT** — strukturbestimmend: **Elizabeth zieht sich aus den Ermittlungen zurück**, kann Stephen nicht allein lassen, **Joyce übernimmt die Ermittlungsführung**. Die Demenz verändert also sogar die Erzählarchitektur; der Roman wird zur „Meditation über Liebe und Trauer" |
-| 5 | Nachwirkung — Elizabeth trauert von Beginn an, Pflegealltag beendet |
+Band"). Verlauf des Demenz-Strangs je Band: s. [[Der Donnerstagsmordclub]] („Demenz-Strang je Band").
 
 → **Eindeutig Band 4.** Deckt sich präzise mit „gefühlt das halbe Buch".
 
+## Band-Unterschiede: Community-Kurve vs. mein Empfinden
+
+- **Bd. 4 ist der bestbewertete (4,46, s. [[Der Donnerstagsmordclub]])** — ausgerechnet der Band
+  mit dem dominantesten Demenz-Strang. **Wichtiges Paradox, s. „⭐ Das schärfste
+  Kalibrier-Signal" im Reihen-Gesamtbild unten.**
+- Die Community-Kritik zu Bd. 4 („Die Mordfälle fühlen sich als zweite Geige an gegenüber
+  Elizabeth und ihrer Beziehung zu Stephen") deckt sich exakt mit dem Empfinden des Nutzers.
+
 ## DNA-Begründung
 
-**Struktur ist KEIN Locked-Room** — anders als bei [[Die mörderischen Cunninghams]]. Cooper's
-Chase ist zwar eine halbgeschlossene Miss-Marple-artige Gemeinschaft, aber: die Fälle greifen
-weit über die Anlage hinaus (London, Geheimdienst, Mafia, Drogenkartelle, Antiquitäten-
-schmuggel, Geldwäsche), es gibt keinen zu Beginn abgesteckten Verdächtigenkreis, neue
-Verdächtige kommen laufend dazu, und Cold Cases mischen sich mit aktuellen Morden. →
-**offener Whodunit mit hoher Nebenfiguren-Dichte.**
+Objektive DNA: s. [[Der Donnerstagsmordclub]] (Struktur: offener Whodunit, **kein** Locked-Room —
+anders als bei [[Die mörderischen Cunninghams]]).
+
+- **Tempo:** gemütlich mit Sog-Phasen — aber bedingt: nur solange der Fall vorn bleibt
+  (Nutzer; → [[Konstanter Vorwärtsdrang]] −1).
+- **Setting:** Cooper's Chase — „Stimmige Kulisse" gewählt, dazu „Teils zäher Alltag"
+  (→ [[Bremsender Alltags-Ballast]] −1). Eine frühere Fassung notierte „kein eigener Reiz für
+  den Nutzer" — im Interview nicht belegt, s. Offene Fragen an Lucas.
+- **Gewalt/Gore:** niedrig (s. [[Der Donnerstagsmordclub]]) — für den Nutzer irrelevant, er
+  verträgt mehr ([[Profil]]).
 
 **⚠️ Interessante Diskrepanz beim Fair-Play:** Der Nutzer hat „Faires Whodunit-Rätsel"
 ausdrücklich **als Plus gewählt** — die Community-Kritik sieht das deutlich skeptischer
-(Hinweise zurückgehalten, Durchbrüche off-page, Backstory erst im Finale). Genre-Übersichten
-(Crime Fiction Lover, The Week) verkaufen die Reihe dagegen als „Christie-artig sorgfältig
-konstruiert". **Sein Empfinden zählt** — für ihn fühlte es sich fair an. Für das Matching
+(Hinweise zurückgehalten, Durchbrüche off-page, Backstory erst im Finale; Genre-Übersichten
+dagegen „Christie-artig sorgfältig konstruiert" — beides s. [[Der Donnerstagsmordclub]]).
+**Sein Empfinden zählt** — für ihn fühlte es sich fair an. Für das Matching
 heißt das: er braucht **kein** strenges Golden-Age-Fair-Play wie bei Cunninghams, ein
 „gefühlt faires" Rätsel genügt.
 
@@ -103,26 +119,23 @@ Quelle Interview: [[2026-08-11 Interview Der Donnerstagsmordclub]]
 
 ## 🎧 Hörbuch-Erlebnis
 
-**Zwei-Stimmen-Lesung, kein Voll-Cast:** [[Johannes Steck]] liest den 3.-Person-Strang,
-[[Beate Himmelstoß]] die Ich-Tagebuchpassagen von Joyce. Diese Aufteilung ist strukturell
-sauber aus dem Erzählaufbau abgeleitet (Joyces Tagebuch ist die einzige Ich-Ebene).
-**Durchgängig dieselbe Besetzung über alle 5 Bände** — kein Sprecherwechsel.
+Zwei-Stimmen-Lesung: [[Johannes Steck]] (3.-Person-Strang) + [[Beate Himmelstoß]] (Joyces
+Ich-Tagebuch), durchgängig über alle 5 Bände — Produktion s. [[Der Donnerstagsmordclub]].
 
 **Bewertung des Nutzers: „solide, unauffällig" (0).** Ausdrücklich **kein** Kaufargument:
 „hätte mir gedruckt ähnlich gut gefallen, kein entscheidender Faktor." Damit reiht sich Steck
 bei [[Johannes Klaußner]] ein (neutral) und **nicht** bei den „trägt massiv"-Sprechern
 [[Stefan Kaminski]], [[Günter Merlau]], [[David Nathan]], [[Leonie Landa]].
-Bemerkenswert: Auch die Zwei-Stimmen-Lösung, die objektiv das strukturelle Highlight der
-Produktion ist, hat er **nicht** als Plus angehakt.
+Bemerkenswert: Auch die Zwei-Stimmen-Lösung (s. [[Der Donnerstagsmordclub]]) hat er **nicht**
+als Plus angehakt.
 
-> **Englische Fassung (nur zur Einordnung, nicht erlebt):** Bd. 1–2 Lesley Manville,
-> **ab Bd. 3 Fiona Shaw** (Manville hatte Terminkollisionen). *The Bullet That Missed* war
-> laut Agentur das **meist-vorbestellte Hörbuch in der Geschichte von Penguin Random House**.
+Englische Fassung (Manville/Shaw, s. [[Der Donnerstagsmordclub]]): nicht erlebt.
 
 ## 🧮 Reihen-Gesamtbild (LETZTER Schritt)
 
-Ein **Weltphänomen mit stabil hohen Wertungen** (⌀ 4,25 über ~1,91 Mio. Goodreads-Stimmen;
-nach dem schwächeren Debüt 3,85 durchweg 4,26–4,46). Formal passt die Reihe **perfekt** ins
+Community: Weltphänomen mit stabil hohen Wertungen (s. [[Der Donnerstagsmordclub]],
+Community-Gesamtbild; Bekanntheit „Phänomen" — deutlich über allem bisher Analysierten in
+meiner Bibliothek). Formal passt die Reihe **perfekt** ins
 Profil: 5 Bände, deutsch komplett verfügbar (inzwischen sogar zeitgleich), ~11,5 h/Band weit
 unter der 20-h-Grenze, Romance kein Handlungstreiber, kein Gore-Problem, etablierter dt.
 Sprecher.
@@ -144,3 +157,24 @@ auf Sterne muss auf das **Verhältnis Fall ↔ Nebenstränge** geschaut werden.
 Vergleich zum Maßstab-Werk siehe Abschnitt „Kalibrierung" in [[Krimi]]:
 Cunninghams `loved` (straff, Locked-Room, Meta-Fair-Play) ↔ Donnerstagsmordclub `liked`
 (gleiche Humor-/Twist-Stärke, aber Fokus-Verlust, kein Kreis, Sprecher neutral).
+
+Netflix-Film: Kritiker monieren, er habe gerade die Red Herrings und figurenreichen
+Nebenstränge gestrichen (s. [[Der Donnerstagsmordclub]]) — also genau das, was den Nutzer im
+Buch gestört hat.
+
+## Offene Fragen an Lucas
+
+- Besitz: Hörbücher gekauft (z. B. Audible) oder geliehen? (`besitz:` ist leer, nie raten)
+- **Welche Hörbuch-Fassung?** Es gibt je Band eine **gekürzte** (~10 h, CD/Download) und eine
+  **ungekürzte** (~11,5 h, Audible/Download). Das ändert die Hördauer um bis zu 1,5 h/Band und
+  ist für Längen-Vergleiche relevant. → Bei Gelegenheit fragen (Audible = i. d. R. ungekürzt).
+- **Band 5 als Abschluss?** Wie empfand er den (bisher) letzten Band, und will er Bd. 6 (2027)?
+- **Kennt er *We Solve Murders*?** Osmans zweite Reihe (Bd. 1 2024, Bd. 2 09/2026) — unabhängig
+  lesbar, dt. Ausgabe existiert. Als Kandidat prüfen: **Achtung**, gleicher Autor = gleiches
+  Risiko für Persona-Stränge. Noch **keine** Kandidaten-Notiz angelegt.
+- Netflix-Film gesehen? (Er strich genau die Nebenstränge, die den Nutzer störten.)
+- Meintest du mit „in einem Band … gefühlt das halbe Buch" Bd. 4? Die Zuordnung stammt aus der
+  Recherche; im Interview steht sie als offen („vermutlich Bd. 3 … oder Bd. 4").
+- Setting: Hatte Cooper's Chase für dich einen eigenen Reiz, oder war es nur Kulisse? Belegt
+  ist nur „Stimmige Kulisse" (im Interview unter „was trug") und „Teils zäher Alltag"; eine
+  frühere Fassung behauptete „kein eigener Reiz für den Nutzer".

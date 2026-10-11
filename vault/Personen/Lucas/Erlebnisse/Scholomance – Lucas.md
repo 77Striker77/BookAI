@@ -2,6 +2,8 @@
 werk: "[[Scholomance]]"
 person: "Lucas"
 bereich: "buch"
+besitz: ""             # unbekannt — nicht erfragt (s. Offene Fragen)
+status: "durch"        # Bd. 1–3 von 3 gehört (Lesestand, bestätigt 2026-08-11)
 sprache_erlebt: "de"
 kontext: "Fantasy"
 verdict: "mixed"
@@ -26,28 +28,30 @@ spoiler_aktuell: 0       # laufender Band — zählt als NICHT erlebt
 spoiler_gesamt: 3        # Bd. 1-3 gehört, abgeschlossen -> voll
 spoiler_stand: "2026-08-11"  # Stand bestätigt am
 spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
-tags: [werk, reihe, hoerbuch, mixed, fantasy]
+tags: [erlebnis, hoerbuch, mixed]
 ---
 
 # Scholomance – Lucas
 
 Mein Erleben von [[Scholomance]]. Fakten, Bände und Metadaten stehen dort — hier nur, was Lucas erlebt und empfunden hat.
 
-### Band-Unterschiede (mit meinem Empfinden abgeglichen)
-- Klare **U-/Kuppel-Kurve** 3,93 → 4,20 → 4,08: schwacher Auftakt, starker Mittelteil,
-  leichter Finale-Abfall. Meine Aspekt-Wertungen laufen exakt parallel — mein „okay" ist
-  also kein Ausreißer, sondern deckt sich mit dem breiten Community-Urteil.
+**Kontext:** [[Fantasy]] · **Quellen:** [[2026-07-16 Interview Scholomance]]
+
+> **Bewertungseinheit ist das WERK.** Nutzer bewertet die Trilogie als Ganzes. **Zweites
+> `mixed`/„okay"-Werk** (Graubereich), erstes in [[Fantasy]]. Anti-/Kontrast-Referenz zu
+> [[Die Streitenden Götter]] im selben Kontext.
 
 ## Lesestand (meine Formate)
 
 | Bd. | Status |
 | --- | --- |
-| 1 | gehört (dt., 12 h 44) |
-| 2 | gehört (dt., 15 h 40) |
-| 3 | gehört (dt., 15 h 14) |
+| 1 | gehört (dt.) |
+| 2 | gehört (dt.) |
+| 3 | gehört (dt.) |
 
-→ Komplett gehört (**gesamt ~43 h 38**; Reihenschnitt ~14,5 h/Band ≤ ~20 h → im
+→ Komplett gehört (Dauern s. [[Scholomance]]; Reihenschnitt ~14,5 h/Band ≤ ~20 h → im
 Komfortbereich). Dient als **Kalibrier-/Anti-Referenz**, keine zu füllende Lücke.
+**3 Bände → Reihen-Pflicht (≥3) erfüllt.**
 
 ## ⭐ Bewertung je Aspekt (Werk gesamt)
 
@@ -83,10 +87,24 @@ Streitenden Göttern.
 | 2 | stärkster Band (große Wendung) | Goodreads 4,20 (Reihen-Hoch) + „Wendungen/Überraschungen" gewählt |
 | 3 | Finale fällt leicht ab; Romantik „zu viel" | Goodreads ~4,08 + „romantik am ende zu arg und zu viel" |
 
+## Band-Unterschiede: Community-Kurve vs. mein Empfinden
+
+- Klare **Kuppel-Kurve** 3,93 → 4,20 → 4,08 (s. [[Scholomance]], Auffällige Band-Unterschiede): schwacher Auftakt, starker Mittelteil,
+  leichter Finale-Abfall. Meine Aspekt-Wertungen laufen exakt parallel — mein „okay" ist
+  also kein Ausreißer, sondern deckt sich mit dem breiten Community-Urteil.
+  Bandgenau: Bd. 1 = der zähe/info-lastige Einstieg, den ich auch kritisiere; Bd. 2 = die
+  große Wendung/der Cliffhanger, den ich als Plus nannte; Bd. 3 = das Finale, das ich nicht
+  als Highlight wählte.
+- Community-Kritik Bd. 1 (Info-Dump, langsamer/verwirrender Einstieg; s. [[Scholomance]]) → **deckt meinen
+  [[Zäher Start]] + [[Überladenes Weltdetail]].**
+- Community-Kritik Bd. 3 (Tonwechsel, Finale polarisiert) →
+  **deckt meine Bd.-3-Zurückhaltung.**
+- Wiederkehrende Community-Kritik (El teils „too powerful"/anstrengend; Romance-Anteil wächst) →
+  **deckt [[Flache Machtprogression]], [[Dauer-Zynismus]], [[Romance-Überhang]].**
+
 ## DNA-Begründung
 
-Objektiv (Rezensionskonsens): originelle Dark-Academia mit konsistentem Todesschule-System,
-dichter Ich-Erzählung mit starker Stimme, wachsender Romance und einem Bd.-1-Info-Dump.
+Objektive DNA: s. [[Scholomance]].
 Subjektiv (Interview): Welt/Regel-Konsistenz + Gemeinschaft + Stimme trugen, aber die
 fehlende Macht-/Lernkurve (mein Progression-Faden) und die überladene, unausgezahlte
 Detailmasse dämpften. Quelle: [[2026-07-16 Interview Scholomance]].
@@ -100,10 +118,19 @@ notiert.
 
 ## 🧮 Reihen-Gesamtbild (letzter Schritt)
 
-EN-Community ⌀ ~4,0/5 (Bd. 1 3,93 · Bd. 2 4,20 · Bd. 3 4,08), NYT-Bestseller,
-Lodestar-Gewinner (Bd. 2) — etablierter, breit gelobter Titel; mein Urteil (mixed) liegt
+EN-Community ⌀ ~4,0/5 (s. [[Scholomance]], Community-Gesamtbild); mein Urteil (mixed) liegt
 leicht darunter, aber die **Bandkurve deckt sich exakt mit meinem Empfinden** (schwacher
 Auftakt, starker Mittelteil, Finale-Abfall). **Kalibrier-Erkenntnis:** Selbst bei starker,
 preisgekrönter Fantasy mit toller Welt kippt mein Urteil auf „okay", wenn die
 **Machtprogression fehlt** — das ist neben dem zähen Start mein zweiter belastbarer
 Prädiktor.
+
+## Offene Fragen an Lucas
+
+- Besitz: Hörbücher gekauft (z. B. Audible) oder geliehen? (`besitz:` ist leer, nie raten)
+- War Bd. 3 für dich tatsächlich schwächer als Bd. 2? Belegt sind nur: Bd.-3-Enthüllungen nicht
+  als Plus gewählt und „romantik am ende etwas zu arg“. „Finale fällt leicht ab“,
+  „Bd.-3-Zurückhaltung“ und „Aspekt-Wertungen laufen exakt parallel“ stützen sich sonst auf die
+  Goodreads-Kurve.
+- Hat Leonie Landa Els bissige Stimme für dich „sogar aufgewertet“? Steht so in der Notiz, im
+  Interview steht nur „Stark, hat getragen“ (Kaminski/Merlau-Niveau).

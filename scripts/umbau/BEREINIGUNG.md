@@ -28,6 +28,20 @@ Bezug zu Lucas? → nach F.
 - Ein Merkmal, das laut Lucas' Wertung gerade **fehlt** („fehlt hier“, „verletzt“), darf nie
   als Eigenschaft in F stehen.
 
+### Was als Beleg zählt (einheitlich festgelegt nach Runde 1, 2026-10-11)
+
+| zählt | zählt nicht |
+| --- | --- |
+| Stelle in den Community-/Recherche-Abschnitten von F, die das Merkmal **inhaltlich direkt** aussagt — wörtliches Zitat oder als Community-Konsens gekennzeichnete Zusammenfassung („wiederkehrend: …“) | Kritik, die etwas anderes aussagt (z. B. „wenige lange Actionszenen“ für Eskalations-Setpieces) |
+| **Einzelstimme**, wenn wörtlich zitiert — dann „(Einzelstimme)“ dazuschreiben | Zielgruppen-Vergleiche („für Nerds, was Ready Player One für Gamer ist“) |
+| Genre-/Titel-/Prämissen-Angabe, **wenn sie das Merkmal selbst ausspricht** (Genre „Cosy Crime“ → Cosy-Wohlfühlatmosphäre; Prämisse „rechtmäßiger Erbe“ → Verlorenes Erbe) | Ableitungen, die mehr behaupten als die Quelle (Prämisse nennt den Erben, aber nicht als Hauptfigur) |
+| | Formulierungen aus Lucas' Interview, auch wenn sie neutral klingen („Heist-Struktur“, „Sog-Phasen“) |
+
+Reicht der Beleg nicht → **„Offen (DNA-Beleg):“** in F „Offene Fragen“, nicht still löschen.
+Beleg in Klammern immer angeben: `(Community: „…“)`, `(Einzelstimme: „…“)`, `(Genre)`, `(Prämisse)`.
+
+Fakten nie an Lucas delegieren: „Wer liest Bd. 3?“ ist eine Recherche-Lücke in F, keine Frage an ihn.
+
 ## Was in E nicht stehen soll
 
 - Reine Community-Zahlen/-Befunde, Produktionsdaten, Gesamt-Hördauern, „Objektiv

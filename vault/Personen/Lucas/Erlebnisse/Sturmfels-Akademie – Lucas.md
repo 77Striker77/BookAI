@@ -2,6 +2,8 @@
 werk: "[[Sturmfels-Akademie]]"
 person: "Lucas"
 bereich: "buch"
+besitz: ""             # unbekannt — nicht erfragt (s. Offene Fragen)
+status: ""             # offen: Spoiler-Felder 5/5, Lesestand aber „vollständigen Durchlauf noch bestätigen" (s. Offene Fragen)
 sprache_erlebt: "de"
 kontext: "Fantasy"
 verdict: "loved"
@@ -22,25 +24,26 @@ spoiler_aktuell: 0       # laufender Band — zählt als NICHT erlebt
 spoiler_gesamt: 5        # Bd. 1-5 gehört, abgeschlossen
 spoiler_stand: "2026-08-11"  # Stand bestätigt am
 spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
-tags: [werk, reihe, hoerbuch, loved, fantasy]
+tags: [erlebnis, hoerbuch, loved]
 ---
 
 # Sturmfels-Akademie – Lucas
 
 Mein Erleben von [[Sturmfels-Akademie]]. Fakten, Bände und Metadaten stehen dort — hier nur, was Lucas erlebt und empfunden hat.
 
-### Band-Unterschiede — ⭐ deckt mein Empfinden!
-Goodreads steigt von **Bd. 1 (4,32, niedrigster)** über 4,41 → 4,45 und bleibt oben. Die
-Community bewertet Band 1 **objektiv am schwächsten** und nennt exakt den **langsamen
-Start** — genau meine −2-Kritik (Fast-Abbruch, „Vollkatastrophe" erste Hälfte). Mein
-roter Faden Fokus/Vorwärtsdrang ist hier also **kein Einzelempfinden, sondern
-Community-gestützt.** Und der Aufwärtstrend bestätigt mein „gegen Ende richtig gut".
+**Kontext:** [[Fantasy]] · **Quellen:** [[2026-07-16 Interview Streitende Götter]] · Universum-Ebene: [[Die Streitenden Götter – Lucas]]
 
 ## Lesestand (meine Formate)
 
 | Bd. | Status |
 | --- | --- |
 | 1–5 | gehört (dt.) — vollständigen Durchlauf noch bestätigen |
+
+> ⚠️ **Widerspruch, nicht geglättet:** Die Spoiler-Felder führen Bd. 1–5 als erlebt
+> („Bd. 1-5 gehört, abgeschlossen", Stand 2026-08-11 — beim Einführen der Spoiler-Felder aus
+> den damaligen Lesestand-Angaben abgeleitet, die sich unterschieden: Bandtabelle der Werk-Notiz
+> 5× „gehört" **ohne** Vorbehalt, diese Lesestand-Tabelle **mit** „noch bestätigen"). Die Tabelle
+> selbst sagt „noch bestätigen". → Offene Fragen an Lucas.
 
 ## ⭐ Bewertung je Aspekt
 
@@ -55,8 +58,10 @@ Community-gestützt.** Und der Aufwärtstrend bestätigt mein „gegen Ende rich
 | [[Konstanter Vorwärtsdrang]] | **−2** | „zu wenig Progress, man weiß nicht, wohin die Reise geht" (Bd. 1) | wörtlich |
 | [[Zäher Start]] | **−2** | Bd. 1 erste Hälfte „Vollkatastrophe", fast abgebrochen | wörtlich |
 | [[Zu lange schwacher Held]] | **−2** | „Niri … besonders in Band 1 zu lange zu schwach … fast abgebrochen" | wörtlich |
-| *geerbt:* [[Stimmige Weltatmosphäre]] | +1 | geerbt aus [[Die Streitenden Götter]] | „Welt ist top" |
-| *geerbt:* [[Magiesystem-Tiefe]] | −1 | geerbt; hier präzisiert: zu restriktive Regeln dämpfen Wunder | „Grenzen übersteigen = schneller Tod … zu stark eingeschränkt" |
+| *geerbt:* [[Stimmige Weltatmosphäre]] | +1 | geerbt aus [[Die Streitenden Götter – Lucas]] | „Welt ist top" |
+| *geerbt:* [[Magiesystem-Tiefe]] | −1 | geerbt aus [[Die Streitenden Götter – Lucas]]; hier präzisiert: zu restriktive Regeln dämpfen Wunder | „Grenzen übersteigen = schneller Tod … zu stark eingeschränkt" |
+
+*Geerbte Zeilen stehen bewusst nicht in `bewertung:` — Pflege nur an der Quelle ([[Die Streitenden Götter – Lucas]]).*
 
 **Verdikt-Herleitung:** Trotz **drei −2-Schwächen im ersten Band** (Fast-Abbruch!) bleibt
 das Verdikt **loved** — das [[Starkes Finale]] und der Gesamtbogen rehabilitieren. Kein
@@ -69,7 +74,30 @@ glattes, sondern ein **hart erarbeitetes** Loved: die Reihe hätte ihn in Bd. 1 
 | 1 (erste Hälfte) | „Vollkatastrophe" — extrem langsam, kein Progress, kein erkennbares Ziel; Akademie erst nach halbem Buch, gefühlt kleinster Teil; **Fast-Abbruch** | wörtlich |
 | 1 (Ende) → | „danach gut und gegen Ende richtig gut" | wörtlich |
 
+## Band-Unterschiede: Community-Kurve vs. mein Empfinden
+
+Der niedrigste Goodreads-Wert für Bd. 1 und der Anstieg danach (Zahlen: [[Sturmfels-Akademie]],
+Auffällige Band-Unterschiede) — die Community nennt bei Bd. 1 exakt den **langsamen
+Start** — genau meine −2-Kritik (Fast-Abbruch, „Vollkatastrophe" erste Hälfte). Mein
+roter Faden Fokus/Vorwärtsdrang ist hier also **kein Einzelempfinden, sondern
+Community-gestützt.** Und der Aufwärtstrend bestätigt mein „gegen Ende richtig gut".
+
+## DNA-Begründung
+
+Objektive DNA: s. [[Sturmfels-Akademie]]. Aus der früheren Fakten-DNA hierher verschoben,
+weil es meine Wertungen sind (Begründung je Aspekt: Tabelle oben; eine eigene
+DNA-Begründung ist nicht erfragt):
+- **Figuren:** Niri ([[Wachsende Hauptfigur]], aber [[Zu lange schwacher Held]] in Bd. 1)
+- **Handwerk:** [[Starkes Finale]] (+); [[Zäher Start]], [[Nebenquest-Wildwuchs]], [[Konstanter Vorwärtsdrang]] verletzt (−)
+
+## Hörbuch-Erlebnis
+
+Für Sturmfels allein nicht erfragt. Universumweit (Interview 2026-07-16): [[Günter Merlau]]
+„trägt massiv" — s. [[Die Streitenden Götter – Lucas]].
+
 ## Mein Kontrast zum [[Der Prinz von Staub und Schatten]] (selbst gezogen — Nutzer: „zieh ihn selbst")
+
+Gegenstück: [[Der Prinz von Staub und Schatten – Lucas]].
 
 Beide teilen **dieselbe Kernschwäche**: langsamer, unfokussierter Einstieg, Fokusverlust.
 - **Sturmfels:** wärmer/hoffnungsvoller (Aufstieg + Gemeinschaft), aber **härtester Start**
@@ -82,9 +110,17 @@ Beide teilen **dieselbe Kernschwäche**: langsamer, unfokussierter Einstieg, Fok
 
 ## 🧮 Reihen-Gesamtbild (letzter Schritt)
 
-Community Goodreads ⌀ ~4,4/5 (~1.680 Wertungen, Bd. 1–5), durchweg positiv (Weltenbau,
-Nebenfiguren, Merlau). **Zentrale Deckung mit meinem Empfinden:** Bd. 1 ist objektiv der
-schwächste (4,32) und wird explizit für den „langsamen Start (erstes Viertel)"
-kritisiert — genau meine −2. Die Wertungen STEIGEN danach (bis 4,45), was mein „gegen
+Community-⌀ ~4,4/5 (s. [[Sturmfels-Akademie]], Community-Gesamtbild). **Zentrale Deckung
+mit meinem Empfinden:** der am niedrigsten bewertete Bd. 1 und die Kritik am „langsamen
+Start (erstes Viertel)" — genau meine −2. Die Wertungen STEIGEN danach, was mein „gegen
 Ende immer besser / starkes Finale" stützt. Mein roter Faden Fokus/Vorwärtsdrang ist
 hier also **Community-belegt, kein Einzelurteil.**
+
+## Offene Fragen an Lucas
+
+- Besitz: Hörbücher gekauft (z. B. Audible) oder geliehen? (`besitz:` ist leer, nie raten)
+- Alle 5 Bände gehört? (Reihe abgeschlossen — 5 Bände bestätigt; vollständigen Hör-Durchlauf
+  noch vom Nutzer bestätigen lassen.) — Widerspruch zu `spoiler_erlebt_bis: 5` („Bd. 1-5
+  gehört, abgeschlossen"); die Spoiler-Felder bleiben bis zur Antwort unverändert, `status:` leer.
+- Sprecher: Trug [[Günter Merlau]] speziell Sturmfels? Beim Prinzen separat bestätigt (+2),
+  hier liegt nur das universumweite „trägt massiv" vor.

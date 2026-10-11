@@ -25,14 +25,14 @@ bekanntheit_stufe: "Bestseller"
 hype: "NYT-Bestsellertrilogie · Bd. 2 gewann Lodestar Award 2022 · Bd. 3 gewann Dragon Award 2023 (Best YA/Middle Grade) · Bd. 1 & 3 Lodestar-Finalisten"
 rating_goodreads: 3.93
 genres: [Fantasy]
-themen: [Überlebensdruck als Motor, Herkunfts-Konflikt & Vorurteile]
+themen: [Überlebensdruck als Motor]
 ton: [Bissig-lockere Erzählstimme, Dauer-Zynismus]
 erzaehlstil: [Ich-Erzähler, Bissig-lockere Erzählstimme]
-tempo: "uneben — episodischer Bd. 1, ungleichmäßig; Countdown-Druck trägt phasenweise"
-komplexitaet: "dichte, info-lastige Ich-Erzählung (viel Welt-Erklärung)"
-figuren: [Flache Machtprogression, Eindimensionale Gegenspieler]
-setting: [Stimmige Weltatmosphäre, Akademie-Leben & Gemeinschaft, Magiesystem-Tiefe, Überladenes Weltdetail]
-handwerk: [Zäher Start, Romance-Überhang, Cleverer Twist-Plot]
+tempo: "uneben — Bd. 1 langsamer/verwirrender Einstieg, Bd. 2 straffer (Community); Überlebens-Countdown als Sog (Community)"
+komplexitaet: "dichte, info-lastige Ich-Erzählung (viel Welt-Erklärung; Community: „massiver Info-Dump“)"
+figuren: []
+setting: [Stimmige Weltatmosphäre, Magiesystem-Tiefe, Überladenes Weltdetail]
+handwerk: [Zäher Start]
 cover: ""
 quellen:
   - "https://www.goodreads.com/book/show/50548197-a-deadly-education"
@@ -44,7 +44,7 @@ quellen:
 analysiert: 2026-07-16
 spoiler_aliase: []           # weitere Schreibweisen des Werktitels
 erlebnisse: ["[[Scholomance – Lucas]]"]
-tags: [werk, buch, reihe]
+tags: [werk, buch, reihe, fantasy]
 ---
 
 # Scholomance
@@ -55,14 +55,9 @@ Dark-Academia-Fantasy-Trilogie von Naomi Novik um **El (Galadriel Higgins)** in 
 Scholomance — einer lehrerlosen Zauberschule im Leeren, in der ständige Todesgefahr durch
 Monster („Maleficaria") herrscht und die Schüler bis zum tödlichen Abschluss-Gauntlet
 überleben müssen. El verbirgt eine apokalyptische Begabung für Massenvernichtungsmagie,
-wählt aber das Gute; Gegenpol/Heldenschüler ist Orion Lake. **3 Bände, abgeschlossen →
-Reihen-Pflicht (≥3) erfüllt.**
+wählt aber das Gute; Gegenpol/Heldenschüler ist Orion Lake. **3 Bände, abgeschlossen.**
 
-> **Bewertungseinheit ist das WERK.** Nutzer bewertet die Trilogie als Ganzes. **Zweites
-> `mixed`/„okay"-Werk** (Graubereich), erstes in [[Fantasy]]. Anti-/Kontrast-Referenz zu
-> [[Die Streitenden Götter]] im selben Kontext.
-
-**Kontext:** [[Fantasy]] · **Autorin:** [[Naomi Novik]] · **Sprecherin (dt.):** [[Leonie Landa]]
+**Genre:** [[Fantasy]] · **Autorin:** [[Naomi Novik]] · **Sprecherin (dt.):** [[Leonie Landa]]
 
 ## 🗺️ Universum & Reihenfolge
 
@@ -75,19 +70,18 @@ Reihen-Pflicht (≥3) erfüllt.**
 ## 📚 Die Bände einzeln
 
 DE: cbj (Print) + Audible Studios (Hörbuch, [[Leonie Landa]], ungekürzt); Übers.
-**Doris Attwood**. EN: Del Rey / Random House Audio ([[Anisha Dadia]] — vom Nutzer NICHT
-gehört). Goodreads = EN-Ausgaben (Werk-Ebene; Anzahl nur grob, s. Metadaten).
+**Doris Attwood**. EN: Del Rey / Random House Audio ([[Anisha Dadia]], eigene EN-Hörbuchfassung).
+Goodreads = EN-Ausgaben (Werk-Ebene; Anzahl nur grob, s. Metadaten).
 
-| # | Titel 🇩🇪 | Titel 🇬🇧 | 🇩🇪 Hörbuch (Landa) | ⭐ Goodreads (⌀) | Lesestand |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Tödliche Lektion | A Deadly Education | 12 h 44 · 22.03.2021 | **3,93 (niedrigster)** | gehört |
-| 2 | Der letzte Absolvent | The Last Graduate | 15 h 40 · 11.10.2021 | **4,20 (höchster)** | gehört |
-| 3 | Die Goldenen Enklaven | The Golden Enclaves | 15 h 14 · 23.02.2023 | ~4,08 | gehört |
+| # | Titel 🇩🇪 | Titel 🇬🇧 | 🇩🇪 Hörbuch (Landa) | ⭐ Goodreads (⌀) |
+| --- | --- | --- | --- | --- |
+| 1 | Tödliche Lektion | A Deadly Education | 12 h 44 · 22.03.2021 | **3,93 (niedrigster)** |
+| 2 | Der letzte Absolvent | The Last Graduate | 15 h 40 · 11.10.2021 | **4,20 (höchster)** |
+| 3 | Die Goldenen Enklaven | The Golden Enclaves | 15 h 14 · 23.02.2023 | ~4,08 |
 
-**Werk-Schnitt EN ~4,0/5.** Community-Kurve **deckt mein Empfinden bandgenau:** Bd. 1 am
-schwächsten (3,93 — der zähe/info-lastige Einstieg, den ich auch kritisiere), Bd. 2 am
-stärksten (4,20 — die große Wendung/der Cliffhanger, den ich als Plus nannte), Bd. 3 fällt
-zurück (~4,08 — das Finale, das ich nicht als Highlight wählte).
+**Hördauer gesamt (dt.):** ~43 h 38 (2.618 min) · **Schnitt:** ~14,5 h/Band
+
+**Werk-Schnitt EN ~4,0/5.**
 
 ### 👍 Was die Community lobt (echte Rezensionen)
 - Originelles, konsistent durchdachtes Schul-/Magiesystem; düstere Atmosphäre; Els starke,
@@ -96,12 +90,15 @@ zurück (~4,08 — das Finale, das ich nicht als Highlight wählte).
 
 ### 👎 Was die Community kritisiert (echte Rezensionen)
 - **Bd. 1:** massiver Info-Dump / verschachtelte Bandwurm-Erklärungen, langsamer/verwirrender
-  Einstieg (+ Launch-Kontroverse um eine Formulierung, später geändert). → **deckt meinen
-  [[Zäher Start]] + [[Überladenes Weltdetail]].**
-- **Bd. 3:** Tonwechsel raus aus der Schule, viel Reisen/Auflösen; Finale polarisiert. →
-  **deckt meine Bd.-3-Zurückhaltung.**
+  Einstieg (+ Launch-Kontroverse um eine Formulierung, später geändert).
+- **Bd. 3:** Tonwechsel raus aus der Schule, viel Reisen/Auflösen; Finale polarisiert.
 - Wiederkehrend: El teils „too powerful"/anstrengend im Dauer-Zynismus; Romance-Anteil
-  wächst. → **deckt [[Flache Machtprogression]], [[Dauer-Zynismus]], [[Romance-Überhang]].**
+  wächst.
+
+### Auffällige Band-Unterschiede (Community)
+- **Kuppel-Kurve 3,93 → 4,20 → 4,08:** Bd. 1 am schwächsten (3,93 — Info-Dump, langsamer
+  Einstieg), Bd. 2 am stärksten (4,20 — gilt als Höhepunkt, großer Twist), Bd. 3 fällt
+  zurück (~4,08 — Finale polarisiert).
 
 ## 🗃️ Metadaten je Band (vollständig)
 
@@ -121,7 +118,7 @@ zurück (~4,08 — das Finale, das ich nicht als Highlight wählte).
 ### 🇬🇧 Englische Originale + EN-Hörbuch
 
 EN Print **Del Rey** (Penguin Random House); EN-Hörbuch **Random House Audio**, Sprecherin
-**[[Anisha Dadia]]** (NICHT die vom Nutzer gehörte Fassung).
+**[[Anisha Dadia]]** (eigene Fassung; die deutsche liest [[Leonie Landa]]).
 
 | # | EN Hardcover: Datum · Seiten · ISBN-13 | EN-Hörbuch (Dadia): Dauer · Datum · ISBN | Goodreads ⌀ · Anzahl (unsicher) | Auszeichnungen |
 | --- | --- | --- | --- | --- |
@@ -135,14 +132,25 @@ EN Print **Del Rey** (Penguin Random House); EN-Hörbuch **Random House Audio**,
 
 ## DNA (als Links)
 
+> Nur belegte Merkmale (Quelle in Klammern). Persönliche Wertungen: [[Scholomance – Lucas]].
+
+- **Kurz (Rezensionskonsens):** originelle Dark-Academia mit konsistentem Todesschule-System,
+  dichter Ich-Erzählung mit starker Stimme, wachsender Romance und einem Bd.-1-Info-Dump.
 - **Genres:** [[Fantasy]] (Dark Academia)
-- **Themen:** [[Überlebensdruck als Motor]], [[Herkunfts-Konflikt & Vorurteile]] (El als vorverurteilte Außenseiterin)
-- **Ton:** [[Bissig-lockere Erzählstimme]] (+) / [[Dauer-Zynismus]] (−) — dieselbe Stimme, je Dosierung
-- **Erzählstil:** [[Ich-Erzähler]] (El), sehr dicht/erklärend
-- **Figuren:** [[Flache Machtprogression]] (El OP von Anfang), [[Eindimensionale Gegenspieler]]
-- **Setting:** [[Stimmige Weltatmosphäre]], [[Akademie-Leben & Gemeinschaft]], [[Magiesystem-Tiefe]] (+) / [[Überladenes Weltdetail]] (−)
-- **Handwerk:** [[Zäher Start]], [[Romance-Überhang]], [[Cleverer Twist-Plot]] (zu wenige)
-- **Tempo/Komplexität:** uneben, episodisch / dicht-erklärend
+- **Themen:** [[Überlebensdruck als Motor]] (Community: „der Überlebens-Countdown als Sog")
+- **Ton:** [[Bissig-lockere Erzählstimme]] (Community: Els „starke, schnippisch-witzige Ich-Stimme") · [[Dauer-Zynismus]] (Community, wiederkehrend: El teils „anstrengend im Dauer-Zynismus“)
+- **Erzählstil:** [[Ich-Erzähler]] (El; Community: „Ich-Stimme“), sehr dicht/erklärend (Community: „verschachtelte Bandwurm-Erklärungen“)
+- **Figuren:** El sehr mächtig (Community: teils „too powerful"; Prämisse: apokalyptische Begabung)
+- **Setting:** [[Stimmige Weltatmosphäre]] (Community: „düstere Atmosphäre“), [[Magiesystem-Tiefe]] (Community: „originelles, konsistent durchdachtes Schul-/Magiesystem“), [[Überladenes Weltdetail]] (Community: Bd.-1-Info-Dump, „verschachtelte Bandwurm-Erklärungen") · Schauplatz lehrerlose Zauberschule (Prämisse)
+- **Handwerk:** [[Zäher Start]] (Community: Bd. 1 „langsamer/verwirrender Einstieg") · Romance-Strang wächst (Community) · großer Twist in Bd. 2 (Community)
+- **Tempo/Komplexität:** uneben — Bd. 1 langsam, Bd. 2 straffer (Community) / dicht-erklärend
+
+## 🧮 Community-Gesamtbild
+
+EN-Community ⌀ ~4,0/5 (Bd. 1 3,93 · Bd. 2 4,20 · Bd. 3 4,08), NYT-Bestseller,
+Lodestar-Gewinner (Bd. 2) — etablierter, breit gelobter Titel. Gelobt werden System,
+Atmosphäre, Els Stimme und der Überlebens-Countdown; kritisiert werden der Info-Dump-Einstieg,
+die zu mächtige Heldin, der wachsende Romance-Anteil und das polarisierende Finale.
 
 ## Offene Fragen
 
@@ -157,3 +165,5 @@ EN Print **Del Rey** (Penguin Random House); EN-Hörbuch **Random House Audio**,
   administrierten Lodestar). Bd. 3: Lodestar-Finalist 2023 + Locus #7. Lodestar-Gewinn Bd. 2 sicher.
 - Dt. Print-Seitenzahl Bd. 1 weiter **480 vs. 467** widersprüchlich (eurobuch/Verlag 480 ·
   buechertreff 467; Verlags-Tiebreaker via Proxy 403) — Tendenz **480**, bleibt offen.
+- **Offen (DNA-Beleg):** Thema [[Herkunfts-Konflikt & Vorurteile]] (El als vorverurteilte Außenseiterin)
+  stand in der DNA ohne Quelle → erst mit Rezension wieder aufnehmen.

@@ -3,6 +3,7 @@ titel: "Der Prinz von Staub und Schatten"
 bereich: "buch"
 werk_typ: "reihe"
 universum: "Die Streitenden Götter"
+verwandte_reihen: ["Sturmfels-Akademie"]
 autor: "Torsten Weitze"
 jahr_start: 2026
 erscheinungsdatum_bd1: "2026-01"   # Heimkehr: Buch 20.01.2026, Hörbuch 23.01.2026
@@ -21,22 +22,22 @@ hype: "JA — brandneu (2026), schnell steigend, Cross-Media mit Saltatio Mortis
 sprecher: "Günter Merlau"
 performance: "solo"
 genres: [Epic Fantasy]
-themen: [Verlorenes Erbe & Thronanspruch, Rache & Verfolgungsdruck, Geheimnisvolle Macht, Rätselhafte Herkunft]
-ton: [Geheimnisvoll-mysteriöse Aura]
-erzaehlstil: []          # per Empfinden noch nicht erfasst → Offene Fragen
-tempo: "ruhig-stetig (Nutzer: 'trägt, aber grenzwertig')"
-komplexitaet: ""         # per Empfinden noch nicht erfasst → Offene Fragen
-figuren: [Wachsende Hauptfigur]
+themen: [Verlorenes Erbe & Thronanspruch, Rache & Verfolgungsdruck, Geheimnisvolle Macht]
+ton: []
+erzaehlstil: []          # noch nicht recherchiert → Offene Fragen
+tempo: "ruhig-stetig (Rezensionen: „ruhig, aber durchgehend spannend“; Bd. 2 etwas geringere Sogwirkung)"
+komplexitaet: ""         # noch nicht recherchiert → Offene Fragen
+figuren: []              # Wachsende Hauptfigur: Beleg offen → Offene Fragen
 setting: [Wüstenreich Aun-Mal]
-handwerk: [Zäher Start, Konstanter Vorwärtsdrang, Intrigen-Overload ohne Progress]
+handwerk: []
 cover: ""
 quellen:
   - "https://www.audible.de/series/Der-Prinz-von-Staub-und-Schatten-Hoerbuecher/B0GMZ91231"
   - "https://www.buechertreff.de/buchreihe/208542-prinz-von-staub-und-schatten-torsten-weitze-reihenfolge/"
-analysiert: "2026-07-16 (Nachinterview 2026-07-20: Ton/Aspekte ergänzt)"
+analysiert: "2026-07-16 (Recherche-Nachtrag 2026-07-20)"
 spoiler_aliase: []           # weitere Schreibweisen des Werktitels
 erlebnisse: ["[[Der Prinz von Staub und Schatten – Lucas]]"]
-tags: [werk, buch, reihe]
+tags: [werk, buch, reihe, fantasy]
 ---
 
 # Der Prinz von Staub und Schatten
@@ -45,7 +46,6 @@ tags: [werk, buch, reihe]
 
 **Eigenständige Reihe**, untergeordnet der Overall-Ebene [[Die Streitenden Götter]] (Overall → Reihe).
 2026 gestartet, bisher 2 von 5 geplanten Bänden: **Heimkehr**, **Widerstand**.
-Reihen-Pflicht: 5 geplant + Verbund → erfüllt.
 
 **Worum es geht (selbst recherchiert):** Tarikh al Sal-ka-Nar kehrt nach einem Leben im
 Exil ins Wüstenreich **Aun-Mal** zurück. Ein rachsüchtiges Adelshaus trachtet dem
@@ -54,7 +54,16 @@ erreichen und als wahrer Prinz anerkannt werden — verfolgt von Meuchlern, getr
 einer **rätselhaften Gabe**. Rezensionen: flüssiger Stil, starke Figurenentwicklung,
 „ruhig, aber durchgehend spannend".
 
-**Kontext:** [[Fantasy]] · **Autor:** [[Torsten Weitze]] · **Sprecher:** [[Günter Merlau]]
+**Genre:** Epic Fantasy · **Autor:** [[Torsten Weitze]] · **Sprecher (dt.):** [[Günter Merlau]]
+
+## 🗺️ Universum & Reihenfolge
+
+- **Universum:** [[Die Streitenden Götter]] (Epos von [[Torsten Weitze]]) · **Diese Reihe:**
+  zweite Reihe des Epos (Epos-Bd. 6 ff., s. Spalte „# (Epos)"), laufend.
+- **Reihen in derselben Welt:** [[Sturmfels-Akademie]] — erste Reihe des Epos (Niri-Zyklus,
+  Epos-Bd. 1–5), abgeschlossen.
+- **Reihenfolge:** Epos-Zählung Sturmfels → Prinz. Ob der Prinz Sturmfels voraussetzt
+  (Spoiler-Abhängigkeit): nicht recherchiert (s. Offene Fragen in [[Die Streitenden Götter]]).
 
 ## 📚 Die Bände einzeln
 
@@ -62,10 +71,12 @@ Reihe brandneu (2026) → wenige, schnell steigende Wertungen. Zielseiten (Audib
 LovelyBooks) blockieren Direktabruf; Werte aus Such-Snippets, als **unsicher** markiert.
 Keine englische Ausgabe.
 
-| # (Epos) | Titel | 🇩🇪 Release (Buch/Hörb.) | 🇬🇧 | ⭐ Wertung (⌀ · Anzahl) | Lesestand |
-| --- | --- | --- | --- | --- | --- |
-| 1 (6) | **Heimkehr** | Buch 20.01.2026 · Hörb. 23.01.2026 (Merlau, 18 h 24) | — | Audible.de 4,9 · ~1.633 (belegt) · Amazon.de ~4,7 · 654 (unbelegt ⚠️) | gehört ✓ |
-| 2 (7) | **Widerstand** | eBook 26.05. · Hörb. 29.05.2026 (Merlau, 18 h 47) | — | Audible.de 4,8 · ~400 (neu, unsicher) | gehört ✓ |
+| # (Epos) | Titel | 🇩🇪 Release (Buch/Hörb.) | 🇬🇧 | ⭐ Wertung (⌀ · Anzahl) |
+| --- | --- | --- | --- | --- |
+| 1 (6) | **Heimkehr** | Buch 20.01.2026 · Hörb. 23.01.2026 (Merlau, 18 h 24) | — | Audible.de 4,9 · ~1.633 (belegt) · Amazon.de ~4,7 · 654 (unbelegt ⚠️) |
+| 2 (7) | **Widerstand** | eBook 26.05. · Hörb. 29.05.2026 (Merlau, 18 h 47) | — | Audible.de 4,8 · ~400 (neu, unsicher) |
+
+**Hördauer gesamt (dt.):** ~37 h 11 (2.231 min) · **Schnitt:** ~18:36 h/Band
 
 ### 🗃️ Dt. Ausgaben & Cross-Media (Recherche 2026-07-20)
 
@@ -101,6 +112,10 @@ unsicher; die durchgängig belegte HC-ISBN ist 9783690285537.)*
 - Bd. 2 „solide Fortsetzung, aber **nicht so stark wie die Vorgänger**", etwas geringere Sogwirkung.
 - Bd. 1: kaum konkrete Kritik auffindbar (überwiegend Lob).
 
+### Auffällige Band-Unterschiede (Community)
+- Auftakt (Heimkehr) stärker gelobt als Bd. 2 (Widerstand); Bd. 2 als schwächer kritisiert
+  (Figur verwässert, etwas geringere Sogwirkung — s. oben).
+
 ## 🗓️ Nächste Releases & Planung
 - **Nächster Band DE:** Bd. 3 **„Hoffnung"** (Titel gesichert via EP 3) — **Roman-Termin
   unbestätigt**: KEIN Beleg für „Sept 2026" (nur das Tour-Finale liegt im Sept.);
@@ -112,23 +127,32 @@ unsicher; die durchgängig belegte HC-ISBN ist 9783690285537.)*
 
 ## DNA (das Eigene)
 
-- **Themen:** [[Geheimnisvolle Macht]], [[Rätselhafte Herkunft]], [[Verlorenes Erbe & Thronanspruch]], [[Rache & Verfolgungsdruck]]
-- **Ton:** [[Geheimnisvoll-mysteriöse Aura]] (die geheimnisvolle Grundstimmung um Held & Gabe = der Sog)
-- **Figuren:** [[Wachsende Hauptfigur]] (Tarikh) · **Setting:** Wüstenreich Aun-Mal
-- **Sprecher (Hörbuch-Bonus):** [[Günter Merlau]] +2 — „trug es klar" (kein Einfluss aufs inhaltl. Matching, aber Plus für Empfehlungen)
-- **Handwerk (negativ):** [[Zäher Start]], [[Konstanter Vorwärtsdrang]] verletzt, [[Intrigen-Overload ohne Progress]] (Bd. 2, „zu politisch")
-- **Tempo:** ruhig-stetig, „trägt, aber grenzwertig"
-- **Matching-Regel:** Die geheimnisvolle Macht des Helden MUSS zentral bleiben/eskalieren
-  („es könnte noch mehr um seine Macht gehen") — Kandidaten mit Polit-/Intrigen-Überhang, der
-  den Macht-Fokus verdrängt, sind Malus.
+> Nur belegte Merkmale (Quelle in Klammern). Persönliche Wertungen: [[Der Prinz von Staub und Schatten – Lucas]].
+
+- **Themen:** [[Geheimnisvolle Macht]] (Prämisse: „rätselhafte Gabe"), [[Verlorenes Erbe & Thronanspruch]] (Prämisse: Rückkehr aus dem Exil, Thron der Sande), [[Rache & Verfolgungsdruck]] (Prämisse: rachsüchtiges Adelshaus, Meuchler)
+- **Setting:** Wüstenreich Aun-Mal (Prämisse; Community-Lob: dichte Wüsten-/Orient-Atmosphäre)
+- **Tempo:** ruhig-stetig (Rezensionen: „ruhig, aber durchgehend spannend"; Bd. 2 etwas geringere Sogwirkung)
+
+## 🧮 Community-Gesamtbild
+
+Community-Wertung Bd. 1 hoch (Audible.de 4,9 · ~1.633 belegt; Amazon ~4,7/654 unbelegt), Bd. 2 noch dünn (~400). Tenor: flüssiger Stil,
+starke Figuren, dichte Wüsten-Atmosphäre; einzige nennenswerte Kritik ist der **schwächere
+Bd. 2** (Figur verwässert).
 
 ## Offene Fragen
 
-- ~~Beide Bände wirklich schon durch?~~ ✓ bestätigt (Interview 2026-07-20) — beide Hörbücher komplett gehört.
 - ~~Bd. 3 „Hoffnung" Titel~~ ✓ gesichert (via Saltatio-EP 3); zudem Bd. 4 „Zorn", Bd. 5
   „Vollendung" belegt. **Roman-Termine Bd. 3–5 weiter offen** — kein Beleg für „Sept 2026"
   (BücherTreff tippt 2027).
 - Amazon.de-Print-Wertung Bd. 1 (~4,7 · 654) **nicht verifizierbar** (Proxy 403) — belegbar
   ist nur Audible.de 4,9 · ~1.633. Bd. 2 Audible-Anzahl schwankt (~400), brandneu.
-
-Quelle Interview: [[2026-07-20 Interview Prinz von Staub und Schatten]] (Erstanalyse: [[2026-07-16 Interview Streitende Götter]])
+- Erzählstil (Perspektive) und Komplexität noch nicht recherchiert (`erzaehlstil`/`komplexitaet` leer).
+- **Offen (DNA-Beleg):** [[Wachsende Hauptfigur]] (Tarikh) — die Rezensions-Zusammenfassung nennt
+  „starke Figurenentwicklung“ nur allgemein, nicht wörtlich zitiert und nicht auf Tarikh bezogen;
+  die Bd.-2-Kritik („verliere zunehmend seine anfänglichen Eigenheiten“) spricht eher dagegen.
+- **Offen (DNA-Beleg):** [[Rätselhafte Herkunft]] — die Prämisse nennt Exil und Abstammung, aber
+  nichts Rätselhaftes an der Herkunft; nur Interview.
+- **Offen (DNA-Beleg):** [[Geheimnisvoll-mysteriöse Aura]] (Ton) — nur Interview, keine Rezension.
+- **Offen (DNA-Beleg):** [[Zäher Start]] — keine Rezension; Community zu Bd. 1 sogar „schnell in der Geschichte“.
+- **Offen (DNA-Beleg):** [[Intrigen-Overload ohne Progress]] (Bd. 2) — Community kritisiert an Bd. 2
+  nur die verwässerte Figur und etwas geringere Sogwirkung, nicht Politik/Intrigen.

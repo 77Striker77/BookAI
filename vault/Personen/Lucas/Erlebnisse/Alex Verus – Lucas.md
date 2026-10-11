@@ -2,6 +2,8 @@
 werk: "[[Alex Verus]]"
 person: "Lucas"
 bereich: "buch"
+besitz: ""             # unbekannt — nicht erfragt (s. Offene Fragen)
+status: "durch"        # Bd. 1–12 von 12 gehört (Lesestand, bestätigt 2026-08-11)
 sprache_erlebt: "de"
 kontext: "Fantasy"
 verdict: "loved"
@@ -29,17 +31,19 @@ spoiler_aktuell: 0       # laufender Band — zählt als NICHT erlebt
 spoiler_gesamt: 12        # komplette Reihe gehört, abgeschlossen -> voll
 spoiler_stand: "2026-08-11"  # Stand bestätigt am
 spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
-tags: [werk, reihe, hoerbuch, loved, fantasy, urban-fantasy]
+tags: [erlebnis, hoerbuch, loved]
 ---
 
 # Alex Verus – Lucas
 
 Mein Erleben von [[Alex Verus]]. Fakten, Bände und Metadaten stehen dort — hier nur, was Lucas erlebt und empfunden hat.
 
-### Auffällige Band-Unterschiede
-- **Bd. 1 (3,90) klar am schwächsten, Finale Bd. 12 (4,51) am stärksten** — der Aufwärts-
-  trend deckt sich mit dem Empfinden des Nutzers (der End-Payoff des Machtaufstiegs trug),
-  ABER siehe seine Kritik: genau dieser Aufstieg kam ihm **zu spät** (s. Bewertung).
+**Kontext:** [[Fantasy]] (Urban Fantasy) · **Quellen:** [[2026-07-20 Interview Alex Verus]]
+
+> **Bewertungseinheit ist das WERK.** Der Nutzer bewertet die Reihe als Ganzes (alle 12
+> Bände gehört). **Erstes `loved`-Werk im Kontext [[Fantasy]] neben dem Verbund
+> [[Die Streitenden Götter]]** — und der wichtige **Positiv-Gegenentwurf** zu den drei
+> Fantasy-„okay"-Werken (Scholomance/Riyria/…): hier stimmen Machtaufstieg UND Magie-Wucht.
 
 ## Lesestand (meine Formate)
 
@@ -47,8 +51,12 @@ Mein Erleben von [[Alex Verus]]. Fakten, Bände und Metadaten stehen dort — hi
 | --- | --- |
 | 1–12 | **gehört** (dt. Hörbuch, [[Johannes Klaußner]]) — komplette Reihe durch |
 
-→ Reihe komplett gehört & abgeschlossen. EN-Hörbuch ~10–12 h/Band → Reihenschnitt gut im
-Komfortbereich (≤ ~20 h). Dient als **Positiv-Referenz** in [[Fantasy]] (Urban Fantasy).
+→ Reihe komplett gehört & abgeschlossen (Dauern s. [[Alex Verus]]). **12 Bände → Reihen-Pflicht
+(≥3) klar erfüllt.** „An Inheritance of Magic" ([[Haus Ashford]]) zählt separat, NICHT zur
+Verus-Reihen-Pflicht. **Komfortbereich (≤ ~20 h/Band):** belegt nur für Bd. 1 der gehörten
+dt. Fassung (11 h 22); die dt. Dauern Bd. 2–12 sind offen (s. [[Alex Verus]], Offene Fragen).
+Die frühere Herleitung über das EN-Hörbuch (~10–12 h/Band) galt nicht für die gehörte Fassung.
+Dient als **Positiv-Referenz** in [[Fantasy]] (Urban Fantasy).
 
 ## ⭐ Bewertung je Aspekt (Werk gesamt)
 
@@ -61,7 +69,7 @@ Komfortbereich (≤ ~20 h). Dient als **Positiv-Referenz** in [[Fantasy]] (Urban
 | [[Magiesystem-Tiefe]] | +2 | Durchdachtes, **ausbalanciertes** System: Gute sind mächtig, weniger Gute nicht „schwach wie eine Maus" — nachvollziehbare Machtlogik + Items | „Leute die gut darin waren, waren auch mächtig, aber nicht-gute waren nicht schwach wie eine Maus" |
 | [[Eskalations-Setpieces]] | +2 | Gefährliche magische Schauplätze (tödliche Vaults, „Elsewhere") als Eskalations-Kulissen | Interview: „gefährliche magische Schauplätze" gewählt |
 | [[Stimmige Weltatmosphäre]] | +1 | Die gnadenlose Dog-eat-dog-Welt der Light-/Dark-Mages trägt | Interview: „die gnadenlose Magier-Gesellschaft" gewählt |
-| [[Konstanter Vorwärtsdrang]] | +1 | Ständiger Druck/Gefahr, „geht immer weiter" — kein Leerlauf (Kapitel-Cliffhanger) | Interview: „Gefahr & Vorwärtsdrang" gewählt |
+| [[Konstanter Vorwärtsdrang]] | +1 | Ständiger Druck/Gefahr trägt (Cliffhanger = Community-Befund, s. [[Alex Verus]]) | Interview: „Gefahr & Vorwärtsdrang" gewählt |
 | [[Loyale Weggefährten]] | +1 | Die „Wahlfamilie" um Alex (Luna, Anne, Variam …) als emotionaler Anker; der **Anne-Beziehungs-Subplot trug sogar** | „Alex' Wahlfamilie" gewählt · Romance-Subplot: „hat mich sogar getragen" |
 | [[Trocken-ironischer Humor]] | +1 | Alex' trocken-sarkastischer Ich-Ton + Galgenhumor in Gefahr | Interview: „trocken-sarkastischer Ich-Ton" + „Galgenhumor in Gefahr" gewählt |
 | [[Rückgestaute Machtkurve]] | −1 | Der Aufstieg kam zu spät & zu abrupt: zu wenig frühe Limit-Breaks, End-Spike zu plötzlich | „zu langsam wurde er stärker … mehr Limit-Break-Momente … gegen Ende wird er sehr mächtig sehr schnell, so hätte es schon vorher ansatzweise laufen können" |
@@ -80,18 +88,27 @@ sind je −1 und Matching-relevant, kippen das Urteil aber nicht.
 
 ## Abweichungen einzelner Bände
 
-*Nur vom Nutzer selbst genannt bzw. bandgenau belegt.*
+*Nur vom Nutzer selbst genannt.*
 
 | Bd. | Abweichung | Beleg |
 | --- | --- | --- |
-| 1 (Fated) | schwächster Band (exposition-lastiger Einstieg) | Goodreads 3,90 (Reihen-Tief) + Community-Kritik „langsamer Auftakt/Info-Dumps" |
-| Ende (Bd. 11–12) | Machtaufstieg „sehr mächtig sehr schnell" + Gegenspieler-Auflösung schwach, offene Fäden | Nutzer wörtlich (s. Bewertung) |
+| Ende der Reihe | Machtaufstieg „sehr mächtig sehr schnell" + Gegenspieler-Auflösung schwach, offene Fäden | Nutzer wörtlich (s. Bewertung) |
+
+## Band-Unterschiede: Community-Kurve vs. mein Empfinden
+
+- Die Community-Kurve steigt vom schwachen Auftakt (Bd. 1) zum am höchsten bewerteten Finale
+  (Bd. 12; Zahlen s. [[Alex Verus]]). Selbst genannt hat der Nutzer keinen Einzelband; belegt
+  ist nur: Der Aufstieg zog an, als Alex sich entschied, stärker zu werden („da kam dann
+  richtig Wind rein"), kam ihm aber **zu spät** und gegen Ende zu abrupt, und das Ende hat
+  Schwächen (Gegenspieler-Auflösung, offene Fäden; s. Bewertung).
+- Ob der Aufwärtstrend sich mit seinem Empfinden deckt, ist nicht erfragt — eine frühere
+  Fassung nahm an, „der End-Payoff des Machtaufstiegs trug" (s. Offene Fragen).
+- Der in der Community schwach bewertete Auftakt (Bd. 1, exposition-lastig) taucht in seinen
+  Aussagen nicht als eigener Kritikpunkt auf.
 
 ## DNA-Begründung
 
-Objektiv (Rezensionskonsens): Urban Fantasy in London, Ich-Perspektive, cleverer Diviner-
-Held, „praktisch angewandtes" Magiesystem, trockener Humor, über die Reihe zunehmend
-düsterer/erwachsener; schneller Vorwärtsdrang, aber exposition-lastiger Auftakt.
+Objektive DNA: s. [[Alex Verus]].
 Subjektiv (Interview): den Nutzer trägt der **kompromisslose Antihelden-Aufstieg mit echtem
 Preis** + die **wuchtig-spektakuläre, aber ausbalancierte Magie** + die verborgene London-
 Welt. Seine Kritik zielt präzise auf die **Ausführung** dieses Aufstiegs (Timing zu spät,
@@ -100,18 +117,29 @@ Sprung unerklärt, Payoff schwach) — nicht auf das Konzept. Quelle:
 
 ## Hörbuch-Erlebnis
 
-Dt. Fassung (Random House Audio), [[Johannes Klaußner]] solo, ungekürzt, alle 12 Bände:
+[[Johannes Klaußner]] in allen 12 gehörten Bänden (Produktionsdaten s. [[Alex Verus]]):
 **solide, aber kein Verstärker** — ordentlich gelesen, jedoch kein Erlebnis-Faktor wie
 [[Stefan Kaminski]]/[[Günter Merlau]]. Der Sog kam aus Inhalt/Welt, nicht aus dem Sprecher.
 
 ## 🧮 Reihen-Gesamtbild (letzter Schritt)
 
-EN-Community ⌀ ~4,2/5, **steigend bis zum Finale (Risen 4,51)**, ~170k Wertungen über 12
-Bände, etablierte Größe (führendes Dresden-Files-Readalike). **Mein Urteil (loved) läuft mit
-dem Trend** — der Aufwärtsbogen (schwacher Auftakt → starkes Finale) deckt sich mit meinem
-Empfinden. **Kalibrier-Erkenntnis:** Alex Verus ist der **Positiv-Gegenentwurf** zu den
+EN-Community ⌀ ~4,2/5 (s. [[Alex Verus]], Community-Gesamtbild). **Mein Urteil (loved) liegt
+im Einklang mit dem hohen Community-Schnitt**; ob auch der Aufwärtsbogen (schwacher Auftakt →
+starkes Finale) meinem Empfinden entspricht, ist nicht erfragt (s. Offene Fragen).
+**Kalibrier-Erkenntnis:** Alex Verus ist der **Positiv-Gegenentwurf** zu den
 Fantasy-„okay"-Werken: Hier stimmt genau das, was dort fehlte — eine **spürbare
 Machtaufstiegs-Kurve** (anders als Riyria gedeckelt / Scholomance OP-von-Anfang) und ein
 **wuchtiges, aber sauber skaliertes Magiesystem** (Gegenprobe zu Riyrias „Magie irrelevant /
 Sprung zu arg"). Neu bestätigt: **moralisch ambivalenter Antiheld** ist bei mir ein *Plus*.
 Einzige Schwäche im selben Feld: das Timing/der Payoff des Aufstiegs (zu spät/abrupt/unerklärt).
+
+## Offene Fragen an Lucas
+
+- Besitz: Hörbücher gekauft (z. B. Audible) oder geliehen? (`besitz:` ist leer, nie raten)
+- Deckt sich die Community-Kurve (schwacher Auftakt Bd. 1 → am höchsten bewertetes Finale
+  Bd. 12) mit deinem Empfinden? War das Finale für dich ein Höhepunkt — trotz der schwachen
+  Gegenspieler-Auflösung? (Eine frühere Fassung hat „der End-Payoff trug" angenommen.)
+- Welche Bände meinst du mit „gegen Ende" (sehr mächtig sehr schnell)? Eine frühere Fassung
+  hat Bd. 11–12 angesetzt, belegt ist es nicht.
+- Hattest du Leerlauf-Phasen? Bei „Vorwärtsdrang +1" stand „geht immer weiter — kein
+  Leerlauf" ohne Interview-Beleg; die Community nennt Bd. 1 und Bd. 6 als schwächer.

@@ -3,6 +3,7 @@ titel: "Sturmfels-Akademie"
 bereich: "buch"
 werk_typ: "reihe"
 universum: "Die Streitenden Götter"
+verwandte_reihen: ["Der Prinz von Staub und Schatten"]
 autor: "Torsten Weitze"
 jahr_start: 2023
 erscheinungsdatum_bd1: "2023-07"   # Hörbuch 21.07.2023
@@ -24,11 +25,11 @@ genres: [Epic Fantasy]
 themen: [Underdog-Aufstieg, Herkunfts-Konflikt & Vorurteile]
 ton: []
 erzaehlstil: []
-tempo: "uneben — Band 1 katastrophal langsam, dann steigend, Ende stark"
+tempo: "uneben — Band 1 langsamer Start (Community: „rund ein Viertel des Buches“ Einführung), dann steigend (Community Bd. 5: „jetzt geht es richtig los“), Ende stark (Community-Lob Bd. 5: dramatisches Finale)"
 komplexitaet: ""
-figuren: [Wachsende Hauptfigur, Zu lange schwacher Held]
+figuren: []
 setting: [Akademie-Leben & Gemeinschaft]
-handwerk: [Starkes Finale, Zäher Start, Nebenquest-Wildwuchs, Konstanter Vorwärtsdrang]
+handwerk: [Starkes Finale, Zäher Start]
 cover: ""
 quellen:
   - "https://www.audible.de/series/Sturmfels-Akademie-Hoerbuecher/B0CSGDMD86"
@@ -36,7 +37,7 @@ quellen:
 analysiert: 2026-07-16
 spoiler_aliase: []           # weitere Schreibweisen des Werktitels
 erlebnisse: ["[[Sturmfels-Akademie – Lucas]]"]
-tags: [werk, buch, reihe]
+tags: [werk, buch, reihe, fantasy]
 ---
 
 # Sturmfels-Akademie
@@ -49,7 +50,16 @@ schafft es an die berühmte Sturmfels-Akademie — Magie-/Kampfausbildung zwisch
 Vorurteilen, Freundschaften und dem großen Konflikt dahinter. 5 Bände (2023–2025,
 „Der Turm der Bettler" bis „Der Turm des Wissens").
 
-**Kontext:** [[Fantasy]] · **Autor:** [[Torsten Weitze]] · **Sprecher:** [[Günter Merlau]]
+**Genre:** Epic Fantasy · **Autor:** [[Torsten Weitze]] · **Sprecher (dt.):** [[Günter Merlau]]
+
+## 🗺️ Universum & Reihenfolge
+
+- **Universum:** [[Die Streitenden Götter]] (Epos von [[Torsten Weitze]]) · **Diese Reihe:**
+  erste Reihe des Epos (Niri-Zyklus, Epos-Bd. 1–5), abgeschlossen.
+- **Reihen in derselben Welt:** [[Der Prinz von Staub und Schatten]] — Fortsetzung des Epos
+  (Epos-Bd. 6 ff., neuer Zyklus um Tarikh), laufend.
+- **Reihenfolge:** Epos-Zählung Sturmfels → Prinz. Ob der Prinz Sturmfels voraussetzt
+  (Spoiler-Abhängigkeit): nicht recherchiert (s. Offene Fragen in [[Die Streitenden Götter]]).
 
 ## 📚 Die Bände einzeln
 
@@ -58,13 +68,15 @@ Nur Deutsch (keine engl. Übersetzung), Hörbücher **LAUSCH medien** / [[Günte
 kürzeste). Print: **Bd. 1 TALOS Verlag → Bd. 2–5 Nova MD** (Verlagswechsel). Goodreads-Werte
 je Band gesichert; LovelyBooks/Audible-Zähler blockiert (⚠️).
 
-| # | Titel | 🇩🇪 Buch / Hörbuch | 🇬🇧 | ⭐ Goodreads (⌀ · Anzahl) | Lesestand |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Der Turm der Bettler | 2023 · Hörb. 21.07.2023 · 16 h 58 | — | **4,32** · 504 | gehört |
-| 2 | Der Turm des Goldes | eBook 19.01.2024 · Hörb. 26.01.2024 · 18 h 52 | — | 4,41 · 385 | gehört |
-| 3 | Der Turm der Könige | Print 02.07.2024 · Hörb. 05.07.2024 · 17 h 50 | — | 4,45 · 311 | gehört |
-| 4 | Der Turm des Blutes | Jan 2025 · Hörb. 10.01.2025 · 18 h 07 | — | 4,42 · 260 | gehört |
-| 5 | Der Turm des Wissens | Print 22.07.2025 · Hörb. 25.07.2025 · 19 h 03 | — | 4,45 · 218 | gehört |
+| # | Titel | 🇩🇪 Buch / Hörbuch | 🇬🇧 | ⭐ Goodreads (⌀ · Anzahl) |
+| --- | --- | --- | --- | --- |
+| 1 | Der Turm der Bettler | 2023 · Hörb. 21.07.2023 · 16 h 58 | — | **4,32** · 504 |
+| 2 | Der Turm des Goldes | eBook 19.01.2024 · Hörb. 26.01.2024 · 18 h 52 | — | 4,41 · 385 |
+| 3 | Der Turm der Könige | Print 02.07.2024 · Hörb. 05.07.2024 · 17 h 50 | — | 4,45 · 311 |
+| 4 | Der Turm des Blutes | Jan 2025 · Hörb. 10.01.2025 · 18 h 07 | — | 4,42 · 260 |
+| 5 | Der Turm des Wissens | Print 22.07.2025 · Hörb. 25.07.2025 · 19 h 03 | — | 4,45 · 218 |
+
+**Hördauer gesamt (dt.):** ~90 h 50 (5.450 min) · **Schnitt:** ~18:10 h/Band
 
 *Audible Bd. 1 kursiert mit ~4,9/500+ (Audible-Blog) — nicht offiziell bestätigt ⚠️.*
 
@@ -97,6 +109,11 @@ Taggenaue Print-Daten: Bd. 3 **02.07.2024**, Bd. 5 **22.07.2025** belegt; Bd. 1 
   (Loot, Quests, lineare Progression), teils „kindliche" Wortwahl.
 - Spätere Bände: viele parallele Stränge; kein Quereinstieg (starke Fortsetzungsbindung).
 
+### Auffällige Band-Unterschiede (Community)
+- Goodreads steigt von **Bd. 1 (4,32, niedrigster)** über 4,41 → 4,45 und bleibt oben.
+- Bd. 1 ist der am niedrigsten bewertete Band und wird explizit für den **langsamen Start**
+  (erstes Viertel) kritisiert.
+
 ## 🗓️ Nächste Releases & Planung
 - **Nächster Band DE:** keiner — **Reihe (Niri-Zyklus) mit 5 Bänden abgeschlossen.**
 - **Nächster Band EN:** keine englische Ausgabe.
@@ -104,17 +121,27 @@ Taggenaue Print-Daten: Bd. 3 **02.07.2024**, Bd. 5 **22.07.2025** belegt; Bd. 1 
 
 ## DNA (das Eigene)
 
-- **Themen:** [[Underdog-Aufstieg]], [[Herkunfts-Konflikt & Vorurteile]]
-- **Setting:** [[Akademie-Leben & Gemeinschaft]] · **Figuren:** Niri ([[Wachsende Hauptfigur]], aber [[Zu lange schwacher Held]] in Bd. 1)
-- **Handwerk:** [[Starkes Finale]] (+); [[Zäher Start]], [[Nebenquest-Wildwuchs]], [[Konstanter Vorwärtsdrang]] verletzt (−)
+> Nur belegte Merkmale (Quelle in Klammern). Persönliche Wertungen: [[Sturmfels-Akademie – Lucas]].
+
+- **Themen:** [[Underdog-Aufstieg]], [[Herkunfts-Konflikt & Vorurteile]] (Prämisse: Kohlemagd und Halb-Aeldae an der Akademie, zwischen Vorurteilen — s. oben)
+- **Setting:** [[Akademie-Leben & Gemeinschaft]] (Prämisse; Community: „Akademie-Jahr"-Schema, liebevoll ausgearbeitete Nebenfiguren)
+- **Handwerk:** [[Starkes Finale]] (Community-Lob Bd. 5: dramatisches Finale, befriedigender Abschluss) · [[Zäher Start]] (Community Bd. 1: „rund ein Viertel des Buches") · viele parallele Stränge in späteren Bänden (Community)
+- **Tempo:** uneben — Bd. 1 langsamer Start, danach steigend, Ende stark (Belege s. oben)
+
+## 🧮 Community-Gesamtbild
+
+Community Goodreads ⌀ ~4,4/5 (~1.680 Wertungen, Bd. 1–5), durchweg positiv (Weltenbau,
+Nebenfiguren, Merlau). Bd. 1 ist der am niedrigsten bewertete Band (4,32) und wird explizit
+für den „langsamen Start (erstes Viertel)" kritisiert; die Wertungen steigen danach (bis 4,45).
 
 ## Offene Fragen
 
-- Alle 5 Bände gehört? (Reihe abgeschlossen — 5 Bände bestätigt; vollständigen Hör-Durchlauf
-  noch vom Nutzer bestätigen lassen.)
 - ~~Hördauer je Band grob (~18–19 h); ISBNs teils~~ ✓ erhoben (2026-07-20): Dauern
   16:58 / 18:52 / 17:50 / 18:07 / 19:03; Print-ISBNs + Seiten Bd. 1–5 belegt (s. „Dt. Ausgaben").
 - Offen/nicht belegbar: eBook-ASINs Bd. 3–5, Schmuck-HC-ISBNs Bd. 3 & 5, taggenaue Print-Daten
   Bd. 1 & 4, echte Shop-Wertungszähler (Amazon.de/Audible.de/LovelyBooks/BücherTreff — Proxy 403).
-
-Quelle Interview: [[2026-07-16 Interview Streitende Götter]]
+- **Offen (DNA-Beleg):** [[Wachsende Hauptfigur]] (Niri) — keine Rezension in dieser Notiz sagt das
+  über die Hauptfigur (gelobt werden die Nebenfiguren); Wertung nur in [[Sturmfels-Akademie – Lucas]].
+- **Offen (DNA-Beleg):** [[Zu lange schwacher Held]] (Bd. 1) — nur Interview, keine Rezension.
+- **Offen (DNA-Beleg):** [[Nebenquest-Wildwuchs]] — Community nennt nur „viele parallele Stränge“
+  (spätere Bände), nicht Nebenquests ohne Haupt-Progress.

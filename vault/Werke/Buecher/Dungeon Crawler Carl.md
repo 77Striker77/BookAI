@@ -23,14 +23,14 @@ bekanntheit_stufe: "Phänomen"
 hype: "Kult-Phänomen: >10 Mio verkauft, Audible-Bestseller (Hörbuch schlägt Print/eBook), 7 Sprachen"
 rating_goodreads: 4.45  # Bd. 1 Hauptseite, ~442k
 genres: [LitRPG, Science-Fantasy]
-themen: [Kapitalismus-Satire, Aufbegehren gegen das System, System & Progression]
+themen: [Kapitalismus-Satire, System & Progression]
 ton: [Absurder Humor, Tonwechsel Humor-Ernst]
-erzaehlstil: [Ich-Erzähler]
-tempo: "hoch, konstant vorwärts, eskalierend"
-komplexitaet: "mittel — klare Struktur (Etagen), wachsende Meta-Ebene"
-figuren: [Pragmatischer Held mit klarem Kompass, Ungleiches Duo]
+erzaehlstil: []
+tempo: "hoch — schnelles Etagen-Pacing (Rezensionskonsens); Bd. 7 laut Community „Tempo wie im Leerlauf“"
+komplexitaet: "klare Struktur (18 Etagen, Prämisse); Stat-Blöcke überspringbar gehalten (Community)"
+figuren: [Ungleiches Duo]
 setting: []
-handwerk: [Konstanter Vorwärtsdrang, Eskalations-Setpieces, Emotionale Sucker-Punches]
+handwerk: [Emotionale Sucker-Punches]
 cover: "https://covers.openlibrary.org/b/isbn/9780593820247-M.jpg"
 quellen:
   - "https://en.wikipedia.org/wiki/Dungeon_Crawler_Carl"
@@ -41,7 +41,7 @@ quellen:
 analysiert: 2026-07-16
 spoiler_aliase: []           # weitere Schreibweisen des Werktitels
 erlebnisse: ["[[Dungeon Crawler Carl – Lucas]]"]
-tags: [werk, buch, reihe]
+tags: [werk, buch, reihe, litrpg, science-fantasy]
 ---
 
 # Dungeon Crawler Carl
@@ -51,29 +51,28 @@ tags: [werk, buch, reihe]
 Die Erde wird über Nacht von einer außerirdischen Corporation „umgewidmet": Überlebende
 müssen als Crawler durch einen 18-stöckigen Dungeon, der zugleich galaktische
 Reality-TV-Show ist. Carl (Ex-Soldat in Boxershorts) und die sprechende Perserkatze
-Prinzessin Donut kämpfen sich durch. 8 Bände erschienen, Finale angekündigt →
-**Reihen-Pflicht (≥3 Bände) klar erfüllt.** Genre: Science-Fantasy/LitRPG (Wikipedia).
+Prinzessin Donut kämpfen sich durch. 8 Bände erschienen, Finale angekündigt.
 
-**Bewertungseinheit ist das WERK** — der Nutzer bewertet Reihen als Ganzes, nicht
-Einzelbände. Abweichungen einzelner Bände nur, wenn er sie selbst anspricht (s. u.).
-
-**Kontext:** [[LitRPG]] · **Autor:** [[Matt Dinniman]] · **Sprecher (dt.):** [[Stefan Kaminski]]
+**Genre:** [[LitRPG]], Science-Fantasy (Wikipedia) · **Autor:** [[Matt Dinniman]] · **Sprecher (dt.):** [[Stefan Kaminski]]
 
 ## 📚 Die Bände einzeln
 
 EN komplett (Jeff Hays/Soundbooth), DE im Aufbau (Fischer Tor, [[Stefan Kaminski]], seit
 Feb 2026). Goodreads-Werte editionsabhängig/schwankend (⚠️ Snippets, keine Live-Abrufe).
 
-| # | Titel | 🇬🇧 EN | 🇩🇪 DE (Buch/Hörb.) | ⭐ Goodreads (⌀ · Anzahl) | Lesestand |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Dungeon Crawler Carl | 02.10.2020 | Hörb. 01.02.2026 · Print 25.02.2026 | 4,45 · ~442k | gehört |
-| 2 | Carl's Doomsday Scenario | 2021 | 24.06.2026 (Buch+Hörb.) | 4,49 · ~323k | **am Hören** |
-| 3 | The Dungeon Anarchist's Cookbook | 2021 | **Print 18.11.2026** · Hörb. offen | 4,40 · ~260k (niedrigster) | ⏳ |
-| 4 | The Gate of the Feral Gods | 14.06.2021 | **Print 24.02.2027** · Hörb. offen | 4,54 · ~200k | ⏳ |
-| 5 | The Butcher's Masquerade | 19.02.2022 | Print ~23.06.2027 (unsicher) | **4,69 · ~174k (höchster)** | ⏳ |
-| 6 | The Eye of the Bedlam Bride | 02.07.2023 | — noch nicht | 4,65 · ~130k | ⏳ |
-| 7 | This Inevitable Ruin | 03.11.2024 | — noch nicht | 4,68 · ~125k | ⏳ |
-| 8 | A Parade of Horribles | ~12.05.2026 | — noch nicht | ~4,63 (neu ⚠️) | ⏳ |
+| # | Titel | 🇬🇧 EN | 🇩🇪 DE (Buch/Hörb.) | ⭐ Goodreads (⌀ · Anzahl) |
+| --- | --- | --- | --- | --- |
+| 1 | Dungeon Crawler Carl | 02.10.2020 | Hörb. 01.02.2026 · Print 25.02.2026 | 4,45 · ~442k |
+| 2 | Carl's Doomsday Scenario | 2021 | 24.06.2026 (Buch+Hörb.) | 4,49 · ~323k |
+| 3 | The Dungeon Anarchist's Cookbook | 2021 | **Print 18.11.2026** · Hörb. offen | 4,40 · ~260k (niedrigster) |
+| 4 | The Gate of the Feral Gods | 14.06.2021 | **Print 24.02.2027** · Hörb. offen | 4,54 · ~200k |
+| 5 | The Butcher's Masquerade | 19.02.2022 | Print ~23.06.2027 (unsicher) | **4,69 · ~174k (höchster)** |
+| 6 | The Eye of the Bedlam Bride | 02.07.2023 | — noch nicht | 4,65 · ~130k |
+| 7 | This Inevitable Ruin | 03.11.2024 | — noch nicht | 4,68 · ~125k |
+| 8 | A Parade of Horribles | ~12.05.2026 | — noch nicht | ~4,63 (neu ⚠️) |
+
+**Hördauer gesamt (dt., erschienen Bd. 1–2):** ~27 h (14 h 24 + 12 h 42) · **EN gesamt (Jeff
+Hays/Soundbooth):** ~140 h
 
 ### 🗃️ Dt. Ausgaben — ISBNs, Seiten & Termine (Fischer Tor / FISCHER E-Books)
 
@@ -104,6 +103,10 @@ Bd. 6–8 dt.: keine Termine/ISBNs (nicht belegbar). EN-Bd. 4 Ace-Print-ISBN 978
   „Tempo wie im Leerlauf", zu viele Subplots, **aufgebläht**. Bd. 3 gilt als schwächster
   („gut, aber nicht großartig", Übergangsband).
 
+### Auffällige Band-Unterschiede (Community)
+- Höhepunkt-Bände: **Bd. 5 (4,69)**, Bd. 7 (4,68 trotz Kritik), Bd. 6 (4,65). Schwächster:
+  **Bd. 3 (4,40)**.
+
 ## 🗓️ Nächste Releases & Planung
 - **Nächster Band DE:** Bd. 3 „The Dungeon Anarchist's Cookbook" — **Print 18.11.2026**
   (Fischer Tor); dt. Hörbuch **noch ohne Termin** (nur im Audible-System vorgemerkt, von
@@ -116,14 +119,26 @@ Bd. 6–8 dt.: keine Termine/ISBNs (nicht belegbar). EN-Bd. 4 Ace-Print-ISBN 978
 
 ## DNA (als Links)
 
-- **Genres:** [[LitRPG]] (Kontext), Science-Fantasy
-- **Themen:** [[Kapitalismus-Satire]], [[Aufbegehren gegen das System]], [[System & Progression]]
-- **Ton:** [[Absurder Humor]], [[Tonwechsel Humor-Ernst]]
-- **Erzählstil:** [[Ich-Erzähler]] + System-Einblendungen (Menüs, Achievements, Chat)
-- **Figuren:** [[Pragmatischer Held mit klarem Kompass]], [[Ungleiches Duo]]
-- **Handwerk:** [[Konstanter Vorwärtsdrang]], [[Eskalations-Setpieces]], [[Emotionale Sucker-Punches]]
-- **Setting:** Weltuntergangs-Dungeon als galaktische TV-Show (18 Etagen) — tragend
-- **Tempo/Komplexität:** hoch & eskalierend / mittel
+> Nur belegte Merkmale (Quelle in Klammern). Persönliche Wertungen: [[Dungeon Crawler Carl – Lucas]].
+
+- **Kurz (Wikipedia/Rezensionskonsens):** LitRPG mit Interface-Elementen, Pendeln zwischen
+  absurdem Humor und echter Härte, Konzern-/Reality-TV-Satire, schnelles Etagen-Pacing.
+- **Genres:** [[LitRPG]], Science-Fantasy (Wikipedia)
+- **Themen:** [[Kapitalismus-Satire]] (Community: „Scharfe Reality-TV-/Ausbeutungs-Satire“; Rezensionskonsens: „Konzern-/Reality-TV-Satire“), [[System & Progression]] (Wikipedia: „They are rewarded with new gear, experience points, and improved attributes“; Community: „LitRPG-typische Stat-Blöcke“)
+- **Ton:** [[Absurder Humor]] (Rezensionskonsens: „Pendeln zwischen absurdem Humor und echter Härte“), [[Tonwechsel Humor-Ernst]] (Community: „Mischung aus Laut-Komik und überraschender emotionaler Tiefe/Trauma“)
+- **Erzählstil:** System-Einblendungen (Wikipedia/Rezensionskonsens: „LitRPG mit Interface-Elementen“)
+- **Figuren:** [[Ungleiches Duo]] (Community: „Carl-&-Donut-Dynamik“; Prämisse: Ex-Soldat und sprechende Perserkatze)
+- **Handwerk:** [[Emotionale Sucker-Punches]] (Community: „überraschender emotionaler Tiefe/Trauma“)
+- **Setting:** Weltuntergangs-Dungeon als galaktische TV-Show (18 Etagen) (Prämisse, s. oben)
+- **Tempo/Komplexität:** hoch (Rezensionskonsens: „schnelles Etagen-Pacing“; Bd. 7 laut Community
+  „Tempo wie im Leerlauf“) / klare Struktur nach Etagen, Stat-Blöcke überspringbar (Community)
+
+## 🧮 Community-Gesamtbild
+
+Community ⌀ ~4,5–4,6/5 bei ~1,7 Mio Goodreads-Wertungen (engl. Audible ~4,9 · 34k+) —
+LitRPG-Phänomen mit sehr breiter, stabiler Basis. Gelobt werden Carl-&-Donut-Dynamik, die
+Mischung aus Laut-Komik und emotionaler Tiefe, die Satire und die Hörbuch-Produktion;
+kritisiert werden derber Humor und Bd. 7 (Leerlauf-Tempo, aufgebläht, zu viele Subplots).
 
 ## Offene Fragen
 
@@ -133,3 +148,15 @@ Bd. 6–8 dt.: keine Termine/ISBNs (nicht belegbar). EN-Bd. 4 Ace-Print-ISBN 978
   vorgemerkt, aber von Kaminski noch nicht eingesprochen (Stand 07/2026).
 - Bd. 4 dt. Print jetzt terminiert (24.02.2027); Bd. 5 ~23.06.2027 (Verlag unverbindlich);
   Bd. 6–8 dt. weiterhin unterminiert. Bd. 2 Hördauer 12:42 vs. 12:41 (Rundung) offen.
+- **Offen:** EN-Gesamthördauer ~140 h (Jeff Hays/Soundbooth) ohne Aufschlüsselung je Band und
+  ohne Quelle — unklar, ob Bd. 8 enthalten ist. Je Band nachrecherchieren.
+- **Offen:** Abschnitt „Universum & Reihen-Landkarte“ fehlt (`universum:`/`verwandte_reihen:`
+  nicht gesetzt) — Spin-offs/Nebenwerke derselben Welt und Lesereihenfolge recherchieren.
+- **Offen (DNA-Beleg):** Erzählstil „[[Ich-Erzähler]]“ stand in der DNA ohne Quelle (Wikipedia
+  nennt die Erzählperspektive nicht, geprüft 2026-10-11) → erst mit Beleg wieder aufnehmen.
+- **Offen (DNA-Beleg):** Komplexität „mittel — klare Struktur (Etagen), wachsende Meta-Ebene“:
+  Stufe „mittel“ und „wachsende Meta-Ebene“ ohne Quelle.
+- **Offen (DNA-Beleg):** Setting „Weltuntergangs-Dungeon als galaktische TV-Show (18 Etagen) —
+  tragend“: Wertung „tragend“ ohne Quelle.
+- **Offen (DNA-Beleg):** Erzählstil-Detail „System-Einblendungen (Menüs, Achievements, Chat)“: die
+  Aufzählung „Menüs, Achievements, Chat“ geht über die Quelle („Interface-Elemente“) hinaus.

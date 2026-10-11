@@ -25,14 +25,14 @@ bekanntheit_stufe: "Etabliert"
 hype: "Führendes 'Dresden-Files-Readalike' (Cover-Blurb Jim Butcher); 12 Bände Orbit/Ace + dt. Vollausgabe Blanvalet inkl. Hörbuch — kein aktueller Hype"
 rating_goodreads: 3.90
 genres: [Urban Fantasy]
-themen: [Underdog-Aufstieg, Geheimnisvolle Macht, Aufbegehren gegen das System]
+themen: [Underdog-Aufstieg]
 ton: [Trocken-ironischer Humor]
 erzaehlstil: [Ich-Erzähler]
-tempo: "schnell, vorwärtsdrängend (Kapitel-Cliffhanger); nur der Auftakt (Bd. 1) exposition-lastig"
-komplexitaet: "mittel — klare Ich-Perspektive, über die Reihe wachsende Council-/Fraktions-Politik"
-figuren: [Moralisch ambivalenter Antiheld, Wachsende Hauptfigur, Loyale Weggefährten, Zu passiver Held]
-setting: [Verborgene Magie im Alltag, Wuchtig-spektakuläre Magie, Magiesystem-Tiefe, Eskalations-Setpieces, Stimmige Weltatmosphäre]
-handwerk: [Konstanter Vorwärtsdrang, Rückgestaute Machtkurve, Setup ohne Payoff, Regel-Inkonsistenz, Intrigen-Overload ohne Progress]
+tempo: "Cliffhanger-getrieben (Community: Spannung/Cliffhanger); nur der Auftakt (Bd. 1) langsam/exposition-lastig (Community: Info-Dumps)"
+komplexitaet: "mittel — klare Ich-Perspektive, Council-Politik (Prämisse)"
+figuren: [Moralisch ambivalenter Antiheld, Wachsende Hauptfigur]
+setting: [Verborgene Magie im Alltag]
+handwerk: []
 cover: ""
 quellen:
   - "https://www.audible.de/series/Alex-Verus-Hoerbuecher/B07TYP3J4V"
@@ -43,7 +43,7 @@ quellen:
 analysiert: 2026-07-20
 spoiler_aliase: []           # weitere Schreibweisen des Werktitels
 erlebnisse: ["[[Alex Verus – Lucas]]"]
-tags: [werk, buch, reihe]
+tags: [werk, buch, reihe, fantasy, urban-fantasy]
 ---
 
 # Alex Verus
@@ -54,15 +54,9 @@ tags: [werk, buch, reihe]
 (Wahrsager-Magier, der Wahrscheinlichkeits-Zukünfte liest) mit einem Zauberladen in
 **Camden, London**. Aus dem unterlegenen Außenseiter der Magier-Gesellschaft wird über die
 Reihe eine zunehmend mächtige, moralisch verdunkelnde Figur, die im Ringen der Light-/Dark-
-Mages und der Council-Politik zur Schlüsselfigur wird. **12 Bände → Reihen-Pflicht (≥3)
-klar erfüllt.**
+Mages und der Council-Politik zur Schlüsselfigur wird. **12 Bände, abgeschlossen.**
 
-> **Bewertungseinheit ist das WERK.** Der Nutzer bewertet die Reihe als Ganzes (alle 12
-> Bände gehört). **Erstes `loved`-Werk im Kontext [[Fantasy]] neben dem Verbund
-> [[Die Streitenden Götter]]** — und der wichtige **Positiv-Gegenentwurf** zu den drei
-> Fantasy-„okay"-Werken (Scholomance/Riyria/…): hier stimmen Machtaufstieg UND Magie-Wucht.
-
-**Kontext:** [[Fantasy]] (Urban Fantasy) · **Autor:** [[Benedict Jacka]] · **Sprecher (dt.):** [[Johannes Klaußner]]
+**Genre:** [[Fantasy]] (Urban Fantasy) · **Autor:** [[Benedict Jacka]] · **Sprecher (dt.):** [[Johannes Klaußner]]
 
 ## 🗺️ Universum & Reihen-Landkarte (investigativ — Pflicht)
 
@@ -75,7 +69,7 @@ klar erfüllt.**
   | *[[An Inheritance of Magic]]* | laufend (ab 2023) | **GETRENNTES Universum** (nicht Verus!) | teils |
 - **⚠️ Wichtig:** Jackas neue Reihe **„An Inheritance of Magic"** (Held Stephen Oakwood,
   „Drucraft"-System mit käuflichen „Sigls") spielt **NICHT** in der Alex-Verus-Welt — vom
-  Autor ausdrücklich abgegrenzt. Zählt separat, NICHT zur Verus-Reihen-Pflicht.
+  Autor ausdrücklich abgegrenzt; eigene Reihe in eigenem Universum.
 - **Empfohlene Reihenfolge:** strikt **1 → 12** (durchgehender Plot, Charakterentwicklung,
   Kapitel-Cliffhanger). Einstieg für Neulinge: Bd. 1 „Das Labyrinth von London" / „Fated".
 - **Autor kurz:** [[Benedict Jacka]] — Brite (*1980), Cambridge-Philosoph; führendes
@@ -85,23 +79,23 @@ klar erfüllt.**
 
 DE: Blanvalet (Print) + Random House Audio (Hörbuch), Sprecher durchgängig
 **[[Johannes Klaußner]]**, ungekürzt, Übers. **Michelle Gyo**, ab 2018 (~2–3 Bände/Jahr,
-dt. abgeschlossen ~2024). EN: Orbit (UK) / Ace (US); EN-Hörbuch **Gildart Jackson** (Tantor,
-NICHT vom Nutzer gehört). **Goodreads = EN-Ausgaben, bandgenau.**
+dt. abgeschlossen ~2024). EN: Orbit (UK) / Ace (US); EN-Hörbuch **Gildart Jackson**
+(Tantor). **Goodreads = EN-Ausgaben, bandgenau.**
 
-| # | Titel 🇩🇪 / 🇬🇧 | 🇩🇪 (Hörbuch dt.) | 🇬🇧 EN-Erstausgabe | ⭐ Goodreads (⌀ · Anzahl) | Lesestand |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Das Labyrinth von London / **Fated** | 2018 · 11 h 22 | 2012 | 3,90 · ~32,1k (niedrigster) | gehört |
-| 2 | Das Ritual von London / **Cursed** | 2018/19 · n. gef. | 2012 | 4,08 · ~21,3k | gehört |
-| 3 | Der Magier von London / **Taken** | ~2019 · n. gef. | Sep 2012 | 4,14 · ~19,6k | gehört |
-| 4 | Der Wächter von London / **Chosen** | ~2019/20 · n. gef. | 2013 | 4,23 · ~16,6k | gehört |
-| 5 | Der Meister von London / **Hidden** | ~2020 · n. gef. | Sep 2014 | 3,85 · ~17,9k? ⚠️ | gehört |
-| 6 | Das Rätsel von London / **Veiled** | ~2021 · n. gef. | Aug 2015 | 4,18 · ~12,6k | gehört |
-| 7 | Die Mörder von London / **Burned** | ~2021 · n. gef. | Apr 2016 | 4,28 · ~11,4k | gehört |
-| 8 | Der Gefangene von London / **Bound** | ~2022 · n. gef. | 2017 | 4,32 · ~10,1k | gehört |
-| 9 | Der Geist von London / **Marked** | ~2022 · n. gef. | 2018 | 4,26 · ~8,9k | gehört |
-| 10 | Die Verdammten von London / **Fallen** | ~2023 · n. gef. | 2019 | 4,41 · ~7,8k | gehört |
-| 11 | Der Jäger von London / **Forged** | ~2024 · n. gef. | 2020 | 4,38 · ~6,5k | gehört |
-| 12 | Der Retter von London / **Risen** | ~2024 · n. gef. | Dez 2021 | 4,51 · ~6,2k (höchster) | gehört |
+| # | Titel 🇩🇪 / 🇬🇧 | 🇩🇪 (Hörbuch dt.) | 🇬🇧 EN-Erstausgabe | ⭐ Goodreads (⌀ · Anzahl) |
+| --- | --- | --- | --- | --- |
+| 1 | Das Labyrinth von London / **Fated** | 2018 · 11 h 22 | 2012 | 3,90 · ~32,1k (niedrigster) |
+| 2 | Das Ritual von London / **Cursed** | 2018/19 · n. gef. | 2012 | 4,08 · ~21,3k |
+| 3 | Der Magier von London / **Taken** | ~2019 · n. gef. | Sep 2012 | 4,14 · ~19,6k |
+| 4 | Der Wächter von London / **Chosen** | ~2019/20 · n. gef. | 2013 | 4,23 · ~16,6k |
+| 5 | Der Meister von London / **Hidden** | ~2020 · n. gef. | Sep 2014 | 3,85 · ~17,9k? ⚠️ |
+| 6 | Das Rätsel von London / **Veiled** | ~2021 · n. gef. | Aug 2015 | 4,18 · ~12,6k |
+| 7 | Die Mörder von London / **Burned** | ~2021 · n. gef. | Apr 2016 | 4,28 · ~11,4k |
+| 8 | Der Gefangene von London / **Bound** | ~2022 · n. gef. | 2017 | 4,32 · ~10,1k |
+| 9 | Der Geist von London / **Marked** | ~2022 · n. gef. | 2018 | 4,26 · ~8,9k |
+| 10 | Die Verdammten von London / **Fallen** | ~2023 · n. gef. | 2019 | 4,41 · ~7,8k |
+| 11 | Der Jäger von London / **Forged** | ~2024 · n. gef. | 2020 | 4,38 · ~6,5k |
+| 12 | Der Retter von London / **Risen** | ~2024 · n. gef. | Dez 2021 | 4,51 · ~6,2k (höchster) |
 
 *⚠️ Nur Bd. 1 dt. Hördauer gesichert (11 h 22, ISBN 9783837142341); dt. Hördauern/taggenaue
 Daten Bd. 2–12 nicht belegbar (dt. Shops 403 → Snippets). EN-Hörbuch (Gildart Jackson) ~10–12 h/Band.
@@ -122,6 +116,13 @@ Start**; die sinkende Stimmenzahl = normaler Serien-Drop-off (loyale Kern-Lesers
   („Veiled"/Bd. 6 gilt als am ehesten überspringbar); das **„Elsewhere"-Traumreich** als
   wiederkehrendes Info-Vehikel nervt manche; die Divination-Kraft manchen „etwas konstruiert".
 
+### Auffällige Band-Unterschiede (Community)
+- **Auftakt Bd. 1 (3,90) als niedrigster, Finale Bd. 12 (4,51) als höchster Band geführt** —
+  dazwischen steigt die Kurve weitgehend (s. Tabelle). ⚠️ Bd. 5 „Hidden" steht mit 3,85 sogar
+  unter Bd. 1 — Wert unsicher, nicht geglättet (s. Offene Fragen).
+- **Bd. 6 „Veiled"** gilt in Rezensionen als Mittelband-Schwäche (s. Kritik), liegt mit 4,18
+  aber nicht auffällig tief.
+
 ## 🗓️ Nächste Releases & Planung
 - **Reihe abgeschlossen** (12 Bände, DE + EN). Kein Nachschub, keine Wartezeit.
 - **Angekündigt/Erweiterungen:** eine Alex-Verus-Novelle (Randmaterial). Jackas laufende
@@ -129,14 +130,26 @@ Start**; die sinkende Stimmenzahl = normaler Serien-Drop-off (loyale Kern-Lesers
 
 ## DNA (als Links)
 
+> Nur belegte Merkmale (Quelle in Klammern). Persönliche Wertungen: [[Alex Verus – Lucas]].
+
+- **Kurz (Rezensionskonsens):** Urban Fantasy in London, Ich-Perspektive, cleverer Diviner-
+  Held, „praktisch angewandtes" Magiesystem, trockener Humor, über die Reihe zunehmend
+  düsterer/erwachsener; Spannung/Cliffhanger, aber exposition-lastiger Auftakt.
 - **Genres:** [[Fantasy]] (Urban Fantasy)
-- **Themen:** [[Underdog-Aufstieg]], [[Geheimnisvolle Macht]] (Diviner-Gabe + wachsende Macht), [[Aufbegehren gegen das System]] (gegen Council/Dark Mages)
-- **Ton:** [[Trocken-ironischer Humor]] (Ich-Ton + Galgenhumor)
-- **Erzählstil:** [[Ich-Erzähler]] (durchgängig Alex, teils Leseransprache)
-- **Figuren:** [[Moralisch ambivalenter Antiheld]] (+), [[Wachsende Hauptfigur]] (+), [[Loyale Weggefährten]] (+) / [[Zu passiver Held]] (−)
-- **Setting:** [[Verborgene Magie im Alltag]], [[Wuchtig-spektakuläre Magie]], [[Magiesystem-Tiefe]], [[Eskalations-Setpieces]], [[Stimmige Weltatmosphäre]] (alle +)
-- **Handwerk:** [[Konstanter Vorwärtsdrang]] (+) / [[Rückgestaute Machtkurve]], [[Setup ohne Payoff]], [[Regel-Inkonsistenz]], [[Intrigen-Overload ohne Progress]] (−)
-- **Tempo/Komplexität:** schnell, Cliffhanger-getrieben / mittel, wachsende Politik
+- **Themen:** [[Underdog-Aufstieg]] (Prämisse: „Aus dem unterlegenen Außenseiter der Magier-Gesellschaft wird über die Reihe eine zunehmend mächtige … Figur")
+- **Ton:** [[Trocken-ironischer Humor]] (Community: „trockener Humor")
+- **Erzählstil:** [[Ich-Erzähler]] (Rezensionskonsens: Ich-Perspektive)
+- **Figuren:** [[Moralisch ambivalenter Antiheld]] (Prämisse: „moralisch verdunkelnde Figur"; Rezensionskonsens: „zunehmend düsterer"), [[Wachsende Hauptfigur]] (Community: „Charakterentwicklung im Verlauf") · sympathischer Nebencast (Community: „sympathischer Nebencast (Luna)")
+- **Setting:** [[Verborgene Magie im Alltag]] (Genre: Urban Fantasy; Prämisse: „mit einem Zauberladen in **Camden, London**") · Magiesystem „praktisch angewandt" (Community: „Alex rechnet Wahrscheinlichkeiten durch statt Feuerbälle zu werfen")
+- **Handwerk:** Spannung/Cliffhanger (Community) · exposition-lastiger Auftakt (Community: „Langsamer Serienauftakt / Info-Dumps" Bd. 1)
+- **Tempo/Komplexität:** Cliffhanger-getrieben, Auftakt langsam (Community) / mittel, Council-Politik (Prämisse)
+
+## 🧮 Community-Gesamtbild
+
+EN-Community ⌀ ~4,2/5, **steigend bis zum Finale (Risen 4,51)**, ~170k Wertungen über 12
+Bände, etablierte Größe (führendes Dresden-Files-Readalike). Gelobt werden der clevere
+Diviner-Held, das „praktisch angewandte" Magiesystem, Humor, Nebencast und Cliffhanger;
+kritisiert werden der langsame Auftakt (Bd. 1) und eine Mittelband-Schwäche (Bd. 6).
 
 ## Offene Fragen
 
@@ -147,5 +160,19 @@ Start**; die sinkende Stimmenzahl = normaler Serien-Drop-off (loyale Kern-Lesers
 - **Goodreads Bd. 5 „Hidden" (3,85 · ~17,9k)** wirkt inkonsistent zu den Nachbarbänden →
   nachprüfen. (Ein Such-Snippet behauptete fälschlich, „Hidden" sei von Drew Hayes — falsch,
   alle 12 Bände sind von Benedict Jacka.)
+- **Widerspruch Bd. 1 vs. Bd. 5:** Bandtabelle und Kurven-Absatz führen Bd. 1 (3,90) als
+  „niedrigsten" Band, Bd. 5 läge mit 3,85 darunter — nicht geglättet, erst mit dem geprüften
+  Bd.-5-Wert auflösen.
 - **Alex-Verus-Novelle:** Existenz plausibel, Titel/Umfang unbestätigt.
 - Einzelne dt. ISBNs (Bd. 5–12) nur teilweise belegt.
+- **Offen (DNA-Beleg):** [[Geheimnisvolle Macht]] (Diviner-Gabe + wachsende Macht) — die
+  Prämisse nennt die Gabe, aber nicht als rätselhaft/schrittweise enthüllt → mit Rezension
+  wieder aufnehmen.
+- **Offen (DNA-Beleg):** [[Aufbegehren gegen das System]] (gegen Council/Dark Mages) — die
+  Prämisse nennt das „Ringen“, kein Aufbegehren/Zurückschlagen → mit Rezension wieder aufnehmen.
+- **Offen (DNA-Beleg):** Erzählstil „teils Leseransprache“ (Ich-Erzähler „durchgängig Alex“)
+  ohne Quelle.
+- **Offen (DNA-Beleg):** „schneller Vorwärtsdrang“ (alte Rezensionskonsens-Zeile) — belegt
+  ist nur „Spannung/Cliffhanger“; die Kritik nennt Auftakt und Bd. 6 langsamer.
+- **Offen (DNA-Beleg):** Komplexität „über die Reihe wachsende Council-/Fraktions-Politik“ —
+  die Prämisse nennt die Council-Politik, nicht ihr Wachsen.

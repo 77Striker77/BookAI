@@ -2,6 +2,8 @@
 werk: "[[Die Streitenden Götter]]"
 person: "Lucas"
 bereich: "buch"
+besitz: ""             # unbekannt — nicht erfragt (s. Offene Fragen)
+status: ""             # offen: Spoiler-Felder 7/7, aber Sturmfels-Durchlauf „noch bestätigen" (s. Offene Fragen)
 sprache_erlebt: "de"
 kontext: "Fantasy"
 verdict: "loved"        # beide Reihen „geliebt" (Interview 2026-07-16)
@@ -15,12 +17,34 @@ spoiler_aktuell: 0       # laufender Band — zählt als NICHT erlebt
 spoiler_gesamt: 7        # Verbund: Sturmfels 5 + Prinz 2 - alles Erschienene erlebt
 spoiler_stand: "2026-08-11"  # Stand bestätigt am
 spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
-tags: [werk, universum, hoerbuch, loved, fantasy]
+tags: [erlebnis, hoerbuch, loved]
 ---
 
 # Die Streitenden Götter – Lucas
 
 Mein Erleben von [[Die Streitenden Götter]]. Fakten, Bände und Metadaten stehen dort — hier nur, was Lucas erlebt und empfunden hat.
+
+**Kontext:** [[Fantasy]] · **Quellen:** [[2026-07-16 Interview Streitende Götter]] · [[2026-07-20 Interview Prinz von Staub und Schatten]]
+
+> Nutzer: „Sie gehören auf jeden Fall zusammen, der Stil ist gleich, die Welt ist
+> gleich, jedoch hat jede Reihe ihr eigenes Für-sich. Also müssen wir schauen, beide
+> einzelnen Reihen so abzubilden, dass die Overall-Reihe das alles einfängt."
+
+## Lesestand (Verbund — Details in den Reihen-Notizen)
+
+| Reihe | Bd. | Status |
+| --- | --- | --- |
+| [[Sturmfels-Akademie – Lucas]] | 1–5 | gehört (dt.) — vollständigen Durchlauf noch bestätigen (s. Offene Fragen) |
+| [[Der Prinz von Staub und Schatten – Lucas]] | 1–2 | gehört (dt.) — bestätigt ✓ (Interview 2026-07-20) |
+| [[Der Prinz von Staub und Schatten – Lucas]] | 3–5 | ⏳ nicht erschienen |
+
+**Reihen-Pflicht auf Verbund-Ebene: 7 Bände erschienen, laufend =
+klar erfüllt.**
+
+| Untergeordnete Reihe | Verdikt |
+| --- | --- |
+| [[Sturmfels-Akademie – Lucas]] | loved |
+| [[Der Prinz von Staub und Schatten – Lucas]] | loved |
 
 ## ⭐ Summe der Bewertungen (Overall = Aggregat beider Reihen)
 
@@ -31,7 +55,7 @@ Mein Erleben von [[Die Streitenden Götter]]. Fakten, Bände und Metadaten stehe
 | [[Stimmige Weltatmosphäre]] | +1 | „die Welt an sich ist stimmig und gut" |
 | [[Magiesystem-Tiefe]] | **−1** | „Magiesystem bei den Standard-Elementen etwas lasch" |
 
-### Eingebracht von [[Sturmfels-Akademie]]
+### Eingebracht von [[Sturmfels-Akademie – Lucas]]
 
 | Aspekt | Wertung |
 | --- | --- |
@@ -40,7 +64,7 @@ Mein Erleben von [[Die Streitenden Götter]]. Fakten, Bände und Metadaten stehe
 | [[Nebenquest-Wildwuchs]] | −1 |
 | [[Zäher Start]] · [[Konstanter Vorwärtsdrang]] · [[Zu lange schwacher Held]] (Bd. 1) | je −2 |
 
-### Eingebracht von [[Der Prinz von Staub und Schatten]]
+### Eingebracht von [[Der Prinz von Staub und Schatten – Lucas]]
 
 | Aspekt | Wertung |
 | --- | --- |
@@ -61,8 +85,33 @@ verzeihlich, wenn ein starkes Finale trägt (Kombinationsregel [[Fantasy]]).
 und die Fokus-Drift hat einen Namen — **[[Intrigen-Overload ohne Progress]]** („zu politisch",
 verdrängt die Macht). Matching-Regel: Macht-/Geheimnis-Achse zentral halten, Polit-Überhang meiden.
 
+## DNA-Begründung
+
+Objektive (geteilte) DNA: s. [[Die Streitenden Götter]]. Aus der früheren Fakten-DNA hierher
+verschoben, weil es meine Aussage bzw. Wertung ist:
+- [[Magiesystem-Tiefe]] (unterdurchschnittlich bei Standard-Elementen) — Wertung −1 s. oben.
+- **Stil:** über beide Reihen gleich (Nutzeraussage)
+
 ## Hörbuch-Erlebnis
 
 [[Günter Merlau]] solo (LAUSCH): **„Trägt massiv."** Damit zweiter Sprecher mit
 Maximal-Urteil → Sprecherqualität ist ein kontextübergreifendes Kernkriterium
 ([[Profil]]).
+
+## 🧮 Reihen-Gesamtbild (letzter Schritt)
+
+Der rote Faden der Community über den Verbund (s. [[Die Streitenden Götter]],
+Community-Gesamtbild): Schwächen bei **Auftakt-Tempo bzw. Fokus** — **exakt mein persönlicher Kritikpunkt.**
+  Das erhöht mein Vertrauen: Bei Weitze-artigen Empfehlungen ist der Fokus-/Tempo-Check
+  besonders wichtig.
+
+## Offene Fragen an Lucas
+
+- Besitz: Hörbücher gekauft (z. B. Audible) oder geliehen? (`besitz:` ist leer, nie raten)
+- Sturmfels: Alle 5 Bände wirklich komplett gehört? Die Spoiler-Felder führen 7/7 als erlebt,
+  die Sturmfels-Notizen sagen „noch bestätigen" (s. [[Sturmfels-Akademie – Lucas]]). Davon
+  hängt `status:` ab.
+- Sprecher: Zählt [[Günter Merlau]] als geteilter Universums-Aspekt oder als Prinz-eigener? In
+  [[Der Prinz von Staub und Schatten – Lucas]] steht er in `bewertung:` mit +2, für Sturmfels gibt es
+  nur das universumweite „trägt massiv". Bis zur Klärung steht er weder unter „Geteilt" noch unter
+  „Eingebracht von [[Der Prinz von Staub und Schatten – Lucas]]".

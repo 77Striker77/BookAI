@@ -25,14 +25,14 @@ bekanntheit_stufe: "Etabliert"   # über den Autor; die Reihe selbst eher Szene-
 hype: "Autor als SPIEGEL-Bestsellerautor vermarktet (Ruhm v. a. aus Alex Verus, >1 Mio verkauft); Haus Ashford solide, aber (noch) kein eigenes Phänomen"
 rating_goodreads: 4.09     # Bd. 1 Hauptseite
 genres: [Urban Fantasy]
-themen: [Rätselhafte Herkunft, Underdog-Aufstieg]
-ton: [Trocken-ironischer Humor]
+themen: [Underdog-Aufstieg]
+ton: []
 erzaehlstil: [Ich-Erzähler]
-tempo: "langsam anlaufend (Bd. 1 zäh), über die Reihe dynamischer — Bd. 3 laut Nutzer am spannendsten"
-komplexitaet: "mittel — klare Ich-Perspektive, wachsende Häuser-Politik (grenzwertig verschachtelt)"
+tempo: "langsam anlaufend (Bd. 1 zäh: Community „Slow Burn“, „kaum mehr als Worldbuilding und Training“)"
+komplexitaet: "mittel — klare Ich-Perspektive, Häuser-/Intrigen-Ebene (Community: in Bd. 1 v. a. Anfang und Ende)"
 figuren: [Wissbegieriger Selbermacher-Held, Nahbarer Everyman-Held, Zu passiver Held, Weinerlicher Held]
-setting: [Verborgene Magie im Alltag, Gedämpfte umständliche Magie, Unbalanciertes Machtsystem]
-handwerk: [Limit-Break-Momente, Eskalations-Setpieces, Rückgestaute Machtkurve, Bremsender Alltags-Ballast, Zäher Start, Intrigen-Overload ohne Progress]
+setting: [Verborgene Magie im Alltag]
+handwerk: [Bremsender Alltags-Ballast, Zäher Start]
 cover: "https://covers.openlibrary.org/b/isbn/9780356519920-M.jpg"
 quellen:
   - "https://benedictjacka.co.uk/inheritance-of-magic/alex-verus-and-inheritance-of-magic-compared/"
@@ -44,7 +44,7 @@ quellen:
 analysiert: 2026-07-20
 spoiler_aliase: []           # weitere Schreibweisen des Werktitels
 erlebnisse: ["[[Haus Ashford – Lucas]]"]
-tags: [werk, buch, reihe]
+tags: [werk, buch, reihe, fantasy, urban-fantasy]
 ---
 
 # Haus Ashford
@@ -55,15 +55,9 @@ tags: [werk, buch, reihe]
 [[Benedict Jacka]] um **Stephen Oakwood** (20), der sich mit Gelegenheitsjobs durchschlägt,
 verbissen trainiert und in die Magie **Drucraft** (Essentia sammeln, **Sigls** herstellen)
 hineinwächst — bis er in die Angelegenheiten von **Haus Ashford**, einer der mächtigsten
-Magier-Familien Englands, gerät. **3 Bände erschienen (EN & DE), laufend (~10 geplant) →
-Reihen-Pflicht (≥3) erfüllt.**
+Magier-Familien Englands, gerät. **3 Bände erschienen (EN & DE), laufend (~10 geplant).**
 
-> **Bewertungseinheit ist das WERK.** Der Nutzer bewertet die Reihe als Ganzes (alle 3 dt.
-> Bände gehört). **Verdikt mixed / „okay"** — und damit der **Negativ-Gegenentwurf zum selben
-> Autor**: [[Alex Verus]] (loved) und Haus Ashford (okay) trennt nicht der Stil, sondern die
-> **Ausführung** (Magie-Wucht/Balance, Tempo, Held-Aktivität).
-
-**Kontext:** [[Fantasy]] (Urban Fantasy) · **Autor:** [[Benedict Jacka]] · **Sprecher (dt.):** [[Johannes Klaußner]]
+**Genre:** [[Fantasy]] (Urban Fantasy) · **Autor:** [[Benedict Jacka]] · **Sprecher (dt.):** [[Johannes Klaußner]]
 
 ## 🗺️ Universum & Reihen-Landkarte (investigativ — Pflicht)
 
@@ -86,13 +80,13 @@ Reihen-Pflicht (≥3) erfüllt.**
 
 DE: **Blanvalet** (Print/eBook) + **Random House Audio** (Hörbuch), Sprecher durchgängig
 **[[Johannes Klaußner]]**, ungekürzt, Übers. **Michelle Gyo**. EN: **Orbit** (UK) / **Ace**
-(US); EN-Hörbuch **Will Watt** (nicht vom Nutzer gehört). **Goodreads = EN-Ausgaben, bandgenau.**
+(US); EN-Hörbuch **Will Watt**. **Goodreads = EN-Ausgaben, bandgenau.**
 
-| # | Titel 🇩🇪 / 🇬🇧 | 🇩🇪 (Buch · Hörbuch) | 🇬🇧 EN-Erstausgabe | ⭐ Goodreads (⌀ · Anzahl) | Lesestand |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Magie verpflichtet / **An Inheritance of Magic** | TB 19.03.2025 · Hörb. 01.03.2025 (**12 h 29**) | 05.10.2023 (UK) / 10.10.2023 (US) | **4,09 · ~5.434** | gehört |
-| 2 | Magisches Erbe / **An Instruction in Shadow** | TB 22.10.2025 · Hörb. ~22.10.2025 (Dauer offen) | 15.10.2024 (US) / 17.10.2024 (UK) | **4,11 · ~3.120** | gehört |
-| 3 | Eine Frage der Magie / **A Judgement of Powers** | TB 22.04.2026 · Hörb. ~20.–22.04.2026 (Dauer offen) | 04.11.2025 (UK) | **4,15 · ~1.697** | gehört |
+| # | Titel 🇩🇪 / 🇬🇧 | 🇩🇪 (Buch · Hörbuch) | 🇬🇧 EN-Erstausgabe | ⭐ Goodreads (⌀ · Anzahl) |
+| --- | --- | --- | --- | --- |
+| 1 | Magie verpflichtet / **An Inheritance of Magic** | TB 19.03.2025 · Hörb. 01.03.2025 (**12 h 29**) | 05.10.2023 (UK) / 10.10.2023 (US) | **4,09 · ~5.434** |
+| 2 | Magisches Erbe / **An Instruction in Shadow** | TB 22.10.2025 · Hörb. ~22.10.2025 (Dauer offen) | 15.10.2024 (US) / 17.10.2024 (UK) | **4,11 · ~3.120** |
+| 3 | Eine Frage der Magie / **A Judgement of Powers** | TB 22.04.2026 · Hörb. ~20.–22.04.2026 (Dauer offen) | 04.11.2025 (UK) | **4,15 · ~1.697** |
 
 ### 🗃️ Dt. Ausgaben — ISBNs, Seiten (Blanvalet / Random House Audio)
 
@@ -124,6 +118,11 @@ Bd. 1 10 h 42, Bd. 2 9 h 47, Bd. 3 9 h 44.
 - **Held reaktiv/außenstehend:** „still on the outside looking in", „mixed up in it, but has
   no idea what to do"; ein dt. Rezensent nennt ihn gar einen **„Jammerlappen"**, zugleich arg macht-/stärke-fixiert.
 
+### Auffällige Band-Unterschiede (Community)
+- **Leicht steigende Goodreads-Kurve 4,09 → 4,11 → 4,15** (bei fallender Stimmenzahl
+  ~5,4k → ~1,7k; s. Tabelle). Die Slow-Burn-Kritik bezieht sich v. a. auf den Auftakt (Bd. 1).
+  Rezensionen zum Tempo von Bd. 2/3 liegen nicht vor (s. Offene Fragen).
+
 ## 🗓️ Nächste Releases & Planung
 - **Nächster Band DE:** Bd. 4 — noch kein Titel/Termin (Blanvalet-Muster ~2027, unbestätigt).
 - **Nächster Band EN:** Bd. 4 — noch kein Titel/Termin; Reihe laufend, ~1 Band/Jahr bis ~2034 (Autorenangabe).
@@ -132,21 +131,46 @@ Bd. 1 10 h 42, Bd. 2 9 h 47, Bd. 3 9 h 44.
 
 ## DNA (als Links)
 
+> Nur belegte Merkmale (Quelle in Klammern). Persönliche Wertungen: [[Haus Ashford – Lucas]].
+
+- **Kurz (Rezensionskonsens):** Urban Fantasy in London/England, Ich-Perspektive, kreatives
+  **Drucraft/Sigl-System**, britischer Humor, relatable Everyman — aber **slow-burn Setup mit
+  hohem Alltags-/Trainingsanteil** und einem reaktiven, „an der Schwelle stehenden" Helden.
 - **Genres:** [[Fantasy]] (Urban Fantasy)
-- **Themen:** [[Rätselhafte Herkunft]] (+), [[Underdog-Aufstieg]] (Stephens Streben nach Macht)
-- **Ton:** [[Trocken-ironischer Humor]] (+, trocken/britisch/bodenständig)
-- **Erzählstil:** [[Ich-Erzähler]] (+, immersiv)
-- **Figuren:** [[Wissbegieriger Selbermacher-Held]] (+), [[Nahbarer Everyman-Held]] (+) / [[Zu passiver Held]] (−), [[Weinerlicher Held]] (−)
-- **Setting:** [[Verborgene Magie im Alltag]] (+) / [[Gedämpfte umständliche Magie]] (−), [[Unbalanciertes Machtsystem]] (−, geld-gated Drucraft/Sigls)
-- **Handwerk:** [[Limit-Break-Momente]] (+), [[Eskalations-Setpieces]] (+) / [[Rückgestaute Machtkurve]] (−), [[Bremsender Alltags-Ballast]] (−), [[Zäher Start]] (−), [[Intrigen-Overload ohne Progress]] (−)
-- **Tempo/Komplexität:** langsam anlaufend, Bd. 3 dynamischer / mittel, grenzwertige Häuser-Politik
+- **Themen:** [[Underdog-Aufstieg]] (Prämisse: „der sich mit Gelegenheitsjobs durchschlägt, verbissen trainiert"; Community: „Stephen sucht Energiequellen und will stärker werden")
+- **Ton:** britischer Humor (Community: „Mischung aus Spannung, Emotion und britischem Humor")
+- **Erzählstil:** [[Ich-Erzähler]] (Rezensionskonsens: Ich-Perspektive)
+- **Figuren:** [[Wissbegieriger Selbermacher-Held]] (Reihenbeschreibung: „verbissen trainiert"; Community: „das Handwerkeln an der eigenen Magie"), [[Nahbarer Everyman-Held]] (Community: „Everyman", relatable), [[Zu passiver Held]] (Community: „still on the outside looking in", „has no idea what to do"), [[Weinerlicher Held]] (Einzelstimme: „Jammerlappen")
+- **Setting:** [[Verborgene Magie im Alltag]] (Prämisse: „einer der mächtigsten Magier-Familien Englands"; Rezensionskonsens: „Urban Fantasy in London/England") · Magiesystem Drucraft/Sigls: lern- und kaufbar, an eine knappe, ortsgebundene Ressource gebunden (Autor, s. Universum) — von der Community als innovativ gelobt
+- **Handwerk:** [[Bremsender Alltags-Ballast]] (Community: Dead-End-Job + Magie-Üben), [[Zäher Start]] (Community: „Langsamer Start / Slow Burn", „riesiger Infodump")
+- **Tempo/Komplexität:** langsam anlaufend (Community, Bd. 1) / mittel, Häuser-Ebene in Bd. 1 v. a. Anfang und Ende (Community)
+
+## 🧮 Community-Gesamtbild
+
+EN-Community ⌀ ~4,1/5, **leicht steigend** (4,09 → 4,15) bei ~10k Wertungen über 3 Bände —
+solide, aber (noch) kein Phänomen wie [[Alex Verus]]. Gelobt werden System-Kreativität, Stil/
+britischer Humor und der Everyman-Held; kritisiert werden der Slow-Burn-Auftakt, die dünne
+„will-stärker-werden"-Handlung, der Alltags-Anteil und der reaktive Held.
 
 ## Offene Fragen
 
 - **DE-Hördauer Bd. 2 & 3** und taggenaue dt. Hörbuch-Termine nicht belegbar (nur Bd. 1 =
   12 h 29 gesichert; dt. Shops 403 → Snippets).
-- **Sprecher Bd. 3** (Klaußner) sehr wahrscheinlich, aber nicht letztverifiziert.
+- **Sprecher Bd. 3** (Klaußner) sehr wahrscheinlich, aber nicht letztverifiziert. Der Text
+  oben („Sprecher durchgängig Klaußner") setzt das bereits voraus — nicht geglättet, beim
+  nächsten Abgleich (Audible.de / Penguin-Seite Bd. 3) bestätigen.
 - **Exakte Seitenzahl DE Bd. 2** („über 400 S") und **DE-eBook-ISBN Bd. 3** offen.
 - **DE-Plattform-Wertungen mit Anzahl** (lovelybooks/Amazon.de/Audible.de) je Band nicht
   sicher gefunden (Seiten blockiert) — nur BücherTreff-Reihenschnitt 4,5 · 15.
 - **Bd. 4 (EN/DE):** Titel/Termin noch nicht angekündigt.
+- **Offen (DNA-Beleg):** Tempo „über die Reihe dynamischer" stand ohne Rezension in der DNA
+  (Grundlage nur die leicht steigende Goodreads-Kurve und ein persönliches Urteil, s.
+  [[Haus Ashford – Lucas]]) → erst mit Rezension zu Bd. 2/3 wieder aufnehmen.
+- **Offen (DNA-Beleg):** Komplexität „wachsende Häuser-Politik" stand ohne Rezension in der
+  DNA (die Community nennt die Haus-Ebene für Bd. 1 nur am Anfang und Ende) → Rezension zu
+  Bd. 2/3 suchen.
+- **Offen (DNA-Beleg):** [[Rückgestaute Machtkurve]] — Bd. 1 „kaum mehr als Worldbuilding
+  und Training" und Plot „will stärker werden" sagen nicht direkt, dass der Machtaufstieg zu
+  spät/zu abrupt kommt → mit Rezension zu Bd. 2/3 wieder aufnehmen.
+- **Offen (DNA-Beleg):** Ton [[Trocken-ironischer Humor]] — belegt ist nur „britischer Humor",
+  nicht ausdrücklich trocken/ironisch.

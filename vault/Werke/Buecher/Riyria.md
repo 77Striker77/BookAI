@@ -7,7 +7,7 @@ verwandte_reihen: ["Riyria Chronicles (Prequel, 5/8)", "Legends of the First Emp
 autor: "Michael J. Sullivan"
 jahr_start: 2008
 erscheinungsdatum_bd1: "EN 'The Crown Conspiracy' Okt 2008 (Aspirations/Ridan); DE 'Der Thron von Melengar' Hörbuch 07.03.2014 (der Hörverlag), Print Klett-Cotta 2014"
-letztes_datum: "EN 'Percepliquis' Jan 2012; DE 'Die verborgene Stadt Percepliquis' Print 21.10.2016, Hörbuch ~Nov 2016"
+letztes_datum: "EN 'Percepliquis' Jan 2012; DE 'Die verborgene Stadt Percepliquis' Print 21.10.2016, Hörbuch 07.11.2016 (bestätigt 2026-07-20, s. Offene Fragen)"
 baende_gesamt: 6
 baende_geplant: 6
 abgeschlossen: true
@@ -25,14 +25,14 @@ bekanntheit_stufe: "Bestseller"
 hype: "Selfpub-Erfolgsgeschichte → Orbit-Neuauflage; EN-Hörbücher Tim Gerard Reynolds (Kult-Narrator); Percepliquis Goodreads-Choice-Nominee 2012"
 rating_goodreads: 4.19
 genres: [Fantasy]
-themen: [Geheimnisvolle Macht, Verlorenes Erbe & Thronanspruch]
+themen: []
 ton: [Trocken-ironischer Humor]
 erzaehlstil: []
-tempo: "zügig (Abenteuer-/Heist-Rhythmus), aber Hauptplot flau"
-komplexitaet: "mittel — klassische Secondary-World-Fantasy, klar strukturiert"
-figuren: [Ungleiches Duo, Pragmatischer Held mit klarem Kompass, Flache Machtprogression]
-setting: [Stimmige Weltatmosphäre, Unbalanciertes Machtsystem, Dünnes Weltdetail, Magiesystem-Tiefe]
-handwerk: [Konstanter Vorwärtsdrang, Schwache Haupthandlung, Setup ohne Payoff]
+tempo: "zügig (Community: „zügiges Pacing“)"
+komplexitaet: "mittel — klassische Secondary-World-Fantasy (Genre), zugänglich (Community: „klassisches, zugängliches Adventure-Fantasy“)"
+figuren: [Ungleiches Duo]
+setting: [Dünnes Weltdetail]
+handwerk: []
 cover: ""
 quellen:
   - "https://www.goodreads.com/book/show/10790290-theft-of-swords"
@@ -43,7 +43,7 @@ quellen:
 analysiert: 2026-07-16
 spoiler_aliase: []           # weitere Schreibweisen des Werktitels
 erlebnisse: ["[[Riyria – Lucas]]"]
-tags: [werk, buch, reihe]
+tags: [werk, buch, reihe, fantasy]
 ---
 
 # Riyria
@@ -53,16 +53,10 @@ tags: [werk, buch, reihe]
 Klassische Secondary-World-Fantasy (Riyria **Revelations**, 6 Bände) um das Diebes-Duo
 **Royce Melborn** (zynischer Ex-Assassine) & **Hadrian Blackwater** (idealistischer
 Schwertkämpfer): aus Auftragsdieben werden Schlüsselfiguren im Ringen um ein Imperium und
-das Geheimnis des verschollenen Erben von Novron. **6 Bände, abgeschlossen →
-Reihen-Pflicht (≥3) klar erfüllt.** (Separate Prequel-Reihe „Riyria Chronicles" hier NICHT
-erfasst.)
+das Geheimnis des verschollenen Erben von Novron. **6 Bände, abgeschlossen.** (Separate
+Prequel-Reihe „Riyria Chronicles" hier NICHT erfasst.)
 
-> **Bewertungseinheit ist das WERK.** Nutzer bewertet die Revelations-Reihe als Ganzes.
-> **Drittes `mixed`/„okay"-Werk** (Graubereich), zweites in [[Fantasy]]. Wertvoll als
-> **Doppel-Referenz:** zeigt geliebte Muster (Duo, Mystery, Banter) UND Anti-Muster
-> (fehlende Machtkurve, dünnes/unbalanciertes Machtsystem).
-
-**Kontext:** [[Fantasy]] · **Autor:** [[Michael J. Sullivan]] · **Sprecher (dt.):** [[David Nathan]]
+**Genre:** [[Fantasy]] · **Autor:** [[Michael J. Sullivan]] · **Sprecher (dt.):** [[David Nathan]]
 
 ## 🗺️ Universum & Reihenfolge
 
@@ -86,17 +80,20 @@ Hörverlag** (Random House Audio), durchgängig **[[David Nathan]]**, ungekürzt
 Selfpub-Einzelbände (Ridan), später **3 Orbit-Sammelbände**; EN-Hörbuch nur als 3
 Sammelbände ([[Tim Gerard Reynolds]], Recorded Books). Goodreads = EN.
 
-| # | Titel 🇩🇪 | Titel 🇬🇧 | 🇩🇪 Hörbuch (Nathan) | ⭐ Goodreads (⌀ · Anzahl) | Lesestand |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Der Thron von Melengar | The Crown Conspiracy | 10 h 59 · 07.03.2014 | 4,19 · ~26k | gehört |
-| 2 | Der Turm von Avempartha | Avempartha | 11 h 11 · 25.08.2014 | 4,30 · ~15,5k | gehört |
-| 3 | Der Aufstieg Nyphrons | Nyphron Rising | 12 h 42 · 23.03.2015 | 4,34 · ~11–12k | gehört |
-| 4 | An Bord der Smaragdsturm | The Emerald Storm | 12 h 18 · 25.09.2015 | 4,30 · ~9,7k | gehört |
-| 5 | Das Fest von Aquesta | Wintertide | 10 h 38 · 22.02.2016 | 4,46 · ~12k | gehört |
-| 6 | Die verborgene Stadt Percepliquis | Percepliquis | 18 h 08 · 07.11.2016 | **4,57 (höchster) · ~11,8k** | gehört |
+| # | Titel 🇩🇪 | Titel 🇬🇧 | 🇩🇪 Hörbuch (Nathan) | ⭐ Goodreads (⌀ · Anzahl) |
+| --- | --- | --- | --- | --- |
+| 1 | Der Thron von Melengar | The Crown Conspiracy | 10 h 59 · 07.03.2014 | 4,19 · ~26k |
+| 2 | Der Turm von Avempartha | Avempartha | 11 h 11 · 25.08.2014 | 4,30 · ~15,5k |
+| 3 | Der Aufstieg Nyphrons | Nyphron Rising | 12 h 42 · 23.03.2015 | 4,34 · ~11–12k |
+| 4 | An Bord der Smaragdsturm | The Emerald Storm | 12 h 18 · 25.09.2015 | 4,30 · ~9,7k |
+| 5 | Das Fest von Aquesta | Wintertide | 10 h 38 · 22.02.2016 | 4,46 · ~12k |
+| 6 | Die verborgene Stadt Percepliquis | Percepliquis | 18 h 08 · 07.11.2016 | **4,57 (höchster) · ~11,8k** |
 
 *Hördauern Bd. 1–6 mehrfach belegt (Snippets; dt. Shops 403); Hörbuch-Daten Bd. 2 (25.08.2014)
 & Bd. 6 (07.11.2016) taggenau bestätigt (Recherche 2026-07-20). ASINs/ISBNs/Übersetzer belegt.*
+
+**Hördauer gesamt (dt.):** ~76 h (4.556 min, Bd. 5 mit 10:38 gerechnet) · **Schnitt:** ~12,7 h/Band
+· Bd. 6 der lange Finale-Ausreißer ~18 h
 
 **EN-Sammelbände (Goodreads):** Theft of Swords (Bd. 1+2) **4,23 · ~79k** · Rise of Empire
 (Bd. 3+4) **4,36 · ~58k** · Heir of Novron (Bd. 5+6) **4,51 · ~56k**. → ~190k Wertungen
@@ -110,14 +107,18 @@ gesamt, **Bestseller**-Reichweite.
 
 ### 👎 Was die Community kritisiert (echte Rezensionen)
 - Tropig/klassisch, wenig originell; dünnes Worldbuilding; Magie randständig;
-  vorhersehbare/bequeme Wendungen. → **deckt meine [[Dünnes Weltdetail]]-, [[Magiesystem-Tiefe]]-
-  und [[Setup ohne Payoff]]-Kritik.**
+  vorhersehbare/bequeme Wendungen.
+
+### Auffällige Band-Unterschiede (Community)
+- **Steigende Community-Kurve 4,19 → 4,57** (Finale Percepliquis am höchsten): Die Reihe
+  gewinnt für die Masse zum Ende.
 
 ## 🗃️ Metadaten je Band (vollständig)
 
 > Kern-Fakten mehrfach belegt; unsichere Werte „?"/„n. gef." (dt. Shops 403 → Snippets).
 > Sprecher dt. **[[David Nathan]]** (alle 6, gesichert). Übers.: Bd. 1 **Cornelia
 > Holfelder-von der Tann**, Bd. 2–6 **Wolfram Ströle**.
+> (Nathan ist die bekannte dt. Stimme u. a. von Johnny Depp/Christian Bale.)
 
 ### 🇩🇪 Deutsche Ausgaben (Hörbuch · Print)
 
@@ -142,24 +143,34 @@ gesamt, **Bestseller**-Reichweite.
 | 6 | Percepliquis · 2012 · 568 S · 9781937475017 | Heir of Novron | 4,57 · ~11,8k |
 
 **EN-Hörbücher (Recorded Books, [[Tim Gerard Reynolds]]):** Theft of Swords 22 h 38 ·
-Rise of Empire 26 h 27 · Heir of Novron 31 h 48 (alle 2012). — NICHT die vom Nutzer
-gehörte Fassung (er hörte dt. [[David Nathan]]).
+Rise of Empire 26 h 27 · Heir of Novron 31 h 48 (alle 2012). Eigene Fassung; die deutsche
+liest [[David Nathan]].
 
 ## 🗓️ Nächste Releases & Planung
 - **Revelations abgeschlossen** (DE + EN). Kein Nachschub in dieser Reihe.
-- **Verwandt:** Prequel-Reihe „Riyria Chronicles" (dt. Sprecher Robert Frank) — eigener
-  Kandidat, falls der Nutzer mehr vom Duo will (Achtung: gleiche Anti-Muster möglich).
+- **Verwandt:** Prequel-Reihe „Riyria Chronicles" (dt. Sprecher Robert Frank).
 
 ## DNA (als Links)
 
+> Nur belegte Merkmale (Quelle in Klammern). Persönliche Wertungen: [[Riyria – Lucas]].
+
+- **Kurz (Rezensionskonsens):** zugängliche, tropig-klassische Adventure-Fantasy, getragen
+  vom Buddy-Duo und einem sich verzahnenden Gesamtplot; low-magic, dünnes Worldbuilding.
 - **Genres:** [[Fantasy]] (klassische Adventure-/Secondary-World-Fantasy)
-- **Themen:** [[Geheimnisvolle Macht]], [[Verlorenes Erbe & Thronanspruch]] (Erbe von Novron)
-- **Ton:** [[Trocken-ironischer Humor]] (Duo-Banter)
-- **Erzählstil:** auktorial/3. Person, mehrere Perspektiven (kein Ich-Erzähler)
-- **Figuren:** [[Ungleiches Duo]] (+2), [[Pragmatischer Held mit klarem Kompass]] (+) / [[Flache Machtprogression]] (−, gedeckelt)
-- **Setting:** [[Stimmige Weltatmosphäre]] (+) / [[Dünnes Weltdetail]], [[Unbalanciertes Machtsystem]], [[Magiesystem-Tiefe]] (−)
-- **Handwerk:** [[Konstanter Vorwärtsdrang]] (+) / [[Schwache Haupthandlung]], [[Setup ohne Payoff]] (−)
-- **Tempo/Komplexität:** zügig / mittel, klassisch
+- **Themen:** — (kein belegtes Merkmal; s. Offene Fragen)
+- **Ton:** [[Trocken-ironischer Humor]] (Community: „Banter“ des Duos)
+- **Erzählstil:** — (Erzählperspektive unbelegt; s. Offene Fragen)
+- **Figuren:** [[Ungleiches Duo]] (Community: Duo als „Herzstück", Banter, Chemie, Loyalität; Prämisse: „zynischer Ex-Assassine“ & „idealistischer Schwertkämpfer“)
+- **Setting:** [[Dünnes Weltdetail]] (Community: „dünnes Worldbuilding") · Magie randständig (Community)
+- **Handwerk:** — (kein belegtes Merkmal; s. Offene Fragen)
+- **Tempo/Komplexität:** zügig (Community: „zügiges Pacing“) / mittel, klassisch-zugänglich (Community: „klassisches, zugängliches Adventure-Fantasy“)
+
+## 🧮 Community-Gesamtbild
+
+EN-Community ⌀ ~4,4/5, **steigend bis zum Finale (Percepliquis 4,57)**, ~190k Wertungen,
+Kult-Hörbücher (Tim Gerard Reynolds) — sehr beliebte, breit gelobte Comfort-Fantasy.
+Gelobt werden das Duo, das zügige Pacing und der verzahnte Gesamtbogen; kritisiert werden
+Tropen-Klassik, dünnes Worldbuilding, randständige Magie und bequeme Wendungen.
 
 ## Offene Fragen
 
@@ -173,3 +184,12 @@ gehörte Fassung (er hörte dt. [[David Nathan]]).
   je Band weiter nicht belegbar (403). Serien-Aggregat BücherTreff 4,4 · 188 bleibt Referenz.
 - EN Goodreads editionsabhängig: Bd. 4 „~9,7k" = Ridan-Einzeledition, Work-Gesamt ~11,5k;
   Sammelbände Theft ~79k · Rise ~58k · Heir ~56k. Steigende Kurve 4,19→4,57 stabil.
+- **Offen (DNA-Beleg):** Erzählstil „auktorial/3. Person, mehrere Perspektiven (kein Ich-Erzähler)“
+  stand ohne Quelle in der DNA → bei Gelegenheit mit Rezension/Leseprobe belegen.
+- **Offen (DNA-Beleg):** Thema [[Verlorenes Erbe & Thronanspruch]] — die Prämisse nennt das „Geheimnis des
+  verschollenen Erben von Novron“, aber nicht, dass eine Hauptfigur (die Diebe Royce & Hadrian) der Erbe
+  ist; das verlangt die Merkmal-Definition.
+- **Offen (DNA-Beleg):** Handwerk [[Konstanter Vorwärtsdrang]] — belegt sind nur „zügiges Pacing“ und der
+  verzahnte Gesamtbogen; die Merkmal-Definition (keine Füller/Nebenstränge, „NICHT dasselbe wie hohes
+  Tempo“) sagt keine Rezension direkt aus.
+- **Offen (DNA-Beleg):** Komplexität „klar strukturiert“ ohne Quelle (belegt nur „klassisch, zugänglich“).

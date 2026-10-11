@@ -25,13 +25,13 @@ bekanntheit_stufe: "Phänomen"
 hype: "17+ Mio. Bücher weltweit; UK-Weihnachts-Nr.-1 2020 (schlug Obama); Platinum Bestseller (1 Mio. UK-Hardcover — erst der 2. Erwachsenenroman dieses Jahrhunderts nach Dan Brown); Netflix-Film 2025 mit Helen Mirren/Pierce Brosnan/Ben Kingsley/Celia Imrie; Osman OBE 2026"
 genres: [Cosy Crime, Whodunit, Krimi]
 themen: []
-ton: [Trocken-ironischer Humor, Cosy-Wohlfühlatmosphäre, Situationskomik]
+ton: [Trocken-ironischer Humor, Cosy-Wohlfühlatmosphäre]
 erzaehlstil: [Ich-Erzähler]         # nur die Joyce-Tagebuchteile; Grundmodus 3. Person Präsens multiperspektivisch
-tempo: "gemütlich mit Sog-Phasen — aber bedingt: nur solange der Fall vorn bleibt (Nutzer)"
+tempo: "hohe Taktung, kurze Kapitel mit Cliffhangern (Community)"
 komplexitaet: "mittel-hoch (viele Nebenfiguren/Fäden) — aber Fairness umstritten"
 figuren: [Unterschätztes Ermittler-Ensemble]
 setting: []
-handwerk: [Cleverer Twist-Plot, Persona-Strang verdrängt Haupthandlung, Bremsender Alltags-Ballast, Konstanter Vorwärtsdrang]
+handwerk: [Persona-Strang verdrängt Haupthandlung]
 cover: ""
 quellen:
   - "https://en.wikipedia.org/wiki/The_Thursday_Murder_Club"
@@ -47,7 +47,7 @@ quellen:
 analysiert: 2026-08-11
 spoiler_aliase: []           # weitere Schreibweisen des Werktitels
 erlebnisse: ["[[Der Donnerstagsmordclub – Lucas]]"]
-tags: [werk, buch, reihe]
+tags: [werk, buch, reihe, krimi, cosy-crime]
 ---
 
 # Der Donnerstagsmordclub
@@ -58,16 +58,9 @@ Cosy-Crime-Reihe von [[Richard Osman]] (EN: *Thursday Murder Club*, DE: *Die Mor
 Vier Rentner in der luxuriösen Seniorenresidenz **Cooper's Chase** (Kent, England) treffen sich
 donnerstags, um ungelöste Mordfälle zu wälzen — und stolpern in echte: **Elizabeth**
 (Ex-Geheimdienst), **Joyce** (Ex-Krankenschwester, führt Tagebuch), **Ron** (Ex-Gewerkschafts-
-führer), **Ibrahim** (Ex-Psychiater). **5 Bände (2020–2025), Bd. 6 für 2027 angekündigt →
-Reihen-Pflicht ≥3 Bände klar erfüllt.**
+führer), **Ibrahim** (Ex-Psychiater). **5 Bände (2020–2025), Bd. 6 für 2027 angekündigt.**
 
-> **Bewertungseinheit ist das WERK.** Der Nutzer bewertet die Reihe als Ganzes. Die eine
-> Band-Abweichung (Bd. 4) hat er **von sich aus** genannt → unten in „Abweichungen einzelner
-> Bände" erfasst.
-
-> **Format: GEHÖRT (Hörbuch, Deutsch)** — alle 5 Bände. Sprecher-Aspekt gilt.
-
-**Kontext:** [[Krimi]] · **Autor:** [[Richard Osman]] · **Sprecher:** [[Johannes Steck]] +
+**Genre:** Cosy Crime · Whodunit · [[Krimi]] · **Autor:** [[Richard Osman]] · **Sprecher (dt.):** [[Johannes Steck]] +
 [[Beate Himmelstoß]]
 
 ## 🗺️ Universum & Reihen-Landkarte (investigativ — Pflicht)
@@ -98,14 +91,16 @@ Reihen-Pflicht ≥3 Bände klar erfüllt.**
 
 Alle 5 Bände: Übersetzerin **Sabine Roth**, Verlag **List** (Ullstein), Hörbuch-Label
 **Hörbuch Hamburg**, Sprecher **durchgängig Johannes Steck + Beate Himmelstoß** (kein Wechsel).
+Die Zwei-Stimmen-Lösung (Joyces Tagebuch mit eigener Stimme) gilt in der Analyse als das
+strukturelle Highlight der Produktion (Einordnung ohne Rezensionsbeleg).
 
-| # | Titel (DE / EN) | 🇩🇪 Buch | 🇩🇪 Hörbuch | 🇬🇧 EN | ⭐ Goodreads (⌀ · Anzahl) | mein Stand |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1 | Der Donnerstagsmordclub / *The Thursday Murder Club* | 03.05.2021 | 03.05.2021 | 03.09.2020 | **3,85** · 851.861 | **gehört (dt.)** |
-| 2 | Der Mann, der zweimal starb / *The Man Who Died Twice* | 21.01.2022 ⚠️ | Jan 2022 ⚠️ | 16.09.2021 | **4,35** · 372.404 | **gehört (dt.)** |
-| 3 | …und die verirrte Kugel / *The Bullet That Missed* | Feb 2023 ⚠️ | 23.02.2023 | 15.09.2022 | **4,35** · 292.088 | **gehört (dt.)** |
-| 4 | …oder Ein Teufel stirbt immer zuletzt / *The Last Devil to Die* | 30.11.2023 | 30.11.2023 | 14.09.2023 | **4,46** · 248.021 | **gehört (dt.)** |
-| 5 | …und der unlösbare Code / *The Impossible Fortune* | 25.09.2025 | 25.09.2025 ⚠️ | 25.09.2025 | **4,26** · 145.210 | **gehört (dt.)** |
+| # | Titel (DE / EN) | 🇩🇪 Buch | 🇩🇪 Hörbuch | 🇬🇧 EN | ⭐ Goodreads (⌀ · Anzahl) |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Der Donnerstagsmordclub / *The Thursday Murder Club* | 03.05.2021 | 03.05.2021 | 03.09.2020 | **3,85** · 851.861 |
+| 2 | Der Mann, der zweimal starb / *The Man Who Died Twice* | 21.01.2022 ⚠️ | Jan 2022 ⚠️ | 16.09.2021 | **4,35** · 372.404 |
+| 3 | …und die verirrte Kugel / *The Bullet That Missed* | Feb 2023 ⚠️ | 23.02.2023 | 15.09.2022 | **4,35** · 292.088 |
+| 4 | …oder Ein Teufel stirbt immer zuletzt / *The Last Devil to Die* | 30.11.2023 | 30.11.2023 | 14.09.2023 | **4,46** · 248.021 |
+| 5 | …und der unlösbare Code / *The Impossible Fortune* | 25.09.2025 | 25.09.2025 ⚠️ | 25.09.2025 | **4,26** · 145.210 |
 
 ⚠️ = Datum unsicher/widersprüchlich, siehe „Offene Fragen". Goodreads-Stand: **11.08.2026**.
 
@@ -137,9 +132,14 @@ als auch ungekürzt (Download/Audible, ~11,5 h)** veröffentlicht.
 | 4 | **10:00** (CD 9783957133045) ⚠️ | **offen** (ASIN B0CMV8PGCN — Laufzeit nicht auffindbar) |
 | 5 | **09:54** (9783844943474 · CD 9783957133335) | **11:27** (ASIN B0FFBGGNZ2) |
 
-**Reihenschnitt ungekürzt ≈ 11,5 h/Band, gekürzt ≈ 10 h/Band** → in beiden Fällen **deutlich
-unter der ~20-h-Komfortgrenze** des Nutzers ([[Profil]]). Welche Fassung er gehört hat, ist
-offen (s. u.).
+**Reihenschnitt ungekürzt ≈ 11,5 h/Band, gekürzt ≈ 10 h/Band.**
+
+**Hördauer gesamt (dt.):** gekürzt ~50,8 h (3.050 min, Bd. 4 mit 10:00 gerechnet) · ungekürzt
+nicht summierbar (Bd. 4 offen; Bd. 1–3 + 5 = 2.784 min, ⌀ ~11,6 h/Band)
+
+**Englische Hörbuchfassung:** Bd. 1–2 Lesley Manville, **ab Bd. 3 Fiona Shaw** (Manville hatte
+Terminkollisionen). *The Bullet That Missed* war laut Agentur das **meist-vorbestellte Hörbuch
+in der Geschichte von Penguin Random House**.
 
 ### 👍 Was die Community lobt
 - Warmherzige, liebevoll gezeichnete Figuren; die Freundschaft der vier trägt die Reihe.
@@ -147,10 +147,12 @@ offen (s. u.).
 - Kurze Kapitel mit Cliffhangern, hohe Taktung (auf Osmans TV-Produzenten-Handwerk
   zurückgeführt: „wie eine Fernsehserie, die mehrere Handlungsfäden zusammenführt").
 - Der ernste Unterton (Alter, Endlichkeit) wird von der Mehrheit **als Stärke** gefeiert.
+- Genre-Übersichten (Crime Fiction Lover, The Week) verkaufen die Reihe als „Christie-artig
+  sorgfältig konstruiert".
 
 ### 👎 Was die Community kritisiert
 - **„Die Mordfälle fühlen sich als zweite Geige an gegenüber Elizabeth und ihrer Beziehung
-  zu Stephen"** (zu Bd. 4) — deckt sich exakt mit dem Empfinden des Nutzers.
+  zu Stephen"** (zu Bd. 4).
 - „A head-spinning number of side characters and subplots… difficult to keep track of them";
   Red Herrings, „die einfach nur zumüllen".
 - „The murders happening as if in another book."
@@ -161,12 +163,29 @@ offen (s. u.).
   einige fanden es „clumsy and distasteful", dass Stephen durch den Demenz-Nebel hindurch
   Verbrechen löst.
 
+### Auffällige Band-Unterschiede (Community)
+- **Bd. 1 ist der mit Abstand schwächste Band (3,85)** — alle Folgebände liegen bei 4,26–4,46.
+  Typisches Debüt-Muster: Figuren müssen erst etabliert werden.
+- **Bd. 4 ist der bestbewertete (4,46)** — ausgerechnet der Band mit dem dominantesten
+  Demenz-Strang (s. „Demenz-Strang je Band").
+
+### Demenz-Strang je Band (Recherche)
+
+Der Demenz-Strang um Elizabeths Ehemann **Stephen** verläuft über die Reihe so:
+
+| Bd. | Demenz-Anteil |
+| --- | --- |
+| 1 | sehr gering — Stephen präsent, Erkrankung nur angedeutet; dominantes Nebenthema ist hier die Bebauungs-Nebenhandlung um Cooper's Chase |
+| 2 | gering–mittel — Zustand verschlechtert sich merklich, bleibt Nebenmotiv |
+| 3 | mittel — Alzheimer schreitet fort, „herzzerreißend", aber noch sekundär; Stephen noch aktiv |
+| **4** | **DOMINANT** — strukturbestimmend: **Elizabeth zieht sich aus den Ermittlungen zurück**, kann Stephen nicht allein lassen, **Joyce übernimmt die Ermittlungsführung**. Die Demenz verändert also sogar die Erzählarchitektur; der Roman wird zur „Meditation über Liebe und Trauer" |
+| 5 | Nachwirkung — Elizabeth trauert von Beginn an, Pflegealltag beendet |
+
 ## 🗓️ Nächste Releases & Planung
 
 - **Nächster Band DE:** Bd. 6 — für 2027 erwartet (dt. Titel/Datum noch offen). Bemerkenswert:
   bei Bd. 5 erschien die dt. Ausgabe **zeitgleich** mit UK (bei Bd. 1–4 lagen 5–8 Monate
-  dazwischen) → **kein Übersetzungs-Warten mehr zu erwarten** (relevant, weil der Nutzer
-  laut [[Profil]] auf dt. Fassungen wartet statt englisch auszuweichen).
+  dazwischen) → **kein Übersetzungs-Warten mehr zu erwarten**.
 - **Nächster Band EN:** Bd. 6, 2027. Osman alterniert jährlich: 2024 WSM 1 · 2025 TMC 5 ·
   2026 WSM 2 · 2027 TMC 6.
 - **Status:** laufend, kein Abschluss angekündigt.
@@ -174,22 +193,34 @@ offen (s. u.).
 
 ## DNA (als Links)
 
+> Nur belegte Merkmale (Quelle in Klammern). Persönliche Wertungen: [[Der Donnerstagsmordclub – Lucas]].
+
 - **Genres:** Cosy Crime · Whodunit · Amateurdetektiv-Krimi · Humor-Krimi
-- **Ton:** [[Trocken-ironischer Humor]] · [[Cosy-Wohlfühlatmosphäre]] · [[Situationskomik]]
+- **Ton:** [[Trocken-ironischer Humor]] (Community: „trockener britischer Humor") ·
+  [[Cosy-Wohlfühlatmosphäre]] (Genre: Cosy Crime)
 - **Erzählstil:** 3. Person **Präsens**, auktorial, **multiperspektivisch** (Elizabeth, Joyce,
   Ron, Ibrahim, Chris, Donna, Bogdan, Antagonisten) + regelmäßige **[[Ich-Erzähler]]-
   Tagebucheinträge von Joyce** (Bd. 1 eröffnet damit); sehr kurze Kapitel mit Cliffhangern
-- **Figuren:** [[Unterschätztes Ermittler-Ensemble]]
-- **Handwerk:** [[Cleverer Twist-Plot]] (+) · [[Persona-Strang verdrängt Haupthandlung]] (−−) ·
-  [[Bremsender Alltags-Ballast]] (−) · [[Konstanter Vorwärtsdrang]] (− bedingt)
-- **Setting:** Seniorenresidenz Cooper's Chase, Kent/England — stimmige Kulisse, kein
-  eigener Reiz für den Nutzer
-- **Tempo/Komplexität:** gemütlich mit Sog-Phasen; viele Nebenfiguren/Fäden, Fairness umstritten
-- **Gewalt/Gore:** niedrig (Cosy-Konvention) — für den Nutzer irrelevant, er verträgt mehr
+  (Recherche: Erzählstruktur; Community: „kurze Kapitel mit Cliffhangern“)
+- **Figuren:** [[Unterschätztes Ermittler-Ensemble]] (Prämisse: vier Rentner ermitteln; Community: „die
+  Freundschaft der vier trägt die Reihe")
+- **Handwerk:** [[Persona-Strang verdrängt Haupthandlung]] (Community:
+  Mordfälle „als zweite Geige" gegenüber Elizabeth/Stephen; „The murders happening as if in another book")
+- **Struktur:** **KEIN Locked-Room** — anders als bei [[Die mörderischen Cunninghams]]. Cooper's
+  Chase ist zwar eine halbgeschlossene Miss-Marple-artige Gemeinschaft, aber: die Fälle greifen
+  weit über die Anlage hinaus (London, Geheimdienst, Mafia, Drogenkartelle, Antiquitäten-
+  schmuggel, Geldwäsche), es gibt keinen zu Beginn abgesteckten Verdächtigenkreis, neue
+  Verdächtige kommen laufend dazu, und Cold Cases mischen sich mit aktuellen Morden. →
+  **offener Whodunit mit hoher Nebenfiguren-Dichte.** (Recherche)
+- **Setting:** Seniorenresidenz Cooper's Chase, Kent/England
+- **Tempo/Komplexität:** hohe Taktung (kurze Kapitel mit Cliffhangern); viele Nebenfiguren/Fäden,
+  Fairness umstritten (Community: „wie eine Fernsehserie, die mehrere Handlungsfäden
+  zusammenführt“; „head-spinning number of side characters"; Fair-Play umstritten)
+- **Gewalt/Gore:** niedrig (Genre: Cosy-Konvention)
 
 ## 🔊 Bekanntheit / Reichweite: **Phänomen**
 
-Die höchste Stufe — deutlich über allem bisher Analysierten:
+Die höchste Stufe der Skala:
 
 - **17+ Mio. Bücher weltweit** verkauft (Stand Dez. 2025).
 - **45.000 Exemplare in den ersten 3 Tagen**; **schnellstverkaufendes Krimi-Debüt für
@@ -206,19 +237,20 @@ Die höchste Stufe — deutlich über allem bisher Analysierten:
   **Pierce Brosnan** (Ron), **Ben Kingsley** (Ibrahim), **Celia Imrie** (Joyce), Jonathan
   Pryce (Stephen), David Tennant, Richard E. Grant. Rezeption gemischt: sternenbesetzt und
   charmant, aber als Mystery schwach („Big Stars, Weak Mystery"). Bemerkenswert: Kritiker
-  monieren, Netflix habe **gerade die Red Herrings und figurenreichen Nebenstränge gestrichen**
-  — also genau das, was den Nutzer im Buch gestört hat.
+  monieren, Netflix habe **gerade die Red Herrings und figurenreichen Nebenstränge gestrichen**.
+
+## 🧮 Community-Gesamtbild
+
+Ein **Weltphänomen mit stabil hohen Wertungen** (⌀ 4,25 über ~1,91 Mio. Goodreads-Stimmen;
+nach dem schwächeren Debüt 3,85 durchweg 4,26–4,46). Gelobt werden Figuren, trockener Humor
+und die hohe Taktung; kritisiert werden die Dichte an Nebenfiguren und -strängen, das
+umstrittene Fair-Play und zu Bd. 4 der breite Demenz-Strang — der trotzdem der bestbewertete
+Band ist.
 
 ## Offene Fragen
 
-- **Welche Hörbuch-Fassung?** Es gibt je Band eine **gekürzte** (~10 h, CD/Download) und eine
-  **ungekürzte** (~11,5 h, Audible/Download). Das ändert die Hördauer um bis zu 1,5 h/Band und
-  ist für Längen-Vergleiche relevant. → Bei Gelegenheit fragen (Audible = i. d. R. ungekürzt).
-- **Band 5 als Abschluss?** Wie empfand er den (bisher) letzten Band, und will er Bd. 6 (2027)?
-- **Kennt er *We Solve Murders*?** Osmans zweite Reihe (Bd. 1 2024, Bd. 2 09/2026) — unabhängig
-  lesbar, dt. Ausgabe existiert. Als Kandidat prüfen: **Achtung**, gleicher Autor = gleiches
-  Risiko für Persona-Stränge. Noch **keine** Kandidaten-Notiz angelegt.
-- Netflix-Film gesehen? (Er strich genau die Nebenstränge, die den Nutzer störten.)
+*Nur Recherche-Lücken. Fragen an Lucas → [[Der Donnerstagsmordclub – Lucas]].*
+
 - Metadaten-Lücken (trotz gründlicher Suche nicht auffindbar, **nicht** stillschweigend
   geglättet): Amazon.de- und **Audible.de-Wertungen für alle 5 Bände** (Domains geblockt —
   für ein Hörbuch-Werk die wichtigste fehlende Quelle); LovelyBooks nur fragmentarisch
@@ -231,3 +263,11 @@ Die höchste Stufe — deutlich über allem bisher Analysierten:
   (600 vs. 588 Min) · Seitenzahl Bd. 2 DE (448, nur eine Quelle).
 - Die Rollenaufteilung Steck/Himmelstoß (wer liest welchen Strang) ist aus der Erzählstruktur
   **sehr plausibel abgeleitet**, aber von keinem Verlag explizit ausgewiesen.
+- **Offen (Beleg):** Die Zwei-Stimmen-Lösung als „strukturelles Highlight der Produktion“
+  (Abschnitt „Die Bände einzeln“) ist eine Einordnung der Analyse ohne Rezensionsbeleg.
+- **Offen (DNA-Beleg):** Tempo „gemütlich mit Sog-Phasen“ stand in der DNA. Belegt ist nur die
+  hohe Taktung (kurze Kapitel mit Cliffhangern); „gemütlich“ ist ohne Rezension, „Sog-Phasen“
+  ist Lucas' Interview-Wort → erst mit Rezension wieder aufnehmen.
+- **Offen (DNA-Beleg):** [[Cleverer Twist-Plot]] — der einzige Beleg („Christie-artig sorgfältig
+  konstruiert“, Genre-Übersichten) spricht von Konstruktion, nicht von Twists; die Fair-Play-Kritik
+  („backstory in the final scene that was never hinted at before“) spricht eher dagegen.

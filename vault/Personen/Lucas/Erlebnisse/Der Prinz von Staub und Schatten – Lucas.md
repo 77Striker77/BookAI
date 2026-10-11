@@ -2,11 +2,12 @@
 werk: "[[Der Prinz von Staub und Schatten]]"
 person: "Lucas"
 bereich: "buch"
+besitz: ""             # unbekannt — nicht erfragt (s. Offene Fragen)
+status: "durch"        # alle erschienenen Bände (2 von 5 geplant) gehört, bestätigt 2026-07-20; Reihe läuft weiter
 sprache_erlebt: "de"
 kontext: "Fantasy"
 verdict: "loved"
 format_erlebt: "hoerbuch"
-sprecher_bewertung: 2    # Hörbuch-Bonus, Günter Merlau (Interview 2026-07-20)
 bewertung:
   - { aspekt: "Geheimnisvolle Macht", wert: 2 }
   - { aspekt: "Rätselhafte Herkunft", wert: 2 }
@@ -24,22 +25,14 @@ spoiler_aktuell: 0       # laufender Band — zählt als NICHT erlebt
 spoiler_gesamt: 2        # Bd. 1-2 gehört (alles Erschienene); Bd. 3-5 offen
 spoiler_stand: "2026-08-11"  # Stand bestätigt am
 spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
-tags: [werk, reihe, hoerbuch, loved, fantasy]
+tags: [erlebnis, hoerbuch, loved]
 ---
 
 # Der Prinz von Staub und Schatten – Lucas
 
 Mein Erleben von [[Der Prinz von Staub und Schatten]]. Fakten, Bände und Metadaten stehen dort — hier nur, was Lucas erlebt und empfunden hat.
 
-### Band-Unterschiede
-Auftakt (Heimkehr) stärker gelobt als Bd. 2 (Widerstand). **Deckt sich mit meinem
-Empfinden — und ich kann die Ursache jetzt benennen (Interview 2026-07-20):** Bd. 2 „war
-schon auch gut", kippte aber **zu stark ins Politische**, und genau die Politik zwang
-Tarikh, seine Macht zu vernachlässigen (**laut Nutzer sogar Canon**). Damit ist die
-Fokus-Drift (−1 [[Konstanter Vorwärtsdrang]]) kein diffuses Abschweifen, sondern konkret
-**[[Intrigen-Overload ohne Progress]]** (−1): der Polit-Plot verdrängt genau das, was mich
-zieht — die geheimnisvolle Macht. Die Community-Kritik an Bd. 2 (Figur verwässert,
-schwächer) zeigt in dieselbe Richtung.
+**Kontext:** [[Fantasy]] · **Quellen:** [[2026-07-20 Interview Prinz von Staub und Schatten]] (Nachinterview: Ton/Aspekte ergänzt; Erstanalyse: [[2026-07-16 Interview Streitende Götter]]) · Universum-Ebene: [[Die Streitenden Götter – Lucas]]
 
 ## Lesestand (meine Formate)
 
@@ -47,6 +40,9 @@ schwächer) zeigt in dieselbe Richtung.
 | --- | --- |
 | 1 Heimkehr · 2 Widerstand | gehört (dt.) — bestätigt ✓ (Interview 2026-07-20) |
 | 3–5 | ⏳ nicht erschienen |
+
+- ~~Beide Bände wirklich schon durch?~~ ✓ bestätigt (Interview 2026-07-20) — beide Hörbücher komplett gehört.
+- Reihen-Pflicht: 5 geplant + Verbund → erfüllt.
 
 ## ⭐ Bewertung je Aspekt
 
@@ -62,8 +58,10 @@ schwächer) zeigt in dieselbe Richtung.
 | [[Zäher Start]] | −1 | Kommt langsam in Fahrt | „Brauchte etwas, bis es in Fahrt gekommen ist." |
 | [[Konstanter Vorwärtsdrang]] | −1 | Fokus driftet vom Kernziel/der Gabe weg, zu wenig Progress | „Der Fokus geht stark von seiner Fähigkeit und seinem ursprünglichen Ziel weg … könnte fokussierter sein und mehr Progress machen." |
 | [[Intrigen-Overload ohne Progress]] *(v. a. Bd. 2)* | −1 | „Zu politisch" nervt schnell; der Polit-Plot zwang Tarikh, seine Macht zu vernachlässigen (Canon) — **konkrete Wurzel der Fokus-Drift** | „Band 2 war schon auch gut, aber wenn es zu politisch wird, dann kann es auch schnell nerven. Und wegen der Politik musste er seine Macht vernachlässigen, was sogar Canon des Buches war." (2026-07-20) |
-| *geerbt:* [[Stimmige Weltatmosphäre]] | +1 | geerbt aus [[Die Streitenden Götter]] (dort pflegen) | „Welt an sich stimmig und gut" |
-| *geerbt:* [[Magiesystem-Tiefe]] | −1 | geerbt aus [[Die Streitenden Götter]] (dort pflegen) | „Standard-Elemente etwas lasch" |
+| *geerbt:* [[Stimmige Weltatmosphäre]] | +1 | geerbt aus [[Die Streitenden Götter – Lucas]] (dort pflegen) | „Welt an sich stimmig und gut" |
+| *geerbt:* [[Magiesystem-Tiefe]] | −1 | geerbt aus [[Die Streitenden Götter – Lucas]] (dort pflegen) | „Standard-Elemente etwas lasch" |
+
+*Geerbte Zeilen stehen bewusst nicht in `bewertung:` — Pflege nur an der Quelle ([[Die Streitenden Götter – Lucas]]).*
 
 **Verdikt-Herleitung:** Fünf starke +2-Eigen-Aspekte (Gabe, rätselhafte Herkunft,
 geheimnisvolle Aura, Erbe, Verfolgung) plus der Sprecher-Bonus ([[Günter Merlau]] +2)
@@ -72,12 +70,43 @@ Intrigen-/Politik-Überhang in Bd. 2). Die Schwächen sind Matching-relevant: De
 wünscht sich hier ausdrücklich MEHR Macht-Fokus und Progress → genau sein DCC-Kernwert,
 und die Bd.-2-Politik ist die konkrete Verletzung davon. Tempo „trägt, aber grenzwertig".
 
+## Band-Unterschiede: Community-Kurve vs. mein Empfinden
+
+Auftakt (Heimkehr) stärker gelobt als Bd. 2 (Widerstand). **Deckt sich mit meinem
+Empfinden — und ich kann die Ursache jetzt benennen (Interview 2026-07-20):** Bd. 2 „war
+schon auch gut", kippte aber **zu stark ins Politische**, und genau die Politik zwang
+Tarikh, seine Macht zu vernachlässigen (**laut Nutzer sogar Canon**). Damit ist die
+Fokus-Drift (−1 [[Konstanter Vorwärtsdrang]]) kein diffuses Abschweifen, sondern konkret
+**[[Intrigen-Overload ohne Progress]]** (−1): der Polit-Plot verdrängt genau das, was mich
+zieht — die geheimnisvolle Macht. Die Community-Kritik an Bd. 2 (Figur verwässert,
+schwächer) zeigt in dieselbe Richtung.
+
+## DNA-Begründung
+
+Objektive DNA: s. [[Der Prinz von Staub und Schatten]]. Aus der früheren Fakten-DNA hierher
+verschoben, weil es meine Lesart bzw. Wertung ist:
+- **Ton:** [[Geheimnisvoll-mysteriöse Aura]] (die geheimnisvolle Grundstimmung um Held & Gabe = der Sog)
+- **Handwerk (negativ):** [[Zäher Start]], [[Konstanter Vorwärtsdrang]] verletzt, [[Intrigen-Overload ohne Progress]] (Bd. 2, „zu politisch")
+- **Tempo:** ruhig-stetig, „trägt, aber grenzwertig"
+- **Matching-Regel:** Die geheimnisvolle Macht des Helden MUSS zentral bleiben/eskalieren
+  („es könnte noch mehr um seine Macht gehen") — Kandidaten mit Polit-/Intrigen-Überhang, der
+  den Macht-Fokus verdrängt, sind Malus.
+
+## Hörbuch-Erlebnis
+
+- **Sprecher (Hörbuch-Bonus):** [[Günter Merlau]] +2 — „trug es klar" (kein Einfluss aufs inhaltl. Matching, aber Plus für Empfehlungen)
+
 ## 🧮 Reihen-Gesamtbild (letzter Schritt)
 
-Community-Wertung Bd. 1 hoch (Audible.de 4,9 · ~1.633 belegt; Amazon ~4,7/654 unbelegt), Bd. 2 noch dünn (~400). Tenor: flüssiger Stil,
-starke Figuren, dichte Wüsten-Atmosphäre; einzige nennenswerte Kritik ist der **schwächere
-Bd. 2** (Figur verwässert). **Mein Empfinden trifft die Community an einem Punkt genau:**
+Community-Wertung und Tenor: s. [[Der Prinz von Staub und Schatten]] (Community-Gesamtbild) —
+Bd. 1 hoch bewertet, einzige nennenswerte Kritik ist der **schwächere Bd. 2**. **Mein Empfinden trifft die Community an einem Punkt genau:**
 die Fokus-/Progress-Schwäche, die ich fühle, spiegelt sich in der Community-Kritik an Bd. 2.
 Für Empfehlungen: Wüsten-/Erbe-/Gaben-Stoff trifft, MUSS aber fokussiert erzählt sein und
-die Hauptfigur klar konturiert halten. Vergleich zu Sturmfels: siehe dort (beide gleich
+die Hauptfigur klar konturiert halten. Vergleich zu Sturmfels: siehe [[Sturmfels-Akademie – Lucas]] (beide gleich
 stark geliebt, gleicher wunder Punkt — der zäh-unfokussierte Start).
+
+## Offene Fragen an Lucas
+
+- Besitz: Hörbücher gekauft (z. B. Audible) oder geliehen? (`besitz:` ist leer, nie raten)
+- Erzählstil (Perspektive) und Komplexität sind per Empfinden noch nicht erfasst
+  (Interview 2026-07-20, „Offen geblieben") — bei Gelegenheit.

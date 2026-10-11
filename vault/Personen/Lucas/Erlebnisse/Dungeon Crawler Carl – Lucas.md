@@ -2,6 +2,8 @@
 werk: "[[Dungeon Crawler Carl]]"
 person: "Lucas"
 bereich: "buch"
+besitz: ""             # unbekannt — nicht erfragt (s. Offene Fragen)
+status: "laeuft"       # Bd. 1 gehört, Bd. 2 am Hören (Lesestand, bestätigt 2026-08-11)
 sprache_erlebt: "de"
 kontext: "LitRPG"
 verdict: "loved"        # gilt für das WERK als Ganzes (Nutzer bewertet Reihen, nicht Bände)
@@ -23,31 +25,31 @@ spoiler_aktuell: 2       # laufender Band — zählt als NICHT erlebt
 spoiler_gesamt: 8        # Bd. 1 gehört, Bd. 2 am Hören -> Grenze ist Bd. 1
 spoiler_stand: "2026-08-11"  # Stand bestätigt am
 spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
-tags: [werk, reihe, hoerbuch, loved, litrpg]
+tags: [erlebnis, hoerbuch, loved]
 ---
 
 # Dungeon Crawler Carl – Lucas
 
 Mein Erleben von [[Dungeon Crawler Carl]]. Fakten, Bände und Metadaten stehen dort — hier nur, was Lucas erlebt und empfunden hat.
 
-### Band-Unterschiede
-Höhepunkt-Bänder: **Bd. 5 (4,69)**, Bd. 7 (4,68 trotz Kritik), Bd. 6 (4,65). Schwächster:
-**Bd. 3 (4,40)**. **Relevant für meinen roten Faden:** Bd. 7 wird für genau meine
-Schwäche kritisiert (Leerlauf/aufgebläht/zu viele Stränge) — dort sollte ich bei DCC
-aufpassen, wenn ich hinkomme (bin erst bei Bd. 2 dt.).
+**Kontext:** [[LitRPG]] · **Quellen:** [[2026-07-16 Erstinterview Dungeon Crawler Carl]]
+
+> **Bewertungseinheit ist das WERK** — der Nutzer bewertet Reihen als Ganzes, nicht
+> Einzelbände. Abweichungen einzelner Bände nur, wenn er sie selbst anspricht (s. u.).
 
 ## Lesestand (meine Formate)
 
 | Bd. | Status |
 | --- | --- |
-| 1 | gehört (dt., 14 h 24) |
-| 2 | **am Hören** (dt., 12 h 42) |
-| 3 | ⏳ dt. Print 18.11.2026 / Hörbuch noch ohne Termin |
-| 4 | ⏳ dt. Print 24.02.2027 (Hörbuch offen) — Nutzer wartet bewusst (kein Englisch) |
-| 5–8 | ⏳ Bd. 5 Print ~23.06.2027 (unsicher), Bd. 6–8 unterminiert — wartet auf Deutsch |
+| 1 | gehört (dt.) |
+| 2 | **am Hören** (dt.) |
+| 3 | ⏳ wartet auf dt. Fassung (Termine s. [[Dungeon Crawler Carl]]) |
+| 4 | ⏳ Nutzer wartet bewusst (kein Englisch) |
+| 5–8 | ⏳ wartet auf Deutsch |
 
 → Zwischen den dt. Veröffentlichungen entsteht die Lücke, die ähnliche Empfehlungen
-füllen sollen. Engl. Fassung (Jeff Hays/Soundbooth, ~140 h gesamt) ist keine Option.
+füllen sollen. Engl. Fassung (s. [[Dungeon Crawler Carl]]) ist keine Option.
+8 Bände erschienen, Finale angekündigt → **Reihen-Pflicht (≥3 Bände) klar erfüllt.**
 
 ## ⭐ Bewertung je Aspekt (Werk gesamt, Basis: Bd. 1 + laufend Bd. 2)
 
@@ -75,24 +77,32 @@ füllen sollen. Engl. Fassung (Jeff Hays/Soundbooth, ~140 h gesamt) ist keine Op
 | --- | --- | --- |
 | — | bisher keine genannt | |
 
+## Band-Unterschiede: Community-Kurve vs. mein Empfinden
+
+**Relevant für meinen roten Faden:** Bd. 7 wird für genau meine
+Schwäche kritisiert (Leerlauf/aufgebläht/zu viele Stränge, s. [[Dungeon Crawler Carl]]) — dort sollte ich bei DCC
+aufpassen, wenn ich hinkomme (bin erst bei Bd. 2 dt.).
+
 ## DNA-Begründung
 
-Objektiv (Wikipedia/Rezensionskonsens): LitRPG mit Interface-Elementen, Pendeln zwischen
-absurdem Humor und echter Härte, Konzern-/Reality-TV-Satire, schnelles Etagen-Pacing.
+Objektive DNA: s. [[Dungeon Crawler Carl]].
 Subjektiv deckungsgleich: Nutzer wählte ALLE Kernelemente aktiv und ergänzte selbst
 Fokus/Vorwärtsdrang und die Carl-Figurenzeichnung.
 Quelle: [[2026-07-16 Erstinterview Dungeon Crawler Carl]].
 
 ## Hörbuch-Erlebnis
 
-Dt. Fassung (Übers. Ruggero Leò, FISCHER Tor/Audible), [[Stefan Kaminski]] solo:
+Dt. Fassung (Produktion s. [[Dungeon Crawler Carl]]), [[Stefan Kaminski]] solo:
 **„Trägt massiv."** Sprecherqualität belegt hochrelevant.
 
 ## 🧮 Reihen-Gesamtbild (letzter Schritt)
 
-Community ⌀ ~4,5–4,6/5 bei ~1,7 Mio Goodreads-Wertungen (engl. Audible ~4,9 · 34k+) —
-LitRPG-Phänomen mit sehr breiter, stabiler Basis. Tenor deckt sich voll mit meinem
+Community-⌀ ~4,5–4,6/5 (s. [[Dungeon Crawler Carl]], Community-Gesamtbild). Tenor deckt sich voll mit meinem
 +2-Profil (Duo, Humor+Tiefe, Satire, Sprecher). **Ein Warnsignal für später:** Bd. 7
 wird für „Leerlauf-Tempo, aufgebläht, zu viele Subplots" kritisiert — exakt mein roter
 Faden [[Konstanter Vorwärtsdrang]]. Da ich (dt.) erst bei Bd. 2 bin, noch irrelevant,
-aber vermerkt. Reihe (noch) nicht abgeschlossen (Finale Bd. 9 offen).
+aber vermerkt.
+
+## Offene Fragen an Lucas
+
+- Besitz: Hörbücher gekauft (z. B. Audible) oder geliehen? (`besitz:` ist leer, nie raten)
