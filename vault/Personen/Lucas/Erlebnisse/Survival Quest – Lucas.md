@@ -2,6 +2,8 @@
 werk: "[[Survival Quest]]"
 person: "Lucas"
 bereich: "buch"
+besitz: ""             # unbekannt — nicht erfragt (s. Offene Fragen)
+status: "durch"        # Bd. 1–7 von 7 gehört (Lesestand, bestätigt 2026-08-11)
 sprache_erlebt: "de"
 kontext: "LitRPG"
 verdict: "mixed"
@@ -24,35 +26,34 @@ spoiler_aktuell: 0       # laufender Band — zählt als NICHT erlebt
 spoiler_gesamt: 7        # Bd. 1-7 gehört, abgeschlossen -> voll
 spoiler_stand: "2026-08-11"  # Stand bestätigt am
 spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
-tags: [werk, reihe, hoerbuch, mixed, litrpg]
+tags: [erlebnis, hoerbuch, mixed]
 ---
 
 # Survival Quest – Lucas
 
 Mein Erleben von [[Survival Quest]]. Fakten, Bände und Metadaten stehen dort — hier nur, was Lucas erlebt und empfunden hat.
 
-### Band-Unterschiede (mit meinem Empfinden abgeglichen)
-- **Bd. 1 unter Reihenschnitt (4,15 < 4,19)** und **Finale-Dip Bd. 7 (4,05)** spiegeln
-  bandgenau meine zwei stärksten Kritikpunkte: mechanik-/grinding-lastiger Einstieg und an
-  den Haaren herbeigezogenes Ende. Die Community bestätigt beides — es ist also kein reines
-  Geschmacksurteil, sondern eine belegte Schwäche des Werks.
-- Der **Mittelteil (Bd. 2, 3, 6 mit 4,23–4,27)** wird am stärksten bewertet — dort trägt
-  die Reihe am meisten; genau da lag für mich der (begrenzte) Reiz.
+**Kontext:** [[LitRPG]] · **Quellen:** [[2026-07-16 Interview Survival Quest]]
+
+> **Bewertungseinheit ist das WERK.** Der Nutzer bewertet die Reihe als Ganzes. Erster
+> bewusst als „okay" (`mixed`) eingebrachter Titel — Start des Graubereich-Durchlaufs.
+> Anti-Referenz zu [[Dungeon Crawler Carl]] im selben Kontext [[LitRPG]].
 
 ## Lesestand (meine Formate)
 
 | Bd. | Status |
 | --- | --- |
-| 1 | gehört (dt., 11 h 42) |
-| 2 | gehört (dt., 15 h 46) |
-| 3 | gehört (dt., 15 h 27) |
-| 4 | gehört (dt., 18 h 21) |
-| 5 | gehört (dt., 15 h 24?) |
-| 6 | gehört (dt., 16 h 23) |
-| 7 | gehört (dt., 15 h 45) |
+| 1 | gehört (dt.) |
+| 2 | gehört (dt.) |
+| 3 | gehört (dt.) |
+| 4 | gehört (dt.) |
+| 5 | gehört (dt.) |
+| 6 | gehört (dt.) |
+| 7 | gehört (dt.) |
 
-→ Reihe komplett gehört und abgeschlossen (**gesamt ~109 h**, nur Bd. 5 Dauer unbestätigt;
-**Reihenschnitt ~15–16 h/Band ≤ ~20 h → im Komfortbereich**). Kein Nachschub nötig; dient
+→ Reihe komplett gehört und abgeschlossen (Dauern s. [[Survival Quest]];
+**Reihenschnitt ~15,5 h/Band ≤ ~20 h → im Komfortbereich**). **7 Bände → Reihen-Pflicht
+(≥3) klar erfüllt.** Keine Wartezeit — Vorteil gegenüber DCC. Kein Nachschub nötig; dient
 als **Kalibrier- und Anti-Referenz** fürs Matching, nicht als Lücke, die gefüllt werden muss.
 
 ## ⭐ Bewertung je Aspekt (Werk gesamt)
@@ -86,13 +87,26 @@ komplett gehört), aber kein Sog wie bei DCC.
 | ab 2 | Der einzige echte Spannungsanker (Gefangenschaft/kein Ausloggen) wird nach Bd. 2 irrelevant | „Nach Band 2 ist das aber auch nur noch irrelevant" |
 | 7/Ende | Auflösung wirkt an den Haaren herbeigezogen | „die Auflösung am Ende etwas an den Haaren herbeigezogen" |
 
+## Band-Unterschiede: Community-Kurve vs. mein Empfinden
+
+- **Bd. 1 unter Reihenschnitt (4,15 < 4,19)** und **Finale-Dip Bd. 7 (4,05)** spiegeln
+  bandgenau meine zwei stärksten Kritikpunkte: mechanik-/grinding-lastiger Einstieg und an
+  den Haaren herbeigezogenes Ende. Den Einstieg deckt auch die Community-Kritik; beim Finale
+  liegt nur die niedrigere Wertung vor, keine Rezension.
+- Die **stärksten Bände (Bd. 2, 3, 6 mit 4,23–4,27)** liegen nach dem Einstieg — dort trägt
+  die Reihe am meisten. Ob dort für mich der (begrenzte) Reiz lag, ist nicht erfragt (s. Offene Fragen).
+- Die Community-Kritik deckt sich mit meinen Punkten: Bd. 1 „Lösung fällt vom Himmel" →
+  meine [[Regel-Inkonsistenz]]- und [[Setup ohne Payoff]]-Kritik; „worst cheater" → mein
+  [[Überzogener Auserwählter]]-Vorwurf; Bd. 7 am schwächsten → mein „Auflösung an den
+  Haaren herbeigezogen".
+
 ## DNA-Begründung
 
-Objektiv (Rezensionskonsens/Fandom): Pionier-LitRPG mit tiefem Crafting-/Wirtschafts-
-und Klassensystem, Progression vom Sträfling zum Weltgestalter, Ich-Perspektive. Subjektiv
+Objektive DNA: s. [[Survival Quest]]. Subjektiv
 (Interview): genau die Crunch-Tiefe + Verzettelung, die das Genre auszeichnet, wirkt beim
 Nutzer als **Minus**, weil sie den Fokus/Vorwärtsdrang untergräbt — DCC hat dieselben
-Zutaten, aber story-dienlich dosiert. Quelle: [[2026-07-16 Interview Survival Quest]].
+Zutaten, aber story-dienlich dosiert. Humor war für mich kein Problem, aber auch kein
+Träger. Quelle: [[2026-07-16 Interview Survival Quest]].
 
 ## Hörbuch-Erlebnis
 
@@ -102,9 +116,15 @@ Verstärker** — ordentlich gelesen, jedoch kein Erlebnis-Faktor wie [[Stefan K
 
 ## 🧮 Reihen-Gesamtbild (letzter Schritt)
 
-Community-⌀ ~4,19/5 (~44k Goodreads, Stand 2026-07) — etablierte, solide bewertete Genre-Säule; mein
+Community-⌀ ~4,19/5 (s. [[Survival Quest]], Community-Gesamtbild); mein
 Urteil (mixed) liegt **unter** dem Community-Schnitt. Das ist konsistent: Was die
 LitRPG-Szene an Mahanenko schätzt (System-Tiefe, Crunch, Progression), ist genau das, was
 meinen roten Faden [[Konstanter Vorwärtsdrang]] reibt. **Kalibrier-Erkenntnis:** hohe
 Genre-Wertung ≠ Passung für mich — Crunch-Tiefe + Sidequest-Wildwuchs sind belastbare
 Negativ-Prädiktoren.
+
+## Offene Fragen an Lucas
+
+- Besitz: Hörbücher gekauft (z. B. Audible) oder geliehen? (`besitz:` ist leer, nie raten)
+- Lagen deine „einzelnen starken Momente“ (Interview F3) eher in Bd. 2, 3 und 6? Eine frühere
+  Fassung hat das angenommen, belegt ist es nicht.

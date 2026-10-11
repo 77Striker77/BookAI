@@ -15,7 +15,7 @@ angekuendigt: ""            # neue Bände / Spin-offs / Erweiterungen (z. B. Mus
 sprachen_verfuegbar: []     # [de, en, es, …] — Buch UND/ODER Hörbuch
 spoiler_aliase: []           # weitere Schreibweisen des Werktitels
 isbn_bd1: ""
-sprecher: ""           # + [[Link]] im Body
+sprecher: ""           # wer das Hörbuch liest (Fakt — auch wenn jemand es gelesen hat); + [[Link]] im Body; leer nur ohne Hörbuch
 performance: ""        # solo | voll-cast | duett
 ungekuerzt:
 # --- Nächste Releases (DE und EN sind das Wichtige) ---
@@ -28,11 +28,13 @@ rating_stimmen_gesamt: "" # ungefähre Gesamtzahl der Wertungen über die Reihe
 bekanntheit_stufe: ""  # Geheimtipp | Szene-bekannt | Etabliert | Bestseller | Phänomen
 hype: ""               # Hype-Signal (neu/steigend/cross-media/Verfilmung/Bestseller) — oder leer
 # --- DNA maschinenlesbar (Werte = Namen der Merkmal-Notizen) ---
+# NUR was Recherche/Rezensionen belegen (Beleg im Body). Persönliche Urteile („Setup ohne
+# Payoff“ nur aus dem Interview) stehen ausschließlich in der Erlebnis-Notiz (`bewertung:`).
 genres: []
 themen: []
 ton: []
 erzaehlstil: []
-tempo: ""
+tempo: ""             # neutral beschrieben, mit Community-Beleg — keine Nutzerzitate
 komplexitaet: ""
 figuren: []
 setting: []
@@ -48,13 +50,14 @@ tags: [werk, buch]           # + reihe | universum | standalone-universum (= wer
 
 > 👤 **Erleben je Person:** [[⟨Werktitel⟩ – ⟨Person⟩]] — Lesestand, Bewertung, Verdikt.
 
-⟨Kurzbeschreibung 2–3 Sätze + Reihen-Status (x Bände, abgeschlossen/laufend) →
-Reihen-Pflicht-Check gleich hier.⟩
+⟨Kurzbeschreibung 2–3 Sätze + Reihen-Status (x Bände, abgeschlossen/laufend).⟩
 
-> **Bewertungseinheit ist das WERK.** Der Nutzer bewertet Reihen/Universen als Ganzes.
-> NIE bandweise interviewen. Band-Abweichungen nur erfassen, wenn er sie selbst nennt.
+> ⚠️ **Fakten-Notiz = für alle Personen gleich.** Hier steht nichts, was eine Person erlebt
+> oder empfindet — kein Lesestand, kein Verdikt, kein Kontext, keine Wertungs-Vorzeichen,
+> keine No-Go-Prüfung (Reihen-Pflicht ist eine Personenregel). Das alles gehört in die
+> Erlebnis-Notiz. Prüffrage je Satz: *Wäre er für eine andere Person genauso wahr?*
 
-**Kontext:** [[⟨…⟩]] · **Autor:** [[⟨…⟩]] · **Sprecher:** [[⟨…⟩]]
+**Genre:** ⟨…⟩ · **Autor:** [[⟨…⟩]] · **Sprecher (dt.):** [[⟨…⟩]]
 
 ## 🗺️ Universum & Reihen-Landkarte (investigativ — Pflicht)
 
@@ -77,10 +80,12 @@ Reihen-Pflicht-Check gleich hier.⟩
 > DANN das Reihen-Gesamtbild als letzter Schritt. **Deutsch und Englisch sind die
 > wichtigen Sprachen** — beide Release-Daten getrennt führen.
 
-| # | Titel | 🇩🇪 Release (Buch/Hörb.) | 🇬🇧 Release | ⭐ Wertung (⌀ · Anzahl) | mein Lesestand |
-| --- | --- | --- | --- | --- | --- |
-| 1 | ⟨…⟩ | ⟨2026⟩ | ⟨2020⟩ | GR ⟨4,5⟩ · ⟨120k⟩ · LB ⟨4,7⟩ · ⟨80⟩ | gehört |
-| 2 | ⟨…⟩ | ⟨…⟩ | ⟨…⟩ | ⟨…⟩ | am Hören |
+| # | Titel | 🇩🇪 Release (Buch/Hörb.) | 🇬🇧 Release | ⭐ Wertung (⌀ · Anzahl) |
+| --- | --- | --- | --- | --- |
+| 1 | ⟨…⟩ | ⟨2026⟩ | ⟨2020⟩ | GR ⟨4,5⟩ · ⟨120k⟩ · LB ⟨4,7⟩ · ⟨80⟩ |
+| 2 | ⟨…⟩ | ⟨…⟩ | ⟨…⟩ | ⟨…⟩ |
+
+**Hördauer gesamt (dt.):** ⟨~x h⟩ · **Schnitt:** ⟨~y h/Band⟩
 
 **Wertung = echte Zahlen je Band** (Goodreads/LovelyBooks/Amazon/Audible mit ANZAHL der
 Wertungen). Buch- und Hörbuch-Wertungen zum Inhalt gemeinsam nutzen; Sprecherkritik
@@ -92,6 +97,9 @@ separat. Keine erfundenen Werte — fehlt eine Wertung, „—" eintragen.
 ### 👎 Was die Community kritisiert (aus echten Rezensionen)
 - ⟨konkreter Kritikpunkt⟩
 
+### Auffällige Band-Unterschiede (Community)
+- ⟨z. B. „Bd. 1 klar unter dem Reihenschnitt“ — nur Zahlen und Rezensionen⟩
+
 ## 🗓️ Nächste Releases & Planung
 
 - **Nächster Band Deutsch:** ⟨Titel + Datum/Status, oder „alle erschienen"⟩
@@ -101,9 +109,19 @@ separat. Keine erfundenen Werte — fehlt eine Wertung, „—" eintragen.
 
 ## DNA (als Links)
 
+> Nur belegte Merkmale, je mit Quelle (Rezension/Recherche). **Keine (+)/(−)** — die
+> Wertung ist persönlich und steht in der Erlebnis-Notiz.
+
 - **Genres:** … · **Themen:** … · **Ton:** … · **Erzählstil:** …
 - **Figuren:** … · **Handwerk:** … · **Setting:** … · **Tempo/Komplexität:** …
 
+## 🧮 Community-Gesamtbild
+
+⟨Reihenschnitt, Wertungszahl, roter Faden von Lob/Kritik über alle Bände — ohne Bezug auf
+eine Person.⟩
+
 ## Offene Fragen
+
+*Nur Recherche-Lücken (Daten, ISBNs, Dauern). Fragen an eine Person → ihre Erlebnis-Notiz.*
 
 - …

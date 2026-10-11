@@ -17,15 +17,18 @@ verdict: ""            # loved | liked | mixed | disliked — gilt für das WERK
 format_erlebt: ""      # buch | hoerbuch | beides
 # --- Aspekt-Bewertungen fürs GESAMTE Werk (Spiegel der Tabelle; wert: -2..+2) ---
 bewertung: []
-tags: [werk]           # + reihe/hoerbuch/loved/…
+tags: [erlebnis]       # + hoerbuch/buch, verdict (loved/…) — Genre-Tags gehören in die Fakten-Notiz
 ---
 
 # ⟨Werktitel⟩ – ⟨Person⟩
 
 Mein Erleben von [[⟨Werktitel⟩]]. Fakten, Bände und Metadaten stehen dort — hier nur, was ⟨Person⟩ erlebt und empfunden hat.
 
-### Auffällige Band-Unterschiede (falls die Wertungen je Band schwanken)
-- ⟨z. B. „Bd. 1 schwächer bewertet als der Rest — deckt sich mit meinem zähen Start"⟩
+**Kontext:** [[⟨…⟩]] · **Quellen:** [[⟨Interview⟩]]
+
+> **Bewertungseinheit ist das WERK.** Bewertet wird die Reihe/das Universum als Ganzes.
+> NIE bandweise interviewen. Band-Abweichungen nur erfassen, wenn die Person sie selbst nennt.
+> Zahlen und Community-Befunde stehen in der Fakten-Notiz — hier nur darauf verweisen.
 
 ## Lesestand (nur meine Formate/Fortschritt)
 
@@ -58,9 +61,15 @@ Mein Erleben von [[⟨Werktitel⟩]]. Fakten, Bände und Metadaten stehen dort �
 | Bd. | Abweichung | Beleg |
 | --- | --- | --- |
 
+## Band-Unterschiede: Community-Kurve vs. mein Empfinden
+
+⟨Nur der Abgleich, z. B. „der schwache Bd. 1 (s. Fakten) deckt sich mit meinem zähen Start“.
+Die Zahlen selbst stehen in der Fakten-Notiz.⟩
+
 ## DNA-Begründung
 
-⟨Woraus abgeleitet; objektiv vs. was der NUTZER daran mochte. Interview verlinken.⟩
+⟨Was die Person an der (belegten) DNA mochte oder nicht — und warum. Interview verlinken.
+Die objektive DNA steht in der Fakten-Notiz.⟩
 
 ## Hörbuch-Erlebnis (falls gehört)
 
@@ -68,7 +77,10 @@ Mein Erleben von [[⟨Werktitel⟩]]. Fakten, Bände und Metadaten stehen dort �
 
 ## 🧮 Reihen-Gesamtbild (LETZTER Schritt — erst nach allen Bänden)
 
-⟨Kurzes Fazit, das die Einzelbände zusammenzieht: durchschnittliche Community-Wertung,
-roter Faden von Lob/Kritik über alle Bände, und wie sich das zu MEINEM Empfinden verhält
-(deckt es sich, oder ist meine Kritik/mein Lob eine persönliche Eigenheit?). Bei einem
-Universum: dieses Fazit fließt seinerseits in die Overall-Notiz ein.⟩
+⟨Wie sich das Community-Gesamtbild (s. Fakten-Notiz) zu MEINEM Empfinden verhält: deckt es
+sich, oder ist meine Kritik/mein Lob eine persönliche Eigenheit? Bei einem Universum: dieses
+Fazit fließt seinerseits in die Overall-Erlebnis-Notiz ein.⟩
+
+## Offene Fragen an ⟨Person⟩
+
+- ⟨was nur die Person beantworten kann — nie raten⟩

@@ -7,7 +7,7 @@ verwandte_reihen: ["The Bard from Barliona (Spin-off)"]
 autor: "Vasily Mahanenko"
 jahr_start: 2012
 erscheinungsdatum_bd1: "RU 'Путь Шамана. Начало Пути' 2012 (Web)/2013 (Druck); EN 'Survival Quest' Kindle 20.04.2015; DE 'Der Weg des Schamanen' TB + eBook + Hörbuch 21.12.2018 (Bastei Lübbe / Lübbe Audio)"
-letztes_datum: "DE Bd. 7 'Krieg der Clans' Hörbuch ~09.05.2022 (unbest.); EN 'Clans War' Kindle 12.02.2018"
+letztes_datum: "DE Bd. 7 'Krieg der Clans' Hörbuch 09.05.2022 (bestätigt 2026-07-20, s. Offene Fragen); EN 'Clans War' Kindle 12.02.2018"
 baende_gesamt: 7
 baende_geplant: 7
 abgeschlossen: true
@@ -27,12 +27,12 @@ rating_goodreads: 4.15
 genres: [LitRPG]
 themen: [System & Progression, Underdog-Aufstieg]
 ton: []
-erzaehlstil: [Ich-Erzähler, Schwache Rahmenhandlung]
-tempo: "uneben — durch Grinding-/Zahlen-Längen gebremst"
-komplexitaet: "hoch an Spielmechanik-Details, dünn an Story-Struktur"
-figuren: [Überzogener Auserwählter, Blasse Nebenfiguren, Wachsende Hauptfigur]
-setting: [Stimmige Weltatmosphäre, Schwache Rahmenhandlung]
-handwerk: [Nebenquest-Wildwuchs, Setup ohne Payoff, Über-crunchiges Zahlensystem, Regel-Inkonsistenz]
+erzaehlstil: [Ich-Erzähler]
+tempo: "uneben — durch Grinding-Längen gebremst"
+komplexitaet: "hoch an Spielmechanik-Details"
+figuren: [Überzogener Auserwählter]
+setting: []
+handwerk: [Regel-Inkonsistenz]
 cover: ""
 quellen:
   - "https://www.goodreads.com/book/show/25342750-survival-quest"
@@ -44,7 +44,7 @@ quellen:
 analysiert: 2026-07-16
 spoiler_aliase: []           # weitere Schreibweisen des Werktitels
 erlebnisse: ["[[Survival Quest – Lucas]]"]
-tags: [werk, buch, reihe]
+tags: [werk, buch, reihe, litrpg]
 ---
 
 # Survival Quest
@@ -53,16 +53,11 @@ tags: [werk, buch, reihe]
 
 LitRPG-Reihe (russischer Ursprung, „The Way of the Shaman") um Daniel „Mahan", der zu
 acht Jahren im Full-Immersion-Spiel Barliona verurteilt wird und die obskure
-Schamanen-Klasse zugeteilt bekommt. **Die Gefängnis-/Minen-Prämisse trägt im Wesentlichen
+Schamanen-Klasse zugeteilt bekommt. **Die Gefängnis-/Minen-Prämisse prägt im Wesentlichen
 nur Band 1** — ab Bd. 2 verlässt Mahan die Mine, ab Bd. 3 wird er Clan-Anführer; die Reihe
-kippt in eskalierenden Clan-Krieg und Fraktions-Politik. **7 Bände, abgeschlossen →
-Reihen-Pflicht (≥3) klar erfüllt.**
+kippt in eskalierenden Clan-Krieg und Fraktions-Politik. **7 Bände, abgeschlossen.**
 
-> **Bewertungseinheit ist das WERK.** Der Nutzer bewertet die Reihe als Ganzes. Erster
-> bewusst als „okay" (`mixed`) eingebrachter Titel — Start des Graubereich-Durchlaufs.
-> Anti-Referenz zu [[Dungeon Crawler Carl]] im selben Kontext [[LitRPG]].
-
-**Kontext:** [[LitRPG]] · **Autor:** [[Vasily Mahanenko]] · **Sprecher (dt.):** [[Thomas Balou Martin]]
+**Genre:** [[LitRPG]] · **Autor:** [[Vasily Mahanenko]] · **Sprecher (dt.):** [[Thomas Balou Martin]]
 
 ## 🗺️ Universum & Reihenfolge
 
@@ -75,25 +70,27 @@ Reihen-Pflicht (≥3) klar erfüllt.**
 ## 📚 Die Bände einzeln
 
 Deutsche Reihe bei Bastei Lübbe / Lübbe Audio (Sprecher durchgängig
-[[Thomas Balou Martin]], ungekürzt, 21.12.2018 – ~Mai 2022; Übers. **Andreas Kasprzak**).
+[[Thomas Balou Martin]], ungekürzt, 21.12.2018 – 09.05.2022; Übers. **Andreas Kasprzak**).
 EN „The Way of the Shaman" (Magic Dome Books, EN-Hörbuch [[Jonathan Yen]] bei Tantor);
 russisches Original ab 2012. **Goodreads-Werte = englische Ausgaben, bandgenau** (die dt.
 Ausgaben haben zu wenige Einzelwertungen). Vollständige Metadaten je Band → Sektion
 „🗃️ Metadaten je Band" unten.
 
-| # | Titel 🇩🇪 | Titel 🇬🇧 | 🇩🇪 Hörbuch (Dauer · Datum) | ⭐ Goodreads (⌀ · Anzahl) | Lesestand |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Der Weg des Schamanen | Survival Quest (EN 2015 · RU 2012) | 11 h 42 · 21.12.2018 | 4,15 · ~11,2k | gehört |
-| 2 | Der dunkle Schamane | The Kartoss Gambit | 15 h 46 · 31.07.2019 | **4,26 · ~6,8k** | gehört |
-| 3 | Das Geheimnis des dunklen Waldes | The Secret of the Dark Forest | 15 h 27 · 2020 | 4,23 · ~5,9k | gehört |
-| 4 | Die Phantomburg | The Phantom Castle | 18 h 21 · 2020 (Tag unsicher) | **4,14 · ~4,8k** (2.-niedrigster) | gehört |
-| 5 | Das Karmadont-Schachspiel | The Karmadont Chess Set | 15 h 24? · 25.10.2021 | 4,21 · ~5,0k | gehört |
-| 6 | Die Rache des Schamanen | Shaman's Revenge | 16 h 23 · 20.12.2021 | **4,27 · ~4,1k (höchster)** | gehört |
-| 7 | Krieg der Clans | Clans War (EN 2018) | 15 h 45 · 09.05.2022 | **4,05 · ~3,3k (niedrigster — Finale)** | gehört |
+| # | Titel 🇩🇪 | Titel 🇬🇧 | 🇩🇪 Hörbuch (Dauer · Datum) | ⭐ Goodreads (⌀ · Anzahl) |
+| --- | --- | --- | --- | --- |
+| 1 | Der Weg des Schamanen | Survival Quest (EN 2015 · RU 2012) | 11 h 42 · 21.12.2018 | 4,15 · ~11,2k |
+| 2 | Der dunkle Schamane | The Kartoss Gambit | 15 h 46 · 31.07.2019 | **4,26 · ~6,8k** |
+| 3 | Das Geheimnis des dunklen Waldes | The Secret of the Dark Forest | 15 h 27 · 2020 | 4,23 · ~5,9k |
+| 4 | Die Phantomburg | The Phantom Castle | 18 h 21 · 2020 (Tag unsicher) | **4,14 · ~4,8k** (2.-niedrigster) |
+| 5 | Das Karmadont-Schachspiel | The Karmadont Chess Set | 15 h 24? · 25.10.2021 | 4,21 · ~5,0k |
+| 6 | Die Rache des Schamanen | Shaman's Revenge | 16 h 23 · 20.12.2021 | **4,27 · ~4,1k (höchster)** |
+| 7 | Krieg der Clans | Clans War (EN 2018) | 15 h 45 · 09.05.2022 | **4,05 · ~3,3k (niedrigster — Finale)** |
 
 *Hördauern Bd. 4/6/7 (18:21 / 16:23 / 15:45) und Hörbuch-Daten Bd. 2 (31.07.2019), 6
 (20.12.2021), 7 (09.05.2022) bestätigt (Recherche 2026-07-20; Snippets, dt. Shops 403).
 Weiter offen: Bd. 5 Dauer (15:24 vs. 15:27) und Bd. 4 Hörbuch-Tag (2020 vs. 2021). ASINs/EANs/ISBNs belegt.*
+
+**Hördauer gesamt (dt.):** ~109 h (6.528 min, Bd. 5 mit 15:24 gerechnet) · **Schnitt:** ~15,5 h/Band
 
 **Reihenschnitt ~4,19/5 (~44k Wertungen, Stand 2026-07).** Höchster: Bd. 6 „Die Rache des
 Schamanen" (4,27), knapp vor Bd. 2 (4,26). Niedrigster: **Bd. 7 „Krieg der Clans" (4,05),
@@ -110,14 +107,12 @@ das Finale**; zweitniedrigster Bd. 4 „Die Phantomburg" (4,14). Die Wertungszah
 ### 👎 Was die Community kritisiert (echte Rezensionen)
 - **Bd. 1:** eigentlich „ein Juwelenschleifer, der Level grindet, statt ein Schamane zu
   sein"; der zentrale Konflikt wird zu schnell/zu leicht gelöst (die Lösung fällt binnen
-  eines Kapitels vom Himmel); Pacing „drags", bräuchte Lektorat. → **deckt meine
-  [[Regel-Inkonsistenz]]- und [[Setup ohne Payoff]]-Kritik.**
+  eines Kapitels vom Himmel); Pacing „drags", bräuchte Lektorat.
 - **Held OP:** „Shaman is the worst cheater of 'em all" — der HC ist übermächtig und
-  bricht die eigenen Regeln. → **deckt meinen [[Überzogener Auserwählter]]-Vorwurf.**
+  bricht die eigenen Regeln.
 - **Spätere Bände (ab ~Bd. 5):** nachlassende Übersetzungs-/Lektoratsqualität (idiomatische
   Schnitzer); manchen wird das immer schnellere Tempo zu viel.
-- **Bd. 7 (Finale, 4,05):** am schwächsten bewertet. → **deckt mein „Auflösung an den
-  Haaren herbeigezogen".**
+- **Bd. 7 (Finale, 4,05):** am schwächsten bewertet.
 
 ## 🗃️ Metadaten je Band (vollständig)
 
@@ -131,7 +126,7 @@ das Finale**; zweitniedrigster Bd. 4 „Die Phantomburg" (4,14). Die Wertungszah
 ### 🇩🇪 Deutsche Ausgaben (Hörbuch · Print · eBook)
 
 | # | Hörbuch: Dauer · Datum · ASIN · EAN | Print: Verlag · ISBN-13 · Seiten · Datum | eBook ASIN |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 | 1 | 11 h 42 · 21.12.2018 · B07KKLB38V · 9783838789200 | Bastei Lübbe TB · 9783404209330 · 384 S · 21.12.2018 | B07D18CFMD |
 | 2 | 15 h 46 · 31.07.2019 · B07T5WRP8Q · 9783838790602 | Bastei Lübbe TB · 9783404209507 · 512 S? · 31.07.2019 | B07K4FH9ZV |
 | 3 | 15 h 27 · 2020 · B087M8M4YC · 9783838794853 | Magic Dome · 9788076191075 · 477 S? · 2019? | B07XDH1SBQ |
@@ -157,23 +152,35 @@ Audio). RU-Reihe „Путь Шамана" (Vasily Mahanenko).
 
 **Hinweise:** EN-Titel sind teils frei übersetzt (Bd. 6 „Shaman's Revenge" = RU „Всё
 только начинается" / „Alles fängt gerade erst an"; Bd. 7 „Clans War" = RU „Война кланов").
-Das **englische Hörbuch (Jonathan Yen, Tantor)** ist NICHT die vom Nutzer gehörte Fassung
-(er hörte dt. [[Thomas Balou Martin]]) — nur als EN-Fallback-Metadatum dokumentiert.
+Das **englische Hörbuch (Jonathan Yen, Tantor)** ist eine eigene Fassung; die deutsche liest
+[[Thomas Balou Martin]]. Yen = Sprecher der englischen Hörbuchfassung.
 
 ## 🗓️ Nächste Releases & Planung
-- **Reihe abgeschlossen** (7 Bände dt. + EN). Keine Wartezeit — Vorteil gegenüber DCC.
+- **Reihe abgeschlossen** (7 Bände dt. + EN), alle Bände erschienen.
 - **Angekündigt:** nichts Neues in diesem Zyklus (EN-Original hat 1 Bonus-Kurzgeschichte).
 
 ## DNA (als Links)
 
-- **Genres:** [[LitRPG]] (Kontext)
+> Nur belegte Merkmale (Quelle in Klammern). Persönliche Wertungen: [[Survival Quest – Lucas]].
+
+- **Kurz (Rezensionskonsens/Fandom):** Pionier-LitRPG mit tiefem Crafting-/Wirtschafts-
+  und Klassensystem, Progression vom Sträfling zum Weltgestalter, Ich-Perspektive.
+- **Genres:** [[LitRPG]]
 - **Themen:** [[System & Progression]], [[Underdog-Aufstieg]] (Sträfling → Clan-Anführer)
-- **Ton:** nüchtern-abenteuerlich (kein absurder Humor wie DCC — Humor war für mich kein Problem, aber auch kein Träger)
-- **Erzählstil:** [[Ich-Erzähler]] (Mahan) + schwache [[Schwache Rahmenhandlung]] (Realwelt-Rahmen)
-- **Figuren:** [[Überzogener Auserwählter]], [[Blasse Nebenfiguren]], [[Wachsende Hauptfigur]] (Potenzial ungenutzt)
-- **Setting:** [[Stimmige Weltatmosphäre]] (Spielwelt +) vs. [[Schwache Rahmenhandlung]] (Realwelt −)
-- **Handwerk:** [[Nebenquest-Wildwuchs]], [[Setup ohne Payoff]], [[Über-crunchiges Zahlensystem]], [[Regel-Inkonsistenz]]
-- **Tempo/Komplexität:** uneben, durch Grinding-Längen gebremst / mechanisch hoch, strukturell dünn
+- **Erzählstil:** [[Ich-Erzähler]] (Mahan) · Rahmen: reale Welt, in der Mahan zum Spiel verurteilt wird (Prämisse, s. oben)
+- **Figuren:** [[Überzogener Auserwählter]] (Community: „Shaman is the worst cheater of 'em all")
+- **Setting:** Spielwelt [[Barliona]] (VR-Straf-Realität) + reale Welt als Rahmen (Prämisse)
+- **Handwerk:** [[Regel-Inkonsistenz]] (Community: der HC „bricht die eigenen Regeln") · grinding-lastiger
+  Einstieg (Community: Pacing „drags")
+- **Tempo/Komplexität:** uneben — Bd. 1 durch Grinding gebremst, ab Bd. 3 schneller („goes faster
+  and faster") / mechanisch hoch
+
+## 🧮 Community-Gesamtbild
+
+Community-⌀ ~4,19/5 (~44k Goodreads, Stand 2026-07) — etablierte, solide bewertete
+Genre-Säule. Geschätzt werden System-Tiefe, Crunch und Progression; kritisiert werden der
+grinding-lastige Einstieg und der übermächtige Held; das Finale (Bd. 7, 4,05) ist der am
+niedrigsten bewertete Band.
 
 ## Offene Fragen
 
@@ -191,3 +198,8 @@ nur Sekundärquellen. Bei Gelegenheit direkt an Audible.de/Amazon.de gegenlesen.
   Bd. 7 = 2016 (Druck; Web evtl. 2015).
 - Goodreads-Snapshot 2026-07 aktualisiert: Serie ~41–44k; Bd. 2 (6.781) & Bd. 4 (4.803)
   Anzahl weiter gesunken, ⌀ je Band stabil.
+- **Offen:** Bd. 5 Goodreads-Anzahl — `rating_stimmen_gesamt` nennt 5.016, die EN-Tabelle 5.019
+  (zwei Snapshots?). Beim nächsten Abgleich klären, nicht glätten.
+- **Offen (DNA-Beleg):** Ton „nüchtern-abenteuerlich (kein absurder Humor wie [[Dungeon Crawler Carl]])“
+  stand in der DNA ohne Quelle → erst mit Rezension wieder aufnehmen.
+- **Offen (DNA-Beleg):** Rezension zum Finale fehlt — belegt ist nur die niedrigste Wertung (4,05).
