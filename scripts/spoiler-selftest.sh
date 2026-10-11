@@ -17,6 +17,8 @@
 set -uo pipefail
 repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$repo_root"
+. "$repo_root/scripts/python-finden.sh"
+[ -n "$PY" ] || { echo "Kein Python gefunden (python3/python/py -3)."; exit 1; }
 
 faelle_dir="tests/spoiler/faelle"
 [ -d "$faelle_dir" ] || { echo "Keine Testfälle unter $faelle_dir"; exit 1; }
@@ -43,7 +45,7 @@ for f in "$faelle_dir"/*.txt; do
 
   # Kopfzeilen entfernen, Rest prüfen
   grep -v '^# \(erwartung\|herkunft\|vault\|was\):' "$f" \
-    | python3 scripts/spoiler_check.py --stdin --herkunft "$herkunft" \
+    | $PY scripts/spoiler_check.py --stdin --herkunft "$herkunft" \
         --quiet "${root_arg[@]}" >/tmp/spoiler-selftest.out 2>&1
   code=$?
 

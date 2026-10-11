@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ============================================================================
-# BRANCH-POLITIK (Regel des Nutzers, aktualisiert 2026-07-20)
-# Seiten-Branches sind ERLAUBT. Diese Hook blockiert nichts mehr, sondern
+# BRANCH-POLITIK (Regel des Nutzers, verschärft 2026-10-11: es gibt nur main)
+# Seiten-Branches entstehen nur, wenn die Umgebung sie erzwingt. Die Hook blockiert nicht,
 # erinnert bei jedem Push auf einen Nicht-main-Branch daran, dass am Ende der
 # Session alles auf 'main' zusammengeführt werden muss — damit der Seiten-
 # Branch danach gefahrlos gelöscht werden kann.
@@ -16,7 +16,7 @@ while read -r local_ref local_sha remote_ref remote_sha; do
     branch="${remote_ref#refs/heads/}"
     echo "" >&2
     echo "🌿 Hinweis — Push auf SEITEN-BRANCH '$branch' (nicht 'main')." >&2
-    echo "   Das ist erlaubt. ABER: vor Session-Ende ALLES auf '$MAIN_BRANCH'" >&2
+    echo "   Regel: Es gibt nur $MAIN_BRANCH. NOCH IN DIESER SESSION nach $MAIN_BRANCH" >&2
     echo "   zusammenführen (mergen/pushen), dann diesen Seiten-Branch löschen:" >&2
     echo "     git checkout $MAIN_BRANCH && git merge $branch && git push origin $MAIN_BRANCH" >&2
     echo "     git branch -d $branch && git push origin --delete $branch" >&2

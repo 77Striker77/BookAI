@@ -11,10 +11,10 @@ repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$repo_root" 2>/dev/null || exit 0
 cat >/dev/null 2>&1 || true
 
-command -v python3 >/dev/null 2>&1 || exit 0
+. "$repo_root/scripts/python-finden.sh"; [ -n "$PY" ] || exit 0
 command -v jq >/dev/null 2>&1 || exit 0
 
-grenzen="$(python3 scripts/spoiler_check.py --grenzen 2>/dev/null)"
+grenzen="$($PY scripts/spoiler_check.py --grenzen 2>/dev/null)"
 [ -z "$grenzen" ] && exit 0
 
 kontext="$(cat <<EOF

@@ -21,7 +21,7 @@ cd "$repo_root" 2>/dev/null || exit 0
 payload="$(cat 2>/dev/null || true)"
 [ -z "$payload" ] && exit 0
 command -v jq >/dev/null 2>&1 || exit 0
-command -v python3 >/dev/null 2>&1 || exit 0
+. "$repo_root/scripts/python-finden.sh"; [ -n "$PY" ] || exit 0
 
 tool="$(jq -r '.tool_name // ""' <<<"$payload" 2>/dev/null)"
 pfad="$(jq -r '.tool_input.file_path // .tool_input.path // ""' <<<"$payload" 2>/dev/null)"
@@ -56,7 +56,7 @@ esac
 [ "$tool" = "Artifact" ] && [ "$herkunft" = "unbekannt" ] && herkunft="artefakt"
 
 bericht="$(printf '%s' "$inhalt" \
-  | python3 scripts/spoiler_check.py --stdin --herkunft "$herkunft" --quiet 2>/dev/null)"
+  | $PY scripts/spoiler_check.py --stdin --herkunft "$herkunft" --quiet 2>/dev/null)"
 code=$?
 
 # Hart blocken nur, wo eine echte Ausgabe entsteht

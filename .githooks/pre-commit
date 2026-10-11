@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# ============================================================================
+# pre-commit — Vault-Prüfnetz (eingeführt 2026-10-11).
+# Stoppt den Commit, wenn Notizen fehlen, Links wegfallen oder tote Links
+# dazukommen (Details: scripts/vault_pruefen.py). Gewolltes Löschen:
+#   python scripts/vault_pruefen.py --setzen  → Zählung mitcommitten, Grund nennen.
+# Aktiviert wird der Hook-Pfad von scripts/branch-policy.sh (SessionStart).
+# ============================================================================
+repo_root="$(git rev-parse --show-toplevel)"
+cd "$repo_root" || exit 0
+. "$repo_root/scripts/python-finden.sh"
+if [ -z "$PY" ]; then
+  echo "⚠️  pre-commit: kein Python gefunden — Vault-Prüfung übersprungen." >&2
+  exit 0
+fi
+$PY scripts/vault_pruefen.py >&2

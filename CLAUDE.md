@@ -319,17 +319,26 @@ Die Werkstatt liefert die **Messung** dazu, nicht die Bedeutung.
 
 ## Git
 
-Auf dem Feature-Branch entwickeln, nach Änderungen committen & pushen (der Vault ist das
-Gedächtnis — Verlust vermeiden). Commits klar beschreiben.
+Nach Änderungen committen & pushen (der Vault ist das Gedächtnis — Verlust vermeiden).
+Commits klar beschreiben.
 
-**Branch-Politik (Nutzer-Regel, 2026-07-20):** Seiten-Branches **dürfen** entstehen
-(z. B. je Arbeitspaket/Session). **Aber vor Session-Ende muss ALLES auf `main` landen**
-— zusammenführen (mergen/pushen), damit kein Wissen auf einem vergessenen Seiten-Branch
-versauert (passt zur „Vault ist das Gedächtnis"-Regel). Danach den Seiten-Branch löschen:
-`git checkout main && git merge <branch> && git push origin main` → `git branch -d <branch>
-&& git push origin --delete <branch>`. Darauf wird aktiv hingewiesen: SessionStart-Hook
-(`scripts/branch-policy.sh`) + Stop-Hook (`scripts/session-end-branch-reminder.sh`) melden,
-wenn noch etwas nicht in `main` ist. Der `pre-push`-Hook blockiert nicht mehr, erinnert nur.
+**Branch-Politik (Nutzer-Regel, verschärft 2026-10-11): Es gibt nur `main`.** Direkt auf
+`main` arbeiten. Legt die Umgebung trotzdem einen Seiten-Branch an (z. B. eine Cloud-Session
+mit `claude/…`), wird er **noch in derselben Session** nach `main` gemergt und gelöscht —
+lokal und auf GitHub: `git checkout main && git merge <branch> && git push origin main` →
+`git branch -d <branch> && git push origin --delete <branch>`. Kein Seiten-Branch überlebt
+eine Session. Darauf wird aktiv hingewiesen: SessionStart-Hook (`scripts/branch-policy.sh`)
++ Stop-Hook (`scripts/session-end-branch-reminder.sh`) melden, wenn noch etwas nicht in
+`main` ist; der `pre-push`-Hook erinnert bei jedem Push auf einen Seiten-Branch. Geblockt
+wird bewusst nicht — im flüchtigen Container wäre ein blockierter Push verlorene Arbeit.
+
+**Vault-Prüfnetz (2026-10-11):** `.githooks/pre-commit` ruft `scripts/vault_pruefen.py` auf
+und stoppt den Commit, wenn Notizen fehlen, Wikilinks wegfallen oder tote Links dazukommen
+(Maßstab: `scripts/vault-zaehlung.json`). Gewolltes Löschen → `python scripts/vault_pruefen.py
+--setzen`, Zählung mitcommitten, Grund in die Commit-Nachricht. `--liste` zeigt alle toten
+Links. Python wird über `scripts/python-finden.sh` gesucht (unter Windows ist `python3` oft
+nur der Store-Platzhalter). Force-Push, `reset --hard`, `clean -f` und `--no-verify` sind in
+`.claude/settings.json` gesperrt.
 
 **Verbindlich (s. OBERSTE REGEL):** Vault-Änderungen und das daraus erzeugte Artefakt
 gehören in **denselben** Commit-/Push-Schritt. Nie ein Artefakt publizieren, solange der

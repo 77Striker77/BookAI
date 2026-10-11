@@ -14,6 +14,8 @@
 set -uo pipefail
 repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$repo_root"
+. "$repo_root/scripts/python-finden.sh"
+[ -n "$PY" ] || { echo "Kein Python gefunden (python3/python/py -3)."; exit 1; }
 
 echo "🔒 SPOILER-GATE — Grenzen aus dem Vault, Regeln aus _System/Spoiler-Politik.md"
 echo
@@ -22,13 +24,13 @@ schlimmster=0
 merke() { [ "$1" -gt "$schlimmster" ] && schlimmster="$1"; return 0; }
 
 if [ "$#" -gt 0 ]; then
-  python3 scripts/spoiler_check.py --gate "$@"; merke $?
+  $PY scripts/spoiler_check.py --gate "$@"; merke $?
 else
   echo "▸ Artefakte (harte Ausgabe — hier blockt ein Verstoß den Publish)"
   shopt -s nullglob
   artefakte=(artifacts/*.html)
   if [ "${#artefakte[@]}" -gt 0 ]; then
-    python3 scripts/spoiler_check.py --gate "${artefakte[@]}"; merke $?
+    $PY scripts/spoiler_check.py --gate "${artefakte[@]}"; merke $?
   else
     echo "  (keine Artefakte gefunden)"
   fi
@@ -37,7 +39,7 @@ else
   vaultdateien=(vault/Bibliothek/Werke/*.md vault/Empfehlungen/Kandidaten/*.md
                 vault/Empfehlungen/Läufe/*.md vault/Profil/Interviews/*.md)
   if [ "${#vaultdateien[@]}" -gt 0 ]; then
-    python3 scripts/spoiler_check.py --quiet --herkunft vault "${vaultdateien[@]}"; merke $?
+    $PY scripts/spoiler_check.py --quiet --herkunft vault "${vaultdateien[@]}"; merke $?
     [ "$?" -eq 0 ] && echo "  ✅ sauber"
   fi
 fi

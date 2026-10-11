@@ -16,7 +16,7 @@ repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$repo_root" 2>/dev/null || exit 0
 
 payload="$(cat 2>/dev/null || true)"
-command -v python3 >/dev/null 2>&1 || exit 0
+. "$repo_root/scripts/python-finden.sh"; [ -n "$PY" ] || exit 0
 have_jq=0; command -v jq >/dev/null 2>&1 && have_jq=1
 
 ereignis="stop"
@@ -36,7 +36,7 @@ pruefe() {   # $1 = Text, $2 = Herkunft, $3 = Bezeichnung
   local text="$1" herkunft="$2" name="$3" out code
   [ -z "${text//[[:space:]]/}" ] && return 0
   out="$(printf '%s' "$text" \
-        | python3 scripts/spoiler_check.py --stdin --herkunft "$herkunft" --quiet 2>/dev/null)"
+        | $PY scripts/spoiler_check.py --stdin --herkunft "$herkunft" --quiet 2>/dev/null)"
   code=$?
   [ "$code" -eq 0 ] && return 0
   meldungen="${meldungen}
@@ -57,7 +57,7 @@ fi
 if [ "$ereignis" != "SubagentStop" ]; then
   for f in artifacts/*.html; do
     [ -e "$f" ] || continue
-    out="$(python3 scripts/spoiler_check.py --quiet --gate "$f" 2>/dev/null)"; code=$?
+    out="$($PY scripts/spoiler_check.py --quiet --gate "$f" 2>/dev/null)"; code=$?
     if [ "$code" -ne 0 ]; then
       meldungen="${meldungen}
 ── ${f} ──
