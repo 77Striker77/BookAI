@@ -3,7 +3,7 @@ werk: "[[Die guten Jungs]]"
 person: "Lucas"
 bereich: "buch"
 besitz: "hat"          # Regelangabe Lucas 2026-10-11: „in der Regel gekauft (z. B. Audible)“ — nicht je Werk bestätigt
-status: ""             # unklar: Bd. 1–5 von 16 gehört, kein Band läuft (Stand 2026-08-11) — weder durch noch laufend
+status: ""             # Bd. 1–8 von 16 gehört, kein GJ-Band läuft (Stand 2026-10-11; der Verbund läuft über BJ 6) — weder durch noch laufend
 sprache_erlebt: "de"
 kontext: "LitRPG"
 verdict: "liked"                     # VORLÄUFIG — 5 von 16 Bänden gehört
@@ -27,10 +27,10 @@ bewertung:
   - { aspekt: "Magiesystem-Tiefe", wert: -1 }
   - { aspekt: "Regel-Inkonsistenz", wert: 0 }
 # --- 🔒 Spoiler-Grenze (siehe _System/Spoiler-Politik.md) ---
-spoiler_erlebt_bis: 5    # letzter VOLLSTÄNDIG erlebter Band (0 = keiner)
+spoiler_erlebt_bis: 8    # letzter VOLLSTÄNDIG erlebter Band — „gj 8 fertig“ (Lucas 2026-10-11)
 spoiler_aktuell: 0       # laufender Band — zählt als NICHT erlebt
-spoiler_gesamt: 16        # Bd. 1-5 gehört; ab Bd. 6 offen
-spoiler_stand: "2026-08-11"  # Stand bestätigt am
+spoiler_gesamt: 16        # Bd. 1-8 gehört; ab Bd. 9 offen
+spoiler_stand: "2026-10-11"  # Stand bestätigt am
 spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
 spoiler_unerlebte_reihen: ["The Grim Guys"]  # Reihen im selben Universum, NIE erlebt -> immer nur Klappentext-Ebene
 tags: [erlebnis, hoerbuch, liked]
@@ -47,14 +47,15 @@ Mein Erleben von [[Die guten Jungs]]. Fakten, Bände und Metadaten stehen dort �
 | Bd. | Status | Notiz |
 | --- | --- | --- |
 | 1–5 | ✅ gehört (dt., [[Robert Frank]]) | „GJ hab ich teil 5 fertig" (2026-08-11) |
-| 6–16 | offen | nächster Schritt laut Hörreihenfolge: erst [[Die bösen Jungs]] 1–2, dann GJ 6 (⚠️ die Liste in [[Vuldranni (iNcarn8)]] hat GJ 6 als Schritt 7 direkt nach BJ 1 — s. Offene Fragen an Lucas) |
+| 6–8 | ✅ gehört (dt.) | „bin bei bj 6 mitlerweile und gj 8 fertig“ (2026-10-11), [[2026-10-11 Fragenrunde nach dem Umbau]] |
+| 9–16 | offen | GJ 9 ist laut Liste Schritt 13 (vor BJ 5/6) — nicht gehört, s. [[Vuldranni (iNcarn8) – Lucas]] |
 
 - **Bandlängen:** die belegten dt. Hörbücher (7 h 42 – 9 h 39, s. [[Die guten Jungs]]) liegen deutlich
   unter der Nutzer-Obergrenze (Reihen-Schnitt ≤ ~20 h, [[No-Gos]]). Kurze Bände = wenig Leerlauf (Annahme der Analyse, nicht erfragt).
-- **Puffer:** dt. Hörbuch belegt bis Bd. 9 (s. [[Die guten Jungs]]). **Relevant für den Nutzer:** er ist bei Bd. 5, hat also
-  mindestens 4 weitere Bände Puffer.
-- **Figuren:** [[Die guten Jungs – Figuren]] deckt Personal **Bd. 1–5** (mein Lesestand) ab; ab Bd. 6
-  bewusst **nicht** recherchiert.
+- **Puffer:** dt. Hörbuch belegt bis Bd. 9 (s. [[Die guten Jungs]]). **Relevant für den Nutzer:** er ist bei Bd. 8 (Stand 2026-10-11), hat also
+  mindestens 1 weiteren Band Puffer (vorher, 2026-08-11: Bd. 5, 4 Bände).
+- **Figuren:** [[Die guten Jungs – Figuren]] deckt Personal **Bd. 1–5** ab; ab Bd. 6 bewusst **nicht** recherchiert.
+  Der Lesestand ist seit 2026-10-11 Bd. 8 — Bd. 6–8 dürfen jetzt nachrecherchiert werden.
 
 ## ⭐ Bewertung je Aspekt
 
@@ -109,7 +110,7 @@ der Punkt, den ich beim Nutzer noch nicht belegen konnte (s. Offene Fragen an Lu
 ## Offene Fragen an Lucas
 
 - ~~Besitz~~ ✓ beantwortet 2026-10-11: in der Regel gekauft ([[2026-10-11 Fragenrunde nach dem Umbau]]).
-- Was hörst du als Nächstes — GJ 6 (Schritt 7 der Liste in [[Vuldranni (iNcarn8)]], so auch in
+- ~~Was hörst du als Nächstes~~ ✓ überholt 2026-10-11: GJ 8 fertig, BJ 6 läuft ([[2026-10-11 Fragenrunde nach dem Umbau]]). Ursprünglich: — GJ 6 (Schritt 7 der Liste in [[Vuldranni (iNcarn8)]], so auch in
   [[Vuldranni (iNcarn8) – Lucas]]) oder erst BJ 2 (so im Lesestand oben und in [[Die bösen Jungs – Lucas]])?
 - Episodische Struktur / dünnere Gesamtplot-Progression (Community-Kritik, s. [[Die guten Jungs]]):
   spürst du das schon, und stört es dich? (Reihen-Dauerleistung, s. Verdikt-Herleitung)

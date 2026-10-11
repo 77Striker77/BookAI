@@ -3,7 +3,7 @@ werk: "[[Die bösen Jungs]]"
 person: "Lucas"
 bereich: "buch"
 besitz: "hat"          # Regelangabe Lucas 2026-10-11: „in der Regel gekauft (z. B. Audible)“ — nicht je Werk bestätigt
-status: ""             # unklar: Bd. 1 von 11 gehört, Bd. 2 nicht begonnen (Stand 2026-08-19) — weder durch noch laufend
+status: "laeuft"       # Bd. 6 läuft (Lucas 2026-10-11: „bin bei bj 6“)
 sprache_erlebt: "de"
 kontext: "LitRPG"
 verdict: "offen"                     # AUSGESETZT 2026-08-11 — vorher fälschlich "liked" (vom System gesetzt, nicht vom Nutzer)
@@ -19,10 +19,10 @@ bewertung:
   - { aspekt: "Über-crunchiges Zahlensystem", wert: -1 }
   - { aspekt: "Thomas Nicolai", wert: -1 }
 # --- 🔒 Spoiler-Grenze (siehe _System/Spoiler-Politik.md) ---
-spoiler_erlebt_bis: 1    # letzter VOLLSTÄNDIG erlebter Band — Bd. 1 durch (Nutzer 2026-08-19)
-spoiler_aktuell: 0       # kein laufender Band (Bd. 2 noch nicht begonnen)
-spoiler_gesamt: 11        # Freigabestufe jetzt bis_band_1
-spoiler_stand: "2026-08-19"  # Stand bestätigt am
+spoiler_erlebt_bis: 5    # letzter VOLLSTÄNDIG erlebter Band — Bd. 6 läuft (Lucas 2026-10-11)
+spoiler_aktuell: 6       # „bin bei bj 6 mitlerweile“ — zählt als NICHT erlebt
+spoiler_gesamt: 11        # Freigabestufe jetzt bis_band_5
+spoiler_stand: "2026-10-11"  # Stand bestätigt am
 spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
 spoiler_unerlebte_reihen: ["The Grim Guys"]  # Reihen im selben Universum, NIE erlebt -> immer nur Klappentext-Ebene
 tags: [erlebnis, hoerbuch, offen]
@@ -39,8 +39,9 @@ Mein Erleben von [[Die bösen Jungs]]. Fakten, Bände und Metadaten stehen dort 
 | Bd. | Status | Notiz |
 | --- | --- | --- |
 | 1 | ✅ gehört (dt., [[Thomas Nicolai]]) | „bj band 1 abgeschlossen" (2026-08-19) |
-| 2 | ⏭️ als Nächstes | laut Hörreihenfolge Bd. 2, danach zurück zu [[Die guten Jungs]] 6 (⚠️ die Liste in [[Vuldranni (iNcarn8)]] hat GJ 6 als Schritt 7 vor BJ 2 = Schritt 8 — s. Offene Fragen an Lucas) |
-| 3–11 | offen | — |
+| 2–5 | ✅ gehört (dt.) | „bin bei bj 6 mitlerweile und gj 8 fertig“ (2026-10-11), [[2026-10-11 Fragenrunde nach dem Umbau]] |
+| 6 | ▶️ läuft | „bin bei bj 6 mitlerweile“ — zählt als NICHT erlebt |
+| 7–11 | offen | — |
 
 - **Bandlänge:** Bd. 1 15 h 23 (s. [[Die bösen Jungs]]) — noch im Rahmen (≤ ~20 h, [[No-Gos]]).
   Annahme der Analyse, **nicht erfragt**: die Reihe hört sich deutlich „schwerer" an — relevant beim
@@ -105,7 +106,7 @@ Sprecher [[Thomas Nicolai]] in dt. Rezensionen durchaus gelobt wird (s. dort), o
   Und: stört dich die deutlich längere Bandlänge (15 h vs. 9 h)?
 - **Rückfrage läuft (2026-08-19):** Welche Szene am Anfang von Bd. 1 war mit den geretteten Personen
   genau gemeint? (Recherche-Lücke s. [[Die bösen Jungs]], Offene Fragen)
-- Was hörst du als Nächstes — BJ 2 (so im Lesestand oben) oder GJ 6 (Schritt 7 der Liste in
+- ~~Was hörst du als Nächstes~~ ✓ überholt 2026-10-11: GJ 8 fertig, BJ 6 läuft ([[2026-10-11 Fragenrunde nach dem Umbau]]). Ursprünglich: — BJ 2 (so im Lesestand oben) oder GJ 6 (Schritt 7 der Liste in
   [[Vuldranni (iNcarn8)]], so in [[Vuldranni (iNcarn8) – Lucas]])?
 - [[Tonwechsel Humor-Ernst]] ist hier mit +2 geerbt; ob die Runde-4-Herabstufung auf +1 auch für
   diese Reihe gilt, ist offen (s. [[Vuldranni (iNcarn8) – Lucas]], Offene Fragen).

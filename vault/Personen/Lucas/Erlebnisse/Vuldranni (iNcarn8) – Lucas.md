@@ -3,7 +3,7 @@ werk: "[[Vuldranni (iNcarn8)]]"
 person: "Lucas"
 bereich: "buch"
 besitz: "hat"          # Regelangabe Lucas 2026-10-11: „in der Regel gekauft (z. B. Audible)“ — nicht je Werk bestätigt
-status: ""             # unklar: Verbund-Schritt 6 von 27 gehört, kein Band läuft (Stand 2026-08-19) — weder durch noch laufend
+status: "laeuft"       # Schritt 15 (BJ 6) läuft (Lucas 2026-10-11)
 sprache_erlebt: "de"
 kontext: "LitRPG"
 verdict: "liked"                     # VORLÄUFIG — Nutzer mitten drin (GJ 5/16 gehört, BJ 1/11 gehört)
@@ -16,10 +16,10 @@ bewertung:
   - { aspekt: "Stimmige Weltatmosphäre", wert: 2 }
   - { aspekt: "Über-crunchiges Zahlensystem", wert: -1 }
 # --- 🔒 Spoiler-Grenze (siehe _System/Spoiler-Politik.md) ---
-spoiler_erlebt_bis: 6    # Verbund-Schritt 6 (= BJ 1) am 2026-08-19 abgeschlossen
-spoiler_aktuell: 0       # kein laufender Band; als Nächstes Schritt 7 (GJ 6)
-spoiler_gesamt: 27        # Zaehlung = kombinierte Hoerreihenfolge des Verbunds: Pos. 1-6 (GJ 1-5 + BJ 1) gehört, ab Pos. 7 offen
-spoiler_stand: "2026-08-19"  # Stand bestätigt am
+spoiler_erlebt_bis: 12   # lückenlos bis Schritt 12 (BJ 4); Schritt 13 (GJ 9) NICHT gehört → Grenze hier (fail-closed), obwohl Schritt 14 (BJ 5) erlebt ist
+spoiler_aktuell: 15      # Schritt 15 = BJ 6 läuft (Lucas 2026-10-11)
+spoiler_gesamt: 27        # Zaehlung = kombinierte Hoerreihenfolge des Verbunds: Pos. 1-12 + 14 gehört, 13 nicht, 15 läuft
+spoiler_stand: "2026-10-11"  # Stand bestätigt am
 spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
 spoiler_unerlebte_reihen: ["The Grim Guys"]  # Reihen im selben Universum, NIE erlebt -> immer nur Klappentext-Ebene
 tags: [erlebnis, hoerbuch, liked]
@@ -38,7 +38,9 @@ Mein Erleben von [[Vuldranni (iNcarn8)]]. Fakten, Bände und Metadaten stehen do
 
 ## Lesestand (Verbund-Schritte, meine Formate)
 
-**Stand:** GJ 5/16 gehört · BJ 1/11 gehört (2026-08-19) — Verbund-Schritt **6 von 27** erledigt, als Nächstes Schritt 7 (GJ 6). BJ-Interview **fällig**, Verdikt weiter `offen`
+**Stand:** GJ 8/16 gehört · BJ 5/11 gehört, **BJ 6 läuft** (2026-10-11, „bin bei bj 6 mitlerweile und gj 8 fertig“ (2026-10-11)) — lückenlos bis Schritt **12 von 27**, Schritt 13 (GJ 9) **nicht** gehört, Schritt 14 (BJ 5) gehört, Schritt 15 (BJ 6) läuft. BJ-Interview **fällig**, Verdikt weiter `offen`
+
+*Vorher (2026-08-19): GJ 5/16 · BJ 1/11, Verbund-Schritt 6 von 27.*
 
 Gezählt wird nach der kanonischen 27-Schritt-Liste in [[Vuldranni (iNcarn8)]] (Hörreihenfolge
 des Verbunds). Reihen-Pflicht auf Verbund-Ebene: 27 erschienene Bände = klar erfüllt.
@@ -47,18 +49,22 @@ des Verbunds). Reihen-Pflicht auf Verbund-Ebene: 27 erschienene Bände = klar er
 | --- | --- | --- |
 | 1–5 | GJ 1–5 | ✅ gehört (dt.) |
 | 6 | BJ 1 | ✅ gehört (dt., 2026-08-19) |
-| 7 | GJ 6 | ▶️ als Nächstes |
-| 8–27 | übrige Schritte der Liste | offen |
+| 7–12 | GJ 6 · BJ 2 · GJ 7 · BJ 3 · GJ 8 · BJ 4 | ✅ gehört (dt., Stand 2026-10-11) |
+| 13 | GJ 9 | ⏭️ **nicht gehört** — übersprungen oder noch offen? (s. Offene Fragen an Lucas) |
+| 14 | BJ 5 | ✅ gehört |
+| 15 | BJ 6 | ▶️ läuft |
+| 16–27 | übrige Schritte der Liste | offen |
 
 | Etappe (s. [[Vuldranni (iNcarn8)]]) | Schritte | Status |
 | --- | --- | --- |
 | 1 Einstieg — Welt kennenlernen | 1–3 | ✅ gehört |
 | 2 Herzogtum & Adel | 4–5 | ✅ gehört |
 | 3 **Umstieg: die andere Seite** | 6 | ✅ gehört |
-| **4 Beide Seiten im Wechsel** | 7–9 | ▶️ **hier** |
-| 5–10 | 10–27 | offen |
+| 4 Beide Seiten im Wechsel | 7–9 | ✅ gehört |
+| **5 Der dichteste Wechselblock** | 10–15 | ▶️ **hier** (10–12 + 14 gehört, 13 nicht, 15 läuft) |
+| 6–10 | 16–27 | offen |
 
-*(Stand des Nutzers 2026-08-19: GJ 5 fertig → BJ 1 fertig; als Nächstes Schritt 7 = GJ 6.)*
+*(Stand des Nutzers 2026-08-19: GJ 5 fertig → BJ 1 fertig. Stand 2026-10-11: GJ 8 fertig, BJ 6 läuft.)*
 
 **Meine Hörreihenfolge:** vom Nutzer bestätigt 2026-08-11 (Interview Runde 2: „Ja, genau so“).
 Die 27-Schritt-Liste hat der Nutzer in Runde 3 selbst nachgeliefert (Quelle *Most Recommended
@@ -183,5 +189,7 @@ Stimme ständig.
 - Auch die Belege der Tabelle „Geteilt“ stammen aus Antworten zu den guten Jungs (Interview Runde 1/2,
   z. B. „Was zieht am stärksten (GJ)?“ → „Welt, gehemienisse und monster“). Gelten Humor, Held, Welt
   und das Status-Vorlesen für dich genauso bei den bösen Jungs, also fürs ganze Universum?
-- Was hörst du als Nächstes — GJ 6 (Schritt 7, so hier und in der Liste) oder BJ 2 (so in
+- ~~Was hörst du als Nächstes~~ ✓ überholt 2026-10-11: GJ 8 fertig, BJ 6 läuft ([[2026-10-11 Fragenrunde nach dem Umbau]]). Ursprünglich: — GJ 6 (Schritt 7, so hier und in der Liste) oder BJ 2 (so in
   [[Die bösen Jungs – Lucas]] und [[Die guten Jungs – Lucas]] notiert)?
+- **GJ 9 (Schritt 13):** Du hast GJ 8 fertig und bist bei BJ 6 — GJ 9 liegt laut Liste davor. Bewusst übersprungen, später nachgeholt, oder in anderer Reihenfolge gehört? (Spoiler-Grenze bleibt bis zur Antwort bei Schritt 12, fail-closed.)
+- **BJ-Interview fällig:** Du hast jetzt 5 Bände der bösen Jungs gehört — das Verdikt ist weiter `offen`.
