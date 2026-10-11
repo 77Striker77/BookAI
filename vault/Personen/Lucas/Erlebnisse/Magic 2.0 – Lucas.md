@@ -2,7 +2,7 @@
 werk: "[[Magic 2.0]]"
 person: "Lucas"
 bereich: "buch"
-besitz: ""             # unbekannt — nicht erfragt (s. Offene Fragen)
+besitz: "hat"          # Regelangabe Lucas 2026-10-11: „in der Regel gekauft (z. B. Audible)“ — nicht je Werk bestätigt
 status: "abgebrochen"  # Bd. 1–4 gelesen, Bd. 5–6 bewusst nicht (Englisch-Müdigkeit) — „Abbruch bei Bd. 4“, Lesestand bestätigt 2026-08-11; Lucas selbst: „bis 4, 5 nicht mehr“ — ob endgültig, s. Offene Fragen
 sprache_erlebt: "de+en"    # Bd. 1–2 dt., Bd. 3–4 englisch gelesen
 kontext: "Humor-Phantastik"
@@ -121,6 +121,6 @@ Kontext schlägt global. Absurder Humor verbindet als roter Faden mit [[Dungeon 
 
 ## Offene Fragen an Lucas
 
-- Besitz: Bücher/eBooks gekauft oder geliehen — dt. Bd. 1–2 und engl. Bd. 3–4? (`besitz:` ist leer, nie raten)
+- ~~Besitz~~ ✓ beantwortet 2026-10-11: in der Regel gekauft ([[2026-10-11 Fragenrunde nach dem Umbau]]).
 - Würdest du Bd. 5–6 auf Deutsch weiterlesen, oder ist die Reihe für dich durch? (`status: abgebrochen`
   stützt sich auf „Abbruch bei Bd. 4“ — du selbst sagtest „bis 4, 5 nicht mehr“ / „kein bock mehr auf englisch zu lesen“)

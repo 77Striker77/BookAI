@@ -2,7 +2,7 @@
 werk: "[[Die bösen Jungs]]"
 person: "Lucas"
 bereich: "buch"
-besitz: ""             # unbekannt — nicht erfragt (s. Offene Fragen)
+besitz: "hat"          # Regelangabe Lucas 2026-10-11: „in der Regel gekauft (z. B. Audible)“ — nicht je Werk bestätigt
 status: ""             # unklar: Bd. 1 von 11 gehört, Bd. 2 nicht begonnen (Stand 2026-08-19) — weder durch noch laufend
 sprache_erlebt: "de"
 kontext: "LitRPG"
@@ -99,7 +99,7 @@ Sprecher [[Thomas Nicolai]] in dt. Rezensionen durchaus gelobt wird (s. dort), o
 
 ## Offene Fragen an Lucas
 
-- Besitz: Hörbücher gekauft (z. B. Audible) oder geliehen? (`besitz:` ist leer, nie raten)
+- ~~Besitz~~ ✓ beantwortet 2026-10-11: in der Regel gekauft ([[2026-10-11 Fragenrunde nach dem Umbau]]).
 - **An den Nutzer (gestellt am 2026-08-19, Antwort offen):** Trägt Clyde als Antiheld genauso wie Montana?
   Fühlt sich das Stadt-/Diebes-Setting besser oder schlechter an als der Aufbau in Coggeshall?
   Und: stört dich die deutlich längere Bandlänge (15 h vs. 9 h)?

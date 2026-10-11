@@ -2,7 +2,7 @@
 werk: "[[Der Donnerstagsmordclub]]"
 person: "Lucas"
 bereich: "buch"
-besitz: ""             # unbekannt — nicht erfragt (s. Offene Fragen an Lucas)
+besitz: "hat"          # Regelangabe Lucas 2026-10-11: „in der Regel gekauft (z. B. Audible)“ — nicht je Werk bestätigt
 status: "durch"        # Bd. 1–5 von 5 erschienenen gehört (Lesestand, bestätigt 2026-08-11); Bd. 6 erscheint 2027
 sprache_erlebt: "de"
 kontext: "Krimi"
@@ -164,7 +164,7 @@ Buch gestört hat.
 
 ## Offene Fragen an Lucas
 
-- Besitz: Hörbücher gekauft (z. B. Audible) oder geliehen? (`besitz:` ist leer, nie raten)
+- ~~Besitz~~ ✓ beantwortet 2026-10-11: in der Regel gekauft ([[2026-10-11 Fragenrunde nach dem Umbau]]).
 - **Welche Hörbuch-Fassung?** Es gibt je Band eine **gekürzte** (~10 h, CD/Download) und eine
   **ungekürzte** (~11,5 h, Audible/Download). Das ändert die Hördauer um bis zu 1,5 h/Band und
   ist für Längen-Vergleiche relevant. → Bei Gelegenheit fragen (Audible = i. d. R. ungekürzt).

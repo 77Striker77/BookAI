@@ -2,7 +2,7 @@
 werk: "[[Die mörderischen Cunninghams]]"
 person: "Lucas"
 bereich: "buch"
-besitz: ""             # unbekannt — nicht erfragt (s. Offene Fragen an Lucas)
+besitz: "hat"          # Regelangabe Lucas 2026-10-11: „in der Regel gekauft (z. B. Audible)“ — nicht je Werk bestätigt
 status: ""             # Bd. 1–2 (alle dt. erschienenen) gelesen, Bd. 3–4 nur EN, wartet auf dt. Übersetzung — weder „durch“ (nicht alle erschienenen Bände) noch „laeuft“ (kein Band läuft)
 sprache_erlebt: "de"
 kontext: "Krimi"
@@ -107,7 +107,7 @@ Locked-Room-Meta weicht hier vom Massengeschmack ab).
 
 ## Offene Fragen an Lucas
 
-- Besitz: Bücher gekauft oder geliehen? (`besitz:` ist leer, nie raten)
+- ~~Besitz~~ ✓ beantwortet 2026-10-11: in der Regel gekauft ([[2026-10-11 Fragenrunde nach dem Umbau]]).
 - Bd. 2 besser als Bd. 1: nur wegen des geschlossenen Kreises, oder spielen auch Plot/Figuren
   mit? (Interview „Offen geblieben“ — die frühere Werk-Notiz hielt das für geklärt.)
 - Gilt „trocken-ironischer Humor“ auch anderswo, oder Krimi-spezifisch? (Interview „Offen

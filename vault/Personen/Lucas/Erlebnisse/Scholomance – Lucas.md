@@ -2,7 +2,7 @@
 werk: "[[Scholomance]]"
 person: "Lucas"
 bereich: "buch"
-besitz: ""             # unbekannt — nicht erfragt (s. Offene Fragen)
+besitz: "hat"          # Regelangabe Lucas 2026-10-11: „in der Regel gekauft (z. B. Audible)“ — nicht je Werk bestätigt
 status: "durch"        # Bd. 1–3 von 3 gehört (Lesestand, bestätigt 2026-08-11)
 sprache_erlebt: "de"
 kontext: "Fantasy"
@@ -127,7 +127,7 @@ Prädiktor.
 
 ## Offene Fragen an Lucas
 
-- Besitz: Hörbücher gekauft (z. B. Audible) oder geliehen? (`besitz:` ist leer, nie raten)
+- ~~Besitz~~ ✓ beantwortet 2026-10-11: in der Regel gekauft ([[2026-10-11 Fragenrunde nach dem Umbau]]).
 - War Bd. 3 für dich tatsächlich schwächer als Bd. 2? Belegt sind nur: Bd.-3-Enthüllungen nicht
   als Plus gewählt und „romantik am ende etwas zu arg“. „Finale fällt leicht ab“,
   „Bd.-3-Zurückhaltung“ und „Aspekt-Wertungen laufen exakt parallel“ stützen sich sonst auf die

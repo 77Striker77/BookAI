@@ -2,7 +2,7 @@
 werk: "[[Survival Quest]]"
 person: "Lucas"
 bereich: "buch"
-besitz: ""             # unbekannt — nicht erfragt (s. Offene Fragen)
+besitz: "hat"          # Regelangabe Lucas 2026-10-11: „in der Regel gekauft (z. B. Audible)“ — nicht je Werk bestätigt
 status: "durch"        # Bd. 1–7 von 7 gehört (Lesestand, bestätigt 2026-08-11)
 sprache_erlebt: "de"
 kontext: "LitRPG"
@@ -125,6 +125,6 @@ Negativ-Prädiktoren.
 
 ## Offene Fragen an Lucas
 
-- Besitz: Hörbücher gekauft (z. B. Audible) oder geliehen? (`besitz:` ist leer, nie raten)
+- ~~Besitz~~ ✓ beantwortet 2026-10-11: in der Regel gekauft ([[2026-10-11 Fragenrunde nach dem Umbau]]).
 - Lagen deine „einzelnen starken Momente“ (Interview F3) eher in Bd. 2, 3 und 6? Eine frühere
   Fassung hat das angenommen, belegt ist es nicht.

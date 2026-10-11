@@ -2,7 +2,7 @@
 werk: "[[Der Prinz von Staub und Schatten]]"
 person: "Lucas"
 bereich: "buch"
-besitz: ""             # unbekannt — nicht erfragt (s. Offene Fragen)
+besitz: "hat"          # Regelangabe Lucas 2026-10-11: „in der Regel gekauft (z. B. Audible)“ — nicht je Werk bestätigt
 status: "durch"        # alle erschienenen Bände (2 von 5 geplant) gehört, bestätigt 2026-07-20; Reihe läuft weiter
 sprache_erlebt: "de"
 kontext: "Fantasy"
@@ -107,6 +107,6 @@ stark geliebt, gleicher wunder Punkt — der zäh-unfokussierte Start).
 
 ## Offene Fragen an Lucas
 
-- Besitz: Hörbücher gekauft (z. B. Audible) oder geliehen? (`besitz:` ist leer, nie raten)
+- ~~Besitz~~ ✓ beantwortet 2026-10-11: in der Regel gekauft ([[2026-10-11 Fragenrunde nach dem Umbau]]).
 - Erzählstil (Perspektive) und Komplexität sind per Empfinden noch nicht erfasst
   (Interview 2026-07-20, „Offen geblieben") — bei Gelegenheit.

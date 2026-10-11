@@ -2,7 +2,7 @@
 werk: "[[Die guten Jungs]]"
 person: "Lucas"
 bereich: "buch"
-besitz: ""             # unbekannt — nicht erfragt (s. Offene Fragen)
+besitz: "hat"          # Regelangabe Lucas 2026-10-11: „in der Regel gekauft (z. B. Audible)“ — nicht je Werk bestätigt
 status: ""             # unklar: Bd. 1–5 von 16 gehört, kein Band läuft (Stand 2026-08-11) — weder durch noch laufend
 sprache_erlebt: "de"
 kontext: "LitRPG"
@@ -108,7 +108,7 @@ der Punkt, den ich beim Nutzer noch nicht belegen konnte (s. Offene Fragen an Lu
 
 ## Offene Fragen an Lucas
 
-- Besitz: Hörbücher gekauft (z. B. Audible) oder geliehen? (`besitz:` ist leer, nie raten)
+- ~~Besitz~~ ✓ beantwortet 2026-10-11: in der Regel gekauft ([[2026-10-11 Fragenrunde nach dem Umbau]]).
 - Was hörst du als Nächstes — GJ 6 (Schritt 7 der Liste in [[Vuldranni (iNcarn8)]], so auch in
   [[Vuldranni (iNcarn8) – Lucas]]) oder erst BJ 2 (so im Lesestand oben und in [[Die bösen Jungs – Lucas]])?
 - Episodische Struktur / dünnere Gesamtplot-Progression (Community-Kritik, s. [[Die guten Jungs]]):

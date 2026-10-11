@@ -2,7 +2,7 @@
 werk: "[[Alex Verus]]"
 person: "Lucas"
 bereich: "buch"
-besitz: ""             # unbekannt — nicht erfragt (s. Offene Fragen)
+besitz: "hat"          # Regelangabe Lucas 2026-10-11: „in der Regel gekauft (z. B. Audible)“ — nicht je Werk bestätigt
 status: "durch"        # Bd. 1–12 von 12 gehört (Lesestand, bestätigt 2026-08-11)
 sprache_erlebt: "de"
 kontext: "Fantasy"
@@ -135,7 +135,7 @@ Einzige Schwäche im selben Feld: das Timing/der Payoff des Aufstiegs (zu spät/
 
 ## Offene Fragen an Lucas
 
-- Besitz: Hörbücher gekauft (z. B. Audible) oder geliehen? (`besitz:` ist leer, nie raten)
+- ~~Besitz~~ ✓ beantwortet 2026-10-11: in der Regel gekauft ([[2026-10-11 Fragenrunde nach dem Umbau]]).
 - Deckt sich die Community-Kurve (schwacher Auftakt Bd. 1 → am höchsten bewertetes Finale
   Bd. 12) mit deinem Empfinden? War das Finale für dich ein Höhepunkt — trotz der schwachen
   Gegenspieler-Auflösung? (Eine frühere Fassung hat „der End-Payoff trug" angenommen.)

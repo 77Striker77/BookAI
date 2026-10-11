@@ -2,7 +2,7 @@
 werk: "[[Die Streitenden Götter]]"
 person: "Lucas"
 bereich: "buch"
-besitz: ""             # unbekannt — nicht erfragt (s. Offene Fragen)
+besitz: "hat"          # Regelangabe Lucas 2026-10-11: „in der Regel gekauft (z. B. Audible)“ — nicht je Werk bestätigt
 status: ""             # offen: Spoiler-Felder 7/7, aber Sturmfels-Durchlauf „noch bestätigen" (s. Offene Fragen)
 sprache_erlebt: "de"
 kontext: "Fantasy"
@@ -107,7 +107,7 @@ Community-Gesamtbild): Schwächen bei **Auftakt-Tempo bzw. Fokus** — **exakt m
 
 ## Offene Fragen an Lucas
 
-- Besitz: Hörbücher gekauft (z. B. Audible) oder geliehen? (`besitz:` ist leer, nie raten)
+- ~~Besitz~~ ✓ beantwortet 2026-10-11: in der Regel gekauft ([[2026-10-11 Fragenrunde nach dem Umbau]]).
 - Sturmfels: Alle 5 Bände wirklich komplett gehört? Die Spoiler-Felder führen 7/7 als erlebt,
   die Sturmfels-Notizen sagen „noch bestätigen" (s. [[Sturmfels-Akademie – Lucas]]). Davon
   hängt `status:` ab.

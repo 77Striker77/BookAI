@@ -3,6 +3,7 @@ aktualisiert: 2026-08-11
 sprachen: [de, en]         # Deutsch bevorzugt (auch Print, best. 20.07.2026), Englisch als Fallback (nicht mehr hart, 16.07.2026)
 formate: [buch, hoerbuch]  # überwiegend Hörbuch, aber liest auch (Cunninghams) — Format pro Werk erfragen!
 format_notizen: "Buch und Hörbuch gleichwertig; Format IMMER erfragen, nie annehmen"
+bezug: "kauft in der Regel (z. B. Audible) — [[2026-10-11 Fragenrunde nach dem Umbau]]"
 tempo_pref: "straff, Vorwärtsdrang (roter Faden)"
 komplexitaet_pref: ""
 laenge_stunden: "Reihen-Durchschnitt ≤ ~20 h Hörbuch (Einzelband darf ausreißen); Komfort ≈ Streitende Götter"

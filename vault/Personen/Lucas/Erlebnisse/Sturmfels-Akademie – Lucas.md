@@ -2,7 +2,7 @@
 werk: "[[Sturmfels-Akademie]]"
 person: "Lucas"
 bereich: "buch"
-besitz: ""             # unbekannt — nicht erfragt (s. Offene Fragen)
+besitz: "hat"          # Regelangabe Lucas 2026-10-11: „in der Regel gekauft (z. B. Audible)“ — nicht je Werk bestätigt
 status: ""             # offen: Spoiler-Felder 5/5, Lesestand aber „vollständigen Durchlauf noch bestätigen" (s. Offene Fragen)
 sprache_erlebt: "de"
 kontext: "Fantasy"
@@ -118,7 +118,7 @@ hier also **Community-belegt, kein Einzelurteil.**
 
 ## Offene Fragen an Lucas
 
-- Besitz: Hörbücher gekauft (z. B. Audible) oder geliehen? (`besitz:` ist leer, nie raten)
+- ~~Besitz~~ ✓ beantwortet 2026-10-11: in der Regel gekauft ([[2026-10-11 Fragenrunde nach dem Umbau]]).
 - Alle 5 Bände gehört? (Reihe abgeschlossen — 5 Bände bestätigt; vollständigen Hör-Durchlauf
   noch vom Nutzer bestätigen lassen.) — Widerspruch zu `spoiler_erlebt_bis: 5` („Bd. 1-5
   gehört, abgeschlossen"); die Spoiler-Felder bleiben bis zur Antwort unverändert, `status:` leer.

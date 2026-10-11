@@ -2,7 +2,7 @@
 werk: "[[Vuldranni (iNcarn8)]]"
 person: "Lucas"
 bereich: "buch"
-besitz: ""             # unbekannt — nicht erfragt (s. Offene Fragen)
+besitz: "hat"          # Regelangabe Lucas 2026-10-11: „in der Regel gekauft (z. B. Audible)“ — nicht je Werk bestätigt
 status: ""             # unklar: Verbund-Schritt 6 von 27 gehört, kein Band läuft (Stand 2026-08-19) — weder durch noch laufend
 sprache_erlebt: "de"
 kontext: "LitRPG"
@@ -171,7 +171,7 @@ Stimme ständig.
 
 ## Offene Fragen an Lucas
 
-- Besitz: Hörbücher gekauft (z. B. Audible) oder geliehen? (`besitz:` ist leer, nie raten)
+- ~~Besitz~~ ✓ beantwortet 2026-10-11: in der Regel gekauft ([[2026-10-11 Fragenrunde nach dem Umbau]]).
 - [[Tonwechsel Humor-Ernst]]: Die Runde-4-Tabelle oben senkt den Verbund-Wert auf +1 (deine
   Skala DCC ≈ 9, GJ 7–8), `bewertung:` und die Tabelle „Geteilt“ führen +2, und
   [[Die bösen Jungs – Lucas]] erbt +2. Runde 4 hat nur die guten Jungs behandelt — gilt die
