@@ -1,6 +1,9 @@
 ---
 datum:
 anfrage: ""            # "Ähnlich zu 'X', als Hörbuch, deutsch"
+fuer: ""               # Person oder Gruppe (Lucas | Wir zwei | …) — im Such-Interview erfragt
+bereich: ""            # buch | brettspiel | videospiel
+richtung: ""           # Suchrichtung DIESES Laufs (Such-Interview) — gilt nur hier, nie ins Dauerprofil
 referenzen: []         # ["[[Titel]]"]
 kontext: ""            # Geschmacksraum des Laufs → bestimmte die Gewichte
 format: ""             # buch | hoerbuch | beide

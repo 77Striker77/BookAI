@@ -197,6 +197,20 @@ eines anderen Bereichs ein; übertragen wird nur über bereichsübergreifende Me
 - Offen für Phase 5: Die Merkmal-Status sind heute Lucas’ Geschmack; mit einer zweiten
   Person werden sie je Person geführt (s. „Personen und Gruppen“).
 
+### Jede Suche hat ihre eigene Richtung — das Such-Interview entscheidet (Nutzerregel 2026-10-11)
+
+> „manchmal suche ich ein Buch oder Spiel in die eine, dann wieder in eine andere Richtung —
+> das Interview ist also auch entscheidend“
+
+- **Jeder Empfehlungslauf beginnt mit einem kurzen Such-Interview**, einzeln gefragt: für
+  wen? welcher Bereich? **welche Richtung diesmal?** (z. B. „wieder sowas wie X“, „mal was
+  Leichteres“, „bewusst etwas anderes“). Nie aus dem Profil oder dem letzten Lauf erraten.
+- Die Richtung steht im Lauf (`richtung:`) und **gilt nur für diesen Lauf**: Sie verschiebt
+  Gewichte und Filter des Laufs, das Dauerprofil bleibt unverändert.
+- **No-Gos gelten immer**, auch wenn die Richtung woandershin zeigt.
+- Taucht dieselbe Richtung in mehreren Läufen auf, **fragen**, ob sie ins Profil soll —
+  nicht still übernehmen.
+
 ## Besitz und Status — zwei Achsen (v2)
 
 In der Erlebnis-Notiz, unabhängig voneinander:
