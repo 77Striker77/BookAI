@@ -2,6 +2,8 @@
 werk: "[[Die guten Jungs]]"
 person: "Lucas"
 bereich: "buch"
+besitz: ""             # unbekannt — nicht erfragt (s. Offene Fragen)
+status: ""             # unklar: Bd. 1–5 von 16 gehört, kein Band läuft (Stand 2026-08-11) — weder durch noch laufend
 sprache_erlebt: "de"
 kontext: "LitRPG"
 verdict: "liked"                     # VORLÄUFIG — 5 von 16 Bänden gehört
@@ -31,19 +33,28 @@ spoiler_gesamt: 16        # Bd. 1-5 gehört; ab Bd. 6 offen
 spoiler_stand: "2026-08-11"  # Stand bestätigt am
 spoiler_sperrbegriffe: []    # NUR neutrale Begriffe jenseits der Grenze, NIE das Ereignis
 spoiler_unerlebte_reihen: ["The Grim Guys"]  # Reihen im selben Universum, NIE erlebt -> immer nur Klappentext-Ebene
-tags: [werk, reihe, hoerbuch, liked, litrpg]
+tags: [erlebnis, hoerbuch, liked]
 ---
 
 # Die guten Jungs – Lucas
 
 Mein Erleben von [[Die guten Jungs]]. Fakten, Bände und Metadaten stehen dort — hier nur, was Lucas erlebt und empfunden hat.
 
+**Kontext:** [[LitRPG]] · **Quellen:** [[2026-08-11 Interview Die guten Jungs & Die bösen Jungs]]
+
 ## Lesestand (meine Formate)
 
 | Bd. | Status | Notiz |
 | --- | --- | --- |
 | 1–5 | ✅ gehört (dt., [[Robert Frank]]) | „GJ hab ich teil 5 fertig" (2026-08-11) |
-| 6–16 | offen | nächster Schritt laut Hörreihenfolge: erst [[Die bösen Jungs]] 1–2, dann GJ 6 |
+| 6–16 | offen | nächster Schritt laut Hörreihenfolge: erst [[Die bösen Jungs]] 1–2, dann GJ 6 (⚠️ die Liste in [[Vuldranni (iNcarn8)]] hat GJ 6 als Schritt 7 direkt nach BJ 1 — s. Offene Fragen an Lucas) |
+
+- **Bandlängen:** die belegten dt. Hörbücher (7 h 42 – 9 h 39, s. [[Die guten Jungs]]) liegen deutlich
+  unter der Nutzer-Obergrenze (Reihen-Schnitt ≤ ~20 h, [[No-Gos]]). Kurze Bände = wenig Leerlauf (Annahme der Analyse, nicht erfragt).
+- **Puffer:** dt. Hörbuch belegt bis Bd. 9 (s. [[Die guten Jungs]]). **Relevant für den Nutzer:** er ist bei Bd. 5, hat also
+  mindestens 4 weitere Bände Puffer.
+- **Figuren:** [[Die guten Jungs – Figuren]] deckt Personal **Bd. 1–5** (mein Lesestand) ab; ab Bd. 6
+  bewusst **nicht** recherchiert.
 
 ## ⭐ Bewertung je Aspekt
 
@@ -91,9 +102,16 @@ bleibt das Werk, siehe [[Konventionen]])*
 
 ## 🧮 Reihen-Gesamtbild (letzter Schritt)
 
-Goodreads-Serienwert **4,38/5** — solide bis stark für Indie-LitRPG. Community-Tenor:
-„eine der seltenen LitRPG-Reihen, die vom ersten Band an zündet und dann kontinuierlich
-besser wird … rasante Action, charmanter Wortwitz, liebevoll aufgebaute Welt". Bekannte
-Kritik: **episodische Struktur / dünnere Gesamtplot-Progression über viele Bände** — genau
-der Punkt, den ich beim Nutzer noch nicht belegen konnte (siehe Offene Fragen). ⚠️ Wertungen
-**je Band** waren in dieser Session nicht erhebbar.
+Goodreads-Serienwert 4,38/5 und Community-Tenor: s. [[Die guten Jungs]] (Community-Gesamtbild).
+Bekannte Kritik dort: **episodische Struktur / dünnere Gesamtplot-Progression über viele Bände** — genau
+der Punkt, den ich beim Nutzer noch nicht belegen konnte (s. Offene Fragen an Lucas).
+
+## Offene Fragen an Lucas
+
+- Besitz: Hörbücher gekauft (z. B. Audible) oder geliehen? (`besitz:` ist leer, nie raten)
+- Was hörst du als Nächstes — GJ 6 (Schritt 7 der Liste in [[Vuldranni (iNcarn8)]], so auch in
+  [[Vuldranni (iNcarn8) – Lucas]]) oder erst BJ 2 (so im Lesestand oben und in [[Die bösen Jungs – Lucas]])?
+- Episodische Struktur / dünnere Gesamtplot-Progression (Community-Kritik, s. [[Die guten Jungs]]):
+  spürst du das schon, und stört es dich? (Reihen-Dauerleistung, s. Verdikt-Herleitung)
+- Nebenquests als Problem oder Gag ([[Nebenquest-Wildwuchs]])? Wie wichtig ist die Level-Progression selbst?
+- ~~Tempo über 5 Bände ([[Konstanter Vorwärtsdrang]])?~~ ✓ beantwortet in Runde 4: „Tempo war gut“ (s. Bewertung, +1).

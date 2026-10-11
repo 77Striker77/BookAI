@@ -27,13 +27,13 @@ sprecher: "Thomas Nicolai"
 performance: "solo"
 genres: [LitRPG, GameLit, Action-Komödie]
 themen: []
-ton: [Absurder Humor, Tonwechsel Humor-Ernst]
+ton: []
 erzaehlstil: []
 tempo: "⚠️ offen"
 komplexitaet: ""
-figuren: [Pragmatischer Held mit klarem Kompass, Moralisch ambivalenter Antiheld]
-setting: [Stimmige Weltatmosphäre]
-handwerk: [Über-crunchiges Zahlensystem]
+figuren: []
+setting: []
+handwerk: []
 cover: ""
 quellen:
   - "https://www.audible.de/series/Die-boesen-Jungs-Hoerbuecher/B0C4YSTXWW"
@@ -43,7 +43,7 @@ quellen:
 analysiert: 2026-08-11
 spoiler_aliase: []           # weitere Schreibweisen des Werktitels
 erlebnisse: ["[[Die bösen Jungs – Lucas]]"]
-tags: [werk, buch, reihe]
+tags: [werk, buch, reihe, litrpg]
 ---
 
 # Die bösen Jungs (The Bad Guys)
@@ -58,7 +58,7 @@ Robin-Hood-Typ spielen — dieselbe Welt wie [[Die guten Jungs]], nur von der **
 der Moral**. 11 Bände erschienen (2019–2024, „Schurken & Halunken“ bis „2 Lügen, 2 Throne“).
 ⚠️ **Korrektur 2026-08-11: NICHT abgeschlossen — Bd. 12 ist für 2026 angekündigt.**
 
-**Kontext:** [[LitRPG]] · **Autor:** [[Eric Ugland]] · **Sprecher:** [[Thomas Nicolai]] ·
+**Genre:** [[LitRPG]] · **Autor:** [[Eric Ugland]] · **Sprecher (dt.):** [[Thomas Nicolai]] ·
 **Parallelreihe:** [[Die guten Jungs]]
 
 ## 📚 Die Bände einzeln
@@ -70,24 +70,22 @@ Deutsch bei **LMBPN International** (Übers. **Simone Förster**, Bd. 1 zusätzl
 Amazon und DNB sind in dieser Session Egress-geblockt — nur Websuche. Titel ohne Marker
 sind aus einer echten Seitenüberschrift/URL belegt, **⚠️** markiert nur abgeleitete Angaben.
 
-| # | 🇩🇪 Titel | 🇬🇧 Original (Jahr) | 🎧 dt. Hörbuch | Lesestand |
-| --- | --- | --- | --- | --- |
-| 1 | Schurken & Halunken | Scamps & Scoundrels (2019) | **15 h 23** · 2023 · ASIN B0C3CYC868 / B0C3CXJFHT | ✅ **gehört (2026-08-19)** |
-| 2 | Der Dieb im ersten Stock | Second Story Man (2019) | ✓ erschienen · ASIN B0C4YHJQT2 · Dauer ⚠️ | offen |
-| 3 | Die Freischaufler | Skull and Thrones (2020) | ⚠️ offen | offen |
-| 4 | Krieg der Aufschneider | War of the Posers (2020) | ⚠️ offen | offen |
-| 5 | Seeungeheuer und andere Kalamitäten ⚠️ | Seas the Day (2020) | ⚠️ offen | offen |
-| 6 | Unterm Arsch der Welt, und dann links ⚠️ | High Gloom (2020) | ⚠️ offen | offen |
-| 7 | Zurück auf Eins | Back to One (2021) | ✓ erschienen · ASIN B0DWMVVFPZ (2025) | offen |
-| 8 | Spaß in der Nacht | Trick of the Night (2022) | ✓ erschienen · ASIN B0DXQ14LFX (2025) | offen |
-| 9 | ⚠️ dt. Titel unbestätigt (evtl. „Darktown Funk" übernommen) | Darktown Funk (2022) | ⚠️ offen | offen |
-| 10 | Auf einem Thron aus Lügen | On a Throne of Lies (2023) | ⚠️ offen · Print TB 496 S. (2024) | offen |
-| 11 | **2 Lügen, 2 Throne** | **2 Lies, 2 Thrones (2024)** 🔀 Crossover-Vorbereitung | ⚠️ offen | offen |
+| # | 🇩🇪 Titel | 🇬🇧 Original (Jahr) | 🎧 dt. Hörbuch |
+| --- | --- | --- | --- |
+| 1 | Schurken & Halunken | Scamps & Scoundrels (2019) | **15 h 23** · 2023 · ASIN B0C3CYC868 / B0C3CXJFHT |
+| 2 | Der Dieb im ersten Stock | Second Story Man (2019) | ✓ erschienen · ASIN B0C4YHJQT2 · Dauer ⚠️ |
+| 3 | Die Freischaufler | Skull and Thrones (2020) | ⚠️ offen |
+| 4 | Krieg der Aufschneider | War of the Posers (2020) | ⚠️ offen |
+| 5 | Seeungeheuer und andere Kalamitäten ⚠️ | Seas the Day (2020) | ⚠️ offen |
+| 6 | Unterm Arsch der Welt, und dann links ⚠️ | High Gloom (2020) | ⚠️ offen |
+| 7 | Zurück auf Eins | Back to One (2021) | ✓ erschienen · ASIN B0DWMVVFPZ (2025) |
+| 8 | Spaß in der Nacht | Trick of the Night (2022) | ✓ erschienen · ASIN B0DXQ14LFX (2025) |
+| 9 | ⚠️ dt. Titel unbestätigt (evtl. „Darktown Funk" übernommen) | Darktown Funk (2022) | ⚠️ offen |
+| 10 | Auf einem Thron aus Lügen | On a Throne of Lies (2023) | ⚠️ offen · Print TB 496 S. (2024) |
+| 11 | **2 Lügen, 2 Throne** | **2 Lies, 2 Thrones (2024)** 🔀 Crossover-Vorbereitung | ⚠️ offen |
 
 **Bandlängen — wichtiger Unterschied zur Schwesterreihe:** Bd. 1 ist mit **15 h 23** fast
-doppelt so lang wie die kurzen Bände der [[Die guten Jungs]] (7 h 42 – 9 h 39). Noch im
-Rahmen (≤ ~20 h, [[No-Gos]]), aber die Reihe hört sich deutlich „schwerer" an — relevant
-beim verschränkten Hören, weil sich das Tempo-Gefühl beim Wechsel ändert.
+doppelt so lang wie die kurzen Bände der [[Die guten Jungs]] (7 h 42 – 9 h 39).
 
 ### Offene Punkte zu den Bänden
 
@@ -98,17 +96,26 @@ beim verschränkten Hören, weil sich das Tempo-Gefühl beim Wechsel ändert.
   belegt und damit für die Reihe insgesamt gut gestützt).
 - ISBNs (außer Bd. 1 Print **978-1-64971-236-3**), Seitenzahlen, Wertungen je Band: offen.
 
+### 👍 Was die Community lobt (Rezensions-Snippets)
+
+- die Reihe gilt manchen als „potenziell besser als die guten Jungs" — voller Loot, Magie und Intrigen
+- Sprecher [[Thomas Nicolai]] wird in dt. Rezensionen durchaus gelobt („kann mit Durchstimmvarianz
+  sehr überzeugen")
+
 ## 🗓️ Nächste Releases & Planung
 
 - **Buch DE:** 11 Bände erschienen. ⚠️ **Bd. 12 für 2026 angekündigt.**
 - **Hörbuch DE:** ⚠️ **belegt bis Bd. 8** (2025). Für die verschränkte Hörreihenfolge ist das
-  der **engere** Flaschenhals — die bösen Jungs werden vermutlich zuerst „ausgehen".
+  der **engere** Flaschenhals — die bösen Jungs werden vermutlich zuerst „ausgehen". (⚠️ Widerspricht
+  der Schrittzählung, s. Offene Fragen)
 - **EN:** ⚠️ **Bd. 12 für 2026 angekündigt** — Reihe läuft weiter (letzter Band: Bd. 11, 2024).
 
 ## DNA (das Eigene)
 
-- **Figuren:** Clyde Hatchett — [[Moralisch ambivalenter Antiheld]] + [[Pragmatischer Held
-  mit klarem Kompass]]; Dieb/Schurken-Perspektive statt Aufbauer
+> Nur belegte Merkmale (Quelle in Klammern). Persönliche Wertungen: [[Die bösen Jungs – Lucas]].
+
+- **Figuren:** Clyde Hatchett — Dieb/Schurken-Perspektive statt Aufbauer, will das „Spiel" als
+  Robin-Hood-Typ spielen (Prämisse)
 - **Setting:** Reichshauptstadt **Glaton** (Stadt/Unterwelt) statt Wildnis/Herzogtum
 - **Länge:** deutlich längere Bände als die Schwesterreihe (Bd. 1: 15 h 23)
 - *geerbt aus [[Vuldranni (iNcarn8)]]:* Welt, Ton, Systemlogik (Pflege nur an der Quelle!)
@@ -123,11 +130,14 @@ Keramikthron"** gehört werden. Volle Reihenfolge: [[Vuldranni (iNcarn8)]].
 
 ## 👥 Figuren
 
-➡️ **Eigene Notiz: [[Die bösen Jungs – Figuren]]** (Personal Bd. 1, im eingeklappten
-🔒-Block, weil Bd. 1 gerade läuft). Angelegt 2026-08-19 auf Nutzerfrage nach den Namen der
-Personen, die Clyde am Anfang von Bd. 1 trifft und rettet — der Vault hatte dazu nichts.
+➡️ **Eigene Notiz: [[Die bösen Jungs – Figuren]]** (Personal Bd. 1). Angelegt 2026-08-19.
 Kurz: Erdname **Ben**, gerettet werden **Frau und Kinder** des Bestohlenen (⚠️ Namen
 nirgends dokumentiert); in Glaton führt ihn **Edda** ein.
+
+## 🧮 Community-Gesamtbild
+
+⚠️ **Kein belegter Serien-Durchschnitt** (Goodreads/Audible geblockt). Einziger Snippet-Wert:
+Amazon.de Bd. 9 4,6 · 733 Bew. (unbestätigt, s. Offene Punkte zu den Bänden).
 
 ## Offene Fragen
 
@@ -135,9 +145,15 @@ nirgends dokumentiert); in Glaton führt ihn **Edda** ein.
 - ⚠️ dt. Titel Bd. 5, 6, 9 bestätigen; Hördauern ab Bd. 2; Hörbuch-Stand ab Bd. 9.
 - ⚠️ **Namen der am Anfang von Bd. 1 geretteten Personen** (Frau + Kinder auf der Erde)
   nicht dokumentiert; ebenso unbelegt, ob es am Anfang eine **gerettete Spieler-Gruppe**
-  gibt. **Rückfrage an den Nutzer läuft (2026-08-19):** welche Szene genau gemeint ist.
-- **An den Nutzer (gestellt am 2026-08-19, Antwort offen):** Trägt Clyde als Antiheld genauso wie Montana?
-  Fühlt sich das Stadt-/Diebes-Setting besser oder schlechter an als der Aufbau in Coggeshall?
-  Und: stört dich die deutlich längere Bandlänge (15 h vs. 9 h)?
-
-Quelle Interview: [[2026-08-11 Interview Die guten Jungs & Die bösen Jungs]]
+  gibt.
+- ⚠️ **Flaschenhals-Aussage prüfen (Widerspruch, nicht geglättet):** Oben steht, die bösen Jungs
+  seien für die verschränkte Hörreihenfolge der engere Flaschenhals. Nach der Schrittzählung in
+  [[Vuldranni (iNcarn8)]] ist das dt. Hörbuch der guten Jungs bis Bd. 9 (= Schritt 13) belegt — der
+  nächste GJ-Schritt ist 16 —, das der bösen Jungs bis Bd. 8 (= Schritt 21). Danach liefe GJ zuerst
+  aus. Klären mit aktuellem dt. Hörbuch-Stand beider Reihen.
+- **Offen (Quelle):** Community-Tenor und Sprecher-Lob oben stammen aus Rezensions-Snippets ohne
+  notierte Fundstelle.
+- **Offen (DNA-Beleg):** [[Absurder Humor]], [[Tonwechsel Humor-Ernst]], [[Pragmatischer Held mit klarem Kompass]],
+  [[Moralisch ambivalenter Antiheld]], [[Stimmige Weltatmosphäre]], [[Über-crunchiges Zahlensystem]] standen
+  ohne Rezensionsbeleg für diese Reihe in der DNA (der Klappentext zeigt nur die Dieb-/Robin-Hood-Anlage)
+  → erst mit Rezension wieder aufnehmen.

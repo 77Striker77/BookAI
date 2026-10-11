@@ -42,6 +42,16 @@ tags: [moc, home]
 
 ## Zuletzt
 
+- 2026-10-11 — 🧭 **Umbau zum TasteCompass (Phase 3): Fakten und Erleben getrennt.** Jedes der
+  15 Werke hat jetzt eine **Fakten-Notiz** unter `Werke/Buecher/` (für jede Person gleich) und
+  eine **Erlebnis-Notiz** unter `Personen/Lucas/Erlebnisse/` (Lesestand, Verdikt, Wertungen,
+  Spoiler-Grenze). Zeile für Zeile bereinigt, je Werk ein Protokoll unter
+  `scripts/umbau/protokoll/`, Gegenprüfung ohne Informationsverlust. Fakten-DNA nur noch mit
+  Rezensionsbeleg; Unbelegtes steht als „Offen (DNA-Beleg)“. Neue Regeln in [[Konventionen]] v2:
+  Geschmack je Person getrennt, Bereiche nicht vermischen, jede Suche mit eigenem Such-Interview.
+  Angenommene Gefühle aus früheren Sitzungen sind jetzt **Fragen an Lucas** (je Erlebnis-Notiz
+  „Offene Fragen an Lucas“).
+
 - 2026-08-22 — 🐉 **[[Dark Lord Davi]] (Django Wexler) auf die [[Warteliste]]** — und damit die
   **erste vom Nutzer erteilte No-Go-Ausnahme**: Die Reihen-Pflicht ≥3 Bände ist keine Mauer,
   sondern ein Filter, den er bei starkem Ton-Match selbst öffnet (*„ne nimm es mit auf es sind
