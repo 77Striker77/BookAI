@@ -58,13 +58,13 @@ Jede alte Zeile, die nicht mehr wörtlich vorkommt, steht hier mit ihrem Verblei
 
 | Fund | Änderung |
 | --- | --- |
-| F `tempo` „Grinding-/Zahlen-Längen“ = Lucas' Interviewantwort (Interview Z. 51) | → „Grinding-Längen“ (Rezension „drags“/Grinding); Zahlen-Kritik steht in E (Über-crunchiges Zahlensystem −1) |
+| F 31: `tempo` „Grinding-/Zahlen-Längen“ = Lucas' Interviewantwort (Interview Z. 51) | → „Grinding-Längen“ (Rezension „drags“/Grinding); Zahlen-Kritik steht in E (Über-crunchiges Zahlensystem −1) |
 | F Ton „nüchtern-abenteuerlich“ ohne Quelle | aus der DNA nach F Offene Fragen (wörtlich, als unbelegt) |
 | F Realwelt-Rahmen ohne Quelle, Wortlaut aus dem Interview | neutral aus der Prämisse in F abgeleitet („reale Welt, in der Mahan zum Spiel verurteilt wird“) |
 | F „EN-Fallback-Metadatum“ = Sprachvorliebe | „Yen = Sprecher der englischen Hörbuchfassung“ |
-| F „21.12.2018 – ~Mai 2022“ | „– 09.05.2022“ (bestätigt, wie `letztes_datum`) |
+| F 78: „21.12.2018 – ~Mai 2022“ | „– 09.05.2022“ (bestätigt, wie `letztes_datum`) |
 | F Community-Gesamtbild „schwächstes Finale“ kritisiert | „am niedrigsten bewertet“; fehlende Finale-Rezension unter Offene Fragen |
-| E Hördauern in der Lesestand-Tabelle (Fakt, doppelt) | nur noch „gehört (dt.)“; Dauern stehen in F |
-| E „Community bestätigt beides … belegte Schwäche“ | auf das Belegte zurückgenommen (Einstieg: Rezension; Finale: nur Wertung) |
-| E „genau da lag für mich der Reiz“ — im Interview nicht belegt, angenommenes Gefühl | als Frage nach „Offene Fragen an Lucas“ |
+| E 46–52: Hördauern in der Lesestand-Tabelle (Fakt, doppelt) | nur noch „gehört (dt.)“; Dauern stehen in F |
+| E 37–38: „Community bestätigt beides … belegte Schwäche“ | auf das Belegte zurückgenommen (Einstieg: Rezension; Finale: nur Wertung) |
+| E 40: „genau da lag für mich der Reiz“ — im Interview nicht belegt, angenommenes Gefühl | als Frage nach „Offene Fragen an Lucas“ |
 | Protokoll: 3 Ungenauigkeiten | korrigiert |
