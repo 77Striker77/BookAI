@@ -1,7 +1,7 @@
 ---
 datum: 2026-10-11
 anlass: "Nachfrage: offene Fragen aus der Bereinigung Phase 3 (Fakten/Erleben)"
-besprochene_titel: ["[[Sturmfels-Akademie]]", "[[Die guten Jungs]]", "[[Die bösen Jungs]]", "[[Vuldranni (iNcarn8)]]"]
+besprochene_titel: ["[[Sturmfels-Akademie]]", "[[Die guten Jungs]]", "[[Die bösen Jungs]]", "[[Vuldranni (iNcarn8)]]", "[[Magic 2.0]]"]
 tags: [interview]
 ---
 
@@ -29,6 +29,9 @@ unabhängig voneinander? ich denk hier müssen wir auch einfach besser werden. d
 richtigen zeitstrahl von der welt und dann von jeder reihe mit punkte im zeitstrahl von jedem band!
 aber nicht jetzt“ (Rechtschreibung geglättet, Wortlaut erhalten).
 
+**F5 (Magic 2.0):** Du hast nach Bd. 4 aufgehört („kein Bock mehr auf Englisch“). Würdest du Bd. 5–6 auf Deutsch weiterlesen, wenn es sie gäbe?
+**A:** „Nein, für mich durch“.
+
 ## Abgeleitete Erkenntnisse
 
 | Erkenntnis | eingeflossen in |
@@ -38,6 +41,7 @@ aber nicht jetzt“ (Rechtschreibung geglättet, Wortlaut erhalten).
 | GJ bis Bd. 8, BJ bis Bd. 5 (Bd. 6 läuft) | [[Die guten Jungs – Lucas]] `spoiler_erlebt_bis: 8`; [[Die bösen Jungs – Lucas]] `5` / `aktuell: 6`; [[Vuldranni (iNcarn8) – Lucas]] Schritt `12` / `aktuell: 15` (Schritt 13 = GJ 9 nicht gehört → fail-closed) |
 | GJ 9 bewusst zurückgestellt | [[Vuldranni (iNcarn8) – Lucas]] Lesestand Schritt 13 |
 | Widerspruch „parallel“ vs. „unabhängig“ berechtigt; Liste = Erscheinungsreihenfolge, keine Welt-Chronologie | [[Vuldranni (iNcarn8)]] Offene Fragen: Zeitstrahl |
+| Magic 2.0 endgültig beendet, nicht nur sprachbedingt pausiert | [[Magic 2.0 – Lucas]] `status: abgebrochen` bestätigt |
 
 ## Offen geblieben
 
