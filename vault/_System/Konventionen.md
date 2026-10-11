@@ -23,7 +23,7 @@ Obsidian-Vault: atomare Notizen, YAML-Frontmatter, `[[Wikilinks]]`, Tags.
 ```
 vault/
 ├── Home.md                    Dashboard/MOC (Einstieg)
-├── Profil/
+├── Profil/                   ⚠️ heute = Lucas’ Profil; zieht mit Phase 5 nach Personen/Lucas/
 │   ├── Profil.md              MOC "mein Geschmack": NUR kontextübergreifende Muster
 │   ├── Kontexte/              ⭐ je Geschmacksraum (Genre-Cluster) eine Notiz mit
 │   │   │                        EIGENEN Gewichten & Präferenzen (Fantasy ≠ Thriller!)
@@ -46,6 +46,8 @@ vault/
 │   │                           der Grenze werden gar nicht erst recherchiert (ihr Name
 │   │                           allein ist ein Spoiler, s. Spoiler-Politik §4).
 │   │                           Verlinkt aus der Werk-Notiz (Abschnitt „👥 Figuren“).
+│   │                           ⚠️ Die Grenze ist heute Lucas’ Lesestand — bei einer
+│   │                           zweiten Person gilt der NIEDRIGSTE Stand aller Leser.
 ├── Merkmale/                  DNA-Atome: je Merkmal EINE Notiz, Status JE KONTEXT
 │   ├── Genres/  Themen/  Ton/  Erzählstil/  Figuren/  Setting/
 │   └── Handwerk/              ⭐ Ausführungsqualitäten: [[Aufgeblähter Mittelteil]],
@@ -160,6 +162,8 @@ spoiler_unerlebte_reihen: [] # Reihen im selben Universum, die NIE erlebt wurden
 | Body | Universum, Bände, Metadaten, Community-Lob/-Kritik, Releases, DNA, Offene Fragen | Lesestand, Bewertung je Aspekt, Abweichungen, Hörbuch-Erlebnis, DNA-Begründung, Reihen-Gesamtbild |
 | Vorlage | `Templates/Werk.md` | `Templates/Erlebnis.md` |
 
+- **Begriff:** „Werk-Notiz“ meint ab v2 die **Fakten-Notiz**; das Persönliche heißt
+  „Erlebnis-Notiz“.
 - **Links:** `[[Werk]]` zeigt immer auf die Fakten-Notiz. Die Erlebnis-Notiz verlinkt per
   `werk:` zurück, die Fakten-Notiz führt ihre Erlebnisse in `erlebnisse:`.
 - **Gemischte Abschnitte** (Fakt und Empfinden in einem Absatz) gehören ins Erleben. Die
@@ -174,8 +178,9 @@ spoiler_unerlebte_reihen: [] # Reihen im selben Universum, die NIE erlebt wurden
 Jede Werk- und Erlebnis-Notiz trägt `bereich:` — `buch` | `brettspiel` | `videospiel`
 (weitere erst, wenn das erste Werk da ist). Je Bereich ein Unterordner in `Werke/`.
 Bereichseigene Merkmale (z. B. Spielerzahl, Mechanik) fließen **nie** in das Matching
-eines anderen Bereichs ein; übertragen wird nur über bereichsübergreifende Merkmale
-(Ton, Themen, Figuren, Handwerk).
+eines anderen Bereichs ein. Auch bereichsübergreifende Merkmale (Ton, Themen, Figuren,
+Handwerk) sind nur **gemeinsame Begriffe** — Geschmack wird darüber **nicht** übertragen
+(s. nächster Abschnitt).
 
 ### Bereiche nicht vermischen — Geschmack wird je Bereich belegt (Nutzerregel 2026-10-11)
 
@@ -183,7 +188,8 @@ eines anderen Bereichs ein; übertragen wird nur über bereichsübergreifende Me
 > Magie-Bücher gerne höre, spiele ich dadurch nicht automatisch gerne Magie-Spiele.“
 
 - **Merkmal-Notiz = gemeinsames Vokabular, nicht gemeinsamer Geschmack.** `bereiche:` sagt
-  nur, wo ein Merkmal **vorkommen kann** (`[alle]` oder z. B. `[buch]`) — nie, ob es gefällt.
+  nur, wo ein Merkmal **vorkommen kann**, immer ausgeschrieben (`[buch, videospiel]`, nie
+  „alle“ — ein neuer Bereich wird nicht ungeprüft mitgenommen) — nie, ob es gefällt.
 - **Jeder Kontext gehört zu genau einem Bereich** (`bereich:` in der Kontext-Notiz).
   `status_kontexte` und `status_global` gelten damit nur im Bereich, in dem sie belegt
   wurden — heute nur Bücher. Bekommt ein zweiter Bereich Wertungen, wird `status_global`
@@ -231,7 +237,8 @@ erfinden:** Für die 15 migrierten Werke sind beide Felder noch nicht erfragt.
   Personen sind **keine Evidenz, keine Kandidatenquelle und kein Bonus** beim Matching —
   auch nicht, wenn das Werk schon im Vault oder im Regal steht. Verfügbarkeit ist keine Passung.
 - Das **Kandidaten-Gedächtnis gilt je Person**: Was eine Person verworfen hat, ist für eine
-  andere nicht verworfen.
+  andere nicht verworfen. Die heutigen `Empfehlungen/Kandidaten/` sind Lucas’ Gedächtnis;
+  wie es je Person getrennt wird, entscheidet Phase 5.
 - **Gruppen** (z. B. „Wir zwei“) sind eigene Einträge unter `Personen/` mit eigenen
   Erlebnissen; für sie gelten die No-Gos **aller** Mitglieder zusammen.
 - Ist unklar, für wen eine Empfehlung gedacht ist → fragen.
@@ -260,7 +267,9 @@ als Hörbuch vorliegt.
   unterscheidbar bleibt.
 - **Der Sprecher ist eine ZUSÄTZLICHE Dimension — ausschließlich bei `hoerbuch`.** Nur
   dann nach ihm fragen (Stimme, Tempo, Betonung, Solo/Cast) und als eigene Aspekt-Zeile
-  bewerten. Bei `buch` (gelesen) gibt es **keinen** Sprecher-Aspekt — Feld `sprecher: ""`.
+  in der Erlebnis-Notiz bewerten. Bei `buch` (gelesen) gibt es **keinen** Sprecher-Aspekt.
+  Das Feld `sprecher:` der Fakten-Notiz nennt trotzdem immer, wer das Hörbuch liest
+  (Fakt, gilt für alle Personen) — leer nur, wenn es kein Hörbuch gibt.
 - **Nutzen in Empfehlungen:** Ein **starker Sprecher wird als Plus aktiv hervorgehoben**
   (z. B. „…gelesen von einem Top-Sprecher wie [[…]]"). Er verschiebt nicht das
   inhaltliche Match, sondern ist ein zusätzliches Verkaufsargument obendrauf. Das stützt
@@ -268,7 +277,7 @@ als Hörbuch vorliegt.
 
 ## Negativraum: disliked/abgebrochene Werke = eigener Durchlauf
 
-Bislang enthält die Bibliothek nur `loved`-Werke. **Was der Nutzer NICHT mochte oder
+Die Bibliothek enthält inzwischen auch `mixed`-Werke (Stand 2026-10). **Was der Nutzer NICHT mochte oder
 abgebrochen hat, ist für gutes Matching genauso wertvoll** (Anti-Muster). Solche Werke
 werden über denselben Workflow erfasst (Interview → Analyse), Verdikt `disliked`/`mixed`;
 ihre Negativ-Aspekte (−2/−1) schärfen die weichen Ausschlüsse. Der Nutzer bringt sie
@@ -284,7 +293,7 @@ Was in Fantasy geliebt wird, kann im Thriller egal oder störend sein. Deshalb:
   das erste Buch dieses Raums analysiert wird — nicht auf Vorrat.
 - Jede Kontext-Notiz trägt: eigene `gewichte:` (überschreiben [[Gewichte]]), eigene
   Top-loved/disliked-Merkmale, Längen-/Tempo-Präferenz, ggf. Kontext-No-Gos.
-- Jedes Buch und jeder Kandidat bekommt `kontext:` im Frontmatter (über seine Genres
+- Jede Erlebnis-Notiz und jeder Kandidat bekommt `kontext:` im Frontmatter (über seine Genres
   zugeordnet; Zuordnungsregeln in `Kontexte/Kontexte.md`). Grenzfälle: der dominante Raum.
 - **Matching läuft immer im Kontext des Kandidaten**: dessen Gewichte + Merkmal-Status
   in DIESEM Kontext. Existiert (noch) kein Kontext → globale Defaults.
@@ -294,7 +303,7 @@ Was in Fantasy geliebt wird, kann im Thriller egal oder störend sein. Deshalb:
 ## Aspekt-Bewertungen — ein Buch ist kein Monolith
 
 `verdict: loved` ist nur die Zusammenfassung. Die eigentliche Währung ist die
-**Bewertung je Aspekt** in jeder Buch-Notiz:
+**Bewertung je Aspekt** in jeder Erlebnis-Notiz:
 
 | Skala | Bedeutung |
 |---|---|

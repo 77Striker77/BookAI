@@ -1,6 +1,6 @@
 ---
 typ: thema
-bereiche: [alle]
+bereiche: [buch, videospiel]
 status_global: ""
 status_kontexte: { Fantasy: loved }
 staerke: hoch

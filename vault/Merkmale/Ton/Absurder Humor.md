@@ -1,6 +1,6 @@
 ---
 typ: ton
-bereiche: [alle]
+bereiche: [buch, videospiel, brettspiel]
 status_global: ""
 status_kontexte: { LitRPG: loved, Humor-Phantastik: loved }
 staerke: hoch

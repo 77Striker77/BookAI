@@ -1,6 +1,6 @@
 ---
 typ: ""                # genre | thema | ton | erzaehlstil | figur | setting | handwerk
-bereiche: [alle]        # wo das Merkmal VORKOMMEN kann: [alle] | [buch] | [videospiel] … — sagt NICHTS über Geschmack
+bereiche: []            # wo das Merkmal VORKOMMEN kann, ausgeschrieben: [buch, videospiel, brettspiel] — sagt NICHTS über Geschmack
 status_global: ""      # loved | liked | neutral | disliked — nur über die BUCH-Kontexte; gilt NIE für andere Bereiche
 status_kontexte: {}    # { Fantasy: loved, Thriller: neutral } — Kontext schlägt global!
 staerke: ""            # hoch | mittel | niedrig (wie stark/gesichert das Signal ist)

@@ -1,6 +1,6 @@
 ---
 typ: figur
-bereiche: [alle]
+bereiche: [buch, videospiel]
 status_global: ""
 status_kontexte: { LitRPG: disliked }
 staerke: hoch

@@ -14,7 +14,7 @@ gewichte:
   figuren: 0.12
   setting: 0.02
   handwerk: 0.22
-tempo_pref: "straff — kein Leerlauf (Cunninghams „sehr straff" +2)"
+tempo_pref: "straff — kein Leerlauf (Cunninghams „sehr straff“ +2)"
 komplexitaet_pref: "hoch, aber fair aufgelöst"
 laenge_seiten: ""
 laenge_stunden: ""

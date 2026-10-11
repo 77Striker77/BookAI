@@ -1,6 +1,6 @@
 ---
 typ: thema
-bereiche: [alle]
+bereiche: [buch, videospiel, brettspiel]
 status_global: ""
 status_kontexte: { Krimi: loved }
 staerke: hoch

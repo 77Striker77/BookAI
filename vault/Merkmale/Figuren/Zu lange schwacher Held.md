@@ -1,6 +1,6 @@
 ---
 typ: figur
-bereiche: [alle]
+bereiche: [buch, videospiel]
 status_global: disliked   # Gegenpol zu [[Pragmatischer Held mit klarem Kompass]] — kontextübergreifend
 status_kontexte: { Fantasy: disliked }
 staerke: hoch

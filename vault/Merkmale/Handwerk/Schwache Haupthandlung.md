@@ -1,6 +1,6 @@
 ---
 typ: handwerk
-bereiche: [alle]
+bereiche: [buch, videospiel]
 status_global: ""
 status_kontexte: { Fantasy: disliked, Humor-Phantastik: disliked }
 staerke: mittel

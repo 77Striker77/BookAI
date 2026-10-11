@@ -7,7 +7,7 @@ universum: "Vuldranni (iNcarn8)"
 verwandte_reihen: ["[[Die bösen Jungs]]"]
 autor: "Eric Ugland"
 jahr_start: 2018
-erscheinungsdatum_bd1: "2018"        # EN „One More Last Time"; dt. Hörbuch 2023
+erscheinungsdatum_bd1: "2018"        # EN „One More Last Time“; dt. Hörbuch 2023
 letztes_datum: "2025"                # Bd. 16
 baende_gesamt: 16
 baende_geplant: 17          # ⚠️ KORREKTUR 2026-08-11: Bd. 17 für 2026 angekündigt
@@ -29,7 +29,7 @@ genres: [LitRPG, GameLit, Action-Komödie]
 themen: [Basisaufbau & Siedlungsentwicklung, Weltgeheimnisse & Entdeckung]
 ton: [Absurder Humor, Tonwechsel Humor-Ernst]
 erzaehlstil: []
-tempo: "gut / konstant — Nutzer R4: „Tempo war gut"; nur Statustext-Unterbrechungen bremsen"
+tempo: "gut / konstant — Nutzer R4: „Tempo war gut“; nur Statustext-Unterbrechungen bremsen"
 komplexitaet: ""
 figuren: [Pragmatischer Held mit klarem Kompass, Loyale Weggefährten, Wissbegieriger Selbermacher-Held]
 setting: [Stimmige Weltatmosphäre, Monster-Vielfalt & Bestiarium, Magiesystem-Tiefe]

@@ -41,7 +41,7 @@ quellen:
 analysiert: 2026-07-16
 spoiler_aliase: []           # weitere Schreibweisen des Werktitels
 erlebnisse: ["[[Dungeon Crawler Carl – Lucas]]"]
-tags: [werk, buch, reihe"       # reihe | universum | standalone-universum]
+tags: [werk, buch, reihe]
 ---
 
 # Dungeon Crawler Carl

@@ -5,7 +5,7 @@ autor: "Django Wexler"
 jahr_start: 2024
 kontext: "Humor-Phantastik"
 status: empfohlen          # 2026-08-22 vom Nutzer AUSDRÜCKLICH auf die Warteliste gehoben (No-Go-Ausnahme)
-no_go_ausnahme: "Reihen-Pflicht ≥3 Bände — vom Nutzer erlassen, wörtlich: „ne nimm es mit auf es sind nur 2 bücher und evtl gefällt es mir ja" (2026-08-22)"
+no_go_ausnahme: "Reihen-Pflicht ≥3 Bände — vom Nutzer erlassen, wörtlich: „ne nimm es mit auf es sind nur 2 bücher und evtl gefällt es mir ja“ (2026-08-22)"
 zuletzt_beruehrt: 2026-08-22
 laeufe: ["Ad-hoc-Anfrage Chat 2026-08-22"]
 wiedervorlage: "nach dem Hören/Lesen interviewen — besonders: stören die Dauer-Sex-Kommentare? zieht sich der Mittelteil?"

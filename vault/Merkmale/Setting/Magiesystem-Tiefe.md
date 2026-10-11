@@ -1,6 +1,6 @@
 ---
 typ: setting
-bereiche: [alle]
+bereiche: [buch, videospiel]
 status_global: ""
 status_kontexte: { Fantasy: liked, LitRPG: liked }   # Tiefe wird GESCHÄTZT — ihr Fehlen wird bemängelt
 staerke: mittel

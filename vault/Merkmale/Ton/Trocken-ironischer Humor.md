@@ -1,6 +1,6 @@
 ---
 typ: ton
-bereiche: [alle]
+bereiche: [buch, videospiel]
 status_global: loved
 status_kontexte: { Krimi: loved, Fantasy: loved, Humor-Phantastik: loved }
 staerke: mittel

@@ -41,7 +41,7 @@ cover: ""
 quellen: []
 analysiert:
 erlebnisse: ["[[⟨Werktitel⟩ – ⟨Person⟩]]"]
-tags: [werk, buch,            # reihe | universum | standalone-universum]
+tags: [werk, buch]           # + reihe | universum | standalone-universum (= werk_typ)
 ---
 
 # ⟨Werktitel⟩
